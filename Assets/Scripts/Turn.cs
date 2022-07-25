@@ -5,12 +5,16 @@ using UnityEngine.UI;
 
 public class Turn : MonoBehaviour
 {
+    CharacterMgr characterMgr;
+    MonsterMgr monsterMgr;
     public Text test;
     public int turnNumber = 1;
 
 
     void Start()
     {
+        characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
+        monsterMgr = GameObject.FindWithTag("Monster").GetComponent<MonsterMgr>();//MonsterMgr 스크립트에서 변수 가져오기
         test.text = "시작";
         battle();
     }
@@ -63,16 +67,24 @@ public class Turn : MonoBehaviour
 
     void player4()
     {
-        turnNumber += 1;
         test.text = "4";
-        battle();
+        characterMgr.PlayerBloodDamage();//출혈 데미지
+        if (!characterMgr.IsPlayerDie())//플레이어 체력 체크
+        {
+            turnNumber += 1;
+            battle();
+        }
+        else
+        {
+            test.text = "사망";//게임 오버 화면
+            //홈화면으로
+        }
     }
 
     void boss()
     {
-        turnNumber += 1;
+        turnNumber = 1;
         test.text = "5";
         battle();
     }
-
 }

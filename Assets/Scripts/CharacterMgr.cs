@@ -12,27 +12,49 @@ public class CharacterMgr : MonoBehaviour
     public int playerHP;//플레이어 HP
     public int playerFullEnerge = 90;//플레이어 에너지
     public int playerEnerge;//플레이어 에너지
+    bool isPlayerBlood;//출혈 상태 인가?
 
     // Start is called before the first frame update
     void Start()
     {
         playerHP = playerFullHP;//처음엔 풀피
         playerEnerge = playerFullEnerge;//처음엔 풀 에너지
+        isPlayerBlood = true;//처음엔 정상 상태
     }
 
     // Update is called once per frame
     void Update()
     {
-        playerHP -= 1;//테스트 코드
         PlayerHPManage();
         PlayerEnergeManage();
     }
     void PlayerHPManage()
     {
         playerHPText.text = "HP : "+playerHP.ToString("0");//화면에 보이게
+
     }
     void PlayerEnergeManage()
     {
         playerEnergeText.text = playerEnerge.ToString("0");//화면에 보이게
+    }
+    //플레이어 출혈 데미지
+    public void  PlayerBloodDamage()
+    {
+        if (isPlayerBlood)//출혈시에만 데미지를 입는다.
+        {
+            playerHP = Mathf.Max(playerHP - 2500, 0);
+        }
+    }
+    //플레이어 체력 체크
+    public bool IsPlayerDie()
+    {
+        if (playerHP <= 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }
