@@ -15,7 +15,10 @@ public class FirstPlayer : MonoBehaviour
 
     public void Skill1()
     {
-        chracterMgr.playerEnerge -= 10;
+        if (chracterMgr.playerEnerge >= 10)
+        {
+            chracterMgr.playerEnerge = Mathf.Max(chracterMgr.playerEnerge-10,0);
+        }
         monsterMgr.monsterHP -= 1000;
     }
     public void Skill2()

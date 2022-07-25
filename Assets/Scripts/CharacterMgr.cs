@@ -3,10 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//캐릭터 리스트 구조체
+struct characterInfo
+{
+    Image characterImage;//이미지
+    string characterName;//이름
+    float characterHP, characterAttack;//체력, 공격력
+    int characterType;//타입
+    string characterAttribute;//속성
+    string characterExplain;//설명
+}
+
 public class CharacterMgr : MonoBehaviour
 {
     public Text playerHPText;//플레이어 HP텍스트
     public Text playerEnergeText;//플레이어 에너지 텍스트
+
+    characterInfo[] chracterList = new characterInfo[20];//캐릭터 배열 선언 
 
     public int playerFullHP = 30000;//플레이어 총 HP;
     public int playerHP;//플레이어 HP

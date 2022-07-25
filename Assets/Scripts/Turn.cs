@@ -8,6 +8,7 @@ public class Turn : MonoBehaviour
     CharacterMgr characterMgr;
     MonsterMgr monsterMgr;
     public Text test;
+    public Text text2;
     public int turnNumber = 1;
 
 
@@ -83,8 +84,8 @@ public class Turn : MonoBehaviour
 
     void boss()
     {
-        turnNumber = 1;
         test.text = "5";
+        turnNumber = 1;
         battle();
     }
 }
