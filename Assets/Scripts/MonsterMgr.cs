@@ -5,6 +5,7 @@ using UnityEngine;
 public class MonsterMgr : MonoBehaviour
 {
     public int monsterHP = 1000000;//몬스터 체력
+    bool isMonsterBlood = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,4 +17,12 @@ public class MonsterMgr : MonoBehaviour
     {
         
     }
+    //출혈 데미지 계산
+    public void MonsterBloodDamage()
+    {
+        if (isMonsterBlood)
+        {
+            monsterHP = Mathf.Max(monsterHP - 10000, 0);
+        }
+    } 
 }
