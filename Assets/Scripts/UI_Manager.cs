@@ -43,6 +43,9 @@ public class UI_Manager : MonoBehaviour
                     case 1:
                         UI("Team","Teams");
                         break;
+                    case 2:
+                        UI("Team","Unit_Assign");
+                        break;
                 }
                 break;
         }
