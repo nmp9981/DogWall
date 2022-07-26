@@ -11,7 +11,6 @@ public class Turn : MonoBehaviour
     public Text text2;
     public int turnNumber = 1;
 
-
     void Start()
     {
         characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
@@ -84,8 +83,8 @@ public class Turn : MonoBehaviour
 
     void boss()
     {
-        test.text = "5";
         turnNumber = 1;
+        test.text = "5";
         battle();
     }
 }

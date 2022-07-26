@@ -3,15 +3,32 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //스킬 구조체 
-struct SkillInfo
+public struct SkillInfo
 {
-    public float energe,attack;//에너지, 데미지
-    string skillAttribute,skillExplain;//속성,설명
+    public int energe,attack, skillAttribute;//에너지, 데미지, 속성
+    string skillExplain;//속성,설명
+
+    public SkillInfo(int energe,int attack,int skillAttribute,string skillExplain)
+    {
+        this.energe = energe;
+        this.attack = attack;
+        this.skillAttribute = skillAttribute;
+        this.skillExplain = skillExplain;
+    }
 }
 
 public class Skill : MonoBehaviour
 {
-    SkillInfo[,] skillList = new SkillInfo[20,4];//스킬 2차원 배열 선언 
+    //스킬 배열 선언 
+    static List<SkillInfo> skillList = new List<SkillInfo>
+    {
+        new SkillInfo(8,150,1,"1단계"),
+        new SkillInfo(17,250,2,"2단계"),
+        new SkillInfo(21,300,3,"3단계"),
+        new SkillInfo(35,550,1,"4단계")
+    };
+
+    public int consumeEnerge;//소모 에너지
     // Start is called before the first frame update
     void Start()
     {
