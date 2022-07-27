@@ -8,6 +8,7 @@ TagManager:
   - Character
   - Monster
   - Panel
+  - SkillE
   layers:
   - Default
   - TransparentFX
