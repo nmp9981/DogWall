@@ -9,6 +9,7 @@ TagManager:
   - Monster
   - Panel
   - SkillE
+  - TeamSelect
   layers:
   - Default
   - TransparentFX

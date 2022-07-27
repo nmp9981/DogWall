@@ -1087,6 +1087,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &449591251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 449591253}
+  - component: {fileID: 449591252}
+  m_Layer: 0
+  m_Name: TeamSelectMgr
+  m_TagString: TeamSelect
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &449591252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449591251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3036a216fdbbd1478e9a256e8b42a4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isSelect: 
+  selectedTeamNumber: 
+--- !u!4 &449591253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449591251}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &474471720
 GameObject:
   m_ObjectHideFlags: 0
@@ -4070,6 +4115,10 @@ MonoBehaviour:
   playerHPText: {fileID: 1640680355}
   playerEnergeText: {fileID: 71183295}
   playerFullHP: 30000
+  firstPlayer: 0
+  secondPlayer: 0
+  thirdPlayer: 0
+  fourthPlayer: 0
   playerAttack: 0
   playerHP: 10000
   playerFullEnerge: 90
@@ -4904,8 +4953,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdf39923e2163664f80ef5bb1914093b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stageText: {fileID: 0}
   monsterHP: 1000000
   monsterAttackDamage: 0
+  monsterAttribute: 0
 --- !u!4 &1775383327
 Transform:
   m_ObjectHideFlags: 0
