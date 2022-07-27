@@ -11,7 +11,9 @@ public class Turn : MonoBehaviour
     public Text test2; // 테스트용 텍스트(스킬준비)
     public Text test3; // 테스트용 텍스트(스킬사용)
     public Text test4;
-
+    public Text turnText;
+    public Text stageText;
+    
     public GameObject skill_1E;
     public GameObject skill_2E;
     public GameObject skill_3E;
@@ -33,7 +35,9 @@ public class Turn : MonoBehaviour
     public RectTransform monster4Rect;
 
     public int turnNumber = 1; // 턴 확인용 변수
+    public int totalTurnNumber = 1;
     public int skillNumber = 1;  // 스킬 확인용 변수
+    public int stageNumber = 1; // 스테이지
 
     public List<int> playerSkillSelect = new List<int>();
     public List<int> monsters = new List<int>();
@@ -52,8 +56,6 @@ public class Turn : MonoBehaviour
 
         monsters.Add(1);
         monsters.Add(1);
-        monsters.Add(1);
-        monsters.Add(1);
 
         characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
         monsterMgr = GameObject.FindWithTag("Monster").GetComponent<MonsterMgr>();//MonsterMgr 스크립트에서 변수 가져오기
@@ -61,6 +63,8 @@ public class Turn : MonoBehaviour
         test2.text = "대기중";
         test3.text = "테스트";
         test4.text = "몬스터수" + monsters.Count;
+        turnText.text = totalTurnNumber.ToString();
+        stageText.text = stageNumber + "/3";
         skillAvailable = false; // 스킬 사용가능 확인용 변수
         firstAttack = true; // 선제공격 확인용 변수
 
@@ -247,8 +251,9 @@ public class Turn : MonoBehaviour
 
     public void turnEnd()
     {
-        test3.text = "스킬들 사용"; // 턴종료후 스킬 사용
-        
+        test3.text = "스킬들 사용"; // 턴종료후 스킬 사용 ( 플레이어들 스킬은 여기서 전부 사용)
+        totalTurnNumber += 1;
+        turnText.text = totalTurnNumber.ToString();
         playerSkillSelect[0] = 0; // 스킬 초기화
         playerSkillSelect[1] = 0;
         playerSkillSelect[2] = 0;
@@ -263,6 +268,28 @@ public class Turn : MonoBehaviour
         skill_4E.SetActive(false);
         skipE.SetActive(false);
         turnNumber = 5;
+
+        if (totalTurnNumber == 3) monsters.RemoveAt(0); // 당장은 몬스터 HP 계산이 없어서 임시로 몬스터 제거
+        if (totalTurnNumber == 4) monsters.RemoveAt(0);
+        monsterSet();
+
+        if (monsters.Count == 0)
+        {
+            stageNumber += 1;
+            stageText.text = stageNumber.ToString();
+            if (firstAttack) turnNumber = 1; // 선제공격 여부 확인
+            else turnNumber = 5;
+        }
+
+        if (stageNumber == 2) // 스테이지 넘어가면 몬스터 정보 받아오는게 원래 계획 지금은 데이터베이스가 없어서 임의로 추가
+        {
+            monsters.Add(0);
+            monsters.Add(0);
+            monsters.Add(0);
+            monsters.Add(0);
+            Invoke("monsterSet", 1);
+        }
+
         Invoke("battle", 1);
     }
 
@@ -270,6 +297,17 @@ public class Turn : MonoBehaviour
 
     void monsterSet()
     {
+        monster1.SetActive(false);
+        monster2.SetActive(false);
+        monster3.SetActive(false);
+        monster4.SetActive(false);
+        if (monsters.Count == 0)
+        {
+            monster1.SetActive(false);
+            monster2.SetActive(false);
+            monster3.SetActive(false);
+            monster4.SetActive(false);
+        }
         if(monsters.Count == 1)
         {
             monster1.SetActive(true);
@@ -316,10 +354,10 @@ public class Turn : MonoBehaviour
 
     void boss()
     {
-        test3.text = "몬스터 턴 시작";
+        test3.text = "몬스터 턴 시작"; // 보스들 행동 + 스킬은 여기서 전부 사용
         turnNumber = 1;
         test2.text = "보스턴 진행중";
-        test2.text = "몬스터 턴 끝";
+        test3.text = "몬스터 턴 끝";
         Invoke("battle", 1);
     }
 
