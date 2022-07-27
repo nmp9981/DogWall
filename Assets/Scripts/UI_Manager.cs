@@ -1,13 +1,25 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UI_Manager : MonoBehaviour
 {
     public int level1 = 0, level2 = 0;
+    public int x = 0, y = 0;
+    Data_Manager data;
+    void Awake()
+    {
+        data = GameObject.Find("Data_Manager").GetComponent<Data_Manager>();
+    }
     void Start()
     {
-        
+        Character_ADD("Monster Dummy/000","질퍽이",10,10,"몰루?");
+        Character_ADD("Monster Dummy/111","꼬북이",10,10,"물");
+        Character_ADD("Monster Dummy/121","잉어킹",10,10,"물");
+        Character_ADD("Monster Dummy/212","고라파덕",10,10,"물");
+        Character_ADD("Monster Dummy/333","뭐더라",10,10,"어둠");
     }
 
    
@@ -84,5 +96,21 @@ public class UI_Manager : MonoBehaviour
             else if(child.tag == "Panel")
                 child.SetActive(false);
         }
+    }
+
+    public void Character_ADD(string path, string name, int hp, int atk, string type)
+    {
+        //string Path = Monster Dummy/ + path =>이런식으로 수정해서 쓸거임
+        data.Add_Character(path,name,hp,atk,type);
+        int i = data.Get_Character_Count();
+        x = (i-1) % 4;
+        y = (i - x) / 4;
+        GameObject temp = Instantiate(Resources.Load<GameObject>("Prefabs/Ch"));
+        Transform parent = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Assign").transform.Find("Scroll View").transform.Find("Viewport").transform.Find("Content").gameObject.GetComponent<Transform>();
+        temp.transform.SetParent(parent);
+        Vector3 pos = new Vector3(43 + (x * 259f), 395 - (y * 253));
+        temp.transform.position = pos;
+        temp.name = data.list[i-1].Name;
+        temp.GetComponent<Image>().sprite = data.list[i-1].Img;//보여주기식용, 나중에 리스트 먼저 나오면 수정해야함
     }
 }
