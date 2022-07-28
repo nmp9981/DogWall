@@ -77,7 +77,7 @@ public class Skill : MonoBehaviour
         int requireEnerge = skillList[4 * number].energe;
         if (characterMgr.playerEnerge < requireEnerge) return 0;//스킬 사용 불가
 
-        characterMgr.playerEnerge = Mathf.Max(0, characterMgr.playerEnerge - requireEnerge);//에너지 소비
+        characterMgr.playerEnerge = Mathf.Min(Mathf.Max(0, characterMgr.playerEnerge - requireEnerge),characterMgr.playerFullEnerge);//에너지 증감
 
         int playerAttribute = CharacterMgr.characterList[number].characterAttribute;//플레이어 속성
         int monsterAttribute = MonsterMgr.monsterList[0].monsterAttribute;//몬스터 속성
@@ -92,7 +92,7 @@ public class Skill : MonoBehaviour
         int requireEnerge = skillList[4 * number+1].energe;
         if (characterMgr.playerEnerge < requireEnerge) return 0;//스킬 사용 불가
 
-        characterMgr.playerEnerge = Mathf.Max(0, characterMgr.playerEnerge - skillList[4 * number+1].energe);//에너지 소비
+        characterMgr.playerEnerge = Mathf.Min(Mathf.Max(0, characterMgr.playerEnerge - requireEnerge), characterMgr.playerFullEnerge);//에너지 증감
 
         int playerAttribute = CharacterMgr.characterList[number].characterAttribute;//플레이어 속성
         int monsterAttribute = MonsterMgr.monsterList[0].monsterAttribute;//몬스터 속성
@@ -107,7 +107,7 @@ public class Skill : MonoBehaviour
         int requireEnerge = skillList[4 * number+2].energe;
         if (characterMgr.playerEnerge < requireEnerge) return 0;//스킬 사용 불가
 
-        characterMgr.playerEnerge = Mathf.Max(0, characterMgr.playerEnerge - skillList[4 * number+2].energe);//에너지 소비
+        characterMgr.playerEnerge = Mathf.Min(Mathf.Max(0, characterMgr.playerEnerge - requireEnerge), characterMgr.playerFullEnerge);//에너지 증감
 
         int playerAttribute = CharacterMgr.characterList[number].characterAttribute;//플레이어 속성
         int monsterAttribute = MonsterMgr.monsterList[0].monsterAttribute;//몬스터 속성
@@ -122,7 +122,7 @@ public class Skill : MonoBehaviour
         int requireEnerge = skillList[4 * number+3].energe;
         if (characterMgr.playerEnerge < requireEnerge) return 0;//스킬 사용 불가
 
-        characterMgr.playerEnerge = Mathf.Max(0, characterMgr.playerEnerge - skillList[4 * number+3].energe);//에너지 소비
+        characterMgr.playerEnerge = Mathf.Min(Mathf.Max(0, characterMgr.playerEnerge - requireEnerge), characterMgr.playerFullEnerge);//에너지 증감
 
         int playerAttribute = CharacterMgr.characterList[number].characterAttribute;//플레이어 속성
         int monsterAttribute = MonsterMgr.monsterList[0].monsterAttribute;//몬스터 속성
