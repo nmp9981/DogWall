@@ -44,13 +44,13 @@ public class CharacterMgr : MonoBehaviour
 
     MonsterMgr monsterMgr;
     TeamSelect teamSelect;
+    Turn turn;
 
     public int playerFullHP;//플레이어 총 HP;
     public int firstPlayer;//첫번째 플레이어 
     public int secondPlayer;//두번째 플레이어 
     public int thirdPlayer;//세번째 플레이어 
     public int fourthPlayer;//네번째 플레이어 
-    public int playerAttack;//캐릭터 공격력
 
     public int playerHP;//플레이어 HP
     public int playerFullEnerge;//플레이어 에너지
@@ -62,6 +62,7 @@ public class CharacterMgr : MonoBehaviour
     {
         monsterMgr = GameObject.FindWithTag("Monster").GetComponent<MonsterMgr>();//MonsterMgr 스크립트에서 변수 가져오기
         teamSelect = GameObject.FindWithTag("TeamSelect").GetComponent<TeamSelect>();//TeamSelect 스크립트에서 변수 가져오기
+        turn = GameObject.FindWithTag("TurnMgr").GetComponent<Turn>();//Trun 스크립트에서 변수 가져오기
 
         //캐릭터 결정
         firstPlayer = teamSelect.selectedTeamNumber[0];
@@ -71,7 +72,6 @@ public class CharacterMgr : MonoBehaviour
 
         playerFullHP = characterList[firstPlayer].characterHP + characterList[secondPlayer].characterHP + characterList[thirdPlayer].characterHP + characterList[fourthPlayer].characterHP;//풀피 설정
         playerFullEnerge = characterList[firstPlayer].characterEnerge + characterList[secondPlayer].characterEnerge + characterList[thirdPlayer].characterEnerge + characterList[fourthPlayer].characterEnerge;//풀 에너지
-        playerAttack = characterList[firstPlayer].characterAttack + characterList[secondPlayer].characterAttack + characterList[thirdPlayer].characterAttack + characterList[fourthPlayer].characterAttack;//캐릭터 공격력
         playerHP = playerFullHP;//처음엔 풀피
         playerEnerge = playerFullEnerge;//처음엔 풀 에너지
         isPlayerBlood = true;//처음엔 정상 상태
@@ -97,8 +97,7 @@ public class CharacterMgr : MonoBehaviour
     {
         if (isPlayerBlood)//출혈시에만 데미지를 입는다.
         {
-            int attackPlayerNumbers = 4;
-            playerHP = Mathf.Max(playerHP - monsterMgr.monsterAttackDamage * attackPlayerNumbers / 4, 0);
+            playerHP = Mathf.Max(playerHP - (monsterMgr.monsterAttackDamage * turn.skillCount) / 4, 0);
         }
     }
     //플레이어 체력 체크

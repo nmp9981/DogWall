@@ -27,8 +27,11 @@ public class MonsterMgr : MonoBehaviour
     };
 
     CharacterMgr characterMgr;
+    Skill skill;
+    Turn turn;
     public Text stageText;//스테이지 번호
 
+    public int monsterFullHP;//몬스터 전체 체력
     public int monsterHP;//몬스터 체력
     bool isMonsterBlood = true;//몬스터 출혈 여부
     public int monsterAttackDamage;//몬스터 공격 데미지
@@ -40,7 +43,11 @@ public class MonsterMgr : MonoBehaviour
     void Start()
     {
         characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
-        monsterHP = monsterList[0].monsterHP;//몬스터 체력 초기화
+        turn = GameObject.FindWithTag("TurnMgr").GetComponent<Turn>();//Trun 스크립트에서 변수 가져오기
+        skill = GameObject.FindWithTag("Skill").GetComponent<Skill>();//Skill 스크립트에서 변수 가져오기
+
+        monsterFullHP = monsterList[0].monsterHP;//몬스터 체력 초기화
+        monsterHP = monsterFullHP;//처음엔 풀피
         monsterAttackDamage = monsterList[0].monsterAttack;//몬스터 공격력
         monsterAttribute = monsterList[0].monsterAttribute;//몬스터 속성
     }
@@ -48,14 +55,13 @@ public class MonsterMgr : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //stageText.text = stage.ToString("0") + "/3";//스테이지 번호가 화면에 보이게
+
     }
     //출혈 데미지 계산
-    public void MonsterBloodDamage()
+    public void MonsterBloodDamage(int hitDamage)
     {
         if (isMonsterBlood)
         {
-            int hitDamage = characterMgr.playerAttack;
             monsterHP = Mathf.Max(monsterHP - hitDamage, 0);
         }
     }

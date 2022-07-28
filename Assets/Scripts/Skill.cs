@@ -18,6 +18,10 @@ public struct SkillInfo
 
 public class Skill : MonoBehaviour
 {
+    Turn turn;
+    CharacterMgr characterMgr;
+    MonsterMgr monsterMgr;
+   
     //스킬 배열 선언 
     public static List<SkillInfo> skillList = new List<SkillInfo>
     {
@@ -55,16 +59,77 @@ public class Skill : MonoBehaviour
         new SkillInfo(35,550,"8-4단계")
     };
 
-    public int consumeEnerge;//소모 에너지
     // Start is called before the first frame update
     void Start()
     {
-
+        turn = GameObject.FindWithTag("TurnMgr").GetComponent<Turn>();//Trun 스크립트에서 변수 가져오기
+        characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
+        monsterMgr = GameObject.FindWithTag("Monster").GetComponent<MonsterMgr>();//MonsterMgr 스크립트에서 변수 가져오기
     }
 
     // Update is called once per frame
     void Update()
     {
 
+    }
+    public int skill1(int number)
+    {
+        int requireEnerge = skillList[4 * number].energe;
+        if (characterMgr.playerEnerge < requireEnerge) return 0;//스킬 사용 불가
+
+        characterMgr.playerEnerge = Mathf.Max(0, characterMgr.playerEnerge - requireEnerge);//에너지 소비
+
+        int playerAttribute = CharacterMgr.characterList[number].characterAttribute;//플레이어 속성
+        int monsterAttribute = MonsterMgr.monsterList[0].monsterAttribute;//몬스터 속성
+        int attributeDamage = characterMgr.CheckAttribute(playerAttribute, monsterAttribute);//속성 데미지
+
+        int playerAttack = CharacterMgr.characterList[number].characterAttack;//캐릭터 공격력
+        int skillPercentDamage = skillList[4*number].attack;//스킬 퍼센테이지
+        return playerAttack * skillPercentDamage * attributeDamage / 10000;//최종 데미지
+    }
+    public int skill2(int number)
+    {
+        int requireEnerge = skillList[4 * number+1].energe;
+        if (characterMgr.playerEnerge < requireEnerge) return 0;//스킬 사용 불가
+
+        characterMgr.playerEnerge = Mathf.Max(0, characterMgr.playerEnerge - skillList[4 * number+1].energe);//에너지 소비
+
+        int playerAttribute = CharacterMgr.characterList[number].characterAttribute;//플레이어 속성
+        int monsterAttribute = MonsterMgr.monsterList[0].monsterAttribute;//몬스터 속성
+        int attributeDamage = characterMgr.CheckAttribute(playerAttribute, monsterAttribute);//속성 데미지
+
+        int playerAttack = CharacterMgr.characterList[number].characterAttack;//캐릭터 공격력
+        int skillPercentDamage = skillList[4 * number+1].attack;//스킬 퍼센테이지
+        return playerAttack * skillPercentDamage * attributeDamage / 10000;//최종 데미지
+    }
+    public int skill3(int number)
+    {
+        int requireEnerge = skillList[4 * number+2].energe;
+        if (characterMgr.playerEnerge < requireEnerge) return 0;//스킬 사용 불가
+
+        characterMgr.playerEnerge = Mathf.Max(0, characterMgr.playerEnerge - skillList[4 * number+2].energe);//에너지 소비
+
+        int playerAttribute = CharacterMgr.characterList[number].characterAttribute;//플레이어 속성
+        int monsterAttribute = MonsterMgr.monsterList[0].monsterAttribute;//몬스터 속성
+        int attributeDamage = characterMgr.CheckAttribute(playerAttribute, monsterAttribute);//속성 데미지
+
+        int playerAttack = CharacterMgr.characterList[number].characterAttack;//캐릭터 공격력
+        int skillPercentDamage = skillList[4 * number+2].attack;//스킬 퍼센테이지
+        return playerAttack * skillPercentDamage * attributeDamage/10000;//최종 데미지
+    }
+    public int skill4(int number)
+    {
+        int requireEnerge = skillList[4 * number+3].energe;
+        if (characterMgr.playerEnerge < requireEnerge) return 0;//스킬 사용 불가
+
+        characterMgr.playerEnerge = Mathf.Max(0, characterMgr.playerEnerge - skillList[4 * number+3].energe);//에너지 소비
+
+        int playerAttribute = CharacterMgr.characterList[number].characterAttribute;//플레이어 속성
+        int monsterAttribute = MonsterMgr.monsterList[0].monsterAttribute;//몬스터 속성
+        int attributeDamage = characterMgr.CheckAttribute(playerAttribute, monsterAttribute);//속성 데미지
+
+        int playerAttack = CharacterMgr.characterList[number].characterAttack;//캐릭터 공격력
+        int skillPercentDamage = skillList[4 * number+3].attack;//스킬 퍼센테이지
+        return playerAttack * skillPercentDamage * attributeDamage / 10000;//최종 데미지
     }
 }

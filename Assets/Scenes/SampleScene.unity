@@ -1187,7 +1187,7 @@ GameObject:
   - component: {fileID: 434562778}
   m_Layer: 0
   m_Name: TurnMgr
-  m_TagString: Untagged
+  m_TagString: TurnMgr
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1210,6 +1210,8 @@ MonoBehaviour:
   test4: {fileID: 75436691}
   turnText: {fileID: 279124191}
   stageText: {fileID: 1257663730}
+  teamNumber: 0
+  totalDamage: 0
   skill_1E: {fileID: 916713817}
   skill_2E: {fileID: 906130361}
   skill_3E: {fileID: 228123106}
@@ -1229,10 +1231,13 @@ MonoBehaviour:
   monster3Rect: {fileID: 2016339379}
   monster4Rect: {fileID: 1562330424}
   turnNumber: 1
+  totalTurnNumber: 1
   skillNumber: 1
   stageNumber: 1
+  skillCount: 0
   playerSkillSelect: 
   monsters: 
+  skillAvailable: 0
   firstAttack: 0
 --- !u!4 &434562779
 Transform:
@@ -1355,7 +1360,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0.8
+  m_FillAmount: 0.821
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -2922,9 +2927,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1078620808}
+  - component: {fileID: 1078620809}
   m_Layer: 0
   m_Name: Skills
-  m_TagString: Untagged
+  m_TagString: Skill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2952,6 +2958,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1078620809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078620807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2423b0d2a4069de498502cbcd79e9a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1155268701
 GameObject:
   m_ObjectHideFlags: 0
@@ -3654,18 +3672,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 5
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: "\uD134 \uC2A4\uD0B5"
 --- !u!222 &1378686343
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3850,10 +3868,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1559244107}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3828a226f33d50946ad70aae1b0f80e1, type: 3}
+  m_Script: {fileID: 11500000, guid: 65cf80d164f377040b6a05dc81a3a827, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HPRate: 0
+  mobHPRate: 0
 --- !u!114 &1559244110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3878,7 +3896,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0.8
+  m_FillAmount: 0.845
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -4349,7 +4367,6 @@ MonoBehaviour:
   secondPlayer: 0
   thirdPlayer: 0
   fourthPlayer: 0
-  playerAttack: 0
   playerHP: 10000
   playerFullEnerge: 90
   playerEnerge: 5000
@@ -5184,6 +5201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageText: {fileID: 0}
+  monsterFullHP: 0
   monsterHP: 1000000
   monsterAttackDamage: 0
   monsterAttribute: 0

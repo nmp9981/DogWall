@@ -7,13 +7,19 @@ public class Turn : MonoBehaviour
 {
     CharacterMgr characterMgr;
     MonsterMgr monsterMgr;
+    TeamSelect teamSelect;
+    Skill skill;
+
     public Text test; // 테스트용 텍스트(턴)
     public Text test2; // 테스트용 텍스트(스킬준비)
     public Text test3; // 테스트용 텍스트(스킬사용)
     public Text test4;
     public Text turnText;
     public Text stageText;
-    
+
+    public int teamNumber;//팀원의 번호
+    public int totalDamage;//스킬데미지 총합
+
     public GameObject skill_1E;
     public GameObject skill_2E;
     public GameObject skill_3E;
@@ -38,11 +44,12 @@ public class Turn : MonoBehaviour
     public int totalTurnNumber = 1;
     public int skillNumber = 1;  // 스킬 확인용 변수
     public int stageNumber = 1; // 스테이지
+    public int skillCount = 0;//스킬을 사용한 캐릭터의 수
 
     public List<int> playerSkillSelect = new List<int>();
     public List<int> monsters = new List<int>();
 
-    bool skillAvailable = false; // 스킬 사용중인지 확인
+    public bool skillAvailable = false; // 스킬 사용중인지 확인
 
     public bool firstAttack = true; // 임의로 정한 선제공격 확인용 변수
 
@@ -59,6 +66,9 @@ public class Turn : MonoBehaviour
 
         characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
         monsterMgr = GameObject.FindWithTag("Monster").GetComponent<MonsterMgr>();//MonsterMgr 스크립트에서 변수 가져오기
+        teamSelect = GameObject.FindWithTag("TeamSelect").GetComponent<TeamSelect>();//TeamSelect 스크립트에서 변수 가져오기
+        skill = GameObject.FindWithTag("Skill").GetComponent<Skill>();//Skill 스크립트에서 변수 가져오기
+
         test.text = "시작";
         test2.text = "대기중";
         test3.text = "테스트";
@@ -74,29 +84,30 @@ public class Turn : MonoBehaviour
         monsterSet(); // 몬스터 배치
         battle(); // 턴 시작
     }
-
-
     public void playerSelect1()
     {
         turnNumber = 1;
+        teamNumber = teamSelect.selectedTeamNumber[0];
         battle();
     }
     public void playerSelect2()
     {
         turnNumber = 2;
+        teamNumber = teamSelect.selectedTeamNumber[1];
         battle();
     }
     public void playerSelect3()
     {
         turnNumber = 3;
+        teamNumber = teamSelect.selectedTeamNumber[2];
         battle();
     }
     public void playerSelect4()
     {
         turnNumber = 4;
+        teamNumber = teamSelect.selectedTeamNumber[3];
         battle();
     }
-
 
     void battle() // 턴 관리 1, 2, 3, 4 - 플레이어 1, 2, 3 ,4    5 -  보스 턴 시작
     {
@@ -140,9 +151,9 @@ public class Turn : MonoBehaviour
         {
             case 1: // 플레이어 턴 전체적인 시작 순서  battle > 스킬 버튼 클릭 > 스킬 사용 > battle
                 test.text = "1";
-                skillAvailable = true;
+                skillAvailable = true;//사용 가능
                 if (playerSkillSelect[0] == 0) player_1E.SetActive(false);
-                else player_1E.SetActive(true);
+                else player_1E.SetActive(true);//버튼 활성화
                 test2.text = "스킬 사용 대기중";
                 break;
             case 2:
@@ -163,7 +174,11 @@ public class Turn : MonoBehaviour
                 test.text = "4";
                 if(playerSkillSelect[3] == 0) player_4E.SetActive(false);
                 else player_4E.SetActive(true);
-                characterMgr.PlayerBloodDamage();//출혈 데미지
+                test2.text = "스킬 사용 대기중";
+                break;
+            case 5:
+                test.text = "5";
+                boss();
                 if (!characterMgr.IsPlayerDie())//플레이어 체력 체크
                 {
                     skillAvailable = true;
@@ -175,31 +190,20 @@ public class Turn : MonoBehaviour
                                      //홈화면으로
                 }
                 break;
-            case 5:
-                test.text = "5";
-                boss();
-                break;
             default:
                 test.text = "버그발생";
                 break;
         }
     }
 
-
-    //oid skill1()
-
-    //void skill2()
-
-    //void skill3()
-
-    //void skill4()
-
     public void skillNumberSet1() // 버튼 클릭시 함수 실행 
     {
         if (skillAvailable)
         {
             skillNumber = 1;
+            skillCount += 1;
             playerSkillSelect[turnNumber - 1] = skillNumber;
+            totalDamage += skill.skill1(teamNumber);//스킬 데미지 더하기
             skillAvailable = false;
             test2.text = "스킬1 선택";
             battle(); // 스킬 사용후 턴 넘기기
@@ -210,7 +214,9 @@ public class Turn : MonoBehaviour
         if (skillAvailable)
         {
             skillNumber = 2;
+            skillCount += 1;
             playerSkillSelect[turnNumber - 1] = skillNumber;
+            totalDamage += skill.skill2(teamNumber);//스킬 데미지 더하기
             skillAvailable = false;
             test2.text = "스킬2 선택";
             battle();
@@ -221,7 +227,9 @@ public class Turn : MonoBehaviour
         if (skillAvailable)
         {
             skillNumber = 3;
+            skillCount += 1;
             playerSkillSelect[turnNumber - 1] = skillNumber;
+            totalDamage += skill.skill3(teamNumber);//스킬 데미지 더하기
             skillAvailable = false;
             test2.text = "스킬3 선택";
             battle();
@@ -232,7 +240,9 @@ public class Turn : MonoBehaviour
         if (skillAvailable)
         {
             skillNumber = 4;
+            skillCount += 1;
             playerSkillSelect[turnNumber - 1] = skillNumber;
+            totalDamage += skill.skill4(teamNumber);//스킬 데미지 더하기
             skillAvailable = false;
             test2.text = "스킬4 선택";
             battle();
@@ -252,8 +262,10 @@ public class Turn : MonoBehaviour
     public void turnEnd()
     {
         test3.text = "스킬들 사용"; // 턴종료후 스킬 사용 ( 플레이어들 스킬은 여기서 전부 사용)
+        monsterMgr.MonsterBloodDamage(totalDamage);//몬스터 데미지
         totalTurnNumber += 1;
         turnText.text = totalTurnNumber.ToString();
+
         playerSkillSelect[0] = 0; // 스킬 초기화
         playerSkillSelect[1] = 0;
         playerSkillSelect[2] = 0;
@@ -313,6 +325,9 @@ public class Turn : MonoBehaviour
             monster1.SetActive(true);
             monster1Rect.anchoredPosition = new Vector3(0, 400, 0);
             monster1Rect.sizeDelta = new Vector2(700, 700);
+            monster2.SetActive(false);
+            monster3.SetActive(false);
+            monster4.SetActive(false);
         }
         if(monsters.Count == 2)
         {
@@ -322,6 +337,8 @@ public class Turn : MonoBehaviour
             monster2.SetActive(true);
             monster2Rect.anchoredPosition = new Vector3(250, 400, 0);
             monster2Rect.sizeDelta = new Vector2(400, 400);
+            monster3.SetActive(false);
+            monster4.SetActive(false);
         }
         if (monsters.Count == 3)
         {
@@ -334,6 +351,7 @@ public class Turn : MonoBehaviour
             monster3.SetActive(true);
             monster3Rect.anchoredPosition = new Vector3(350, 400, 0);
             monster3Rect.sizeDelta = new Vector2(300, 300);
+            monster4.SetActive(false);
         }
         if (monsters.Count == 4)
         {
@@ -355,9 +373,12 @@ public class Turn : MonoBehaviour
     void boss()
     {
         test3.text = "몬스터 턴 시작"; // 보스들 행동 + 스킬은 여기서 전부 사용
+        characterMgr.PlayerBloodDamage();//출혈 데미지
         turnNumber = 1;
         test2.text = "보스턴 진행중";
         test3.text = "몬스터 턴 끝";
+        skillCount = 0;//스킬을 사용한 횟수 초기화
+        totalDamage = 0;//스킬 데미지 초기화
         Invoke("battle", 1);
     }
 

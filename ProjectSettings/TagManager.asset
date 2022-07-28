@@ -10,6 +10,8 @@ TagManager:
   - Panel
   - SkillE
   - TeamSelect
+  - TurnMgr
+  - Skill
   layers:
   - Default
   - TransparentFX
