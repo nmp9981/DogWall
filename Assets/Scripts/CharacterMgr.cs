@@ -6,9 +6,9 @@ using UnityEngine.UI;
 //캐릭터 리스트 구조체
 public struct characterInfo
 {
-    string characterName;//이름
+    public string characterName;//이름
     public int characterHP, characterAttack, characterEnerge;//체력, 공격력, 에너지
-    int characterType;//타입
+    public int characterType;//타입
     public int characterAttribute;//속성
     string characterExplain;//설명
 

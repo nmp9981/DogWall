@@ -10,6 +10,9 @@ public class Turn : MonoBehaviour
     TeamSelect teamSelect;
     Skill skill;
 
+    public Text characterNameText;//캐릭터 이름
+    public Text characterAttackText;//캐릭터 공격력
+
     public Text test; // 테스트용 텍스트(턴)
     public Text test2; // 테스트용 텍스트(스킬준비)
     public Text test3; // 테스트용 텍스트(스킬사용)
@@ -88,24 +91,32 @@ public class Turn : MonoBehaviour
     {
         turnNumber = 1;
         teamNumber = teamSelect.selectedTeamNumber[0];
+        characterNameText.text = CharacterMgr.characterList[teamNumber].characterName;
+        characterAttackText.text = "Attack : "+CharacterMgr.characterList[teamNumber].characterAttack;
         battle();
     }
     public void playerSelect2()
     {
         turnNumber = 2;
         teamNumber = teamSelect.selectedTeamNumber[1];
+        characterNameText.text = CharacterMgr.characterList[teamNumber].characterName;
+        characterAttackText.text = "Attack : " + CharacterMgr.characterList[teamNumber].characterAttack;
         battle();
     }
     public void playerSelect3()
     {
         turnNumber = 3;
         teamNumber = teamSelect.selectedTeamNumber[2];
+        characterNameText.text = CharacterMgr.characterList[teamNumber].characterName;
+        characterAttackText.text = "Attack : " + CharacterMgr.characterList[teamNumber].characterAttack;
         battle();
     }
     public void playerSelect4()
     {
         turnNumber = 4;
         teamNumber = teamSelect.selectedTeamNumber[3];
+        characterNameText.text = CharacterMgr.characterList[teamNumber].characterName;
+        characterAttackText.text = "Attack : " + CharacterMgr.characterList[teamNumber].characterAttack;
         battle();
     }
 
