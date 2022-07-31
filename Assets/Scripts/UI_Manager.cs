@@ -271,4 +271,13 @@ public class UI_Manager : MonoBehaviour
         }
     }
 
+    public void ClosePopup()
+    {
+        GameObject panel = GameObject.Find("Canvas").transform.Find("Gacha").transform.Find("Percentage_Popup").gameObject;
+        if(panel.activeSelf == true)
+        {
+            panel.SetActive(false);
+        }
+    }
+
 }
