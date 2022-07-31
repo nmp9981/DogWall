@@ -11,6 +11,17 @@ public class UI_Manager : MonoBehaviour
     public int x = 0, y = 0;
     Data_Manager data;
     private bool upgrade = false;
+    private bool fullStat = false;
+    [SerializeField] int leftPiecesNum = 10; // 진짜 데이터는 받아서 써야함 구색만 맞춰 놓은 거임
+    int basicSettingNum = 0;
+    int presentUseNum = 0;
+    int presentStatNum = 0;
+    int futureStatNum = 0;
+
+    public Text changeStat;
+    public Text leftPiece;
+    public Text usePiece;
+
     void Awake()
     {
         data = GameObject.Find("Data_Manager").GetComponent<Data_Manager>();
@@ -22,6 +33,10 @@ public class UI_Manager : MonoBehaviour
         Character_ADD("Monster Dummy/121","잉어킹",10,10,"물");
         Character_ADD("Monster Dummy/212","고라파덕",10,10,"물");
         Character_ADD("Monster Dummy/333","뭐더라",10,10,"어둠");
+
+        changeStat.text = "스탯 변화 : +" + presentStatNum.ToString() + "% -> +" + futureStatNum.ToString() + "%";
+        leftPiece.text = "남은 기억의 조각 : " + leftPiecesNum.ToString();
+        usePiece.text = "사용할 기억의 조각 : " + basicSettingNum.ToString();
     }
 
    
@@ -123,7 +138,7 @@ public class UI_Manager : MonoBehaviour
         x = (i-1) % 4;
         y = (i - x) / 4;
         
-        Transform parent = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Select").transform.Find("Scroll View").transform.Find("Viewport").transform.Find("Content").gameObject.GetComponent<Transform>();
+        Transform parent = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Select_Tap").transform.Find("Scroll View").transform.Find("Viewport").transform.Find("Content").gameObject.GetComponent<Transform>();
         if(y>=4)
             parent.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,1000 + (y-3)*300);
         GameObject temp = Instantiate(Resources.Load<GameObject>("Prefabs/Ch"));
@@ -137,7 +152,7 @@ public class UI_Manager : MonoBehaviour
 
     void Unit_Select_Change()
     {
-        GameObject panel = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Select").gameObject;
+        GameObject panel = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Select_Tap").gameObject;
         if(upgrade == true)
         {
             panel.transform.Find("Text").GetComponent<Text>().text = "강화할 유닛 선택"; 
@@ -167,7 +182,7 @@ public class UI_Manager : MonoBehaviour
 
     void Unit_Choose()
     {
-        GameObject panel = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Select").gameObject;
+        GameObject panel = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Select_Tap").gameObject;
         string idx = panel.transform.Find("Text").gameObject.GetComponent<Text>().text.Substring(0,1);
         GameObject target;
         switch(idx)
@@ -215,4 +230,45 @@ public class UI_Manager : MonoBehaviour
             UI_LEVEL2_Controll(0);
         }
     }
+
+    public void IncreasePieceNum()
+    {
+        if(!fullStat)
+        {
+            presentUseNum++;
+            leftPiecesNum--;
+            futureStatNum += 10;
+            changeStat.text = "스탯 변화 : +" + presentStatNum.ToString() + "% -> +" + futureStatNum.ToString() + "%";
+            leftPiece.text = "남은 기억의 조각 : " + leftPiecesNum.ToString();
+            usePiece.text = "사용할 기억의 조각 : " + presentUseNum.ToString();
+            if(futureStatNum == 50)
+            {
+                Debug.Log("뭐가 좀 이상한디,,,,");
+            }
+        }
+    }
+
+    public void DecreasePieceNum()
+    {
+        if(presentUseNum != 0)
+        {
+            presentUseNum--;
+            leftPiecesNum++;
+            futureStatNum -= 10;
+            changeStat.text = "스탯 변화 : +" + presentStatNum.ToString() + "% -> +" + futureStatNum.ToString() + "%";
+            leftPiece.text = "남은 기억의 조각 : " + leftPiecesNum.ToString();
+            usePiece.text = "사용할 기억의 조각 : " + presentUseNum.ToString();
+        }
+    }
+
+    public void ApplyBtn()
+    {
+        presentStatNum = futureStatNum;
+        changeStat.text = "스탯 변화 : +" + presentStatNum.ToString() + "% -> +" + futureStatNum.ToString() + "%";
+        if(presentStatNum == 50)
+        {
+            fullStat = true;
+        }
+    }
+
 }
