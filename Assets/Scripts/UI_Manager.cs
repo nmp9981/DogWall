@@ -81,16 +81,19 @@ public class UI_Manager : MonoBehaviour
                         upgrade = false;
                         break;
                     case 2:
-                        UI("Team","Unit_Select");//선택 버튼
+                        UI("Team","Unit_Select_Tap");//선택 버튼
                         Unit_Select_Change();
                         break;
                     case 3:
-                        UI("Team","Unit_Select");//유닛 강화버튼
+                        UI("Team","Unit_Select_Tap");//유닛 강화버튼
                         upgrade = true;
                         Unit_Select_Change();
                         break;
                     
                 }
+                break;
+            case 2:
+                UI("Gacha");
                 break;
         }
     }
@@ -182,36 +185,54 @@ public class UI_Manager : MonoBehaviour
 
     void Unit_Choose()
     {
-        GameObject panel = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Select_Tap").gameObject;
-        string idx = panel.transform.Find("Text").gameObject.GetComponent<Text>().text.Substring(0,1);
-        GameObject target;
-        switch(idx)
+        if(!upgrade)
         {
-            case "첫":
-                idx = "1";
-                break;
-            case "두":
-                idx = "2";
-                break;
-            case "세":
-                idx = "3";
-                break;
-            case "네":
-                idx = "4";
-                break;
-        }
-        target = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Teams").transform.Find("Character" + idx).gameObject;
-        GameObject Unit = EventSystem.current.currentSelectedGameObject;
-        for(int i = 0; i < data.list.Count; i++)
-        {
-            if(Unit.name == data.list[i].Name)
+            GameObject panel = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Select_Tap").gameObject;
+            string idx = panel.transform.Find("Text").gameObject.GetComponent<Text>().text.Substring(0,1);
+            GameObject target;
+            switch(idx)
             {
-                target.transform.GetChild(0).GetComponent<Image>().sprite = data.list[i].Img;
-                target.transform.GetChild(1).GetComponent<Text>().text = data.list[i].HP.ToString();
-                target.transform.GetChild(2).GetComponent<Text>().text = data.list[i].ATK.ToString();
-                target.transform.GetChild(3).GetComponent<Text>().text = data.list[i].Type;
-                UI_LEVEL2_Controll(1);
-                break;
+                case "첫":
+                    idx = "1";
+                    break;
+                case "두":
+                    idx = "2";
+                    break;
+                case "세":
+                    idx = "3";
+                    break;
+                case "네":
+                    idx = "4";
+                    break;
+            }
+            target = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Teams").transform.Find("Character" + idx).gameObject;
+            GameObject Unit = EventSystem.current.currentSelectedGameObject;
+            for(int i = 0; i < data.list.Count; i++)
+            {
+                if(Unit.name == data.list[i].Name)
+                {
+                    target.transform.GetChild(0).GetComponent<Image>().sprite = data.list[i].Img;
+                    target.transform.GetChild(1).GetComponent<Text>().text = data.list[i].HP.ToString();
+                    target.transform.GetChild(2).GetComponent<Text>().text = data.list[i].ATK.ToString();
+                    target.transform.GetChild(3).GetComponent<Text>().text = data.list[i].Type;
+                    UI_LEVEL2_Controll(1);
+                    break;
+                }
+            }
+        }
+        else
+        {
+            UI("Team","Unit_Upgrade_Tap");
+            GameObject panel = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Upgrade_Tap").gameObject;
+            GameObject target = panel.transform.Find("Image").gameObject;
+            GameObject Unit = EventSystem.current.currentSelectedGameObject;
+            for(int i = 0; i < data.list.Count; i++)
+            {
+                if(Unit.name == data.list[i].Name)
+                {
+                    target.GetComponent<Image>().sprite = data.list[i].Img;
+                    break;
+                }
             }
         }
     }
