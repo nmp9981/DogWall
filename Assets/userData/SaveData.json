@@ -1,0 +1,28 @@
+{
+    "list": [
+        {
+            "Img": {
+                "instanceID": 0
+            },
+            "Name": "견습마법사",
+            "HP": 5500,
+            "ATK": 4500,
+            "Type": "수비형",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 0
+            },
+            "Name": "켄타우로스",
+            "HP": 5000,
+            "ATK": 5000,
+            "Type": "수비형",
+            "Stone": 0,
+            "Star": 1
+        }
+    ],
+    "my_list": [],
+    "my_team": {}
+}

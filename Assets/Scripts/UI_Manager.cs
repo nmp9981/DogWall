@@ -21,6 +21,7 @@ public class UI_Manager : MonoBehaviour
     public Text changeStat;
     public Text leftPiece;
     public Text usePiece;
+    DataManager dm;
 
     void Awake()
     {
