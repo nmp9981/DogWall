@@ -21,6 +21,50 @@
             "Type": "수비형",
             "Stone": 0,
             "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 0
+            },
+            "Name": "왕궁영술사",
+            "HP": 4000,
+            "ATK": 6000,
+            "Type": "공격형",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 0
+            },
+            "Name": "정",
+            "HP": 4500,
+            "ATK": 5500,
+            "Type": "공격형",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 0
+            },
+            "Name": "정령",
+            "HP": 5500,
+            "ATK": 4500,
+            "Type": "치유형",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 0
+            },
+            "Name": "견습마법사",
+            "HP": 5000,
+            "ATK": 5000,
+            "Type": "지원형",
+            "Stone": 0,
+            "Star": 1
         }
     ],
     "my_list": [],
