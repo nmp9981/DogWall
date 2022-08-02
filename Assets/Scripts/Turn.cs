@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Turn : MonoBehaviour
 {
@@ -162,30 +163,39 @@ public class Turn : MonoBehaviour
         {
             case 1: // 플레이어 턴 전체적인 시작 순서  battle > 스킬 버튼 클릭 > 스킬 사용 > battle
                 test.text = "1";
+                //행동불가 상태 이상일시 다음으로 넘어감
+                //if(teamNumber.상태이상 == 1) player1E.SetActive(false)
                 skillAvailable = true;//사용 가능
                 if (playerSkillSelect[0] == 0) player_1E.SetActive(false);
                 else player_1E.SetActive(true);//버튼 활성화
                 test2.text = "스킬 사용 대기중";
+                //skill.beforeSkillEnerge = characterMgr.playerEnerge;//이전 에너지 갱신
                 break;
             case 2:
                 test.text = "2";
+                //턴 스킵 상태 이상일시 다음으로 넘어감
                 skillAvailable = true;
                 if(playerSkillSelect[1] == 0) player_2E.SetActive(false);
                 else player_2E.SetActive(true);
                 test2.text = "스킬 사용 대기중";
+                //skill.beforeSkillEnerge = characterMgr.playerEnerge;//이전 에너지 갱신
                 break;
             case 3:
                 test.text = "3";
+                //턴 스킵 상태 이상일시 다음으로 넘어감
                 skillAvailable = true;
                 if(playerSkillSelect[2] == 0) player_3E.SetActive(false);
                 else player_3E.SetActive(true);
                 test2.text = "스킬 사용 대기중";
+                skill.beforeSkillEnerge = characterMgr.playerEnerge;//이전 에너지 갱신
                 break;
             case 4:
                 test.text = "4";
-                if(playerSkillSelect[3] == 0) player_4E.SetActive(false);
+                //턴 스킵 상태 이상일시 다음으로 넘어감
+                if (playerSkillSelect[3] == 0) player_4E.SetActive(false);
                 else player_4E.SetActive(true);
                 test2.text = "스킬 사용 대기중";
+                skill.beforeSkillEnerge = characterMgr.playerEnerge;//이전 에너지 갱신
                 break;
             case 5:
                 test.text = "5";
@@ -198,7 +208,7 @@ public class Turn : MonoBehaviour
                 else
                 {
                     test.text = "사망";//게임 오버 화면
-                                     //홈화면으로
+                    SceneManager.LoadScene("Home");//홈화면으로
                 }
                 break;
             default:
@@ -209,7 +219,7 @@ public class Turn : MonoBehaviour
 
     public void skillNumberSet1() // 버튼 클릭시 함수 실행 
     {
-        if (skillAvailable)
+        if (skillAvailable && skill_1E.activeSelf == false)
         {
             skillNumber = 1;
             skillCount += 1;
@@ -222,7 +232,7 @@ public class Turn : MonoBehaviour
     }
     public void skillNumberSet2()
     {
-        if (skillAvailable)
+        if (skillAvailable && skill_2E.activeSelf == false)
         {
             skillNumber = 2;
             skillCount += 1;
@@ -235,7 +245,7 @@ public class Turn : MonoBehaviour
     }
     public void skillNumberSet3()
     {
-        if (skillAvailable)
+        if (skillAvailable && skill_3E.activeSelf == false)
         {
             skillNumber = 3;
             skillCount += 1;
@@ -248,7 +258,7 @@ public class Turn : MonoBehaviour
     }
     public void skillNumberSet4()
     {
-        if (skillAvailable)
+        if (skillAvailable && skill_4E.activeSelf == false)
         {
             skillNumber = 4;
             skillCount += 1;
@@ -392,5 +402,4 @@ public class Turn : MonoBehaviour
         totalDamage = 0;//스킬 데미지 초기화
         Invoke("battle", 1);
     }
-
 }

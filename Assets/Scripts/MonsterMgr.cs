@@ -86,6 +86,7 @@ public class MonsterMgr : MonoBehaviour
         }
         else
         {
+            stageText.text = "게임 클러어";
             stage = 1;
         }
     }

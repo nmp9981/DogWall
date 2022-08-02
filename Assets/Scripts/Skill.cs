@@ -21,6 +21,7 @@ public class Skill : MonoBehaviour
     Turn turn;
     CharacterMgr characterMgr;
     MonsterMgr monsterMgr;
+    public int beforeSkillEnerge;//스킬 발동 전 에너지
    
     //스킬 배열 선언 
     public static List<SkillInfo> skillList = new List<SkillInfo>
@@ -65,6 +66,7 @@ public class Skill : MonoBehaviour
         turn = GameObject.FindWithTag("TurnMgr").GetComponent<Turn>();//Trun 스크립트에서 변수 가져오기
         characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
         monsterMgr = GameObject.FindWithTag("Monster").GetComponent<MonsterMgr>();//MonsterMgr 스크립트에서 변수 가져오기
+        beforeSkillEnerge = characterMgr.playerFullEnerge;//스킬 시전 전 에너지
     }
 
     // Update is called once per frame
@@ -74,10 +76,12 @@ public class Skill : MonoBehaviour
     }
     public int skill1(int number)
     {
+        //characterMgr.playerEnerge = beforeSkillEnerge;
+
         int requireEnerge = skillList[4 * number].energe;
         if (characterMgr.playerEnerge < requireEnerge) return 0;//스킬 사용 불가
 
-        characterMgr.playerEnerge = Mathf.Min(Mathf.Max(0, characterMgr.playerEnerge - requireEnerge),characterMgr.playerFullEnerge);//에너지 증감
+        characterMgr.playerEnerge = Mathf.Min(Mathf.Max(0, characterMgr.playerEnerge - requireEnerge), characterMgr.playerFullEnerge);//에너지 증감
 
         int playerAttribute = CharacterMgr.characterList[number].characterAttribute;//플레이어 속성
         int monsterAttribute = MonsterMgr.monsterList[0].monsterAttribute;//몬스터 속성
@@ -89,6 +93,8 @@ public class Skill : MonoBehaviour
     }
     public int skill2(int number)
     {
+        //characterMgr.playerEnerge = beforeSkillEnerge;
+
         int requireEnerge = skillList[4 * number+1].energe;
         if (characterMgr.playerEnerge < requireEnerge) return 0;//스킬 사용 불가
 
@@ -132,4 +138,13 @@ public class Skill : MonoBehaviour
         int skillPercentDamage = skillList[4 * number+3].attack;//스킬 퍼센테이지
         return playerAttack * skillPercentDamage * attributeDamage / 10000;//최종 데미지
     }
+}
+
+//턴지속
+public class CustomIEnumeratorType1 : CustomYieldInstruction{ 
+    public override bool keepWaiting { 
+        get { 
+            return !Input.GetKeyDown(KeyCode.Space);
+        } 
+    } 
 }
