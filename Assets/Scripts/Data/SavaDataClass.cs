@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 
 [System.Serializable]
-public class TeamSet
+public class TeamSet//팀 번호 저장
 {
     public Character[,] team_set = new Character[3,4];
 }
@@ -34,7 +34,9 @@ public class Character
 public class SaveDataClass
 {
     public List<Character> list;
-    public List<Character> my_list;
+    public List<Character> my_list;//내가 가지고 있는 캐릭
+    public List<int> money;//재화
+    //스테이지 진행정도
     public TeamSet my_team;
     public SaveDataClass()
     {
@@ -43,5 +45,4 @@ public class SaveDataClass
         my_list= new List<Character>();
         my_team = new TeamSet();
     }
-
 }
