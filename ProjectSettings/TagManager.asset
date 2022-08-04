@@ -12,6 +12,7 @@ TagManager:
   - TeamSelect
   - TurnMgr
   - Skill
+  - Story
   layers:
   - Default
   - TransparentFX

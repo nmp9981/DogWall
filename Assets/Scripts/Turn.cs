@@ -14,12 +14,9 @@ public class Turn : MonoBehaviour
     public Text characterNameText;//캐릭터 이름
     public Text characterAttackText;//캐릭터 공격력
 
-    public Text test; // 테스트용 텍스트(턴)
-    public Text test2; // 테스트용 텍스트(스킬준비)
-    public Text test3; // 테스트용 텍스트(스킬사용)
-    public Text test4;
     public Text turnText;
     public Text stageText;
+    public Text monsterText;
 
     public int teamNumber;//팀원의 번호
     public int totalDamage;//스킬데미지 총합
@@ -28,6 +25,10 @@ public class Turn : MonoBehaviour
     public GameObject skill_2E;
     public GameObject skill_3E;
     public GameObject skill_4E;
+    public GameObject skill_1T;
+    public GameObject skill_2T;
+    public GameObject skill_3T;
+    public GameObject skill_4T;
     public GameObject skipE;
     public GameObject player_1E;
     public GameObject player_2E;
@@ -44,6 +45,8 @@ public class Turn : MonoBehaviour
     public RectTransform monster3Rect;
     public RectTransform monster4Rect;
 
+    public GameObject story;
+
     public int turnNumber = 1; // 턴 확인용 변수
     public int totalTurnNumber = 1;
     public int skillNumber = 1;  // 스킬 확인용 변수
@@ -57,15 +60,19 @@ public class Turn : MonoBehaviour
 
     public bool firstAttack = true; // 임의로 정한 선제공격 확인용 변수
 
+    public bool isClick;
+
+    public bool longClickAvailable;
+
     void Start()
     {
-        playerSkillSelect.Add(0);
+        playerSkillSelect.Add(0);// 스킬 선택 초기화
         playerSkillSelect.Add(0);
         playerSkillSelect.Add(0);
         playerSkillSelect.Add(0);
         playerSkillSelect.Add(0);
 
-        monsters.Add(1);
+        monsters.Add(1);// 몬스터 추가
         monsters.Add(1);
 
         characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
@@ -73,63 +80,127 @@ public class Turn : MonoBehaviour
         teamSelect = GameObject.FindWithTag("TeamSelect").GetComponent<TeamSelect>();//TeamSelect 스크립트에서 변수 가져오기
         skill = GameObject.FindWithTag("Skill").GetComponent<Skill>();//Skill 스크립트에서 변수 가져오기
 
-        test.text = "시작";
-        test2.text = "대기중";
-        test3.text = "테스트";
-        test4.text = "몬스터수" + monsters.Count;
         turnText.text = totalTurnNumber.ToString();
         stageText.text = stageNumber + "/3";
-        skillAvailable = false; // 스킬 사용가능 확인용 변수
-        firstAttack = true; // 선제공격 확인용 변수
+
+
+        firstAttack = true; // 선제공격 여부 임의로 설정
 
         if (firstAttack) turnNumber = 1; // 선제공격 여부 확인
         else turnNumber = 5;
 
         monsterSet(); // 몬스터 배치
-        battle(); // 턴 시작
+        UISetting(); // 턴 시작
     }
+
+    //-----------------------------------------------------------------------------------------------------------------------------------------------
+
+    // 플레이어 초상화 선택시 턴 전환
+
     public void playerSelect1()
     {
         turnNumber = 1;
         teamNumber = teamSelect.selectedTeamNumber[0];
-        characterNameText.text = CharacterMgr.characterList[teamNumber].characterName;
-        characterAttackText.text = "Attack : "+CharacterMgr.characterList[teamNumber].characterAttack;
-        battle();
+        UISetting();
     }
     public void playerSelect2()
     {
         turnNumber = 2;
         teamNumber = teamSelect.selectedTeamNumber[1];
-        characterNameText.text = CharacterMgr.characterList[teamNumber].characterName;
-        characterAttackText.text = "Attack : " + CharacterMgr.characterList[teamNumber].characterAttack;
-        battle();
+        UISetting();
     }
     public void playerSelect3()
     {
         turnNumber = 3;
         teamNumber = teamSelect.selectedTeamNumber[2];
-        characterNameText.text = CharacterMgr.characterList[teamNumber].characterName;
-        characterAttackText.text = "Attack : " + CharacterMgr.characterList[teamNumber].characterAttack;
-        battle();
+        UISetting();
     }
     public void playerSelect4()
     {
         turnNumber = 4;
         teamNumber = teamSelect.selectedTeamNumber[3];
-        characterNameText.text = CharacterMgr.characterList[teamNumber].characterName;
-        characterAttackText.text = "Attack : " + CharacterMgr.characterList[teamNumber].characterAttack;
-        battle();
+        UISetting();
     }
 
-    void battle() // 턴 관리 1, 2, 3, 4 - 플레이어 1, 2, 3 ,4    5 -  보스 턴 시작
+    //---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+    // 모든 스킬을 선택후 턴 종료시 진행
+
+    public void turnEnd()
     {
-        if (playerSkillSelect[0] != 0 & playerSkillSelect[1] != 0 & playerSkillSelect[2] != 0 & playerSkillSelect[3] != 0) turnEndButton.SetActive(true);
-        else turnEndButton.SetActive(false);
+        monsterMgr.MonsterBloodDamage(totalDamage);//몬스터 데미지
+        totalTurnNumber += 1;
+        turnText.text = totalTurnNumber.ToString();
+
+        playerSkillSelect[0] = 0; // 스킬 초기화
+        playerSkillSelect[1] = 0;
+        playerSkillSelect[2] = 0;
+        playerSkillSelect[3] = 0;
+
+        player_1E.SetActive(false); // 이펙트들 초기화
+        player_2E.SetActive(false);
+        player_3E.SetActive(false);
+        player_4E.SetActive(false);
         skill_1E.SetActive(false);
         skill_2E.SetActive(false);
         skill_3E.SetActive(false);
         skill_4E.SetActive(false);
         skipE.SetActive(false);
+
+
+        if (monsters.Count == 0) // 몬스터가 다 죽었다면 스테이지 증가
+        {
+            stageNumber += 1;
+            stageText.text = stageNumber.ToString();
+            if (firstAttack) turnNumber = 1; // 선제공격 여부 확인
+            else turnNumber = 5;
+        }
+
+        turnNumber = 5; // 보스로 턴 전환
+
+        Invoke("UISetting", 1);
+    }
+
+    //-----------------------------------------------------------------------------------------------------
+
+
+
+    // 플레어이 초상화 클릭 & 스킬 선택시 그에 맞춰서 UI를 세팅하는 함수
+    // 어떤 값을 수정했으면 꼭 실행 해줘야함
+
+    void UISetting() // 턴 관리 1, 2, 3, 4 - 플레이어 1, 2, 3 ,4    5 -  몬스터 턴
+    {
+
+
+        characterNameText.text = CharacterMgr.characterList[teamNumber].characterName; // 캐릭터 공격력 & 이름 UI 표시
+        characterAttackText.text = "Attack : " + CharacterMgr.characterList[teamNumber].characterAttack;
+
+
+        skillNumber = playerSkillSelect[turnNumber - 1]; // 저장된 스킬 넘버를 턴에 맞춰서 가져옴
+
+
+        if (playerSkillSelect[0] != 0 & playerSkillSelect[1] != 0 & playerSkillSelect[2] != 0 & playerSkillSelect[3] != 0) turnEndButton.SetActive(true);
+        else turnEndButton.SetActive(false); // 모든 플레이어의 스킬이 선택 됐다면 턴 넘기기 버튼이 나타남
+
+
+
+        skill_1E.SetActive(false); // 스킬선택 이펙트 초기화
+        skill_2E.SetActive(false);
+        skill_3E.SetActive(false);
+        skill_4E.SetActive(false);
+        skipE.SetActive(false);
+
+        if (playerSkillSelect[0] == 0) player_1E.SetActive(false); // 플레이어 초상화 선택 이펙트 관리
+        else player_1E.SetActive(true);
+        if (playerSkillSelect[1] == 0) player_2E.SetActive(false);
+        else player_2E.SetActive(true);
+        if (playerSkillSelect[2] == 0) player_3E.SetActive(false);
+        else player_3E.SetActive(true);
+        if (playerSkillSelect[3] == 0) player_4E.SetActive(false);
+        else player_4E.SetActive(true);
+
+
         switch (playerSkillSelect[turnNumber - 1])
         {
             case 0:
@@ -155,180 +226,19 @@ public class Turn : MonoBehaviour
                 skipE.SetActive(true);
                 break;
             default:
-                test2.text = "오류발생";
                 break;
-        }
-        skillNumber = playerSkillSelect[turnNumber - 1];
-        switch (turnNumber)
+        } // 스킬 이펙트 설정
+
+        if (turnNumber == 5) // 턴이 5라면 몬스터 턴 시작
         {
-            case 1: // 플레이어 턴 전체적인 시작 순서  battle > 스킬 버튼 클릭 > 스킬 사용 > battle
-                test.text = "1";
-                //행동불가 상태 이상일시 다음으로 넘어감
-                //if(teamNumber.상태이상 == 1) player1E.SetActive(false)
-                skillAvailable = true;//사용 가능
-                if (playerSkillSelect[0] == 0) player_1E.SetActive(false);
-                else player_1E.SetActive(true);//버튼 활성화
-                test2.text = "스킬 사용 대기중";
-                //skill.beforeSkillEnerge = characterMgr.playerEnerge;//이전 에너지 갱신
-                break;
-            case 2:
-                test.text = "2";
-                //턴 스킵 상태 이상일시 다음으로 넘어감
-                skillAvailable = true;
-                if(playerSkillSelect[1] == 0) player_2E.SetActive(false);
-                else player_2E.SetActive(true);
-                test2.text = "스킬 사용 대기중";
-                //skill.beforeSkillEnerge = characterMgr.playerEnerge;//이전 에너지 갱신
-                break;
-            case 3:
-                test.text = "3";
-                //턴 스킵 상태 이상일시 다음으로 넘어감
-                skillAvailable = true;
-                if(playerSkillSelect[2] == 0) player_3E.SetActive(false);
-                else player_3E.SetActive(true);
-                test2.text = "스킬 사용 대기중";
-                skill.beforeSkillEnerge = characterMgr.playerEnerge;//이전 에너지 갱신
-                break;
-            case 4:
-                test.text = "4";
-                //턴 스킵 상태 이상일시 다음으로 넘어감
-                if (playerSkillSelect[3] == 0) player_4E.SetActive(false);
-                else player_4E.SetActive(true);
-                test2.text = "스킬 사용 대기중";
-                skill.beforeSkillEnerge = characterMgr.playerEnerge;//이전 에너지 갱신
-                break;
-            case 5:
-                test.text = "5";
-                boss();
-                if (!characterMgr.IsPlayerDie())//플레이어 체력 체크
-                {
-                    skillAvailable = true;
-                    test2.text = "스킬 사용 대기중";
-                }
-                else
-                {
-                    test.text = "사망";//게임 오버 화면
-                    SceneManager.LoadScene("Home");//홈화면으로
-                }
-                break;
-            default:
-                test.text = "버그발생";
-                break;
+            monster();
         }
     }
 
-    public void skillNumberSet1() // 버튼 클릭시 함수 실행 
-    {
-        if (skillAvailable && skill_1E.activeSelf == false)
-        {
-            skillNumber = 1;
-            skillCount += 1;
-            playerSkillSelect[turnNumber - 1] = skillNumber;
-            totalDamage += skill.skill1(teamNumber);//스킬 데미지 더하기
-            skillAvailable = false;
-            test2.text = "스킬1 선택";
-            battle(); // 스킬 사용후 턴 넘기기
-        }
-    }
-    public void skillNumberSet2()
-    {
-        if (skillAvailable && skill_2E.activeSelf == false)
-        {
-            skillNumber = 2;
-            skillCount += 1;
-            playerSkillSelect[turnNumber - 1] = skillNumber;
-            totalDamage += skill.skill2(teamNumber);//스킬 데미지 더하기
-            skillAvailable = false;
-            test2.text = "스킬2 선택";
-            battle();
-        }
-    }
-    public void skillNumberSet3()
-    {
-        if (skillAvailable && skill_3E.activeSelf == false)
-        {
-            skillNumber = 3;
-            skillCount += 1;
-            playerSkillSelect[turnNumber - 1] = skillNumber;
-            totalDamage += skill.skill3(teamNumber);//스킬 데미지 더하기
-            skillAvailable = false;
-            test2.text = "스킬3 선택";
-            battle();
-        }
-    }
-    public void skillNumberSet4()
-    {
-        if (skillAvailable && skill_4E.activeSelf == false)
-        {
-            skillNumber = 4;
-            skillCount += 1;
-            playerSkillSelect[turnNumber - 1] = skillNumber;
-            totalDamage += skill.skill4(teamNumber);//스킬 데미지 더하기
-            skillAvailable = false;
-            test2.text = "스킬4 선택";
-            battle();
-        }
-    }
-    public void turnSkip()
-    {
-        if (skillAvailable)
-        {
-            skillNumber = 5;
-            playerSkillSelect[turnNumber - 1] = skillNumber;
-            test2.text = "턴 스킵";
-            battle();
-        }
-    }
-
-    public void turnEnd()
-    {
-        test3.text = "스킬들 사용"; // 턴종료후 스킬 사용 ( 플레이어들 스킬은 여기서 전부 사용)
-        monsterMgr.MonsterBloodDamage(totalDamage);//몬스터 데미지
-        totalTurnNumber += 1;
-        turnText.text = totalTurnNumber.ToString();
-
-        playerSkillSelect[0] = 0; // 스킬 초기화
-        playerSkillSelect[1] = 0;
-        playerSkillSelect[2] = 0;
-        playerSkillSelect[3] = 0;
-        player_1E.SetActive(false);
-        player_2E.SetActive(false);
-        player_3E.SetActive(false);
-        player_4E.SetActive(false);
-        skill_1E.SetActive(false);
-        skill_2E.SetActive(false);
-        skill_3E.SetActive(false);
-        skill_4E.SetActive(false);
-        skipE.SetActive(false);
-        turnNumber = 5;
-
-        if (totalTurnNumber == 3) monsters.RemoveAt(0); // 당장은 몬스터 HP 계산이 없어서 임시로 몬스터 제거
-        if (totalTurnNumber == 4) monsters.RemoveAt(0);
-        monsterSet();
-
-        if (monsters.Count == 0)
-        {
-            stageNumber += 1;
-            stageText.text = stageNumber.ToString();
-            if (firstAttack) turnNumber = 1; // 선제공격 여부 확인
-            else turnNumber = 5;
-        }
-
-        if (stageNumber == 2) // 스테이지 넘어가면 몬스터 정보 받아오는게 원래 계획 지금은 데이터베이스가 없어서 임의로 추가
-        {
-            monsters.Add(0);
-            monsters.Add(0);
-            monsters.Add(0);
-            monsters.Add(0);
-            Invoke("monsterSet", 1);
-        }
-
-        Invoke("battle", 1);
-    }
 
     // 몬스터 관련 턴 ------------------------------------
 
-    void monsterSet()
+    void monsterSet() // 몬스터 배치
     {
         monster1.SetActive(false);
         monster2.SetActive(false);
@@ -391,15 +301,136 @@ public class Turn : MonoBehaviour
         }
     }
 
-    void boss()
+    void monster() // 몬스터 턴
     {
-        test3.text = "몬스터 턴 시작"; // 보스들 행동 + 스킬은 여기서 전부 사용
         characterMgr.PlayerBloodDamage();//출혈 데미지
         turnNumber = 1;
-        test2.text = "보스턴 진행중";
-        test3.text = "몬스터 턴 끝";
         skillCount = 0;//스킬을 사용한 횟수 초기화
         totalDamage = 0;//스킬 데미지 초기화
-        Invoke("battle", 1);
+
+        if (monster1.activeSelf == true) // 몬스터가 살아있으면 턴을 진행
+        {
+            // monster1
+            monsterText.text = "화염방사";
+        }
+        if (monster2.activeSelf == true)
+        {
+            // monster1
+            monsterText.text = "백만볼트";
+        }
+        if (monster3.activeSelf == true)
+        {
+            // monster1
+            monsterText.text = "칼춤";
+        }
+        if (monster4.activeSelf == true)
+        {
+            // monster1
+            monsterText.text = "잠자기";
+        }
+
+
     }
+
+    // --------------------------------------------------------------
+
+
+    // 스킬 & 스킵 버튼 관련 턴
+
+    public void buttonDown1()
+    {
+        skillNumber = 1;
+        skillAvailable = true;
+        longClickAvailable = true;
+        isClick = true;
+        Invoke("longClick", 1f);
+    }
+    public void buttonDown2()
+    {
+        skillNumber = 2;
+        skillAvailable = true;
+        longClickAvailable = true;
+        isClick = true;
+        Invoke("longClick", 1f);
+    }
+    public void buttonDown3()
+    {
+        skillNumber = 3;
+        skillAvailable = true;
+        longClickAvailable = true;
+        isClick = true;
+        Invoke("longClick", 1f);
+    }
+    public void buttonDown4()
+    {
+        skillNumber = 4;
+        skillAvailable = true;
+        longClickAvailable = true;
+        isClick = true;
+        Invoke("longClick", 1f);
+    }
+
+    public void turnSkip()
+    {
+        skillNumber = 5;
+        playerSkillSelect[turnNumber - 1] = skillNumber;
+        UISetting();
+    }
+
+    public void buttonUp()
+    {
+        longClickAvailable = false;
+        playerSkillSelect[turnNumber - 1] = skillNumber;;
+        isClick = false;
+        skill_1T.SetActive(false);
+        skill_2T.SetActive(false);
+        skill_3T.SetActive(false);
+        skill_4T.SetActive(false);
+        if (skillAvailable)
+        {
+            totalDamage += skill.skill1(teamNumber);//스킬 데미지 더하기
+            UISetting(); // 스킬 사용후 턴 넘기기
+        }
+    }
+
+    public void longClick()
+    {
+        if (longClickAvailable)
+        {
+            skillAvailable = false;
+            if (isClick)
+            {
+                switch (skillNumber)
+                {
+                    case 1:
+                        skill_1T.SetActive(true);
+                        break;
+                    case 2:
+                        skill_2T.SetActive(true);
+                        break;
+                    case 3:
+                        skill_3T.SetActive(true);
+                        break;
+                    case 4:
+                        skill_4T.SetActive(true);
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }
+    }
+
+    //------------------------------------------------------------------------------------------------
+
+    // 스토리UI 관련
+    public void storyOn()
+    {
+        story.SetActive(true);
+    }
+    public void storyOff()
+    {
+        story.SetActive(false);
+    }
+
 }
