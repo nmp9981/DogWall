@@ -31,18 +31,52 @@ public class Character
     }
 }
 [System.Serializable]
+public class SkillDataClass//스킬DB
+{
+    public string SkillName = "";//이름
+    public int Energe = 0;//에너지
+    public string Explain = "";//설명
+    public int Attack = 0;//공격
+    public int DecreaseDamage = 0;//데미지감소
+    public int HealHP = 0;//HP회복
+    public bool Provocation = false;//도발
+    public bool NotAction = false;//행동불능
+    public int HealEnerge = 0;//에너지 회복
+    public int blood = 0;//출혈
+    public int TurnCount = 1;//지속 턴수
+    public int Rare = 1;//레어도
+
+    public SkillDataClass(string sn = "럭키세븐",int e = 0,string ex = "?",int a = 0,int dd = 0,int hh = 0,bool p=false,bool na = false,int he = 0,int b=0,int tc=1,int r = 1)
+    {
+        this.SkillName = sn;
+        this.Energe = e;
+        this.Explain = ex;
+        this.Attack = a;
+        this.DecreaseDamage = dd;
+        this.HealHP = hh;
+        this.Provocation = p;
+        this.NotAction = na;
+        this.HealEnerge = he;
+        this.blood = b;
+        this.TurnCount = tc;
+        this.Rare = r;
+    }
+}
+[System.Serializable]
 public class SaveDataClass
 {
     public List<Character> list;
-    public List<Character> my_list;//내가 가지고 있는 캐릭
+    public List<Character> my_characterList;//내가 가지고 있는 캐릭
     public List<int> money;//재화
+    public List<SkillDataClass> skillList;//스킬 리스트
     //스테이지 진행정도
     public TeamSet my_team;
     public SaveDataClass()
     {
         //ㅇㅇ
         list = new List<Character>();
-        my_list= new List<Character>();
+        my_characterList= new List<Character>();
         my_team = new TeamSet();
+        skillList = new List<SkillDataClass>();
     }
 }

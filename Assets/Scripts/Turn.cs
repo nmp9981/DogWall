@@ -129,6 +129,20 @@ public class Turn : MonoBehaviour
 
     public void turnEnd()
     {
+        //스킬계산
+        totalDamage = 0;//초기화
+        //4개의 스킬
+        for(int i = 0; i < 4; i++)
+        {
+            if (playerSkillSelect[i] == 4)//필살기
+            {
+                //필살기 애니메이션 재생
+            }
+            int skillNumber = teamSelect.selectedTeamNumber[i] * 4 + playerSkillSelect[i] - 1;//스킬의 번호
+            skill.InitTurn(skillNumber);//턴 초기화
+            characterMgr.ColorCondition(skill.playerAttack, i, skillNumber);//캐릭터 상태 이상 색상 표시
+            totalDamage += skill.skillAttackDamage(skillNumber);//데미지 누적
+        }
         monsterMgr.MonsterBloodDamage(totalDamage);//몬스터 데미지
         totalTurnNumber += 1;
         turnText.text = totalTurnNumber.ToString();
@@ -171,7 +185,6 @@ public class Turn : MonoBehaviour
 
     void UISetting() // 턴 관리 1, 2, 3, 4 - 플레이어 1, 2, 3 ,4    5 -  몬스터 턴
     {
-
 
         characterNameText.text = CharacterMgr.characterList[teamNumber].characterName; // 캐릭터 공격력 & 이름 UI 표시
         characterAttackText.text = "Attack : " + CharacterMgr.characterList[teamNumber].characterAttack;
@@ -388,7 +401,7 @@ public class Turn : MonoBehaviour
         skill_4T.SetActive(false);
         if (skillAvailable)
         {
-            totalDamage += skill.skill1(teamNumber);//스킬 데미지 더하기
+            //totalDamage += skill.skillAttackDamage(teamNumber);//스킬 데미지 더하기
             UISetting(); // 스킬 사용후 턴 넘기기
         }
     }
