@@ -210,9 +210,10 @@ GameObject:
   - component: {fileID: 103770018}
   - component: {fileID: 103770019}
   - component: {fileID: 103770017}
+  - component: {fileID: 103770020}
   m_Layer: 0
   m_Name: Manager
-  m_TagString: Untagged
+  m_TagString: DBManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -264,7 +265,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saveData:
     list: []
-    my_list: []
+    my_characterList: []
+    money: 
+    skillList: []
+--- !u!114 &103770020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103770016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9df79332344024a961d373beb8f53c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list: []
+  SkillList: []
 --- !u!1 &127029649
 GameObject:
   m_ObjectHideFlags: 0

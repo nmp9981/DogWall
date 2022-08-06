@@ -13,6 +13,7 @@ TagManager:
   - TurnMgr
   - Skill
   - Story
+  - DBManager
   layers:
   - Default
   - TransparentFX

@@ -6,6 +6,7 @@ public class Data_Manager : MonoBehaviour
 {
     private int Character_Count = 0;
     public List<Character> list = new List<Character>();
+    public List<SkillDataClass> SkillList = new List<SkillDataClass>();
     void Start()
     {
 

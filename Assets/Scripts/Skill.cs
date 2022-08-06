@@ -19,6 +19,7 @@ public struct SkillInfo
 public class Skill : MonoBehaviour
 {
     SaveDataClass saveDataClass;
+    Data_Manager dataManager;
     Turn turn;
     CharacterMgr characterMgr;
     MonsterMgr monsterMgr;
@@ -88,51 +89,53 @@ public class Skill : MonoBehaviour
             Rare = 1
         }
         );
-    }    
-    /*
-    public static List<SkillInfo> skillList = new List<SkillInfo>
-    {
-        new SkillInfo(8,150,"1-1단계"),
-        new SkillInfo(17,250,"1-2단계"),
-        new SkillInfo(21,300,"1-3단계"),
-        new SkillInfo(35,550,"1-4단계"),
-        new SkillInfo(9,160,"2-1단계"),
-        new SkillInfo(17,250,"2-2단계"),
-        new SkillInfo(21,300,"2-3단계"),
-        new SkillInfo(35,550,"2-4단계"),
-        new SkillInfo(10,170,"3-1단계"),
-        new SkillInfo(17,250,"3-2단계"),
-        new SkillInfo(21,300,"3-3단계"),
-        new SkillInfo(35,550,"3-4단계"),
-        new SkillInfo(11,180,"4-1단계"),
-        new SkillInfo(17,250,"4-2단계"),
-        new SkillInfo(21,300,"4-3단계"),
-        new SkillInfo(35,550,"4-4단계"),
-        new SkillInfo(12,190,"5-1단계"),
-        new SkillInfo(17,250,"5-2단계"),
-        new SkillInfo(21,300,"5-3단계"),
-        new SkillInfo(35,550,"5-4단계"),
-        new SkillInfo(13,200,"6-1단계"),
-        new SkillInfo(17,250,"6-2단계"),
-        new SkillInfo(21,300,"6-3단계"),
-        new SkillInfo(35,550,"6-4단계"),
-        new SkillInfo(14,210,"7-1단계"),
-        new SkillInfo(17,250,"7-2단계"),
-        new SkillInfo(21,300,"7-3단계"),
-        new SkillInfo(35,550,"7-4단계"),
-        new SkillInfo(15,220,"8-1단계"),
-        new SkillInfo(17,250,"8-2단계"),
-        new SkillInfo(21,300,"8-3단계"),
-        new SkillInfo(35,550,"8-4단계")
-    };
-    */
+    }
+/*
+public static List<SkillInfo> skillList = new List<SkillInfo>
+{
+    new SkillInfo(8,150,"1-1단계"),
+    new SkillInfo(17,250,"1-2단계"),
+    new SkillInfo(21,300,"1-3단계"),
+    new SkillInfo(35,550,"1-4단계"),
+    new SkillInfo(9,160,"2-1단계"),
+    new SkillInfo(17,250,"2-2단계"),
+    new SkillInfo(21,300,"2-3단계"),
+    new SkillInfo(35,550,"2-4단계"),
+    new SkillInfo(10,170,"3-1단계"),
+    new SkillInfo(17,250,"3-2단계"),
+    new SkillInfo(21,300,"3-3단계"),
+    new SkillInfo(35,550,"3-4단계"),
+    new SkillInfo(11,180,"4-1단계"),
+    new SkillInfo(17,250,"4-2단계"),
+    new SkillInfo(21,300,"4-3단계"),
+    new SkillInfo(35,550,"4-4단계"),
+    new SkillInfo(12,190,"5-1단계"),
+    new SkillInfo(17,250,"5-2단계"),
+    new SkillInfo(21,300,"5-3단계"),
+    new SkillInfo(35,550,"5-4단계"),
+    new SkillInfo(13,200,"6-1단계"),
+    new SkillInfo(17,250,"6-2단계"),
+    new SkillInfo(21,300,"6-3단계"),
+    new SkillInfo(35,550,"6-4단계"),
+    new SkillInfo(14,210,"7-1단계"),
+    new SkillInfo(17,250,"7-2단계"),
+    new SkillInfo(21,300,"7-3단계"),
+    new SkillInfo(35,550,"7-4단계"),
+    new SkillInfo(15,220,"8-1단계"),
+    new SkillInfo(17,250,"8-2단계"),
+    new SkillInfo(21,300,"8-3단계"),
+    new SkillInfo(35,550,"8-4단계")
+};
+*/
 
-    // Start is called before the first frame update
-    void Start()
+// Start is called before the first frame update
+void Start()
     {
         turn = GameObject.FindWithTag("TurnMgr").GetComponent<Turn>();//Trun 스크립트에서 변수 가져오기
         characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
         monsterMgr = GameObject.FindWithTag("Monster").GetComponent<MonsterMgr>();//MonsterMgr 스크립트에서 변수 가져오기
+        dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
+        AddSkillData();
     }
 
     // Update is called once per frame

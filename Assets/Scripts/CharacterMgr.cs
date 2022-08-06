@@ -54,10 +54,10 @@ public class CharacterMgr : MonoBehaviour
     public GameObject characterCondition3;
     public GameObject characterCondition4;
 
-    public Image characterConditionImage1;
-    public Image characterConditionImage2;
-    public Image characterConditionImage3;
-    public Image characterConditionImage4;
+    Image characterConditionImage1;
+    Image characterConditionImage2;
+    Image characterConditionImage3;
+    Image characterConditionImage4;
 
     public int playerFullHP;//플레이어 총 HP;
     public int firstPlayer;//첫번째 플레이어 
