@@ -9,18 +9,18 @@ public class Character//캐릭터 DB
     public Sprite Img = null;
     public string Name = "";
     public int HP = 0;
-    public int Energe = 0;
+    public int Attribute = 0;
     public int ATK = 0;
     public string Type = "";
     public int Stone = 0;
     public int Star = 1;
 
-    public Character(Sprite i = null, string n = "무명", int h = 0,int e = 0, int a = 0, string t = "없음", int s = 0, int S = 1)
+    public Character(Sprite i = null, string n = "무명", int h = 0,int A = 0, int a = 0, string t = "없음", int s = 0, int S = 1)
     {
         this.Img = i;
         this.Name = n;
         this.HP = h;
-        this.Energe = e;
+        this.Attribute = A;
         this.ATK = a;
         this.Type = t;
         this.Stone = s;

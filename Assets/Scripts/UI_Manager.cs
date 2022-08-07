@@ -22,17 +22,18 @@ public class UI_Manager : MonoBehaviour
     public Text changeStat;
     public Text leftPiece;
     public Text usePiece;
-
+    public float time = 0;
     void Awake()
     {
         data = GameObject.Find("Data_Manager").GetComponent<DataManager>();
     }
     void Start()
     {
+        Load();
         changeStat.text = "스탯 변화 : +" + presentStatNum.ToString() + "% -> +" + futureStatNum.ToString() + "%";
         leftPiece.text = "남은 기억의 조각 : " + leftPiecesNum.ToString();
         usePiece.text = "사용할 기억의 조각 : " + basicSettingNum.ToString();
-        Load();
+        
     }
 
    
@@ -90,6 +91,9 @@ public class UI_Manager : MonoBehaviour
                 break;
             case 2:
                 UI("Gacha");
+                break;
+            case 3:
+                UI("Quest");
                 break;
         }
     }
@@ -169,20 +173,18 @@ public class UI_Manager : MonoBehaviour
             Vector3 pos = new Vector3(43 + (x * 259f), 1395 - (y * 253));
             temp.transform.position = pos;
             temp.name = data.saveData.my_characterList[i].Name;
-            temp.GetComponent<Image>().sprite = data.saveData.my_characterList[i].Img;//보여주기식용, 나중에 리스트 먼저 나오면 수정해야함
+            temp.GetComponent<Image>().sprite = data.saveData.my_characterList[i].Img;
             temp.transform.GetComponent<Button>().onClick.AddListener(Unit_Choose);
             i++;
         }
         for(i = 0; i < 4; i++)
         { 
             GameObject target = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Teams").transform.Find("Character" + (i+1).ToString()).gameObject;
-            if(data.saveData.my_team[4*tap + i].Img is null)
-                target.transform.GetChild(0).GetComponent<Image>().sprite = null;
-            else
-                target.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_team[4*tap + i].Img;
-                target.transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].HP.ToString();
-                target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].ATK.ToString();
-                target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].Type;
+
+            target.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_team[4*tap + i].Img;
+            target.transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].HP.ToString();
+            target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].ATK.ToString();
+            target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].Type;
         }
     }
 
@@ -218,56 +220,113 @@ public class UI_Manager : MonoBehaviour
 
     void Unit_Choose()
     {
-        if(!upgrade)
+        GameObject Unit = EventSystem.current.currentSelectedGameObject;
+
+        if(time < 1f)
         {
-            GameObject panel = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Select_Tap").gameObject;
-            string idx = panel.transform.Find("Text").gameObject.GetComponent<Text>().text.Substring(0,1);
-            switch(idx)
-            {
-                case "첫":
-                    idx = "1";
-                    break;
-                case "두":
-                    idx = "2";
-                    break;
-                case "세":
-                    idx = "3";
-                    break;
-                case "네":
-                    idx = "4";
-                    break;
-            }
-            GameObject target = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Teams").transform.Find("Character" + idx).gameObject;
-            GameObject Unit = EventSystem.current.currentSelectedGameObject;
-            for(int i = 0; i < data.saveData.my_characterList.Count; i++)
-            {
-                if(Unit.name == data.saveData.my_characterList[i].Name)
+            if(!upgrade)
+            {   
+                GameObject panel = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Select_Tap").gameObject;
+                string idx = panel.transform.Find("Text").gameObject.GetComponent<Text>().text.Substring(0,1);
+                switch(idx)
                 {
-                    target.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_characterList[i].Img;
-                    target.transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_characterList[i].HP.ToString();
-                    target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_characterList[i].ATK.ToString();
-                    target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_characterList[i].Type;
-                    data.saveData.my_team[4*tap+int.Parse(idx)-1] = data.saveData.my_characterList[i];
-                    UI_LEVEL2_Controll(1);
-                    break;
+                    case "첫":
+                        idx = "1";
+                        break;
+                    case "두":
+                        idx = "2";
+                        break;
+                    case "세":
+                        idx = "3";
+                        break;
+                    case "네":
+                        idx = "4";
+                        break;
+                }
+                GameObject target = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Teams").transform.Find("Character" + idx).gameObject;
+                
+                for(int i = 0; i < data.saveData.my_characterList.Count; i++)
+                {
+                    if(Unit.name == data.saveData.my_characterList[i].Name)
+                    {
+                        target.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_characterList[i].Img;
+                        target.transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_characterList[i].HP.ToString();
+                        target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_characterList[i].ATK.ToString();
+                        target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_characterList[i].Type;
+                        data.saveData.my_team[4*tap+int.Parse(idx)-1] = data.saveData.my_characterList[i];
+                        UI_LEVEL2_Controll(1);
+                        break;
+                    }
+                }
+            }
+            else
+            {
+                UI("Team","Unit_Upgrade_Tap");
+                GameObject panel = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Upgrade_Tap").gameObject;
+                GameObject target = panel.transform.Find("Image").gameObject;
+                
+                for(int i = 0; i < data.saveData.my_characterList.Count; i++)
+                {
+                    if(Unit.name == data.saveData.my_characterList[i].Name)
+                    {
+                        target.GetComponent<Image>().sprite = data.saveData.my_characterList[i].Img;
+                        break;
+                    }
                 }
             }
         }
         else
         {
-            UI("Team","Unit_Upgrade_Tap");
-            GameObject panel = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Upgrade_Tap").gameObject;
-            GameObject target = panel.transform.Find("Image").gameObject;
-            GameObject Unit = EventSystem.current.currentSelectedGameObject;
+            UI("Team","Unit_Details");
+            GameObject target = GameObject.Find("Unit_Details");
             for(int i = 0; i < data.saveData.my_characterList.Count; i++)
             {
                 if(Unit.name == data.saveData.my_characterList[i].Name)
                 {
-                    target.GetComponent<Image>().sprite = data.saveData.my_characterList[i].Img;
+                    Color col;
+                    string txt;
+                    switch(data.saveData.my_characterList[i].Attribute)
+                    {
+                        case 0:
+                            col = new Color(1,0,0);
+                            txt = "불";
+                            break;
+                        case 1:
+                            col = new Color(0,0,1);
+                            txt = "물";
+                            break;
+                        case 2:
+                            col = new Color(0,1,0);
+                            txt = "독";
+                            break;
+                        case 3:
+                            col = new Color(1,1,0);
+                            txt = "기타";
+                            break;
+                        case 4:
+                            col = new Color(0.5f,0.5f,0.5f);
+                            txt = "기타";
+                            break;
+                        default :
+                            col = new Color(1,1,1); 
+                            txt = "";
+                            break;
+                    }
+                    target.transform.GetChild(0).GetComponent<Image>().color = col;
+                    target.transform.GetChild(0).transform.GetChild(0).transform.GetChild(0).GetComponent<Text>().text = txt;
+                    target.transform.GetChild(0).transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_characterList[i].Name;
+                    target.transform.GetChild(1).GetComponent<Image>().sprite = data.saveData.my_characterList[i].Img;
+                    target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_characterList[i].HP.ToString();
+                    target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_characterList[i].ATK.ToString();
+                    float extra_hp = data.saveData.my_characterList[i].HP * 0.2f, extra_atk = data.saveData.my_characterList[i].ATK * 0.2f;
+                    target.transform.GetChild(4).GetComponent<Text>().text = ((int)(extra_hp*data.saveData.my_characterList[i].Stone)).ToString();
+                    target.transform.GetChild(5).GetComponent<Text>().text = ((int)(extra_atk*data.saveData.my_characterList[i].Stone)).ToString();
+                    target.transform.GetChild(6).GetComponent<Text>().text = data.saveData.my_characterList[i].Type;
                     break;
                 }
             }
         }
+        
     }
 
 
