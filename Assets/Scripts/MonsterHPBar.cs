@@ -19,7 +19,7 @@ public class MonsterHPBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        mobHPRate = (float)monsterMgr.monsterHP / (float)monsterMgr.monsterFullHP;
+        mobHPRate = (float)monsterMgr.currentMonsterHP / (float)monsterMgr.monsterFullHP;
         mobHealthBar.fillAmount = mobHPRate;
     }
 }

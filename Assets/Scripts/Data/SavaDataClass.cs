@@ -9,21 +9,23 @@ public class TeamSet//팀 번호 저장
     public Character[,] team_set = new Character[3,4];
 }
 [System.Serializable]
-public class Character
+public class Character//캐릭터 DB
 {
     public Sprite Img = null;
     public string Name = "";
     public int HP = 0;
+    public int Energe = 0;
     public int ATK = 0;
     public string Type = "";
     public int Stone = 0;
     public int Star = 1;
 
-    public Character(Sprite i = null, string n = "무명", int h = 0, int a = 0, string t = "없음", int s = 0, int S = 1)
+    public Character(Sprite i = null, string n = "무명", int h = 0,int e = 0, int a = 0, string t = "없음", int s = 0, int S = 1)
     {
         this.Img = i;
         this.Name = n;
         this.HP = h;
+        this.Energe = e;
         this.ATK = a;
         this.Type = t;
         this.Stone = s;
@@ -63,12 +65,33 @@ public class SkillDataClass//스킬DB
     }
 }
 [System.Serializable]
+public class MonsterDataClass//몬스터 DB
+{
+    public int World = 1;//1:월령, 2:엠피레오, 3: 제한 구역, 4: 전체
+    public int Attribute = 1;//속성
+    public string Name = "";//이름
+    public int Stage = 1;//스테이지
+    public int HP = 0;//HP
+    public int Attack = 0;//공격력
+
+    public MonsterDataClass(int w=1,int a=1,string n="",int s=1,int h=0,int at = 0)
+    {
+        this.World = w;
+        this.Attribute = a;
+        this.Name = "";
+        this.Stage = s;
+        this.HP = h;
+        this.Attribute = at;
+    }
+}
+[System.Serializable]
 public class SaveDataClass
 {
     public List<Character> list;
     public List<Character> my_characterList;//내가 가지고 있는 캐릭
     public List<int> money;//재화
     public List<SkillDataClass> skillList;//스킬 리스트
+    public List<MonsterDataClass> monsterList;//몬스터 리스트
     //스테이지 진행정도
     public TeamSet my_team;
     public SaveDataClass()
@@ -78,5 +101,6 @@ public class SaveDataClass
         my_characterList= new List<Character>();
         my_team = new TeamSet();
         skillList = new List<SkillDataClass>();
+        monsterList = new List<MonsterDataClass>();
     }
 }

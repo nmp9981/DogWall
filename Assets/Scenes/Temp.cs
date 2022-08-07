@@ -8,9 +8,9 @@ public class Temp : MonoBehaviour
 {
     // Start is called before the first frame update
     DataManager data;
-    public InputField A,B,C,D,E,F;
+    public InputField A,B,C,D,E,F,G;
     public Image img;
-    string a,b,c,d,e,f;
+    string a,b,c,d,e,f,g;
     void Start()
     {
        data = GameObject.Find("Manager").GetComponent<DataManager>();
@@ -30,7 +30,8 @@ public class Temp : MonoBehaviour
         d = D.text;
         e = E.text;
         f = F.text;
-        data.saveData.list.Add(new Character(img.sprite, a,int.Parse(b),int.Parse(c), d, int.Parse(e), int.Parse(f)));
+        g = G.text;
+        data.saveData.list.Add(new Character(img.sprite, a,int.Parse(b),int.Parse(c),int.Parse(g), d, int.Parse(e), int.Parse(f)));
         img.sprite = null;
         A.text = "";
         B.text = "";
@@ -38,6 +39,7 @@ public class Temp : MonoBehaviour
         D.text = d;
         E.text = e;
         F.text = f;
+        G.text = g;
     }
 
     public void Save_Data()

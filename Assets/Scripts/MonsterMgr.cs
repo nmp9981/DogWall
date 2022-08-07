@@ -32,8 +32,7 @@ public class MonsterMgr : MonoBehaviour
     public Text stageText;//스테이지 번호
 
     public int monsterFullHP;//몬스터 전체 체력
-    public int monsterHP;//몬스터 체력
-    bool isMonsterBlood = true;//몬스터 출혈 여부
+    public int currentMonsterHP;//몬스터 현재 체력
     public int monsterAttackDamage;//몬스터 공격 데미지
     public int monsterAttribute;//몬스터 속성
 
@@ -47,7 +46,7 @@ public class MonsterMgr : MonoBehaviour
         skill = GameObject.FindWithTag("Skill").GetComponent<Skill>();//Skill 스크립트에서 변수 가져오기
 
         monsterFullHP = monsterList[0].monsterHP;//몬스터 체력 초기화
-        monsterHP = monsterFullHP;//처음엔 풀피
+        currentMonsterHP = monsterFullHP;//처음엔 풀피
         monsterAttackDamage = monsterList[0].monsterAttack;//몬스터 공격력
         monsterAttribute = monsterList[0].monsterAttribute;//몬스터 속성
     }
@@ -55,21 +54,19 @@ public class MonsterMgr : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
     //출혈 데미지 계산
     public void MonsterBloodDamage(int hitDamage)
     {
-        if (isMonsterBlood)
-        {
-            monsterHP = Mathf.Max(monsterHP - hitDamage, 0);
-        }
+        currentMonsterHP = Mathf.Max(currentMonsterHP - hitDamage, 0);
     }
     //몬스터가 죽었는가?
     public bool IsMonsterDie()
     {
-        if (monsterHP <= 0)
+        if (currentMonsterHP <= 0)
         {
+            NextStage();//다음 스테이지로
             return true;
         }
         else

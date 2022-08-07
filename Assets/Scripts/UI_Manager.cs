@@ -29,11 +29,11 @@ public class UI_Manager : MonoBehaviour
     }
     void Start()
     {
-        Character_ADD("Monster Dummy/000","질퍽이",10,10,"몰루?");
-        Character_ADD("Monster Dummy/111","꼬북이",10,10,"물");
-        Character_ADD("Monster Dummy/121","잉어킹",10,10,"물");
-        Character_ADD("Monster Dummy/212","고라파덕",10,10,"물");
-        Character_ADD("Monster Dummy/333","뭐더라",10,10,"어둠");
+        Character_ADD("Monster Dummy/000","질퍽이",10,5,10,"몰루?");
+        Character_ADD("Monster Dummy/111","꼬북이",10,5,10,"물");
+        Character_ADD("Monster Dummy/121","잉어킹",10,5,10,"물");
+        Character_ADD("Monster Dummy/212","고라파덕",10,5,10,"물");
+        Character_ADD("Monster Dummy/333","뭐더라",10,5,10,"어둠");
 
         changeStat.text = "스탯 변화 : +" + presentStatNum.ToString() + "% -> +" + futureStatNum.ToString() + "%";
         leftPiece.text = "남은 기억의 조각 : " + leftPiecesNum.ToString();
@@ -45,11 +45,11 @@ public class UI_Manager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            Character_ADD("Monster Dummy/000","질퍽이",10,10,"몰루?");
-            Character_ADD("Monster Dummy/111","꼬북이",10,10,"물");
-            Character_ADD("Monster Dummy/121","잉어킹",10,10,"물");
-            Character_ADD("Monster Dummy/212","고라파덕",10,10,"물");
-            Character_ADD("Monster Dummy/333","뭐더라",10,10,"어둠");
+            Character_ADD("Monster Dummy/000","질퍽이",10,5,10,"몰루?");
+            Character_ADD("Monster Dummy/111","꼬북이",10,5,10,"물");
+            Character_ADD("Monster Dummy/121","잉어킹",10,5,10,"물");
+            Character_ADD("Monster Dummy/212","고라파덕",5,10,10,"물");
+            Character_ADD("Monster Dummy/333","뭐더라",10,5,10,"어둠");
         }
     }
     public void UI_LEVEL1_Controll(int level)
@@ -134,10 +134,10 @@ public class UI_Manager : MonoBehaviour
         }
     }
 
-    public void Character_ADD(string path, string name, int hp, int atk, string type)
+    public void Character_ADD(string path, string name, int hp,int energe, int atk, string type)
     {
         //string Path = Monster Dummy/ + path =>이런식으로 수정해서 쓸거임
-        data.Add_Character(path,name,hp,atk,type);
+        data.Add_Character(path,name,hp,energe,atk,type);
         int i = data.Get_Character_Count();
         x = (i-1) % 4;
         y = (i - x) / 4;
