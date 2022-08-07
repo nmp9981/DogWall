@@ -324,7 +324,7 @@ void Start()
         //출혈은 지속데미지 인가?
 
         int playerAttribute = CharacterMgr.characterList[number/4].characterAttribute;//플레이어 속성
-        int monsterAttribute = MonsterMgr.monsterList[0].monsterAttribute;//몬스터 속성
+        int monsterAttribute = dataManager.MonsterList[0].Attribute;//몬스터 속성
         int attributeDamage = characterMgr.CheckAttribute(playerAttribute, monsterAttribute);//속성 데미지
 
         playerAttack = CharacterMgr.characterList[number/4].characterAttack;//캐릭터 초기 공격력

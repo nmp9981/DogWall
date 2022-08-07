@@ -3,29 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-//몬스터 정보
-public struct MonsterInfo
-{
-    public int monsterHP, monsterAttack, monsterAttribute;
-
-    public MonsterInfo(int monsterHP, int monsterAttack, int monsterAttribute)
-    {
-        this.monsterHP = monsterHP;
-        this.monsterAttack = monsterAttack;
-        this.monsterAttribute = monsterAttribute;
-    }
-}
-
 public class MonsterMgr : MonoBehaviour
 {
-    //몬스터 배열 선언 
-    public static List<MonsterInfo> monsterList = new List<MonsterInfo>
-    {
-        new MonsterInfo(1000000,2700,1),
-        new MonsterInfo(1300000,3200,2),
-        new MonsterInfo(2200000,4000,3)
-    };
-
+    Data_Manager dataManager;
     CharacterMgr characterMgr;
     Skill skill;
     Turn turn;
@@ -38,17 +18,47 @@ public class MonsterMgr : MonoBehaviour
 
     int stage = 1;//스테이지
 
+    void LoadMonsterData()
+    {
+        dataManager.Add_Monster(1, 1, "왕궁영술사", 1, 3500, 3000);
+        dataManager.Add_Monster(1, 1, "왕궁영술사", 2, 4200, 3600);
+        dataManager.Add_Monster(1, 1, "왕궁영술사", 3, 5040, 4320);
+        dataManager.Add_Monster(1, 1, "도깨비", 1, 4500, 2000);
+        dataManager.Add_Monster(1, 1, "도깨비", 2, 5400, 2400);
+        dataManager.Add_Monster(1, 1, "도깨비", 3, 6480, 2880);
+        dataManager.Add_Monster(1, 2, "왕궁영술사", 1, 3500, 3000);
+        dataManager.Add_Monster(1, 2, "왕궁영술사", 2, 4200, 3600);
+        dataManager.Add_Monster(1, 2, "왕궁영술사", 3, 5040, 4320);
+        dataManager.Add_Monster(1, 2, "도깨비", 1, 4500, 2000);
+        dataManager.Add_Monster(1, 2, "도깨비", 2, 5400, 2400);
+        dataManager.Add_Monster(1, 2, "도깨비", 3, 6480, 2880);
+        dataManager.Add_Monster(1, 2, "언령", 1, 3000, 5000);
+        dataManager.Add_Monster(1, 2, "언령", 2, 3600, 6000);
+        dataManager.Add_Monster(1, 2, "언령", 3, 4320, 7200);
+        dataManager.Add_Monster(1, 3, "왕궁영술사", 1, 3500, 3000);
+        dataManager.Add_Monster(1, 3, "왕궁영술사", 2, 4200, 3600);
+        dataManager.Add_Monster(1, 3, "왕궁영술사", 3, 5040, 4320);
+        dataManager.Add_Monster(1, 3, "도깨비", 1, 4500, 2000);
+        dataManager.Add_Monster(1, 3, "도깨비", 2, 5400, 2400);
+        dataManager.Add_Monster(1, 3, "도깨비", 3, 6480, 2880);
+        dataManager.Add_Monster(1, 3, "언령", 1, 3000, 5000);
+        dataManager.Add_Monster(1, 3, "언령", 2, 3600, 6000);
+        dataManager.Add_Monster(1, 3, "언령", 3, 4320, 7200);
+    }
     // Start is called before the first frame update
     void Start()
     {
         characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
         turn = GameObject.FindWithTag("TurnMgr").GetComponent<Turn>();//Trun 스크립트에서 변수 가져오기
         skill = GameObject.FindWithTag("Skill").GetComponent<Skill>();//Skill 스크립트에서 변수 가져오기
+        dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
 
-        monsterFullHP = monsterList[0].monsterHP;//몬스터 체력 초기화
+        LoadMonsterData();//데이터 불러오기
+
+        monsterFullHP = dataManager.MonsterList[0].HP*100;//몬스터 체력 초기화
         currentMonsterHP = monsterFullHP;//처음엔 풀피
-        monsterAttackDamage = monsterList[0].monsterAttack;//몬스터 공격력
-        monsterAttribute = monsterList[0].monsterAttribute;//몬스터 속성
+        monsterAttackDamage = dataManager.MonsterList[0].Attack;//몬스터 공격력
+        monsterAttribute = dataManager.MonsterList[0].Attribute;//몬스터 속성
     }
 
     // Update is called once per frame
@@ -57,9 +67,9 @@ public class MonsterMgr : MonoBehaviour
         
     }
     //출혈 데미지 계산
-    public void MonsterBloodDamage(int hitDamage)
+    public void MonsterBloodDamage(int hitDamage,int HP)
     {
-        currentMonsterHP = Mathf.Max(currentMonsterHP - hitDamage, 0);
+        currentMonsterHP = Mathf.Max(HP - hitDamage, 0);
     }
     //몬스터가 죽었는가?
     public bool IsMonsterDie()

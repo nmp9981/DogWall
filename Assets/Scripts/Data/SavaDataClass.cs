@@ -74,14 +74,14 @@ public class MonsterDataClass//몬스터 DB
     public int HP = 0;//HP
     public int Attack = 0;//공격력
 
-    public MonsterDataClass(int w=1,int a=1,string n="",int s=1,int h=0,int at = 0)
+    public MonsterDataClass(int w=1,int a=1,string n="1",int s=1,int h=0,int at = 0)
     {
         this.World = w;
         this.Attribute = a;
-        this.Name = "";
+        this.Name = n;
         this.Stage = s;
         this.HP = h;
-        this.Attribute = at;
+        this.Attack = at;
     }
 }
 [System.Serializable]

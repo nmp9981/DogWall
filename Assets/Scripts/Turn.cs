@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Turn : MonoBehaviour
 {
+    Data_Manager dataManager;
     CharacterMgr characterMgr;
     MonsterMgr monsterMgr;
     TeamSelect teamSelect;
@@ -52,6 +53,7 @@ public class Turn : MonoBehaviour
     public int skillNumber = 1;  // 스킬 확인용 변수
     public int stageNumber = 1; // 스테이지
     public int skillCount = 0;//스킬을 사용한 캐릭터의 수
+    public int mobHP;//몬스터 HP
 
     public List<int> playerSkillSelect = new List<int>();
     public List<int> monsters = new List<int>();
@@ -79,10 +81,10 @@ public class Turn : MonoBehaviour
         monsterMgr = GameObject.FindWithTag("Monster").GetComponent<MonsterMgr>();//MonsterMgr 스크립트에서 변수 가져오기
         teamSelect = GameObject.FindWithTag("TeamSelect").GetComponent<TeamSelect>();//TeamSelect 스크립트에서 변수 가져오기
         skill = GameObject.FindWithTag("Skill").GetComponent<Skill>();//Skill 스크립트에서 변수 가져오기
+        dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
 
         turnText.text = totalTurnNumber.ToString();
         stageText.text = stageNumber + "/3";
-
 
         firstAttack = true; // 선제공격 여부 임의로 설정
 
@@ -129,6 +131,7 @@ public class Turn : MonoBehaviour
 
     public void turnEnd()
     {
+        mobHP = dataManager.MonsterList[0].HP*100;//임의의 몬스터 HP 설정
         //스킬계산
         totalDamage = 0;//초기화
         //4개의 스킬
@@ -143,7 +146,7 @@ public class Turn : MonoBehaviour
             characterMgr.ColorCondition(skill.playerAttack, i, skillNumber);//캐릭터 상태 이상 색상 표시
             totalDamage += skill.skillAttackDamage(skillNumber);//데미지 누적
         }
-        monsterMgr.MonsterBloodDamage(totalDamage);//몬스터 데미지
+        monsterMgr.MonsterBloodDamage(totalDamage,mobHP);//몬스터 데미지
         totalTurnNumber += 1;
         turnText.text = totalTurnNumber.ToString();
 
