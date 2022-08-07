@@ -6,6 +6,7 @@
             },
             "Name": "견습마법사",
             "HP": 5500,
+            "Energe": 0,
             "ATK": 4500,
             "Type": "수비형",
             "Stone": 0,
@@ -17,6 +18,7 @@
             },
             "Name": "켄타우로스",
             "HP": 5000,
+            "Energe": 0,
             "ATK": 5000,
             "Type": "수비형",
             "Stone": 0,
@@ -28,6 +30,7 @@
             },
             "Name": "왕궁영술사",
             "HP": 4000,
+            "Energe": 0,
             "ATK": 6000,
             "Type": "공격형",
             "Stone": 0,
@@ -39,6 +42,7 @@
             },
             "Name": "정",
             "HP": 4500,
+            "Energe": 0,
             "ATK": 5500,
             "Type": "공격형",
             "Stone": 0,
@@ -50,6 +54,7 @@
             },
             "Name": "정령",
             "HP": 5500,
+            "Energe": 0,
             "ATK": 4500,
             "Type": "치유형",
             "Stone": 0,
@@ -61,12 +66,282 @@
             },
             "Name": "견습마법사",
             "HP": 5000,
+            "Energe": 0,
             "ATK": 5000,
             "Type": "지원형",
             "Stone": 0,
             "Star": 1
         }
     ],
-    "my_list": [],
-    "my_team": {}
+    "my_characterList": [
+        {
+            "Img": {
+                "instanceID": 14708
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 14712
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "ATK": 10,
+            "Type": "물",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 14716
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "ATK": 10,
+            "Type": "물",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 14720
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "ATK": 10,
+            "Type": "물",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 14728
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "ATK": 10,
+            "Type": "어둠",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 14708
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 14712
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "ATK": 10,
+            "Type": "물",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 14716
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "ATK": 10,
+            "Type": "물",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 14720
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "ATK": 10,
+            "Type": "물",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 14728
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "ATK": 10,
+            "Type": "어둠",
+            "Stone": 0,
+            "Star": 1
+        }
+    ],
+    "money": [],
+    "skillList": [],
+    "monsterList": [],
+    "my_team": [
+        {
+            "Img": {
+                "instanceID": 14728
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "ATK": 10,
+            "Type": "어둠",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 14712
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "ATK": 10,
+            "Type": "물",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 14716
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "ATK": 10,
+            "Type": "물",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 0
+            },
+            "Name": "무명",
+            "HP": 0,
+            "Energe": 0,
+            "ATK": 0,
+            "Type": "없음",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 0
+            },
+            "Name": "무명",
+            "HP": 0,
+            "Energe": 0,
+            "ATK": 0,
+            "Type": "없음",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 0
+            },
+            "Name": "무명",
+            "HP": 0,
+            "Energe": 0,
+            "ATK": 0,
+            "Type": "없음",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 0
+            },
+            "Name": "무명",
+            "HP": 0,
+            "Energe": 0,
+            "ATK": 0,
+            "Type": "없음",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 0
+            },
+            "Name": "무명",
+            "HP": 0,
+            "Energe": 0,
+            "ATK": 0,
+            "Type": "없음",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 0
+            },
+            "Name": "무명",
+            "HP": 0,
+            "Energe": 0,
+            "ATK": 0,
+            "Type": "없음",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 0
+            },
+            "Name": "무명",
+            "HP": 0,
+            "Energe": 0,
+            "ATK": 0,
+            "Type": "없음",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 0
+            },
+            "Name": "무명",
+            "HP": 0,
+            "Energe": 0,
+            "ATK": 0,
+            "Type": "없음",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "Img": {
+                "instanceID": 0
+            },
+            "Name": "무명",
+            "HP": 0,
+            "Energe": 0,
+            "ATK": 0,
+            "Type": "없음",
+            "Stone": 0,
+            "Star": 1
+        }
+    ]
 }

@@ -9,7 +9,8 @@ public class UI_Manager : MonoBehaviour
 {
     public int level1 = 0, level2 = 0;
     public int x = 0, y = 0;
-    Data_Manager data;
+    int tap = 0;
+    DataManager data;
     private bool upgrade = false;
     private bool fullStat = false;
     [SerializeField] int leftPiecesNum = 10; // 진짜 데이터는 받아서 써야함 구색만 맞춰 놓은 거임
@@ -21,23 +22,17 @@ public class UI_Manager : MonoBehaviour
     public Text changeStat;
     public Text leftPiece;
     public Text usePiece;
-    DataManager dm;
 
     void Awake()
     {
-        data = GameObject.Find("Data_Manager").GetComponent<Data_Manager>();
+        data = GameObject.Find("Data_Manager").GetComponent<DataManager>();
     }
     void Start()
     {
-        Character_ADD("Monster Dummy/000","질퍽이",10,5,10,"몰루?");
-        Character_ADD("Monster Dummy/111","꼬북이",10,5,10,"물");
-        Character_ADD("Monster Dummy/121","잉어킹",10,5,10,"물");
-        Character_ADD("Monster Dummy/212","고라파덕",10,5,10,"물");
-        Character_ADD("Monster Dummy/333","뭐더라",10,5,10,"어둠");
-
         changeStat.text = "스탯 변화 : +" + presentStatNum.ToString() + "% -> +" + futureStatNum.ToString() + "%";
         leftPiece.text = "남은 기억의 조각 : " + leftPiecesNum.ToString();
         usePiece.text = "사용할 기억의 조각 : " + basicSettingNum.ToString();
+        Load();
     }
 
    
@@ -99,6 +94,22 @@ public class UI_Manager : MonoBehaviour
         }
     }
 
+    public void Tap(int a)
+    {
+        tap = a;
+        for(int i = 0; i < 4; i++)
+        { 
+            GameObject target = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Teams").transform.Find("Character" + (i+1).ToString()).gameObject;
+            if(data.saveData.my_team[4*tap + i].Img is null)
+                target.transform.GetChild(0).GetComponent<Image>().sprite = null;
+            else
+                target.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_team[4*tap + i].Img;
+                target.transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].HP.ToString();
+                target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].ATK.ToString();
+                target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].Type;
+        }
+        data.Save();
+    }
     void UI(string name)//level1 변경용, 켜고싶은 UI이름
     {
         GameObject root = GameObject.Find("Canvas").gameObject;
@@ -134,24 +145,45 @@ public class UI_Manager : MonoBehaviour
         }
     }
 
-    public void Character_ADD(string path, string name, int hp,int energe, int atk, string type)
+    public void Character_ADD(string path, string name, int hp,int energy, int atk, string type)
     {
         //string Path = Monster Dummy/ + path =>이런식으로 수정해서 쓸거임
-        data.Add_Character(path,name,hp,energe,atk,type);
-        int i = data.Get_Character_Count();
-        x = (i-1) % 4;
-        y = (i - x) / 4;
-        
-        Transform parent = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Select_Tap").transform.Find("Scroll View").transform.Find("Viewport").transform.Find("Content").gameObject.GetComponent<Transform>();
-        if(y>=4)
-            parent.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,1000 + (y-3)*300);
-        GameObject temp = Instantiate(Resources.Load<GameObject>("Prefabs/Ch"));
-        temp.transform.SetParent(parent);
-        Vector3 pos = new Vector3(43 + (x * 259f), 1395 - (y * 253));
-        temp.transform.position = pos;
-        temp.name = data.list[i-1].Name;
-        temp.GetComponent<Image>().sprite = data.list[i-1].Img;//보여주기식용, 나중에 리스트 먼저 나오면 수정해야함
-        temp.transform.GetComponent<Button>().onClick.AddListener(Unit_Choose);
+        data.saveData.my_characterList.Add(new Character(Resources.Load<Sprite>(path),name,hp,energy,atk,type));
+        Load();
+    }
+
+    void Load()
+    {
+        int max = data.saveData.my_characterList.Count;
+        int i = 0;
+        while(i < max)
+        {
+            x = i % 4;
+            y = (i - x) / 4;
+            
+            Transform parent = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Select_Tap").transform.Find("Scroll View").transform.Find("Viewport").transform.Find("Content").gameObject.GetComponent<Transform>();
+            if(y>=4)
+                parent.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,1000 + (y-3)*300);
+            GameObject temp = Instantiate(Resources.Load<GameObject>("Prefabs/Ch"));
+            temp.transform.SetParent(parent);
+            Vector3 pos = new Vector3(43 + (x * 259f), 1395 - (y * 253));
+            temp.transform.position = pos;
+            temp.name = data.saveData.my_characterList[i].Name;
+            temp.GetComponent<Image>().sprite = data.saveData.my_characterList[i].Img;//보여주기식용, 나중에 리스트 먼저 나오면 수정해야함
+            temp.transform.GetComponent<Button>().onClick.AddListener(Unit_Choose);
+            i++;
+        }
+        for(i = 0; i < 4; i++)
+        { 
+            GameObject target = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Teams").transform.Find("Character" + (i+1).ToString()).gameObject;
+            if(data.saveData.my_team[4*tap + i].Img is null)
+                target.transform.GetChild(0).GetComponent<Image>().sprite = null;
+            else
+                target.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_team[4*tap + i].Img;
+                target.transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].HP.ToString();
+                target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].ATK.ToString();
+                target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].Type;
+        }
     }
 
     void Unit_Select_Change()
@@ -190,7 +222,6 @@ public class UI_Manager : MonoBehaviour
         {
             GameObject panel = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Select_Tap").gameObject;
             string idx = panel.transform.Find("Text").gameObject.GetComponent<Text>().text.Substring(0,1);
-            GameObject target;
             switch(idx)
             {
                 case "첫":
@@ -206,16 +237,17 @@ public class UI_Manager : MonoBehaviour
                     idx = "4";
                     break;
             }
-            target = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Teams").transform.Find("Character" + idx).gameObject;
+            GameObject target = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Teams").transform.Find("Character" + idx).gameObject;
             GameObject Unit = EventSystem.current.currentSelectedGameObject;
-            for(int i = 0; i < data.list.Count; i++)
+            for(int i = 0; i < data.saveData.my_characterList.Count; i++)
             {
-                if(Unit.name == data.list[i].Name)
+                if(Unit.name == data.saveData.my_characterList[i].Name)
                 {
-                    target.transform.GetChild(0).GetComponent<Image>().sprite = data.list[i].Img;
-                    target.transform.GetChild(1).GetComponent<Text>().text = data.list[i].HP.ToString();
-                    target.transform.GetChild(2).GetComponent<Text>().text = data.list[i].ATK.ToString();
-                    target.transform.GetChild(3).GetComponent<Text>().text = data.list[i].Type;
+                    target.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_characterList[i].Img;
+                    target.transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_characterList[i].HP.ToString();
+                    target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_characterList[i].ATK.ToString();
+                    target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_characterList[i].Type;
+                    data.saveData.my_team[4*tap+int.Parse(idx)-1] = data.saveData.my_characterList[i];
                     UI_LEVEL2_Controll(1);
                     break;
                 }
@@ -227,11 +259,11 @@ public class UI_Manager : MonoBehaviour
             GameObject panel = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Upgrade_Tap").gameObject;
             GameObject target = panel.transform.Find("Image").gameObject;
             GameObject Unit = EventSystem.current.currentSelectedGameObject;
-            for(int i = 0; i < data.list.Count; i++)
+            for(int i = 0; i < data.saveData.my_characterList.Count; i++)
             {
-                if(Unit.name == data.list[i].Name)
+                if(Unit.name == data.saveData.my_characterList[i].Name)
                 {
-                    target.GetComponent<Image>().sprite = data.list[i].Img;
+                    target.GetComponent<Image>().sprite = data.saveData.my_characterList[i].Img;
                     break;
                 }
             }

@@ -4,11 +4,6 @@ using UnityEngine;
 using System;
 
 [System.Serializable]
-public class TeamSet//팀 번호 저장
-{
-    public Character[,] team_set = new Character[3,4];
-}
-[System.Serializable]
 public class Character//캐릭터 DB
 {
     public Sprite Img = null;
@@ -93,13 +88,15 @@ public class SaveDataClass
     public List<SkillDataClass> skillList;//스킬 리스트
     public List<MonsterDataClass> monsterList;//몬스터 리스트
     //스테이지 진행정도
-    public TeamSet my_team;
+    public List<Character> my_team;
     public SaveDataClass()
     {
         //ㅇㅇ
         list = new List<Character>();
         my_characterList= new List<Character>();
-        my_team = new TeamSet();
+        my_team = new List<Character>();
+        for(int i = 0; i < 12; i++)
+            my_team.Add(new Character());
         skillList = new List<SkillDataClass>();
         monsterList = new List<MonsterDataClass>();
     }
