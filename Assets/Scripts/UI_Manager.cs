@@ -29,6 +29,8 @@ public class UI_Manager : MonoBehaviour
     }
     void Start()
     {
+        data.saveData.SetImg();
+        Debug.Log("Load실행");
         Load();
         changeStat.text = "스탯 변화 : +" + presentStatNum.ToString() + "% -> +" + futureStatNum.ToString() + "%";
         leftPiece.text = "남은 기억의 조각 : " + leftPiecesNum.ToString();
@@ -152,7 +154,7 @@ public class UI_Manager : MonoBehaviour
     public void Character_ADD(string path, string name, int hp,int energy, int atk, string type)
     {
         //string Path = Monster Dummy/ + path =>이런식으로 수정해서 쓸거임
-        data.saveData.my_characterList.Add(new Character(path,name,hp,energy,atk,type));
+        data.saveData.my_characterList.Add(new Character(path,Resources.Load<Sprite>(path),name,hp,energy,atk,type));
         Load();
     }
 

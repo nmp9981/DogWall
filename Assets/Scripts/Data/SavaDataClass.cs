@@ -16,9 +16,10 @@ public class Character//캐릭터 DB
     public int Stone = 0;
     public int Star = 1;
 
-    public Character(string path = "", string n = "무명", int h = 0,int A = 0, int a = 0, string t = "없음", int s = 0, int S = 1)
+    public Character(string path = "",Sprite img = null, string n = "무명", int h = 0,int A = 0, int a = 0, string t = "없음", int s = 0, int S = 1)
     {
         this.img_path = path;
+        this.Img = img;
         this.Name = n;
         this.HP = h;
         this.Attribute = A;
@@ -100,6 +101,10 @@ public class SaveDataClass
             my_team.Add(new Character());
         skillList = new List<SkillDataClass>();
         monsterList = new List<MonsterDataClass>();
+    }
+    public void SetImg()
+    {
+        Debug.Log("실행");
         foreach(Character a in list)
             if(a.img_path != "")
                 a.Img = Resources.Load<Sprite>(a.img_path);
@@ -109,5 +114,6 @@ public class SaveDataClass
         foreach(Character a in my_team)
             if(a.img_path != "")
                 a.Img = Resources.Load<Sprite>(a.img_path);
+        Debug.Log("종료");
     }
 }

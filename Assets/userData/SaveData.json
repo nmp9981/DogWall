@@ -1,82 +1,10 @@
 {
-    "list": [
-        {
-            "Img": {
-                "instanceID": 0
-            },
-            "Name": "견습마법사",
-            "HP": 5500,
-            "Attribute": 0,
-            "ATK": 4500,
-            "Type": "수비형",
-            "Stone": 0,
-            "Star": 1
-        },
-        {
-            "Img": {
-                "instanceID": 0
-            },
-            "Name": "켄타우로스",
-            "HP": 5000,
-            "Attribute": 0,
-            "ATK": 5000,
-            "Type": "수비형",
-            "Stone": 0,
-            "Star": 1
-        },
-        {
-            "Img": {
-                "instanceID": 0
-            },
-            "Name": "왕궁영술사",
-            "HP": 4000,
-            "Attribute": 0,
-            "ATK": 6000,
-            "Type": "공격형",
-            "Stone": 0,
-            "Star": 1
-        },
-        {
-            "Img": {
-                "instanceID": 0
-            },
-            "Name": "정",
-            "HP": 4500,
-            "Attribute": 0,
-            "ATK": 5500,
-            "Type": "공격형",
-            "Stone": 0,
-            "Star": 1
-        },
-        {
-            "Img": {
-                "instanceID": 0
-            },
-            "Name": "정령",
-            "HP": 5500,
-            "Attribute": 0,
-            "ATK": 4500,
-            "Type": "치유형",
-            "Stone": 0,
-            "Star": 1
-        },
-        {
-            "Img": {
-                "instanceID": 0
-            },
-            "Name": "견습마법사",
-            "HP": 5000,
-            "Attribute": 0,
-            "ATK": 5000,
-            "Type": "지원형",
-            "Stone": 0,
-            "Star": 1
-        }
-    ],
+    "list": [],
     "my_characterList": [
         {
+            "img_path": "Monster Dummy/000",
             "Img": {
-                "instanceID": 14700
+                "instanceID": 14714
             },
             "Name": "질퍽이",
             "HP": 10,
@@ -87,8 +15,9 @@
             "Star": 1
         },
         {
+            "img_path": "Monster Dummy/111",
             "Img": {
-                "instanceID": 14704
+                "instanceID": 14748
             },
             "Name": "꼬북이",
             "HP": 10,
@@ -99,8 +28,9 @@
             "Star": 1
         },
         {
+            "img_path": "Monster Dummy/121",
             "Img": {
-                "instanceID": 14708
+                "instanceID": 14752
             },
             "Name": "잉어킹",
             "HP": 10,
@@ -111,8 +41,9 @@
             "Star": 1
         },
         {
+            "img_path": "Monster Dummy/212",
             "Img": {
-                "instanceID": 14712
+                "instanceID": 14720
             },
             "Name": "고라파덕",
             "HP": 5,
@@ -123,8 +54,9 @@
             "Star": 1
         },
         {
+            "img_path": "Monster Dummy/333",
             "Img": {
-                "instanceID": 14720
+                "instanceID": 14744
             },
             "Name": "뭐더라",
             "HP": 10,
@@ -135,8 +67,9 @@
             "Star": 1
         },
         {
+            "img_path": "Monster Dummy/000",
             "Img": {
-                "instanceID": 14700
+                "instanceID": 14714
             },
             "Name": "질퍽이",
             "HP": 10,
@@ -147,8 +80,9 @@
             "Star": 1
         },
         {
+            "img_path": "Monster Dummy/111",
             "Img": {
-                "instanceID": 14704
+                "instanceID": 14748
             },
             "Name": "꼬북이",
             "HP": 10,
@@ -159,8 +93,9 @@
             "Star": 1
         },
         {
+            "img_path": "Monster Dummy/121",
             "Img": {
-                "instanceID": 14708
+                "instanceID": 14752
             },
             "Name": "잉어킹",
             "HP": 10,
@@ -171,8 +106,9 @@
             "Star": 1
         },
         {
+            "img_path": "Monster Dummy/212",
             "Img": {
-                "instanceID": 14712
+                "instanceID": 14720
             },
             "Name": "고라파덕",
             "HP": 5,
@@ -183,8 +119,9 @@
             "Star": 1
         },
         {
+            "img_path": "Monster Dummy/333",
             "Img": {
-                "instanceID": 14720
+                "instanceID": 14744
             },
             "Name": "뭐더라",
             "HP": 10,
@@ -200,8 +137,35 @@
     "monsterList": [],
     "my_team": [
         {
+            "img_path": "Monster Dummy/000",
             "Img": {
-                "instanceID": 14704
+                "instanceID": 14714
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Attribute": 5,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "Img": {
+                "instanceID": 14714
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Attribute": 5,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Stone": 0,
+            "Star": 1
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "Img": {
+                "instanceID": 14748
             },
             "Name": "꼬북이",
             "HP": 10,
@@ -212,32 +176,9 @@
             "Star": 1
         },
         {
+            "img_path": "Monster Dummy/212",
             "Img": {
-                "instanceID": 14704
-            },
-            "Name": "꼬북이",
-            "HP": 10,
-            "Attribute": 5,
-            "ATK": 10,
-            "Type": "물",
-            "Stone": 0,
-            "Star": 1
-        },
-        {
-            "Img": {
-                "instanceID": 14708
-            },
-            "Name": "잉어킹",
-            "HP": 10,
-            "Attribute": 5,
-            "ATK": 10,
-            "Type": "물",
-            "Stone": 0,
-            "Star": 1
-        },
-        {
-            "Img": {
-                "instanceID": 14712
+                "instanceID": 14720
             },
             "Name": "고라파덕",
             "HP": 5,
@@ -248,6 +189,7 @@
             "Star": 1
         },
         {
+            "img_path": "",
             "Img": {
                 "instanceID": 0
             },
@@ -260,6 +202,7 @@
             "Star": 1
         },
         {
+            "img_path": "",
             "Img": {
                 "instanceID": 0
             },
@@ -272,6 +215,7 @@
             "Star": 1
         },
         {
+            "img_path": "",
             "Img": {
                 "instanceID": 0
             },
@@ -284,6 +228,7 @@
             "Star": 1
         },
         {
+            "img_path": "",
             "Img": {
                 "instanceID": 0
             },
@@ -296,6 +241,7 @@
             "Star": 1
         },
         {
+            "img_path": "",
             "Img": {
                 "instanceID": 0
             },
@@ -308,6 +254,7 @@
             "Star": 1
         },
         {
+            "img_path": "",
             "Img": {
                 "instanceID": 0
             },
@@ -320,6 +267,7 @@
             "Star": 1
         },
         {
+            "img_path": "",
             "Img": {
                 "instanceID": 0
             },
@@ -332,6 +280,7 @@
             "Star": 1
         },
         {
+            "img_path": "",
             "Img": {
                 "instanceID": 0
             },
