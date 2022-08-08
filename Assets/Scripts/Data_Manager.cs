@@ -19,12 +19,6 @@ public class Data_Manager : MonoBehaviour
         return Character_Count;
     }
 
-    public void Add_Character(string img, string name, int hp,int energe, int atk, string type)
-    {
-        Character_Count++;
-        Sprite temp = Resources.Load<Sprite>(img);
-        list.Add(new Character(temp,name,hp,energe,atk,type));
-    }
     public void Add_Monster(int world,int attribute, string name,int stage, int hp, int atk)
     {
         Monster_Count++;

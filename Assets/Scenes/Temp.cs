@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEditor;
 using UnityEngine.SceneManagement;
 
 public class Temp : MonoBehaviour
@@ -14,7 +15,6 @@ public class Temp : MonoBehaviour
     void Start()
     {
        data = GameObject.Find("Manager").GetComponent<DataManager>();
-       data.Load();
     }
 
     // Update is called once per frame
@@ -31,7 +31,12 @@ public class Temp : MonoBehaviour
         e = E.text;
         f = F.text;
         g = G.text;
-        data.saveData.list.Add(new Character(img.sprite, a,int.Parse(b),int.Parse(c),int.Parse(g), d, int.Parse(e), int.Parse(f)));
+        string path = AssetDatabase.GetAssetPath(img.sprite);
+        path = path.Replace("Assets/Resources/",string.Empty);
+        path = path.Replace(".png",string.Empty);
+        Debug.Log("*" + path);
+        data.saveData.list.Add(new Character(AssetDatabase.GetAssetPath(img.sprite), a,int.Parse(b),int.Parse(c),int.Parse(g), d, int.Parse(e), int.Parse(f)));
+        Debug.Log(AssetDatabase.GetAssetPath(img.sprite));
         img.sprite = null;
         A.text = "";
         B.text = "";

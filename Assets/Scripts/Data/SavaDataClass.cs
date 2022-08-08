@@ -6,6 +6,7 @@ using System;
 [System.Serializable]
 public class Character//캐릭터 DB
 {
+    public string img_path = "";
     public Sprite Img = null;
     public string Name = "";
     public int HP = 0;
@@ -15,9 +16,9 @@ public class Character//캐릭터 DB
     public int Stone = 0;
     public int Star = 1;
 
-    public Character(Sprite i = null, string n = "무명", int h = 0,int A = 0, int a = 0, string t = "없음", int s = 0, int S = 1)
+    public Character(string path = "", string n = "무명", int h = 0,int A = 0, int a = 0, string t = "없음", int s = 0, int S = 1)
     {
-        this.Img = i;
+        this.img_path = path;
         this.Name = n;
         this.HP = h;
         this.Attribute = A;
@@ -99,5 +100,14 @@ public class SaveDataClass
             my_team.Add(new Character());
         skillList = new List<SkillDataClass>();
         monsterList = new List<MonsterDataClass>();
+        foreach(Character a in list)
+            if(a.img_path != "")
+                a.Img = Resources.Load<Sprite>(a.img_path);
+        foreach(Character a in my_characterList)
+            if(a.img_path != "")
+                a.Img = Resources.Load<Sprite>(a.img_path);
+        foreach(Character a in my_team)
+            if(a.img_path != "")
+                a.Img = Resources.Load<Sprite>(a.img_path);
     }
 }
