@@ -35,7 +35,7 @@ public class Temp : MonoBehaviour
         path = path.Replace("Assets/Resources/",string.Empty);
         path = path.Replace(".png",string.Empty);
         Debug.Log("*" + path);
-        data.saveData.my_characterList.Add(new Character(AssetDatabase.GetAssetPath(img.sprite), img.sprite,a,int.Parse(b),int.Parse(c),int.Parse(g), d, int.Parse(e), int.Parse(f)));
+        //data.saveData.my_characterList.Add(new CharacterDataClass(AssetDatabase.GetAssetPath(img.sprite), img.sprite,a,int.Parse(b),int.Parse(c),int.Parse(g), d, int.Parse(e), int.Parse(f)));
         Debug.Log(AssetDatabase.GetAssetPath(img.sprite));
         img.sprite = null;
         A.text = "";

@@ -27,9 +27,26 @@ public struct characterInfo
 
 public class CharacterMgr : MonoBehaviour
 {
+    Data_Manager dataManager;
+    SaveDataClass saveDataClass;
+    MonsterMgr monsterMgr;
+    TeamSelect teamSelect;
+    Turn turn;
+
     public Text playerHPText;//플레이어 HP텍스트
     public Text playerEnergeText;//플레이어 에너지 텍스트
 
+    void LoadCharacterData()
+    {
+        dataManager.Add_Character("Monster/000", null, "INTJ", 8100, 11, 1, 13000, "공격", 4, 1);
+        dataManager.Add_Character("Monster/000", null, "INTJ", 8100, 11, 1, 13000, "공격", 4, 1);
+        dataManager.Add_Character("Monster/000", null, "INTJ", 8100, 11, 1, 13000, "공격", 4, 1);
+        dataManager.Add_Character("Monster/000", null, "INTJ", 8100, 11, 1, 13000, "공격", 4, 1);
+        dataManager.Add_Character("Monster/000", null, "INTJ", 8100, 11, 1, 13000, "공격", 4, 1);
+        dataManager.Add_Character("Monster/000", null, "INTJ", 8100, 11, 1, 13000, "공격", 4, 1);
+        dataManager.Add_Character("Monster/000", null, "INTJ", 8100, 11, 1, 13000, "공격", 4, 1);
+        dataManager.Add_Character("Monster/000", null, "INTJ", 8100, 11, 1, 13000, "공격", 4, 1);
+    }
     //캐릭터 배열 선언 
     public static List<characterInfo> characterList = new List<characterInfo>
     {
@@ -43,11 +60,6 @@ public class CharacterMgr : MonoBehaviour
         new characterInfo("ESTJ",5200,18000,18,2,3,"8단계")
     };
 
-    SaveDataClass saveDataClass;
-    MonsterMgr monsterMgr;
-    TeamSelect teamSelect;
-    Turn turn;
-
     //캐릭터 상태 이상
     public GameObject characterCondition1;
     public GameObject characterCondition2;
@@ -59,6 +71,12 @@ public class CharacterMgr : MonoBehaviour
     Image characterConditionImage3;
     Image characterConditionImage4;
 
+    //캐릭터별 남은 턴 수
+    public Text firstCharacterTurn;
+    public Text secondCharacterTurn;
+    public Text thirdCharacterTurn;
+    public Text fourthCharacterTurn;
+
     public int playerFullHP;//플레이어 총 HP;
     public int firstPlayer;//첫번째 플레이어 
     public int secondPlayer;//두번째 플레이어 
@@ -68,7 +86,6 @@ public class CharacterMgr : MonoBehaviour
     public int playerHP;//플레이어 HP
     public int playerFullEnerge;//플레이어 에너지
     public int playerEnerge;//플레이어 에너지
-    bool isPlayerBlood;//출혈 상태 인가?
 
     // Start is called before the first frame update
     void Start()
@@ -76,6 +93,9 @@ public class CharacterMgr : MonoBehaviour
         monsterMgr = GameObject.FindWithTag("Monster").GetComponent<MonsterMgr>();//MonsterMgr 스크립트에서 변수 가져오기
         teamSelect = GameObject.FindWithTag("TeamSelect").GetComponent<TeamSelect>();//TeamSelect 스크립트에서 변수 가져오기
         turn = GameObject.FindWithTag("TurnMgr").GetComponent<Turn>();//Trun 스크립트에서 변수 가져오기
+        dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
+
+        LoadCharacterData();//캐릭터 데이터 불러오기
 
         //캐릭터 결정
         firstPlayer = teamSelect.selectedTeamNumber[0];
@@ -85,7 +105,6 @@ public class CharacterMgr : MonoBehaviour
 
         playerFullHP = characterList[firstPlayer].characterHP + characterList[secondPlayer].characterHP + characterList[thirdPlayer].characterHP + characterList[fourthPlayer].characterHP;//풀피 설정
         playerHP = playerFullHP;//처음엔 풀피
-        isPlayerBlood = true;//처음엔 정상 상태
 
         //캐릭터 상태이상 초기상태
         characterCondition1.SetActive(false);
@@ -97,6 +116,11 @@ public class CharacterMgr : MonoBehaviour
         characterConditionImage2 = characterCondition2.GetComponent<Image>();
         characterConditionImage3 = characterCondition3.GetComponent<Image>();
         characterConditionImage4 = characterCondition4.GetComponent<Image>();
+
+        firstCharacterTurn = characterCondition1.GetComponent<Text>();
+        secondCharacterTurn = characterCondition2.GetComponent<Text>();
+        thirdCharacterTurn = characterCondition3.GetComponent<Text>();
+        fourthCharacterTurn = characterCondition4.GetComponent<Text>();
     }
 
     // Update is called once per frame
@@ -118,10 +142,7 @@ public class CharacterMgr : MonoBehaviour
     //플레이어 출혈 데미지
     public void PlayerBloodDamage()
     {
-        if (isPlayerBlood)//출혈시에만 데미지를 입는다.
-        {
-            playerHP = Mathf.Max(playerHP - (monsterMgr.monsterAttackDamage * turn.skillCount) / 4, 0);
-        }
+        playerHP = Mathf.Max(playerHP - (monsterMgr.monsterAttackDamage * turn.skillCount) / 4, 0);
     }
     //플레이어 체력 체크
     public bool IsPlayerDie()
@@ -160,7 +181,7 @@ public class CharacterMgr : MonoBehaviour
     {
         switch (index)
         {
-            case 1:
+            case 0:
                 if (attack == characterList[skillIndex / 4].characterAttack)//변동없음
                 {
                     characterCondition1.SetActive(false);
@@ -176,7 +197,7 @@ public class CharacterMgr : MonoBehaviour
                     characterConditionImage1.color = Color.red;//빨간색
                 }
                 break;
-            case 2:
+            case 1:
                 if (attack == characterList[skillIndex / 4].characterAttack)//변동없음
                 {
                     characterCondition2.SetActive(false);
@@ -193,7 +214,7 @@ public class CharacterMgr : MonoBehaviour
                     characterConditionImage2.color = Color.red;//빨간색
                 }
                 break;
-            case 3:
+            case 2:
                 if (attack == characterList[skillIndex / 4].characterAttack)//변동없음
                 {
                     characterCondition3.SetActive(false);
@@ -210,7 +231,7 @@ public class CharacterMgr : MonoBehaviour
                     characterConditionImage3.color = Color.red;//빨간색
                 }
                 break;
-            case 4:
+            case 3:
                 if (attack == characterList[skillIndex / 4].characterAttack)//변동없음
                 {
                     characterCondition4.SetActive(false);

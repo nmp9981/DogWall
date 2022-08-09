@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Skill : MonoBehaviour
 {
@@ -351,9 +352,10 @@ void Start()
         }
     }
     //턴 기반 버프
-    void TurnBuff(int turnCount,int number)
+    void TurnBuff(int turnCount,int number)//남은 턴 수, 위치
     {
         if (turnCount < 1) return;//턴 수를 모두 소모
+        
         SkillCharacterTurnMatrix[number, number / 4] -= 1;//턴 횟수 소모
 
         //공격력
@@ -366,6 +368,57 @@ void Start()
         if(dataManager.SkillList[number].Provocation == true)
         {
             //우선 피격 몬스터 설정
+        }
+    }
+    //남은 턴 수 나타내기
+    public void TurnCountText(int number,int index)
+    {
+        switch (index)
+        {
+            case 0:
+                if(SkillCharacterTurnMatrix[number, number / 4] > 0)
+                {
+                    characterMgr.characterCondition1.SetActive(true);
+                    characterMgr.firstCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 4].ToString();
+                }
+                else
+                {
+                    characterMgr.characterCondition1.SetActive(false);
+                }
+                break;
+            case 1:
+                if (SkillCharacterTurnMatrix[number, number / 4] > 0)
+                {
+                    characterMgr.characterCondition2.SetActive(true);
+                    characterMgr.secondCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 4].ToString();
+                }
+                else
+                {
+                    characterMgr.characterCondition2.SetActive(false);
+                }
+                break;
+            case 2:
+                if (SkillCharacterTurnMatrix[number, number / 4] > 0)
+                {
+                    characterMgr.characterCondition3.SetActive(true);
+                    characterMgr.thirdCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 4].ToString();
+                }
+                else
+                {
+                    characterMgr.characterCondition3.SetActive(false);
+                }
+                break;
+            case 3:
+                if (SkillCharacterTurnMatrix[number, number / 4] > 0)
+                {
+                    characterMgr.characterCondition4.SetActive(true);
+                    characterMgr.fourthCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 4].ToString();
+                }
+                else
+                {
+                    characterMgr.characterCondition4.SetActive(false);
+                }
+                break;
         }
     }
 }

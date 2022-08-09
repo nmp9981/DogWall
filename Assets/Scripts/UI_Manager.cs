@@ -43,11 +43,11 @@ public class UI_Manager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            Character_ADD("Monster Dummy/000","질퍽이",10,5,10,"몰루?");
-            Character_ADD("Monster Dummy/111","꼬북이",10,5,10,"물");
-            Character_ADD("Monster Dummy/121","잉어킹",10,5,10,"물");
-            Character_ADD("Monster Dummy/212","고라파덕",5,10,10,"물");
-            Character_ADD("Monster Dummy/333","뭐더라",10,5,10,"어둠");
+            Character_ADD("Monster Dummy/000","질퍽이",10,5,1,10,"몰루?");
+            Character_ADD("Monster Dummy/111","꼬북이",10,5,2,10,"물");
+            Character_ADD("Monster Dummy/121","잉어킹",10,5,1,10,"물");
+            Character_ADD("Monster Dummy/212","고라파덕",5,10,2,10,"물");
+            Character_ADD("Monster Dummy/333","뭐더라",10,5,3,10,"어둠");
         }
     }
     public void UI_LEVEL1_Controll(int level)
@@ -151,10 +151,10 @@ public class UI_Manager : MonoBehaviour
         }
     }
 
-    public void Character_ADD(string path, string name, int hp,int energy, int atk, string type)
+    public void Character_ADD(string path, string name, int hp,int energy,int attribute, int atk, string type)
     {
         //string Path = Monster Dummy/ + path =>이런식으로 수정해서 쓸거임
-        data.saveData.my_characterList.Add(new Character(path,Resources.Load<Sprite>(path),name,hp,energy,atk,type));
+        data.saveData.my_characterList.Add(new CharacterDataClass(path,Resources.Load<Sprite>(path),name,hp,energy,attribute,atk,type));
         Load();
     }
 
@@ -321,8 +321,8 @@ public class UI_Manager : MonoBehaviour
                     target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_characterList[i].HP.ToString();
                     target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_characterList[i].ATK.ToString();
                     float extra_hp = data.saveData.my_characterList[i].HP * 0.2f, extra_atk = data.saveData.my_characterList[i].ATK * 0.2f;
-                    target.transform.GetChild(4).GetComponent<Text>().text = ((int)(extra_hp*data.saveData.my_characterList[i].Stone)).ToString();
-                    target.transform.GetChild(5).GetComponent<Text>().text = ((int)(extra_atk*data.saveData.my_characterList[i].Stone)).ToString();
+                    target.transform.GetChild(4).GetComponent<Text>().text = ((int)(extra_hp*data.saveData.my_characterList[i].Appear)).ToString();
+                    target.transform.GetChild(5).GetComponent<Text>().text = ((int)(extra_atk*data.saveData.my_characterList[i].Appear)).ToString();
                     target.transform.GetChild(6).GetComponent<Text>().text = data.saveData.my_characterList[i].Type;
                     break;
                 }

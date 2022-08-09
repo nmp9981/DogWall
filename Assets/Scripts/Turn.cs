@@ -144,6 +144,7 @@ public class Turn : MonoBehaviour
             int skillNumber = teamSelect.selectedTeamNumber[i] * 4 + playerSkillSelect[i] - 1;//스킬의 번호
             skill.InitTurn(skillNumber);//턴 초기화
             characterMgr.ColorCondition(skill.playerAttack, i, skillNumber);//캐릭터 상태 이상 색상 표시
+            skill.TurnCountText(skillNumber,i);//남은 턴 수 나타내기
             totalDamage += skill.skillAttackDamage(skillNumber);//데미지 누적
         }
         monsterMgr.MonsterBloodDamage(totalDamage,mobHP);//몬스터 데미지

@@ -4,28 +4,30 @@ using UnityEngine;
 using System;
 
 [System.Serializable]
-public class Character//캐릭터 DB
+public class CharacterDataClass//캐릭터 DB
 {
-    public string img_path = "";
-    public Sprite Img = null;
-    public string Name = "";
-    public int HP = 0;
-    public int Attribute = 0;
-    public int ATK = 0;
-    public string Type = "";
-    public int Stone = 0;
-    public int Star = 1;
+    public string img_path = "";//이미지 경로
+    public Sprite Img = null;//이미지
+    public string Name = "";//캐릭터명
+    public int HP = 0;//HP
+    public int Energe = 0;//에너지
+    public int Attribute = 0;//속성
+    public int ATK = 0;//공격력
+    public string Type = "";//유형
+    public int Appear = 0;//출현 횟수
+    public int Star = 1;//별
 
-    public Character(string path = "",Sprite img = null, string n = "무명", int h = 0,int A = 0, int a = 0, string t = "없음", int s = 0, int S = 1)
+    public CharacterDataClass(string path = "",Sprite img = null, string n = "무명", int h = 0,int e = 0,int A = 0, int a = 0, string t = "없음", int ap = 0, int S = 1)
     {
         this.img_path = path;
         this.Img = img;
         this.Name = n;
         this.HP = h;
+        this.Energe = e;
         this.Attribute = A;
         this.ATK = a;
         this.Type = t;
-        this.Stone = s;
+        this.Appear = ap;
         this.Star = S;
     }
 }
@@ -84,34 +86,34 @@ public class MonsterDataClass//몬스터 DB
 [System.Serializable]
 public class SaveDataClass
 {
-    public List<Character> list;
-    public List<Character> my_characterList;//내가 가지고 있는 캐릭
+    public List<CharacterDataClass> list;
+    public List<CharacterDataClass> my_characterList;//내가 가지고 있는 캐릭
     public List<int> money;//재화
     public List<SkillDataClass> skillList;//스킬 리스트
     public List<MonsterDataClass> monsterList;//몬스터 리스트
     //스테이지 진행정도
-    public List<Character> my_team;
+    public List<CharacterDataClass> my_team;
     public SaveDataClass()
     {
         //ㅇㅇ
-        list = new List<Character>();
-        my_characterList= new List<Character>();
-        my_team = new List<Character>();
+        list = new List<CharacterDataClass>();
+        my_characterList= new List<CharacterDataClass>();
+        my_team = new List<CharacterDataClass>();
         for(int i = 0; i < 12; i++)
-            my_team.Add(new Character());
+            my_team.Add(new CharacterDataClass());
         skillList = new List<SkillDataClass>();
         monsterList = new List<MonsterDataClass>();
     }
     public void SetImg()
     {
         Debug.Log("실행");
-        foreach(Character a in list)
+        foreach(CharacterDataClass a in list)
             if(a.img_path != "")
                 a.Img = Resources.Load<Sprite>(a.img_path);
-        foreach(Character a in my_characterList)
+        foreach(CharacterDataClass a in my_characterList)
             if(a.img_path != "")
                 a.Img = Resources.Load<Sprite>(a.img_path);
-        foreach(Character a in my_team)
+        foreach(CharacterDataClass a in my_team)
             if(a.img_path != "")
                 a.Img = Resources.Load<Sprite>(a.img_path);
         Debug.Log("종료");
