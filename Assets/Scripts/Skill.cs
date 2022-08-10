@@ -14,6 +14,12 @@ public class Skill : MonoBehaviour
     public int[,] SkillCharacterTurnMatrix = new int[160, 40];//스킬-캐릭터간 남은 턴 수 배열 
     public int playerAttack;//플레이어 공격력
 
+    //캐릭터별 남은 턴 수
+    public Text firstCharacterTurn;
+    public Text secondCharacterTurn;
+    public Text thirdCharacterTurn;
+    public Text fourthCharacterTurn;
+
     //스킬데이터 추가
     void AddSkillData() {
         dataManager.SkillList.Insert(0, new SkillDataClass {
@@ -379,7 +385,7 @@ void Start()
                 if(SkillCharacterTurnMatrix[number, number / 4] > 0)
                 {
                     characterMgr.characterCondition1.SetActive(true);
-                    characterMgr.firstCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 4].ToString();
+                    firstCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 4].ToString();
                 }
                 else
                 {
@@ -390,7 +396,7 @@ void Start()
                 if (SkillCharacterTurnMatrix[number, number / 4] > 0)
                 {
                     characterMgr.characterCondition2.SetActive(true);
-                    characterMgr.secondCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 4].ToString();
+                    secondCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 4].ToString();
                 }
                 else
                 {
@@ -401,7 +407,7 @@ void Start()
                 if (SkillCharacterTurnMatrix[number, number / 4] > 0)
                 {
                     characterMgr.characterCondition3.SetActive(true);
-                    characterMgr.thirdCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 4].ToString();
+                    thirdCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 4].ToString();
                 }
                 else
                 {
@@ -412,7 +418,7 @@ void Start()
                 if (SkillCharacterTurnMatrix[number, number / 4] > 0)
                 {
                     characterMgr.characterCondition4.SetActive(true);
-                    characterMgr.fourthCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 4].ToString();
+                    fourthCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 4].ToString();
                 }
                 else
                 {

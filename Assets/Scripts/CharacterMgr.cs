@@ -71,12 +71,7 @@ public class CharacterMgr : MonoBehaviour
     Image characterConditionImage3;
     Image characterConditionImage4;
 
-    //캐릭터별 남은 턴 수
-    public Text firstCharacterTurn;
-    public Text secondCharacterTurn;
-    public Text thirdCharacterTurn;
-    public Text fourthCharacterTurn;
-
+   
     public int playerFullHP;//플레이어 총 HP;
     public int firstPlayer;//첫번째 플레이어 
     public int secondPlayer;//두번째 플레이어 
@@ -117,10 +112,6 @@ public class CharacterMgr : MonoBehaviour
         characterConditionImage3 = characterCondition3.GetComponent<Image>();
         characterConditionImage4 = characterCondition4.GetComponent<Image>();
 
-        firstCharacterTurn = characterCondition1.GetComponent<Text>();
-        secondCharacterTurn = characterCondition2.GetComponent<Text>();
-        thirdCharacterTurn = characterCondition3.GetComponent<Text>();
-        fourthCharacterTurn = characterCondition4.GetComponent<Text>();
     }
 
     // Update is called once per frame
