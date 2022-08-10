@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEditor;
 using UnityEngine.EventSystems;
 
 public class UI_Manager : MonoBehaviour
@@ -30,7 +31,6 @@ public class UI_Manager : MonoBehaviour
     void Start()
     {
         data.saveData.SetImg();
-        Debug.Log("Load실행");
         Load();
         changeStat.text = "스탯 변화 : +" + presentStatNum.ToString() + "% -> +" + futureStatNum.ToString() + "%";
         leftPiece.text = "남은 기억의 조각 : " + leftPiecesNum.ToString();
@@ -162,7 +162,7 @@ public class UI_Manager : MonoBehaviour
     {
         int max = data.saveData.my_characterList.Count;
         int i = 0;
-        while(i < max)
+        while(i < max)//가지고 있는 캐릭터 리스트 생성
         {
             x = i % 4;
             y = (i - x) / 4;
@@ -179,7 +179,7 @@ public class UI_Manager : MonoBehaviour
             temp.transform.GetComponent<Button>().onClick.AddListener(Unit_Choose);
             i++;
         }
-        for(i = 0; i < 4; i++)
+        for(i = 0; i < 4; i++)//내 팀 리스트 생성
         { 
             GameObject target = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Teams").transform.Find("Character" + (i+1).ToString()).gameObject;
 
@@ -188,6 +188,8 @@ public class UI_Manager : MonoBehaviour
             target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].ATK.ToString();
             target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].Type;
         }
+        GameObject.Find("Canvas").transform.GetChild(1).transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>(data.saveData.ui.home_img_path);//홈 이미지 변경
+
     }
 
     void Unit_Select_Change()
@@ -328,6 +330,7 @@ public class UI_Manager : MonoBehaviour
                 }
             }
         }
+        time = 0;
         
     }
 
@@ -344,6 +347,20 @@ public class UI_Manager : MonoBehaviour
             UI_LEVEL1_Controll(1);
             UI_LEVEL2_Controll(0);
         }
+    }
+
+    public void Change_Home_Img()
+    {
+        GameObject target = GameObject.Find("Unit_Details");
+        string path = AssetDatabase.GetAssetPath(target.transform.GetChild(1).GetComponent<Image>().sprite);
+        Debug.Log(path);
+        path = path.Replace("Assets/Resources/",string.Empty);
+        path = path.Replace(".png",string.Empty);
+        GameObject.Find("Canvas").transform.GetChild(1).transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>(path);
+        data.saveData.ui.home_img_path = path;
+        data.Save();
+        UI_LEVEL1_Controll(0);
+        UI_LEVEL2_Controll(0);
     }
 
     public void IncreasePieceNum()

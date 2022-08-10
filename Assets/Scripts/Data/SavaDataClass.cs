@@ -14,10 +14,11 @@ public class CharacterDataClass//캐릭터 DB
     public int Attribute = 0;//속성
     public int ATK = 0;//공격력
     public string Type = "";//유형
-    public int Appear = 0;//출현 횟수
+    public int Appear = 0;//출현 
+    public int Upgrade = 0;//강화 횟수
     public int Star = 1;//별
 
-    public CharacterDataClass(string path = "",Sprite img = null, string n = "무명", int h = 0,int e = 0,int A = 0, int a = 0, string t = "없음", int ap = 0, int S = 1)
+    public CharacterDataClass(string path = "",Sprite img = null, string n = "무명", int h = 0,int e = 0,int A = 0, int a = 0, string t = "없음", int ap = 0, int Up = 0, int S = 1)
     {
         this.img_path = path;
         this.Img = img;
@@ -28,6 +29,7 @@ public class CharacterDataClass//캐릭터 DB
         this.ATK = a;
         this.Type = t;
         this.Appear = ap;
+        this.Upgrade = Up;
         this.Star = S;
     }
 }
@@ -84,15 +86,32 @@ public class MonsterDataClass//몬스터 DB
     }
 }
 [System.Serializable]
+public class UI
+{
+    public List<int> money;//재화
+    public string home_img_path;
+    public UI()
+    {
+        money = new List<int>();
+        home_img_path = "";
+    }
+    public UI(List<int> m, string h_p)
+    {
+        this.money = m;
+        this.home_img_path = h_p;
+    }
+
+}
+[System.Serializable]
 public class SaveDataClass
 {
     public List<CharacterDataClass> list;
     public List<CharacterDataClass> my_characterList;//내가 가지고 있는 캐릭
-    public List<int> money;//재화
     public List<SkillDataClass> skillList;//스킬 리스트
     public List<MonsterDataClass> monsterList;//몬스터 리스트
     //스테이지 진행정도
     public List<CharacterDataClass> my_team;
+    public UI ui;
     public SaveDataClass()
     {
         //ㅇㅇ
@@ -103,10 +122,10 @@ public class SaveDataClass
             my_team.Add(new CharacterDataClass());
         skillList = new List<SkillDataClass>();
         monsterList = new List<MonsterDataClass>();
+        ui =  new UI();
     }
     public void SetImg()
     {
-        Debug.Log("실행");
         foreach(CharacterDataClass a in list)
             if(a.img_path != "")
                 a.Img = Resources.Load<Sprite>(a.img_path);
@@ -116,6 +135,5 @@ public class SaveDataClass
         foreach(CharacterDataClass a in my_team)
             if(a.img_path != "")
                 a.Img = Resources.Load<Sprite>(a.img_path);
-        Debug.Log("종료");
     }
 }
