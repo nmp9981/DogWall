@@ -1641,7 +1641,6 @@ MonoBehaviour:
   skillCount: 0
   mobHP: 0
   playerSkillSelect: 
-  monsters: 
   skillAvailable: 0
   firstAttack: 0
   isClick: 0
@@ -6647,10 +6646,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageText: {fileID: 1257663730}
+  monsters: []
   monsterFullHP: 0
   currentMonsterHP: 0
   monsterAttackDamage: 0
   monsterAttribute: 0
+  monstersIndex: 0
 --- !u!4 &1775383327
 Transform:
   m_ObjectHideFlags: 0

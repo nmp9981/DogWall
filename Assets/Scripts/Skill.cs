@@ -374,6 +374,7 @@ void Start()
         if(dataManager.SkillList[number].Provocation == true)
         {
             //우선 피격 몬스터 설정
+
         }
     }
     //남은 턴 수 나타내기

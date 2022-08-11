@@ -56,7 +56,6 @@ public class Turn : MonoBehaviour
     public int mobHP;//몬스터 HP
 
     public List<int> playerSkillSelect = new List<int>();
-    public List<int> monsters = new List<int>();
 
     public bool skillAvailable = false; // 스킬 사용중인지 확인
 
@@ -74,14 +73,11 @@ public class Turn : MonoBehaviour
         playerSkillSelect.Add(0);
         playerSkillSelect.Add(0);
 
-        monsters.Add(1);// 몬스터 추가
-        monsters.Add(1);
-
         characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
-        monsterMgr = GameObject.FindWithTag("Monster").GetComponent<MonsterMgr>();//MonsterMgr 스크립트에서 변수 가져오기
         teamSelect = GameObject.FindWithTag("TeamSelect").GetComponent<TeamSelect>();//TeamSelect 스크립트에서 변수 가져오기
         skill = GameObject.FindWithTag("Skill").GetComponent<Skill>();//Skill 스크립트에서 변수 가져오기
         dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
+        monsterMgr = GameObject.FindWithTag("Monster").GetComponent<MonsterMgr>();//MonsterMgr 스크립트에서 변수 가져오기
 
         turnText.text = totalTurnNumber.ToString();
         stageText.text = stageNumber + "/3";
@@ -91,7 +87,6 @@ public class Turn : MonoBehaviour
         if (firstAttack) turnNumber = 1; // 선제공격 여부 확인
         else turnNumber = 5;
 
-        monsterSet(); // 몬스터 배치
         UISetting(); // 턴 시작
     }
 
@@ -131,7 +126,7 @@ public class Turn : MonoBehaviour
 
     public void turnEnd()
     {
-        mobHP = dataManager.MonsterList[0].HP*100;//임의의 몬스터 HP 설정
+        mobHP = dataManager.MonsterList[0].HP*3;//임의의 몬스터 HP 설정
         //스킬계산
         totalDamage = 0;//초기화
         //4개의 스킬
@@ -140,6 +135,9 @@ public class Turn : MonoBehaviour
             if (playerSkillSelect[i] == 4)//필살기
             {
                 //필살기 애니메이션 재생
+            }else if (playerSkillSelect[i] == 5)//스킵 버튼
+            {
+                continue;
             }
             int skillNumber = teamSelect.selectedTeamNumber[i] * 4 + playerSkillSelect[i] - 1;//스킬의 번호
             skill.InitTurn(skillNumber);//턴 초기화
@@ -166,9 +164,12 @@ public class Turn : MonoBehaviour
         skill_4E.SetActive(false);
         skipE.SetActive(false);
 
+        //몬스터 사망여부 확인
+        monsterMgr.MonsterDie();
 
-        if (monsters.Count == 0) // 몬스터가 다 죽었다면 스테이지 증가
+        if (monsterMgr.monsters.Count == 0) // 몬스터가 다 죽었다면 스테이지 증가
         {
+            monsterMgr.StageClear(stageNumber);//클리어 여부 확인
             stageNumber += 1;
             stageText.text = stageNumber.ToString();
             if (firstAttack) turnNumber = 1; // 선제공격 여부 확인
@@ -255,66 +256,77 @@ public class Turn : MonoBehaviour
 
     // 몬스터 관련 턴 ------------------------------------
 
-    void monsterSet() // 몬스터 배치
+    public void monsterSet() // 몬스터 배치
     {
         monster1.SetActive(false);
         monster2.SetActive(false);
         monster3.SetActive(false);
         monster4.SetActive(false);
-        if (monsters.Count == 0)
+        
+        if (monsterMgr.monsters.Count == 0)
         {
             monster1.SetActive(false);
             monster2.SetActive(false);
             monster3.SetActive(false);
             monster4.SetActive(false);
         }
-        if(monsters.Count == 1)
+        if(monsterMgr.monsters.Count == 1)
         {
             monster1.SetActive(true);
             monster1Rect.anchoredPosition = new Vector3(0, 400, 0);
             monster1Rect.sizeDelta = new Vector2(700, 700);
+            //몹 이미지 배치
             monster2.SetActive(false);
             monster3.SetActive(false);
             monster4.SetActive(false);
         }
-        if(monsters.Count == 2)
+        if(monsterMgr.monsters.Count == 2)
         {
             monster1.SetActive(true);
             monster1Rect.anchoredPosition = new Vector3(-250, 400, 0);
             monster1Rect.sizeDelta = new Vector2(400, 400);
+            //몹 이미지 배치
             monster2.SetActive(true);
             monster2Rect.anchoredPosition = new Vector3(250, 400, 0);
             monster2Rect.sizeDelta = new Vector2(400, 400);
+            //몹 이미지 배치
             monster3.SetActive(false);
             monster4.SetActive(false);
         }
-        if (monsters.Count == 3)
+        if (monsterMgr.monsters.Count == 3)
         {
             monster1.SetActive(true);
             monster1Rect.anchoredPosition = new Vector3(-350, 400, 0);
             monster1Rect.sizeDelta = new Vector2(300, 300);
+            //몹 이미지 배치
             monster2.SetActive(true);
             monster2Rect.anchoredPosition = new Vector3(0, 400, 0);
             monster2Rect.sizeDelta = new Vector2(300, 300);
+            //몹 이미지 배치
             monster3.SetActive(true);
             monster3Rect.anchoredPosition = new Vector3(350, 400, 0);
             monster3Rect.sizeDelta = new Vector2(300, 300);
+            //몹 이미지 배치
             monster4.SetActive(false);
         }
-        if (monsters.Count == 4)
+        if (monsterMgr.monsters.Count == 4)
         {
             monster1.SetActive(true);
             monster1Rect.anchoredPosition = new Vector3(-405, 400, 0);
             monster1Rect.sizeDelta = new Vector2(200, 200);
+            //몹 이미지 배치
             monster2.SetActive(true);
             monster2Rect.anchoredPosition = new Vector3(-135, 400, 0);
             monster2Rect.sizeDelta = new Vector2(200, 200);
+            //몹 이미지 배치
             monster3.SetActive(true);
             monster3Rect.anchoredPosition = new Vector3(135, 400, 0);
             monster3Rect.sizeDelta = new Vector2(200, 200);
+            //몹 이미지 배치
             monster4.SetActive(true);
             monster4Rect.anchoredPosition = new Vector3(405, 400, 0);
             monster4Rect.sizeDelta = new Vector2(200, 200);
+            //몹 이미지 배치
         }
     }
 
@@ -327,7 +339,7 @@ public class Turn : MonoBehaviour
 
         if (monster1.activeSelf == true) // 몬스터가 살아있으면 턴을 진행
         {
-            // monster1
+            characterMgr.PlayerBloodDamage();//공격
             monsterText.text = "화염방사";
         }
         if (monster2.activeSelf == true)

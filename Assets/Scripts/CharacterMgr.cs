@@ -133,7 +133,7 @@ public class CharacterMgr : MonoBehaviour
     //플레이어 출혈 데미지
     public void PlayerBloodDamage()
     {
-        playerHP = Mathf.Max(playerHP - (monsterMgr.monsterAttackDamage * turn.skillCount) / 4, 0);
+        playerHP = Mathf.Max(playerHP - monsterMgr.monsterAttackDamage/4, 0);
     }
     //플레이어 체력 체크
     public bool IsPlayerDie()

@@ -10,15 +10,16 @@ public class MonsterMgr : MonoBehaviour
     Skill skill;
     Turn turn;
     public Text stageText;//스테이지 번호
+    public List<MonsterDataClass> monsters = new List<MonsterDataClass>();//출현 몬스터
 
     public int monsterFullHP;//몬스터 전체 체력
     public int currentMonsterHP;//몬스터 현재 체력
     public int monsterAttackDamage;//몬스터 공격 데미지
     public int monsterAttribute;//몬스터 속성
 
-    int stage = 1;//스테이지
+    public int monstersIndex = 0;//몬스터 인덱스
 
-    void LoadMonsterData()
+    public void LoadMonsterData()
     {
         dataManager.Add_Monster(1, 1, "왕궁영술사", 1, 3500, 3000);
         dataManager.Add_Monster(1, 1, "왕궁영술사", 2, 4200, 3600);
@@ -52,13 +53,11 @@ public class MonsterMgr : MonoBehaviour
         turn = GameObject.FindWithTag("TurnMgr").GetComponent<Turn>();//Trun 스크립트에서 변수 가져오기
         skill = GameObject.FindWithTag("Skill").GetComponent<Skill>();//Skill 스크립트에서 변수 가져오기
         dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
-
+        
         LoadMonsterData();//데이터 불러오기
-
-        monsterFullHP = dataManager.MonsterList[0].HP*100;//몬스터 체력 초기화
-        currentMonsterHP = monsterFullHP;//처음엔 풀피
-        monsterAttackDamage = dataManager.MonsterList[0].Attack;//몬스터 공격력
-        monsterAttribute = dataManager.MonsterList[0].Attribute;//몬스터 속성
+        MonsterSetting();//몬스터 리젠
+        InitMonster(monstersIndex);//초기 몬스터 세팅
+        turn.monsterSet(); // 몬스터 배치
     }
 
     // Update is called once per frame
@@ -66,35 +65,54 @@ public class MonsterMgr : MonoBehaviour
     {
         
     }
+    //몬스터 출현(한 몬스터가 여러마리 등장)
+    public void MonsterSetting()
+    {
+        int mobCount = Random.Range(1, 5);
+        monsters.Clear();//초기화
+        for (int i = 0; i < mobCount; i++)
+        {
+            monsters.Add(dataManager.MonsterList[0]);
+        }
+    }
+    public void InitMonster(int index)
+    {
+        monsterFullHP = monsters[index].HP * 3;//몬스터 체력 초기화
+        currentMonsterHP = monsterFullHP;//처음엔 풀피
+        monsterAttackDamage = monsters[index].Attack;//몬스터 공격력
+        monsterAttribute = monsters[index].Attribute;//몬스터 속성
+    }
     //출혈 데미지 계산
     public void MonsterBloodDamage(int hitDamage,int HP)
     {
         currentMonsterHP = Mathf.Max(HP - hitDamage, 0);
     }
     //몬스터가 죽었는가?
-    public bool IsMonsterDie()
+    public void MonsterDie()
     {
         if (currentMonsterHP <= 0)
         {
-            NextStage();//다음 스테이지로
-            return true;
-        }
-        else
-        {
-            return false;
+            monsters.RemoveAt(0);//원소 삭제
+            if (monsters.Count>0)//남은 몬스터가 더 있는가?
+            {
+                InitMonster(monstersIndex);//다음 몬스터
+                turn.monsterSet();//몬스터 재배치
+            }
+            else
+            {
+                monstersIndex = 0;
+            }
         }
     }
     //다음 스테이지
-    public void NextStage()
+    public void StageClear(int stageNum)
     {
-        if (stage < 3)
-        {
-            stage++;
-        }
-        else
+        if(stageNum==3)
         {
             stageText.text = "게임 클러어";
-            stage = 1;
+            turn.stageNumber = 1;
+            //보상
+            //월드 선택 씬으로
         }
     }
 }
