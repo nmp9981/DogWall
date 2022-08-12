@@ -68,7 +68,7 @@ public class MonsterMgr : MonoBehaviour
     //몬스터 출현(한 몬스터가 여러마리 등장)
     public void MonsterSetting()
     {
-        int mobCount = Random.Range(1, 5);
+        int mobCount = Random.Range(4, 5);
         monsters.Clear();//초기화
         for (int i = 0; i < mobCount; i++)
         {

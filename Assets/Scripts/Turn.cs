@@ -45,6 +45,11 @@ public class Turn : MonoBehaviour
     public RectTransform monster2Rect;
     public RectTransform monster3Rect;
     public RectTransform monster4Rect;
+    //몬스터 HP바
+    public RectTransform monster1HPBar;
+    public RectTransform monster2HPBar;
+    public RectTransform monster3HPBar;
+    public RectTransform monster4HPBar;
 
     public GameObject story;
 
@@ -256,7 +261,7 @@ public class Turn : MonoBehaviour
 
     // 몬스터 관련 턴 ------------------------------------
 
-    public void monsterSet() // 몬스터 배치
+    public void monsterSet() // 몬스터 배치(위치, HPbar)
     {
         monster1.SetActive(false);
         monster2.SetActive(false);
@@ -275,6 +280,8 @@ public class Turn : MonoBehaviour
             monster1.SetActive(true);
             monster1Rect.anchoredPosition = new Vector3(0, 400, 0);
             monster1Rect.sizeDelta = new Vector2(700, 700);
+            monster1HPBar.anchoredPosition = new Vector3(0, -400, 0);
+            monster1HPBar.localScale = new Vector2(1.0f, 1.0f);
             //몹 이미지 배치
             monster2.SetActive(false);
             monster3.SetActive(false);
@@ -285,10 +292,14 @@ public class Turn : MonoBehaviour
             monster1.SetActive(true);
             monster1Rect.anchoredPosition = new Vector3(-250, 400, 0);
             monster1Rect.sizeDelta = new Vector2(400, 400);
+            monster1HPBar.anchoredPosition = new Vector3(-50, -370, 0);
+            monster1HPBar.localScale = new Vector2(0.5f, 0.5f);
             //몹 이미지 배치
             monster2.SetActive(true);
             monster2Rect.anchoredPosition = new Vector3(250, 400, 0);
             monster2Rect.sizeDelta = new Vector2(400, 400);
+            monster2HPBar.anchoredPosition = new Vector3(50, -370, 0);
+            monster2HPBar.localScale = new Vector2(0.5f, 0.5f);
             //몹 이미지 배치
             monster3.SetActive(false);
             monster4.SetActive(false);
@@ -296,16 +307,22 @@ public class Turn : MonoBehaviour
         if (monsterMgr.monsters.Count == 3)
         {
             monster1.SetActive(true);
-            monster1Rect.anchoredPosition = new Vector3(-350, 400, 0);
+            monster1Rect.anchoredPosition = new Vector3(-250, 400, 0);
             monster1Rect.sizeDelta = new Vector2(300, 300);
+            monster1HPBar.anchoredPosition = new Vector3(-100, -310, 0);
+            monster1HPBar.localScale = new Vector2(0.33f, 0.33f);
             //몹 이미지 배치
             monster2.SetActive(true);
             monster2Rect.anchoredPosition = new Vector3(0, 400, 0);
             monster2Rect.sizeDelta = new Vector2(300, 300);
+            monster2HPBar.anchoredPosition = new Vector3(0, -310, 0);
+            monster2HPBar.localScale = new Vector2(0.33f, 0.33f);
             //몹 이미지 배치
             monster3.SetActive(true);
-            monster3Rect.anchoredPosition = new Vector3(350, 400, 0);
+            monster3Rect.anchoredPosition = new Vector3(250, 400, 0);
             monster3Rect.sizeDelta = new Vector2(300, 300);
+            monster3HPBar.anchoredPosition = new Vector3(100, -310, 0);
+            monster3HPBar.localScale = new Vector2(0.33f, 0.33f);
             //몹 이미지 배치
             monster4.SetActive(false);
         }
@@ -314,18 +331,26 @@ public class Turn : MonoBehaviour
             monster1.SetActive(true);
             monster1Rect.anchoredPosition = new Vector3(-405, 400, 0);
             monster1Rect.sizeDelta = new Vector2(200, 200);
+            monster1HPBar.anchoredPosition = new Vector3(-20, -250, 0);
+            monster1HPBar.localScale = new Vector2(0.25f, 0.25f);
             //몹 이미지 배치
             monster2.SetActive(true);
             monster2Rect.anchoredPosition = new Vector3(-135, 400, 0);
             monster2Rect.sizeDelta = new Vector2(200, 200);
+            monster2HPBar.anchoredPosition = new Vector3(-7, -250, 0);
+            monster2HPBar.localScale = new Vector2(0.25f, 0.25f);
             //몹 이미지 배치
             monster3.SetActive(true);
             monster3Rect.anchoredPosition = new Vector3(135, 400, 0);
             monster3Rect.sizeDelta = new Vector2(200, 200);
+            monster3HPBar.anchoredPosition = new Vector3(7, -250, 0);
+            monster3HPBar.localScale = new Vector2(0.25f, 0.25f);
             //몹 이미지 배치
             monster4.SetActive(true);
             monster4Rect.anchoredPosition = new Vector3(405, 400, 0);
             monster4Rect.sizeDelta = new Vector2(200, 200);
+            monster4HPBar.anchoredPosition = new Vector3(20, -250, 0);
+            monster4HPBar.localScale = new Vector2(0.25f, 0.25f);
             //몹 이미지 배치
         }
     }
