@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MonsterMgr : MonoBehaviour
 {
@@ -68,16 +69,17 @@ public class MonsterMgr : MonoBehaviour
     //몬스터 출현(한 몬스터가 여러마리 등장)
     public void MonsterSetting()
     {
-        int mobCount = Random.Range(4, 5);
+        int mobCount = Random.Range(1, 5);
         monsters.Clear();//초기화
         for (int i = 0; i < mobCount; i++)
         {
-            monsters.Add(dataManager.MonsterList[0]);
+            monsters.Add(dataManager.MonsterList[3*i]);//등장 몹은 서로 다름
+            skill.mobProvocation.Clear();//몬스터 도발 초기화
         }
     }
     public void InitMonster(int index)
     {
-        monsterFullHP = monsters[index].HP * 3;//몬스터 체력 초기화
+        monsterFullHP = monsters[index].HP * 30;//몬스터 체력 초기화
         currentMonsterHP = monsterFullHP;//처음엔 풀피
         monsterAttackDamage = monsters[index].Attack;//몬스터 공격력
         monsterAttribute = monsters[index].Attribute;//몬스터 속성
@@ -105,7 +107,7 @@ public class MonsterMgr : MonoBehaviour
         }
     }
     //다음 스테이지
-    public void StageClear(int stageNum)
+    public bool StageClear(int stageNum)
     {
         if(stageNum==3)
         {
@@ -113,6 +115,9 @@ public class MonsterMgr : MonoBehaviour
             turn.stageNumber = 1;
             //보상
             //월드 선택 씬으로
+            SceneManager.LoadScene("Home");//홈으로
+            return true;
         }
+        return false;
     }
 }

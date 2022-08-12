@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 //캐릭터 리스트 구조체
 public struct characterInfo
@@ -140,6 +141,7 @@ public class CharacterMgr : MonoBehaviour
     {
         if (playerHP <= 0)
         {
+            SceneManager.LoadScene("Home");//홈으로
             return true;
         }
         else

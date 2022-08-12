@@ -13,6 +13,7 @@ public class Skill : MonoBehaviour
 
     public int[,] SkillCharacterTurnMatrix = new int[160, 40];//스킬-캐릭터간 남은 턴 수 배열 
     public int playerAttack;//플레이어 공격력
+    public Queue mobProvocation = new Queue();//몬스터 도발
 
     //캐릭터별 남은 턴 수
     public Text firstCharacterTurn;
@@ -318,7 +319,7 @@ void Start()
     {
 
     }
-    public int skillAttackDamage(int number)//스킬 번호만 받는다.
+    public int skillAttackDamage(int number,int mobIndex)//스킬 번호만 받는다.
     {
         if (dataManager.SkillList[number].NotAction == true) return 0;//행동 불능의 경우 스킬 사용 불가
 
@@ -328,7 +329,6 @@ void Start()
 
         //HP회복
         HealCharacterHP(dataManager.SkillList[number].HealHP);
-        //출혈은 지속데미지 인가?
 
         int playerAttribute = CharacterMgr.characterList[number/4].characterAttribute;//플레이어 속성
         int monsterAttribute = dataManager.MonsterList[0].Attribute;//몬스터 속성
@@ -338,7 +338,7 @@ void Start()
         int skillPercentDamage = dataManager.SkillList[number].Attack;//스킬 퍼센테이지
 
         //턴 기반 버프
-        TurnBuff(SkillCharacterTurnMatrix[number, number / 4], number);//남은 턴 수를 넣는다
+        TurnBuff(SkillCharacterTurnMatrix[number, number / 4], number,mobIndex);//남은 턴 수를 넣는다
 
         return playerAttack * skillPercentDamage * attributeDamage / 10000;//최종 데미지
     }
@@ -358,7 +358,7 @@ void Start()
         }
     }
     //턴 기반 버프
-    void TurnBuff(int turnCount,int number)//남은 턴 수, 위치
+    void TurnBuff(int turnCount,int number,int mobIndex)//남은 턴 수, 위치
     {
         if (turnCount < 1) return;//턴 수를 모두 소모
         
@@ -374,7 +374,7 @@ void Start()
         if(dataManager.SkillList[number].Provocation == true)
         {
             //우선 피격 몬스터 설정
-
+            mobProvocation.Enqueue(mobIndex);
         }
     }
     //남은 턴 수 나타내기

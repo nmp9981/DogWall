@@ -131,7 +131,7 @@ public class Turn : MonoBehaviour
 
     public void turnEnd()
     {
-        mobHP = dataManager.MonsterList[0].HP*3;//임의의 몬스터 HP 설정
+        mobHP = monsterMgr.currentMonsterHP;//임의의 몬스터 HP 설정
         //스킬계산
         totalDamage = 0;//초기화
         //4개의 스킬
@@ -148,7 +148,7 @@ public class Turn : MonoBehaviour
             skill.InitTurn(skillNumber);//턴 초기화
             characterMgr.ColorCondition(skill.playerAttack, i, skillNumber);//캐릭터 상태 이상 색상 표시
             skill.TurnCountText(skillNumber,i);//남은 턴 수 나타내기
-            totalDamage += skill.skillAttackDamage(skillNumber);//데미지 누적
+            totalDamage += skill.skillAttackDamage(skillNumber,i);//데미지 누적
         }
         monsterMgr.MonsterBloodDamage(totalDamage,mobHP);//몬스터 데미지
         totalTurnNumber += 1;
@@ -174,11 +174,20 @@ public class Turn : MonoBehaviour
 
         if (monsterMgr.monsters.Count == 0) // 몬스터가 다 죽었다면 스테이지 증가
         {
-            monsterMgr.StageClear(stageNumber);//클리어 여부 확인
-            stageNumber += 1;
-            stageText.text = stageNumber.ToString();
-            if (firstAttack) turnNumber = 1; // 선제공격 여부 확인
-            else turnNumber = 5;
+            //클리어 여부 확인
+            if (!monsterMgr.StageClear(stageNumber))
+            {
+                stageNumber += 1;
+                stageText.text = stageNumber.ToString();
+
+                //다음 스테이지 몬스터 등장
+                monsterMgr.MonsterSetting();//몬스터 리젠
+                monsterMgr.InitMonster(monsterMgr.monstersIndex);//초기 몬스터 세팅
+                monsterSet(); // 몬스터 배치
+
+                if (firstAttack) turnNumber = 1; // 선제공격 여부 확인
+                else turnNumber = 5;
+            }
         }
 
         turnNumber = 5; // 보스로 턴 전환
