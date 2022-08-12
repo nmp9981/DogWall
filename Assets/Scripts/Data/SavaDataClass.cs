@@ -17,8 +17,9 @@ public class CharacterDataClass//캐릭터 DB
     public int Appear = 0;//출현 
     public int Upgrade = 0;//강화 횟수
     public int Star = 1;//별
+    public int Same = 0; //뽑기에서 같은 캐릭터 뽑은 경우 +1
 
-    public CharacterDataClass(string path = "",Sprite img = null, string n = "무명", int h = 0,int e = 0,int A = 0, int a = 0, string t = "없음", int ap = 0, int Up = 0, int S = 1)
+    public CharacterDataClass(string path = "",Sprite img = null, string n = "무명", int h = 0,int e = 0,int A = 0, int a = 0, string t = "없음", int ap = 0, int Up = 0, int S = 1, int Pair = 0)
     {
         this.img_path = path;
         this.Img = img;
@@ -31,6 +32,7 @@ public class CharacterDataClass//캐릭터 DB
         this.Appear = ap;
         this.Upgrade = Up;
         this.Star = S;
+        this.Same = Pair; 
     }
 }
 [System.Serializable]

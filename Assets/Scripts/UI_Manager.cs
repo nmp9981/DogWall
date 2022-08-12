@@ -11,30 +11,45 @@ public class UI_Manager : MonoBehaviour
     public int level1 = 0, level2 = 0;
     public int x = 0, y = 0;
     int tap = 0;
+    public float time = 0;
     DataManager data;
+    //SaveDataClass saveData; 일단 폐기 나중에 한번에 고치든가
+
+    // About Unit Upgrade
     private bool upgrade = false;
     private bool fullStat = false;
-    [SerializeField] int leftPiecesNum = 10; // 진짜 데이터는 받아서 써야함 구색만 맞춰 놓은 거임
+    int leftPiecesNum = 10; // 진짜 데이터는 받아서 써야함 구색만 맞춰 놓은 거임
     int basicSettingNum = 0;
     int presentUseNum = 0;
     int presentStatNum = 0;
     int futureStatNum = 0;
+    int charUpgrade;
 
     public Text changeStat;
     public Text leftPiece;
     public Text usePiece;
-    public float time = 0;
+
+    // About Unit Gacha
+    int currency;
+    int currentDotPos = 0;
+    public GameObject bannerImg;
+    public List<GameObject> sliderDotsList;
+    public List<Sprite> bannerImgList;
+    [SerializeField] Sprite fullDot, emptyDot;
+    [SerializeField] GameObject leftBtn, rightBtn, mainbanner, gachaResult, alertPop;
+
+
     void Awake()
     {
         data = GameObject.Find("Data_Manager").GetComponent<DataManager>();
     }
     void Start()
     {
+        //saveData = data.saveData;
         data.saveData.SetImg();
         Load();
-        changeStat.text = "스탯 변화 : +" + presentStatNum.ToString() + "% -> +" + futureStatNum.ToString() + "%";
-        leftPiece.text = "남은 기억의 조각 : " + leftPiecesNum.ToString();
-        usePiece.text = "사용할 기억의 조각 : " + basicSettingNum.ToString();
+        //currency = data.saveData.ui.money[0];
+        currency = 100; // for Test
         
     }
 
@@ -274,6 +289,10 @@ public class UI_Manager : MonoBehaviour
                     if(Unit.name == data.saveData.my_characterList[i].Name)
                     {
                         target.GetComponent<Image>().sprite = data.saveData.my_characterList[i].Img;
+                        leftPiecesNum = data.saveData.my_characterList[i].Same;
+                        charUpgrade = data.saveData.my_characterList[i].Upgrade; //유닛 강화 창에서 보여지는 캐릭터의 업그레이드 저장할 int
+                        SetStatForm();
+                        usePiece.text = "사용할 기억의 조각 : " + basicSettingNum.ToString();
                         break;
                     }
                 }
@@ -363,32 +382,49 @@ public class UI_Manager : MonoBehaviour
         UI_LEVEL2_Controll(0);
     }
 
+    // Functions for Unit Upgrade
+    public void SetStatForm()
+    {
+        changeStat.text = "스탯 변화 : +" + presentStatNum.ToString() + "% -> +" + futureStatNum.ToString() + "%";
+        leftPiece.text = "남은 기억의 조각 : " + leftPiecesNum.ToString();
+        //usePiece.text = "사용할 기억의 조각 : " + basicSettingNum.ToString();
+    }
     public void IncreasePieceNum()
     {
-        if(!fullStat)
+        if(leftPiecesNum != 0)
         {
-            presentUseNum++;
-            leftPiecesNum--;
-            futureStatNum += 10;
-            changeStat.text = "스탯 변화 : +" + presentStatNum.ToString() + "% -> +" + futureStatNum.ToString() + "%";
-            leftPiece.text = "남은 기억의 조각 : " + leftPiecesNum.ToString();
-            usePiece.text = "사용할 기억의 조각 : " + presentUseNum.ToString();
-            if(futureStatNum == 50)
+            if(presentStatNum == 50)
             {
-                Debug.Log("뭐가 좀 이상한디,,,,");
+                fullStat = true;
+            }
+            if(!fullStat)
+            {
+                presentUseNum++;
+                leftPiecesNum--;
+                futureStatNum += 10;
+                SetStatForm();
+                usePiece.text = "사용할 기억의 조각 : " + presentUseNum.ToString();
+                if(futureStatNum == 50)
+                {
+                    fullStat = true;
+                }
             }
         }
+        
     }
 
     public void DecreasePieceNum()
     {
+        if(presentStatNum == 50)
+        {
+            fullStat = true;
+        }
         if(presentUseNum != 0)
         {
             presentUseNum--;
             leftPiecesNum++;
             futureStatNum -= 10;
-            changeStat.text = "스탯 변화 : +" + presentStatNum.ToString() + "% -> +" + futureStatNum.ToString() + "%";
-            leftPiece.text = "남은 기억의 조각 : " + leftPiecesNum.ToString();
+            SetStatForm();
             usePiece.text = "사용할 기억의 조각 : " + presentUseNum.ToString();
         }
     }
@@ -401,11 +437,99 @@ public class UI_Manager : MonoBehaviour
         {
             fullStat = true;
         }
+        charUpgrade = presentUseNum;
+        data.Save();
     }
 
-    public void ClosePopup()
+    // Functions for Gacha
+
+    public void GachaBasicSetting()
     {
-        GameObject panel = GameObject.Find("Canvas").transform.Find("Gacha").transform.Find("Percentage_Popup").gameObject;
+        if(currentDotPos >= 0 && currentDotPos < 8) 
+        { // Change dot imgs
+            sliderDotsList[currentDotPos].GetComponent<Image>().sprite = fullDot;
+            for (int i = 0; i < currentDotPos; i++)
+            {
+                sliderDotsList[i].GetComponent<Image>().sprite = emptyDot;
+            }
+            for (int i = 7; i > currentDotPos; i--)
+            {
+                sliderDotsList[i].GetComponent<Image>().sprite = emptyDot;
+            }
+            // Change gacha banner img
+            bannerImg.GetComponent<Image>().sprite = bannerImgList[currentDotPos];
+        }
+        if(currentDotPos != 0)
+        {
+            leftBtn.GetComponent<Button>().interactable = true;
+        }
+        if(currentDotPos != 7)
+        {
+            rightBtn.GetComponent<Button>().interactable = true;
+        }
+    }
+    public void SliderLeftBtn()
+    {
+        if (currentDotPos == 0)
+        {
+            leftBtn.GetComponent<Button>().interactable = false;
+        }
+        else
+        {
+            leftBtn.GetComponent<Button>().interactable = true;
+            currentDotPos--;
+            GachaBasicSetting();
+        }
+
+    }
+    public void SliderRightBtn()
+    {
+        if (currentDotPos == 7)
+        {
+            rightBtn.GetComponent<Button>().interactable = false;
+        }
+        else
+        {
+            rightBtn.GetComponent<Button>().interactable = true;
+            currentDotPos++;
+            GachaBasicSetting();
+        }
+    }
+
+    public void OnePopBtn()
+    {
+        if(currency >= 10)
+        {
+            mainbanner.SetActive(false);
+            gachaResult.SetActive(true);
+            currency -= 10;
+            //data.saveData.ui.money[0] = currency;
+            data.Save();
+        }
+        else
+        {
+            alertPop.SetActive(true);
+        }
+    }
+    public void TenPopBtn()
+    {
+        if(currency >= 100)
+        {
+            mainbanner.SetActive(false);
+            gachaResult.SetActive(true);
+            currency -= 100;
+            //data.saveData.ui.money[0] = currency;
+            data.Save();
+        }
+        else
+        {
+            alertPop.SetActive(true);
+        }
+    }
+
+    public void ClosePopup(string name)
+    {
+        GameObject panel = GameObject.Find("Canvas").transform.Find("Gacha").transform.Find(name).gameObject;
         if(panel.activeSelf == true)
         {
             panel.SetActive(false);

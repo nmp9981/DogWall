@@ -1,0 +1,836 @@
+fileFormatVersion: 2
+guid: ad3c17bf9b3036044bf2147cc5bce203
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7340445334172380261
+    second: monsterboll_0
+  - first:
+      213: -5447198491095771242
+    second: monsterboll_1
+  - first:
+      213: 2614515529670746749
+    second: monsterboll_2
+  - first:
+      213: 4658145096329006973
+    second: monsterboll_3
+  - first:
+      213: -3220620481788191034
+    second: monsterboll_4
+  - first:
+      213: 7435565412735978000
+    second: monsterboll_5
+  - first:
+      213: -7295263748967075612
+    second: monsterboll_6
+  - first:
+      213: -8417054407375881408
+    second: monsterboll_7
+  - first:
+      213: -2385852775444311250
+    second: monsterboll_8
+  - first:
+      213: 6326884503933308174
+    second: monsterboll_9
+  - first:
+      213: -4363304181495719939
+    second: monsterboll_10
+  - first:
+      213: -8281561635111117291
+    second: monsterboll_11
+  - first:
+      213: -6888846968496789585
+    second: monsterboll_12
+  - first:
+      213: -3994704761963367815
+    second: monsterboll_13
+  - first:
+      213: -941925959817633185
+    second: monsterboll_14
+  - first:
+      213: -5652815842008544476
+    second: monsterboll_15
+  - first:
+      213: -5340678052986956181
+    second: monsterboll_16
+  - first:
+      213: 2635307529722602797
+    second: monsterboll_17
+  - first:
+      213: 4439725686131185052
+    second: monsterboll_18
+  - first:
+      213: -927711287514480531
+    second: monsterboll_19
+  - first:
+      213: -5036234578920134871
+    second: monsterboll_20
+  - first:
+      213: -6422748716084479779
+    second: monsterboll_21
+  - first:
+      213: -166671127626546949
+    second: monsterboll_22
+  - first:
+      213: 2435770900300230146
+    second: monsterboll_23
+  - first:
+      213: 1166127790313299236
+    second: monsterboll_24
+  - first:
+      213: 8910593288229826810
+    second: monsterboll_25
+  - first:
+      213: -1552950973916091761
+    second: monsterboll_26
+  - first:
+      213: -684345201191071340
+    second: monsterboll_27
+  - first:
+      213: -2743988412053428709
+    second: monsterboll_28
+  - first:
+      213: -1226814323174007682
+    second: monsterboll_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monsterboll_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b935b732cdf712a90800000000000000
+      internalID: -7340445334172380261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 600
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697513535d9a764b0800000000000000
+      internalID: -5447198491095771242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_2
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 600
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7264cd9500a84420800000000000000
+      internalID: 2614515529670746749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 600
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f0be2094e05a040800000000000000
+      internalID: 4658145096329006973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_4
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 600
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cedaa24cbe0e43d0800000000000000
+      internalID: -3220620481788191034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a0f4af85f603760800000000000000
+      internalID: 7435565412735978000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_6
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 480
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e07804b54402ca90800000000000000
+      internalID: -7295263748967075612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_7
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 480
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b7939ac9d903b80800000000000000
+      internalID: -8417054407375881408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_8
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 480
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e231341aa8fb3eed0800000000000000
+      internalID: -2385852775444311250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_9
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 480
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d4edf5feb9dc750800000000000000
+      internalID: 6326884503933308174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df798f6f6fd6273c0800000000000000
+      internalID: -4363304181495719939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 360
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ed2b9029bf11d80800000000000000
+      internalID: -8281561635111117291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_12
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 360
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7e8ba4e26e560a0800000000000000
+      internalID: -6888846968496789585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_13
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 360
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972bc901f25ff88c0800000000000000
+      internalID: -3994704761963367815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_14
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 360
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52e950845b9de2f0800000000000000
+      internalID: -941925959817633185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b416c01f92d81b0800000000000000
+      internalID: -5652815842008544476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_16
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 240
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66dcff5b9912e5b0800000000000000
+      internalID: -5340678052986956181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_17
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 240
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25270f5c3e729420800000000000000
+      internalID: 2635307529722602797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_18
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 240
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95d6062df21d9d30800000000000000
+      internalID: 4439725686131185052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_19
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 240
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60449dcf7b1023f0800000000000000
+      internalID: -927711287514480531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9272de56553bb1ab0800000000000000
+      internalID: -5036234578920134871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_21
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 120
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd830386210ddd6a0800000000000000
+      internalID: -6422748716084479779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_22
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 120
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf081831e7ddfadf0800000000000000
+      internalID: -166671127626546949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_23
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 120
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ee0a28ab89dc120800000000000000
+      internalID: 2435770900300230146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_24
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 120
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dd5500c0bee2010800000000000000
+      internalID: 1166127790313299236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af03be2a269c8ab70800000000000000
+      internalID: 8910593288229826810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_26
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a622e215fc27ae0800000000000000
+      internalID: -1552950973916091761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_27
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49153435aa7b086f0800000000000000
+      internalID: -684345201191071340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_28
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 0
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1664c7d3156be9d0800000000000000
+      internalID: -2743988412053428709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monsterboll_29
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0
+        width: 129.6
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c1add7fda79fee0800000000000000
+      internalID: -1226814323174007682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 557ea7433b6ba284ebb98f2a35266f95
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

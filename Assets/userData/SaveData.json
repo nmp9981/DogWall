@@ -4,7 +4,7 @@
         {
             "img_path": "Monster Dummy/000",
             "Img": {
-                "instanceID": 14728
+                "instanceID": 16018
             },
             "Name": "질퍽이",
             "HP": 10,
@@ -14,12 +14,13 @@
             "Type": "몰루?",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "Monster Dummy/111",
             "Img": {
-                "instanceID": 14762
+                "instanceID": 16022
             },
             "Name": "꼬북이",
             "HP": 10,
@@ -29,12 +30,13 @@
             "Type": "물",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "Monster Dummy/121",
             "Img": {
-                "instanceID": 14766
+                "instanceID": 16026
             },
             "Name": "잉어킹",
             "HP": 10,
@@ -44,12 +46,13 @@
             "Type": "물",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "Monster Dummy/212",
             "Img": {
-                "instanceID": 14734
+                "instanceID": 16030
             },
             "Name": "고라파덕",
             "HP": 5,
@@ -59,12 +62,13 @@
             "Type": "물",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "Monster Dummy/333",
             "Img": {
-                "instanceID": 14758
+                "instanceID": 16038
             },
             "Name": "뭐더라",
             "HP": 10,
@@ -74,12 +78,13 @@
             "Type": "어둠",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "Monster Dummy/000",
             "Img": {
-                "instanceID": 14728
+                "instanceID": 16018
             },
             "Name": "질퍽이",
             "HP": 10,
@@ -89,12 +94,13 @@
             "Type": "몰루?",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "Monster Dummy/111",
             "Img": {
-                "instanceID": 14762
+                "instanceID": 16022
             },
             "Name": "꼬북이",
             "HP": 10,
@@ -104,12 +110,13 @@
             "Type": "물",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "Monster Dummy/121",
             "Img": {
-                "instanceID": 14766
+                "instanceID": 16026
             },
             "Name": "잉어킹",
             "HP": 10,
@@ -119,12 +126,13 @@
             "Type": "물",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "Monster Dummy/212",
             "Img": {
-                "instanceID": 14734
+                "instanceID": 16030
             },
             "Name": "고라파덕",
             "HP": 5,
@@ -134,12 +142,13 @@
             "Type": "물",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "Monster Dummy/333",
             "Img": {
-                "instanceID": 14758
+                "instanceID": 16038
             },
             "Name": "뭐더라",
             "HP": 10,
@@ -149,7 +158,8 @@
             "Type": "어둠",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         }
     ],
     "skillList": [],
@@ -158,7 +168,7 @@
         {
             "img_path": "Monster Dummy/000",
             "Img": {
-                "instanceID": 14728
+                "instanceID": 16018
             },
             "Name": "질퍽이",
             "HP": 10,
@@ -168,12 +178,13 @@
             "Type": "몰루?",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "Monster Dummy/121",
             "Img": {
-                "instanceID": 14766
+                "instanceID": 16026
             },
             "Name": "잉어킹",
             "HP": 10,
@@ -183,12 +194,13 @@
             "Type": "물",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "Monster Dummy/111",
             "Img": {
-                "instanceID": 14762
+                "instanceID": 16022
             },
             "Name": "꼬북이",
             "HP": 10,
@@ -198,12 +210,13 @@
             "Type": "물",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "Monster Dummy/212",
             "Img": {
-                "instanceID": 14734
+                "instanceID": 16030
             },
             "Name": "고라파덕",
             "HP": 5,
@@ -213,12 +226,13 @@
             "Type": "물",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "Monster Dummy/000",
             "Img": {
-                "instanceID": 14728
+                "instanceID": 16018
             },
             "Name": "질퍽이",
             "HP": 10,
@@ -228,7 +242,8 @@
             "Type": "몰루?",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "",
@@ -243,7 +258,8 @@
             "Type": "없음",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "",
@@ -258,7 +274,8 @@
             "Type": "없음",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "",
@@ -273,7 +290,8 @@
             "Type": "없음",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "",
@@ -288,7 +306,8 @@
             "Type": "없음",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "",
@@ -303,7 +322,8 @@
             "Type": "없음",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "",
@@ -318,7 +338,8 @@
             "Type": "없음",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         },
         {
             "img_path": "",
@@ -333,7 +354,8 @@
             "Type": "없음",
             "Appear": 0,
             "Upgrade": 0,
-            "Star": 1
+            "Star": 1,
+            "Same": 0
         }
     ],
     "ui": {
