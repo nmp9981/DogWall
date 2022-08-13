@@ -92,6 +92,7 @@ public class UI
 {
     public List<int> money;//재화
     public string home_img_path;
+    public float bgm, sfx;
     public UI()
     {
         money = new List<int>();

@@ -65,6 +65,7 @@ public class UI_Manager : MonoBehaviour
             Character_ADD("Monster Dummy/333","뭐더라",10,5,3,10,"어둠");
         }
     }
+    #region yeongchan
     public void UI_LEVEL1_Controll(int level)
     {
         level1 = level;
@@ -381,7 +382,8 @@ public class UI_Manager : MonoBehaviour
         UI_LEVEL1_Controll(0);
         UI_LEVEL2_Controll(0);
     }
-
+    #endregion
+    #region doyeon
     // Functions for Unit Upgrade
     public void SetStatForm()
     {
@@ -535,5 +537,5 @@ public class UI_Manager : MonoBehaviour
             panel.SetActive(false);
         }
     }
-
+    #endregion
 }
