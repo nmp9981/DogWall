@@ -6,7 +6,7 @@ using System;
 [System.Serializable]
 public class CharacterDataClass//캐릭터 DB
 {
-    public string img_path = "";//이미지 경로
+    public string img_path = "";//이미지 경로,캐릭터의 영문명으로 요청하기
     public Sprite Img = null;//이미지
     public string Name = "";//캐릭터명
     public int HP = 0;//HP
@@ -14,12 +14,12 @@ public class CharacterDataClass//캐릭터 DB
     public int Attribute = 0;//속성
     public int ATK = 0;//공격력
     public string Type = "";//유형
-    public int Appear = 0;//출현 
+    public int Appear = 1;//출현 
     public int Upgrade = 0;//강화 횟수
     public int Star = 1;//별
     public int Same = 0; //뽑기에서 같은 캐릭터 뽑은 경우 +1
 
-    public CharacterDataClass(string path = "",Sprite img = null, string n = "무명", int h = 0,int e = 0,int A = 0, int a = 0, string t = "없음", int ap = 0, int Up = 0, int S = 1, int Pair = 0)
+    public CharacterDataClass(string path = "",Sprite img = null, string n = "무명", int h = 0,int e = 0,int A = 1, int a = 0, string t = "없음", int ap = 0, int Up = 0, int S = 1, int Pair = 0)
     {
         this.img_path = path;
         this.Img = img;
