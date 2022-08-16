@@ -71,10 +71,10 @@ public class MonsterMgr : MonoBehaviour
     {
         int mobCount = Random.Range(1, 5);
         monsters.Clear();//초기화
-        skill.mobProvocation.Clear();//몬스터 도발 초기화
         for (int i = 0; i < mobCount; i++)
         {
             monsters.Add(dataManager.MonsterList[3*i]);//등장 몹은 서로 다름
+            skill.mobProvocation.Clear();//몬스터 도발 초기화
         }
     }
     public void InitMonster(int index)

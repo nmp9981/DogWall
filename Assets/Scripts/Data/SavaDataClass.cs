@@ -88,28 +88,6 @@ public class MonsterDataClass//몬스터 DB
     }
 }
 [System.Serializable]
-public class QuestDataClass//퀘스트 DB
-{
-    public int Episode = 1;
-    public int World = 1;
-    public int BigStage = 1;
-    public int MiddleStage = 1;
-    public int SmallStage = 1;
-    public int MonsterIndex = 0;
-    public int MonsterActionIndex = 0;
-
-    public QuestDataClass(int e = 1, int w = 1, int b = 1, int m = 1, int s = 1, int mi = 0,int ma = 0)
-    {
-        this.Episode = e;
-        this.World = w;
-        this.BigStage = b;
-        this.MiddleStage = m;
-        this.SmallStage = s;
-        this.MonsterIndex = mi;
-        this.MonsterActionIndex = ma;
-    }
-}
-[System.Serializable]
 public class UI
 {
     public List<int> money;//재화
@@ -133,7 +111,6 @@ public class SaveDataClass
     public List<CharacterDataClass> my_characterList;//내가 가지고 있는 캐릭
     public List<SkillDataClass> skillList;//스킬 리스트
     public List<MonsterDataClass> monsterList;//몬스터 리스트
-    public List<QuestDataClass> questList;//퀘스트 리스트
     //스테이지 진행정도
     public List<CharacterDataClass> my_team;
     public UI ui;
@@ -147,7 +124,6 @@ public class SaveDataClass
             my_team.Add(new CharacterDataClass());
         skillList = new List<SkillDataClass>();
         monsterList = new List<MonsterDataClass>();
-        questList = new List<QuestDataClass>();
         ui =  new UI();
     }
     public void SetImg()
