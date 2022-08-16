@@ -2854,6 +2854,7 @@ GameObject:
   m_Component:
   - component: {fileID: 716250769}
   - component: {fileID: 716250768}
+  - component: {fileID: 716250770}
   m_Layer: 0
   m_Name: DataManager
   m_TagString: DBManager
@@ -2892,6 +2893,173 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &716250770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716250767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148b5d5a1bada5649bf80e9b97b46403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveData:
+    list: []
+    my_characterList: []
+    skillList: []
+    monsterList: []
+    my_team:
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 0
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 0
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 0
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 0
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 0
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 0
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 0
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 0
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 0
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 0
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 0
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 0
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    ui:
+      money: 
+      home_img_path: 
+      bgm: 0
+      sfx: 0
 --- !u!1 &716468302
 GameObject:
   m_ObjectHideFlags: 0

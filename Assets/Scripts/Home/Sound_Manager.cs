@@ -7,7 +7,7 @@ public class Sound_Manager : MonoBehaviour
 {
     // Start is called before the first frame update
     public static Sound_Manager sound;
-    private SaveDataClass saveData;
+    private DataManager Data;
     public AudioMixer master;
     public Slider Bgm,Sfx;
     void Awake()
@@ -24,7 +24,7 @@ public class Sound_Manager : MonoBehaviour
     }
     void Start()
     {
-        saveData = GameObject.Find("Data_Manager").gameObject.GetComponent<DataManager>().saveData;
+        Data = GameObject.Find("Data_Manager").gameObject.GetComponent<DataManager>();
         master = Resources.Load<AudioMixer>("Master");
         Find_Sliders();
         Load_Value();
@@ -83,14 +83,18 @@ public class Sound_Manager : MonoBehaviour
             master.SetFloat("BGM",Bgm.value);
             master.SetFloat("SFX",Sfx.value);
         }
-        saveData.ui.bgm = Bgm.value;
-        saveData.ui.sfx = Sfx.value;
+        
     }
     public void Load_Value()
     {
-        Bgm.value = saveData.ui.bgm;
-        Sfx.value = saveData.ui.sfx;
-        master.SetFloat("BGM",Bgm.value);
-        master.SetFloat("SFX",Sfx.value);
+        master.SetFloat("BGM",Data.saveData.ui.bgm);
+        master.SetFloat("SFX",Data.saveData.ui.sfx);
+        Bgm.value = Data.saveData.ui.bgm;
+        Sfx.value = Data.saveData.ui.sfx;
+    }
+    public void Save_Value()
+    {
+        Data.saveData.ui.bgm = Bgm.value;
+        Data.saveData.ui.sfx = Sfx.value;
     }
 }

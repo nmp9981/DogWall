@@ -3096,6 +3096,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 17596087}
+        m_MethodName: Save_Value
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &306858764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6697,6 +6708,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 17596087}
+        m_MethodName: Load_Value
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &728481050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7868,7 +7890,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 872653596}
-  - component: {fileID: 872653595}
   - component: {fileID: 872653597}
   m_Layer: 0
   m_Name: Data_Manager
@@ -7877,23 +7898,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &872653595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 872653594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc9df79332344024a961d373beb8f53c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Character_Count: 0
-  Monster_Count: 0
-  Characterlist: []
-  SkillList: []
-  MonsterList: []
 --- !u!4 &872653596
 Transform:
   m_ObjectHideFlags: 0

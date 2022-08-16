@@ -4,7 +4,7 @@
         {
             "img_path": "Monster Dummy/000",
             "Img": {
-                "instanceID": 15142
+                "instanceID": 15164
             },
             "Name": "질퍽이",
             "HP": 10,
@@ -20,7 +20,7 @@
         {
             "img_path": "Monster Dummy/111",
             "Img": {
-                "instanceID": 15146
+                "instanceID": 15198
             },
             "Name": "꼬북이",
             "HP": 10,
@@ -36,7 +36,7 @@
         {
             "img_path": "Monster Dummy/121",
             "Img": {
-                "instanceID": 15150
+                "instanceID": 15202
             },
             "Name": "잉어킹",
             "HP": 10,
@@ -52,7 +52,7 @@
         {
             "img_path": "Monster Dummy/212",
             "Img": {
-                "instanceID": 15154
+                "instanceID": 15170
             },
             "Name": "고라파덕",
             "HP": 5,
@@ -68,7 +68,7 @@
         {
             "img_path": "Monster Dummy/333",
             "Img": {
-                "instanceID": 15162
+                "instanceID": 15194
             },
             "Name": "뭐더라",
             "HP": 10,
@@ -84,7 +84,7 @@
         {
             "img_path": "Monster Dummy/000",
             "Img": {
-                "instanceID": 15142
+                "instanceID": 15164
             },
             "Name": "질퍽이",
             "HP": 10,
@@ -100,7 +100,7 @@
         {
             "img_path": "Monster Dummy/111",
             "Img": {
-                "instanceID": 15146
+                "instanceID": 15198
             },
             "Name": "꼬북이",
             "HP": 10,
@@ -116,7 +116,7 @@
         {
             "img_path": "Monster Dummy/121",
             "Img": {
-                "instanceID": 15150
+                "instanceID": 15202
             },
             "Name": "잉어킹",
             "HP": 10,
@@ -132,7 +132,7 @@
         {
             "img_path": "Monster Dummy/212",
             "Img": {
-                "instanceID": 15154
+                "instanceID": 15170
             },
             "Name": "고라파덕",
             "HP": 5,
@@ -148,7 +148,7 @@
         {
             "img_path": "Monster Dummy/333",
             "Img": {
-                "instanceID": 15162
+                "instanceID": 15194
             },
             "Name": "뭐더라",
             "HP": 10,
@@ -168,7 +168,7 @@
         {
             "img_path": "Monster Dummy/000",
             "Img": {
-                "instanceID": 15142
+                "instanceID": 15164
             },
             "Name": "질퍽이",
             "HP": 10,
@@ -184,7 +184,7 @@
         {
             "img_path": "Monster Dummy/121",
             "Img": {
-                "instanceID": 15150
+                "instanceID": 15202
             },
             "Name": "잉어킹",
             "HP": 10,
@@ -200,7 +200,7 @@
         {
             "img_path": "Monster Dummy/111",
             "Img": {
-                "instanceID": 15146
+                "instanceID": 15198
             },
             "Name": "꼬북이",
             "HP": 10,
@@ -216,7 +216,7 @@
         {
             "img_path": "Monster Dummy/212",
             "Img": {
-                "instanceID": 15154
+                "instanceID": 15170
             },
             "Name": "고라파덕",
             "HP": 5,
@@ -232,7 +232,7 @@
         {
             "img_path": "Monster Dummy/000",
             "Img": {
-                "instanceID": 15142
+                "instanceID": 15164
             },
             "Name": "질퍽이",
             "HP": 10,
@@ -246,16 +246,16 @@
             "Same": 0
         },
         {
-            "img_path": "",
+            "img_path": "Monster Dummy/111",
             "Img": {
-                "instanceID": 0
+                "instanceID": 15198
             },
-            "Name": "무명",
-            "HP": 0,
+            "Name": "꼬북이",
+            "HP": 10,
             "Energe": 0,
-            "Attribute": 0,
-            "ATK": 0,
-            "Type": "없음",
+            "Attribute": 5,
+            "ATK": 10,
+            "Type": "물",
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
@@ -361,7 +361,7 @@
     "ui": {
         "money": [],
         "home_img_path": "Monster Dummy/212",
-        "bgm": 0.0,
-        "sfx": -12.057161331176758
+        "bgm": -28.949445724487306,
+        "sfx": -16.681072235107423
     }
 }
