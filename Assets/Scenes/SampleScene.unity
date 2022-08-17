@@ -2177,6 +2177,206 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532423122}
   m_CullTransparentMesh: 0
+--- !u!1 &534579079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534579081}
+  - component: {fileID: 534579080}
+  m_Layer: 0
+  m_Name: Data_Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &534579080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534579079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148b5d5a1bada5649bf80e9b97b46403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveData:
+    list: []
+    CharacterList: []
+    CharacterData: []
+    SkillData: []
+    MonsterData: []
+    MonsterSkillData: []
+    my_team:
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 1
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 1
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 1
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 1
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 1
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 1
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 1
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 1
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 1
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 1
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 1
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    - img_path: 
+      Img: {fileID: 0}
+      Name: "\uBB34\uBA85"
+      HP: 0
+      Energe: 0
+      Attribute: 1
+      ATK: 0
+      Type: "\uC5C6\uC74C"
+      Appear: 0
+      Upgrade: 0
+      Star: 1
+      Same: 0
+    ui:
+      money: 
+      home_img_path: 
+      bgm: 0
+      sfx: 0
+--- !u!4 &534579081
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534579079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &545105411
 GameObject:
   m_ObjectHideFlags: 0
@@ -2854,7 +3054,6 @@ GameObject:
   m_Component:
   - component: {fileID: 716250769}
   - component: {fileID: 716250768}
-  - component: {fileID: 716250770}
   m_Layer: 0
   m_Name: DataManager
   m_TagString: DBManager
@@ -2893,173 +3092,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &716250770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 716250767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 148b5d5a1bada5649bf80e9b97b46403, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  saveData:
-    list: []
-    CharacterList: []
-    skillList: []
-    monsterList: []
-    my_team:
-    - img_path: 
-      Img: {fileID: 0}
-      Name: "\uBB34\uBA85"
-      HP: 0
-      Energe: 0
-      Attribute: 0
-      ATK: 0
-      Type: "\uC5C6\uC74C"
-      Appear: 0
-      Upgrade: 0
-      Star: 1
-      Same: 0
-    - img_path: 
-      Img: {fileID: 0}
-      Name: "\uBB34\uBA85"
-      HP: 0
-      Energe: 0
-      Attribute: 0
-      ATK: 0
-      Type: "\uC5C6\uC74C"
-      Appear: 0
-      Upgrade: 0
-      Star: 1
-      Same: 0
-    - img_path: 
-      Img: {fileID: 0}
-      Name: "\uBB34\uBA85"
-      HP: 0
-      Energe: 0
-      Attribute: 0
-      ATK: 0
-      Type: "\uC5C6\uC74C"
-      Appear: 0
-      Upgrade: 0
-      Star: 1
-      Same: 0
-    - img_path: 
-      Img: {fileID: 0}
-      Name: "\uBB34\uBA85"
-      HP: 0
-      Energe: 0
-      Attribute: 0
-      ATK: 0
-      Type: "\uC5C6\uC74C"
-      Appear: 0
-      Upgrade: 0
-      Star: 1
-      Same: 0
-    - img_path: 
-      Img: {fileID: 0}
-      Name: "\uBB34\uBA85"
-      HP: 0
-      Energe: 0
-      Attribute: 0
-      ATK: 0
-      Type: "\uC5C6\uC74C"
-      Appear: 0
-      Upgrade: 0
-      Star: 1
-      Same: 0
-    - img_path: 
-      Img: {fileID: 0}
-      Name: "\uBB34\uBA85"
-      HP: 0
-      Energe: 0
-      Attribute: 0
-      ATK: 0
-      Type: "\uC5C6\uC74C"
-      Appear: 0
-      Upgrade: 0
-      Star: 1
-      Same: 0
-    - img_path: 
-      Img: {fileID: 0}
-      Name: "\uBB34\uBA85"
-      HP: 0
-      Energe: 0
-      Attribute: 0
-      ATK: 0
-      Type: "\uC5C6\uC74C"
-      Appear: 0
-      Upgrade: 0
-      Star: 1
-      Same: 0
-    - img_path: 
-      Img: {fileID: 0}
-      Name: "\uBB34\uBA85"
-      HP: 0
-      Energe: 0
-      Attribute: 0
-      ATK: 0
-      Type: "\uC5C6\uC74C"
-      Appear: 0
-      Upgrade: 0
-      Star: 1
-      Same: 0
-    - img_path: 
-      Img: {fileID: 0}
-      Name: "\uBB34\uBA85"
-      HP: 0
-      Energe: 0
-      Attribute: 0
-      ATK: 0
-      Type: "\uC5C6\uC74C"
-      Appear: 0
-      Upgrade: 0
-      Star: 1
-      Same: 0
-    - img_path: 
-      Img: {fileID: 0}
-      Name: "\uBB34\uBA85"
-      HP: 0
-      Energe: 0
-      Attribute: 0
-      ATK: 0
-      Type: "\uC5C6\uC74C"
-      Appear: 0
-      Upgrade: 0
-      Star: 1
-      Same: 0
-    - img_path: 
-      Img: {fileID: 0}
-      Name: "\uBB34\uBA85"
-      HP: 0
-      Energe: 0
-      Attribute: 0
-      ATK: 0
-      Type: "\uC5C6\uC74C"
-      Appear: 0
-      Upgrade: 0
-      Star: 1
-      Same: 0
-    - img_path: 
-      Img: {fileID: 0}
-      Name: "\uBB34\uBA85"
-      HP: 0
-      Energe: 0
-      Attribute: 0
-      ATK: 0
-      Type: "\uC5C6\uC74C"
-      Appear: 0
-      Upgrade: 0
-      Star: 1
-      Same: 0
-    ui:
-      money: 
-      home_img_path: 
-      bgm: 0
-      sfx: 0
 --- !u!1 &716468302
 GameObject:
   m_ObjectHideFlags: 0
@@ -4396,7 +4428,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -370}
-  m_SizeDelta: {x: 160, y: 200}
+  m_SizeDelta: {x: 300, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &975979215
 CanvasRenderer:
@@ -4430,7 +4462,7 @@ MonoBehaviour:
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 5
+    m_MinSize: 4
     m_MaxSize: 50
     m_Alignment: 0
     m_AlignByGeometry: 0

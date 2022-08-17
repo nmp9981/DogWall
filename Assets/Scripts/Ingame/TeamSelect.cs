@@ -21,7 +21,7 @@ public class TeamSelect : MonoBehaviour
         int selectedCount = 0;//총 선택 개수
         while (selectedCount < 4)
         {
-            selectedTeamNumber[selectedCount] = Random.Range(0, 6);//번호 결정
+            selectedTeamNumber[selectedCount] = Random.Range(0, 20);//번호 결정
             if (isSelect[selectedTeamNumber[selectedCount]] == false)//아직 미선택
             {
                 isSelect[selectedTeamNumber[selectedCount]] = true;//선택 체크

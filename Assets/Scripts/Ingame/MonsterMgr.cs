@@ -20,44 +20,16 @@ public class MonsterMgr : MonoBehaviour
     public int monsterAttribute;//몬스터 속성
 
     public int monstersIndex = 0;//몬스터 인덱스
-
-    public void LoadMonsterData()
-    {
-        dataManager.Add_Monster("월령", 1, "왕궁영술사", 1, 3500, 3000);
-        dataManager.Add_Monster("월령", 1, "왕궁영술사", 2, 4200, 3600);
-        dataManager.Add_Monster("월령", 1, "왕궁영술사", 3, 5040, 4320);
-        dataManager.Add_Monster("월령", 1, "도깨비", 1, 4500, 2000);
-        dataManager.Add_Monster("월령", 1, "도깨비", 2, 5400, 2400);
-        dataManager.Add_Monster("월령", 1, "도깨비", 3, 6480, 2880);
-        dataManager.Add_Monster("월령", 2, "왕궁영술사", 1, 3500, 3000);
-        dataManager.Add_Monster("월령", 2, "왕궁영술사", 2, 4200, 3600);
-        dataManager.Add_Monster("월령", 2, "왕궁영술사", 3, 5040, 4320);
-        dataManager.Add_Monster("월령", 2, "도깨비", 1, 4500, 2000);
-        dataManager.Add_Monster("월령", 2, "도깨비", 2, 5400, 2400);
-        dataManager.Add_Monster("월령", 2, "도깨비", 3, 6480, 2880);
-        dataManager.Add_Monster("월령", 2, "언령", 1, 3000, 5000);
-        dataManager.Add_Monster("월령", 2, "언령", 2, 3600, 6000);
-        dataManager.Add_Monster("월령", 2, "언령", 3, 4320, 7200);
-        dataManager.Add_Monster("월령", 3, "왕궁영술사", 1, 3500, 3000);
-        dataManager.Add_Monster("월령", 3, "왕궁영술사", 2, 4200, 3600);
-        dataManager.Add_Monster("월령", 3, "왕궁영술사", 3, 5040, 4320);
-        dataManager.Add_Monster("월령", 3, "도깨비", 1, 4500, 2000);
-        dataManager.Add_Monster("월령", 3, "도깨비", 2, 5400, 2400);
-        dataManager.Add_Monster("월령", 3, "도깨비", 3, 6480, 2880);
-        dataManager.Add_Monster("월령", 3, "언령", 1, 3000, 5000);
-        dataManager.Add_Monster("월령", 3, "언령", 2, 3600, 6000);
-        dataManager.Add_Monster("월령", 3, "언령", 3, 4320, 7200);
-    }
+   
     // Start is called before the first frame update
     void Start()
     {
-        Data = GameObject.Find("Data_Managers").gameObject.GetComponent<DataManager>();
+        Data = GameObject.Find("Data_Managers").gameObject.GetComponent<DataManager>();//데이터 가져오기
         characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
         turn = GameObject.FindWithTag("TurnMgr").GetComponent<Turn>();//Trun 스크립트에서 변수 가져오기
         skill = GameObject.FindWithTag("Skill").GetComponent<Skill>();//Skill 스크립트에서 변수 가져오기
         dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
         
-        LoadMonsterData();//데이터 불러오기
         MonsterSetting();//몬스터 리젠
         InitMonster(monstersIndex);//초기 몬스터 세팅
         turn.monsterSet(); // 몬스터 배치
@@ -81,7 +53,7 @@ public class MonsterMgr : MonoBehaviour
     }
     public void InitMonster(int index)
     {
-        monsterFullHP = monsters[index].HP * 30;//몬스터 체력 초기화
+        monsterFullHP = monsters[index].HP;//몬스터 체력 초기화
         currentMonsterHP = monsterFullHP;//처음엔 풀피
         monsterAttackDamage = monsters[index].Attack;//몬스터 공격력
         monsterAttribute = monsters[index].Attribute;//몬스터 속성

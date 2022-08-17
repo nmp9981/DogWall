@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class Turn : MonoBehaviour
 {
     Data_Manager dataManager;
+    private DataManager Data;
     CharacterMgr characterMgr;
     MonsterMgr monsterMgr;
     TeamSelect teamSelect;
@@ -78,6 +79,7 @@ public class Turn : MonoBehaviour
         playerSkillSelect.Add(0);
         playerSkillSelect.Add(0);
 
+        Data = GameObject.Find("Data_Managers").gameObject.GetComponent<DataManager>();//데이터 가져오기
         characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
         teamSelect = GameObject.FindWithTag("TeamSelect").GetComponent<TeamSelect>();//TeamSelect 스크립트에서 변수 가져오기
         skill = GameObject.FindWithTag("Skill").GetComponent<Skill>();//Skill 스크립트에서 변수 가져오기
@@ -205,8 +207,8 @@ public class Turn : MonoBehaviour
     void UISetting() // 턴 관리 1, 2, 3, 4 - 플레이어 1, 2, 3 ,4    5 -  몬스터 턴
     {
 
-        characterNameText.text = CharacterMgr.characterList[teamNumber].characterName; // 캐릭터 공격력 & 이름 UI 표시
-        characterAttackText.text = "Attack : " + CharacterMgr.characterList[teamNumber].characterAttack;
+        characterNameText.text = Data.saveData.CharacterData[teamNumber / 5].Name; // 캐릭터 공격력 & 이름 UI 표시
+        characterAttackText.text = "Attack : " + Data.saveData.CharacterData[teamNumber/5].Attack;
 
 
         skillNumber = playerSkillSelect[turnNumber - 1]; // 저장된 스킬 넘버를 턴에 맞춰서 가져옴

@@ -37,18 +37,7 @@ public class CharacterMgr : MonoBehaviour
 
     public Text playerHPText;//플레이어 HP텍스트
     public Text playerEnergeText;//플레이어 에너지 텍스트
-
-    void LoadCharacterData()
-    {
-        dataManager.Add_Character( null,null,"INTJ", 8100, 11, 1, 13000,null, 1,4);
-        dataManager.Add_Character(null, null, "INTJ", 8100, 11, 1, 13000, null, 1, 4);
-        dataManager.Add_Character(null, null, "INTJ", 8100, 11, 1, 13000, null, 1, 4);
-        dataManager.Add_Character(null, null, "INTJ", 8100, 11, 1, 13000, null, 1, 4);
-        dataManager.Add_Character(null, null, "INTJ", 8100, 11, 1, 13000, null, 1, 4);
-        dataManager.Add_Character(null, null, "INTJ", 8100, 11, 1, 13000, null, 1, 4);
-        dataManager.Add_Character(null, null, "INTJ", 8100, 11, 1, 13000, null, 1, 4);
-        dataManager.Add_Character(null, null, "INTJ", 8100, 11, 1, 13000, null, 1, 4);
-    }
+    /*
     //캐릭터 배열 선언 
     public static List<characterInfo> characterList = new List<characterInfo>
     {
@@ -61,7 +50,7 @@ public class CharacterMgr : MonoBehaviour
         new characterInfo("ESFP",9000,8500,11,0,1,"7단계"),
         new characterInfo("ESTJ",5200,18000,18,2,3,"8단계")
     };
-
+    */
     //캐릭터 상태 이상
     public GameObject characterCondition1;
     public GameObject characterCondition2;
@@ -91,9 +80,7 @@ public class CharacterMgr : MonoBehaviour
         teamSelect = GameObject.FindWithTag("TeamSelect").GetComponent<TeamSelect>();//TeamSelect 스크립트에서 변수 가져오기
         turn = GameObject.FindWithTag("TurnMgr").GetComponent<Turn>();//Trun 스크립트에서 변수 가져오기
         dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
-        //Data = GameObject.Find("Data_Manager").gameObject.GetComponent<DataManager>();
-
-        LoadCharacterData();//캐릭터 데이터 불러오기
+        Data = GameObject.Find("Data_Managers").gameObject.GetComponent<DataManager>();//데이터 가져오기
 
         //캐릭터 결정
         firstPlayer = teamSelect.selectedTeamNumber[0];
@@ -102,7 +89,7 @@ public class CharacterMgr : MonoBehaviour
         fourthPlayer = teamSelect.selectedTeamNumber[3];
 
         //풀피 설정
-        playerFullHP = characterList[firstPlayer].characterHP + characterList[secondPlayer].characterHP + characterList[thirdPlayer].characterHP + characterList[fourthPlayer].characterHP;
+        playerFullHP = Data.saveData.CharacterData[firstPlayer].HP + Data.saveData.CharacterData[secondPlayer].HP + Data.saveData.CharacterData[thirdPlayer].HP + Data.saveData.CharacterData[fourthPlayer].HP;
         playerHP = playerFullHP;//처음엔 풀피
 
         //캐릭터 상태이상 초기상태
@@ -178,67 +165,67 @@ public class CharacterMgr : MonoBehaviour
         switch (index)
         {
             case 0:
-                if (attack == characterList[skillIndex / 4].characterAttack)//변동없음
+                if (attack == Data.saveData.CharacterData[skillIndex / 5].Attack)//변동없음
                 {
                     characterCondition1.SetActive(false);
 
-                }else if(attack > characterList[skillIndex / 4].characterAttack)//증가
+                }else if(attack > Data.saveData.CharacterData[skillIndex / 5].Attack)//증가
                 {
                     characterCondition1.SetActive(true);
                     characterConditionImage1.color = Color.blue;//파란색
                 }
-                else if (attack < characterList[skillIndex / 4].characterAttack)//감소
+                else if (attack < Data.saveData.CharacterData[skillIndex / 5].Attack)//감소
                 {
                     characterCondition1.SetActive(true);
                     characterConditionImage1.color = Color.red;//빨간색
                 }
                 break;
             case 1:
-                if (attack == characterList[skillIndex / 4].characterAttack)//변동없음
+                if (attack == Data.saveData.CharacterData[skillIndex / 5].Attack)//변동없음
                 {
                     characterCondition2.SetActive(false);
 
                 }
-                else if (attack > characterList[skillIndex / 4].characterAttack)//증가
+                else if (attack > Data.saveData.CharacterData[skillIndex / 5].Attack)//증가
                 {
                     characterCondition2.SetActive(true);
                     characterConditionImage2.color = Color.blue;//파란색
                 }
-                else if (attack < characterList[skillIndex / 4].characterAttack)//감소
+                else if (attack < Data.saveData.CharacterData[skillIndex / 5].Attack)//감소
                 {
                     characterCondition2.SetActive(true);
                     characterConditionImage2.color = Color.red;//빨간색
                 }
                 break;
             case 2:
-                if (attack == characterList[skillIndex / 4].characterAttack)//변동없음
+                if (attack == Data.saveData.CharacterData[skillIndex / 5].Attack)//변동없음
                 {
                     characterCondition3.SetActive(false);
 
                 }
-                else if (attack > characterList[skillIndex / 4].characterAttack)//증가
+                else if (attack > Data.saveData.CharacterData[skillIndex / 5].Attack)//증가
                 {
                     characterCondition3.SetActive(true);
                     characterConditionImage3.color = Color.blue;//파란색
                 }
-                else if (attack < characterList[skillIndex / 4].characterAttack)//감소
+                else if (attack < Data.saveData.CharacterData[skillIndex / 5].Attack)//감소
                 {
                     characterCondition3.SetActive(true);
                     characterConditionImage3.color = Color.red;//빨간색
                 }
                 break;
             case 3:
-                if (attack == characterList[skillIndex / 4].characterAttack)//변동없음
+                if (attack == Data.saveData.CharacterData[skillIndex / 5].Attack)//변동없음
                 {
                     characterCondition4.SetActive(false);
 
                 }
-                else if (attack > characterList[skillIndex / 4].characterAttack)//증가
+                else if (attack > Data.saveData.CharacterData[skillIndex / 5].Attack)//증가
                 {
                     characterCondition4.SetActive(true);
                     characterConditionImage4.color = Color.blue;//파란색
                 }
-                else if (attack < characterList[skillIndex / 4].characterAttack)//감소
+                else if (attack < Data.saveData.CharacterData[skillIndex / 5].Attack)//감소
                 {
                     characterCondition4.SetActive(true);
                     characterConditionImage4.color = Color.red;//빨간색

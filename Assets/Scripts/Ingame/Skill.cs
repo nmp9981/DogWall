@@ -22,298 +22,14 @@ public class Skill : MonoBehaviour
     public Text thirdCharacterTurn;
     public Text fourthCharacterTurn;
 
-    //스킬데이터 추가
-    void AddSkillData() {
-        dataManager.SkillList.Insert(0, new SkillDataClass {
-            SkillName = "왕궁영술사",
-            Energe = 2,
-            Explain = "120%데미지로 공격",
-            Attack = 120,
-            DecreaseDamage = 100,
-            HealHP = 0,
-            Provocation = false,
-            NotAction = false,
-            HealEnerge = 0,
-            blood = 0,
-            TurnCount = 1,
-            Rare = 1
-        });
-        dataManager.SkillList.Insert(1, new SkillDataClass
-        {
-            SkillName = "왕궁영술사",
-            Energe = -2,
-            Explain = "90%데미지로 공격",
-            Attack = 90,
-            DecreaseDamage = 100,
-            HealHP = 20,
-            Provocation = false,
-            NotAction = false,
-            HealEnerge = 0,
-            blood = 0,
-            TurnCount = 3,
-            Rare = 1
-        });
-        dataManager.SkillList.Insert(2, new SkillDataClass
-        {
-            SkillName = "왕궁영술사",
-            Energe = -3,
-            Explain = "90%데미지로 공격",
-            Attack = 90,
-            DecreaseDamage = 70,
-            HealHP = 0,
-            Provocation = false,
-            NotAction = false,
-            HealEnerge = 0,
-            blood = 0,
-            TurnCount = 1,
-            Rare = 1
-        });
-        dataManager.SkillList.Insert(3, new SkillDataClass
-        {
-            SkillName = "왕궁영술사",
-            Energe = -7,
-            Explain = "220%데미지로 공격",
-            Attack = 220,
-            DecreaseDamage = 100,
-            HealHP = 0,
-            Provocation = false,
-            NotAction = false,
-            HealEnerge = 0,
-            blood = 0,
-            TurnCount = 1,
-            Rare = 1
-        }
-        );
-        dataManager.SkillList.Insert(4, new SkillDataClass
-        {
-            SkillName = "왕궁영술사",
-            Energe = 2,
-            Explain = "120%데미지로 공격",
-            Attack = 120,
-            DecreaseDamage = 100,
-            HealHP = 0,
-            Provocation = false,
-            NotAction = false,
-            HealEnerge = 0,
-            blood = 0,
-            TurnCount = 1,
-            Rare = 1
-        });
-        dataManager.SkillList.Insert(5, new SkillDataClass
-        {
-            SkillName = "왕궁영술사",
-            Energe = -2,
-            Explain = "90%데미지로 공격",
-            Attack = 90,
-            DecreaseDamage = 100,
-            HealHP = 20,
-            Provocation = false,
-            NotAction = false,
-            HealEnerge = 0,
-            blood = 0,
-            TurnCount = 3,
-            Rare = 1
-        });
-        dataManager.SkillList.Insert(6, new SkillDataClass
-        {
-            SkillName = "왕궁영술사",
-            Energe = -3,
-            Explain = "90%데미지로 공격",
-            Attack = 90,
-            DecreaseDamage = 70,
-            HealHP = 0,
-            Provocation = false,
-            NotAction = false,
-            HealEnerge = 0,
-            blood = 0,
-            TurnCount = 1,
-            Rare = 1
-        });
-        dataManager.SkillList.Insert(7, new SkillDataClass
-        {
-            SkillName = "왕궁영술사",
-            Energe = -7,
-            Explain = "220%데미지로 공격",
-            Attack = 220,
-            DecreaseDamage = 100,
-            HealHP = 0,
-            Provocation = false,
-            NotAction = false,
-            HealEnerge = 0,
-            blood = 0,
-            TurnCount = 1,
-            Rare = 1
-        }
-        );
-        dataManager.SkillList.Insert(8, new SkillDataClass
-        {
-            SkillName = "왕궁영술사",
-            Energe = 2,
-            Explain = "120%데미지로 공격",
-            Attack = 120,
-            DecreaseDamage = 100,
-            HealHP = 0,
-            Provocation = false,
-            NotAction = false,
-            HealEnerge = 0,
-            blood = 0,
-            TurnCount = 1,
-            Rare = 1
-        });
-        dataManager.SkillList.Insert(9, new SkillDataClass
-        {
-            SkillName = "왕궁영술사",
-            Energe = -2,
-            Explain = "90%데미지로 공격",
-            Attack = 90,
-            DecreaseDamage = 100,
-            HealHP = 20,
-            Provocation = false,
-            NotAction = false,
-            HealEnerge = 0,
-            blood = 0,
-            TurnCount = 3,
-            Rare = 1
-        });
-        dataManager.SkillList.Insert(10, new SkillDataClass
-        {
-            SkillName = "왕궁영술사",
-            Energe = -3,
-            Explain = "90%데미지로 공격",
-            Attack = 90,
-            DecreaseDamage = 70,
-            HealHP = 0,
-            Provocation = false,
-            NotAction = false,
-            HealEnerge = 0,
-            blood = 0,
-            TurnCount = 1,
-            Rare = 1
-        });
-        dataManager.SkillList.Insert(11, new SkillDataClass
-        {
-            SkillName = "왕궁영술사",
-            Energe = -7,
-            Explain = "220%데미지로 공격",
-            Attack = 220,
-            DecreaseDamage = 100,
-            HealHP = 0,
-            Provocation = false,
-            NotAction = false,
-            HealEnerge = 0,
-            blood = 0,
-            TurnCount = 1,
-            Rare = 1
-        }
-        );
-        dataManager.SkillList.Insert(12, new SkillDataClass
-        {
-            SkillName = "왕궁영술사",
-            Energe = 2,
-            Explain = "120%데미지로 공격",
-            Attack = 120,
-            DecreaseDamage = 100,
-            HealHP = 0,
-            Provocation = false,
-            NotAction = false,
-            HealEnerge = 0,
-            blood = 0,
-            TurnCount = 1,
-            Rare = 1
-        });
-        dataManager.SkillList.Insert(13, new SkillDataClass
-        {
-            SkillName = "왕궁영술사",
-            Energe = -2,
-            Explain = "90%데미지로 공격",
-            Attack = 90,
-            DecreaseDamage = 100,
-            HealHP = 20,
-            Provocation = false,
-            NotAction = false,
-            HealEnerge = 0,
-            blood = 0,
-            TurnCount = 3,
-            Rare = 1
-        });
-        dataManager.SkillList.Insert(14, new SkillDataClass
-        {
-            SkillName = "왕궁영술사",
-            Energe = -3,
-            Explain = "90%데미지로 공격",
-            Attack = 90,
-            DecreaseDamage = 70,
-            HealHP = 0,
-            Provocation = false,
-            NotAction = false,
-            HealEnerge = 0,
-            blood = 0,
-            TurnCount = 1,
-            Rare = 1
-        });
-        dataManager.Add_Skill("왕궁영술사", -7, "220%데미지로 공격", 220,100, 100, 0, false, false, 0, 0, 1, 1);
-        dataManager.SkillList.Insert(16, new SkillDataClass
-        {
-            SkillName = "왕궁영술사",
-            Energe = 2,
-            Explain = "120%데미지로 공격",
-            Attack = 120,
-            DecreaseDamage = 100,
-            HealHP = 0,
-            Provocation = false,
-            NotAction = false,
-            HealEnerge = 0,
-            blood = 0,
-            TurnCount = 1,
-            Rare = 1
-        });
-        dataManager.SkillList.Insert(17, new SkillDataClass
-        {
-            SkillName = "왕궁영술사",
-            Energe = -2,
-            Explain = "90%데미지로 공격",
-            Attack = 90,
-            DecreaseDamage = 100,
-            HealHP = 20,
-            Provocation = false,
-            NotAction = false,
-            HealEnerge = 0,
-            blood = 0,
-            TurnCount = 3,
-            Rare = 1
-        });
-        dataManager.SkillList.Insert(18, new SkillDataClass
-        {
-            SkillName = "왕궁영술사",
-            Energe = -3,
-            Explain = "90%데미지로 공격",
-            Attack = 90,
-            DecreaseDamage = 70,
-            HealHP = 0,
-            Provocation = false,
-            NotAction = false,
-            HealEnerge = 0,
-            blood = 0,
-            TurnCount = 1,
-            Rare = 1
-        });
-        dataManager.Add_Skill("왕궁영술사", -7, "220%데미지로 공격", 220,100, 100, 0, false, false, 0, 0, 1, 1);
-        dataManager.Add_Skill("망령", -4, "A", 130,100, 100, 0, false, false, 0, 0, 1, 1);
-        dataManager.Add_Skill("망령", -4, "A", 130, 100, 100, 0, false, false, 0, 0, 1, 1);
-        dataManager.Add_Skill("망령", -4, "A", 130, 100, 100, 0, false, false, 0, 0, 1, 1);
-        dataManager.Add_Skill("망령", -4, "A", 130, 100, 100, 0, false, false, 0, 0, 1, 1);
-    }
-
-
 // Start is called before the first frame update
 void Start()
     {
-        //Data = GameObject.Find("Data_Manager").gameObject.GetComponent<DataManager>();
+        Data = GameObject.Find("Data_Managers").gameObject.GetComponent<DataManager>();//데이터 가져오기
         turn = GameObject.FindWithTag("TurnMgr").GetComponent<Turn>();//Trun 스크립트에서 변수 가져오기
         characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
         monsterMgr = GameObject.FindWithTag("Monster").GetComponent<MonsterMgr>();//MonsterMgr 스크립트에서 변수 가져오기
         dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
-        AddSkillData();
     }
 
     // Update is called once per frame
@@ -323,24 +39,24 @@ void Start()
     }
     public int skillAttackDamage(int number,int mobIndex)//스킬 번호만 받는다.
     {
-        if (dataManager.SkillList[number].NotAction == true) return 0;//행동 불능의 경우 스킬 사용 불가
+        if (Data.saveData.SkillData[number].NotAction == true) return 0;//행동 불능의 경우 스킬 사용 불가
 
         //에너지 조건
-        int requireEnerge = dataManager.SkillList[number].Energe;
+        int requireEnerge = Data.saveData.SkillData[number].Energe;
         if (characterMgr.playerEnerge < requireEnerge) return 0;//스킬 사용 불가
 
         //HP회복
-        HealCharacterHP(dataManager.SkillList[number].HealHP);
+        HealCharacterHP(Data.saveData.SkillData[number].HealHP);
 
-        int playerAttribute = CharacterMgr.characterList[number/4].characterAttribute;//플레이어 속성
-        int monsterAttribute = dataManager.MonsterList[0].Attribute;//몬스터 속성
+        int playerAttribute = Data.saveData.CharacterData[number/5].Attribute;//플레이어 속성
+        int monsterAttribute = Data.saveData.MonsterData[0].Attribute;//몬스터 속성
         int attributeDamage = characterMgr.CheckAttribute(playerAttribute, monsterAttribute);//속성 데미지
 
-        playerAttack = CharacterMgr.characterList[number/4].characterAttack;//캐릭터 초기 공격력
-        int skillPercentDamage = dataManager.SkillList[number].Attack;//스킬 퍼센테이지
+        playerAttack = Data.saveData.CharacterData[number/5].Attack;//캐릭터 초기 공격력
+        int skillPercentDamage = Data.saveData.SkillData[number].Attack;//스킬 퍼센테이지
 
         //턴 기반 버프
-        TurnBuff(SkillCharacterTurnMatrix[number, number / 4], number,mobIndex);//남은 턴 수를 넣는다
+        TurnBuff(SkillCharacterTurnMatrix[number, number / 5], number,mobIndex);//남은 턴 수를 넣는다
 
         return playerAttack * skillPercentDamage * attributeDamage / 10000;//최종 데미지
     }
@@ -356,7 +72,7 @@ void Start()
         //턴 초기화
         if (SkillCharacterTurnMatrix[number, number / 4] == 0)
         {
-            SkillCharacterTurnMatrix[number, number / 4] = dataManager.SkillList[number].TurnCount;
+            SkillCharacterTurnMatrix[number, number / 4] = Data.saveData.SkillData[number].TurnCount;
         }
     }
     //턴 기반 버프
@@ -367,13 +83,13 @@ void Start()
         SkillCharacterTurnMatrix[number, number / 4] -= 1;//턴 횟수 소모
 
         //공격력
-        playerAttack = playerAttack * dataManager.SkillList[number].Attack/100;
+        playerAttack = playerAttack * Data.saveData.SkillData[number].Attack/100;
         //피격데미지
-        monsterMgr.monsterAttackDamage = monsterMgr.monsterAttackDamage * dataManager.SkillList[number].DecreaseDamage / 100;
+        monsterMgr.monsterAttackDamage = monsterMgr.monsterAttackDamage * Data.saveData.SkillData[number].DecreaseDamage / 100;
         //출혈(도트 데미지)
-        monsterMgr.currentMonsterHP = Mathf.Min(0, monsterMgr.currentMonsterHP - dataManager.SkillList[number].blood);
+        monsterMgr.currentMonsterHP = Mathf.Min(0, monsterMgr.currentMonsterHP - Data.saveData.SkillData[number].blood);
         //도발
-        if(dataManager.SkillList[number].Provocation == true)
+        if(Data.saveData.SkillData[number].Provocation == true)
         {
             //우선 피격 몬스터 설정
             mobProvocation.Enqueue(mobIndex);
@@ -385,10 +101,10 @@ void Start()
         switch (index)
         {
             case 0:
-                if(SkillCharacterTurnMatrix[number, number / 4] > 0)
+                if(SkillCharacterTurnMatrix[number, number / 5] > 0)
                 {
                     characterMgr.characterCondition1.SetActive(true);
-                    firstCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 4].ToString();
+                    firstCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 5].ToString();
                 }
                 else
                 {
@@ -396,10 +112,10 @@ void Start()
                 }
                 break;
             case 1:
-                if (SkillCharacterTurnMatrix[number, number / 4] > 0)
+                if (SkillCharacterTurnMatrix[number, number / 5] > 0)
                 {
                     characterMgr.characterCondition2.SetActive(true);
-                    secondCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 4].ToString();
+                    secondCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 5].ToString();
                 }
                 else
                 {
@@ -407,10 +123,10 @@ void Start()
                 }
                 break;
             case 2:
-                if (SkillCharacterTurnMatrix[number, number / 4] > 0)
+                if (SkillCharacterTurnMatrix[number, number / 5] > 0)
                 {
                     characterMgr.characterCondition3.SetActive(true);
-                    thirdCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 4].ToString();
+                    thirdCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 5].ToString();
                 }
                 else
                 {
@@ -418,10 +134,10 @@ void Start()
                 }
                 break;
             case 3:
-                if (SkillCharacterTurnMatrix[number, number / 4] > 0)
+                if (SkillCharacterTurnMatrix[number, number / 5] > 0)
                 {
                     characterMgr.characterCondition4.SetActive(true);
-                    fourthCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 4].ToString();
+                    fourthCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 5].ToString();
                 }
                 else
                 {

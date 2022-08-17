@@ -36,7 +36,7 @@ public class CharacterDataClass//캐릭터 DB
     }
 }
 [System.Serializable]
-public class ExampleDataClass//캐릭터 DB
+public class PlayerDataClass//캐릭터 DB
 {
     public string Name = "";//캐릭터명
     public int HP = 0;//HP
@@ -46,7 +46,7 @@ public class ExampleDataClass//캐릭터 DB
     public int Star = 1;
     public int Appear = 1;//출현 
 
-    public ExampleDataClass( string n = "무명", int h = 0, int e = 0, int a = 0, int A = 1, int S = 1, int ap = 0)
+    public PlayerDataClass( string n = "무명", int h = 0, int e = 0, int a = 0, int A = 1, int S = 1, int ap = 0)
     {
         this.Name = n;
         this.HP = h;
@@ -111,6 +111,49 @@ public class MonsterDataClass//몬스터 DB
         this.Attack = at;
     }
 }
+public class BossMonsterDataClass//보스몬스터 DB
+{
+    public string World = "월령";//1:월령, 2:엠피레오, 3: 제한 구역, 4: 전체
+    public int Attribute = 1;//속성
+    public string Name = "";//이름
+    public int Stage = 1;//스테이지
+    public int HP = 0;//HP
+    public int Attack = 0;//공격력
+
+    public BossMonsterDataClass(string w = "월령", int a = 1, string n = "1", int s = 1, int h = 0, int at = 0)
+    {
+        this.World = w;
+        this.Attribute = a;
+        this.Name = n;
+        this.Stage = s;
+        this.HP = h;
+        this.Attack = at;
+    }
+}
+[System.Serializable]
+public class MonsterSkillDataClass
+{
+    public int Index = 1;//몬스터 스킬 인덱스
+    public int Damage = 0;//데미지
+    public int Blood = 0;//출혈 데미지
+    public int Attack = 0;//몬스터 공격력
+    public int Defense = 0;//방어력
+    public int HealHP = 0;//hp회복량
+    public int TurnCount = 0;//스킬 턴수
+    public int Enemy = 1;//공격하는 적의 수
+
+    public MonsterSkillDataClass(int i=1,int d=1,int b=1,int a=1,int de=1,int hh=1,int tc=1,int e = 1)
+    {
+        this.Index = i;
+        this.Damage = d;
+        this.Blood = b;
+        this.Attack = a;
+        this.Defense = de;
+        this.HealHP = hh;
+        this.TurnCount = tc;
+        this.Enemy = e;
+    }
+}
 [System.Serializable]
 public class UI
 {
@@ -134,22 +177,26 @@ public class SaveDataClass
 {
     public List<CharacterDataClass> list;
     public List<CharacterDataClass> CharacterList;//캐릭터 리스트
-    public List<SkillDataClass> skillList;//스킬 리스트
+    public List<PlayerDataClass> CharacterData;//캐릭터 리스트
+    public List<SkillDataClass> SkillData;//스킬 리스트
     public List<MonsterDataClass> MonsterData;//몬스터 리스트
-    //public List<MonsterDataClass> monsterList;//몬스터 리스트
+    public List<BossMonsterDataClass> BossData;//보스몬스터 리스트
+    public List<MonsterSkillDataClass> MonsterSkillData;//몬스터 스킬 리스트
     //스테이지 진행정도
     public List<CharacterDataClass> my_team;
     public UI ui;
     public SaveDataClass()
     {
-        //ㅇㅇ
+        //리스트 불러오기
         list = new List<CharacterDataClass>();
         CharacterList= new List<CharacterDataClass>();
         my_team = new List<CharacterDataClass>();
         for(int i = 0; i < 12; i++)
             my_team.Add(new CharacterDataClass());
-        skillList = new List<SkillDataClass>();
+        SkillData = new List<SkillDataClass>();
         MonsterData = new List<MonsterDataClass>();
+        BossData = new List<BossMonsterDataClass>();
+        MonsterSkillData = new List<MonsterSkillDataClass>();
         ui =  new UI();
     }
     public void SetImg()
