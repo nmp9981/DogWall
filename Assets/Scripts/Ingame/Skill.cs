@@ -7,6 +7,7 @@ public class Skill : MonoBehaviour
 {
     //SaveDataClass saveDataClass;
     Data_Manager dataManager;
+    private DataManager Data;
     Turn turn;
     CharacterMgr characterMgr;
     MonsterMgr monsterMgr;
@@ -250,7 +251,7 @@ public class Skill : MonoBehaviour
             TurnCount = 1,
             Rare = 1
         });
-        dataManager.Add_Skill("왕궁영술사", -7, "220%데미지로 공격", 220, 100, 0, false, false, 0, 0, 1, 1);
+        dataManager.Add_Skill("왕궁영술사", -7, "220%데미지로 공격", 220,100, 100, 0, false, false, 0, 0, 1, 1);
         dataManager.SkillList.Insert(16, new SkillDataClass
         {
             SkillName = "왕궁영술사",
@@ -296,17 +297,18 @@ public class Skill : MonoBehaviour
             TurnCount = 1,
             Rare = 1
         });
-        dataManager.Add_Skill("왕궁영술사", -7, "220%데미지로 공격", 220, 100, 0, false, false, 0, 0, 1, 1);
-        dataManager.Add_Skill("망령", -4, "A", 130, 100, 0, false, false, 0, 0, 1, 1);
-        dataManager.Add_Skill("망령", -4, "A", 130, 100, 0, false, false, 0, 0, 1, 1);
-        dataManager.Add_Skill("망령", -4, "A", 130, 100, 0, false, false, 0, 0, 1, 1);
-        dataManager.Add_Skill("망령", -4, "A", 130, 100, 0, false, false, 0, 0, 1, 1);
+        dataManager.Add_Skill("왕궁영술사", -7, "220%데미지로 공격", 220,100, 100, 0, false, false, 0, 0, 1, 1);
+        dataManager.Add_Skill("망령", -4, "A", 130,100, 100, 0, false, false, 0, 0, 1, 1);
+        dataManager.Add_Skill("망령", -4, "A", 130, 100, 100, 0, false, false, 0, 0, 1, 1);
+        dataManager.Add_Skill("망령", -4, "A", 130, 100, 100, 0, false, false, 0, 0, 1, 1);
+        dataManager.Add_Skill("망령", -4, "A", 130, 100, 100, 0, false, false, 0, 0, 1, 1);
     }
 
 
 // Start is called before the first frame update
 void Start()
     {
+        //Data = GameObject.Find("Data_Manager").gameObject.GetComponent<DataManager>();
         turn = GameObject.FindWithTag("TurnMgr").GetComponent<Turn>();//Trun 스크립트에서 변수 가져오기
         characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
         monsterMgr = GameObject.FindWithTag("Monster").GetComponent<MonsterMgr>();//MonsterMgr 스크립트에서 변수 가져오기

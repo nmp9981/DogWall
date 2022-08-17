@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class MonsterMgr : MonoBehaviour
 {
     Data_Manager dataManager;
+    private DataManager Data;
     CharacterMgr characterMgr;
     Skill skill;
     Turn turn;
@@ -22,34 +23,35 @@ public class MonsterMgr : MonoBehaviour
 
     public void LoadMonsterData()
     {
-        dataManager.Add_Monster(1, 1, "왕궁영술사", 1, 3500, 3000);
-        dataManager.Add_Monster(1, 1, "왕궁영술사", 2, 4200, 3600);
-        dataManager.Add_Monster(1, 1, "왕궁영술사", 3, 5040, 4320);
-        dataManager.Add_Monster(1, 1, "도깨비", 1, 4500, 2000);
-        dataManager.Add_Monster(1, 1, "도깨비", 2, 5400, 2400);
-        dataManager.Add_Monster(1, 1, "도깨비", 3, 6480, 2880);
-        dataManager.Add_Monster(1, 2, "왕궁영술사", 1, 3500, 3000);
-        dataManager.Add_Monster(1, 2, "왕궁영술사", 2, 4200, 3600);
-        dataManager.Add_Monster(1, 2, "왕궁영술사", 3, 5040, 4320);
-        dataManager.Add_Monster(1, 2, "도깨비", 1, 4500, 2000);
-        dataManager.Add_Monster(1, 2, "도깨비", 2, 5400, 2400);
-        dataManager.Add_Monster(1, 2, "도깨비", 3, 6480, 2880);
-        dataManager.Add_Monster(1, 2, "언령", 1, 3000, 5000);
-        dataManager.Add_Monster(1, 2, "언령", 2, 3600, 6000);
-        dataManager.Add_Monster(1, 2, "언령", 3, 4320, 7200);
-        dataManager.Add_Monster(1, 3, "왕궁영술사", 1, 3500, 3000);
-        dataManager.Add_Monster(1, 3, "왕궁영술사", 2, 4200, 3600);
-        dataManager.Add_Monster(1, 3, "왕궁영술사", 3, 5040, 4320);
-        dataManager.Add_Monster(1, 3, "도깨비", 1, 4500, 2000);
-        dataManager.Add_Monster(1, 3, "도깨비", 2, 5400, 2400);
-        dataManager.Add_Monster(1, 3, "도깨비", 3, 6480, 2880);
-        dataManager.Add_Monster(1, 3, "언령", 1, 3000, 5000);
-        dataManager.Add_Monster(1, 3, "언령", 2, 3600, 6000);
-        dataManager.Add_Monster(1, 3, "언령", 3, 4320, 7200);
+        dataManager.Add_Monster("월령", 1, "왕궁영술사", 1, 3500, 3000);
+        dataManager.Add_Monster("월령", 1, "왕궁영술사", 2, 4200, 3600);
+        dataManager.Add_Monster("월령", 1, "왕궁영술사", 3, 5040, 4320);
+        dataManager.Add_Monster("월령", 1, "도깨비", 1, 4500, 2000);
+        dataManager.Add_Monster("월령", 1, "도깨비", 2, 5400, 2400);
+        dataManager.Add_Monster("월령", 1, "도깨비", 3, 6480, 2880);
+        dataManager.Add_Monster("월령", 2, "왕궁영술사", 1, 3500, 3000);
+        dataManager.Add_Monster("월령", 2, "왕궁영술사", 2, 4200, 3600);
+        dataManager.Add_Monster("월령", 2, "왕궁영술사", 3, 5040, 4320);
+        dataManager.Add_Monster("월령", 2, "도깨비", 1, 4500, 2000);
+        dataManager.Add_Monster("월령", 2, "도깨비", 2, 5400, 2400);
+        dataManager.Add_Monster("월령", 2, "도깨비", 3, 6480, 2880);
+        dataManager.Add_Monster("월령", 2, "언령", 1, 3000, 5000);
+        dataManager.Add_Monster("월령", 2, "언령", 2, 3600, 6000);
+        dataManager.Add_Monster("월령", 2, "언령", 3, 4320, 7200);
+        dataManager.Add_Monster("월령", 3, "왕궁영술사", 1, 3500, 3000);
+        dataManager.Add_Monster("월령", 3, "왕궁영술사", 2, 4200, 3600);
+        dataManager.Add_Monster("월령", 3, "왕궁영술사", 3, 5040, 4320);
+        dataManager.Add_Monster("월령", 3, "도깨비", 1, 4500, 2000);
+        dataManager.Add_Monster("월령", 3, "도깨비", 2, 5400, 2400);
+        dataManager.Add_Monster("월령", 3, "도깨비", 3, 6480, 2880);
+        dataManager.Add_Monster("월령", 3, "언령", 1, 3000, 5000);
+        dataManager.Add_Monster("월령", 3, "언령", 2, 3600, 6000);
+        dataManager.Add_Monster("월령", 3, "언령", 3, 4320, 7200);
     }
     // Start is called before the first frame update
     void Start()
     {
+        Data = GameObject.Find("Data_Managers").gameObject.GetComponent<DataManager>();
         characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
         turn = GameObject.FindWithTag("TurnMgr").GetComponent<Turn>();//Trun 스크립트에서 변수 가져오기
         skill = GameObject.FindWithTag("Skill").GetComponent<Skill>();//Skill 스크립트에서 변수 가져오기
@@ -73,7 +75,7 @@ public class MonsterMgr : MonoBehaviour
         monsters.Clear();//초기화
         for (int i = 0; i < mobCount; i++)
         {
-            monsters.Add(dataManager.MonsterList[3*i]);//등장 몹은 서로 다름
+            monsters.Add(Data.saveData.MonsterData[3*i]);//등장 몹은 서로 다름
             skill.mobProvocation.Clear();//몬스터 도발 초기화
         }
     }

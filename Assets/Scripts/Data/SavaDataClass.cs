@@ -36,12 +36,35 @@ public class CharacterDataClass//캐릭터 DB
     }
 }
 [System.Serializable]
+public class ExampleDataClass//캐릭터 DB
+{
+    public string Name = "";//캐릭터명
+    public int HP = 0;//HP
+    public int Energe = 0;//에너지
+    public int Attack = 0;//공격력
+    public int Attribute = 0;//속성
+    public int Star = 1;
+    public int Appear = 1;//출현 
+
+    public ExampleDataClass( string n = "무명", int h = 0, int e = 0, int a = 0, int A = 1, int S = 1, int ap = 0)
+    {
+        this.Name = n;
+        this.HP = h;
+        this.Energe = e;
+        this.Attack = a;
+        this.Attribute = A;
+        this.Star = S;
+        this.Appear = ap;
+    }
+}
+[System.Serializable]
 public class SkillDataClass//스킬DB
 {
     public string SkillName = "";//이름
     public int Energe = 0;//에너지
     public string Explain = "";//설명
     public int Attack = 0;//공격
+    public int CharacterAttack = 0;//캐릭터 공격력 증가
     public int DecreaseDamage = 0;//데미지감소
     public int HealHP = 0;//HP회복
     public bool Provocation = false;//도발
@@ -51,12 +74,13 @@ public class SkillDataClass//스킬DB
     public int TurnCount = 1;//지속 턴수
     public int Rare = 1;//레어도
 
-    public SkillDataClass(string sn = "럭키세븐",int e = 0,string ex = "?",int a = 0,int dd = 0,int hh = 0,bool p=false,bool na = false,int he = 0,int b=0,int tc=1,int r = 1)
+    public SkillDataClass(string sn = "럭키세븐",int e = 0,string ex = "?",int a = 0,int ca = 0,int dd = 0,int hh = 0,bool p=false,bool na = false,int he = 0,int b=0,int tc=1,int r = 1)
     {
         this.SkillName = sn;
         this.Energe = e;
         this.Explain = ex;
         this.Attack = a;
+        this.CharacterAttack = ca;
         this.DecreaseDamage = dd;
         this.HealHP = hh;
         this.Provocation = p;
@@ -70,14 +94,14 @@ public class SkillDataClass//스킬DB
 [System.Serializable]
 public class MonsterDataClass//몬스터 DB
 {
-    public int World = 1;//1:월령, 2:엠피레오, 3: 제한 구역, 4: 전체
+    public string World = "월령";//1:월령, 2:엠피레오, 3: 제한 구역, 4: 전체
     public int Attribute = 1;//속성
     public string Name = "";//이름
     public int Stage = 1;//스테이지
     public int HP = 0;//HP
     public int Attack = 0;//공격력
 
-    public MonsterDataClass(int w=1,int a=1,string n="1",int s=1,int h=0,int at = 0)
+    public MonsterDataClass(string w="월령",int a=1,string n="1",int s=1,int h=0,int at = 0)
     {
         this.World = w;
         this.Attribute = a;
@@ -109,9 +133,10 @@ public class UI
 public class SaveDataClass
 {
     public List<CharacterDataClass> list;
-    public List<CharacterDataClass> my_characterList;//내가 가지고 있는 캐릭
+    public List<CharacterDataClass> CharacterList;//캐릭터 리스트
     public List<SkillDataClass> skillList;//스킬 리스트
-    public List<MonsterDataClass> monsterList;//몬스터 리스트
+    public List<MonsterDataClass> MonsterData;//몬스터 리스트
+    //public List<MonsterDataClass> monsterList;//몬스터 리스트
     //스테이지 진행정도
     public List<CharacterDataClass> my_team;
     public UI ui;
@@ -119,24 +144,26 @@ public class SaveDataClass
     {
         //ㅇㅇ
         list = new List<CharacterDataClass>();
-        my_characterList= new List<CharacterDataClass>();
+        CharacterList= new List<CharacterDataClass>();
         my_team = new List<CharacterDataClass>();
         for(int i = 0; i < 12; i++)
             my_team.Add(new CharacterDataClass());
         skillList = new List<SkillDataClass>();
-        monsterList = new List<MonsterDataClass>();
+        MonsterData = new List<MonsterDataClass>();
         ui =  new UI();
     }
     public void SetImg()
     {
+        
         foreach(CharacterDataClass a in list)
             if(a.img_path != "")
                 a.Img = Resources.Load<Sprite>(a.img_path);
-        foreach(CharacterDataClass a in my_characterList)
+        foreach(CharacterDataClass a in CharacterList)
             if(a.img_path != "")
                 a.Img = Resources.Load<Sprite>(a.img_path);
         foreach(CharacterDataClass a in my_team)
             if(a.img_path != "")
                 a.Img = Resources.Load<Sprite>(a.img_path);
+        
     }
 }

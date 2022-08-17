@@ -29,6 +29,7 @@ public struct characterInfo
 public class CharacterMgr : MonoBehaviour
 {
     Data_Manager dataManager;
+    private DataManager Data;
     SaveDataClass saveDataClass;
     MonsterMgr monsterMgr;
     TeamSelect teamSelect;
@@ -39,14 +40,14 @@ public class CharacterMgr : MonoBehaviour
 
     void LoadCharacterData()
     {
-        dataManager.Add_Character("Monster/000", null, "INTJ", 8100, 11, 1, 13000, "공격", 4, 1);
-        dataManager.Add_Character("Monster/000", null, "INTJ", 8100, 11, 1, 13000, "공격", 4, 1);
-        dataManager.Add_Character("Monster/000", null, "INTJ", 8100, 11, 1, 13000, "공격", 4, 1);
-        dataManager.Add_Character("Monster/000", null, "INTJ", 8100, 11, 1, 13000, "공격", 4, 1);
-        dataManager.Add_Character("Monster/000", null, "INTJ", 8100, 11, 1, 13000, "공격", 4, 1);
-        dataManager.Add_Character("Monster/000", null, "INTJ", 8100, 11, 1, 13000, "공격", 4, 1);
-        dataManager.Add_Character("Monster/000", null, "INTJ", 8100, 11, 1, 13000, "공격", 4, 1);
-        dataManager.Add_Character("Monster/000", null, "INTJ", 8100, 11, 1, 13000, "공격", 4, 1);
+        dataManager.Add_Character( null,null,"INTJ", 8100, 11, 1, 13000,null, 1,4);
+        dataManager.Add_Character(null, null, "INTJ", 8100, 11, 1, 13000, null, 1, 4);
+        dataManager.Add_Character(null, null, "INTJ", 8100, 11, 1, 13000, null, 1, 4);
+        dataManager.Add_Character(null, null, "INTJ", 8100, 11, 1, 13000, null, 1, 4);
+        dataManager.Add_Character(null, null, "INTJ", 8100, 11, 1, 13000, null, 1, 4);
+        dataManager.Add_Character(null, null, "INTJ", 8100, 11, 1, 13000, null, 1, 4);
+        dataManager.Add_Character(null, null, "INTJ", 8100, 11, 1, 13000, null, 1, 4);
+        dataManager.Add_Character(null, null, "INTJ", 8100, 11, 1, 13000, null, 1, 4);
     }
     //캐릭터 배열 선언 
     public static List<characterInfo> characterList = new List<characterInfo>
@@ -90,6 +91,7 @@ public class CharacterMgr : MonoBehaviour
         teamSelect = GameObject.FindWithTag("TeamSelect").GetComponent<TeamSelect>();//TeamSelect 스크립트에서 변수 가져오기
         turn = GameObject.FindWithTag("TurnMgr").GetComponent<Turn>();//Trun 스크립트에서 변수 가져오기
         dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
+        //Data = GameObject.Find("Data_Manager").gameObject.GetComponent<DataManager>();
 
         LoadCharacterData();//캐릭터 데이터 불러오기
 
@@ -99,7 +101,8 @@ public class CharacterMgr : MonoBehaviour
         thirdPlayer = teamSelect.selectedTeamNumber[2];
         fourthPlayer = teamSelect.selectedTeamNumber[3];
 
-        playerFullHP = characterList[firstPlayer].characterHP + characterList[secondPlayer].characterHP + characterList[thirdPlayer].characterHP + characterList[fourthPlayer].characterHP;//풀피 설정
+        //풀피 설정
+        playerFullHP = characterList[firstPlayer].characterHP + characterList[secondPlayer].characterHP + characterList[thirdPlayer].characterHP + characterList[fourthPlayer].characterHP;
         playerHP = playerFullHP;//처음엔 풀피
 
         //캐릭터 상태이상 초기상태

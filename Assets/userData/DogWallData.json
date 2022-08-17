@@ -1,0 +1,4548 @@
+{
+"CharacterData":[
+ {
+  "Name": "지방 포졸0",
+  "HP": 4000,
+  "Attack": 6000,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "지방 포졸1",
+  "HP": 4800,
+  "Attack": 7200,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "지방 포졸2",
+  "HP": 5200,
+  "Attack": 7800,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "지방 포졸3",
+  "HP": 5600,
+  "Attack": 8400,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "지방 포졸4",
+  "HP": 6000,
+  "Attack": 9000,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "도깨비0",
+  "HP": 4500,
+  "Attack": 5500,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "도깨비1",
+  "HP": 5400,
+  "Attack": 6600,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "도깨비2",
+  "HP": 5850,
+  "Attack": 7150,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "도깨비3",
+  "HP": 6300,
+  "Attack": 7699.999999999999,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "도깨비4",
+  "HP": 6750,
+  "Attack": 8250,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "견습마법사0",
+  "HP": 5500,
+  "Attack": 4500,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "견습마법사1",
+  "HP": 6600,
+  "Attack": 5400,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "견습마법사2",
+  "HP": 7150,
+  "Attack": 5850,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "견습마법사3",
+  "HP": 7699.999999999999,
+  "Attack": 6300,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "견습마법사4",
+  "HP": 8250,
+  "Attack": 6750,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "볼트0",
+  "HP": 4500,
+  "Attack": 5500,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "볼트1",
+  "HP": 5400,
+  "Attack": 6600,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "볼트2",
+  "HP": 5850,
+  "Attack": 7150,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "볼트3",
+  "HP": 6300,
+  "Attack": 7699.999999999999,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "볼트4",
+  "HP": 6750,
+  "Attack": 8250,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "라미아0",
+  "HP": 4500,
+  "Attack": 5500,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "라미아1",
+  "HP": 5400,
+  "Attack": 6600,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "라미아2",
+  "HP": 5850,
+  "Attack": 7150,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "라미아3",
+  "HP": 6300,
+  "Attack": 7699.999999999999,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "라미아4",
+  "HP": 6750,
+  "Attack": 8250,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "켄타우로스0",
+  "HP": 5000,
+  "Attack": 5000,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "켄타우로스1",
+  "HP": 6000,
+  "Attack": 6000,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "켄타우로스2",
+  "HP": 6500,
+  "Attack": 6500,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "켄타우로스3",
+  "HP": 7000,
+  "Attack": 7000,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "켄타우로스4",
+  "HP": 7500,
+  "Attack": 7500,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "정령0",
+  "HP": 5500,
+  "Attack": 4500,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "정령1",
+  "HP": 6600,
+  "Attack": 5400,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "정령2",
+  "HP": 7150,
+  "Attack": 5850,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "정령3",
+  "HP": 7699.999999999999,
+  "Attack": 6300,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "정령4",
+  "HP": 8250,
+  "Attack": 6750,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "나무인간0",
+  "HP": 6000,
+  "Attack": 4000,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "나무인간1",
+  "HP": 7200,
+  "Attack": 4800,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "나무인간2",
+  "HP": 7800,
+  "Attack": 5200,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "나무인간3",
+  "HP": 8400,
+  "Attack": 5600,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "나무인간4",
+  "HP": 9000,
+  "Attack": 6000,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼0",
+  "HP": 6500,
+  "Attack": 5500,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼1",
+  "HP": 7800,
+  "Attack": 6600,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼2",
+  "HP": 8450,
+  "Attack": 7150,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼3",
+  "HP": 9100,
+  "Attack": 7699.999999999999,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼4",
+  "HP": 9750,
+  "Attack": 8250,
+  "Attribute": 1,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "지방 포졸0",
+  "HP": 4000,
+  "Attack": 6000,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "지방 포졸1",
+  "HP": 4800,
+  "Attack": 7200,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "지방 포졸2",
+  "HP": 5200,
+  "Attack": 7800,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "지방 포졸3",
+  "HP": 5600,
+  "Attack": 8400,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "지방 포졸4",
+  "HP": 6000,
+  "Attack": 9000,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "도깨비0",
+  "HP": 4500,
+  "Attack": 5500,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "도깨비1",
+  "HP": 5400,
+  "Attack": 6600,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "도깨비2",
+  "HP": 5850,
+  "Attack": 7150,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "도깨비3",
+  "HP": 6300,
+  "Attack": 7699.999999999999,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "도깨비4",
+  "HP": 6750,
+  "Attack": 8250,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "날뛰는 영혼0",
+  "HP": 5500,
+  "Attack": 4500,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "날뛰는 영혼1",
+  "HP": 6600,
+  "Attack": 5400,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "날뛰는 영혼2",
+  "HP": 7150,
+  "Attack": 5850,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "날뛰는 영혼3",
+  "HP": 7699.999999999999,
+  "Attack": 6300,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "날뛰는 영혼4",
+  "HP": 8250,
+  "Attack": 6750,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "견습마법사0",
+  "HP": 5500,
+  "Attack": 4500,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "견습마법사1",
+  "HP": 6600,
+  "Attack": 5400,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "견습마법사2",
+  "HP": 7150,
+  "Attack": 5850,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "견습마법사3",
+  "HP": 7699.999999999999,
+  "Attack": 6300,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "견습마법사4",
+  "HP": 8250,
+  "Attack": 6750,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "라미아0",
+  "HP": 4500,
+  "Attack": 5500,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "라미아1",
+  "HP": 5400,
+  "Attack": 6600,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "라미아2",
+  "HP": 5850,
+  "Attack": 7150,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "라미아3",
+  "HP": 6300,
+  "Attack": 7699.999999999999,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "라미아4",
+  "HP": 6750,
+  "Attack": 8250,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "켄타우로스0",
+  "HP": 5000,
+  "Attack": 5000,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "켄타우로스1",
+  "HP": 6000,
+  "Attack": 6000,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "켄타우로스2",
+  "HP": 6500,
+  "Attack": 6500,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "켄타우로스3",
+  "HP": 7000,
+  "Attack": 7000,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "켄타우로스4",
+  "HP": 7500,
+  "Attack": 7500,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "정령0",
+  "HP": 5500,
+  "Attack": 4500,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "정령1",
+  "HP": 6600,
+  "Attack": 5400,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "정령2",
+  "HP": 7150,
+  "Attack": 5850,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "정령3",
+  "HP": 7699.999999999999,
+  "Attack": 6300,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "정령4",
+  "HP": 8250,
+  "Attack": 6750,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼0",
+  "HP": 5500,
+  "Attack": 6500,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼1",
+  "HP": 6600,
+  "Attack": 7800,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼2",
+  "HP": 7150,
+  "Attack": 8450,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼3",
+  "HP": 7699.999999999999,
+  "Attack": 9100,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼4",
+  "HP": 8250,
+  "Attack": 9750,
+  "Attribute": 2,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "지방 포졸0",
+  "HP": 4000,
+  "Attack": 6000,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "지방 포졸1",
+  "HP": 4800,
+  "Attack": 7200,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "지방 포졸2",
+  "HP": 5200,
+  "Attack": 7800,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "지방 포졸3",
+  "HP": 5600,
+  "Attack": 8400,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "지방 포졸4",
+  "HP": 6000,
+  "Attack": 9000,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "도깨비0",
+  "HP": 4500,
+  "Attack": 5500,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "도깨비1",
+  "HP": 5400,
+  "Attack": 6600,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "도깨비2",
+  "HP": 5850,
+  "Attack": 7150,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "도깨비3",
+  "HP": 6300,
+  "Attack": 7699.999999999999,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "도깨비4",
+  "HP": 6750,
+  "Attack": 8250,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "날뛰는 영혼0",
+  "HP": 5500,
+  "Attack": 4500,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "날뛰는 영혼1",
+  "HP": 6600,
+  "Attack": 5400,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "날뛰는 영혼2",
+  "HP": 7150,
+  "Attack": 5850,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "날뛰는 영혼3",
+  "HP": 7699.999999999999,
+  "Attack": 6300,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "날뛰는 영혼4",
+  "HP": 8250,
+  "Attack": 6750,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "견습마법사0",
+  "HP": 5500,
+  "Attack": 4500,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "견습마법사1",
+  "HP": 6600,
+  "Attack": 5400,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "견습마법사2",
+  "HP": 7150,
+  "Attack": 5850,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "견습마법사3",
+  "HP": 7699.999999999999,
+  "Attack": 6300,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "견습마법사4",
+  "HP": 8250,
+  "Attack": 6750,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "볼트0",
+  "HP": 4500,
+  "Attack": 5500,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "볼트1",
+  "HP": 5400,
+  "Attack": 6600,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "볼트2",
+  "HP": 5850,
+  "Attack": 7150,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "볼트3",
+  "HP": 6300,
+  "Attack": 7699.999999999999,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "볼트4",
+  "HP": 6750,
+  "Attack": 8250,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "라미아0",
+  "HP": 4500,
+  "Attack": 5500,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "라미아1",
+  "HP": 5400,
+  "Attack": 6600,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "라미아2",
+  "HP": 5850,
+  "Attack": 7150,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "라미아3",
+  "HP": 6300,
+  "Attack": 7699.999999999999,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "라미아4",
+  "HP": 6750,
+  "Attack": 8250,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "켄타우로스0",
+  "HP": 5000,
+  "Attack": 5000,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "켄타우로스1",
+  "HP": 6000,
+  "Attack": 6000,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "켄타우로스2",
+  "HP": 6500,
+  "Attack": 6500,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "켄타우로스3",
+  "HP": 7000,
+  "Attack": 7000,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "켄타우로스4",
+  "HP": 7500,
+  "Attack": 7500,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "정령0",
+  "HP": 5500,
+  "Attack": 4500,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "정령1",
+  "HP": 6600,
+  "Attack": 5400,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "정령2",
+  "HP": 7150,
+  "Attack": 5850,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "정령3",
+  "HP": 7699.999999999999,
+  "Attack": 6300,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "정령4",
+  "HP": 8250,
+  "Attack": 6750,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "나무인간0",
+  "HP": 6000,
+  "Attack": 4000,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "나무인간1",
+  "HP": 7200,
+  "Attack": 4800,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "나무인간2",
+  "HP": 7800,
+  "Attack": 5200,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "나무인간3",
+  "HP": 8400,
+  "Attack": 5600,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "나무인간4",
+  "HP": 9000,
+  "Attack": 6000,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼0",
+  "HP": 6000,
+  "Attack": 6000,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼1",
+  "HP": 7200,
+  "Attack": 7200,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼2",
+  "HP": 7800,
+  "Attack": 7800,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼3",
+  "HP": 8400,
+  "Attack": 8400,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼4",
+  "HP": 9000,
+  "Attack": 9000,
+  "Attribute": 3,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼0",
+  "HP": 6000,
+  "Attack": 6000,
+  "Attribute": 4,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼1",
+  "HP": 7200,
+  "Attack": 7200,
+  "Attribute": 4,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼2",
+  "HP": 7800,
+  "Attack": 7800,
+  "Attribute": 4,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼3",
+  "HP": 8400,
+  "Attack": 8400,
+  "Attribute": 4,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼4",
+  "HP": 9000,
+  "Attack": 9000,
+  "Attribute": 4,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼0",
+  "HP": 6000,
+  "Attack": 6000,
+  "Attribute": 5,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼1",
+  "HP": 7200,
+  "Attack": 7200,
+  "Attribute": 5,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼2",
+  "HP": 7800,
+  "Attack": 7800,
+  "Attribute": 5,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼3",
+  "HP": 8400,
+  "Attack": 8400,
+  "Attribute": 5,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "로퍼4",
+  "HP": 9000,
+  "Attack": 9000,
+  "Attribute": 5,
+  "Star": 1,
+  "Appear": 4
+ },
+ {
+  "Name": "마지막 영술사0",
+  "HP": 5500,
+  "Attack": 6000,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "마지막 영술사1",
+  "HP": 6600,
+  "Attack": 7200,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "마지막 영술사2",
+  "HP": 7150,
+  "Attack": 7800,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "마지막 영술사3",
+  "HP": 7699.999999999999,
+  "Attack": 8400,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "마지막 영술사4",
+  "HP": 8250,
+  "Attack": 9000,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "장군0",
+  "HP": 6000,
+  "Attack": 5500,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "장군1",
+  "HP": 7200,
+  "Attack": 6600,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "장군2",
+  "HP": 7800,
+  "Attack": 7150,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "장군3",
+  "HP": 8400,
+  "Attack": 7699.999999999999,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "장군4",
+  "HP": 9000,
+  "Attack": 8250,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "닌자0",
+  "HP": 4500,
+  "Attack": 7000,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "닌자1",
+  "HP": 5400,
+  "Attack": 8400,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "닌자2",
+  "HP": 5850,
+  "Attack": 9100,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "닌자3",
+  "HP": 6300,
+  "Attack": 9800,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "닌자4",
+  "HP": 6750,
+  "Attack": 10500,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "미친 영술사0",
+  "HP": 5500,
+  "Attack": 6000,
+  "Attribute": 2,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "미친 영술사1",
+  "HP": 6600,
+  "Attack": 7200,
+  "Attribute": 2,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "미친 영술사2",
+  "HP": 7150,
+  "Attack": 7800,
+  "Attribute": 2,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "미친 영술사3",
+  "HP": 7699.999999999999,
+  "Attack": 8400,
+  "Attribute": 2,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "미친 영술사4",
+  "HP": 8250,
+  "Attack": 9000,
+  "Attribute": 2,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "비비0",
+  "HP": 6000,
+  "Attack": 5500,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "비비1",
+  "HP": 7200,
+  "Attack": 6600,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "비비2",
+  "HP": 7800,
+  "Attack": 7150,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "비비3",
+  "HP": 8400,
+  "Attack": 7699.999999999999,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "비비4",
+  "HP": 9000,
+  "Attack": 8250,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "기계공0",
+  "HP": 6000,
+  "Attack": 5500,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "기계공1",
+  "HP": 7200,
+  "Attack": 6600,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "기계공2",
+  "HP": 7800,
+  "Attack": 7150,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "기계공3",
+  "HP": 8400,
+  "Attack": 7699.999999999999,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "기계공4",
+  "HP": 9000,
+  "Attack": 8250,
+  "Attribute": 2,
+  "Star": 2,
+  "Appear": 1
+ },
+ {
+  "Name": "대원수0",
+  "HP": 7500,
+  "Attack": 5500,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "대원수1",
+  "HP": 9000,
+  "Attack": 6600,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "대원수2",
+  "HP": 9750,
+  "Attack": 7150,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "대원수3",
+  "HP": 10500,
+  "Attack": 7699.999999999999,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "대원수4",
+  "HP": 11250,
+  "Attack": 8250,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "라이언하트0",
+  "HP": 8000,
+  "Attack": 5000,
+  "Attribute": 2,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "라이언하트1",
+  "HP": 9600,
+  "Attack": 6000,
+  "Attribute": 2,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "라이언하트2",
+  "HP": 10400,
+  "Attack": 6500,
+  "Attribute": 2,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "라이언하트3",
+  "HP": 11200,
+  "Attack": 7000,
+  "Attribute": 2,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "라이언하트4",
+  "HP": 12000,
+  "Attack": 7500,
+  "Attribute": 2,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "총통0",
+  "HP": 5500,
+  "Attack": 7500,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "총통1",
+  "HP": 6600,
+  "Attack": 9000,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "총통2",
+  "HP": 7150,
+  "Attack": 9750,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "총통3",
+  "HP": 7699.999999999999,
+  "Attack": 10500,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "총통4",
+  "HP": 8250,
+  "Attack": 11250,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "중재자0",
+  "HP": 6500,
+  "Attack": 6500,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "중재자1",
+  "HP": 7800,
+  "Attack": 7800,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "중재자2",
+  "HP": 8450,
+  "Attack": 8450,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "중재자3",
+  "HP": 9100,
+  "Attack": 9100,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "중재자4",
+  "HP": 9750,
+  "Attack": 9750,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "고대 영술사0",
+  "HP": 6000,
+  "Attack": 7000,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "고대 영술사1",
+  "HP": 7200,
+  "Attack": 8400,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "고대 영술사2",
+  "HP": 7800,
+  "Attack": 9100,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "고대 영술사3",
+  "HP": 8400,
+  "Attack": 9800,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ },
+ {
+  "Name": "고대 영술사4",
+  "HP": 9000,
+  "Attack": 10500,
+  "Attribute": 3,
+  "Star": 3,
+  "Appear": 1
+ }
+],
+"QuestData":[
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 1,
+  "SmallStage": 1,
+  "MonsterIndex": 0,
+  "0턴 행동": 1,
+  "1턴 행동": 1,
+  "2턴 행동": 33,
+  "3턴 행동": 1,
+  "4턴 행동": 33,
+  "5턴 행동": 1,
+  "6턴 행동": 1,
+  "7턴 행동": 33,
+  "8턴 행동": 1,
+  "9턴 행동": 1,
+  "10턴 행동": 33,
+  "11턴 행동": 1,
+  "12턴 행동": 1,
+  "13턴 행동": 33,
+  "14턴 행동": 1,
+  "비고": "1-3",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 1,
+  "SmallStage": 1,
+  "MonsterIndex": 9,
+  "0턴 행동": 1,
+  "1턴 행동": 1,
+  "2턴 행동": 33,
+  "3턴 행동": 1,
+  "4턴 행동": 33,
+  "5턴 행동": 1,
+  "6턴 행동": 1,
+  "7턴 행동": 33,
+  "8턴 행동": 1,
+  "9턴 행동": 1,
+  "10턴 행동": 33,
+  "11턴 행동": 1,
+  "12턴 행동": 1,
+  "13턴 행동": 33,
+  "14턴 행동": 1,
+  "비고": "1-3",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 1,
+  "SmallStage": 1,
+  "MonsterIndex": 18,
+  "0턴 행동": 1,
+  "1턴 행동": 1,
+  "2턴 행동": 33,
+  "3턴 행동": 1,
+  "4턴 행동": 33,
+  "5턴 행동": 1,
+  "6턴 행동": 1,
+  "7턴 행동": 33,
+  "8턴 행동": 1,
+  "9턴 행동": 1,
+  "10턴 행동": 33,
+  "11턴 행동": 1,
+  "12턴 행동": 1,
+  "13턴 행동": 33,
+  "14턴 행동": 1,
+  "비고": "1-3",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 1,
+  "SmallStage": 2,
+  "MonsterIndex": 1,
+  "0턴 행동": 2,
+  "1턴 행동": 2,
+  "2턴 행동": 33,
+  "3턴 행동": 2,
+  "4턴 행동": 33,
+  "5턴 행동": 2,
+  "6턴 행동": 2,
+  "7턴 행동": 33,
+  "8턴 행동": 2,
+  "9턴 행동": 2,
+  "10턴 행동": 33,
+  "11턴 행동": 1,
+  "12턴 행동": 1,
+  "13턴 행동": 33,
+  "14턴 행동": 1,
+  "비고": "1-3",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 1,
+  "SmallStage": 2,
+  "MonsterIndex": 10,
+  "0턴 행동": 2,
+  "1턴 행동": 2,
+  "2턴 행동": 33,
+  "3턴 행동": 2,
+  "4턴 행동": 33,
+  "5턴 행동": 2,
+  "6턴 행동": 2,
+  "7턴 행동": 33,
+  "8턴 행동": 2,
+  "9턴 행동": 2,
+  "10턴 행동": 33,
+  "11턴 행동": 1,
+  "12턴 행동": 1,
+  "13턴 행동": 33,
+  "14턴 행동": 1,
+  "비고": "1-3",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 1,
+  "SmallStage": 2,
+  "MonsterIndex": 19,
+  "0턴 행동": 2,
+  "1턴 행동": 2,
+  "2턴 행동": 33,
+  "3턴 행동": 2,
+  "4턴 행동": 33,
+  "5턴 행동": 2,
+  "6턴 행동": 2,
+  "7턴 행동": 33,
+  "8턴 행동": 2,
+  "9턴 행동": 2,
+  "10턴 행동": 33,
+  "11턴 행동": 1,
+  "12턴 행동": 1,
+  "13턴 행동": 33,
+  "14턴 행동": 1,
+  "비고": "1-3",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 1,
+  "SmallStage": 3,
+  "MonsterIndex": 2,
+  "0턴 행동": 3,
+  "1턴 행동": 3,
+  "2턴 행동": 33,
+  "3턴 행동": 3,
+  "4턴 행동": 33,
+  "5턴 행동": 3,
+  "6턴 행동": 3,
+  "7턴 행동": 33,
+  "8턴 행동": 3,
+  "9턴 행동": 3,
+  "10턴 행동": 33,
+  "11턴 행동": 3,
+  "12턴 행동": 3,
+  "13턴 행동": 33,
+  "14턴 행동": 3,
+  "비고": "1-3",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 1,
+  "SmallStage": 3,
+  "MonsterIndex": 11,
+  "0턴 행동": 3,
+  "1턴 행동": 3,
+  "2턴 행동": 33,
+  "3턴 행동": 3,
+  "4턴 행동": 33,
+  "5턴 행동": 3,
+  "6턴 행동": 3,
+  "7턴 행동": 33,
+  "8턴 행동": 3,
+  "9턴 행동": 3,
+  "10턴 행동": 33,
+  "11턴 행동": 3,
+  "12턴 행동": 3,
+  "13턴 행동": 33,
+  "14턴 행동": 3,
+  "비고": "1-3",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 1,
+  "SmallStage": 3,
+  "MonsterIndex": 20,
+  "0턴 행동": 3,
+  "1턴 행동": 3,
+  "2턴 행동": 33,
+  "3턴 행동": 3,
+  "4턴 행동": 33,
+  "5턴 행동": 3,
+  "6턴 행동": 3,
+  "7턴 행동": 33,
+  "8턴 행동": 3,
+  "9턴 행동": 3,
+  "10턴 행동": 33,
+  "11턴 행동": 3,
+  "12턴 행동": 3,
+  "13턴 행동": 33,
+  "14턴 행동": 3,
+  "비고": "1-3",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 2,
+  "SmallStage": 1,
+  "MonsterIndex": 6,
+  "0턴 행동": 25,
+  "1턴 행동": 11,
+  "2턴 행동": 25,
+  "3턴 행동": 7,
+  "4턴 행동": 25,
+  "5턴 행동": 25,
+  "6턴 행동": 11,
+  "7턴 행동": 25,
+  "8턴 행동": 7,
+  "9턴 행동": 25,
+  "10턴 행동": 25,
+  "11턴 행동": 11,
+  "12턴 행동": 25,
+  "13턴 행동": 7,
+  "14턴 행동": 25,
+  "비고": "1-5",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 2,
+  "SmallStage": 1,
+  "MonsterIndex": 6,
+  "0턴 행동": 25,
+  "1턴 행동": 11,
+  "2턴 행동": 25,
+  "3턴 행동": 7,
+  "4턴 행동": 25,
+  "5턴 행동": 25,
+  "6턴 행동": 11,
+  "7턴 행동": 25,
+  "8턴 행동": 7,
+  "9턴 행동": 25,
+  "10턴 행동": 25,
+  "11턴 행동": 11,
+  "12턴 행동": 25,
+  "13턴 행동": 7,
+  "14턴 행동": 25,
+  "비고": "1-5",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 2,
+  "SmallStage": 2,
+  "MonsterIndex": 7,
+  "0턴 행동": 26,
+  "1턴 행동": 11,
+  "2턴 행동": 26,
+  "3턴 행동": 7,
+  "4턴 행동": 26,
+  "5턴 행동": 26,
+  "6턴 행동": 11,
+  "7턴 행동": 26,
+  "8턴 행동": 7,
+  "9턴 행동": 26,
+  "10턴 행동": 26,
+  "11턴 행동": 11,
+  "12턴 행동": 26,
+  "13턴 행동": 7,
+  "14턴 행동": 26,
+  "비고": "1-5",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 2,
+  "SmallStage": 2,
+  "MonsterIndex": 7,
+  "0턴 행동": 26,
+  "1턴 행동": 11,
+  "2턴 행동": 26,
+  "3턴 행동": 7,
+  "4턴 행동": 26,
+  "5턴 행동": 26,
+  "6턴 행동": 11,
+  "7턴 행동": 26,
+  "8턴 행동": 7,
+  "9턴 행동": 26,
+  "10턴 행동": 26,
+  "11턴 행동": 11,
+  "12턴 행동": 26,
+  "13턴 행동": 7,
+  "14턴 행동": 26,
+  "비고": "1-5",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 2,
+  "SmallStage": 3,
+  "MonsterIndex": 8,
+  "0턴 행동": 27,
+  "1턴 행동": 12,
+  "2턴 행동": 27,
+  "3턴 행동": 8,
+  "4턴 행동": 27,
+  "5턴 행동": 27,
+  "6턴 행동": 12,
+  "7턴 행동": 27,
+  "8턴 행동": 8,
+  "9턴 행동": 27,
+  "10턴 행동": 27,
+  "11턴 행동": 12,
+  "12턴 행동": 27,
+  "13턴 행동": 8,
+  "14턴 행동": 27,
+  "비고": "1-5",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 2,
+  "SmallStage": 3,
+  "MonsterIndex": 8,
+  "0턴 행동": 27,
+  "1턴 행동": 12,
+  "2턴 행동": 27,
+  "3턴 행동": 8,
+  "4턴 행동": 27,
+  "5턴 행동": 27,
+  "6턴 행동": 12,
+  "7턴 행동": 27,
+  "8턴 행동": 8,
+  "9턴 행동": 27,
+  "10턴 행동": 27,
+  "11턴 행동": 12,
+  "12턴 행동": 27,
+  "13턴 행동": 8,
+  "14턴 행동": 27,
+  "비고": "1-5",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 3,
+  "SmallStage": 1,
+  "MonsterIndex": 6,
+  "0턴 행동": 25,
+  "1턴 행동": 11,
+  "2턴 행동": 25,
+  "3턴 행동": 7,
+  "4턴 행동": 25,
+  "5턴 행동": 25,
+  "6턴 행동": 11,
+  "7턴 행동": 25,
+  "8턴 행동": 7,
+  "9턴 행동": 25,
+  "10턴 행동": 25,
+  "11턴 행동": 11,
+  "12턴 행동": 25,
+  "13턴 행동": 7,
+  "14턴 행동": 25,
+  "비고": "1-5",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 3,
+  "SmallStage": 1,
+  "MonsterIndex": 6,
+  "0턴 행동": 25,
+  "1턴 행동": 11,
+  "2턴 행동": 25,
+  "3턴 행동": 7,
+  "4턴 행동": 25,
+  "5턴 행동": 25,
+  "6턴 행동": 11,
+  "7턴 행동": 25,
+  "8턴 행동": 7,
+  "9턴 행동": 25,
+  "10턴 행동": 25,
+  "11턴 행동": 11,
+  "12턴 행동": 25,
+  "13턴 행동": 7,
+  "14턴 행동": 25,
+  "비고": "1-5",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 3,
+  "SmallStage": 1,
+  "MonsterIndex": 6,
+  "0턴 행동": 25,
+  "1턴 행동": 11,
+  "2턴 행동": 25,
+  "3턴 행동": 7,
+  "4턴 행동": 25,
+  "5턴 행동": 25,
+  "6턴 행동": 11,
+  "7턴 행동": 25,
+  "8턴 행동": 7,
+  "9턴 행동": 25,
+  "10턴 행동": 25,
+  "11턴 행동": 11,
+  "12턴 행동": 25,
+  "13턴 행동": 7,
+  "14턴 행동": 25,
+  "비고": "1-5",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 3,
+  "SmallStage": 1,
+  "MonsterIndex": 0,
+  "0턴 행동": 1,
+  "1턴 행동": 2,
+  "2턴 행동": 1,
+  "3턴 행동": 33,
+  "4턴 행동": 24,
+  "5턴 행동": 1,
+  "6턴 행동": 2,
+  "7턴 행동": 1,
+  "8턴 행동": 33,
+  "9턴 행동": 24,
+  "10턴 행동": 1,
+  "11턴 행동": 2,
+  "12턴 행동": 1,
+  "13턴 행동": 33,
+  "14턴 행동": 24,
+  "비고": "1-5",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 3,
+  "SmallStage": 2,
+  "MonsterIndex": 7,
+  "0턴 행동": 26,
+  "1턴 행동": 11,
+  "2턴 행동": 26,
+  "3턴 행동": 7,
+  "4턴 행동": 26,
+  "5턴 행동": 26,
+  "6턴 행동": 11,
+  "7턴 행동": 26,
+  "8턴 행동": 7,
+  "9턴 행동": 26,
+  "10턴 행동": 26,
+  "11턴 행동": 11,
+  "12턴 행동": 26,
+  "13턴 행동": 7,
+  "14턴 행동": 26,
+  "비고": "1-5",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 3,
+  "SmallStage": 2,
+  "MonsterIndex": 7,
+  "0턴 행동": 26,
+  "1턴 행동": 11,
+  "2턴 행동": 26,
+  "3턴 행동": 7,
+  "4턴 행동": 26,
+  "5턴 행동": 26,
+  "6턴 행동": 11,
+  "7턴 행동": 26,
+  "8턴 행동": 7,
+  "9턴 행동": 26,
+  "10턴 행동": 26,
+  "11턴 행동": 11,
+  "12턴 행동": 26,
+  "13턴 행동": 7,
+  "14턴 행동": 26,
+  "비고": "1-5",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 3,
+  "SmallStage": 2,
+  "MonsterIndex": 7,
+  "0턴 행동": 26,
+  "1턴 행동": 11,
+  "2턴 행동": 26,
+  "3턴 행동": 7,
+  "4턴 행동": 26,
+  "5턴 행동": 26,
+  "6턴 행동": 11,
+  "7턴 행동": 26,
+  "8턴 행동": 7,
+  "9턴 행동": 26,
+  "10턴 행동": 26,
+  "11턴 행동": 11,
+  "12턴 행동": 26,
+  "13턴 행동": 7,
+  "14턴 행동": 26,
+  "비고": "1-5",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 3,
+  "SmallStage": 2,
+  "MonsterIndex": 1,
+  "0턴 행동": 2,
+  "1턴 행동": 3,
+  "2턴 행동": 2,
+  "3턴 행동": 34,
+  "4턴 행동": 24,
+  "5턴 행동": 2,
+  "6턴 행동": 3,
+  "7턴 행동": 2,
+  "8턴 행동": 34,
+  "9턴 행동": 24,
+  "10턴 행동": 2,
+  "11턴 행동": 3,
+  "12턴 행동": 2,
+  "13턴 행동": 34,
+  "14턴 행동": 24,
+  "비고": "1-5",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 3,
+  "SmallStage": 3,
+  "MonsterIndex": 7,
+  "0턴 행동": 27,
+  "1턴 행동": 12,
+  "2턴 행동": 27,
+  "3턴 행동": 8,
+  "4턴 행동": 27,
+  "5턴 행동": 27,
+  "6턴 행동": 12,
+  "7턴 행동": 27,
+  "8턴 행동": 8,
+  "9턴 행동": 27,
+  "10턴 행동": 27,
+  "11턴 행동": 12,
+  "12턴 행동": 27,
+  "13턴 행동": 8,
+  "14턴 행동": 27,
+  "비고": "1-5",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 3,
+  "SmallStage": 3,
+  "MonsterIndex": 7,
+  "0턴 행동": 27,
+  "1턴 행동": 12,
+  "2턴 행동": 27,
+  "3턴 행동": 8,
+  "4턴 행동": 27,
+  "5턴 행동": 27,
+  "6턴 행동": 12,
+  "7턴 행동": 27,
+  "8턴 행동": 8,
+  "9턴 행동": 27,
+  "10턴 행동": 27,
+  "11턴 행동": 12,
+  "12턴 행동": 27,
+  "13턴 행동": 8,
+  "14턴 행동": 27,
+  "비고": "1-5",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 3,
+  "SmallStage": 3,
+  "MonsterIndex": 7,
+  "0턴 행동": 27,
+  "1턴 행동": 12,
+  "2턴 행동": 27,
+  "3턴 행동": 8,
+  "4턴 행동": 27,
+  "5턴 행동": 27,
+  "6턴 행동": 12,
+  "7턴 행동": 27,
+  "8턴 행동": 8,
+  "9턴 행동": 27,
+  "10턴 행동": 27,
+  "11턴 행동": 12,
+  "12턴 행동": 27,
+  "13턴 행동": 8,
+  "14턴 행동": 27,
+  "비고": "1-5",
+  "기믹": "반복"
+ },
+ {
+  "Episode": "현재",
+  "World": "월령",
+  "BigStage": 3,
+  "SmallStage": 3,
+  "MonsterIndex": 2,
+  "0턴 행동": 3,
+  "1턴 행동": 4,
+  "2턴 행동": 3,
+  "3턴 행동": 35,
+  "4턴 행동": 24,
+  "5턴 행동": 3,
+  "6턴 행동": 4,
+  "7턴 행동": 3,
+  "8턴 행동": 35,
+  "9턴 행동": 24,
+  "10턴 행동": 3,
+  "11턴 행동": 4,
+  "12턴 행동": 3,
+  "13턴 행동": 35,
+  "14턴 행동": 24,
+  "비고": "1-5",
+  "기믹": "반복"
+ }
+],
+"MonsterData":[
+ {
+  "World": "월령",
+  "Attribute": 1,
+  "Name": "지방 포졸",
+  "Stage": 1,
+  "HP": 7000,
+  "Attack": 6000
+ },
+ {
+  "World": "월령",
+  "Attribute": 1,
+  "Name": "지방 포졸",
+  "Stage": 2,
+  "HP": 8400,
+  "Attack": 7200
+ },
+ {
+  "World": "월령",
+  "Attribute": 1,
+  "Name": "지방 포졸",
+  "Stage": 3,
+  "HP": 10080,
+  "Attack": 8640
+ },
+ {
+  "World": "월령",
+  "Attribute": 1,
+  "Name": "도깨비",
+  "Stage": 1,
+  "HP": 9000,
+  "Attack": 4000
+ },
+ {
+  "World": "월령",
+  "Attribute": 1,
+  "Name": "도깨비",
+  "Stage": 2,
+  "HP": 10800,
+  "Attack": 4800
+ },
+ {
+  "World": "월령",
+  "Attribute": 1,
+  "Name": "도깨비",
+  "Stage": 3,
+  "HP": 12960,
+  "Attack": 5760
+ },
+ {
+  "World": "월령",
+  "Attribute": 1,
+  "Name": "날뛰는 영혼",
+  "Stage": 1,
+  "HP": 6000,
+  "Attack": 10000
+ },
+ {
+  "World": "월령",
+  "Attribute": 1,
+  "Name": "날뛰는 영혼",
+  "Stage": 2,
+  "HP": 7200,
+  "Attack": 12000
+ },
+ {
+  "World": "월령",
+  "Attribute": 1,
+  "Name": "날뛰는 영혼",
+  "Stage": 3,
+  "HP": 8640,
+  "Attack": 14400
+ },
+ {
+  "World": "월령",
+  "Attribute": 2,
+  "Name": "지방 포졸",
+  "Stage": 1,
+  "HP": 7000,
+  "Attack": 6000
+ },
+ {
+  "World": "월령",
+  "Attribute": 2,
+  "Name": "지방 포졸",
+  "Stage": 2,
+  "HP": 8400,
+  "Attack": 7200
+ },
+ {
+  "World": "월령",
+  "Attribute": 2,
+  "Name": "지방 포졸",
+  "Stage": 3,
+  "HP": 10080,
+  "Attack": 8640
+ },
+ {
+  "World": "월령",
+  "Attribute": 2,
+  "Name": "도깨비",
+  "Stage": 1,
+  "HP": 9000,
+  "Attack": 4000
+ },
+ {
+  "World": "월령",
+  "Attribute": 2,
+  "Name": "도깨비",
+  "Stage": 2,
+  "HP": 10800,
+  "Attack": 4800
+ },
+ {
+  "World": "월령",
+  "Attribute": 2,
+  "Name": "도깨비",
+  "Stage": 3,
+  "HP": 12960,
+  "Attack": 5760
+ },
+ {
+  "World": "월령",
+  "Attribute": 2,
+  "Name": "날뛰는 영혼",
+  "Stage": 1,
+  "HP": 6000,
+  "Attack": 10000
+ },
+ {
+  "World": "월령",
+  "Attribute": 2,
+  "Name": "날뛰는 영혼",
+  "Stage": 2,
+  "HP": 7200,
+  "Attack": 12000
+ },
+ {
+  "World": "월령",
+  "Attribute": 2,
+  "Name": "날뛰는 영혼",
+  "Stage": 3,
+  "HP": 8640,
+  "Attack": 14400
+ },
+ {
+  "World": "월령",
+  "Attribute": 3,
+  "Name": "지방 포졸",
+  "Stage": 1,
+  "HP": 7000,
+  "Attack": 6000
+ },
+ {
+  "World": "월령",
+  "Attribute": 3,
+  "Name": "지방 포졸",
+  "Stage": 2,
+  "HP": 8400,
+  "Attack": 7200
+ },
+ {
+  "World": "월령",
+  "Attribute": 3,
+  "Name": "지방 포졸",
+  "Stage": 3,
+  "HP": 10080,
+  "Attack": 8640
+ },
+ {
+  "World": "월령",
+  "Attribute": 3,
+  "Name": "도깨비",
+  "Stage": 1,
+  "HP": 9000,
+  "Attack": 4000
+ },
+ {
+  "World": "월령",
+  "Attribute": 3,
+  "Name": "도깨비",
+  "Stage": 2,
+  "HP": 10800,
+  "Attack": 4800
+ },
+ {
+  "World": "월령",
+  "Attribute": 3,
+  "Name": "도깨비",
+  "Stage": 3,
+  "HP": 12960,
+  "Attack": 5760
+ },
+ {
+  "World": "월령",
+  "Attribute": 3,
+  "Name": "날뛰는 영혼",
+  "Stage": 1,
+  "HP": 6000,
+  "Attack": 10000
+ },
+ {
+  "World": "월령",
+  "Attribute": 3,
+  "Name": "날뛰는 영혼",
+  "Stage": 2,
+  "HP": 7200,
+  "Attack": 12000
+ },
+ {
+  "World": "월령",
+  "Attribute": 3,
+  "Name": "날뛰는 영혼",
+  "Stage": 3,
+  "HP": 8640,
+  "Attack": 14400
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 1,
+  "Name": "견습마법사",
+  "Stage": 1,
+  "HP": 6000,
+  "Attack": 8000
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 1,
+  "Name": "견습마법사",
+  "Stage": 2,
+  "HP": 7200,
+  "Attack": 9600
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 1,
+  "Name": "견습마법사",
+  "Stage": 3,
+  "HP": 8640,
+  "Attack": 11520
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 1,
+  "Name": "볼트",
+  "Stage": 1,
+  "HP": 8000,
+  "Attack": 7000
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 1,
+  "Name": "볼트",
+  "Stage": 2,
+  "HP": 9600,
+  "Attack": 8400
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 1,
+  "Name": "볼트",
+  "Stage": 3,
+  "HP": 11520,
+  "Attack": 10080
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 1,
+  "Name": "라미아",
+  "Stage": 1,
+  "HP": 9000,
+  "Attack": 7000
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 1,
+  "Name": "라미아",
+  "Stage": 2,
+  "HP": 10800,
+  "Attack": 8400
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 1,
+  "Name": "라미아",
+  "Stage": 3,
+  "HP": 12960,
+  "Attack": 10080
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 2,
+  "Name": "견습마법사",
+  "Stage": 1,
+  "HP": 6000,
+  "Attack": 8000
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 2,
+  "Name": "견습마법사",
+  "Stage": 2,
+  "HP": 7200,
+  "Attack": 9600
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 2,
+  "Name": "견습마법사",
+  "Stage": 3,
+  "HP": 8640,
+  "Attack": 11520
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 2,
+  "Name": "라미아",
+  "Stage": 1,
+  "HP": 9000,
+  "Attack": 7000
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 2,
+  "Name": "라미아",
+  "Stage": 2,
+  "HP": 10800,
+  "Attack": 8400
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 2,
+  "Name": "라미아",
+  "Stage": 3,
+  "HP": 12960,
+  "Attack": 10080
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 3,
+  "Name": "견습마법사",
+  "Stage": 1,
+  "HP": 6000,
+  "Attack": 8000
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 3,
+  "Name": "견습마법사",
+  "Stage": 2,
+  "HP": 7200,
+  "Attack": 9600
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 3,
+  "Name": "견습마법사",
+  "Stage": 3,
+  "HP": 8640,
+  "Attack": 11520
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 3,
+  "Name": "볼트",
+  "Stage": 1,
+  "HP": 8000,
+  "Attack": 7000
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 3,
+  "Name": "볼트",
+  "Stage": 2,
+  "HP": 9600,
+  "Attack": 8400
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 3,
+  "Name": "볼트",
+  "Stage": 3,
+  "HP": 11520,
+  "Attack": 10080
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 3,
+  "Name": "라미아",
+  "Stage": 1,
+  "HP": 9000,
+  "Attack": 7000
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 3,
+  "Name": "라미아",
+  "Stage": 2,
+  "HP": 10800,
+  "Attack": 8400
+ },
+ {
+  "World": "엠피레오",
+  "Attribute": 3,
+  "Name": "라미아",
+  "Stage": 3,
+  "HP": 12960,
+  "Attack": 10080
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 1,
+  "Name": "켄타우로스",
+  "Stage": 1,
+  "HP": 8000,
+  "Attack": 8000
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 1,
+  "Name": "켄타우로스",
+  "Stage": 2,
+  "HP": 9600,
+  "Attack": 9600
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 1,
+  "Name": "켄타우로스",
+  "Stage": 3,
+  "HP": 11520,
+  "Attack": 11520
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 1,
+  "Name": "정령",
+  "Stage": 1,
+  "HP": 10000,
+  "Attack": 6000
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 1,
+  "Name": "정령",
+  "Stage": 2,
+  "HP": 12000,
+  "Attack": 7200
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 1,
+  "Name": "정령",
+  "Stage": 3,
+  "HP": 14400,
+  "Attack": 8640
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 1,
+  "Name": "나무인간",
+  "Stage": 1,
+  "HP": 11000,
+  "Attack": 6000
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 1,
+  "Name": "나무인간",
+  "Stage": 2,
+  "HP": 13200,
+  "Attack": 7200
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 1,
+  "Name": "나무인간",
+  "Stage": 3,
+  "HP": 15840,
+  "Attack": 8640
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 1,
+  "Name": "켄타우로스",
+  "Stage": 1,
+  "HP": 8000,
+  "Attack": 8000
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 1,
+  "Name": "켄타우로스",
+  "Stage": 2,
+  "HP": 9600,
+  "Attack": 9600
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 1,
+  "Name": "켄타우로스",
+  "Stage": 3,
+  "HP": 11520,
+  "Attack": 11520
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 1,
+  "Name": "정령",
+  "Stage": 1,
+  "HP": 10000,
+  "Attack": 6000
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 1,
+  "Name": "정령",
+  "Stage": 2,
+  "HP": 12000,
+  "Attack": 7200
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 1,
+  "Name": "정령",
+  "Stage": 3,
+  "HP": 14400,
+  "Attack": 8640
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 3,
+  "Name": "켄타우로스",
+  "Stage": 1,
+  "HP": 8000,
+  "Attack": 8000
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 3,
+  "Name": "켄타우로스",
+  "Stage": 2,
+  "HP": 9600,
+  "Attack": 9600
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 3,
+  "Name": "켄타우로스",
+  "Stage": 3,
+  "HP": 11520,
+  "Attack": 11520
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 3,
+  "Name": "정령",
+  "Stage": 1,
+  "HP": 10000,
+  "Attack": 6000
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 3,
+  "Name": "정령",
+  "Stage": 2,
+  "HP": 12000,
+  "Attack": 7200
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 3,
+  "Name": "정령",
+  "Stage": 3,
+  "HP": 14400,
+  "Attack": 8640
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 3,
+  "Name": "나무인간",
+  "Stage": 1,
+  "HP": 11000,
+  "Attack": 6000
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 3,
+  "Name": "나무인간",
+  "Stage": 2,
+  "HP": 13200,
+  "Attack": 7200
+ },
+ {
+  "World": "제한구역",
+  "Attribute": 3,
+  "Name": "나무인간",
+  "Stage": 3,
+  "HP": 15840,
+  "Attack": 8640
+ },
+ {
+  "World": "전체",
+  "Attribute": 1,
+  "Name": "로퍼",
+  "Stage": 1,
+  "HP": 6000,
+  "Attack": 10000
+ },
+ {
+  "World": "전체",
+  "Attribute": 1,
+  "Name": "로퍼",
+  "Stage": 2,
+  "HP": 7200,
+  "Attack": 12000
+ },
+ {
+  "World": "전체",
+  "Attribute": 1,
+  "Name": "로퍼",
+  "Stage": 3,
+  "HP": 8640,
+  "Attack": 14400
+ },
+ {
+  "World": "전체",
+  "Attribute": 2,
+  "Name": "로퍼",
+  "Stage": 1,
+  "HP": 7000,
+  "Attack": 9000
+ },
+ {
+  "World": "전체",
+  "Attribute": 2,
+  "Name": "로퍼",
+  "Stage": 2,
+  "HP": 8400,
+  "Attack": 10800
+ },
+ {
+  "World": "전체",
+  "Attribute": 2,
+  "Name": "로퍼",
+  "Stage": 3,
+  "HP": 10080,
+  "Attack": 12960
+ },
+ {
+  "World": "전체",
+  "Attribute": 3,
+  "Name": "로퍼",
+  "Stage": 1,
+  "HP": 8000,
+  "Attack": 8000
+ },
+ {
+  "World": "전체",
+  "Attribute": 3,
+  "Name": "로퍼",
+  "Stage": 2,
+  "HP": 9600,
+  "Attack": 9600
+ },
+ {
+  "World": "전체",
+  "Attribute": 3,
+  "Name": "로퍼",
+  "Stage": 3,
+  "HP": 11520,
+  "Attack": 11520
+ }
+],
+"BossData":[
+ {
+  "World": "월령",
+  "Attribute": 1,
+  "Name": "미친 영술사0",
+  "Stage": 1,
+  "HP": 40000,
+  "Attack": 10000
+ },
+ {
+  "World": "월령",
+  "Attribute": 2,
+  "Name": "미친 영술사1",
+  "Stage": 2,
+  "HP": 60000,
+  "Attack": 15000
+ },
+ {
+  "World": "월령",
+  "Attribute": 3,
+  "Name": "미친 영술사2",
+  "Stage": 3,
+  "HP": 70000,
+  "Attack": 18000
+ },
+ {
+  "World": "전체",
+  "Attribute": 5,
+  "Name": "거대 로퍼",
+  "Stage": 1,
+  "HP": 50000,
+  "Attack": 10000
+ },
+ {
+  "World": "전체",
+  "Attribute": 5,
+  "Name": "거대 로퍼",
+  "Stage": 2,
+  "HP": 75000,
+  "Attack": 16000
+ },
+ {
+  "World": "전체",
+  "Attribute": 5,
+  "Name": "거대 로퍼",
+  "Stage": 3,
+  "HP": 80000,
+  "Attack": 20000
+ }
+],
+"SkillData":[
+ {
+  "Name": "지방 포졸1",
+  "Energe": 2,
+  "Rare": 1
+ },
+ {
+  "Name": "지방 포졸2",
+  "Energe": -2,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "CharacterAttack": 100,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "blood": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "지방 포졸3",
+  "Energe": -3,
+  "Explain": "ATK*0.2 만큼 회복 + 3턴 동안 자신의 ATK -10%",
+  "Attack": 0,
+  "CharacterAttack": 90,
+  "DecreaseDamage": 100,
+  "HealHP": 20,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "blood": 0,
+  "TurnCount": 3,
+  "Rare": 1
+ },
+ {
+  "Name": "지방 포졸4",
+  "Energe": -7,
+  "Explain": "ATK*0.5 만큼 공격 + 1턴 동안 자신의 받는 피해량 -10%",
+  "Attack": 50,
+  "CharacterAttack": 100,
+  "DecreaseDamage": 90,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "blood": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "도깨비1",
+  "Energe": 2,
+  "Rare": 1
+ },
+ {
+  "Name": "도깨비2",
+  "Energe": -2,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "CharacterAttack": 100,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "blood": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "도깨비3",
+  "Energe": -4,
+  "Explain": "ATK*0.3 만큼 공격",
+  "Attack": 30,
+  "CharacterAttack": 100,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "blood": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "도깨비4",
+  "Energe": -6,
+  "Explain": "ATK*0.5 만큼 공격",
+  "Attack": 50,
+  "CharacterAttack": 100,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "blood": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "날뛰는 영혼1",
+  "Energe": 2,
+  "Rare": 1
+ },
+ {
+  "Name": "날뛰는 영혼2",
+  "Energe": -2,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "blood": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "날뛰는 영혼3",
+  "Energe": -4,
+  "Explain": "ATK*0.3 만큼 공격 + 3턴 동안 적에게 출혈 대미지 500.0",
+  "Attack": 30,
+  "blood": 500,
+  "TurnCount": 3,
+  "Rare": 1
+ },
+ {
+  "Name": "날뛰는 영혼4",
+  "Energe": -6,
+  "Explain": "ATK*0.5 만큼 공격 + 1턴 뒤에 적에게 출혈 대미지 1000.0",
+  "Attack": 70,
+  "blood": 1000,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "볼트1",
+  "Energe": 2,
+  "Rare": 1
+ },
+ {
+  "Name": "볼트2",
+  "Energe": -2,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "Rare": 1
+ },
+ {
+  "Name": "볼트3",
+  "Energe": -4,
+  "Explain": "ATK*0.3 만큼 공격 ",
+  "Attack": 30,
+  "Rare": 1
+ },
+ {
+  "Name": "볼트4",
+  "Energe": -6,
+  "Explain": "ATK*0.7 만큼 공격 + 1턴 뒤에 자신에게 행동불능 1턴",
+  "Attack": 90,
+  "Rare": 1
+ },
+ {
+  "Name": "라미아1",
+  "Energe": 3,
+  "Rare": 1
+ },
+ {
+  "Name": "라미아2",
+  "Energe": -2,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "Rare": 1
+ },
+ {
+  "Name": "라미아3",
+  "Energe": -5,
+  "Explain": "ATK*0.2 만큼 회복 + ATK*0.2 만큼 공격",
+  "Attack": 30,
+  "HealHP": 30,
+  "Rare": 1
+ },
+ {
+  "Name": "라미아4",
+  "Energe": -5,
+  "Explain": "ATK*0.4 만큼 회복",
+  "Attack": 0,
+  "HealHP": 50,
+  "Rare": 1
+ },
+ {
+  "Name": "견습마법사1",
+  "Energe": 3,
+  "Rare": 1
+ },
+ {
+  "Name": "견습마법사2",
+  "Energe": -2,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "견습마법사3",
+  "Energe": -4,
+  "Explain": "3턴 동안 아군 전체 받는 피해량 -10%",
+  "Attack": 100,
+  "DecreaseDamage": 110,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 3,
+  "Rare": 1
+ },
+ {
+  "Name": "견습마법사4",
+  "Energe": -6,
+  "Explain": "ATK*0.4만큼 공격 + 1턴 동안 자신의 받는 피해량 -20%",
+  "Attack": 100,
+  "DecreaseDamage": 120,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 3,
+  "Rare": 1
+ },
+ {
+  "Name": "켄타우로스1",
+  "Energe": 3,
+  "Rare": 1
+ },
+ {
+  "Name": "켄타우로스2",
+  "Energe": -2,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "켄타우로스3",
+  "Energe": -3,
+  "Explain": "ATK*0.2 만큼 회복",
+  "Attack": 100,
+  "DecreaseDamage": 100,
+  "HealHP": 30,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "켄타우로스4",
+  "Energe": -7,
+  "Explain": "1턴 동안 자신이 받는 피해량 +30% + 자신에게 도발",
+  "Attack": 100,
+  "DecreaseDamage": 70,
+  "HealHP": 0,
+  "Provocation": 1,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "정령1",
+  "Energe": 3,
+  "Rare": 1
+ },
+ {
+  "Name": "정령2",
+  "Energe": -2,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 30,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "정령3",
+  "Energe": -5,
+  "Explain": "ATK*0.2 만큼 3턴 동안 회복",
+  "Attack": 100,
+  "DecreaseDamage": 90,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 3,
+  "Rare": 1
+ },
+ {
+  "Name": "정령4",
+  "Energe": -5,
+  "Explain": "ATK*0.3 만큼 공격 + 1턴 동안 아군 전체 받는 피해량 -20%",
+  "Attack": 70,
+  "DecreaseDamage": 120,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "나무인간1",
+  "Energe": 3,
+  "Rare": 1
+ },
+ {
+  "Name": "나무인간2",
+  "Energe": -2,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Rare": 1
+ },
+ {
+  "Name": "나무인간3",
+  "Energe": -4,
+  "Explain": "ATK*0.3 만큼 공격 + 3턴 동안 적에게 출혈 대미지 500.0",
+  "Rare": 1
+ },
+ {
+  "Name": "나무인간4",
+  "Energe": -6,
+  "Explain": "AKT*0.3 만큼 회복 + 3턴 동안 아군 전체 받는 피해량 -10% ",
+  "Rare": 1
+ },
+ {
+  "Name": "로퍼1",
+  "Energe": 3,
+  "Rare": 1
+ },
+ {
+  "Name": "로퍼2",
+  "Energe": -2,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Rare": 1
+ },
+ {
+  "Name": "로퍼3",
+  "Energe": -6,
+  "Explain": "ATK*0.7 만큼 공격",
+  "Rare": 1
+ },
+ {
+  "Name": "로퍼4",
+  "Energe": -7,
+  "Explain": "ATK*0.9 만큼 공격 + 1턴 뒤에 자신에게 행동 불능 1턴",
+  "Rare": 1
+ },
+ {
+  "Name": "치유 지방 포졸1",
+  "Energe": 3,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 지방 포졸2",
+  "Energe": -2,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 지방 포졸3",
+  "Energe": -3,
+  "Explain": "ATK*0.4 만큼 회복 + 3턴 동안 자신의 ATK -20%",
+  "Attack": 90,
+  "DecreaseDamage": 100,
+  "HealHP": 50,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 3,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 지방 포졸4",
+  "Energe": -7,
+  "Explain": "ATK*0.3 만큼 회복 + 1턴 동안 자신의 받는 피해량 -30%",
+  "Attack": 90,
+  "DecreaseDamage": 130,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 도깨비1",
+  "Energe": 3,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 도깨비2",
+  "Energe": -2,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 도깨비3",
+  "Energe": -4,
+  "Explain": "ATK*0.2 만큼 공격 + ATK*0.2 만큼 회복",
+  "Rare": 1
+ },
+ {
+  "Name": "치유 도깨비4",
+  "Energe": -6,
+  "Explain": "ATK*0.2 만큼 회복 + 1턴 동안 자신의 받는 피해량 -20%",
+  "Rare": 1
+ },
+ {
+  "Name": "치유 견습마법사1",
+  "Energe": 4,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 견습마법사2",
+  "Energe": -2,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 견습마법사3",
+  "Energe": -4,
+  "Explain": "ATK*0.2만큼 회복 + 3턴 동안 아군 전체 받는 피해량 -10%",
+  "Rare": 1
+ },
+ {
+  "Name": "치유 견습마법사4",
+  "Energe": -6,
+  "Explain": "ATK*0.3만큼 회복 + 3턴 동안 자신의 받는 피해량 -20%",
+  "Rare": 1
+ },
+ {
+  "Name": "치유 볼트1",
+  "Energe": 3,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 볼트2",
+  "Energe": -2,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 볼트3",
+  "Energe": -4,
+  "Explain": "ATK*0.2 만큼 회복",
+  "Rare": 1
+ },
+ {
+  "Name": "치유 볼트4",
+  "Energe": -6,
+  "Explain": "ATK*0.4 만큼 회복 + ATK*0.2 만큼 공격",
+  "Rare": 1
+ },
+ {
+  "Name": "치유 라미아1",
+  "Energe": 4,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 라미아2",
+  "Energe": -2,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 라미아3",
+  "Energe": -4,
+  "Explain": "ATK*0.3 만큼 회복",
+  "Rare": 1
+ },
+ {
+  "Name": "치유 라미아4",
+  "Energe": -6,
+  "Explain": "ATK*0.4 만큼 회복 + ATK*0.2 만큼 공격",
+  "Rare": 1
+ },
+ {
+  "Name": "치유 켄타우로스1",
+  "Energe": 4,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 켄타우로스2",
+  "Energe": -2,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 켄타우로스3",
+  "Energe": -4,
+  "Explain": "ATK*0.2 만큼 회복 + 3턴 동안 아군 전체 받는 피해량 -10%",
+  "Rare": 1
+ },
+ {
+  "Name": "치유 켄타우로스4",
+  "Energe": -6,
+  "Explain": "ATK*0.2 만큼 회복 + 1턴 동안 아군 전체 ATK +10%",
+  "Rare": 1
+ },
+ {
+  "Name": "치유 정령1",
+  "Energe": 4,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 정령2",
+  "Energe": -2,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 정령3",
+  "Energe": -5,
+  "Explain": "ATK*0.1만큼 공격 + ATK*0.3 만큼 회복",
+  "Attack": 100,
+  "DecreaseDamage": 100,
+  "HealHP": 30,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 정령4",
+  "Energe": -5,
+  "Explain": "ATK*0.2 만큼 3턴에 걸쳐 회복",
+  "Attack": 100,
+  "DecreaseDamage": 100,
+  "HealHP": 20,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 3,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 나무인간1",
+  "Energe": 4,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 나무인간2",
+  "Energe": -2,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 나무인간3",
+  "Energe": -4,
+  "Explain": "ATK*0.1 만큼 공격 ATK*0.1 만큼 3턴에 걸쳐 회복",
+  "Rare": 1
+ },
+ {
+  "Name": "치유 나무인간4",
+  "Energe": -6,
+  "Explain": "ATK*0.3 만큼 회복 + ATK*0.3 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 로퍼1",
+  "Energe": 5,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 로퍼2",
+  "Energe": -2,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "치유 로퍼3",
+  "Energe": -6,
+  "Explain": "ATK*0.6 만큼 회복 + 1턴 동안 아군 전체 ATK -20%",
+  "Rare": 1
+ },
+ {
+  "Name": "치유 로퍼4",
+  "Energe": -8,
+  "Explain": "ATK*0.7 만큼 회복 + 1턴 동안 자신의 받는 피해량 -30%",
+  "Rare": 1
+ },
+ {
+  "Name": "지원 도깨비1",
+  "Energe": 4,
+  "Rare": 1
+ },
+ {
+  "Name": "지원 도깨비2",
+  "Energe": -3,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "지원 도깨비3",
+  "Energe": -4,
+  "Explain": "ATK*0.3 만큼 공격",
+  "Rare": 1
+ },
+ {
+  "Name": "지원 도깨비4",
+  "Energe": -6,
+  "Explain": "ATK*0.3 만큼 공격 후 에너지 3 충전",
+  "Rare": 1
+ },
+ {
+  "Name": "지원 날뛰는 영혼1",
+  "Energe": 4,
+  "Rare": 1
+ },
+ {
+  "Name": "지원 날뛰는 영혼2",
+  "Energe": -3,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "지원 날뛰는 영혼3",
+  "Energe": -4,
+  "Explain": "ATK*0.2 만큼 공격 후 ATK*0.2 만큼 회복",
+  "Rare": 1
+ },
+ {
+  "Name": "지원 날뛰는 영혼4",
+  "Energe": -6,
+  "Explain": "ATK*0.3 만큼 공격 후 에너지 3 충전",
+  "Rare": 1
+ },
+ {
+  "Name": "지원 견습마법사1",
+  "Energe": 5,
+  "Rare": 1
+ },
+ {
+  "Name": "지원 견습마법사2",
+  "Energe": -3,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "지원 견습마법사3",
+  "Energe": -6,
+  "Explain": "ATK*0.2 만큼 공격 후 ATK*0.2 만큼 3턴 동안 회복",
+  "Rare": 1
+ },
+ {
+  "Name": "지원 견습마법사4",
+  "Energe": -4,
+  "Explain": "ATK*0.2 만큼 공격 후 에너지 3 충전",
+  "Rare": 1
+ },
+ {
+  "Name": "지원 라미아1",
+  "Energe": 5,
+  "Rare": 1
+ },
+ {
+  "Name": "지원 라미아2",
+  "Energe": -3,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "지원 라미아3",
+  "Energe": -3,
+  "Explain": "3턴 동안 아군 전체의 ATK 10% 증가",
+  "Rare": 1
+ },
+ {
+  "Name": "지원 라미아4",
+  "Energe": -7,
+  "Explain": "ATK*0.4 만큼 회복 후 에너지 3 충전",
+  "Rare": 1
+ },
+ {
+  "Name": "지원 켄타우로스1",
+  "Energe": 5,
+  "Rare": 1
+ },
+ {
+  "Name": "지원 켄타우로스2",
+  "Energe": -3,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "지원 켄타우로스3",
+  "Energe": -4,
+  "Explain": "ATK*0.2 만큼 공격 + ATK*0.2 만큼 회복",
+  "Rare": 1
+ },
+ {
+  "Name": "지원 켄타우로스4",
+  "Energe": -6,
+  "Explain": "ATK*0.2 만큼 회복 + 3턴 동안 아군 전체 ATK*0.1 증가",
+  "Rare": 1
+ },
+ {
+  "Name": "지원 정령1",
+  "Energe": 5,
+  "Rare": 1
+ },
+ {
+  "Name": "지원 정령2",
+  "Energe": -3,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "지원 정령3",
+  "Energe": -3,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Rare": 1
+ },
+ {
+  "Name": "지원 정령4",
+  "Energe": -7,
+  "Explain": "ATK*0.4 만큼 회복 + 에너지 3 충전",
+  "Rare": 1
+ },
+ {
+  "Name": "지원 로퍼1",
+  "Energe": 6,
+  "Rare": 1
+ },
+ {
+  "Name": "지원 로퍼2",
+  "Energe": -3,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "지원 로퍼3",
+  "Energe": -6,
+  "Explain": "ATK*0.4 만큼 공격 + 3턴 동안 자신의 ATK*0.2 증가",
+  "Rare": 1
+ },
+ {
+  "Name": "지원 로퍼4",
+  "Energe": -8,
+  "Explain": "ATK*0.4 만큼 공격 + 에너지 3 충전",
+  "Rare": 1
+ },
+ {
+  "Name": "지원 지방 포졸1",
+  "Energe": 5,
+  "Rare": 1
+ },
+ {
+  "Name": "지원 지방 포졸2",
+  "Energe": -3,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Attack": 20,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 1
+ },
+ {
+  "Name": "지원 지방 포졸3",
+  "Energe": -4,
+  "Explain": "ATK*0.2 만큼 공격",
+  "Rare": 1
+ },
+ {
+  "Name": "지원 지방 포졸4",
+  "Energe": -6,
+  "Explain": "ATK*0.3 만큼 회복 + 에너지 3 충전",
+  "Rare": 1
+ },
+ {
+  "Name": "장군1",
+  "Energe": 7,
+  "Rare": 2
+ },
+ {
+  "Name": "장군2",
+  "Energe": -3,
+  "Explain": "ATK*0.4 만큼 공격",
+  "Attack": 30,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 2
+ },
+ {
+  "Name": "장군3",
+  "Energe": -5,
+  "Explain": "3턴 동안 자신의 받는 피해량 -20%",
+  "Attack": 0,
+  "DecreaseDamage": 80,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 2
+ },
+ {
+  "Name": "장군4",
+  "Energe": -7,
+  "Explain": "적 전체에 도발을 걸고 1턴 동안 자신의 받는 피해량 20% 감소",
+  "Attack": 0,
+  "DecreaseDamage": 70,
+  "HealHP": 0,
+  "Provocation": 1,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 2
+ },
+ {
+  "Name": "식물 호랑이1",
+  "Energe": 5,
+  "Rare": 2
+ },
+ {
+  "Name": "식물 호랑이2",
+  "Energe": -3,
+  "Explain": "ATK*0.4 만큼 공격",
+  "Attack": 50,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 2
+ },
+ {
+  "Name": "식물 호랑이3",
+  "Energe": -4,
+  "Explain": " ATK*0.2 만큼 회복 + 3턴 동안 아군 전체 받는 피해량 -10%",
+  "Attack": 0,
+  "DecreaseDamage": 80,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 3,
+  "Rare": 2
+ },
+ {
+  "Name": "식물 호랑이4",
+  "Energe": -8,
+  "Explain": "ATK*0.6만큼 공격",
+  "Attack": 70,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 2
+ },
+ {
+  "Name": "닌자1",
+  "Energe": 3,
+  "Rare": 2
+ },
+ {
+  "Name": "닌자2",
+  "Energe": -5,
+  "Explain": "ATK*0.7 만큼 공격",
+  "Attack": 70,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 2
+ },
+ {
+  "Name": "닌자3",
+  "Energe": -5,
+  "Explain": "1턴 동안 자신의 받는 피해량 50% 증가 + 1턴 후에 자신의 ATK 30% 증가",
+  "Attack": 120,
+  "DecreaseDamage": 130,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 2
+ },
+ {
+  "Name": "닌자4",
+  "Energe": -10,
+  "Explain": "자신에게 도발을 걸고 ATK*1 만큼 공격",
+  "Attack": 100,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 1,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 2
+ },
+ {
+  "Name": "은둔자1",
+  "Energe": 3
+ },
+ {
+  "Name": "은둔자2",
+  "Energe": -5,
+  "Explain": "ATK*0.7 만큼 공격"
+ },
+ {
+  "Name": "은둔자3",
+  "Energe": -5,
+  "Explain": "ATK*0.3 만큼 공격 + 3턴 동안 아군 전체 ATK 10% 증가"
+ },
+ {
+  "Name": "은둔자4",
+  "Energe": -7,
+  "Explain": "ATK*0.7 만큼 공격"
+ },
+ {
+  "Name": "비비1",
+  "Energe": 5,
+  "Rare": 2
+ },
+ {
+  "Name": "비비2",
+  "Energe": -3,
+  "Explain": "ATK*0.4 만큼 공격",
+  "Attack": 50,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 2
+ },
+ {
+  "Name": "비비3",
+  "Energe": -5,
+  "Explain": "아군 전체 ATK 20% 증가 + 아군 전체 받는 피해량 20% 감소",
+  "Attack": 110,
+  "DecreaseDamage": 90,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 2
+ },
+ {
+  "Name": "비비4",
+  "Energe": -7,
+  "Explain": "ATK*0.6 만큼 회복",
+  "Attack": 0,
+  "DecreaseDamage": 100,
+  "HealHP": 40,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 2
+ },
+ {
+  "Name": "마법 의회장1",
+  "Energe": 7,
+  "Rare": 2
+ },
+ {
+  "Name": "마법 의회장2",
+  "Energe": -3,
+  "Explain": "ATK*0.4 만큼 공격",
+  "Attack": 30,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 1,
+  "Rare": 2
+ },
+ {
+  "Name": "마법 의회장3",
+  "Energe": -5,
+  "Explain": "지정 대상의 ATK 3턴 동안 20% 증가",
+  "Attack": 120,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 0,
+  "TurnCount": 3,
+  "Rare": 2
+ },
+ {
+  "Name": "마법 의회장4",
+  "Energe": -7,
+  "Explain": "ATK*0.5만큼 공격하고 에너지 5 증가",
+  "Attack": 50,
+  "DecreaseDamage": 100,
+  "HealHP": 0,
+  "Provocation": 0,
+  "NotAction": 0,
+  "HealEnerge": 5,
+  "TurnCount": 1,
+  "Rare": 2
+ },
+ {
+  "Name": "대원수1",
+  "Rare": 3
+ },
+ {
+  "Name": "대원수2",
+  "Energe": -4,
+  "Explain": "ATK*0.5 만큼 공격",
+  "Rare": 3
+ },
+ {
+  "Name": "대원수3",
+  "Energe": -8,
+  "Explain": "적 전체에게 도발을 걸고 1턴 동안 자신의 방어력 50% 증가",
+  "Rare": 3
+ },
+ {
+  "Name": "대원수4",
+  "Energe": -11,
+  "Explain": "ATK*1 만큼 공격하고 3턴 동안 전체 ATK 20% 증가",
+  "Rare": 3
+ },
+ {
+  "Name": "총통1",
+  "Energe": 4,
+  "Rare": 3
+ },
+ {
+  "Name": "총통2",
+  "Energe": -5,
+  "Explain": "ATK*0.8 만큼 공격",
+  "Rare": 3
+ },
+ {
+  "Name": "총통3",
+  "Energe": -6,
+  "Explain": "ATK*1만큼 공격",
+  "Rare": 3
+ },
+ {
+  "Name": "총통4",
+  "Energe": -9,
+  "Explain": "ATK*1.5 만큼 공격 + 좌측에 위치한 캐릭터와 데스 링크",
+  "Rare": 3
+ },
+ {
+  "Name": "기술자1",
+  "Rare": 3
+ },
+ {
+  "Name": "기술자2",
+  "Energe": -5,
+  "Explain": "ATK*0.8 만큼 공격",
+  "Rare": 3
+ },
+ {
+  "Name": "기술자3",
+  "Energe": -8,
+  "Explain": "ATK*0.9만큼 공격 + ATK*0.2 만큼 회복",
+  "Rare": 3
+ },
+ {
+  "Name": "기술자4",
+  "Energe": -7,
+  "Explain": "ATK*1.2만큼 공격 + 자신의 ATK 10% 감소",
+  "Rare": 3
+ },
+ {
+  "Name": "중재자1",
+  "Rare": 3
+ },
+ {
+  "Name": "중재자2",
+  "Energe": -5,
+  "Explain": "ATK*0.8 만큼 공격",
+  "Rare": 3
+ },
+ {
+  "Name": "중재자3",
+  "Energe": -6,
+  "Explain": "ATK*1만큼 공격",
+  "Rare": 3
+ },
+ {
+  "Name": "중재자4",
+  "Energe": -9,
+  "Explain": "ATK*1.5 만큼 공격 + 좌측에 위치한 캐릭터와 데스 링크",
+  "Rare": 3
+ },
+ {
+  "Name": "고대 영술사1",
+  "Energe": 4,
+  "Explain": "포지션 선택지로 진입",
+  "Rare": 3
+ },
+ {
+  "Name": "고대 영술사2",
+  "Energe": -3,
+  "Explain": "ATK*0.5 만큼 공격",
+  "Rare": 3
+ },
+ {
+  "Name": "고대 영술사3",
+  "Energe": -9,
+  "Explain": "1턴 동안 아군 전체 받는 피해량 50% 감소",
+  "Rare": 3
+ },
+ {
+  "Name": "고대 영술사4",
+  "Energe": -7,
+  "Explain": "아군 전체 ATK 20% 증가 + 에너지 5 증가",
+  "Rare": 3
+ },
+ {
+  "Name": "공격 고대 영술사1",
+  "Energe": 4,
+  "Explain": "포지션 선택지로 진입",
+  "Rare": 3
+ },
+ {
+  "Name": "공격 고대 영술사2",
+  "Energe": -5,
+  "Explain": "ATK*0.7 만큼 공격",
+  "Rare": 3
+ },
+ {
+  "Name": "공격 고대 영술사3",
+  "Energe": -6,
+  "Explain": "ATK*0.9 만큼 공격 + 3턴 동안 자신의 받는 피해량 20% 증가",
+  "Rare": 3
+ },
+ {
+  "Name": "공격 고대 영술사4",
+  "Energe": -9,
+  "Explain": "ATK*1.2 만큼 공격 + 3턴 동안 자신의 ATK 20% 감소",
+  "Rare": 3
+ },
+ {
+  "Name": "수비 고대 영술사1",
+  "Energe": 4,
+  "Explain": "포지션 선택지로 진입",
+  "Rare": 3
+ },
+ {
+  "Name": "수비 고대 영술사2",
+  "Energe": -3,
+  "Explain": "ATK*0.5 만큼 공격",
+  "Rare": 3
+ },
+ {
+  "Name": "수비 고대 영술사3",
+  "Energe": -8,
+  "Explain": "1턴 동안 아군 전체 받는 피해량 50% 감소",
+  "Rare": 3
+ },
+ {
+  "Name": "수비 고대 영술사4",
+  "Energe": -8,
+  "Explain": "ATK*0.4 만큼 회복 + 좌측에 위치한 캐릭터와 하트 링크",
+  "Rare": 3
+ },
+ {
+  "Name": "치유 고대 영술사1",
+  "Energe": 4,
+  "Explain": "포지션 선택지로 진입"
+ },
+ {
+  "Name": "치유 고대 영술사2",
+  "Energe": -3,
+  "Explain": "ATK*0.3 만큼 회복 + 3턴 동안 아군 전체 ATK 10% 증가"
+ },
+ {
+  "Name": "치유 고대 영술사3",
+  "Energe": -6,
+  "Explain": "ATK*0.3 만큼 공격 + ATK*0.5 만큼 회복"
+ },
+ {
+  "Name": "치유 고대 영술사4",
+  "Energe": -9,
+  "Explain": "ATK*0.7 만큼 회복 + 3턴 동안 아군 전체 받는 피해량 30% 감소"
+ },
+ {
+  "Name": "지원 고대 영술사1",
+  "Energe": 6,
+  "Explain": "포지션 선택지로 진입"
+ },
+ {
+  "Name": "지원 고대 영술사2",
+  "Energe": -3,
+  "Explain": "ATK*0.5 만큼 공격"
+ },
+ {
+  "Name": "지원 고대 영술사3",
+  "Energe": -8,
+  "Explain": "ATK*0.3 만큼 회복 + 지정 대상에게 도발"
+ },
+ {
+  "Name": "지원 고대 영술사4",
+  "Energe": -7,
+  "Explain": "아군 전체 ATK 20% 증가 + 에너지 5 증가"
+ }
+],
+"MonsterSkillData":[
+ {
+  "Index": 1,
+  "Damage": 40,
+  "TurnCount": 1,
+  "Enemy": 1
+ },
+ {
+  "Index": 2,
+  "Damage": 60,
+  "Blood": 500,
+  "TurnCount": 3,
+  "Enemy": 1
+ },
+ {
+  "Index": 3,
+  "Damage": 80,
+  "Blood": 1000,
+  "TurnCount": 3,
+  "Enemy": 1
+ },
+ {
+  "Index": 4,
+  "Damage": 100,
+  "Blood": 2000,
+  "TurnCount": 3,
+  "Enemy": 1
+ },
+ {
+  "Index": 5,
+  "Attack": 120,
+  "TurnCount": 1,
+  "Enemy": 1
+ },
+ {
+  "Index": 6,
+  "Attack": 150,
+  "TurnCount": 1,
+  "Enemy": 1
+ },
+ {
+  "Index": 7,
+  "Attack": 120,
+  "TurnCount": 3,
+  "Enemy": 1
+ },
+ {
+  "Index": 8,
+  "Attack": 150,
+  "TurnCount": 3,
+  "Enemy": 1
+ },
+ {
+  "Index": 9,
+  "Defense": 80,
+  "TurnCount": 1
+ },
+ {
+  "Index": 10,
+  "Defense": 50,
+  "TurnCount": 1
+ },
+ {
+  "Index": 11,
+  "Defense": 80,
+  "TurnCount": 3
+ },
+ {
+  "Index": 12,
+  "Defense": 50,
+  "TurnCount": 3
+ },
+ {
+  "Index": 13,
+  "HealHP": 10,
+  "TurnCount": 3
+ },
+ {
+  "Index": 14,
+  "HealHP": 20,
+  "TurnCount": 3
+ },
+ {
+  "Index": 15,
+  "HealHP": 30,
+  "TurnCount": 3
+ },
+ {
+  "Index": 16,
+  "HealHP": 50,
+  "TurnCount": 3
+ },
+ {
+  "Index": 17,
+  "HealHP": 20,
+  "TurnCount": 1
+ },
+ {
+  "Index": 18,
+  "HealHP": 50,
+  "TurnCount": 1
+ },
+ {
+  "Index": 19,
+  "HealHP": 100,
+  "TurnCount": 1
+ },
+ {
+  "Index": 20,
+  "HealHP": 30,
+  "TurnCount": 1
+ },
+ {
+  "Index": 21,
+  "HealHP": 50,
+  "TurnCount": 1
+ },
+ {
+  "Index": 22,
+  "Defense": 80,
+  "TurnCount": 1
+ },
+ {
+  "Index": 23,
+  "Damage": 120,
+  "TurnCount": 3,
+  "Enemy": 1
+ },
+ {
+  "Index": 24,
+  "Damage": 500,
+  "TurnCount": 1,
+  "Enemy": 1
+ },
+ {
+  "Index": 25,
+  "Damage": 50,
+  "TurnCount": 1,
+  "Enemy": 2
+ },
+ {
+  "Index": 26,
+  "Damage": 50,
+  "Blood": 500,
+  "TurnCount": 3,
+  "Enemy": 2
+ },
+ {
+  "Index": 27,
+  "Damage": 50,
+  "Blood": 1000,
+  "TurnCount": 3,
+  "Enemy": 2
+ },
+ {
+  "Index": 28,
+  "Damage": 50,
+  "Blood": 2000,
+  "TurnCount": 3,
+  "Enemy": 2
+ },
+ {
+  "Index": 29,
+  "Damage": 50,
+  "TurnCount": 1,
+  "Enemy": 3
+ },
+ {
+  "Index": 30,
+  "Damage": 50,
+  "Blood": 500,
+  "TurnCount": 3,
+  "Enemy": 3
+ },
+ {
+  "Index": 31,
+  "Damage": 50,
+  "Blood": 1000,
+  "TurnCount": 3,
+  "Enemy": 3
+ },
+ {
+  "Index": 32,
+  "Damage": 50,
+  "Blood": 2000,
+  "TurnCount": 3,
+  "Enemy": 3
+ },
+ {
+  "Index": 33,
+  "Damage": 50,
+  "TurnCount": 1,
+  "Enemy": 4
+ },
+ {
+  "Index": 34,
+  "Damage": 50,
+  "Blood": 500,
+  "TurnCount": 3,
+  "Enemy": 4
+ },
+ {
+  "Index": 35,
+  "Damage": 50,
+  "Blood": 1000,
+  "TurnCount": 3,
+  "Enemy": 4
+ },
+ {
+  "Index": 36,
+  "Damage": 50,
+  "Blood": 2000,
+  "TurnCount": 3,
+  "Enemy": 4
+ },
+ {
+  "Index": 37
+ }
+]
+}

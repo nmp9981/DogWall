@@ -2907,7 +2907,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saveData:
     list: []
-    my_characterList: []
+    CharacterList: []
     skillList: []
     monsterList: []
     my_team:

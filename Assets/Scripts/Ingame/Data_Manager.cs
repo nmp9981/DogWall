@@ -14,23 +14,23 @@ public class Data_Manager : MonoBehaviour
 
     }
 
-    public void Add_Character(string path,Sprite img,string name,int hp,int energe,int attribute,int attack,string type,int appear,int star)
+    public void Add_Character(string path, Sprite img,string name,int hp,int energe,  int attribute, int attack,string type, int star, int appear)
     {
         Character_Count++;
-        Characterlist.Add(new CharacterDataClass(path, img, name, hp, energe, attribute, attack, type, appear, star));
+        Characterlist.Add(new CharacterDataClass(null,null,name, hp, energe, attribute,attack,type, star, appear));
     }
     public int Get_Character_Count()
     {
         return Character_Count;
     }
 
-    public void Add_Monster(int world,int attribute, string name,int stage, int hp, int atk)
+    public void Add_Monster(string world,int attribute, string name,int stage, int hp, int atk)
     {
         Monster_Count++;
         MonsterList.Add(new MonsterDataClass(world,attribute, name, stage, hp, atk));
     }
-    public void Add_Skill(string name, int energe, string explain,int attack,int decrease,int healHP,bool provocation,bool action,int healE,int blood,int trunCount,int rare)
+    public void Add_Skill(string name, int energe, string explain,int attack,int characterAttack,int decrease,int healHP,bool provocation,bool action,int healE,int blood,int trunCount,int rare)
     {
-        SkillList.Add(new SkillDataClass(name,energe,explain,attack,decrease,healHP,provocation,action,healE,blood,trunCount,rare));
+        SkillList.Add(new SkillDataClass(name,energe,explain,attack,characterAttack,decrease,healHP,provocation,action,healE,blood,trunCount,rare));
     }
 }

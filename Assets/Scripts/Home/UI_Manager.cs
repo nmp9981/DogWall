@@ -184,7 +184,7 @@ public class UI_Manager : MonoBehaviour
 
     void Load()
     {
-        int max = data.saveData.my_characterList.Count;
+        int max = data.saveData.CharacterList.Count;
         int i = 0;
         while(i < max)//가지고 있는 캐릭터 리스트 생성
         {
@@ -198,8 +198,8 @@ public class UI_Manager : MonoBehaviour
             temp.transform.SetParent(parent);
             Vector3 pos = new Vector3(43 + (x * 259f), 1395 - (y * 253));
             temp.transform.position = pos;
-            temp.name = data.saveData.my_characterList[i].Name;
-            temp.GetComponent<Image>().sprite = data.saveData.my_characterList[i].Img;
+            temp.name = data.saveData.CharacterList[i].Name;
+            temp.GetComponent<Image>().sprite = data.saveData.CharacterList[i].Img;
             temp.transform.GetComponent<Button>().onClick.AddListener(Unit_Choose);
             i++;
         }
@@ -273,15 +273,15 @@ public class UI_Manager : MonoBehaviour
                 }
                 GameObject target = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Teams").transform.Find("Character" + idx).gameObject;
                 
-                for(int i = 0; i < data.saveData.my_characterList.Count; i++)
+                for(int i = 0; i < data.saveData.CharacterList.Count; i++)
                 {
-                    if(Unit.name == data.saveData.my_characterList[i].Name)
+                    if(Unit.name == data.saveData.CharacterList[i].Name)
                     {
-                        target.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_characterList[i].Img;
-                        target.transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_characterList[i].HP.ToString();
-                        target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_characterList[i].ATK.ToString();
-                        target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_characterList[i].Type;
-                        data.saveData.my_team[4*tap+int.Parse(idx)-1] = data.saveData.my_characterList[i];
+                        target.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.CharacterList[i].Img;
+                        target.transform.GetChild(1).GetComponent<Text>().text = data.saveData.CharacterList[i].HP.ToString();
+                        target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.CharacterList[i].ATK.ToString();
+                        target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.CharacterList[i].Type;
+                        data.saveData.my_team[4*tap+int.Parse(idx)-1] = data.saveData.CharacterList[i];
                         UI_LEVEL2_Controll(1);
                         break;
                     }
@@ -293,13 +293,13 @@ public class UI_Manager : MonoBehaviour
                 GameObject panel = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Upgrade_Tap").gameObject;
                 GameObject target = panel.transform.Find("Image").gameObject;
                 
-                for(int i = 0; i < data.saveData.my_characterList.Count; i++)
+                for(int i = 0; i < data.saveData.CharacterList.Count; i++)
                 {
-                    if(Unit.name == data.saveData.my_characterList[i].Name)
+                    if(Unit.name == data.saveData.CharacterList[i].Name)
                     {
-                        target.GetComponent<Image>().sprite = data.saveData.my_characterList[i].Img;
-                        leftPiecesNum = data.saveData.my_characterList[i].Same;
-                        charUpgrade = data.saveData.my_characterList[i].Upgrade; //유닛 강화 창에서 보여지는 캐릭터의 업그레이드 저장할 int
+                        target.GetComponent<Image>().sprite = data.saveData.CharacterList[i].Img;
+                        leftPiecesNum = data.saveData.CharacterList[i].Same;
+                        charUpgrade = data.saveData.CharacterList[i].Upgrade; //유닛 강화 창에서 보여지는 캐릭터의 업그레이드 저장할 int
                         SetStatForm();
                         usePiece.text = "사용할 기억의 조각 : " + basicSettingNum.ToString();
                         break;
@@ -311,13 +311,13 @@ public class UI_Manager : MonoBehaviour
         {
             UI("Team","Unit_Details");
             GameObject target = GameObject.Find("Unit_Details");
-            for(int i = 0; i < data.saveData.my_characterList.Count; i++)
+            for(int i = 0; i < data.saveData.CharacterList.Count; i++)
             {
-                if(Unit.name == data.saveData.my_characterList[i].Name)
+                if(Unit.name == data.saveData.CharacterList[i].Name)
                 {
                     Color col;
                     string txt;
-                    switch(data.saveData.my_characterList[i].Attribute)
+                    switch(data.saveData.CharacterList[i].Attribute)
                     {
                         case 0:
                             col = new Color(1,0,0);
@@ -346,14 +346,14 @@ public class UI_Manager : MonoBehaviour
                     }
                     target.transform.GetChild(0).GetComponent<Image>().color = col;
                     target.transform.GetChild(0).transform.GetChild(0).transform.GetChild(0).GetComponent<Text>().text = txt;
-                    target.transform.GetChild(0).transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_characterList[i].Name;
-                    target.transform.GetChild(1).GetComponent<Image>().sprite = data.saveData.my_characterList[i].Img;
-                    target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_characterList[i].HP.ToString();
-                    target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_characterList[i].ATK.ToString();
-                    float extra_hp = data.saveData.my_characterList[i].HP * 0.2f, extra_atk = data.saveData.my_characterList[i].ATK * 0.2f;
-                    target.transform.GetChild(4).GetComponent<Text>().text = ((int)(extra_hp*data.saveData.my_characterList[i].Appear)).ToString();
-                    target.transform.GetChild(5).GetComponent<Text>().text = ((int)(extra_atk*data.saveData.my_characterList[i].Appear)).ToString();
-                    target.transform.GetChild(6).GetComponent<Text>().text = data.saveData.my_characterList[i].Type;
+                    target.transform.GetChild(0).transform.GetChild(1).GetComponent<Text>().text = data.saveData.CharacterList[i].Name;
+                    target.transform.GetChild(1).GetComponent<Image>().sprite = data.saveData.CharacterList[i].Img;
+                    target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.CharacterList[i].HP.ToString();
+                    target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.CharacterList[i].ATK.ToString();
+                    float extra_hp = data.saveData.CharacterList[i].HP * 0.2f, extra_atk = data.saveData.CharacterList[i].ATK * 0.2f;
+                    target.transform.GetChild(4).GetComponent<Text>().text = ((int)(extra_hp*data.saveData.CharacterList[i].Appear)).ToString();
+                    target.transform.GetChild(5).GetComponent<Text>().text = ((int)(extra_atk*data.saveData.CharacterList[i].Appear)).ToString();
+                    target.transform.GetChild(6).GetComponent<Text>().text = data.saveData.CharacterList[i].Type;
                     break;
                 }
             }
@@ -588,16 +588,16 @@ public class UI_Manager : MonoBehaviour
             }
             int new_random = (int)Random.Range(0,cur_list.Count);//0번째 인덱스부터 현재 리스트의 길이사이의 난수 생성
             CharacterDataClass final = cur_list[new_random];//마지막으로 뽑힌 캐릭터
-            if(data.saveData.my_characterList.Contains(final))//만약 뽑힌녀석이 이미 뽑힌 놈이라면?
+            if(data.saveData.CharacterList.Contains(final))//만약 뽑힌녀석이 이미 뽑힌 놈이라면?
             {
-                for(int i = 0 ; i< data.saveData.my_characterList.Count; i++)//그녀석을 찾아서 Same변수를 1더해줌
+                for(int i = 0 ; i< data.saveData.CharacterList.Count; i++)//그녀석을 찾아서 Same변수를 1더해줌
                 {
-                    if(data.saveData.my_characterList[i] == final)
-                        data.saveData.my_characterList[i].Same++;
+                    if(data.saveData.CharacterList[i] == final)
+                        data.saveData.CharacterList[i].Same++;
                 }
             }
             else
-                data.saveData.my_characterList.Add(final);//아니면 내 캐릭터 리스트에 추가
+                data.saveData.CharacterList.Add(final);//아니면 내 캐릭터 리스트에 추가
 
             output_list.Add(final);//final들을 출력 리스트들에 저장함
         }
