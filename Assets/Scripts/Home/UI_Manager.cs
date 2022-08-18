@@ -673,6 +673,7 @@ public class UI_Manager : MonoBehaviour
                 temp.name = "뽑기";
             }
             data.Save();
+            Load();
         }
 
 
