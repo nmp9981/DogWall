@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 
 [System.Serializable]
-public class CharacterDataClass//캐릭터 DB
+public class Character//캐릭터 DB
 {
     public string img_path = "";//이미지 경로,캐릭터의 영문명으로 요청하기
     public Sprite Img = null;//이미지
@@ -19,7 +19,7 @@ public class CharacterDataClass//캐릭터 DB
     public int Star = 1;//별
     public int Same = 0; //뽑기에서 같은 캐릭터 뽑은 경우 +1
 
-    public CharacterDataClass(string path = "",Sprite img = null, string n = "무명", int h = 0,int e = 0,int A = 1, int a = 0, string t = "없음", int ap = 0, int Up = 0, int S = 1, int Pair = 0)
+    public Character(string path = "",Sprite img = null, string n = "무명", int h = 0,int e = 0,int A = 1, int a = 0, string t = "없음", int ap = 0, int Up = 0, int S = 1, int Pair = 0)
     {
         this.img_path = path;
         this.Img = img;
@@ -176,7 +176,7 @@ public class UI
 public class Dialog
 {
     public string character_name;//
-    public CharacterDataClass character;
+    public Character character;
     public int pos;//화자 위치 - 왼  = 0, 오 = 1, 나레이션 = 2;
     public string dialog;//대화 내용
     public Dialog(string name = "", int position = 2, string text = "")
@@ -207,25 +207,25 @@ public class Story
 [System.Serializable]
 public class SaveDataClass
 {
-    public List<CharacterDataClass> list;
-    public List<CharacterDataClass> CharacterList;//캐릭터 리스트
+    public List<Character> list;
+    public List<Character> my_characterlist;//캐릭터 리스트
     public List<PlayerDataClass> CharacterData;//캐릭터 리스트
     public List<SkillDataClass> SkillData;//스킬 리스트
     public List<MonsterDataClass> MonsterData;//몬스터 리스트
     public List<BossMonsterDataClass> BossData;//보스몬스터 리스트
     public List<MonsterSkillDataClass> MonsterSkillData;//몬스터 스킬 리스트
     //스테이지 진행정도
-    public List<CharacterDataClass> my_team;
+    public List<Character> my_team;
     public UI ui;
     public List<Story> Story;
     public SaveDataClass()
     {
         //리스트 불러오기
-        list = new List<CharacterDataClass>();
-        CharacterList= new List<CharacterDataClass>();
-        my_team = new List<CharacterDataClass>();
+        list = new List<Character>();
+        my_characterlist= new List<Character>();
+        my_team = new List<Character>();
         for(int i = 0; i < 12; i++)
-            my_team.Add(new CharacterDataClass());
+            my_team.Add(new Character());
         SkillData = new List<SkillDataClass>();
         MonsterData = new List<MonsterDataClass>();
         BossData = new List<BossMonsterDataClass>();
@@ -236,26 +236,26 @@ public class SaveDataClass
     public void SetImg()
     {
         
-        foreach(CharacterDataClass a in list)
+        foreach(Character a in list)
             if(a.img_path != "")
                 a.Img = Resources.Load<Sprite>(a.img_path);
-        foreach(CharacterDataClass a in CharacterList)
+        foreach(Character a in my_characterlist)
             if(a.img_path != "")
                 a.Img = Resources.Load<Sprite>(a.img_path);
-        foreach(CharacterDataClass a in my_team)
+        foreach(Character a in my_team)
             if(a.img_path != "")
                 a.Img = Resources.Load<Sprite>(a.img_path); 
     }
 
     public void Find_Teller()
     {
-        List<CharacterDataClass> temp = new List<CharacterDataClass>();
+        List<Character> temp = new List<Character>();
         for(int i = 0; i < Story.Count; i++)
         {
             for(int j = 0; j < Story[i].story.Count; j++)
             {
                 bool find = false;
-                foreach(CharacterDataClass a in temp)//temp에서 먼저 찾아보고
+                foreach(Character a in temp)//temp에서 먼저 찾아보고
                 {
                     if(a.Name == Story[i].story[j].character_name)
                     {
@@ -268,7 +268,7 @@ public class SaveDataClass
                     break;
                 else//아니면 list에서 찾아보기
                 {
-                    foreach(CharacterDataClass a in list)
+                    foreach(Character a in list)
                     {
                         if(a.Name == Story[i].story[j].character_name)
                         {

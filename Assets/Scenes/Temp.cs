@@ -51,4 +51,10 @@ public class Temp : MonoBehaviour
     {
         data.Save();
     }
+    public void Reset()
+    {
+        data.saveData.list.Clear();
+        data.saveData.my_characterlist.Clear();
+        Debug.Log("비우기");
+    }
 }

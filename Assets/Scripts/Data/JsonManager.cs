@@ -23,7 +23,7 @@ public class JsonManager
         //안드로이드의 경우에는 데이터조작을 막기위해 2진데이터로 변환을 해야한다
 
         string savePath = Application.dataPath;
-        string appender = "/userData/DogWallData.json";
+        string appender = "/userData/SaveData.json";
 #if UNITY_EDITOR_WIN
 
 #endif
@@ -54,7 +54,7 @@ public class JsonManager
         SaveDataClass gameData;
         string loadPath = Application.dataPath;
         string directory = "/userData";
-        string appender = "/DogWallData.json";
+        string appender = "/SaveData.json";
 #if UNITY_EDITOR_WIN
 
 #endif

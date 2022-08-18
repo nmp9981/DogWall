@@ -6,7 +6,7 @@ public class Data_Manager : MonoBehaviour
 {
     public int Character_Count = 0;
     public int Monster_Count = 0;
-    public List<CharacterDataClass> Characterlist = new List<CharacterDataClass>();
+    public List<Character> Characterlist = new List<Character>();
     public List<SkillDataClass> SkillList = new List<SkillDataClass>();
     public List<MonsterDataClass> MonsterList = new List<MonsterDataClass>();
     void Start()
@@ -17,7 +17,7 @@ public class Data_Manager : MonoBehaviour
     public void Add_Character(string path, Sprite img,string name,int hp,int energe,  int attribute, int attack,string type, int star, int appear)
     {
         Character_Count++;
-        Characterlist.Add(new CharacterDataClass(null,null,name, hp, energe, attribute,attack,type, star, appear));
+        Characterlist.Add(new Character(null,null,name, hp, energe, attribute,attack,type, star, appear));
     }
     public int Get_Character_Count()
     {
