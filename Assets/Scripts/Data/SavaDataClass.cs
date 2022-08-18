@@ -173,6 +173,38 @@ public class UI
 
 }
 [System.Serializable]
+public class Dialog
+{
+    public string character_name;//
+    public CharacterDataClass character;
+    public int pos;//화자 위치 - 왼  = 0, 오 = 1, 나레이션 = 2;
+    public string dialog;//대화 내용
+    public Dialog(string name = "", int position = 2, string text = "")
+    {
+        character_name = name;
+        character = null;
+        pos = position;
+        dialog = text;
+    }
+}
+[System.Serializable]
+public class Story
+{
+    public string world;
+    public List<Dialog> story;
+
+    public Story()
+    {
+        world = "";
+        story = new List<Dialog>();
+    }
+    public Story(string world, List<Dialog> story)
+    {
+        this.world = world;
+        this.story = story;
+    }
+}
+[System.Serializable]
 public class SaveDataClass
 {
     public List<CharacterDataClass> list;
@@ -185,6 +217,7 @@ public class SaveDataClass
     //스테이지 진행정도
     public List<CharacterDataClass> my_team;
     public UI ui;
+    public List<Story> Story;
     public SaveDataClass()
     {
         //리스트 불러오기
@@ -198,6 +231,7 @@ public class SaveDataClass
         BossData = new List<BossMonsterDataClass>();
         MonsterSkillData = new List<MonsterSkillDataClass>();
         ui =  new UI();
+        Story = new List<Story>();
     }
     public void SetImg()
     {
@@ -210,7 +244,42 @@ public class SaveDataClass
                 a.Img = Resources.Load<Sprite>(a.img_path);
         foreach(CharacterDataClass a in my_team)
             if(a.img_path != "")
-                a.Img = Resources.Load<Sprite>(a.img_path);
-        
+                a.Img = Resources.Load<Sprite>(a.img_path); 
+    }
+
+    public void Find_Teller()
+    {
+        List<CharacterDataClass> temp = new List<CharacterDataClass>();
+        for(int i = 0; i < Story.Count; i++)
+        {
+            for(int j = 0; j < Story[i].story.Count; j++)
+            {
+                bool find = false;
+                foreach(CharacterDataClass a in temp)//temp에서 먼저 찾아보고
+                {
+                    if(a.Name == Story[i].story[j].character_name)
+                    {
+                        Story[i].story[j].character = a;
+                        find = true;
+                        break;
+                    }
+                }
+                if(find)//있으면 탈출
+                    break;
+                else//아니면 list에서 찾아보기
+                {
+                    foreach(CharacterDataClass a in list)
+                    {
+                        if(a.Name == Story[i].story[j].character_name)
+                        {
+                            Story[i].story[j].character = a;
+                            temp.Add(a);
+                            break;
+                        }
+                    }
+                }
+            }
+            temp.Clear();//다음 다이얼로그로 넘어가기전에 클리어해주기
+        }
     }
 }
