@@ -28,7 +28,7 @@ public class MonsterMgr : MonoBehaviour
         characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
         turn = GameObject.FindWithTag("TurnMgr").GetComponent<Turn>();//Trun 스크립트에서 변수 가져오기
         skill = GameObject.FindWithTag("Skill").GetComponent<Skill>();//Skill 스크립트에서 변수 가져오기
-        dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
+        //dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
         
         MonsterSetting();//몬스터 리젠
         InitMonster(monstersIndex);//초기 몬스터 세팅
@@ -47,7 +47,7 @@ public class MonsterMgr : MonoBehaviour
         monsters.Clear();//초기화
         for (int i = 0; i < mobCount; i++)
         {
-            monsters.Add(Data.saveData.MonsterData[3*i]);//등장 몹은 서로 다름
+            monsters.Add(Data.saveData.MonsterData[0]);//등장 몹은 서로 다름
             skill.mobProvocation.Clear();//몬스터 도발 초기화
         }
     }

@@ -48,15 +48,16 @@ void Start()
         //HP회복
         HealCharacterHP(Data.saveData.SkillData[number].HealHP);
 
-        int playerAttribute = Data.saveData.CharacterData[number/5].Attribute;//플레이어 속성
+        int playerNumber = number / 5;//플레이어 인덱스
+        int playerAttribute = Data.saveData.CharacterData[playerNumber].Attribute;//플레이어 속성
         int monsterAttribute = Data.saveData.MonsterData[0].Attribute;//몬스터 속성
         int attributeDamage = characterMgr.CheckAttribute(playerAttribute, monsterAttribute);//속성 데미지
 
-        playerAttack = Data.saveData.CharacterData[number/5].Attack;//캐릭터 초기 공격력
+        playerAttack = Data.saveData.CharacterData[playerNumber].Attack;//캐릭터 초기 공격력
         int skillPercentDamage = Data.saveData.SkillData[number].Attack;//스킬 퍼센테이지
 
         //턴 기반 버프
-        TurnBuff(SkillCharacterTurnMatrix[number, number / 5], number,mobIndex);//남은 턴 수를 넣는다
+        TurnBuff(SkillCharacterTurnMatrix[number, playerNumber], number,mobIndex);//남은 턴 수를 넣는다
 
         return playerAttack * skillPercentDamage * attributeDamage / 10000;//최종 데미지
     }
