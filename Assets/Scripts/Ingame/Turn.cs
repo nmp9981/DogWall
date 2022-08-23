@@ -6,17 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class Turn : MonoBehaviour
 {
-    Data_Manager dataManager;
-    private DataManager Data;
-    CharacterMgr characterMgr;
-    MonsterMgr monsterMgr;
-    TeamSelect teamSelect;
-    Skill skill;
-    public Text characterNameText;//캐릭터 이름
-    public Text characterAttackText;//캐릭터 공격력
-    public Text turnText; public Text stageText; public Text monsterText;
+    #region 변수
+    Data_Manager dataManager; private DataManager Data; CharacterMgr characterMgr; MonsterMgr monsterMgr; TeamSelect teamSelect; Skill skill;
+    public Text characterNameText, characterAttackText, turnText, stageText, monsterText;
     public int teamNumber;//팀원의 번호
     public int totalDamage;//스킬데미지 총합
+    public GameObject[] skill33 = { };
     public GameObject skill_1E; public GameObject skill_2E; public GameObject skill_3E; public GameObject skill_4E;
     public GameObject skill_1T; public GameObject skill_2T; public GameObject skill_3T; public GameObject skill_4T;
     public GameObject skipE; public GameObject player_1E; public GameObject player_2E; public GameObject player_3E; public GameObject player_4E;
@@ -35,16 +30,12 @@ public class Turn : MonoBehaviour
     public List<int> playerSkillSelect = new List<int>();
     public bool skillAvailable = false; // 스킬 사용중인지 확인
     public bool firstAttack = true; // 임의로 정한 선제공격 확인용 변수
-
+    #endregion
     Coroutine longClickCoroutine;
 
     void Start()
     {
-        playerSkillSelect.Add(0);// 스킬 선택 초기화
-        playerSkillSelect.Add(0);
-        playerSkillSelect.Add(0);
-        playerSkillSelect.Add(0);
-        playerSkillSelect.Add(0);
+        for (int i = 0; i < 5; i++) playerSkillSelect.Add(0);
 
         Data = GameObject.Find("Data_Managers").gameObject.GetComponent<DataManager>();//데이터 가져오기
         characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
@@ -68,28 +59,10 @@ public class Turn : MonoBehaviour
 
     // 플레이어 초상화 선택시 턴 전환
 
-    public void playerSelect1()
+    public void playerSelect(int number)
     {
-        turnNumber = 1;
-        teamNumber = teamSelect.selectedTeamNumber[0];
-        UISetting();
-    }
-    public void playerSelect2()
-    {
-        turnNumber = 2;
-        teamNumber = teamSelect.selectedTeamNumber[1];
-        UISetting();
-    }
-    public void playerSelect3()
-    {
-        turnNumber = 3;
-        teamNumber = teamSelect.selectedTeamNumber[2];
-        UISetting();
-    }
-    public void playerSelect4()
-    {
-        turnNumber = 4;
-        teamNumber = teamSelect.selectedTeamNumber[3];
+        turnNumber = number;
+        teamNumber = teamSelect.selectedTeamNumber[number - 1];
         UISetting();
     }
 
@@ -368,28 +341,9 @@ public class Turn : MonoBehaviour
 
 
     // 스킬 & 스킵 버튼 관련 턴
-
-    public void buttonDown1()
+    public void buttonDown(int number)
     {
-        skillNumber = 1;
-        longClickCoroutine = StartCoroutine(longClick());
-        skillAvailable = true;
-    }
-    public void buttonDown2()
-    {
-        skillNumber = 2;
-        longClickCoroutine = StartCoroutine(longClick());
-        skillAvailable = true;
-    }
-    public void buttonDown3()
-    {
-        skillNumber = 3;
-        longClickCoroutine = StartCoroutine(longClick());
-        skillAvailable = true;
-    }
-    public void buttonDown4()
-    {
-        skillNumber = 4;
+        skillNumber = number;
         longClickCoroutine = StartCoroutine(longClick());
         skillAvailable = true;
     }
@@ -437,6 +391,7 @@ public class Turn : MonoBehaviour
             default:
                 break;
         }
+
     }
 
     //------------------------------------------------------------------------------------------------
@@ -450,5 +405,4 @@ public class Turn : MonoBehaviour
     {
         story.SetActive(false);
     }
-
 }
