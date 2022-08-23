@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-
+using UnityEditor;
 [System.Serializable]
 public class Character//캐릭터 DB
 {
-    public string img_path = "";//이미지 경로,캐릭터의 영문명으로 요청하기
-    public Sprite Img = null;//이미지
+    public string img_path = "",img_for_dialog_path = "";//이미지 경로,캐릭터의 영문명으로 요청하기
+    public Sprite Img = null,Img_for_dialog = null;//이미지
     public string Name = "";//캐릭터명
     public int HP = 0;//HP
     public int Energe = 0;//에너지
@@ -18,8 +18,8 @@ public class Character//캐릭터 DB
     public int Upgrade = 0;//강화 횟수
     public int Star = 1;//별
     public int Same = 0; //뽑기에서 같은 캐릭터 뽑은 경우 +1
-
-    public Character(string path = "",Sprite img = null, string n = "무명", int h = 0,int e = 0,int A = 1, int a = 0, string t = "없음", int ap = 0, int Up = 0, int S = 1, int Pair = 0)
+    public int idx = -1;//인덱스 리스트에서 빠르게 찾기 위해 사용하는 정보, 지정 안되었을 경우 -1, 리스트에서 찾으면 오류나올거임!
+    public Character(string path = "",Sprite img = null, string n = "무명", int h = 0,int e = 0,int A = 1, int a = 0, string t = "없음", int ap = 0, int Up = 0, int S = 1, int Pair = 0,int idx = -1)
     {
         this.img_path = path;
         this.Img = img;
@@ -33,6 +33,7 @@ public class Character//캐릭터 DB
         this.Upgrade = Up;
         this.Star = S;
         this.Same = Pair; 
+        this.idx = idx;
     }
 }
 [System.Serializable]
@@ -234,17 +235,51 @@ public class SaveDataClass
         Story = new List<Story>();
     }
     public void SetImg()
-    {
-        
+    {      
         foreach(Character a in list)
             if(a.img_path != "")
+            {
                 a.Img = Resources.Load<Sprite>(a.img_path);
+            }
         foreach(Character a in my_characterlist)
             if(a.img_path != "")
+            {
                 a.Img = Resources.Load<Sprite>(a.img_path);
+            }
         foreach(Character a in my_team)
             if(a.img_path != "")
-                a.Img = Resources.Load<Sprite>(a.img_path); 
+            {
+                a.Img = Resources.Load<Sprite>(a.img_path);
+            }
+    }
+
+    public void SetImgforOnce()
+    {     
+        Sprite[] imgs;
+        imgs = Resources.LoadAll<Sprite>("Images");
+        List<string> names = new List<string>();
+        foreach(Sprite i in imgs)
+        {
+            string path = AssetDatabase.GetAssetPath(i);
+            path = path.Replace("Assets/Resources/",string.Empty);
+            path = path.Replace(".png",string.Empty);
+            names.Add(path);
+        }
+        foreach(Character a in list)
+            if(a.img_path != "")
+            {
+                a.Img = Resources.Load<Sprite>(a.img_path);
+            }
+        foreach(Character a in my_characterlist)
+            if(a.img_path != "")
+            {
+                a.Img = Resources.Load<Sprite>(a.img_path);
+            }
+        foreach(Character a in my_team)
+            if(a.img_path != "")
+            {
+                a.Img = Resources.Load<Sprite>(a.img_path);
+            }
     }
 
     public void Find_Teller()
