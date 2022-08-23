@@ -2,8 +2,12 @@
     "list": [
         {
             "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15628
+                "instanceID": 19832
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "질퍽이",
             "HP": 10,
@@ -14,12 +18,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15662
+                "instanceID": 16876
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "꼬북이",
             "HP": 10,
@@ -30,12 +39,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 2
+            "Same": 2,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15666
+                "instanceID": 19846
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "잉어킹",
             "HP": 10,
@@ -46,12 +60,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15634
+                "instanceID": 16868
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "고라파덕",
             "HP": 5,
@@ -62,12 +81,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15658
+                "instanceID": 16872
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "뭐더라",
             "HP": 10,
@@ -78,12 +102,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15628
+                "instanceID": 19832
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "질퍽이",
             "HP": 10,
@@ -94,12 +123,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15662
+                "instanceID": 16876
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "꼬북이",
             "HP": 10,
@@ -110,12 +144,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15666
+                "instanceID": 19846
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "잉어킹",
             "HP": 10,
@@ -126,12 +165,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 2
+            "Same": 2,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15634
+                "instanceID": 16868
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "고라파덕",
             "HP": 5,
@@ -142,12 +186,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15658
+                "instanceID": 16872
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "뭐더라",
             "HP": 10,
@@ -158,12 +207,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15628
+                "instanceID": 19832
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "질퍽이",
             "HP": 10,
@@ -174,12 +228,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15662
+                "instanceID": 16876
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "꼬북이",
             "HP": 10,
@@ -190,12 +249,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 2
+            "Same": 2,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15666
+                "instanceID": 19846
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "잉어킹",
             "HP": 10,
@@ -206,12 +270,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15634
+                "instanceID": 16868
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "고라파덕",
             "HP": 5,
@@ -222,12 +291,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15658
+                "instanceID": 16872
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "뭐더라",
             "HP": 10,
@@ -238,12 +312,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15628
+                "instanceID": 19832
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "질퍽이",
             "HP": 10,
@@ -254,12 +333,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15662
+                "instanceID": 16876
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "꼬북이",
             "HP": 10,
@@ -270,12 +354,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15666
+                "instanceID": 19846
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "잉어킹",
             "HP": 10,
@@ -286,12 +375,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 1
+            "Same": 1,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15634
+                "instanceID": 16868
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "고라파덕",
             "HP": 5,
@@ -302,12 +396,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15658
+                "instanceID": 16872
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "뭐더라",
             "HP": 10,
@@ -318,14 +417,19 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         }
     ],
     "my_characterlist": [
         {
             "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15658
+                "instanceID": 16872
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "뭐더라",
             "HP": 10,
@@ -336,12 +440,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15666
+                "instanceID": 19846
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "잉어킹",
             "HP": 10,
@@ -352,12 +461,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15628
+                "instanceID": 19832
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "질퍽이",
             "HP": 10,
@@ -368,12 +482,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15662
+                "instanceID": 16876
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "꼬북이",
             "HP": 10,
@@ -384,12 +503,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15662
+                "instanceID": 16876
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "꼬북이",
             "HP": 10,
@@ -400,12 +524,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 2
+            "Same": 2,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15666
+                "instanceID": 19846
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "잉어킹",
             "HP": 10,
@@ -416,12 +545,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 2
+            "Same": 2,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15666
+                "instanceID": 19846
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "잉어킹",
             "HP": 10,
@@ -432,12 +566,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 1
+            "Same": 1,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15634
+                "instanceID": 16868
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "고라파덕",
             "HP": 5,
@@ -448,12 +587,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15658
+                "instanceID": 16872
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "뭐더라",
             "HP": 10,
@@ -464,12 +608,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15634
+                "instanceID": 16868
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "고라파덕",
             "HP": 5,
@@ -480,12 +629,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15634
+                "instanceID": 16868
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "고라파덕",
             "HP": 5,
@@ -496,12 +650,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15628
+                "instanceID": 19832
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "질퍽이",
             "HP": 10,
@@ -512,12 +671,17 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": 0
         },
         {
             "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15662
+                "instanceID": 16876
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
             },
             "Name": "꼬북이",
             "HP": 10,
@@ -528,7 +692,8 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 2
+            "Same": 2,
+            "idx": 0
         }
     ],
     "CharacterData": [],
@@ -538,7 +703,11 @@
     "my_team": [
         {
             "img_path": "",
+            "img_for_dialog_path": "",
             "Img": {
+                "instanceID": 0
+            },
+            "Img_for_dialog": {
                 "instanceID": 0
             },
             "Name": "무명",
@@ -550,11 +719,16 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": -1
         },
         {
             "img_path": "",
+            "img_for_dialog_path": "",
             "Img": {
+                "instanceID": 0
+            },
+            "Img_for_dialog": {
                 "instanceID": 0
             },
             "Name": "무명",
@@ -566,11 +740,16 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": -1
         },
         {
             "img_path": "",
+            "img_for_dialog_path": "",
             "Img": {
+                "instanceID": 0
+            },
+            "Img_for_dialog": {
                 "instanceID": 0
             },
             "Name": "무명",
@@ -582,11 +761,16 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": -1
         },
         {
             "img_path": "",
+            "img_for_dialog_path": "",
             "Img": {
+                "instanceID": 0
+            },
+            "Img_for_dialog": {
                 "instanceID": 0
             },
             "Name": "무명",
@@ -598,11 +782,16 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": -1
         },
         {
             "img_path": "",
+            "img_for_dialog_path": "",
             "Img": {
+                "instanceID": 0
+            },
+            "Img_for_dialog": {
                 "instanceID": 0
             },
             "Name": "무명",
@@ -614,11 +803,16 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": -1
         },
         {
             "img_path": "",
+            "img_for_dialog_path": "",
             "Img": {
+                "instanceID": 0
+            },
+            "Img_for_dialog": {
                 "instanceID": 0
             },
             "Name": "무명",
@@ -630,11 +824,16 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": -1
         },
         {
             "img_path": "",
+            "img_for_dialog_path": "",
             "Img": {
+                "instanceID": 0
+            },
+            "Img_for_dialog": {
                 "instanceID": 0
             },
             "Name": "무명",
@@ -646,11 +845,16 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": -1
         },
         {
             "img_path": "",
+            "img_for_dialog_path": "",
             "Img": {
+                "instanceID": 0
+            },
+            "Img_for_dialog": {
                 "instanceID": 0
             },
             "Name": "무명",
@@ -662,11 +866,16 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": -1
         },
         {
             "img_path": "",
+            "img_for_dialog_path": "",
             "Img": {
+                "instanceID": 0
+            },
+            "Img_for_dialog": {
                 "instanceID": 0
             },
             "Name": "무명",
@@ -678,11 +887,16 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": -1
         },
         {
             "img_path": "",
+            "img_for_dialog_path": "",
             "Img": {
+                "instanceID": 0
+            },
+            "Img_for_dialog": {
                 "instanceID": 0
             },
             "Name": "무명",
@@ -694,11 +908,16 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": -1
         },
         {
             "img_path": "",
+            "img_for_dialog_path": "",
             "Img": {
+                "instanceID": 0
+            },
+            "Img_for_dialog": {
                 "instanceID": 0
             },
             "Name": "무명",
@@ -710,11 +929,16 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": -1
         },
         {
             "img_path": "",
+            "img_for_dialog_path": "",
             "Img": {
+                "instanceID": 0
+            },
+            "Img_for_dialog": {
                 "instanceID": 0
             },
             "Name": "무명",
@@ -726,7 +950,8 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 0
+            "Same": 0,
+            "idx": -1
         }
     ],
     "ui": {
