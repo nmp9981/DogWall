@@ -12,64 +12,31 @@ public class Turn : MonoBehaviour
     MonsterMgr monsterMgr;
     TeamSelect teamSelect;
     Skill skill;
-
     public Text characterNameText;//캐릭터 이름
     public Text characterAttackText;//캐릭터 공격력
-
-    public Text turnText;
-    public Text stageText;
-    public Text monsterText;
-
+    public Text turnText; public Text stageText; public Text monsterText;
     public int teamNumber;//팀원의 번호
     public int totalDamage;//스킬데미지 총합
-
-    public GameObject skill_1E;
-    public GameObject skill_2E;
-    public GameObject skill_3E;
-    public GameObject skill_4E;
-    public GameObject skill_1T;
-    public GameObject skill_2T;
-    public GameObject skill_3T;
-    public GameObject skill_4T;
-    public GameObject skipE;
-    public GameObject player_1E;
-    public GameObject player_2E;
-    public GameObject player_3E;
-    public GameObject player_4E;
+    public GameObject skill_1E; public GameObject skill_2E; public GameObject skill_3E; public GameObject skill_4E;
+    public GameObject skill_1T; public GameObject skill_2T; public GameObject skill_3T; public GameObject skill_4T;
+    public GameObject skipE; public GameObject player_1E; public GameObject player_2E; public GameObject player_3E; public GameObject player_4E;
     public GameObject turnEndButton;
-
-    public GameObject monster1;
-    public GameObject monster2;
-    public GameObject monster3;
-    public GameObject monster4;
-    public RectTransform monster1Rect;
-    public RectTransform monster2Rect;
-    public RectTransform monster3Rect;
-    public RectTransform monster4Rect;
+    public GameObject monster1; public GameObject monster2; public GameObject monster3; public GameObject monster4;
+    public RectTransform monster1Rect; public RectTransform monster2Rect; public RectTransform monster3Rect; public RectTransform monster4Rect;
     //몬스터 HP바
-    public RectTransform monster1HPBar;
-    public RectTransform monster2HPBar;
-    public RectTransform monster3HPBar;
-    public RectTransform monster4HPBar;
-
+    public RectTransform monster1HPBar; public RectTransform monster2HPBar; public RectTransform monster3HPBar; public RectTransform monster4HPBar;
     public GameObject story;
-
     public int turnNumber = 1; // 턴 확인용 변수
     public int totalTurnNumber = 1;
     public int skillNumber = 1;  // 스킬 확인용 변수
     public int stageNumber = 1; // 스테이지
     public int skillCount = 0;//스킬을 사용한 캐릭터의 수
     public int mobHP;//몬스터 HP
-
     public List<int> playerSkillSelect = new List<int>();
-
     public bool skillAvailable = false; // 스킬 사용중인지 확인
-
     public bool firstAttack = true; // 임의로 정한 선제공격 확인용 변수
 
-    public bool isClick;
-
-    public bool longClickAvailable;
+    Coroutine longClickCoroutine;
 
     void Start()
     {
@@ -207,8 +174,8 @@ public class Turn : MonoBehaviour
     void UISetting() // 턴 관리 1, 2, 3, 4 - 플레이어 1, 2, 3 ,4    5 -  몬스터 턴
     {
 
-        characterNameText.text = Data.saveData.CharacterData[teamNumber / 5].Name; // 캐릭터 공격력 & 이름 UI 표시
-        characterAttackText.text = "Attack : " + Data.saveData.CharacterData[teamNumber/5].Attack;
+        //characterNameText.text = Data.saveData.CharacterData[teamNumber / 5].Name; // 캐릭터 공격력 & 이름 UI 표시
+        //characterAttackText.text = "Attack : " + Data.saveData.CharacterData[teamNumber/5].Attack;
 
 
         skillNumber = playerSkillSelect[turnNumber - 1]; // 저장된 스킬 넘버를 턴에 맞춰서 가져옴
@@ -405,34 +372,26 @@ public class Turn : MonoBehaviour
     public void buttonDown1()
     {
         skillNumber = 1;
+        longClickCoroutine = StartCoroutine(longClick());
         skillAvailable = true;
-        longClickAvailable = true;
-        isClick = true;
-        Invoke("longClick", 1f);
     }
     public void buttonDown2()
     {
         skillNumber = 2;
+        longClickCoroutine = StartCoroutine(longClick());
         skillAvailable = true;
-        longClickAvailable = true;
-        isClick = true;
-        Invoke("longClick", 1f);
     }
     public void buttonDown3()
     {
         skillNumber = 3;
+        longClickCoroutine = StartCoroutine(longClick());
         skillAvailable = true;
-        longClickAvailable = true;
-        isClick = true;
-        Invoke("longClick", 1f);
     }
     public void buttonDown4()
     {
         skillNumber = 4;
+        longClickCoroutine = StartCoroutine(longClick());
         skillAvailable = true;
-        longClickAvailable = true;
-        isClick = true;
-        Invoke("longClick", 1f);
     }
 
     public void turnSkip()
@@ -444,9 +403,8 @@ public class Turn : MonoBehaviour
 
     public void buttonUp()
     {
-        longClickAvailable = false;
-        playerSkillSelect[turnNumber - 1] = skillNumber;;
-        isClick = false;
+        StopCoroutine(longClickCoroutine);
+        playerSkillSelect[turnNumber - 1] = skillNumber;
         skill_1T.SetActive(false);
         skill_2T.SetActive(false);
         skill_3T.SetActive(false);
@@ -458,31 +416,26 @@ public class Turn : MonoBehaviour
         }
     }
 
-    public void longClick()
+    IEnumerator longClick()
     {
-        if (longClickAvailable)
+        yield return new WaitForSeconds(1f);
+        skillAvailable = false;
+        switch (skillNumber)
         {
-            skillAvailable = false;
-            if (isClick)
-            {
-                switch (skillNumber)
-                {
-                    case 1:
-                        skill_1T.SetActive(true);
-                        break;
-                    case 2:
-                        skill_2T.SetActive(true);
-                        break;
-                    case 3:
-                        skill_3T.SetActive(true);
-                        break;
-                    case 4:
-                        skill_4T.SetActive(true);
-                        break;
-                    default:
-                        break;
-                }
-            }
+            case 1:
+                skill_1T.SetActive(true);
+                break;
+            case 2:
+                skill_2T.SetActive(true);
+                break;
+            case 3:
+                skill_3T.SetActive(true);
+                break;
+            case 4:
+                skill_4T.SetActive(true);
+                break;
+            default:
+                break;
         }
     }
 
