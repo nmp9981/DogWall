@@ -206,7 +206,7 @@ public class UI_Manager : MonoBehaviour
         for(i = 0; i < 4; i++)//내 팀 리스트 생성
         { 
             GameObject target = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Teams").transform.Find("Character" + (i+1).ToString()).gameObject;
-
+            
             target.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_team[4*tap + i].Img;
             target.transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].HP.ToString();
             target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].ATK.ToString();
@@ -321,23 +321,23 @@ public class UI_Manager : MonoBehaviour
                     {
                         case 0:
                             col = new Color(1,0,0);
-                            txt = "불";
+                            txt = "열정";
                             break;
                         case 1:
                             col = new Color(0,0,1);
-                            txt = "물";
+                            txt = "냉정";
                             break;
                         case 2:
                             col = new Color(0,1,0);
-                            txt = "독";
+                            txt = "조화";
                             break;
                         case 3:
                             col = new Color(1,1,0);
-                            txt = "기타";
+                            txt = "외계";
                             break;
                         case 4:
                             col = new Color(0.5f,0.5f,0.5f);
-                            txt = "기타";
+                            txt = "초월";
                             break;
                         default :
                             col = new Color(1,1,1); 
@@ -514,7 +514,7 @@ public class UI_Manager : MonoBehaviour
             gachaResult.SetActive(true);
             currency -= 10;
             //data.saveData.ui.money[0] = currency;
-            Pop_Up(1,0);
+            Pop_Up(1,currentDotPos);
             data.Save();
         }
         else
@@ -530,7 +530,7 @@ public class UI_Manager : MonoBehaviour
             gachaResult.SetActive(true);
             currency -= 100;
             //data.saveData.ui.money[0] = currency;
-            Pop_Up(10,0);
+            Pop_Up(10,currentDotPos);
             data.Save();
         }
         else
