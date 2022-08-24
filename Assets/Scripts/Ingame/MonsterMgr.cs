@@ -14,8 +14,8 @@ public class MonsterMgr : MonoBehaviour
     public Text stageText;//스테이지 번호
     public List<MonsterDataClass> monsters = new List<MonsterDataClass>();//출현 몬스터
 
-    public int monsterFullHP;//몬스터 전체 체력
-    public int currentMonsterHP;//몬스터 현재 체력
+    public int[] monsterFullHP = new int[4];//몬스터 전체 체력
+    public int[] currentMonsterHP = new int[4];//몬스터 현재 체력
     public int monsterAttackDamage;//몬스터 공격 데미지
     public int monsterAttribute;//몬스터 속성
 
@@ -53,20 +53,23 @@ public class MonsterMgr : MonoBehaviour
     }
     public void InitMonster(int index)
     {
-        monsterFullHP = monsters[index].HP;//몬스터 체력 초기화
-        currentMonsterHP = monsterFullHP;//처음엔 풀피
+        for(int i = 0; i < monsters.Count; i++)
+        {
+            monsterFullHP[i] = monsters[index].HP;//몬스터 체력 초기화
+            currentMonsterHP[i] = monsterFullHP[i];//처음엔 풀피
+        }
         monsterAttackDamage = monsters[index].Attack;//몬스터 공격력
         monsterAttribute = monsters[index].Attribute;//몬스터 속성
     }
     //출혈 데미지 계산
-    public void MonsterBloodDamage(int hitDamage,int HP)
+    public void MonsterBloodDamage(int hitDamage,int HP,int index)
     {
-        currentMonsterHP = Mathf.Max(HP - hitDamage, 0);
+        currentMonsterHP[index] = Mathf.Max(HP - hitDamage, 0);
     }
     //몬스터가 죽었는가?
-    public void MonsterDie()
+    public void MonsterDie(int index)
     {
-        if (currentMonsterHP <= 0)
+        if (currentMonsterHP[index] <= 0)
         {
             monsters.RemoveAt(0);//원소 삭제
             if (monsters.Count>0)//남은 몬스터가 더 있는가?

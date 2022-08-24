@@ -1773,6 +1773,7 @@ GameObject:
   - component: {fileID: 367619583}
   - component: {fileID: 367619586}
   - component: {fileID: 367619585}
+  - component: {fileID: 367619584}
   m_Layer: 5
   m_Name: HPBar
   m_TagString: Untagged
@@ -1799,6 +1800,20 @@ RectTransform:
   m_AnchoredPosition: {x: 70, y: 200}
   m_SizeDelta: {x: 800, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &367619584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367619582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65cf80d164f377040b6a05dc81a3a827, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mobHPRate: 0
+  monsterHPIndex: 3
 --- !u!114 &367619585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1911,6 +1926,7 @@ MonoBehaviour:
   monsterText: {fileID: 545105413}
   teamNumber: 0
   totalDamage: 0
+  skill33: []
   skill_1E: {fileID: 916713817}
   skill_2E: {fileID: 906130361}
   skill_3E: {fileID: 228123106}
@@ -2105,6 +2121,7 @@ GameObject:
   - component: {fileID: 475704077}
   - component: {fileID: 475704080}
   - component: {fileID: 475704079}
+  - component: {fileID: 475704078}
   m_Layer: 5
   m_Name: HPBar
   m_TagString: Untagged
@@ -2131,6 +2148,20 @@ RectTransform:
   m_AnchoredPosition: {x: 70, y: 200}
   m_SizeDelta: {x: 800, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &475704078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475704076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65cf80d164f377040b6a05dc81a3a827, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mobHPRate: 0
+  monsterHPIndex: 1
 --- !u!114 &475704079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2284,7 +2315,9 @@ MonoBehaviour:
     MonsterSkillData: []
     my_team:
     - img_path: 
+      img_for_dialog_path: 
       Img: {fileID: 0}
+      Img_for_dialog: {fileID: 0}
       Name: "\uBB34\uBA85"
       HP: 0
       Energe: 0
@@ -2295,8 +2328,11 @@ MonoBehaviour:
       Upgrade: 0
       Star: 1
       Same: 0
+      idx: -1
     - img_path: 
+      img_for_dialog_path: 
       Img: {fileID: 0}
+      Img_for_dialog: {fileID: 0}
       Name: "\uBB34\uBA85"
       HP: 0
       Energe: 0
@@ -2307,8 +2343,11 @@ MonoBehaviour:
       Upgrade: 0
       Star: 1
       Same: 0
+      idx: -1
     - img_path: 
+      img_for_dialog_path: 
       Img: {fileID: 0}
+      Img_for_dialog: {fileID: 0}
       Name: "\uBB34\uBA85"
       HP: 0
       Energe: 0
@@ -2319,8 +2358,11 @@ MonoBehaviour:
       Upgrade: 0
       Star: 1
       Same: 0
+      idx: -1
     - img_path: 
+      img_for_dialog_path: 
       Img: {fileID: 0}
+      Img_for_dialog: {fileID: 0}
       Name: "\uBB34\uBA85"
       HP: 0
       Energe: 0
@@ -2331,8 +2373,11 @@ MonoBehaviour:
       Upgrade: 0
       Star: 1
       Same: 0
+      idx: -1
     - img_path: 
+      img_for_dialog_path: 
       Img: {fileID: 0}
+      Img_for_dialog: {fileID: 0}
       Name: "\uBB34\uBA85"
       HP: 0
       Energe: 0
@@ -2343,8 +2388,11 @@ MonoBehaviour:
       Upgrade: 0
       Star: 1
       Same: 0
+      idx: -1
     - img_path: 
+      img_for_dialog_path: 
       Img: {fileID: 0}
+      Img_for_dialog: {fileID: 0}
       Name: "\uBB34\uBA85"
       HP: 0
       Energe: 0
@@ -2355,8 +2403,11 @@ MonoBehaviour:
       Upgrade: 0
       Star: 1
       Same: 0
+      idx: -1
     - img_path: 
+      img_for_dialog_path: 
       Img: {fileID: 0}
+      Img_for_dialog: {fileID: 0}
       Name: "\uBB34\uBA85"
       HP: 0
       Energe: 0
@@ -2367,8 +2418,11 @@ MonoBehaviour:
       Upgrade: 0
       Star: 1
       Same: 0
+      idx: -1
     - img_path: 
+      img_for_dialog_path: 
       Img: {fileID: 0}
+      Img_for_dialog: {fileID: 0}
       Name: "\uBB34\uBA85"
       HP: 0
       Energe: 0
@@ -2379,8 +2433,11 @@ MonoBehaviour:
       Upgrade: 0
       Star: 1
       Same: 0
+      idx: -1
     - img_path: 
+      img_for_dialog_path: 
       Img: {fileID: 0}
+      Img_for_dialog: {fileID: 0}
       Name: "\uBB34\uBA85"
       HP: 0
       Energe: 0
@@ -2391,8 +2448,11 @@ MonoBehaviour:
       Upgrade: 0
       Star: 1
       Same: 0
+      idx: -1
     - img_path: 
+      img_for_dialog_path: 
       Img: {fileID: 0}
+      Img_for_dialog: {fileID: 0}
       Name: "\uBB34\uBA85"
       HP: 0
       Energe: 0
@@ -2403,8 +2463,11 @@ MonoBehaviour:
       Upgrade: 0
       Star: 1
       Same: 0
+      idx: -1
     - img_path: 
+      img_for_dialog_path: 
       Img: {fileID: 0}
+      Img_for_dialog: {fileID: 0}
       Name: "\uBB34\uBA85"
       HP: 0
       Energe: 0
@@ -2415,8 +2478,11 @@ MonoBehaviour:
       Upgrade: 0
       Star: 1
       Same: 0
+      idx: -1
     - img_path: 
+      img_for_dialog_path: 
       Img: {fileID: 0}
+      Img_for_dialog: {fileID: 0}
       Name: "\uBB34\uBA85"
       HP: 0
       Energe: 0
@@ -2427,6 +2493,7 @@ MonoBehaviour:
       Upgrade: 0
       Star: 1
       Same: 0
+      idx: -1
     ui:
       money: 
       home_img_path: 
@@ -2704,6 +2771,7 @@ GameObject:
   - component: {fileID: 607651954}
   - component: {fileID: 607651957}
   - component: {fileID: 607651956}
+  - component: {fileID: 607651955}
   m_Layer: 5
   m_Name: HPBar
   m_TagString: Untagged
@@ -2730,6 +2798,20 @@ RectTransform:
   m_AnchoredPosition: {x: 70, y: 200}
   m_SizeDelta: {x: 800, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &607651955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607651953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65cf80d164f377040b6a05dc81a3a827, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mobHPRate: 0
+  monsterHPIndex: 2
 --- !u!114 &607651956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6091,6 +6173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mobHPRate: 0
+  monsterHPIndex: 0
 --- !u!114 &1559244110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6115,7 +6198,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0.487
+  m_FillAmount: 0.454
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -7416,8 +7499,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stageText: {fileID: 1257663730}
   monsters: []
-  monsterFullHP: 0
-  currentMonsterHP: 0
+  monsterFullHP: 
+  currentMonsterHP: 
   monsterAttackDamage: 0
   monsterAttribute: 0
   monstersIndex: 0

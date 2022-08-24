@@ -88,7 +88,7 @@ void Start()
         //피격데미지
         monsterMgr.monsterAttackDamage = monsterMgr.monsterAttackDamage * Data.saveData.SkillData[number].DecreaseDamage / 100;
         //출혈(도트 데미지)
-        monsterMgr.currentMonsterHP = Mathf.Min(0, monsterMgr.currentMonsterHP - Data.saveData.SkillData[number].blood);
+        monsterMgr.currentMonsterHP[mobIndex] = Mathf.Min(0, monsterMgr.currentMonsterHP[mobIndex] - Data.saveData.SkillData[number].blood);
         //도발
         if(Data.saveData.SkillData[number].Provocation == true)
         {

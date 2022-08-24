@@ -73,7 +73,7 @@ public class Turn : MonoBehaviour
 
     public void turnEnd()
     {
-        mobHP = monsterMgr.currentMonsterHP;//임의의 몬스터 HP 설정
+        mobHP = monsterMgr.currentMonsterHP[0];//임의의 몬스터 HP 설정
         //스킬계산
         totalDamage = 0;//초기화
         //4개의 스킬
@@ -92,7 +92,7 @@ public class Turn : MonoBehaviour
             skill.TurnCountText(skillNumber,i);//남은 턴 수 나타내기
             totalDamage += skill.skillAttackDamage(skillNumber,i);//데미지 누적
         }
-        monsterMgr.MonsterBloodDamage(totalDamage,mobHP);//몬스터 데미지
+        monsterMgr.MonsterBloodDamage(totalDamage,mobHP,0);//몬스터 데미지
         totalTurnNumber += 1;
         turnText.text = totalTurnNumber.ToString();
 
@@ -112,7 +112,7 @@ public class Turn : MonoBehaviour
         skipE.SetActive(false);
 
         //몬스터 사망여부 확인
-        monsterMgr.MonsterDie();
+        monsterMgr.MonsterDie(0);
 
         if (monsterMgr.monsters.Count == 0) // 몬스터가 다 죽었다면 스테이지 증가
         {
