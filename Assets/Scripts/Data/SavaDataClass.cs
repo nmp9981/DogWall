@@ -178,13 +178,11 @@ public class Dialog
 {
     public string character_name;//
     public Character character;
-    public int pos;//화자 위치 - 왼  = 0, 오 = 1, 나레이션 = 2;
     public string dialog;//대화 내용
-    public Dialog(string name = "", int position = 2, string text = "")
+    public Dialog(string name = "", string text = "")
     {
         character_name = name;
         character = null;
-        pos = position;
         dialog = text;
     }
 }
@@ -234,51 +232,77 @@ public class SaveDataClass
         ui =  new UI();
         Story = new List<Story>();
     }
-    public void SetImg()
+    public void SetImg()//캐릭터에 저장된 경로를 통해 이미지를 지정
     {      
         foreach(Character a in list)
             if(a.img_path != "")
             {
                 a.Img = Resources.Load<Sprite>(a.img_path);
+                if(a.img_for_dialog_path != "")
+                    a.Img_for_dialog = Resources.Load<Sprite>(a.img_for_dialog_path);
             }
         foreach(Character a in my_characterlist)
             if(a.img_path != "")
             {
                 a.Img = Resources.Load<Sprite>(a.img_path);
+                if(a.img_for_dialog_path != "")
+                    a.Img_for_dialog = Resources.Load<Sprite>(a.img_for_dialog_path);
             }
         foreach(Character a in my_team)
             if(a.img_path != "")
             {
                 a.Img = Resources.Load<Sprite>(a.img_path);
+                if(a.img_for_dialog_path != "")
+                    a.Img_for_dialog = Resources.Load<Sprite>(a.img_for_dialog_path);
             }
     }
 
-    public void SetImgforOnce()
+    public void SetImgforOnce(string folder)//특정 폴더에 있는 이미지들을 캐릭터에 맞게 배치하기(list용)
     {     
         Sprite[] imgs;
-        imgs = Resources.LoadAll<Sprite>("Images");
+        imgs = Resources.LoadAll<Sprite>(folder);//리소스 폴더에 있는 이미지를 모두 가져옴
         List<string> names = new List<string>();
-        foreach(Sprite i in imgs)
+        foreach(Sprite i in imgs)//모든 이미지들의 경로를 가져옴
         {
             string path = AssetDatabase.GetAssetPath(i);
-            path = path.Replace("Assets/Resources/",string.Empty);
-            path = path.Replace(".png",string.Empty);
-            names.Add(path);
+            path = path.Replace("Assets/Resources/" + folder,string.Empty);//불필요한 부분제거
+            path = path.Replace(".png",string.Empty);//불필요한 부분 제거
+            names.Add(path);//불필요한 부분을 제거한 이름을 리스트로 저장
         }
-        foreach(Character a in list)
-            if(a.img_path != "")
+        foreach(Character a in list)//리스트의 모든 캐릭터들을 대상으로 동작
+            if(a.img_path != "")//경로가 있다면
             {
-                a.Img = Resources.Load<Sprite>(a.img_path);
+                foreach(string name in names)//앞서 저장한 이름들과 비교
+                {
+                    if(name.Contains(a.img_path))//이름이 캐릭터의 영문명을 포함한다면
+                    {
+                        if(name == a.img_path)//똑같은 거라면 Img에 저장
+                        {
+                            int temp = names.IndexOf(name);
+                            a.Img = imgs[temp];
+                        }
+                        else//아니면 Img_for_dialog에 저장
+                        {
+                            int temp = names.IndexOf(name);
+                            a.Img_for_dialog = imgs[temp];
+                            a.img_for_dialog_path = name;//경로도 추가해줌
+                        }
+                    }
+                    if(a.Img != null && a.Img_for_dialog != null)//모두 찾으면 탈출해야지
+                        break;
+                }    
             }
-        foreach(Character a in my_characterlist)
+        foreach(Character a in my_characterlist)//list에 모든 정보가 저장되어있으므로 idx를 통해서 찾기만 하면 됨
             if(a.img_path != "")
             {
-                a.Img = Resources.Load<Sprite>(a.img_path);
+                a.Img = list[a.idx].Img;
+                a.Img_for_dialog = list[a.idx].Img;
             }
-        foreach(Character a in my_team)
+        foreach(Character a in my_team)//list에 모든 정보가 저장되어있으므로 idx를 통해서 찾기만 하면 됨
             if(a.img_path != "")
             {
-                a.Img = Resources.Load<Sprite>(a.img_path);
+                a.Img = list[a.idx].Img;
+                a.Img_for_dialog = list[a.idx].Img;
             }
     }
 
