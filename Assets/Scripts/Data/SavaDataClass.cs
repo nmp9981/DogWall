@@ -174,36 +174,6 @@ public class UI
 
 }
 [System.Serializable]
-public class Dialog
-{
-    public string character_name;//
-    public Character character;
-    public string dialog;//대화 내용
-    public Dialog(string name = "", string text = "")
-    {
-        character_name = name;
-        character = null;
-        dialog = text;
-    }
-}
-[System.Serializable]
-public class Story
-{
-    public string world;
-    public List<Dialog> story;
-
-    public Story()
-    {
-        world = "";
-        story = new List<Dialog>();
-    }
-    public Story(string world, List<Dialog> story)
-    {
-        this.world = world;
-        this.story = story;
-    }
-}
-[System.Serializable]
 public class SaveDataClass
 {
     public List<Character> list;
@@ -216,7 +186,6 @@ public class SaveDataClass
     //스테이지 진행정도
     public List<Character> my_team;
     public UI ui;
-    public List<Story> Story;
     public SaveDataClass()
     {
         //리스트 불러오기
@@ -230,7 +199,6 @@ public class SaveDataClass
         BossData = new List<BossMonsterDataClass>();
         MonsterSkillData = new List<MonsterSkillDataClass>();
         ui =  new UI();
-        Story = new List<Story>();
     }
     public void SetImg()//캐릭터에 저장된 경로를 통해 이미지를 지정
     {      
@@ -304,41 +272,5 @@ public class SaveDataClass
                 a.Img = list[a.idx].Img;
                 a.Img_for_dialog = list[a.idx].Img;
             }
-    }
-
-    public void Find_Teller()
-    {
-        List<Character> temp = new List<Character>();
-        for(int i = 0; i < Story.Count; i++)
-        {
-            for(int j = 0; j < Story[i].story.Count; j++)
-            {
-                bool find = false;
-                foreach(Character a in temp)//temp에서 먼저 찾아보고
-                {
-                    if(a.Name == Story[i].story[j].character_name)
-                    {
-                        Story[i].story[j].character = a;
-                        find = true;
-                        break;
-                    }
-                }
-                if(find)//있으면 탈출
-                    break;
-                else//아니면 list에서 찾아보기
-                {
-                    foreach(Character a in list)
-                    {
-                        if(a.Name == Story[i].story[j].character_name)
-                        {
-                            Story[i].story[j].character = a;
-                            temp.Add(a);
-                            break;
-                        }
-                    }
-                }
-            }
-            temp.Clear();//다음 다이얼로그로 넘어가기전에 클리어해주기
-        }
     }
 }

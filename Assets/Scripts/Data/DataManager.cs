@@ -20,7 +20,7 @@ public class DataManager : MonoBehaviour
     JsonManager jsonManager;
     public SaveDataClass saveData;
     public static DataManager singleTon;
-
+    public string story;
 //nalsdkfjasd
     void Awake()
     {
