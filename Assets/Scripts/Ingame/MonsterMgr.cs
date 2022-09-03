@@ -14,8 +14,8 @@ public class MonsterMgr : MonoBehaviour
     public Text stageText;//스테이지 번호
     public List<MonsterDataClass> monsters = new List<MonsterDataClass>();//출현 몬스터
 
-    public int[] monsterFullHP = new int[4];//몬스터 전체 체력
-    public int[] currentMonsterHP = new int[4];//몬스터 현재 체력
+    public List<int> monsterFullHP = new List<int>();//몬스터 전체 체력
+    public List<int> currentMonsterHP = new List<int>();//몬스터 현재 체력
     public int monsterAttackDamage;//몬스터 공격 데미지
     public int monsterAttribute;//몬스터 속성
 
@@ -45,6 +45,8 @@ public class MonsterMgr : MonoBehaviour
     {
         int mobCount = Random.Range(1, 5);
         monsters.Clear();//초기화
+        monsterFullHP.Clear();
+        currentMonsterHP.Clear();
         for (int i = 0; i < mobCount; i++)
         {
             monsters.Add(Data.saveData.MonsterData[0]);//등장 몹은 서로 다름
@@ -55,8 +57,8 @@ public class MonsterMgr : MonoBehaviour
     {
         for(int i = 0; i < monsters.Count; i++)
         {
-            monsterFullHP[i] = monsters[index].HP;//몬스터 체력 초기화
-            currentMonsterHP[i] = monsterFullHP[i];//처음엔 풀피
+            monsterFullHP.Add(monsters[index].HP);//몬스터 체력 초기화
+            currentMonsterHP.Add(monsterFullHP[i]);//처음엔 풀피
         }
         monsterAttackDamage = monsters[index].Attack;//몬스터 공격력
         monsterAttribute = monsters[index].Attribute;//몬스터 속성
