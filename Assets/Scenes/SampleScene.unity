@@ -2499,7 +2499,7 @@ MonoBehaviour:
       home_img_path: 
       bgm: 0
       sfx: 0
-    Story: []
+  story: 
 --- !u!4 &534579081
 Transform:
   m_ObjectHideFlags: 0
@@ -7492,7 +7492,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1775383325}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bdf39923e2163664f80ef5bb1914093b, type: 3}
   m_Name: 
