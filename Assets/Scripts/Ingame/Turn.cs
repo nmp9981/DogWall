@@ -308,14 +308,14 @@ public class Turn : MonoBehaviour
 
     void monster() // 몬스터 턴
     {
-        characterMgr.PlayerBloodDamage();//출혈 데미지
+        characterMgr.PlayerBloodDamage(0);//출혈 데미지, 캐릭터 지정?
         turnNumber = 1;
         skillCount = 0;//스킬을 사용한 횟수 초기화
         totalDamage = 0;//스킬 데미지 초기화
 
         if (monster1.activeSelf == true) // 몬스터가 살아있으면 턴을 진행
         {
-            characterMgr.PlayerBloodDamage();//공격
+            characterMgr.PlayerBloodDamage(0);//공격
             monsterText.text = "화염방사";
         }
         if (monster2.activeSelf == true)

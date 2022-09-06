@@ -37,6 +37,7 @@ void Start()
     {
 
     }
+    //플레이어->몬스터 데미지
     public int skillAttackDamage(int number,int mobIndex)//스킬 번호만 받는다.
     {
         if (Data.saveData.SkillData[number].NotAction == true) return 0;//행동 불능의 경우 스킬 사용 불가

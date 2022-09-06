@@ -122,9 +122,20 @@ public class CharacterMgr : MonoBehaviour
         //playerEnergeText.text = playerEnerge.ToString("0");//화면에 보이게
     }
     //플레이어 출혈 데미지
-    public void PlayerBloodDamage()
+    public void PlayerBloodDamage(int characterIndex)
     {
-        playerHP = Mathf.Max(playerHP - monsterMgr.monsterAttackDamage/4, 0);
+        int mobBloodDamage = monsterMgr.monsterAttackDamage;
+        //하트링크 데스링크 검사
+        if (Data.saveData.my_characterlist[characterIndex].heartLink)
+        {
+            mobBloodDamage /= 2;
+        }
+        if (Data.saveData.my_characterlist[characterIndex].deathLink)
+        {
+            mobBloodDamage *= 2;
+        }
+        //피격데미지
+        playerHP = Mathf.Max(playerHP - mobBloodDamage, 0);
     }
     //플레이어 체력 체크
     public bool IsPlayerDie()

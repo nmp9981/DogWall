@@ -19,7 +19,9 @@ public class Character//캐릭터 DB
     public int Star = 1;//별
     public int Same = 0; //뽑기에서 같은 캐릭터 뽑은 경우 +1
     public int idx = -1;//인덱스 리스트에서 빠르게 찾기 위해 사용하는 정보, 지정 안되었을 경우 -1, 리스트에서 찾으면 오류나올거임!
-    public Character(string path = "",Sprite img = null, string n = "무명", int h = 0,int e = 0,int A = 1, int a = 0, string t = "없음", int ap = 0, int Up = 0, int S = 1, int Pair = 0,int idx = -1)
+    public bool heartLink = false;//하트 링크 상태인가?
+    public bool deathLink = false;//데스 링크 상태인가?
+    public Character(string path = "",Sprite img = null, string n = "무명", int h = 0,int e = 0,int A = 1, int a = 0, string t = "없음", int ap = 0, int Up = 0, int S = 1, int Pair = 0,int idx = -1,bool heart = false,bool death = false)
     {
         this.img_path = path;
         this.Img = img;
@@ -34,6 +36,8 @@ public class Character//캐릭터 DB
         this.Star = S;
         this.Same = Pair; 
         this.idx = idx;
+        this.heartLink = heart;
+        this.deathLink = death;
     }
 }
 [System.Serializable]
