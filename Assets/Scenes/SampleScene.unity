@@ -2329,6 +2329,8 @@ MonoBehaviour:
       Star: 1
       Same: 0
       idx: -1
+      heartLink: 0
+      deathLink: 0
     - img_path: 
       img_for_dialog_path: 
       Img: {fileID: 0}
@@ -2344,6 +2346,8 @@ MonoBehaviour:
       Star: 1
       Same: 0
       idx: -1
+      heartLink: 0
+      deathLink: 0
     - img_path: 
       img_for_dialog_path: 
       Img: {fileID: 0}
@@ -2359,6 +2363,8 @@ MonoBehaviour:
       Star: 1
       Same: 0
       idx: -1
+      heartLink: 0
+      deathLink: 0
     - img_path: 
       img_for_dialog_path: 
       Img: {fileID: 0}
@@ -2374,6 +2380,8 @@ MonoBehaviour:
       Star: 1
       Same: 0
       idx: -1
+      heartLink: 0
+      deathLink: 0
     - img_path: 
       img_for_dialog_path: 
       Img: {fileID: 0}
@@ -2389,6 +2397,8 @@ MonoBehaviour:
       Star: 1
       Same: 0
       idx: -1
+      heartLink: 0
+      deathLink: 0
     - img_path: 
       img_for_dialog_path: 
       Img: {fileID: 0}
@@ -2404,6 +2414,8 @@ MonoBehaviour:
       Star: 1
       Same: 0
       idx: -1
+      heartLink: 0
+      deathLink: 0
     - img_path: 
       img_for_dialog_path: 
       Img: {fileID: 0}
@@ -2419,6 +2431,8 @@ MonoBehaviour:
       Star: 1
       Same: 0
       idx: -1
+      heartLink: 0
+      deathLink: 0
     - img_path: 
       img_for_dialog_path: 
       Img: {fileID: 0}
@@ -2434,6 +2448,8 @@ MonoBehaviour:
       Star: 1
       Same: 0
       idx: -1
+      heartLink: 0
+      deathLink: 0
     - img_path: 
       img_for_dialog_path: 
       Img: {fileID: 0}
@@ -2449,6 +2465,8 @@ MonoBehaviour:
       Star: 1
       Same: 0
       idx: -1
+      heartLink: 0
+      deathLink: 0
     - img_path: 
       img_for_dialog_path: 
       Img: {fileID: 0}
@@ -2464,6 +2482,8 @@ MonoBehaviour:
       Star: 1
       Same: 0
       idx: -1
+      heartLink: 0
+      deathLink: 0
     - img_path: 
       img_for_dialog_path: 
       Img: {fileID: 0}
@@ -2479,6 +2499,8 @@ MonoBehaviour:
       Star: 1
       Same: 0
       idx: -1
+      heartLink: 0
+      deathLink: 0
     - img_path: 
       img_for_dialog_path: 
       Img: {fileID: 0}
@@ -2494,6 +2516,8 @@ MonoBehaviour:
       Star: 1
       Same: 0
       idx: -1
+      heartLink: 0
+      deathLink: 0
     ui:
       money: 
       home_img_path: 
@@ -5456,7 +5480,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1299259314}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e14eb31f5774ac469d62d434a3ed6e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 0e28a1ad4f7596944b93872a7d2cbdc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1299259316

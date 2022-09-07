@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Turn : MonoBehaviour
 {
     #region 변수
-    Data_Manager dataManager; private DataManager Data; CharacterMgr characterMgr; MonsterMgr monsterMgr; TeamSelect teamSelect; Skill skill;
+    Data_Manager dataManager; private DataManager Data; CharacterMgr characterMgr; MonsterMgr monsterMgr; TeamSelect teamSelect; Skill skill;MonsterSkill monsterSkillMgr;
     public Text characterNameText, characterAttackText, turnText, stageText, monsterText;
     public int teamNumber;//팀원의 번호
     public int totalDamage;//스킬데미지 총합
@@ -43,6 +43,7 @@ public class Turn : MonoBehaviour
         skill = GameObject.FindWithTag("Skill").GetComponent<Skill>();//Skill 스크립트에서 변수 가져오기
         dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
         monsterMgr = GameObject.FindWithTag("Monster").GetComponent<MonsterMgr>();//MonsterMgr 스크립트에서 변수 가져오기
+        monsterSkillMgr = GameObject.FindWithTag("MonsterSkill").GetComponent<MonsterSkill>();//MonsterSkill 스크립트에서 변수 가져오기
 
         turnText.text = totalTurnNumber.ToString();
         stageText.text = stageNumber + "/3";
@@ -315,22 +316,27 @@ public class Turn : MonoBehaviour
 
         if (monster1.activeSelf == true) // 몬스터가 살아있으면 턴을 진행
         {
-            characterMgr.PlayerBloodDamage(0);//공격
+            //퀘스트 시트에서 어떤 몬스터가 등장하고 어떤 스킬을 사용하는지 받아야함
+            int mobHitDamage = monsterSkillMgr.monsterSkillDamage(0,1,0,0);//몬스터 인덱스, 스킬번호, 특수스킬, 피격 캐릭터 번호(배열을 받을 예정)
+            characterMgr.PlayerBloodDamage(mobHitDamage);//공격
             monsterText.text = "화염방사";
         }
         if (monster2.activeSelf == true)
         {
-            // monster1
+            int mobHitDamage = monsterSkillMgr.monsterSkillDamage(1, 2, 0,0);//몬스터 인덱스, 스킬번호, 특수스킬, 피격 캐릭터 번호
+            characterMgr.PlayerBloodDamage(mobHitDamage);//공격
             monsterText.text = "백만볼트";
         }
         if (monster3.activeSelf == true)
         {
-            // monster1
+            int mobHitDamage = monsterSkillMgr.monsterSkillDamage(2, 3, 0,0);//몬스터 인덱스, 스킬번호, 특수스킬, 피격 캐릭터 번호
+            characterMgr.PlayerBloodDamage(mobHitDamage);//공격
             monsterText.text = "칼춤";
         }
         if (monster4.activeSelf == true)
         {
-            // monster1
+            int mobHitDamage = monsterSkillMgr.monsterSkillDamage(3, 4, 0,0);//몬스터 인덱스, 스킬번호, 특수스킬, 피격 캐릭터 번호
+            characterMgr.PlayerBloodDamage(mobHitDamage);//공격
             monsterText.text = "잠자기";
         }
 

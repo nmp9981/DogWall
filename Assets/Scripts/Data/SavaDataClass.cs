@@ -139,24 +139,33 @@ public class BossMonsterDataClass//보스몬스터 DB
 public class MonsterSkillDataClass
 {
     public int Index = 1;//몬스터 스킬 인덱스
+    public string name = "";//스킬 설명
     public int Damage = 0;//데미지
+    public int AttackCount = 0;//공격 횟수
+    public int Targets = 0;//타겟 수
     public int Blood = 0;//출혈 데미지
-    public int Attack = 0;//몬스터 공격력
-    public int Defense = 0;//방어력
-    public int HealHP = 0;//hp회복량
     public int TurnCount = 0;//스킬 턴수
-    public int Enemy = 1;//공격하는 적의 수
+    public int Attack = 0;//몬스터 공격력
+    public int DecreaseDamage = 0;//피격 데미지 감소량
+    public bool Self = false;//자기자신한테 공격하는 것인가?
+    public int HealHP = 0;//hp회복량
+    public int HeartLink = 3000;//하트링크 데미지
+    public int DeathLink = 3000;//데스링크 데미지
 
-    public MonsterSkillDataClass(int i=1,int d=1,int b=1,int a=1,int de=1,int hh=1,int tc=1,int e = 1)
+    public MonsterSkillDataClass(int i = 1, string name = null, int d = 1, int ac = 1,int b=1,int tc = 1,int a=1,int de=1,bool s = false,int hh=1,int hl = 1,int dl=1)
     {
         this.Index = i;
+        this.name = name;
         this.Damage = d;
+        this.AttackCount = ac;
         this.Blood = b;
-        this.Attack = a;
-        this.Defense = de;
-        this.HealHP = hh;
         this.TurnCount = tc;
-        this.Enemy = e;
+        this.Attack = a;
+        this.DecreaseDamage = de;
+        this.Self = s;
+        this.HealHP = hh;
+        this.HeartLink = hl;
+        this.DeathLink = dl;
     }
 }
 [System.Serializable]
