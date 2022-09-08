@@ -122,9 +122,10 @@ public class CharacterMgr : MonoBehaviour
         //playerEnergeText.text = playerEnerge.ToString("0");//화면에 보이게
     }
     //플레이어 출혈 데미지
-    public void PlayerBloodDamage(int characterIndex)
+    public void PlayerBloodDamage(int teamIndex,int hitDamage)
     {
-        int mobBloodDamage = monsterMgr.monsterAttackDamage;
+        int mobBloodDamage = hitDamage;//원래 피격데미지
+        int characterIndex = teamSelect.selectedTeamNumber[teamIndex];//캐릭터 위치
         //하트링크 데스링크 검사
         if (Data.saveData.my_characterlist[characterIndex].heartLink)
         {

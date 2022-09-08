@@ -309,7 +309,6 @@ public class Turn : MonoBehaviour
 
     void monster() // 몬스터 턴
     {
-        characterMgr.PlayerBloodDamage(0);//출혈 데미지, 캐릭터 지정?
         turnNumber = 1;
         skillCount = 0;//스킬을 사용한 횟수 초기화
         totalDamage = 0;//스킬 데미지 초기화
@@ -317,26 +316,30 @@ public class Turn : MonoBehaviour
         if (monster1.activeSelf == true) // 몬스터가 살아있으면 턴을 진행
         {
             //퀘스트 시트에서 어떤 몬스터가 등장하고 어떤 스킬을 사용하는지 받아야함
-            int mobHitDamage = monsterSkillMgr.monsterSkillDamage(0,1,0,0);//몬스터 인덱스, 스킬번호, 특수스킬, 피격 캐릭터 번호(배열을 받을 예정)
-            characterMgr.PlayerBloodDamage(mobHitDamage);//공격
+            int mobHitDamage = monsterSkillMgr.monsterSkillDamage(0,1,0);//몬스터 인덱스, 스킬번호, 특수스킬
+            int targets = Data.saveData.MonsterSkillData[0].Targets;//몇명을 공격하는가?
+            monsterSkillMgr.MultiAttack(targets,mobHitDamage,0,1);//다수 공격
             monsterText.text = "화염방사";
         }
         if (monster2.activeSelf == true)
         {
-            int mobHitDamage = monsterSkillMgr.monsterSkillDamage(1, 2, 0,0);//몬스터 인덱스, 스킬번호, 특수스킬, 피격 캐릭터 번호
-            characterMgr.PlayerBloodDamage(mobHitDamage);//공격
+            int mobHitDamage = monsterSkillMgr.monsterSkillDamage(1, 2, 0);//몬스터 인덱스, 스킬번호, 특수스킬, 피격 캐릭터 배열
+            int targets = Data.saveData.MonsterSkillData[0].Targets;//몇명을 공격하는가?
+            monsterSkillMgr.MultiAttack(targets, mobHitDamage,1,2);//다수 공격
             monsterText.text = "백만볼트";
         }
         if (monster3.activeSelf == true)
         {
-            int mobHitDamage = monsterSkillMgr.monsterSkillDamage(2, 3, 0,0);//몬스터 인덱스, 스킬번호, 특수스킬, 피격 캐릭터 번호
-            characterMgr.PlayerBloodDamage(mobHitDamage);//공격
+            int mobHitDamage = monsterSkillMgr.monsterSkillDamage(2, 3, 0);//몬스터 인덱스, 스킬번호, 특수스킬, 피격 캐릭터 배열
+            int targets = Data.saveData.MonsterSkillData[0].Targets;//몇명을 공격하는가?
+            monsterSkillMgr.MultiAttack(targets, mobHitDamage,2,3);//다수 공격
             monsterText.text = "칼춤";
         }
         if (monster4.activeSelf == true)
         {
-            int mobHitDamage = monsterSkillMgr.monsterSkillDamage(3, 4, 0,0);//몬스터 인덱스, 스킬번호, 특수스킬, 피격 캐릭터 번호
-            characterMgr.PlayerBloodDamage(mobHitDamage);//공격
+            int mobHitDamage = monsterSkillMgr.monsterSkillDamage(3, 4, 0);//몬스터 인덱스, 스킬번호, 특수스킬, 피격 캐릭터 번호
+            int targets = Data.saveData.MonsterSkillData[0].Targets;//몇명을 공격하는가?
+            monsterSkillMgr.MultiAttack(targets, mobHitDamage,3,4);//다수 공격
             monsterText.text = "잠자기";
         }
 

@@ -22,13 +22,8 @@ public class MonsterSkill : MonoBehaviour
         dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     //몬스터->플레이어(몬스터 인덱스, 스킬번호를 받아서 진행)
-    public int monsterSkillDamage(int mobIndex,int mobSkillNumber,int specialSkillNum,int playerNumber)//뒤에는 선택한 캐릭터 배열을 받아야함
+    public int monsterSkillDamage(int mobIndex,int mobSkillNumber,int specialSkillNum)//뒤에는 선택한 캐릭터 배열을 받아야함
     {
         //특수 스킬인가?
         if (specialSkillNum > 0)
@@ -40,41 +35,16 @@ public class MonsterSkill : MonoBehaviour
         //HP회복
         HealMonsterHP(Data.saveData.MonsterSkillData[mobSkillNumber].HealHP,mobIndex,mobNum);
 
-        int monsterAttribute = Data.saveData.MonsterData[mobNum].Attribute;//몬스터 속성
-        int playerAttribute = Data.saveData.CharacterData[playerNumber].Attribute;//플레이어 속성
-        int attributeDamage = characterMgr.CheckAttribute(playerAttribute, monsterAttribute);//속성 데미지
-
-        int targets = Data.saveData.MonsterSkillData[mobSkillNumber].Targets;//몇명을 공격하는가?
         int attackDamage = Data.saveData.MonsterData[mobNum].Attack*Data.saveData.MonsterSkillData[mobSkillNumber].Attack;//데미지
         int countSkill = Data.saveData.MonsterSkillData[mobSkillNumber].AttackCount;//공격 횟수
 
         //일반 공격
-        for(int i=0;i<targets; i++)//targets명을
+        for(int j = 0; j < countSkill; j++)//countSkill번
         {
-            for(int j = 0; j < countSkill; j++)//countSkill번
-            {
-                monsterAttackDamage += attackDamage;//공격
-                //공격 텍스트 UI등장
-            }
+            monsterAttackDamage += attackDamage;//공격
+            //공격 텍스트 UI등장
         }
-        //하트 링크
-        if (Data.saveData.MonsterSkillData[mobSkillNumber].HeartLink > 0)
-        {
-            Data.saveData.my_characterlist[playerNumber].heartLink = true;
-        }
-        else
-        {
-            Data.saveData.my_characterlist[playerNumber].heartLink = false;
-        }
-        //데스 링크
-        if (Data.saveData.MonsterSkillData[mobSkillNumber].DeathLink > 0)
-        {
-            Data.saveData.my_characterlist[playerNumber].deathLink = true;
-        }
-        else
-        {
-            Data.saveData.my_characterlist[playerNumber].deathLink = false;
-        }
+
         //턴 기반 버프
         //MonsterTurnBuff(SkillMonsterTurnMatrix[number, playerNumber], number,mobIndex);//남은 턴 수를 넣는다.
 
@@ -109,6 +79,49 @@ public class MonsterSkill : MonoBehaviour
     {
         Mathf.Max(Data.saveData.MonsterData[mobNum].HP, monsterMgr.currentMonsterHP[mobIndex] + AmountMobHP);
     }
+    //다수 공격(몬스터->캐릭터)
+    public void MultiAttack(int targets,int hitDamage, int mobIndex,int mobSkillNumber)//공격 마릿수, 스킬데미지, 몹 인덱스, 스킬넘버
+    {
+        bool[] selectedMob = { false, false, false, false };//몬스터 인덱스
+        int countTargets = 0;//현재 공격 마릿수
+
+        while(countTargets<targets)
+        {
+            int selectedIndex = Random.Range(0, 4);//캐릭터 위치 선택(0~3)
+            if (!selectedMob[selectedIndex])
+            {
+                selectedMob[selectedIndex] = true;
+                
+                int monsterAttribute = Data.saveData.MonsterData[mobIndex].Attribute;//몬스터 속성
+                int playerAttribute = Data.saveData.CharacterData[selectedIndex].Attribute;//플레이어 속성
+                int attributeDamage = characterMgr.CheckAttribute(playerAttribute, monsterAttribute);//속성 데미지
+
+                int mobHitDamage = attributeDamage * hitDamage;
+
+                //하트 링크
+                if (Data.saveData.MonsterSkillData[mobSkillNumber].HeartLink > 0)
+                {
+                    Data.saveData.my_characterlist[teamSelect.selectedTeamNumber[selectedIndex]].heartLink = true;
+                }
+                else
+                {
+                    Data.saveData.my_characterlist[teamSelect.selectedTeamNumber[selectedIndex]].heartLink = false;
+                }
+                //데스 링크
+                if (Data.saveData.MonsterSkillData[mobSkillNumber].DeathLink > 0)
+                {
+                    Data.saveData.my_characterlist[teamSelect.selectedTeamNumber[selectedIndex]].deathLink = true;
+                }
+                else
+                {
+                    Data.saveData.my_characterlist[teamSelect.selectedTeamNumber[selectedIndex]].deathLink = false;
+                }
+                characterMgr.PlayerBloodDamage(selectedIndex, mobHitDamage);//공격
+
+                countTargets++;
+            }
+        }
+    } 
     //몬스터 턴 버프
     void MonsterTurnBuff()
     {
