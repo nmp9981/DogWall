@@ -11,6 +11,7 @@ public class Skill : MonoBehaviour
     Turn turn;
     CharacterMgr characterMgr;
     MonsterMgr monsterMgr;
+    MonsterSkill monsterSkill;
 
     public int[,] SkillCharacterTurnMatrix = new int[160, 40];//스킬-캐릭터간 남은 턴 수 배열 
     public int playerAttack;//플레이어 공격력
@@ -22,6 +23,9 @@ public class Skill : MonoBehaviour
     public Text thirdCharacterTurn;
     public Text fourthCharacterTurn;
 
+    //몬스터 방어력
+    public int monsterDefense = 100;
+
 // Start is called before the first frame update
 void Start()
     {
@@ -30,6 +34,7 @@ void Start()
         characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
         monsterMgr = GameObject.FindWithTag("Monster").GetComponent<MonsterMgr>();//MonsterMgr 스크립트에서 변수 가져오기
         dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
+        monsterSkill = GameObject.FindWithTag("MonsterSkill").GetComponent<MonsterSkill>();//MonsterMgr 스크립트에서 변수 가져오기
     }
 
     // Update is called once per frame
@@ -60,7 +65,9 @@ void Start()
         //턴 기반 버프
         TurnBuff(SkillCharacterTurnMatrix[number, playerNumber], number,mobIndex);//남은 턴 수를 넣는다
 
-        return playerAttack * skillPercentDamage * attributeDamage / 10000;//최종 데미지
+        int baseSkillDamage = playerAttack * skillPercentDamage / 100;//기본 스킬데미지
+        int attributeSkillDamage = baseSkillDamage * attributeDamage / 100;//속성까지 
+        return attributeSkillDamage*monsterDefense / 100;//최종 데미지
     }
 
     //플레이어 HP회복

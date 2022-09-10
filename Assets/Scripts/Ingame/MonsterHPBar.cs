@@ -21,9 +21,14 @@ public class MonsterHPBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //mobHPRate = (float)monsterMgr.currentMonsterHP[monsterHPIndex] / (float)monsterMgr.monsterFullHP[monsterHPIndex];//실제 사용
-        mobHPRate = (float)sampleHP[monsterHPIndex] / (float)10000;//임시
-        sampleHP[1] -= 1;//임시
+        ViewMonsterHP();//몬스터 HP 시각화
+    }
+    //몬스터 HP 시각화
+    void ViewMonsterHP()
+    {
+        mobHPRate = (float)monsterMgr.currentMonsterHP[monsterHPIndex] / (float)monsterMgr.monsterFullHP[monsterHPIndex];//실제 사용
+        //mobHPRate = (float)sampleHP[monsterHPIndex] / (float)10000;//임시
+        //sampleHP[1] -= 1;//임시
         mobHealthBar.fillAmount = mobHPRate;
     }
 }
