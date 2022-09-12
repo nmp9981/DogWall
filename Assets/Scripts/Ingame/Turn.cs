@@ -91,7 +91,7 @@ public class Turn : MonoBehaviour
             skill.InitTurn(skillNumber);//턴 초기화
             characterMgr.ColorCondition(skill.playerAttack, i, skillNumber);//캐릭터 상태 이상 색상 표시
             skill.TurnCountText(skillNumber,i);//남은 턴 수 나타내기
-            totalDamage += skill.skillAttackDamage(skillNumber,i);//데미지 누적
+            totalDamage += skill.skillAttackDamage(skillNumber,0);//데미지 누적,(스킬 번호, 몬스터 인덱스)
         }
         monsterMgr.MonsterBloodDamage(totalDamage,mobHP,0);//몬스터 데미지
         totalTurnNumber += 1;
