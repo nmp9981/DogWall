@@ -92,8 +92,12 @@ public class Turn : MonoBehaviour
             characterMgr.ColorCondition(skill.playerAttack, i, skillNumber);//캐릭터 상태 이상 색상 표시
             skill.TurnCountText(skillNumber,i);//남은 턴 수 나타내기
             totalDamage += skill.skillAttackDamage(skillNumber,0);//데미지 누적,(스킬 번호, 몬스터 인덱스)
+            //Debug.Log("누적 데미지 "+ totalDamage);
         }
         monsterMgr.MonsterBloodDamage(totalDamage,mobHP,0);//몬스터 데미지
+        //몬스터 사망여부 확인
+        monsterMgr.MonsterDie(0);
+
         totalTurnNumber += 1;
         turnText.text = totalTurnNumber.ToString();
 
@@ -111,9 +115,6 @@ public class Turn : MonoBehaviour
         skill_3E.SetActive(false);
         skill_4E.SetActive(false);
         skipE.SetActive(false);
-
-        //몬스터 사망여부 확인
-        monsterMgr.MonsterDie(0);
 
         if (monsterMgr.monsters.Count == 0) // 몬스터가 다 죽었다면 스테이지 증가
         {
@@ -318,6 +319,7 @@ public class Turn : MonoBehaviour
             //퀘스트 시트에서 어떤 몬스터가 등장하고 어떤 스킬을 사용하는지 받아야함
             int mobHitDamage = monsterSkillMgr.monsterSkillDamage(0,1,0);//몬스터 인덱스, 스킬번호, 특수스킬
             int targets = Data.saveData.MonsterSkillData[0].Targets;//몇명을 공격하는가?
+            Debug.Log("데미지" + mobHitDamage);
             monsterSkillMgr.MultiAttack(targets,mobHitDamage,0,1);//다수 공격
             monsterText.text = "화염방사";
         }

@@ -89,7 +89,7 @@ public class CharacterMgr : MonoBehaviour
         fourthPlayer = teamSelect.selectedTeamNumber[3];
 
         //풀피 설정
-        //playerFullHP = Data.saveData.CharacterData[firstPlayer].HP + Data.saveData.CharacterData[secondPlayer].HP + Data.saveData.CharacterData[thirdPlayer].HP + Data.saveData.CharacterData[fourthPlayer].HP;
+        playerFullHP = (Data.saveData.my_characterlist[firstPlayer].HP + Data.saveData.my_characterlist[secondPlayer].HP + Data.saveData.my_characterlist[thirdPlayer].HP + Data.saveData.my_characterlist[fourthPlayer].HP)*1000;
         playerHP = playerFullHP;//처음엔 풀피
 
         //캐릭터 상태이상 초기상태

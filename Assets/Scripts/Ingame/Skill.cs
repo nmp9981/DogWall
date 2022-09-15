@@ -49,7 +49,7 @@ void Start()
 
         //에너지 조건
         int requireEnerge = Data.saveData.SkillData[number].Energe;
-        if (characterMgr.playerEnerge < requireEnerge) return 0;//스킬 사용 불가
+        //if (characterMgr.playerEnerge < requireEnerge) return 0;//스킬 사용 불가, 에너지는 추후 구현
 
         //HP회복
         HealCharacterHP(Data.saveData.SkillData[number].HealHP);
@@ -59,14 +59,16 @@ void Start()
         int monsterAttribute = Data.saveData.MonsterData[0].Attribute;//몬스터 속성
         int attributeDamage = characterMgr.CheckAttribute(playerAttribute, monsterAttribute);//속성 데미지
 
-        playerAttack = Data.saveData.my_characterlist[playerNumber].ATK;//캐릭터 초기 공격력
+        playerAttack = Data.saveData.my_characterlist[playerNumber].ATK*4000;//캐릭터 초기 공격력
         int skillPercentDamage = Data.saveData.SkillData[number].Attack;//스킬 퍼센테이지
 
         //턴 기반 버프
         TurnBuff(SkillCharacterTurnMatrix[number, playerNumber], number,mobIndex);//남은 턴 수를 넣는다
 
         int baseSkillDamage = playerAttack * skillPercentDamage / 100;//기본 스킬데미지
+        //Debug.Log("기본 스킬 데미지 " + baseSkillDamage);
         int attributeSkillDamage = baseSkillDamage * attributeDamage / 100;//속성까지 
+        //Debug.Log("속성 데미지 " + baseSkillDamage);
         return attributeSkillDamage*monsterDefense / 100;//최종 데미지
     }
 

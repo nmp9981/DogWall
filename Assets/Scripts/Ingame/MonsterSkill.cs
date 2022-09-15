@@ -38,10 +38,10 @@ public class MonsterSkill : MonoBehaviour
         {
             return SpecialSkill(specialSkillNum);
         }
-        int monsterAttackDamage = 0;//총 데미지
+        int monsterAttackDamage = 0;//총 데미지 초기화
         int mobNum = teamSelect.selectedTeamNumber[mobIndex];//실제 몬스터 번호
         currentAttack = Data.saveData.MonsterData[mobNum].Attack*increaseAttack/100;//현재 공격력
-
+        Debug.Log("몹 공격력 " + Data.saveData.MonsterData[mobNum].Attack + "인크리스 " + currentAttack);
         //턴 기반 버프(일반 스킬)
         TurnBuffInit(mobIndex,mobSkillNumber);//턴버프 초기화
         MonsterNormalTurnBuff(mobIndex, mobSkillNumber);
@@ -49,16 +49,15 @@ public class MonsterSkill : MonoBehaviour
         //HP회복
         HealMonsterHP(Data.saveData.MonsterSkillData[mobSkillNumber].HealHP,mobIndex,mobNum);
 
-        int attackDamage = currentAttack*Data.saveData.MonsterSkillData[mobSkillNumber].Attack;//데미지
+        int attackDamage = currentAttack*(Data.saveData.MonsterSkillData[mobSkillNumber].Attack+100)/100;//데미지(공격력*퍼뎀)
         int countSkill = Data.saveData.MonsterSkillData[mobSkillNumber].AttackCount;//공격 횟수
-
         //일반 공격
         for(int j = 0; j < countSkill; j++)//countSkill번
         {
             monsterAttackDamage += attackDamage;//공격
             //공격 텍스트 UI등장
         }
-
+        Debug.Log("총뎀 " + attackDamage);
         return monsterAttackDamage;
     }
     //특수 스킬
@@ -128,7 +127,7 @@ public class MonsterSkill : MonoBehaviour
                     Data.saveData.my_characterlist[teamSelect.selectedTeamNumber[selectedIndex]].deathLink = false;
                 }
                 characterMgr.PlayerBloodDamage(selectedIndex, mobHitDamage);//공격
-
+                Debug.Log(attributeDamage + " " + hitDamage + " " + mobHitDamage);
                 countTargets++;
             }
         }
@@ -167,7 +166,7 @@ public class MonsterSkill : MonoBehaviour
         //공격력증가
         if(monsterTurns[0, mobIndex] > 0)//진행 중
         {
-            increaseAttack = Data.saveData.MonsterSkillData[mobSkillNumber].Attack;//공격력 증가
+            increaseAttack = Data.saveData.MonsterSkillData[mobSkillNumber].Attack+100;//공격력 증가
             //공격력 증가 표시
             monsterTurns[0, mobIndex] -= 1;//남은 턴 수 감소
         }
