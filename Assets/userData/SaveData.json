@@ -4,7 +4,7 @@
             "img_path": "Monster Dummy/000",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15546
+                "instanceID": 16442
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -19,13 +19,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/111",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15584
+                "instanceID": 14256
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -39,14 +41,16 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 3,
-            "idx": 0
+            "Same": 5,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/121",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15588
+                "instanceID": 16456
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -61,13 +65,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 1,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/212",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15554
+                "instanceID": 14248
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -75,6 +81,190 @@
             "Name": "고라파덕",
             "HP": 5,
             "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 14,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 14252
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 16442
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 2,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 14256
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 1,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 16456
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 21,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 14248
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 14252
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 1,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 16442
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 14256
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
             "Attribute": 2,
             "ATK": 10,
             "Type": "물",
@@ -82,181 +272,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 11,
-            "idx": 0
-        },
-        {
-            "img_path": "Monster Dummy/333",
-            "img_for_dialog_path": "",
-            "Img": {
-                "instanceID": 15580
-            },
-            "Img_for_dialog": {
-                "instanceID": 0
-            },
-            "Name": "뭐더라",
-            "HP": 10,
-            "Energe": 5,
-            "Attribute": 3,
-            "ATK": 10,
-            "Type": "어둠",
-            "Appear": 0,
-            "Upgrade": 0,
-            "Star": 1,
-            "Same": 0,
-            "idx": 0
-        },
-        {
-            "img_path": "Monster Dummy/000",
-            "img_for_dialog_path": "",
-            "Img": {
-                "instanceID": 15546
-            },
-            "Img_for_dialog": {
-                "instanceID": 0
-            },
-            "Name": "질퍽이",
-            "HP": 10,
-            "Energe": 5,
-            "Attribute": 1,
-            "ATK": 10,
-            "Type": "몰루?",
-            "Appear": 0,
-            "Upgrade": 0,
-            "Star": 1,
-            "Same": 2,
-            "idx": 0
-        },
-        {
-            "img_path": "Monster Dummy/111",
-            "img_for_dialog_path": "",
-            "Img": {
-                "instanceID": 15584
-            },
-            "Img_for_dialog": {
-                "instanceID": 0
-            },
-            "Name": "꼬북이",
-            "HP": 10,
-            "Energe": 5,
-            "Attribute": 2,
-            "ATK": 10,
-            "Type": "물",
-            "Appear": 0,
-            "Upgrade": 0,
-            "Star": 1,
-            "Same": 1,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/121",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15588
-            },
-            "Img_for_dialog": {
-                "instanceID": 0
-            },
-            "Name": "잉어킹",
-            "HP": 10,
-            "Energe": 5,
-            "Attribute": 1,
-            "ATK": 10,
-            "Type": "물",
-            "Appear": 0,
-            "Upgrade": 0,
-            "Star": 1,
-            "Same": 19,
-            "idx": 0
-        },
-        {
-            "img_path": "Monster Dummy/212",
-            "img_for_dialog_path": "",
-            "Img": {
-                "instanceID": 15554
-            },
-            "Img_for_dialog": {
-                "instanceID": 0
-            },
-            "Name": "고라파덕",
-            "HP": 5,
-            "Energe": 10,
-            "Attribute": 2,
-            "ATK": 10,
-            "Type": "물",
-            "Appear": 0,
-            "Upgrade": 0,
-            "Star": 1,
-            "Same": 0,
-            "idx": 0
-        },
-        {
-            "img_path": "Monster Dummy/333",
-            "img_for_dialog_path": "",
-            "Img": {
-                "instanceID": 15580
-            },
-            "Img_for_dialog": {
-                "instanceID": 0
-            },
-            "Name": "뭐더라",
-            "HP": 10,
-            "Energe": 5,
-            "Attribute": 3,
-            "ATK": 10,
-            "Type": "어둠",
-            "Appear": 0,
-            "Upgrade": 0,
-            "Star": 1,
-            "Same": 1,
-            "idx": 0
-        },
-        {
-            "img_path": "Monster Dummy/000",
-            "img_for_dialog_path": "",
-            "Img": {
-                "instanceID": 15546
-            },
-            "Img_for_dialog": {
-                "instanceID": 0
-            },
-            "Name": "질퍽이",
-            "HP": 10,
-            "Energe": 5,
-            "Attribute": 1,
-            "ATK": 10,
-            "Type": "몰루?",
-            "Appear": 0,
-            "Upgrade": 0,
-            "Star": 1,
-            "Same": 0,
-            "idx": 0
-        },
-        {
-            "img_path": "Monster Dummy/111",
-            "img_for_dialog_path": "",
-            "Img": {
-                "instanceID": 15584
-            },
-            "Img_for_dialog": {
-                "instanceID": 0
-            },
-            "Name": "꼬북이",
-            "HP": 10,
-            "Energe": 5,
-            "Attribute": 2,
-            "ATK": 10,
-            "Type": "물",
-            "Appear": 0,
-            "Upgrade": 0,
-            "Star": 1,
-            "Same": 8,
-            "idx": 0
-        },
-        {
-            "img_path": "Monster Dummy/121",
-            "img_for_dialog_path": "",
-            "Img": {
-                "instanceID": 15588
+                "instanceID": 16456
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -271,13 +295,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/212",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15554
+                "instanceID": 14248
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -291,14 +317,16 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 3,
-            "idx": 0
+            "Same": 5,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/333",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15580
+                "instanceID": 14252
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -312,14 +340,16 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 2,
-            "idx": 0
+            "Same": 4,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/000",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15546
+                "instanceID": 16442
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -333,14 +363,16 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 18,
-            "idx": 0
+            "Same": 26,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/111",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15584
+                "instanceID": 14256
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -355,13 +387,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/121",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15588
+                "instanceID": 16456
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -376,13 +410,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 3,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/212",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15554
+                "instanceID": 14248
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -397,13 +433,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/333",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15580
+                "instanceID": 14252
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -417,8 +455,10 @@
             "Appear": 0,
             "Upgrade": 0,
             "Star": 1,
-            "Same": 8,
-            "idx": 0
+            "Same": 15,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         }
     ],
     "my_characterlist": [
@@ -426,7 +466,7 @@
             "img_path": "Monster Dummy/333",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15580
+                "instanceID": 14252
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -441,13 +481,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/121",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15588
+                "instanceID": 16456
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -462,13 +504,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/000",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15546
+                "instanceID": 16442
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -483,13 +527,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/111",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15584
+                "instanceID": 14256
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -504,13 +550,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/111",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15584
+                "instanceID": 14256
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -525,13 +573,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 2,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/121",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15588
+                "instanceID": 16456
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -546,13 +596,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 2,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/121",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15588
+                "instanceID": 16456
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -567,13 +619,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 1,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/212",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15554
+                "instanceID": 14248
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -588,13 +642,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/333",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15580
+                "instanceID": 14252
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -609,13 +665,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/212",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15554
+                "instanceID": 14248
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -630,13 +688,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/212",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15554
+                "instanceID": 14248
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -651,13 +711,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/000",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15546
+                "instanceID": 16442
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -672,13 +734,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/111",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15584
+                "instanceID": 14256
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -693,13 +757,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 2,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/212",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15554
+                "instanceID": 14248
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -714,13 +780,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/333",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15580
+                "instanceID": 14252
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -735,13 +803,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 1,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/212",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15554
+                "instanceID": 14248
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -756,13 +826,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 4,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/111",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15584
+                "instanceID": 14256
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -777,13 +849,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 8,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/121",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15588
+                "instanceID": 16456
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -798,13 +872,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 1,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/000",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15546
+                "instanceID": 16442
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -819,13 +895,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 12,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/121",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15588
+                "instanceID": 16456
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -840,13 +918,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 16,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/212",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15554
+                "instanceID": 14248
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -861,13 +941,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 1,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/333",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15580
+                "instanceID": 14252
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -882,13 +964,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 4,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/111",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15584
+                "instanceID": 14256
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -903,13 +987,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 3,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/000",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15546
+                "instanceID": 16442
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -924,13 +1010,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/121",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15588
+                "instanceID": 16456
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -945,13 +1033,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 2,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/333",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15580
+                "instanceID": 14252
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -966,13 +1056,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 1,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/212",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15554
+                "instanceID": 14248
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -987,13 +1079,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/212",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15554
+                "instanceID": 14248
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -1008,13 +1102,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/212",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15554
+                "instanceID": 14248
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -1029,13 +1125,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 11,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/212",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15554
+                "instanceID": 14248
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -1050,13 +1148,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 3,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/000",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15546
+                "instanceID": 16442
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -1071,13 +1171,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 2,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/000",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15546
+                "instanceID": 16442
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -1092,13 +1194,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 18,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/121",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15588
+                "instanceID": 16456
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -1113,13 +1217,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 19,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/121",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15588
+                "instanceID": 16456
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -1134,13 +1240,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 3,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/111",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15584
+                "instanceID": 14256
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -1155,13 +1263,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 3,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/333",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15580
+                "instanceID": 14252
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -1176,13 +1286,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 8,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/000",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15546
+                "instanceID": 16442
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -1197,13 +1309,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/111",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15584
+                "instanceID": 14256
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -1218,13 +1332,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 1,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/333",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15580
+                "instanceID": 14252
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -1239,13 +1355,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 2,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/333",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15580
+                "instanceID": 14252
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -1260,7 +1378,331 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 1,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 14252
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 14248
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 14,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 14252
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 15,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 16442
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 26,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 14256
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 5,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 14248
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 16456
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 21,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 14252
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 4,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 14248
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 5,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 14256
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 11,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 16456
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 1,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 14252
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 1,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 16456
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 3,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 16442
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 2,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         }
     ],
     "CharacterData": [],
@@ -4463,486 +4905,566 @@
     "MonsterSkillData": [
         {
             "Index": 1,
+            "name": "",
             "Damage": 40,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 1,
-            "Enemy": 1
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 2,
+            "name": "",
             "Damage": 60,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 500,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 3,
-            "Enemy": 1
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 3,
+            "name": "",
             "Damage": 80,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 1000,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 3,
-            "Enemy": 1
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 4,
+            "name": "",
             "Damage": 100,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 2000,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 3,
-            "Enemy": 1
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 5,
+            "name": "",
             "Damage": 0,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 120,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 1,
-            "Enemy": 1
+            "Attack": 120,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 6,
+            "name": "",
             "Damage": 0,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 150,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 1,
-            "Enemy": 1
+            "Attack": 150,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 7,
+            "name": "",
             "Damage": 0,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 120,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 3,
-            "Enemy": 1
+            "Attack": 120,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 8,
+            "name": "",
             "Damage": 0,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 150,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 3,
-            "Enemy": 1
+            "Attack": 150,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 9,
+            "name": "",
             "Damage": 0,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 80,
-            "HealHP": 0,
             "TurnCount": 1,
-            "Enemy": 0
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 10,
+            "name": "",
             "Damage": 0,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 50,
-            "HealHP": 0,
             "TurnCount": 1,
-            "Enemy": 0
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 11,
+            "name": "",
             "Damage": 0,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 80,
-            "HealHP": 0,
             "TurnCount": 3,
-            "Enemy": 0
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 12,
+            "name": "",
             "Damage": 0,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 50,
-            "HealHP": 0,
             "TurnCount": 3,
-            "Enemy": 0
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 13,
+            "name": "",
             "Damage": 0,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 10,
             "TurnCount": 3,
-            "Enemy": 0
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 10,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 14,
+            "name": "",
             "Damage": 0,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 20,
             "TurnCount": 3,
-            "Enemy": 0
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 20,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 15,
+            "name": "",
             "Damage": 0,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 30,
             "TurnCount": 3,
-            "Enemy": 0
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 30,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 16,
+            "name": "",
             "Damage": 0,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 50,
             "TurnCount": 3,
-            "Enemy": 0
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 50,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 17,
+            "name": "",
             "Damage": 0,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 20,
             "TurnCount": 1,
-            "Enemy": 0
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 20,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 18,
+            "name": "",
             "Damage": 0,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 50,
             "TurnCount": 1,
-            "Enemy": 0
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 50,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 19,
+            "name": "",
             "Damage": 0,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 100,
             "TurnCount": 1,
-            "Enemy": 0
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 100,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 20,
+            "name": "",
             "Damage": 0,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 30,
             "TurnCount": 1,
-            "Enemy": 0
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 30,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 21,
+            "name": "",
             "Damage": 0,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 50,
             "TurnCount": 1,
-            "Enemy": 0
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 50,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 22,
+            "name": "",
             "Damage": 0,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 80,
-            "HealHP": 0,
             "TurnCount": 1,
-            "Enemy": 0
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 23,
+            "name": "",
             "Damage": 120,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 3,
-            "Enemy": 1
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 24,
+            "name": "",
             "Damage": 500,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 1,
-            "Enemy": 1
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 25,
+            "name": "",
             "Damage": 50,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 1,
-            "Enemy": 2
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 26,
+            "name": "",
             "Damage": 50,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 500,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 3,
-            "Enemy": 2
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 27,
+            "name": "",
             "Damage": 50,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 1000,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 3,
-            "Enemy": 2
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 28,
+            "name": "",
             "Damage": 50,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 2000,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 3,
-            "Enemy": 2
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 29,
+            "name": "",
             "Damage": 50,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 1,
-            "Enemy": 3
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 30,
+            "name": "",
             "Damage": 50,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 500,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 3,
-            "Enemy": 3
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 31,
+            "name": "",
             "Damage": 50,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 1000,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 3,
-            "Enemy": 3
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 32,
+            "name": "",
             "Damage": 50,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 2000,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 3,
-            "Enemy": 3
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 33,
+            "name": "",
             "Damage": 50,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 1,
-            "Enemy": 4
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 34,
+            "name": "",
             "Damage": 50,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 500,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 3,
-            "Enemy": 4
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 35,
+            "name": "",
             "Damage": 50,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 1000,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 3,
-            "Enemy": 4
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 36,
+            "name": "",
             "Damage": 50,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 2000,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 3,
-            "Enemy": 4
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         },
         {
             "Index": 37,
+            "name": "",
             "Damage": 0,
+            "AttackCount": 0,
+            "Targets": 0,
             "Blood": 0,
-            "Attack": 0,
-            "Defense": 0,
-            "HealHP": 0,
             "TurnCount": 0,
-            "Enemy": 0
+            "Attack": 0,
+            "DecreaseDamage": 0,
+            "Self": false,
+            "HealHP": 0,
+            "HeartLink": 0,
+            "DeathLink": 0
         }
     ],
     "my_team": [
         {
-            "img_path": "Monster Dummy/000",
-            "img_for_dialog_path": "",
-            "Img": {
-                "instanceID": 15546
-            },
-            "Img_for_dialog": {
-                "instanceID": 0
-            },
-            "Name": "질퍽이",
-            "HP": 10,
-            "Energe": 5,
-            "Attribute": 1,
-            "ATK": 10,
-            "Type": "몰루?",
-            "Appear": 0,
-            "Upgrade": 0,
-            "Star": 1,
-            "Same": 0,
-            "idx": 0
-        },
-        {
-            "img_path": "Monster Dummy/121",
-            "img_for_dialog_path": "",
-            "Img": {
-                "instanceID": 15588
-            },
-            "Img_for_dialog": {
-                "instanceID": 0
-            },
-            "Name": "잉어킹",
-            "HP": 10,
-            "Energe": 5,
-            "Attribute": 1,
-            "ATK": 10,
-            "Type": "물",
-            "Appear": 0,
-            "Upgrade": 0,
-            "Star": 1,
-            "Same": 0,
-            "idx": 0
-        },
-        {
-            "img_path": "Monster Dummy/121",
-            "img_for_dialog_path": "",
-            "Img": {
-                "instanceID": 15588
-            },
-            "Img_for_dialog": {
-                "instanceID": 0
-            },
-            "Name": "잉어킹",
-            "HP": 10,
-            "Energe": 5,
-            "Attribute": 1,
-            "ATK": 10,
-            "Type": "물",
-            "Appear": 0,
-            "Upgrade": 0,
-            "Star": 1,
-            "Same": 0,
-            "idx": 0
-        },
-        {
-            "img_path": "Monster Dummy/121",
-            "img_for_dialog_path": "",
-            "Img": {
-                "instanceID": 15588
-            },
-            "Img_for_dialog": {
-                "instanceID": 0
-            },
-            "Name": "잉어킹",
-            "HP": 10,
-            "Energe": 5,
-            "Attribute": 1,
-            "ATK": 10,
-            "Type": "물",
-            "Appear": 0,
-            "Upgrade": 0,
-            "Star": 1,
-            "Same": 0,
-            "idx": 0
-        },
-        {
-            "img_path": "Monster Dummy/121",
-            "img_for_dialog_path": "",
-            "Img": {
-                "instanceID": 15588
-            },
-            "Img_for_dialog": {
-                "instanceID": 0
-            },
-            "Name": "잉어킹",
-            "HP": 10,
-            "Energe": 5,
-            "Attribute": 1,
-            "ATK": 10,
-            "Type": "물",
-            "Appear": 0,
-            "Upgrade": 0,
-            "Star": 1,
-            "Same": 0,
-            "idx": 0
-        },
-        {
             "img_path": "Monster Dummy/111",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15584
+                "instanceID": 14256
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -4957,13 +5479,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/111",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15584
+                "instanceID": 14256
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -4978,13 +5502,61 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 16456
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 16456
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/212",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15554
+                "instanceID": 14248
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -4999,13 +5571,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/111",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15584
+                "instanceID": 14256
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -5020,13 +5594,84 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 14256
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 14248
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 14256
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/121",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15588
+                "instanceID": 16456
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -5041,13 +5686,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/333",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15580
+                "instanceID": 14252
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -5062,13 +5709,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         },
         {
             "img_path": "Monster Dummy/212",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15554
+                "instanceID": 14248
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -5083,13 +5732,15 @@
             "Upgrade": 0,
             "Star": 1,
             "Same": 0,
-            "idx": 0
+            "idx": 0,
+            "heartLink": false,
+            "deathLink": false
         }
     ],
     "ui": {
         "money": [],
         "home_img_path": "",
-        "bgm": 0.0,
-        "sfx": 0.0
+        "bgm": -29.558822631835939,
+        "sfx": -35.44117736816406
     }
 }

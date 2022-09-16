@@ -92,8 +92,9 @@ public class Turn : MonoBehaviour
             characterMgr.ColorCondition(skill.playerAttack, i, skillNumber);//캐릭터 상태 이상 색상 표시
             skill.TurnCountText(skillNumber,i);//남은 턴 수 나타내기
             totalDamage += skill.skillAttackDamage(skillNumber,0);//데미지 누적,(스킬 번호, 몬스터 인덱스)
-            //Debug.Log("누적 데미지 "+ totalDamage);
         }
+        totalDamage /= 5;
+        Debug.Log(totalDamage);
         monsterMgr.MonsterBloodDamage(totalDamage,mobHP,0);//몬스터 데미지
         //몬스터 사망여부 확인
         monsterMgr.MonsterDie(0);
@@ -318,15 +319,14 @@ public class Turn : MonoBehaviour
         {
             //퀘스트 시트에서 어떤 몬스터가 등장하고 어떤 스킬을 사용하는지 받아야함
             int mobHitDamage = monsterSkillMgr.monsterSkillDamage(0,1,0);//몬스터 인덱스, 스킬번호, 특수스킬
-            int targets = Data.saveData.MonsterSkillData[0].Targets;//몇명을 공격하는가?
-            Debug.Log("데미지" + mobHitDamage);
+            int targets = Data.saveData.MonsterSkillData[0].Targets+2;//몇명을 공격하는가?
             monsterSkillMgr.MultiAttack(targets,mobHitDamage,0,1);//다수 공격
             monsterText.text = "화염방사";
         }
         if (monster2.activeSelf == true)
         {
             int mobHitDamage = monsterSkillMgr.monsterSkillDamage(1, 2, 0);//몬스터 인덱스, 스킬번호, 특수스킬, 피격 캐릭터 배열
-            int targets = Data.saveData.MonsterSkillData[0].Targets;//몇명을 공격하는가?
+            int targets = Data.saveData.MonsterSkillData[0].Targets+1;//몇명을 공격하는가?
             monsterSkillMgr.MultiAttack(targets, mobHitDamage,1,2);//다수 공격
             monsterText.text = "백만볼트";
         }
@@ -344,8 +344,6 @@ public class Turn : MonoBehaviour
             monsterSkillMgr.MultiAttack(targets, mobHitDamage,3,4);//다수 공격
             monsterText.text = "잠자기";
         }
-
-
     }
 
     // --------------------------------------------------------------
