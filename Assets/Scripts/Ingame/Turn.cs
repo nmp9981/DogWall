@@ -120,7 +120,7 @@ public class Turn : MonoBehaviour
         if (monsterMgr.monsters.Count == 0) // 몬스터가 다 죽었다면 스테이지 증가
         {
             //클리어 여부 확인
-            if (!monsterMgr.StageClear(stageNumber))
+            if (!monsterMgr.StageClear(stageNumber))//아직 클리어를 못함
             {
                 stageNumber += 1;
                 stageText.text = stageNumber.ToString();
@@ -134,9 +134,10 @@ public class Turn : MonoBehaviour
                 else turnNumber = 5;
             }
         }
-
-        turnNumber = 5; // 보스로 턴 전환
-
+        else//몬스터가 아직 살아있다면
+        {
+            turnNumber = 5; // 보스로 턴 전환
+        }
         Invoke("UISetting", 1);
     }
 
@@ -150,16 +151,13 @@ public class Turn : MonoBehaviour
     void UISetting() // 턴 관리 1, 2, 3, 4 - 플레이어 1, 2, 3 ,4    5 -  몬스터 턴
     {
 
-        //characterNameText.text = Data.saveData.CharacterData[teamNumber / 5].Name; // 캐릭터 공격력 & 이름 UI 표시
-        //characterAttackText.text = "Attack : " + Data.saveData.CharacterData[teamNumber/5].Attack;
-
+        characterNameText.text = Data.saveData.my_characterlist[teamNumber / 5].Name; // 캐릭터 공격력 & 이름 UI 표시
+        characterAttackText.text = "Attack : " + Data.saveData.my_characterlist[teamNumber/5].ATK;
 
         skillNumber = playerSkillSelect[turnNumber - 1]; // 저장된 스킬 넘버를 턴에 맞춰서 가져옴
 
-
         if (playerSkillSelect[0] != 0 & playerSkillSelect[1] != 0 & playerSkillSelect[2] != 0 & playerSkillSelect[3] != 0) turnEndButton.SetActive(true);
         else turnEndButton.SetActive(false); // 모든 플레이어의 스킬이 선택 됐다면 턴 넘기기 버튼이 나타남
-
 
 
         skill_1E.SetActive(false); // 스킬선택 이펙트 초기화

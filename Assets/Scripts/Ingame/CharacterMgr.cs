@@ -79,6 +79,10 @@ public class CharacterMgr : MonoBehaviour
         playerFullHP = (Data.saveData.my_characterlist[firstPlayer].HP + Data.saveData.my_characterlist[secondPlayer].HP + Data.saveData.my_characterlist[thirdPlayer].HP + Data.saveData.my_characterlist[fourthPlayer].HP)*1000;
         playerHP = playerFullHP;//처음엔 풀피
 
+        //풀 에너지 설정
+        playerFullEnerge = Data.saveData.my_characterlist[firstPlayer].Energe + Data.saveData.my_characterlist[secondPlayer].Energe + Data.saveData.my_characterlist[thirdPlayer].Energe + Data.saveData.my_characterlist[fourthPlayer].Energe;
+        playerEnerge = playerFullEnerge;//처음엔 풀 에너지
+
         //캐릭터 상태이상 초기상태
         characterCondition1.SetActive(false);
         characterCondition2.SetActive(false);
@@ -104,8 +108,7 @@ public class CharacterMgr : MonoBehaviour
     }
     void PlayerEnergeManage()
     {
-        //playerHP = saveDataClass.list[0].HP;//Json데이너 불러오기
-        //playerEnergeText.text = playerEnerge.ToString("0");//화면에 보이게
+        playerEnergeText.text = playerEnerge.ToString("0");//화면에 보이게
     }
     //플레이어 출혈 데미지
     public void PlayerBloodDamage(int teamIndex,int hitDamage)

@@ -49,10 +49,12 @@ void Start()
 
         //에너지 조건
         int requireEnerge = Data.saveData.SkillData[number].Energe;
-        //if (characterMgr.playerEnerge < requireEnerge) return 0;//스킬 사용 불가, 에너지는 추후 구현
+        if (characterMgr.playerEnerge < requireEnerge) return 0;//스킬 사용 불가
 
         //HP회복
         HealCharacterHP(Data.saveData.SkillData[number].HealHP);
+        //에너지 증감
+        CharacterSkillEnerge(Data.saveData.SkillData[number].Energe);
 
         int playerNumber = number / 5;//플레이어 인덱스
         int playerAttribute = Data.saveData.my_characterlist[playerNumber].Attribute;//플레이어 속성
@@ -74,7 +76,12 @@ void Start()
     //플레이어 HP회복
     void HealCharacterHP(int amountHP)
     {
-        Mathf.Min(characterMgr.playerHP + amountHP,characterMgr.playerFullHP);
+        characterMgr.playerHP = Mathf.Max(Mathf.Min(characterMgr.playerHP + amountHP,characterMgr.playerFullHP),0);
+    }
+    //캐릭터 에너지 증감
+    void CharacterSkillEnerge(int amountEnerge)
+    {
+        characterMgr.playerEnerge = Mathf.Max(Mathf.Min(characterMgr.playerEnerge + amountEnerge, characterMgr.playerFullEnerge),0);
     }
     //턴 초기화
     public void InitTurn(int number)
@@ -166,5 +173,3 @@ public class CustomIEnumeratorType1 : CustomYieldInstruction{
         } 
     } 
 }
-
-

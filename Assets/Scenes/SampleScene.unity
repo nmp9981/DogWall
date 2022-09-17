@@ -5067,6 +5067,7 @@ MonoBehaviour:
   secondCharacterTurn: {fileID: 1786363131}
   thirdCharacterTurn: {fileID: 174964453}
   fourthCharacterTurn: {fileID: 1313448657}
+  monsterDefense: 100
 --- !u!1 &1124512540
 GameObject:
   m_ObjectHideFlags: 0
