@@ -37,20 +37,7 @@ public class CharacterMgr : MonoBehaviour
 
     public Text playerHPText;//플레이어 HP텍스트
     public Text playerEnergeText;//플레이어 에너지 텍스트
-    /*
-    //캐릭터 배열 선언 
-    public static List<characterInfo> characterList = new List<characterInfo>
-    {
-        new characterInfo("INTJ",8100,13000,27,1,1,"1단계"),
-        new characterInfo("ENFP",7200,15000,28,1,2,"2단계"),
-        new characterInfo("ENFJ",8000,11500,33,2,2,"3단계"),
-        new characterInfo("ISFJ",7700,11500,30,3,1,"4단계"),
-        new characterInfo("INFP",8400,12500,25,0,3,"5단계"),
-        new characterInfo("INTP",8800,10500,24,4,3,"6단계"),
-        new characterInfo("ESFP",9000,8500,11,0,1,"7단계"),
-        new characterInfo("ESTJ",5200,18000,18,2,3,"8단계")
-    };
-    */
+    
     //캐릭터 상태 이상
     public GameObject characterCondition1;
     public GameObject characterCondition2;
@@ -102,7 +89,6 @@ public class CharacterMgr : MonoBehaviour
         characterConditionImage2 = characterCondition2.GetComponent<Image>();
         characterConditionImage3 = characterCondition3.GetComponent<Image>();
         characterConditionImage4 = characterCondition4.GetComponent<Image>();
-
     }
 
     // Update is called once per frame
@@ -139,16 +125,11 @@ public class CharacterMgr : MonoBehaviour
         playerHP = Mathf.Max(playerHP - mobBloodDamage, 0);
     }
     //플레이어 체력 체크
-    public bool IsPlayerDie()
+    public void PlayerDie()
     {
         if (playerHP <= 0)
         {
             SceneManager.LoadScene("Home");//홈으로
-            return true;
-        }
-        else
-        {
-            return false;
         }
     }
     //속성체크(몹<->캐릭터)

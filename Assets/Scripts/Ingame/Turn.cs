@@ -344,6 +344,8 @@ public class Turn : MonoBehaviour
             monsterSkillMgr.MultiAttack(targets, mobHitDamage,3,4);//다수 공격
             monsterText.text = "잠자기";
         }
+        //캐릭터가 죽었는가?
+        characterMgr.PlayerDie();
     }
 
     // --------------------------------------------------------------

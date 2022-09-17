@@ -78,6 +78,7 @@ public class MonsterMgr : MonoBehaviour
             {
                 InitMonster(monstersIndex);//다음 몬스터
                 turn.monsterSet();//몬스터 재배치
+                currentMonsterHP[index] = monsterFullHP[index];//몬스터는 처음에 풀피
             }
             else
             {
