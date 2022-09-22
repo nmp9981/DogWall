@@ -287,3 +287,13 @@ public class SaveDataClass
             }
     }
 }
+
+public class StageInfo{
+    public int appear;
+    public int episode;
+    public int quest;
+    public int stage;
+    public int difficulty;
+    public int type;
+    public string character;
+}

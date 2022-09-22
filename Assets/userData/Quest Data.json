@@ -1,0 +1,1433 @@
+[
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 1,
+     "Type": 1,
+     "Character": "지방 포졸"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 1,
+     "Type": 2,
+     "Character": "지방 포졸"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 1,
+     "Type": 3,
+     "Character": "지방 포졸"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 2,
+     "Type": 1,
+     "Character": "지방 포졸"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 2,
+     "Type": 2,
+     "Character": "지방 포졸"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 2,
+     "Type": 3,
+     "Character": "지방 포졸"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 1,
+     "Character": "지방 포졸"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 2,
+     "Character": "지방 포졸"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "지방 포졸"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 1,
+     "Stage": 2,
+     "Difficulty": 1,
+     "Type": 1,
+     "Character": "날뛰는 영혼"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 1,
+     "Stage": 2,
+     "Difficulty": 1,
+     "Type": 1,
+     "Character": "날뛰는 영혼"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 1,
+     "Stage": 2,
+     "Difficulty": 2,
+     "Type": 1,
+     "Character": "날뛰는 영혼"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 1,
+     "Stage": 2,
+     "Difficulty": 2,
+     "Type": 1,
+     "Character": "날뛰는 영혼"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 1,
+     "Stage": 2,
+     "Difficulty": 3,
+     "Type": 1,
+     "Character": "날뛰는 영혼"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 1,
+     "Stage": 2,
+     "Difficulty": 3,
+     "Type": 1,
+     "Character": "날뛰는 영혼"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 1,
+     "Type": 1,
+     "Character": "폭주하는 영술사"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 2,
+     "Type": 1,
+     "Character": "폭주하는 영술사"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 3,
+     "Type": 1,
+     "Character": "폭주하는 영술사"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 1,
+     "Type": 5,
+     "Character": "미지의 존재 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 1,
+     "Type": 5,
+     "Character": "미지의 존재 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 1,
+     "Type": 5,
+     "Character": "미지의 존재 (3)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 2,
+     "Type": 5,
+     "Character": "미지의 존재 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 2,
+     "Type": 5,
+     "Character": "미지의 존재 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 2,
+     "Type": 5,
+     "Character": "미지의 존재 (3)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 5,
+     "Character": "미지의 존재 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 5,
+     "Character": "미지의 존재 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 5,
+     "Character": "미지의 존재 (3)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 2,
+     "Stage": 2,
+     "Difficulty": 1,
+     "Type": 1,
+     "Character": "영혼에 사로잡힌 영술사"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 2,
+     "Stage": 2,
+     "Difficulty": 2,
+     "Type": 1,
+     "Character": "영혼에 사로잡힌 영술사"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 2,
+     "Stage": 2,
+     "Difficulty": 3,
+     "Type": 1,
+     "Character": "영혼에 사로잡힌 영술사"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 2,
+     "Stage": 3,
+     "Difficulty": 1,
+     "Type": 5,
+     "Character": "미지의 공포"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 2,
+     "Stage": 3,
+     "Difficulty": 2,
+     "Type": 5,
+     "Character": "미지의 공포"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 2,
+     "Stage": 3,
+     "Difficulty": 3,
+     "Type": 5,
+     "Character": "미지의 공포"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 1,
+     "Difficulty": 1,
+     "Type": 1,
+     "Character": "떠돌이 용병 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 1,
+     "Difficulty": 1,
+     "Type": 1,
+     "Character": "떠돌이 용병 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 1,
+     "Difficulty": 2,
+     "Type": 1,
+     "Character": "떠돌이 용병 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 1,
+     "Difficulty": 2,
+     "Type": 1,
+     "Character": "떠돌이 용병 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 1,
+     "Character": "떠돌이 용병 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 1,
+     "Character": "떠돌이 용병 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 2,
+     "Difficulty": 1,
+     "Type": 1,
+     "Character": "떠돌이 용병 (3)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 2,
+     "Difficulty": 2,
+     "Type": 1,
+     "Character": "떠돌이 용병 (3)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 2,
+     "Difficulty": 3,
+     "Type": 1,
+     "Character": "떠돌이 용병 (3)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 3,
+     "Difficulty": 1,
+     "Type": 3,
+     "Character": "떠돌이 용병 (4)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 3,
+     "Difficulty": 1,
+     "Type": 3,
+     "Character": "떠돌이 용병 (4)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 3,
+     "Difficulty": 1,
+     "Type": 3,
+     "Character": "떠돌이 용병 (4)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 3,
+     "Difficulty": 2,
+     "Type": 3,
+     "Character": "떠돌이 용병 (4)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 3,
+     "Difficulty": 2,
+     "Type": 3,
+     "Character": "떠돌이 용병 (4)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 3,
+     "Difficulty": 2,
+     "Type": 3,
+     "Character": "떠돌이 용병 (4)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 3,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "떠돌이 용병 (4)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 3,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "떠돌이 용병 (4)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 3,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "떠돌이 용병 (4)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 4,
+     "Difficulty": 1,
+     "Type": 1,
+     "Character": "지방 영주"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 4,
+     "Difficulty": 1,
+     "Type": 3,
+     "Character": "떠돌이 용병 (5)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 4,
+     "Difficulty": 1,
+     "Type": 3,
+     "Character": "떠돌이 용병 (5)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 4,
+     "Difficulty": 2,
+     "Type": 1,
+     "Character": "지방 영주"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 4,
+     "Difficulty": 2,
+     "Type": 3,
+     "Character": "떠돌이 용병 (5)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 4,
+     "Difficulty": 2,
+     "Type": 3,
+     "Character": "떠돌이 용병 (5)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 4,
+     "Difficulty": 3,
+     "Type": 1,
+     "Character": "지방 영주"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 4,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "떠돌이 용병 (5)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 0,
+     "Quest": 3,
+     "Stage": 4,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "떠돌이 용병 (5)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 1,
+     "Type": 3,
+     "Character": "공격형 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 1,
+     "Type": 3,
+     "Character": "공격형 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 2,
+     "Type": 3,
+     "Character": "공격형 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 2,
+     "Type": 3,
+     "Character": "공격형 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "공격형 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "공격형 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 1,
+     "Stage": 2,
+     "Difficulty": 1,
+     "Type": 3,
+     "Character": "방어형 로봇"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 1,
+     "Stage": 2,
+     "Difficulty": 2,
+     "Type": 3,
+     "Character": "방어형 로봇"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 1,
+     "Stage": 2,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "방어형 로봇"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 1,
+     "Type": 3,
+     "Character": "공격형 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 1,
+     "Type": 3,
+     "Character": "방어형 로봇"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 1,
+     "Type": 3,
+     "Character": "회복형 로봇"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 2,
+     "Type": 3,
+     "Character": "공격형 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 2,
+     "Type": 3,
+     "Character": "방어형 로봇"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 2,
+     "Type": 3,
+     "Character": "회복형 로봇"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "공격형 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "방어형 로봇"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "회복형 로봇"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "폭주하는 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "폭주하는 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "폭주하는 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "폭주하는 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "폭주하는 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "폭주하는 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "폭주하는 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "폭주하는 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "폭주하는 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "폭주하는 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "폭주하는 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "폭주하는 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 2,
+     "Stage": 2,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "행동 대장 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 2,
+     "Stage": 2,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "행동 대장 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 2,
+     "Stage": 2,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "행동 대장 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 1,
+     "Difficulty": 1,
+     "Type": 2,
+     "Character": "공격형 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 1,
+     "Difficulty": 1,
+     "Type": 2,
+     "Character": "공격형 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 1,
+     "Difficulty": 1,
+     "Type": 2,
+     "Character": "공격형 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 1,
+     "Difficulty": 2,
+     "Type": 2,
+     "Character": "공격형 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 1,
+     "Difficulty": 2,
+     "Type": 2,
+     "Character": "공격형 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 1,
+     "Difficulty": 2,
+     "Type": 2,
+     "Character": "공격형 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 2,
+     "Character": "공격형 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 2,
+     "Character": "공격형 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 2,
+     "Character": "공격형 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 2,
+     "Difficulty": 1,
+     "Type": 3,
+     "Character": "완성형 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 2,
+     "Difficulty": 1,
+     "Type": 3,
+     "Character": "완성형 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 2,
+     "Difficulty": 2,
+     "Type": 3,
+     "Character": "완성형 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 2,
+     "Difficulty": 2,
+     "Type": 3,
+     "Character": "완성형 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 2,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "완성형 로봇 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 2,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "완성형 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 3,
+     "Difficulty": 1,
+     "Type": 2,
+     "Character": "폭주하는 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 3,
+     "Difficulty": 1,
+     "Type": 2,
+     "Character": "폭주하는 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 3,
+     "Difficulty": 1,
+     "Type": 3,
+     "Character": "행동 대장 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 3,
+     "Difficulty": 2,
+     "Type": 2,
+     "Character": "폭주하는 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 3,
+     "Difficulty": 2,
+     "Type": 2,
+     "Character": "폭주하는 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 3,
+     "Difficulty": 2,
+     "Type": 3,
+     "Character": "행동 대장 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 3,
+     "Difficulty": 3,
+     "Type": 2,
+     "Character": "폭주하는 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 3,
+     "Difficulty": 3,
+     "Type": 2,
+     "Character": "폭주하는 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 1,
+     "Quest": 3,
+     "Stage": 3,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "행동 대장 로봇 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 1,
+     "Type": 2,
+     "Character": "여우 늑대"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 1,
+     "Type": 2,
+     "Character": "여우 늑대"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 2,
+     "Type": 2,
+     "Character": "여우 늑대"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 2,
+     "Type": 2,
+     "Character": "여우 늑대"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 2,
+     "Character": "여우 늑대"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 1,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 2,
+     "Character": "여우 늑대"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 1,
+     "Stage": 2,
+     "Difficulty": 1,
+     "Type": 3,
+     "Character": "해바라기 사자"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 1,
+     "Stage": 2,
+     "Difficulty": 2,
+     "Type": 3,
+     "Character": "해바라기 사자"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 1,
+     "Stage": 2,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "해바라기 사자"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 1,
+     "Type": 2,
+     "Character": "여우 늑대"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 1,
+     "Type": 2,
+     "Character": "여우 늑대"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 1,
+     "Type": 3,
+     "Character": "해바라기 사자"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 2,
+     "Type": 2,
+     "Character": "여우 늑대"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 2,
+     "Type": 2,
+     "Character": "여우 늑대"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 2,
+     "Type": 3,
+     "Character": "해바라기 사자"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 3,
+     "Type": 2,
+     "Character": "여우 늑대"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 3,
+     "Type": 2,
+     "Character": "여우 늑대"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 1,
+     "Stage": 3,
+     "Difficulty": 3,
+     "Type": 3,
+     "Character": "해바라기 사자"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 1,
+     "Type": 2,
+     "Character": "다리 달린 고등어 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 1,
+     "Type": 2,
+     "Character": "다리 달린 고등어 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 1,
+     "Type": 2,
+     "Character": "다리 달린 고등어 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 2,
+     "Type": 2,
+     "Character": "다리 달린 고등어 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 2,
+     "Type": 2,
+     "Character": "다리 달린 고등어 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 2,
+     "Type": 2,
+     "Character": "다리 달린 고등어 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 2,
+     "Character": "다리 달린 고등어 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 2,
+     "Character": "다리 달린 고등어 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 1,
+     "Difficulty": 3,
+     "Type": 2,
+     "Character": "다리 달린 고등어 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 2,
+     "Difficulty": 1,
+     "Type": 2,
+     "Character": "랩터 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 2,
+     "Difficulty": 1,
+     "Type": 2,
+     "Character": "랩터 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 2,
+     "Difficulty": 2,
+     "Type": 2,
+     "Character": "랩터 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 2,
+     "Difficulty": 2,
+     "Type": 2,
+     "Character": "랩터 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 2,
+     "Difficulty": 3,
+     "Type": 2,
+     "Character": "랩터 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 2,
+     "Difficulty": 3,
+     "Type": 2,
+     "Character": "랩터 (1)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 3,
+     "Difficulty": 1,
+     "Type": 2,
+     "Character": "다리 달린 고등어 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 3,
+     "Difficulty": 1,
+     "Type": 2,
+     "Character": "랩터 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 3,
+     "Difficulty": 1,
+     "Type": 2,
+     "Character": "랩터 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 3,
+     "Difficulty": 2,
+     "Type": 2,
+     "Character": "다리 달린 고등어 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 3,
+     "Difficulty": 2,
+     "Type": 2,
+     "Character": "랩터 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 3,
+     "Difficulty": 2,
+     "Type": 2,
+     "Character": "랩터 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 3,
+     "Difficulty": 3,
+     "Type": 2,
+     "Character": "다리 달린 고등어 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 3,
+     "Difficulty": 3,
+     "Type": 2,
+     "Character": "랩터 (2)"
+    },
+    {
+     "Appear": 0,
+     "Episode": 2,
+     "Quest": 2,
+     "Stage": 3,
+     "Difficulty": 3,
+     "Type": 2,
+     "Character": "랩터 (2)"
+    }
+   ]
