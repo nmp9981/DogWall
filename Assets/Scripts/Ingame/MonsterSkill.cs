@@ -12,6 +12,7 @@ public class MonsterSkill : MonoBehaviour
     CharacterMgr characterMgr;
     MonsterMgr monsterMgr;
     Skill skill;
+    TextUI textUI;
 
     int[,] monsterTurns = new int[4,4];//몬스터 남은 턴수(공격력, 데미지감소, 회복, 출혈)\
     int currentAttack = 0;//현재 공격력
@@ -27,6 +28,7 @@ public class MonsterSkill : MonoBehaviour
         monsterMgr = GameObject.FindWithTag("Monster").GetComponent<MonsterMgr>();//MonsterMgr 스크립트에서 변수 가져오기
         dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
         skill = GameObject.FindWithTag("Skill").GetComponent<Skill>();//Skill 스크립트에서 변수 가져오기
+        textUI = GameObject.FindWithTag("DamageText").GetComponent<TextUI>();//TextUI 스크립트에서 변수 가져오기
     }
     #endregion
 
@@ -58,8 +60,8 @@ public class MonsterSkill : MonoBehaviour
         for(int j = 1; j < countSkill; j++)//countSkill번
         {
             monsterAttackDamage += attackDamage;//공격
-            //공격 텍스트 UI등장
         }
+        textUI.DamageMassage(monsterAttackDamage, countSkill);//공격 텍스트 UI등장
         return monsterAttackDamage;
     }
     //특수 스킬
