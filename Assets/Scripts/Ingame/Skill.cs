@@ -46,6 +46,7 @@ void Start()
     public int skillAttackDamage(int number,int mobIndex)//스킬 번호만 받는다.
     {
         if (Data.saveData.SkillData[number].NotAction == true) return 0;//행동 불능의 경우 스킬 사용 불가
+        //if (Data.saveData.CharacterSkillIndexData[number].NotAction == true) return 0;//에러
 
         //에너지 조건
         int requireEnerge = Data.saveData.SkillData[number].Energe;

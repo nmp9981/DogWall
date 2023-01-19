@@ -30,9 +30,16 @@ public class Turn : MonoBehaviour
     public List<int> playerSkillSelect = new List<int>();
     public bool skillAvailable = false; // 스킬 사용중인지 확인
     public bool firstAttack = true; // 임의로 정한 선제공격 확인용 변수
+    int teamN;//팀번호
     #endregion
     Coroutine longClickCoroutine;
+    CSV_Reader CSVReader;
 
+    void Awake()
+    {
+        List<Dictionary<string, object>> CharacterSkill = CSV_Reader.Read("CharacterSkill"); //캐릭터 스킬 데이터 불러오기
+        List<Dictionary<string, object>> CharacterSkillIndex = CSV_Reader.Read("CharacterSkillIndex"); //캐릭터 스킬 인덱스 데이터 불러오기
+    }
     void Start()
     {
         for (int i = 0; i < 5; i++) playerSkillSelect.Add(0);
@@ -69,7 +76,22 @@ public class Turn : MonoBehaviour
 
     //---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
+    //캐릭터 번호
+    int characNum(int x)
+    {
+        switch (x)
+        {
+            case 0:
+                return characterMgr.firstPlayer;
+            case 1:
+                return characterMgr.secondPlayer;
+            case 2:
+                return characterMgr.thirdPlayer;
+            case 3:
+                return characterMgr.fourthPlayer;
+        }
+        return 0;
+    }
     // 모든 스킬을 선택후 턴 종료시 진행
 
     public void turnEnd()
@@ -87,7 +109,9 @@ public class Turn : MonoBehaviour
             {
                 continue;
             }
-            int skillNumber = teamSelect.selectedTeamNumber[i] * 4 + playerSkillSelect[i] - 1;//스킬의 번호
+
+            teamN = characNum(i);//캐릭터 번호
+            int skillNumber = teamN * 4 + playerSkillSelect[i] - 1;//스킬의 번호
             skill.InitTurn(skillNumber);//턴 초기화
             characterMgr.ColorCondition(skill.playerAttack, i, skillNumber);//캐릭터 상태 이상 색상 표시
             skill.TurnCountText(skillNumber,i);//남은 턴 수 나타내기

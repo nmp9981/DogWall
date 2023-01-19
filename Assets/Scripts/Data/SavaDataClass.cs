@@ -63,6 +63,71 @@ public class PlayerDataClass//캐릭터 DB
     }
 }
 [System.Serializable]
+public class CharacterSkillDataClass//스킬DB
+{
+    public string Character = "";//캐릭터 명
+    public string SkillName = "";//스킬 명
+    public int line = 1;//스킬 순서
+    public int Skill1 = 0;//스킬 인덱스
+    public int Skill2 = 0;//스킬 인덱스
+    public int Skill3 = 0;//스킬 인덱스
+    public int Skill4 = 0;//스킬 인덱스
+    public string Descrition = "";//스킬 설명
+    public int Type = 1;//타입
+    public int Appear = 0;//등장
+
+    public CharacterSkillDataClass(string cn = "로그",string sn = "럭키세븐",int l=0,int s1=0,int s2=0,int s3=0,int s4=0,string des = "",int t=0,int a=0)
+    {
+        this.Character = cn;
+        this.SkillName = sn;
+        this.line = l;
+        this.Skill1 = s1;
+        this.Skill2 = s2;
+        this.Skill3 = s3;
+        this.Skill4 = s4;
+        this.Descrition = des;
+        this.Type = t;
+        this.Appear = a;
+    }
+}
+[System.Serializable]
+public class CharacterSkillIndexDataClass//스킬DB
+{
+    public string Name = "";//이름
+    public int Attack = 0;//공격
+    public int CharacterAttack = 0;//캐릭터 공격력 증가
+    public int DecreaseDamage = 0;//데미지감소
+    public int HealHP = 0;//HP회복
+    public bool Provocation = false;//도발
+    public bool NotAction = false;//행동불능
+    public int HealEnerge = 0;//에너지 회복
+    public int Blood = 0;//출혈
+    public bool AllTargets = false;//전체 공격여부
+    public int TurnCount = 1;//지속 턴수
+    public bool HeartLink = false;//하트 링크 여부
+    public bool DeathLink = false;//데스 링크 여부
+    public int Energy = 1;//에너지 사용량
+
+    public CharacterSkillIndexDataClass(string sn = "럭키세븐", int a = 0, int ca = 0, int dd = 0, int hh = 0, bool p = false, bool na = false, int he = 0, int b = 0,bool allt=false, int tc = 1,bool hli = false,bool dli = false, int e = 1)
+    {
+        this.Name = sn;
+        this.Attack = a;
+        this.CharacterAttack = ca;
+        this.DecreaseDamage = dd;
+        this.HealHP = hh;
+        this.Provocation = p;
+        this.NotAction = na;
+        this.HealEnerge = he;
+        this.Blood = b;
+        this.AllTargets = allt;
+        this.TurnCount = tc;
+        this.HeartLink = hli;
+        this.DeathLink = dli;
+        this.Energy = e;
+    }
+}
+//조만간 지울거
+[System.Serializable]
 public class SkillDataClass//스킬DB
 {
     public string SkillName = "";//이름
@@ -193,6 +258,8 @@ public class SaveDataClass
     public List<Character> my_characterlist;//캐릭터 리스트
     public List<PlayerDataClass> CharacterData;//캐릭터 리스트
     public List<SkillDataClass> SkillData;//스킬 리스트
+    public List<CharacterSkillDataClass> CharacterSkillData;//캐릭터 스킬 리스트
+    public List<CharacterSkillIndexDataClass> CharacterSkillIndexData;//캐릭터 스킬 Index 리스트
     public List<MonsterDataClass> MonsterData;//몬스터 리스트
     public List<BossMonsterDataClass> BossData;//보스몬스터 리스트
     public List<MonsterSkillDataClass> MonsterSkillData;//몬스터 스킬 리스트
@@ -208,6 +275,8 @@ public class SaveDataClass
         for(int i = 0; i < 12; i++)
             my_team.Add(new Character());
         SkillData = new List<SkillDataClass>();
+        CharacterSkillData = new List<CharacterSkillDataClass>();
+        CharacterSkillIndexData = new List<CharacterSkillIndexDataClass>();
         MonsterData = new List<MonsterDataClass>();
         BossData = new List<BossMonsterDataClass>();
         MonsterSkillData = new List<MonsterSkillDataClass>();
