@@ -156,72 +156,72 @@ public class CharacterMgr : MonoBehaviour
         }
     }
     //상태이상별 색상
-    public void ColorCondition(int attack,int index,int skillIndex)
+    public void ColorCondition(int attack,int characNum)
     {
-        switch (index)
+        switch (characNum)
         {
             case 0:
-                if (attack == Data.saveData.my_characterlist[skillIndex / 5].ATK)//변동없음
+                if (attack == Data.saveData.my_characterlist[characNum].ATK)//변동없음
                 {
                     characterCondition1.SetActive(false);
 
-                }else if(attack > Data.saveData.my_characterlist[skillIndex / 5].ATK)//증가
+                }else if(attack > Data.saveData.my_characterlist[characNum].ATK)//증가
                 {
                     characterCondition1.SetActive(true);
                     characterConditionImage1.color = Color.blue;//파란색
                 }
-                else if (attack < Data.saveData.my_characterlist[skillIndex / 5].ATK)//감소
+                else if (attack < Data.saveData.my_characterlist[characNum].ATK)//감소
                 {
                     characterCondition1.SetActive(true);
                     characterConditionImage1.color = Color.red;//빨간색
                 }
                 break;
             case 1:
-                if (attack == Data.saveData.my_characterlist[skillIndex / 5].ATK)//변동없음
+                if (attack == Data.saveData.my_characterlist[characNum].ATK)//변동없음
                 {
                     characterCondition2.SetActive(false);
 
                 }
-                else if (attack > Data.saveData.my_characterlist[skillIndex / 5].ATK)//증가
+                else if (attack > Data.saveData.my_characterlist[characNum].ATK)//증가
                 {
                     characterCondition2.SetActive(true);
                     characterConditionImage2.color = Color.blue;//파란색
                 }
-                else if (attack < Data.saveData.my_characterlist[skillIndex / 5].ATK)//감소
+                else if (attack < Data.saveData.my_characterlist[characNum].ATK)//감소
                 {
                     characterCondition2.SetActive(true);
                     characterConditionImage2.color = Color.red;//빨간색
                 }
                 break;
             case 2:
-                if (attack == Data.saveData.my_characterlist[skillIndex / 5].ATK)//변동없음
+                if (attack == Data.saveData.my_characterlist[characNum].ATK)//변동없음
                 {
                     characterCondition3.SetActive(false);
 
                 }
-                else if (attack > Data.saveData.my_characterlist[skillIndex / 5].ATK)//증가
+                else if (attack > Data.saveData.my_characterlist[characNum].ATK)//증가
                 {
                     characterCondition3.SetActive(true);
                     characterConditionImage3.color = Color.blue;//파란색
                 }
-                else if (attack < Data.saveData.my_characterlist[skillIndex / 5].ATK)//감소
+                else if (attack < Data.saveData.my_characterlist[characNum].ATK)//감소
                 {
                     characterCondition3.SetActive(true);
                     characterConditionImage3.color = Color.red;//빨간색
                 }
                 break;
             case 3:
-                if (attack == Data.saveData.my_characterlist[skillIndex / 5].ATK)//변동없음
+                if (attack == Data.saveData.my_characterlist[characNum].ATK)//변동없음
                 {
                     characterCondition4.SetActive(false);
 
                 }
-                else if (attack > Data.saveData.my_characterlist[skillIndex / 5].ATK)//증가
+                else if (attack > Data.saveData.my_characterlist[characNum].ATK)//증가
                 {
                     characterCondition4.SetActive(true);
                     characterConditionImage4.color = Color.blue;//파란색
                 }
-                else if (attack < Data.saveData.my_characterlist[skillIndex / 5].ATK)//감소
+                else if (attack < Data.saveData.my_characterlist[characNum].ATK)//감소
                 {
                     characterCondition4.SetActive(true);
                     characterConditionImage4.color = Color.red;//빨간색

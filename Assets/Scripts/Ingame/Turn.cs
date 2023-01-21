@@ -24,6 +24,7 @@ public class Turn : MonoBehaviour
     public int turnNumber = 1; // 턴 확인용 변수
     public int totalTurnNumber = 1;
     public int skillNumber = 1;  // 스킬 확인용 변수
+    int skillIndex;//스킬 인덱스(실제 csv에서 적용하는 스킬의 번호)
     public int stageNumber = 1; // 스테이지
     public int skillCount = 0;//스킬을 사용한 캐릭터의 수
     public int mobHP;//몬스터 HP
@@ -31,6 +32,7 @@ public class Turn : MonoBehaviour
     public bool skillAvailable = false; // 스킬 사용중인지 확인
     public bool firstAttack = true; // 임의로 정한 선제공격 확인용 변수
     int teamN;//팀번호
+    public int isAllTarget;//전체 공격 여부
     #endregion
     Coroutine longClickCoroutine;
     CSV_Reader CSVReader;
@@ -100,26 +102,39 @@ public class Turn : MonoBehaviour
         //스킬계산
         totalDamage = 0;//초기화
         //4개의 스킬
-        for(int i = 0; i < 4; i++)
+        for (int i = 0; i < 4; i++)
         {
+            isAllTarget = 0;//단일 공격
             if (playerSkillSelect[i] == 4)//필살기
             {
                 //필살기 애니메이션 재생
-            }else if (playerSkillSelect[i] == 5)//스킵 버튼
+            }
+            else if (playerSkillSelect[i] == 5)//스킵 버튼
             {
                 continue;
             }
 
             teamN = characNum(i);//캐릭터 번호
-            int skillNumber = teamN * 4 + playerSkillSelect[i] - 1;//스킬의 번호
-            skill.InitTurn(skillNumber);//턴 초기화
-            characterMgr.ColorCondition(skill.playerAttack, i, skillNumber);//캐릭터 상태 이상 색상 표시
-            skill.TurnCountText(skillNumber,i);//남은 턴 수 나타내기
-            totalDamage += skill.skillAttackDamage(skillNumber,0);//데미지 누적,(스킬 번호, 몬스터 인덱스)
+            skillIndex = teamN * 4 + playerSkillSelect[i] - 1;//스킬의 번호
+            skill.InitTurn(skillIndex, i);//턴 초기화
+            characterMgr.ColorCondition(skill.playerAttack, teamN);//캐릭터 상태 이상 색상 표시
+            skill.TurnCountText(skillIndex, i);//남은 턴 수 나타내기
+            totalDamage = skill.skillAttackDamage(skillIndex, teamN, i, 0);//데미지,(스킬 번호,사용 캐릭터,캐릭터 인덱스, 몬스터 인덱스)
+            Debug.Log(totalDamage);
+
+            //공격하기
+            if (isAllTarget == 1)//전체 공격
+            {
+                for(int j = 0; j < monsterMgr.monsters.Count; j++)
+                {
+                    monsterMgr.MonsterBloodDamage(totalDamage, mobHP, j);//몬스터 데미지
+                }
+            }
+            else//단일 공격
+            {
+                monsterMgr.MonsterBloodDamage(totalDamage, mobHP, 0);//몬스터 데미지
+            }
         }
-        totalDamage /= 5;
-        Debug.Log(totalDamage);
-        monsterMgr.MonsterBloodDamage(totalDamage,mobHP,0);//몬스터 데미지
         //몬스터 사망여부 확인
         monsterMgr.MonsterDie(0);
 

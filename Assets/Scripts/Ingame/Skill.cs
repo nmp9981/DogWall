@@ -13,7 +13,7 @@ public class Skill : MonoBehaviour
     MonsterMgr monsterMgr;
     MonsterSkill monsterSkill;
 
-    public int[,] SkillCharacterTurnMatrix = new int[160, 40];//스킬-캐릭터간 남은 턴 수 배열 
+    public int[,] SkillCharacterTurnMatrix = new int[250, 4];//스킬-캐릭터간 남은 턴 수 배열 
     public int playerAttack;//플레이어 공격력
     public Queue mobProvocation = new Queue();//몬스터 도발
 
@@ -43,7 +43,7 @@ void Start()
 
     }
     //플레이어->몬스터 데미지
-    public int skillAttackDamage(int number,int mobIndex)//스킬 번호만 받는다.
+    public int skillAttackDamage(int number,int playerNumber,int playIndex, int mobIndex)//스킬 번호, 사용 캐릭터,캐릭터 인덱스, 대상 몬스터
     {
         if (Data.saveData.SkillData[number].NotAction == true) return 0;//행동 불능의 경우 스킬 사용 불가
         //if (Data.saveData.CharacterSkillIndexData[number].NotAction == true) return 0;//에러
@@ -52,12 +52,6 @@ void Start()
         int requireEnerge = Data.saveData.SkillData[number].Energe;
         if (characterMgr.playerEnerge < requireEnerge) return 0;//스킬 사용 불가
 
-        //HP회복
-        HealCharacterHP(Data.saveData.SkillData[number].HealHP);
-        //에너지 증감
-        CharacterSkillEnerge(Data.saveData.SkillData[number].Energe);
-
-        int playerNumber = number / 5;//플레이어 인덱스
         int playerAttribute = Data.saveData.my_characterlist[playerNumber].Attribute;//플레이어 속성
         int monsterAttribute = Data.saveData.MonsterData[0].Attribute;//몬스터 속성
         monsterDefense = 100;//몬스터 방어력
@@ -65,8 +59,10 @@ void Start()
         playerAttack = Data.saveData.my_characterlist[playerNumber].ATK*4000;//캐릭터 초기 공격력
         int skillPercentDamage = Data.saveData.SkillData[number].Attack;//스킬 퍼센테이지
 
+        //전체 공격 여부
+        //if (Data.saveData.CharacterSkillIndexData[number].AllTargets == 1) turn.isAllTarget = true;
         //턴 기반 버프
-        TurnBuff(SkillCharacterTurnMatrix[number, playerNumber], number,mobIndex);//남은 턴 수를 넣는다
+        TurnBuff(playIndex, number,mobIndex);//남은 턴 수를 넣는다
 
         int baseSkillDamage = playerAttack * skillPercentDamage / 100;//기본 스킬데미지
         int attributeSkillDamage = (baseSkillDamage * attributeDamage) / 100;//속성까지 
@@ -85,21 +81,26 @@ void Start()
         characterMgr.playerEnerge = Mathf.Max(Mathf.Min(characterMgr.playerEnerge + amountEnerge, characterMgr.playerFullEnerge),0);
     }
     //턴 초기화
-    public void InitTurn(int number)
+    public void InitTurn(int number,int characterIndex)
     {
         //턴 초기화
-        if (SkillCharacterTurnMatrix[number, number / 4] == 0)
+        if (SkillCharacterTurnMatrix[number, characterIndex] == 0)
         {
-            SkillCharacterTurnMatrix[number, number / 4] = Data.saveData.SkillData[number].TurnCount;
+            SkillCharacterTurnMatrix[number, characterIndex] = Data.saveData.SkillData[number].TurnCount;
         }
     }
     //턴 기반 버프
-    void TurnBuff(int turnCount,int number,int mobIndex)//남은 턴 수, 위치
+    void TurnBuff(int playIndex,int number,int mobIndex)//남은 턴 수, 위치
     {
+        int turnCount = SkillCharacterTurnMatrix[number, playIndex];//남은 턴 수
         if (turnCount < 1) return;//턴 수를 모두 소모
         
-        SkillCharacterTurnMatrix[number, number / 4] -= 1;//턴 횟수 소모
+        SkillCharacterTurnMatrix[number, playIndex] -= 1;//턴 횟수 소모
 
+        //에너지 증가
+        CharacterSkillEnerge(Data.saveData.SkillData[number].Energe);
+        //HP증가
+        HealCharacterHP(Data.saveData.SkillData[number].HealHP);
         //공격력
         playerAttack = playerAttack * Data.saveData.SkillData[number].Attack/100;
         //피격데미지
@@ -119,10 +120,10 @@ void Start()
         switch (index)
         {
             case 0:
-                if(SkillCharacterTurnMatrix[number, number / 5] > 0)
+                if(SkillCharacterTurnMatrix[number, index] > 0)
                 {
                     characterMgr.characterCondition1.SetActive(true);
-                    firstCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 5].ToString();
+                    firstCharacterTurn.text = SkillCharacterTurnMatrix[number, index].ToString();
                 }
                 else
                 {
@@ -130,10 +131,10 @@ void Start()
                 }
                 break;
             case 1:
-                if (SkillCharacterTurnMatrix[number, number / 5] > 0)
+                if (SkillCharacterTurnMatrix[number, index] > 0)
                 {
                     characterMgr.characterCondition2.SetActive(true);
-                    secondCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 5].ToString();
+                    secondCharacterTurn.text = SkillCharacterTurnMatrix[number, index].ToString();
                 }
                 else
                 {
@@ -141,10 +142,10 @@ void Start()
                 }
                 break;
             case 2:
-                if (SkillCharacterTurnMatrix[number, number / 5] > 0)
+                if (SkillCharacterTurnMatrix[number, index] > 0)
                 {
                     characterMgr.characterCondition3.SetActive(true);
-                    thirdCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 5].ToString();
+                    thirdCharacterTurn.text = SkillCharacterTurnMatrix[number, index].ToString();
                 }
                 else
                 {
@@ -152,10 +153,10 @@ void Start()
                 }
                 break;
             case 3:
-                if (SkillCharacterTurnMatrix[number, number / 5] > 0)
+                if (SkillCharacterTurnMatrix[number, index] > 0)
                 {
                     characterMgr.characterCondition4.SetActive(true);
-                    fourthCharacterTurn.text = SkillCharacterTurnMatrix[number, number / 5].ToString();
+                    fourthCharacterTurn.text = SkillCharacterTurnMatrix[number, index].ToString();
                 }
                 else
                 {
