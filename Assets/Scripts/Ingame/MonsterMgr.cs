@@ -12,7 +12,8 @@ public class MonsterMgr : MonoBehaviour
     Skill skill;
     Turn turn;
     public Text stageText;//스테이지 번호
-    public List<MonsterDataClass> monsters = new List<MonsterDataClass>();//출현 몬스터
+    public List<MonsterDataClass> monsters = new List<MonsterDataClass>();//출현 몬스터(삭제 예정)
+    public List<MonstersDataClass> stageMonster = new List<MonstersDataClass>();//출현 몬스터
 
     public List<int> monsterFullHP = new List<int>();//몬스터 전체 체력
     public List<int> currentMonsterHP = new List<int>();//몬스터 현재 체력
@@ -20,7 +21,15 @@ public class MonsterMgr : MonoBehaviour
     public int monsterAttribute;//몬스터 속성
 
     public int monstersIndex = 0;//몬스터 인덱스
-   
+    CSV_Reader CSVReader;
+    List<Dictionary<string, object>> MonstersData;//몬스터 데이터
+    List<Dictionary<string, object>> MonsterSkillNormal;//일반 스킬
+
+    void Awake()
+    {
+        MonstersData = CSV_Reader.Read("MonsterData"); //몬스터 데이터 불러오기
+        MonsterSkillNormal = CSV_Reader.Read("MonsterSkill"); //몬스터 일반 스킬 데이터 불러오기
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -50,6 +59,7 @@ public class MonsterMgr : MonoBehaviour
         for (int i = 0; i < mobCount; i++)
         {
             monsters.Add(Data.saveData.MonsterData[0]);//등장 몹은 서로 다름
+            //stageMonster.Add(MonstersData[1]["World"],MonstersData[1]["Character"],MonstersData[1]["Difficulty"],MonstersData[1]["Hp"], MonstersData[1]["Atk"]);
             skill.mobProvocation.Clear();//몬스터 도발 초기화
         }
     }
@@ -64,9 +74,9 @@ public class MonsterMgr : MonoBehaviour
         monsterAttribute = monsters[index].Attribute;//몬스터 속성
     }
     //출혈 데미지 계산
-    public void MonsterBloodDamage(int hitDamage,int HP,int index)
+    public void MonsterBloodDamage(int hitDamage,int index)
     {
-        currentMonsterHP[index] = Mathf.Max(HP - hitDamage, 0);
+        currentMonsterHP[index] = Mathf.Max(currentMonsterHP[index] - hitDamage, 0);
     }
     //몬스터가 죽었는가?
     public void MonsterDie(int index)

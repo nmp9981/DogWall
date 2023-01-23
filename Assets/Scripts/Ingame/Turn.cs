@@ -36,11 +36,13 @@ public class Turn : MonoBehaviour
     #endregion
     Coroutine longClickCoroutine;
     CSV_Reader CSVReader;
+    List<Dictionary<string, object>> CharacterSkill;//캐릭터 스킬
+    List<Dictionary<string, object>> CharacterSkillIndex;//캐릭터 스킬 인덱스
 
     void Awake()
     {
-        List<Dictionary<string, object>> CharacterSkill = CSV_Reader.Read("CharacterSkill"); //캐릭터 스킬 데이터 불러오기
-        List<Dictionary<string, object>> CharacterSkillIndex = CSV_Reader.Read("CharacterSkillIndex"); //캐릭터 스킬 인덱스 데이터 불러오기
+        CharacterSkill = CSV_Reader.Read("CharacterSkill"); //캐릭터 스킬 데이터 불러오기
+        CharacterSkillIndex = CSV_Reader.Read("CharacterSkillIndex"); //캐릭터 스킬 인덱스 데이터 불러오기
     }
     void Start()
     {
@@ -98,7 +100,7 @@ public class Turn : MonoBehaviour
 
     public void turnEnd()
     {
-        mobHP = monsterMgr.currentMonsterHP[0];//임의의 몬스터 HP 설정
+        //mobHP = monsterMgr.currentMonsterHP[0];//임의의 몬스터 HP 설정
         //스킬계산
         totalDamage = 0;//초기화
         //4개의 스킬
@@ -127,12 +129,12 @@ public class Turn : MonoBehaviour
             {
                 for(int j = 0; j < monsterMgr.monsters.Count; j++)
                 {
-                    monsterMgr.MonsterBloodDamage(totalDamage, mobHP, j);//몬스터 데미지
+                    monsterMgr.MonsterBloodDamage(totalDamage, j);//몬스터 데미지
                 }
             }
             else//단일 공격
             {
-                monsterMgr.MonsterBloodDamage(totalDamage, mobHP, 0);//몬스터 데미지
+                monsterMgr.MonsterBloodDamage(totalDamage, 0);//몬스터 데미지
             }
         }
         //몬스터 사망여부 확인
@@ -355,8 +357,9 @@ public class Turn : MonoBehaviour
         if (monster1.activeSelf == true) // 몬스터가 살아있으면 턴을 진행
         {
             //퀘스트 시트에서 어떤 몬스터가 등장하고 어떤 스킬을 사용하는지 받아야함
+            //int sk = monsterMgr.stageMonster[1].turn0_Ger1;
             int mobHitDamage = monsterSkillMgr.monsterSkillDamage(0,1,0);//몬스터 인덱스, 스킬번호, 특수스킬
-            int targets = Data.saveData.MonsterSkillData[0].Targets+2;//몇명을 공격하는가?
+            int targets = Data.saveData.MonsterSkillData[0].Targets+2;//몬스터가 캐릭터를 몇명 공격하는가?
             monsterSkillMgr.MultiAttack(targets,mobHitDamage,0,1);//다수 공격
             monsterText.text = "화염방사";
         }
