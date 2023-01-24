@@ -14,7 +14,8 @@ public class MonsterSkill : MonoBehaviour
     Skill skill;
     TextUI textUI;
 
-    int[,] monsterTurns = new int[4,4];//몬스터 남은 턴수(공격력, 데미지감소, 회복, 출혈)\
+    public List<Queue<int>> MonsterSkillQueue;//몬스터 스킬 큐
+    int[,] monsterTurns = new int[4,4];//몬스터 남은 턴수(공격력, 데미지감소, 회복, 출혈)
     int currentAttack = 0;//현재 공격력
     int increaseAttack = 100;//공격력 증가량
 
@@ -32,6 +33,37 @@ public class MonsterSkill : MonoBehaviour
     }
     #endregion
 
+    //몬스터 일반 스킬 세팅
+    public void monsterNormalSkillSet()
+    {
+        for(int i = 0; i < monsterMgr.MonsterNum.Count; i++)//각 몬스터의 스킬을 큐에 넣기
+        {
+            int MobSkillIndex01 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn0_general1"];
+            int MobSkillIndex02 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn0_general2"];
+            int MobSkillIndex11 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn1_general1"];
+            int MobSkillIndex12 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn1_general2"];
+            int MobSkillIndex21 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn2_general1"];
+            int MobSkillIndex22 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn2_general2"];
+            int MobSkillIndex31 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn3_general1"];
+            int MobSkillIndex32 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn3_general2"];
+            int MobSkillIndex41 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn4_general1"];
+            int MobSkillIndex42 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn4_general2"];
+            int MobSkillIndex51 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn5_general1"];
+            int MobSkillIndex52 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn5_general2"];
+            MonsterSkillQueue[i].Enqueue(MobSkillIndex01);
+            MonsterSkillQueue[i].Enqueue(MobSkillIndex02);
+            MonsterSkillQueue[i].Enqueue(MobSkillIndex11);
+            MonsterSkillQueue[i].Enqueue(MobSkillIndex12);
+            MonsterSkillQueue[i].Enqueue(MobSkillIndex21);
+            MonsterSkillQueue[i].Enqueue(MobSkillIndex22);
+            MonsterSkillQueue[i].Enqueue(MobSkillIndex31);
+            MonsterSkillQueue[i].Enqueue(MobSkillIndex32);
+            MonsterSkillQueue[i].Enqueue(MobSkillIndex41);
+            MonsterSkillQueue[i].Enqueue(MobSkillIndex42);
+            MonsterSkillQueue[i].Enqueue(MobSkillIndex51);
+            MonsterSkillQueue[i].Enqueue(MobSkillIndex52);
+        }
+    }
     //몬스터->플레이어(몬스터 인덱스, 스킬번호를 받아서 진행)
     public int monsterSkillDamage(int mobIndex,int mobSkillNumber,int specialSkillNum)//몬스터 번호, 몬스터 스킬번호, 특수 스킬번호
     {

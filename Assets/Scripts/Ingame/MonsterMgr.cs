@@ -9,9 +9,11 @@ public class MonsterMgr : MonoBehaviour
     Data_Manager dataManager;
     private DataManager Data;
     CharacterMgr characterMgr;
+    MonsterSkill monsterSkillMgr;
     Skill skill;
     Turn turn;
     public Text stageText;//스테이지 번호
+    public List<int> MonsterNum;//출현 몬스터 번호
     public List<MonsterDataClass> monsters = new List<MonsterDataClass>();//출현 몬스터(삭제 예정)
     public List<MonstersDataClass> stageMonster = new List<MonstersDataClass>();//출현 몬스터
 
@@ -22,7 +24,7 @@ public class MonsterMgr : MonoBehaviour
 
     public int monstersIndex = 0;//몬스터 인덱스
     CSV_Reader CSVReader;
-    List<Dictionary<string, object>> MonstersData;//몬스터 데이터
+    public List<Dictionary<string, object>> MonstersData;//몬스터 데이터
     List<Dictionary<string, object>> MonsterSkillNormal;//일반 스킬
 
     void Awake()
@@ -37,8 +39,9 @@ public class MonsterMgr : MonoBehaviour
         characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
         turn = GameObject.FindWithTag("TurnMgr").GetComponent<Turn>();//Trun 스크립트에서 변수 가져오기
         skill = GameObject.FindWithTag("Skill").GetComponent<Skill>();//Skill 스크립트에서 변수 가져오기
+        monsterSkillMgr = GameObject.FindWithTag("MonsterSkill").GetComponent<MonsterSkill>();//MonsterSkill 스크립트에서 변수 가져오기
         //dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
-        
+
         MonsterSetting();//몬스터 리젠
         InitMonster(monstersIndex);//초기 몬스터 세팅
         turn.monsterSet(); // 몬스터 배치
@@ -53,15 +56,18 @@ public class MonsterMgr : MonoBehaviour
     public void MonsterSetting()
     {
         int mobCount = Random.Range(1, 5);
+        MonsterNum.Clear();//출현 몬스터 번호 초기화
         monsters.Clear();//초기화
         monsterFullHP.Clear();
         currentMonsterHP.Clear();
         for (int i = 0; i < mobCount; i++)
         {
             monsters.Add(Data.saveData.MonsterData[0]);//등장 몹은 서로 다름
+            MonsterNum.Add(i);//몬스터 번호 담기
             //stageMonster.Add(MonstersData[1]["World"],MonstersData[1]["Character"],MonstersData[1]["Difficulty"],MonstersData[1]["Hp"], MonstersData[1]["Atk"]);
             skill.mobProvocation.Clear();//몬스터 도발 초기화
         }
+        monsterSkillMgr.monsterNormalSkillSet();//몬스터 스킬 세팅
     }
     public void InitMonster(int index)
     {
