@@ -14,7 +14,7 @@ public class MonsterSkill : MonoBehaviour
     Skill skill;
     TextUI textUI;
 
-    public List<Queue<int>> MonsterSkillQueue;//몬스터 스킬 큐
+    public int[,] MonsterSkillList = new int[4,12];//몬스터 스킬 목록
     int[,] monsterTurns = new int[4,4];//몬스터 남은 턴수(공격력, 데미지감소, 회복, 출혈)
     int currentAttack = 0;//현재 공격력
     int increaseAttack = 100;//공격력 증가량
@@ -38,35 +38,30 @@ public class MonsterSkill : MonoBehaviour
     {
         for(int i = 0; i < monsterMgr.MonsterNum.Count; i++)//각 몬스터의 스킬을 큐에 넣기
         {
-            int MobSkillIndex01 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn0_general1"];
-            int MobSkillIndex02 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn0_general2"];
-            int MobSkillIndex11 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn1_general1"];
-            int MobSkillIndex12 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn1_general2"];
-            int MobSkillIndex21 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn2_general1"];
-            int MobSkillIndex22 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn2_general2"];
-            int MobSkillIndex31 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn3_general1"];
-            int MobSkillIndex32 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn3_general2"];
-            int MobSkillIndex41 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn4_general1"];
-            int MobSkillIndex42 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn4_general2"];
-            int MobSkillIndex51 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn5_general1"];
-            int MobSkillIndex52 = (int)monsterMgr.MonstersData[turn.monster1Num]["turn5_general2"];
-            MonsterSkillQueue[i].Enqueue(MobSkillIndex01);
-            MonsterSkillQueue[i].Enqueue(MobSkillIndex02);
-            MonsterSkillQueue[i].Enqueue(MobSkillIndex11);
-            MonsterSkillQueue[i].Enqueue(MobSkillIndex12);
-            MonsterSkillQueue[i].Enqueue(MobSkillIndex21);
-            MonsterSkillQueue[i].Enqueue(MobSkillIndex22);
-            MonsterSkillQueue[i].Enqueue(MobSkillIndex31);
-            MonsterSkillQueue[i].Enqueue(MobSkillIndex32);
-            MonsterSkillQueue[i].Enqueue(MobSkillIndex41);
-            MonsterSkillQueue[i].Enqueue(MobSkillIndex42);
-            MonsterSkillQueue[i].Enqueue(MobSkillIndex51);
-            MonsterSkillQueue[i].Enqueue(MobSkillIndex52);
+            int MobSkillIndex01 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn0_general1"];
+            int MobSkillIndex02 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn0_general2"];
+            int MobSkillIndex11 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn1_general1"];
+            int MobSkillIndex12 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn1_general2"];
+            int MobSkillIndex21 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn2_general1"];
+            int MobSkillIndex22 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn2_general2"];
+            int MobSkillIndex31 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn3_general1"];
+            int MobSkillIndex32 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn3_general2"];
+            //int MobSkillIndex41 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn4_general1"];
+            //int MobSkillIndex42 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn4_general2"];
+            //int MobSkillIndex51 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn5_general1"];
+            //int MobSkillIndex52 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn5_general2"];
+            MonsterSkillList[i,0] = MobSkillIndex01; MonsterSkillList[i, 1] = MobSkillIndex02;
+            MonsterSkillList[i, 2] = MobSkillIndex11; MonsterSkillList[i, 3] = MobSkillIndex12;
+            MonsterSkillList[i, 4] = MobSkillIndex21; MonsterSkillList[i, 5] = MobSkillIndex22;
+            MonsterSkillList[i, 6] = MobSkillIndex31; MonsterSkillList[i, 7] = MobSkillIndex32;
+            //MonsterSkillList[i, 8] = MobSkillIndex41; MonsterSkillList[i, 9] = MobSkillIndex42;
+            //MonsterSkillList[i, 10] = MobSkillIndex51; MonsterSkillList[i, 11] = MobSkillIndex52;
         }
     }
     //몬스터->플레이어(몬스터 인덱스, 스킬번호를 받아서 진행)
     public int monsterSkillDamage(int mobIndex,int mobSkillNumber,int specialSkillNum)//몬스터 번호, 몬스터 스킬번호, 특수 스킬번호
     {
+        mobSkillNumber = Random.Range(0, 4);//임시, 몬스터 스킬 번호
         //특수 스킬인가?
         if (specialSkillNum > 0)
         {
@@ -169,7 +164,8 @@ public class MonsterSkill : MonoBehaviour
     //몬스터 턴 초기화
     void TurnBuffInit(int mobIndex,int mobSkillNumber)
     {
-        int turnCounts = Data.saveData.MonsterSkillData[mobSkillNumber].TurnCount;//턴 수
+        //int turnCounts = Data.saveData.MonsterSkillData[mobSkillNumber].TurnCount;//턴 수
+        int turnCounts = (int)monsterMgr.MonsterSkillNormal[mobSkillNumber]["Targets"];//턴 수
         if (turnCounts > 0)
         {
             //공격력

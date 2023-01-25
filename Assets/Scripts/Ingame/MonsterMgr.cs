@@ -25,7 +25,7 @@ public class MonsterMgr : MonoBehaviour
     public int monstersIndex = 0;//몬스터 인덱스
     CSV_Reader CSVReader;
     public List<Dictionary<string, object>> MonstersData;//몬스터 데이터
-    List<Dictionary<string, object>> MonsterSkillNormal;//일반 스킬
+    public List<Dictionary<string, object>> MonsterSkillNormal;//일반 스킬
 
     void Awake()
     {
@@ -64,7 +64,6 @@ public class MonsterMgr : MonoBehaviour
         {
             monsters.Add(Data.saveData.MonsterData[0]);//등장 몹은 서로 다름
             MonsterNum.Add(i);//몬스터 번호 담기
-            //stageMonster.Add(MonstersData[1]["World"],MonstersData[1]["Character"],MonstersData[1]["Difficulty"],MonstersData[1]["Hp"], MonstersData[1]["Atk"]);
             skill.mobProvocation.Clear();//몬스터 도발 초기화
         }
         monsterSkillMgr.monsterNormalSkillSet();//몬스터 스킬 세팅
