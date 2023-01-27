@@ -1954,6 +1954,10 @@ MonoBehaviour:
   monster3HPBar: {fileID: 1683852572}
   monster4HPBar: {fileID: 1468381749}
   story: {fileID: 1799403219}
+  monster1Num: 0
+  monster2Num: 0
+  monster3Num: 0
+  monster4Num: 0
   turnNumber: 1
   totalTurnNumber: 1
   skillNumber: 1
@@ -1963,6 +1967,7 @@ MonoBehaviour:
   playerSkillSelect: 
   skillAvailable: 0
   firstAttack: 0
+  isAllTarget: 0
 --- !u!4 &434562779
 Transform:
   m_ObjectHideFlags: 0
@@ -2311,7 +2316,10 @@ MonoBehaviour:
     my_characterlist: []
     CharacterData: []
     SkillData: []
+    CharacterSkillData: []
+    CharacterSkillIndexData: []
     MonsterData: []
+    MonstersData: []
     MonsterSkillData: []
     my_team:
     - img_path: 
@@ -3364,7 +3372,10 @@ MonoBehaviour:
   Monster_Count: 0
   Characterlist: []
   SkillList: []
+  CharacterSkillList: []
+  CharacterSkillIndexList: []
   MonsterList: []
+  MonstersList: []
 --- !u!4 &716250769
 Transform:
   m_ObjectHideFlags: 0
@@ -5183,6 +5194,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124512540}
   m_CullTransparentMesh: 0
+--- !u!1 &1125699336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1125699338}
+  - component: {fileID: 1125699337}
+  m_Layer: 0
+  m_Name: MonsterSpecialSkillMgr
+  m_TagString: MonsterSpecialSkill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1125699337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125699336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05c66ab4c4f5feb4597fc3d499c9ec30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1125699338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125699336}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1155268701
 GameObject:
   m_ObjectHideFlags: 0
@@ -7560,7 +7614,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageText: {fileID: 1257663730}
+  MonsterNum: 
   monsters: []
+  stageMonster: []
   monsterFullHP: 
   currentMonsterHP: 
   monsterAttackDamage: 0

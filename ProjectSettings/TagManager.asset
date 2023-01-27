@@ -16,6 +16,7 @@ TagManager:
   - DBManager
   - MonsterSkill
   - DamageText
+  - MonsterSpecialSkill
   layers:
   - Default
   - TransparentFX

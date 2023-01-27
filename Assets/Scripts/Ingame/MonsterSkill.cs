@@ -13,6 +13,7 @@ public class MonsterSkill : MonoBehaviour
     MonsterMgr monsterMgr;
     Skill skill;
     TextUI textUI;
+    SepcialMonster specialMonster;
 
     public int[,] MonsterSkillList = new int[4,12];//몬스터 스킬 목록
     int[,] monsterTurns = new int[4,4];//몬스터 남은 턴수(공격력, 데미지감소, 회복, 출혈)
@@ -30,13 +31,14 @@ public class MonsterSkill : MonoBehaviour
         dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
         skill = GameObject.FindWithTag("Skill").GetComponent<Skill>();//Skill 스크립트에서 변수 가져오기
         textUI = GameObject.FindWithTag("DamageText").GetComponent<TextUI>();//TextUI 스크립트에서 변수 가져오기
+        specialMonster = GameObject.FindWithTag("MonsterSpecialSkill").GetComponent<SepcialMonster>();//SepcialMonster스크립트에서 변수 가져오기
     }
     #endregion
 
-    //몬스터 일반 스킬 세팅
+    //몬스터 일반 스킬 세팅(턴수 저장 때문에 만들었다)
     public void monsterNormalSkillSet()
     {
-        for(int i = 0; i < monsterMgr.MonsterNum.Count; i++)//각 몬스터의 스킬을 큐에 넣기
+        for(int i = 0; i < monsterMgr.MonsterNum.Count; i++)//각 몬스터의 스킬을 배열에 넣기
         {
             int MobSkillIndex01 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn0_general1"];
             int MobSkillIndex02 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn0_general2"];
@@ -58,6 +60,7 @@ public class MonsterSkill : MonoBehaviour
             //MonsterSkillList[i, 10] = MobSkillIndex51; MonsterSkillList[i, 11] = MobSkillIndex52;
         }
     }
+    
     //몬스터->플레이어(몬스터 인덱스, 스킬번호를 받아서 진행)
     public int monsterSkillDamage(int mobIndex,int mobSkillNumber,int specialSkillNum)//몬스터 번호, 몬스터 스킬번호, 특수 스킬번호
     {
@@ -65,7 +68,7 @@ public class MonsterSkill : MonoBehaviour
         //특수 스킬인가?
         if (specialSkillNum > 0)
         {
-            return SpecialSkill(specialSkillNum);
+            return specialMonster.SpecialSkill(specialSkillNum);
         }
         int monsterAttackDamage = 0;//총 데미지 초기화
         int mobNum = teamSelect.selectedTeamNumber[mobIndex];//실제 몬스터 번호
@@ -91,30 +94,7 @@ public class MonsterSkill : MonoBehaviour
         textUI.DamageMassage(monsterAttackDamage, countSkill);//공격 텍스트 UI등장
         return monsterAttackDamage;
     }
-    //특수 스킬
-    int SpecialSkill(int specialSkillNum)
-    {
-        int specialHitDamage = 0;//총 데미지
-        switch (specialSkillNum)
-        {
-            case 1:
-                //1번스킬
-                break;
-            case 2:
-                //2번스킬
-                break;
-            case 3:
-                //2번스킬
-                break;
-            case 4:
-                //2번스킬
-                break;
-            case 5:
-                //2번스킬
-                break;
-        }
-        return specialHitDamage;
-    }
+    
     //몬스터 HP회복
     void HealMonsterHP(int AmountMobHP,int mobIndex,int mobNum)
     {

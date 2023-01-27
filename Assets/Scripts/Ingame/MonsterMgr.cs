@@ -10,6 +10,7 @@ public class MonsterMgr : MonoBehaviour
     private DataManager Data;
     CharacterMgr characterMgr;
     MonsterSkill monsterSkillMgr;
+    SepcialMonster specialMonster;
     Skill skill;
     Turn turn;
     public Text stageText;//스테이지 번호
@@ -26,11 +27,13 @@ public class MonsterMgr : MonoBehaviour
     CSV_Reader CSVReader;
     public List<Dictionary<string, object>> MonstersData;//몬스터 데이터
     public List<Dictionary<string, object>> MonsterSkillNormal;//일반 스킬
+    public List<Dictionary<string, object>> MonsterSkillSpecial;//특수 스킬
 
     void Awake()
     {
         MonstersData = CSV_Reader.Read("MonsterData"); //몬스터 데이터 불러오기
         MonsterSkillNormal = CSV_Reader.Read("MonsterSkill"); //몬스터 일반 스킬 데이터 불러오기
+        MonsterSkillSpecial = CSV_Reader.Read("MonsterSpecialSkill");//몬스터 특수 스킬 데이터 불러오기
     }
     // Start is called before the first frame update
     void Start()
@@ -40,6 +43,7 @@ public class MonsterMgr : MonoBehaviour
         turn = GameObject.FindWithTag("TurnMgr").GetComponent<Turn>();//Trun 스크립트에서 변수 가져오기
         skill = GameObject.FindWithTag("Skill").GetComponent<Skill>();//Skill 스크립트에서 변수 가져오기
         monsterSkillMgr = GameObject.FindWithTag("MonsterSkill").GetComponent<MonsterSkill>();//MonsterSkill 스크립트에서 변수 가져오기
+        specialMonster = GameObject.FindWithTag("MonsterSpecialSkill").GetComponent<SepcialMonster>();//SepcialMonster스크립트에서 변수 가져오기
         //dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
 
         MonsterSetting();//몬스터 리젠
@@ -66,7 +70,8 @@ public class MonsterMgr : MonoBehaviour
             MonsterNum.Add(i);//몬스터 번호 담기
             skill.mobProvocation.Clear();//몬스터 도발 초기화
         }
-        monsterSkillMgr.monsterNormalSkillSet();//몬스터 스킬 세팅
+        monsterSkillMgr.monsterNormalSkillSet();//몬스터 스킬 세팅(일반)
+        specialMonster.monsterSpecialSkillSet();//몬스터 스킬 세팅(특수)
     }
     public void InitMonster(int index)
     {
