@@ -67,7 +67,7 @@ public class MonsterMgr : MonoBehaviour
         for (int i = 0; i < mobCount; i++)
         {
             monsters.Add(Data.saveData.MonsterData[0]);//등장 몹은 서로 다름
-            MonsterNum.Add(i);//몬스터 번호 담기
+            MonsterNum.Add(i);//몬스터 번호 담기(임시)
             skill.mobProvocation.Clear();//몬스터 도발 초기화
         }
         monsterSkillMgr.monsterNormalSkillSet();//몬스터 스킬 세팅(일반)
@@ -77,7 +77,7 @@ public class MonsterMgr : MonoBehaviour
     {
         for(int i = 0; i < monsters.Count; i++)
         {
-            monsterFullHP.Add(monsters[index].HP);//몬스터 체력 초기화
+            monsterFullHP.Add(monsters[i].HP);//몬스터 체력 초기화
             currentMonsterHP.Add(monsterFullHP[i]);//처음엔 풀피
         }
         monsterAttackDamage = monsters[index].Attack;//몬스터 공격력

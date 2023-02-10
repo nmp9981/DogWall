@@ -16,7 +16,7 @@ public class MonsterSkill : MonoBehaviour
     SepcialMonster specialMonster;
 
     public int[,] MonsterSkillList = new int[4,12];//몬스터 스킬 목록
-    int[,] monsterTurns = new int[4,4];//몬스터 남은 턴수(공격력, 데미지감소, 회복, 출혈)
+    int[,] monsterTurns = new int[4,4];//몬스터 인덱스(열), 몬스터 남은 턴수(공격력, 데미지감소, 회복, 출혈)
     int currentAttack = 0;//현재 공격력
     int increaseAttack = 100;//공격력 증가량
 
@@ -71,9 +71,9 @@ public class MonsterSkill : MonoBehaviour
             return specialMonster.SpecialSkill(specialSkillNum);
         }
         int monsterAttackDamage = 0;//총 데미지 초기화
-        int mobNum = teamSelect.selectedTeamNumber[mobIndex];//실제 몬스터 번호
+        int mobNum = monsterMgr.MonsterNum[mobIndex];//실제 몬스터 번호
         currentAttack = Data.saveData.MonsterData[mobNum].Attack*increaseAttack/100;//현재 공격력
-        
+
         //턴 기반 버프(일반 스킬)
         TurnBuffInit(mobIndex,mobSkillNumber);//턴버프 초기화
         MonsterNormalTurnBuff(mobIndex, mobSkillNumber);
@@ -96,7 +96,7 @@ public class MonsterSkill : MonoBehaviour
     }
     
     //몬스터 HP회복
-    void HealMonsterHP(int AmountMobHP,int mobIndex,int mobNum)
+    void HealMonsterHP(int AmountMobHP,int mobIndex,int mobNum)//회복량, 몬스터 인덱스, 실제 몬스터 넘버
     {
         Mathf.Max(Data.saveData.MonsterData[mobNum].HP, monsterMgr.currentMonsterHP[mobIndex] + AmountMobHP);
     }
@@ -161,12 +161,12 @@ public class MonsterSkill : MonoBehaviour
             //회복
             if (Data.saveData.MonsterSkillData[mobSkillNumber].HealHP != 0)
             {
-                monsterTurns[0, mobIndex] = turnCounts;
+                monsterTurns[2, mobIndex] = turnCounts;
             }
             //출혈
             if (Data.saveData.MonsterSkillData[mobSkillNumber].Blood != 0)
             {
-                monsterTurns[0, mobIndex] = turnCounts;
+                monsterTurns[3, mobIndex] = turnCounts;
             }
         }
     }

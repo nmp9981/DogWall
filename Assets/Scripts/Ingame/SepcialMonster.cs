@@ -13,7 +13,10 @@ public class SepcialMonster : MonoBehaviour
     Skill skill;
     TextUI textUI;
 
-    public int[,] MonsterSpecialSkillList = new int[4, 12];//몬스터 특수 스킬 목록
+    const int CharacterNum = 4;
+    public int[,] MonsterSpecialSkillList = new int[CharacterNum, 12];//몬스터 특수 스킬 목록
+    int[,] MobSpecialSkillTurn = new int[CharacterNum, 5];//턴 (행동불가,도발, 데스링크, 공격감소, 방어)
+
     // Start is called before the first frame update
     void Start()
     {
@@ -55,8 +58,85 @@ public class SepcialMonster : MonoBehaviour
     //특수 스킬
     public int SpecialSkill(int specialSkillNum)
     {
+        //자신에게 씀
+        if ((int)monsterMgr.MonsterSkillSpecial[specialSkillNum]["Self"] == 1)
+        {
+            SpecialSkillSelf(specialSkillNum);
+            return 0;
+        }
+
         int specialHitDamage = 0;//총 데미지
-        
+        int targets = (int)monsterMgr.MonsterSkillSpecial[specialSkillNum]["Targets"];//타겟 수
+        int turnCounts = (int)monsterMgr.MonsterSkillSpecial[specialSkillNum]["TurnCount"];//턴 수
+        //플레이어 에너지
+        characterMgr.playerEnerge = Mathf.Max(Mathf.Min(characterMgr.playerFullEnerge, characterMgr.playerEnerge + (int)monsterMgr.MonsterSkillSpecial[specialSkillNum]["Energy"]),0);
+
+        //행동불가
+        if((int)monsterMgr.MonsterSkillSpecial[specialSkillNum]["NotAction"] == 1)
+        {
+            int selecCharac = 0;//선택한 캐럭터 수
+            bool[] isSelec = { false, false, false, false, false };//캐릭터 선택 여부
+            while (selecCharac < targets)
+            {
+                int i = Random.Range(0, CharacterNum);
+                if (isSelec[i] == false && MobSpecialSkillTurn[0, i]==0)//미선택 & 행동불가가 아닐때
+                {
+                    isSelec[i] = true;
+                    selecCharac++;
+                    Data.saveData.SkillData[i].NotAction = true;//해당 캐릭터는 행동불가(코드 수정 예정)
+                    MobSpecialSkillTurn[0, i] = turnCounts;//해당 턴 만큼 행동불가
+                }
+            }
+        }
+        //공격력
+        if ((int)monsterMgr.MonsterSkillSpecial[specialSkillNum]["CharacterAttack"] !=100)
+        {
+            int selecCharac = 0;//선택한 캐럭터 수
+            bool[] isSelec = { false, false, false, false, false };//캐릭터 선택 여부
+            while (selecCharac < targets)
+            {
+                int i = Random.Range(0, CharacterNum);
+                if (isSelec[i] == false && MobSpecialSkillTurn[0, 4] == 0)//미선택 & 비활성화
+                {
+                    isSelec[i] = true;
+                    selecCharac++;
+                    Data.saveData.my_characterlist[i].ATK = Data.saveData.CharacterData[i].Attack*(int)monsterMgr.MonsterSkillSpecial[specialSkillNum]["CharacterAttack"]/100;//해당 캐릭터는 행동불가(코드 수정 예정)
+                    MobSpecialSkillTurn[4, i] = turnCounts;//해당 턴 만큼 공격력 증감
+                }
+            }
+        }
+        //방어
+
+        turnDcrease();//턴 감소
         return specialHitDamage;
     }
+
+    //자신에게 씀
+    public void SpecialSkillSelf(int specialSkillNum)
+    {
+
+    }
+    //남은 턴 감소
+    void turnDcrease()
+    {
+        for(int i=0;i< CharacterNum; i++)
+        {
+            for(int j = 0; j < 5; j++)
+            {
+                MobSpecialSkillTurn[i, j] = Mathf.Max(0, MobSpecialSkillTurn[i, j] - 1);//1턴씩 감소
+                if(MobSpecialSkillTurn[i, j] == 0)//상태 해제
+                {
+                    if (j == 0)
+                    {
+                        Data.saveData.SkillData[i].NotAction = false;//해당 캐릭터는 행동가능(코드 수정 예정)
+                    }
+                    if (j == 4)
+                    {
+                        Data.saveData.my_characterlist[i].ATK = Data.saveData.CharacterData[i].Attack;//원래 공격력
+                    }
+                }
+            }
+        }
+    }
 }
+
