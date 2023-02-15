@@ -136,7 +136,17 @@ public class Turn : MonoBehaviour
             }
             else//단일 공격
             {
-                monsterMgr.MonsterBloodDamage(totalDamage, 0);//몬스터 데미지
+                int attackMobIndex = 0;
+                //도발 검사
+                for(int j = 0; j < monsterMgr.monsters.Count; j++)
+                {
+                    if(skill.mobProvocation[j] == true)
+                    {
+                        attackMobIndex = j;
+                        break;
+                    }
+                }
+                monsterMgr.MonsterBloodDamage(totalDamage, attackMobIndex);//몬스터 데미지
             }
         }
         //몬스터 사망여부 확인

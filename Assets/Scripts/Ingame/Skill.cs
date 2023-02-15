@@ -15,7 +15,7 @@ public class Skill : MonoBehaviour
 
     public int[,] SkillCharacterTurnMatrix = new int[250, 4];//스킬-캐릭터간 남은 턴 수 배열 
     public int playerAttack;//플레이어 공격력
-    public Queue mobProvocation = new Queue();//몬스터 도발
+    public bool[] mobProvocation = new bool[4];//몬스터 도발
 
     //캐릭터별 남은 턴 수
     public Text firstCharacterTurn;
@@ -107,12 +107,6 @@ void Start()
         monsterMgr.monsterAttackDamage = monsterMgr.monsterAttackDamage * Data.saveData.SkillData[number].DecreaseDamage / 100;
         //출혈(도트 데미지)
         monsterMgr.currentMonsterHP[mobIndex] = Mathf.Min(0, monsterMgr.currentMonsterHP[mobIndex] - Data.saveData.SkillData[number].blood);
-        //도발
-        if(Data.saveData.SkillData[number].Provocation == true)
-        {
-            //우선 피격 몬스터 설정
-            mobProvocation.Enqueue(mobIndex);
-        }
     }
     //남은 턴 수 나타내기
     public void TurnCountText(int number,int index)

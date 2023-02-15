@@ -19,6 +19,7 @@ public class MonsterSkill : MonoBehaviour
     int[,] monsterTurns = new int[4,4];//몬스터 인덱스(열), 몬스터 남은 턴수(공격력, 데미지감소, 회복, 출혈)
     int currentAttack = 0;//현재 공격력
     int increaseAttack = 100;//공격력 증가량
+    public int mobRatio = 100;//몬스터 데미지 증가율
 
     // Start is called before the first frame update
     void Start()
@@ -68,7 +69,8 @@ public class MonsterSkill : MonoBehaviour
         //특수 스킬인가?
         if (specialSkillNum > 0)
         {
-            return specialMonster.SpecialSkill(specialSkillNum);
+            mobRatio = specialMonster.SpecialSkill(mobIndex,specialSkillNum);
+            return 0;
         }
         int monsterAttackDamage = 0;//총 데미지 초기화
         int mobNum = monsterMgr.MonsterNum[mobIndex];//실제 몬스터 번호
@@ -84,7 +86,7 @@ public class MonsterSkill : MonoBehaviour
         //Debug.Log("몹 공격력 " + Data.saveData.MonsterData[mobNum].Attack + "인크리스 " + currentAttack);
         int attackDamage = currentAttack*(Data.saveData.MonsterSkillData[mobSkillNumber].Attack+100)/100;//데미지(공격력*퍼뎀)
         int countSkill = Data.saveData.MonsterSkillData[mobSkillNumber].AttackCount;//공격 횟수
-        monsterAttackDamage = attackDamage;//공격
+        monsterAttackDamage = attackDamage*mobRatio/100;//공격
 
         //다회 공격
         for(int j = 1; j < countSkill; j++)//countSkill번

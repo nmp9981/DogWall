@@ -68,7 +68,7 @@ public class MonsterMgr : MonoBehaviour
         {
             monsters.Add(Data.saveData.MonsterData[0]);//등장 몹은 서로 다름
             MonsterNum.Add(i);//몬스터 번호 담기(임시)
-            skill.mobProvocation.Clear();//몬스터 도발 초기화
+            skill.mobProvocation[i] = false;//몬스터 도발 초기화
         }
         monsterSkillMgr.monsterNormalSkillSet();//몬스터 스킬 세팅(일반)
         specialMonster.monsterSpecialSkillSet();//몬스터 스킬 세팅(특수)
@@ -91,9 +91,10 @@ public class MonsterMgr : MonoBehaviour
     //몬스터가 죽었는가?
     public void MonsterDie(int index)
     {
-        if (currentMonsterHP[index] <= 0)
+        if (currentMonsterHP[index] <= 0)//해당 몬스터가 죽었으면
         {
-            monsters.RemoveAt(0);//원소 삭제
+            monsters.RemoveAt(index);//원소 삭제
+            skill.mobProvocation[index] = false;//도발 해제
             if (monsters.Count>0)//남은 몬스터가 더 있는가?
             {
                 InitMonster(monstersIndex);//다음 몬스터
