@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
+
 
 public class Quest_Manager : MonoBehaviour
 {
@@ -11,7 +13,7 @@ public class Quest_Manager : MonoBehaviour
     int a, e, q, s, d;
     public int listIndex = 0;
     // appear = 0 현재
-    // episod = 0 월령 , 1 엠피, 2 제한
+    // episode = 0 월령 , 1 엠피, 2 제한
     //public GameObject questDetailPrefab;
     //public Transform justParent;
     public GameObject questDetailTap;
@@ -28,10 +30,6 @@ public class Quest_Manager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public void FindChar(int diff)
     {
 
@@ -62,5 +60,10 @@ public class Quest_Manager : MonoBehaviour
     public void SelectDifficulty(int diff)
     {
         FindChar(diff);
+    }
+
+    public void SetDetailPanel()
+    {
+
     }
 }

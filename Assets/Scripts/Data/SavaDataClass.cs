@@ -396,7 +396,7 @@ public class SaveDataClass
             }
     }
 }
-
+  [System.Serializable]
 public class StageInfo{
     public int appear;
     public int episode;
@@ -405,4 +405,13 @@ public class StageInfo{
     public int difficulty;
     public int type;
     public string character;
+
+    public void FindQuest()
+    {
+        var loadedJson = Resources.Load<TextAsset>("userData/QuestData");
+        StageInfo basicStageInfo = JsonUtility.FromJson<StageInfo>(loadedJson.ToString());
+
+        Debug.Log($"{basicStageInfo.episode}, {basicStageInfo.difficulty}, {basicStageInfo.character}");
+    }
 }
+
