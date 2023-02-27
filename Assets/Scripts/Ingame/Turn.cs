@@ -204,8 +204,8 @@ public class Turn : MonoBehaviour
     void UISetting() // 턴 관리 1, 2, 3, 4 - 플레이어 1, 2, 3 ,4    5 -  몬스터 턴
     {
 
-        characterNameText.text = Data.saveData.my_characterlist[teamNumber / 5].Name; // 캐릭터 공격력 & 이름 UI 표시
-        characterAttackText.text = "Attack : " + Data.saveData.my_characterlist[teamNumber/5].ATK;
+        characterNameText.text = Data.saveData.CharacterData[teamNumber / 4].Name; // 캐릭터 공격력 & 이름 UI 표시
+        characterAttackText.text = "Attack : " + Data.saveData.CharacterData[teamNumber/4].Attack;
 
         skillNumber = playerSkillSelect[turnNumber - 1]; // 저장된 스킬 넘버를 턴에 맞춰서 가져옴
 

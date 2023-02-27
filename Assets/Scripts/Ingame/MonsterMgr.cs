@@ -15,7 +15,7 @@ public class MonsterMgr : MonoBehaviour
     Turn turn;
     public Text stageText;//스테이지 번호
     public List<int> MonsterNum;//출현 몬스터 번호
-    public List<MonsterDataClass> monsters = new List<MonsterDataClass>();//출현 몬스터(삭제 예정)
+    public List<MonstersDataClass> monsters = new List<MonstersDataClass>();//출현 몬스터(삭제 예정)
     public List<MonstersDataClass> stageMonster = new List<MonstersDataClass>();//출현 몬스터
 
     public List<int> monsterFullHP = new List<int>();//몬스터 전체 체력
@@ -81,7 +81,7 @@ public class MonsterMgr : MonoBehaviour
             currentMonsterHP.Add(monsterFullHP[i]);//처음엔 풀피
         }
         monsterAttackDamage = monsters[index].Attack;//몬스터 공격력
-        monsterAttribute = monsters[index].Attribute;//몬스터 속성
+        monsterAttribute = monsters[index].Type;//몬스터 속성
     }
     //출혈 데미지 계산
     public void MonsterBloodDamage(int hitDamage,int index)

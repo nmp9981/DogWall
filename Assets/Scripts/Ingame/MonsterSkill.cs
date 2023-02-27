@@ -115,7 +115,7 @@ public class MonsterSkill : MonoBehaviour
             {
                 selectedMob[selectedIndex] = true;
                 
-                int monsterAttribute = Data.saveData.MonsterData[mobIndex].Attribute;//몬스터 속성
+                int monsterAttribute = Data.saveData.MonsterData[mobIndex].Type;//몬스터 속성 => 수정
                 int playerAttribute = Data.saveData.my_characterlist[selectedIndex].Attribute;//플레이어 속성
                 int attributeDamage = characterMgr.CheckAttribute(playerAttribute, monsterAttribute);//속성 데미지
 

@@ -84,7 +84,7 @@ public class SepcialMonster : MonoBehaviour
                 {
                     isSelec[i] = true;
                     selecCharac++;
-                    Data.saveData.SkillData[i].NotAction = true;//해당 캐릭터는 행동불가(코드 수정 예정)
+                    Data.saveData.CharacterSkillIndexData[i].NotAction = true;//해당 캐릭터는 행동불가(코드 수정 예정)
                     MobSpecialSkillTurn[i,0] = turnCounts;//해당 턴 만큼 행동불가
                 }
             }
@@ -119,7 +119,13 @@ public class SepcialMonster : MonoBehaviour
                 }
             }
         }
-
+        //데스링크
+        if(Data.saveData.MonsterSpecialSkillData[specialSkillNum].DeathLink > 0)
+        {
+            int DeathLinkDamage = Data.saveData.MonsterSpecialSkillData[specialSkillNum].DeathLink;
+            int targerCount = Data.saveData.MonsterSpecialSkillData[specialSkillNum].Targets;
+            CharacterDeathLink(DeathLinkDamage,targerCount);//캐릭터 데스링크
+        }
         turnDcrease(mobIndex);//턴 감소
         return specialHitRatio;
     }
@@ -153,23 +159,54 @@ public class SepcialMonster : MonoBehaviour
                 {
                     if (j == 0)
                     {
-                        Data.saveData.SkillData[i].NotAction = false;//해당 캐릭터는 행동가능(코드 수정 예정)
+                        Data.saveData.CharacterSkillIndexData[i].NotAction = false;//해당 캐릭터는 행동가능(코드 수정 예정)
                     }
-                    if (j == 1)
+                    else if (j == 1)
                     {
                         skill.mobProvocation[mobIndex] = false;//도발 해제
                     }
-                    if (j == 4)
+                    else if (j == 2)
+                    {
+                        //타겟 이미지 해제
+                    }
+                    else if (j == 3)
                     {
                         Data.saveData.my_characterlist[i].ATK = Data.saveData.CharacterData[i].Attack;//원래 공격력
                     }
-                    if (j == 5)
+                    else if (j == 4)
                     {
                         specialHitRatio = 100;
                     }
                 }
             }
         }
+    }
+    //캐릭터 데스링크
+    void CharacterDeathLink(int damage,int targetCount)
+    {
+        //타겟 지정
+        int selectedCount = 0;//총 선택 개수
+        bool[] selectTarget = new bool[CharacterNum];
+
+        while (selectedCount < targetCount)
+        {
+            int num = Random.Range(0, CharacterNum);//번호 결정
+            if (selectTarget[num] == false)//아직 미선택
+            {
+                selectTarget[num] = true;//선택 체크
+                selectedCount++;
+            }
+        }
+        //타켓이미지 띄우기
+        for(int i = 0; i < CharacterNum; i++)
+        {
+            if (selectTarget[i] == true)
+            {
+                //이미지 띄우기
+            }
+        }
+        //데미지
+        characterMgr.playerHP = Mathf.Max(0, characterMgr.playerHP - damage);
     }
 }
 
