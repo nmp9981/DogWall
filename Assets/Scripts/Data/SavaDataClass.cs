@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEditor;
+
 [System.Serializable]
 public class Character//캐릭터 DB
 {
@@ -126,6 +127,7 @@ public class CharacterSkillIndexDataClass//스킬DB
         this.Energy = e;
     }
 }
+/*
 //조만간 지울거
 [System.Serializable]
 public class SkillDataClass//스킬DB
@@ -161,14 +163,17 @@ public class SkillDataClass//스킬DB
         this.Rare = r;
     }
 }
+*/
 [System.Serializable]
 public class MonstersDataClass//몬스터 DB
 {
     public string World = "월령";//1:월령, 2:엠피레오, 3: 제한 구역, 4: 전체
     public string Name = "";//이름
     public int Difficulty = 1;//속성
+    public int Type = 1;//타입
     public int HP = 0;//HP
     public int Attack = 0;//공격력
+    public int TurnCount = 1;//턴 수
     //각 턴에 뭐를 쓸건가
     public int turn0_Ger1 = 0;public int turn0_Ger2 = 0;public int turn0_Spe1 = 0;public int turn0_Spe2 = 0;
     public int turn1_Ger1 = 0;public int turn1_Ger2 = 0;public int turn1_Spe1 = 0;public int turn1_Spe2 = 0;
@@ -177,7 +182,7 @@ public class MonstersDataClass//몬스터 DB
     public int turn4_Ger1 = 0;public int turn4_Ger2 = 0;public int turn4_Spe1 = 0;public int turn4_Spe2 = 0;
     public int turn5_Ger1 = 0;public int turn5_Ger2 = 0;public int turn5_Spe1 = 0;public int turn5_Spe2 = 0;
 
-    public MonstersDataClass(string w = "월령", string n = "1", int d = 1 , int h = 0, int at = 0,
+    public MonstersDataClass(string w = "월령", string n = "1", int d = 1 ,int t = 1, int h = 0, int at = 0,int tc= 1,
         int t0G1=0,int t0G2=0,int t0S1=0,int t0S2=0,
         int t1G1 = 0, int t1G2 = 0, int t1S1 = 0, int t1S2 = 0,
         int t2G1 = 0, int t2G2 = 0, int t2S1 = 0, int t2S2 = 0,
@@ -188,8 +193,10 @@ public class MonstersDataClass//몬스터 DB
         this.World = w;
         this.Name = n;
         this.Difficulty = d;
+        this.Type = t;
         this.HP = h;
         this.Attack = at;
+        this.TurnCount = tc;
         //각 턴 스킬 번호
         this.turn0_Ger1 = t0G1;this.turn0_Ger2 = t0G2;this.turn0_Spe1 = t0S1;this.turn0_Spe2 = t0S2;
         this.turn1_Ger1 = t1G1;this.turn1_Ger2 = t1G2;this.turn1_Spe1 = t1S1;this.turn1_Spe2 = t1S2;
@@ -272,6 +279,38 @@ public class MonsterSkillDataClass
     }
 }
 [System.Serializable]
+public class MonsterSpeccialSkillDataClass
+{
+    public string name = "";//스킬 설명
+    public int NotAction = 0;//활동 여부
+    public int Targets = 0;//타겟 수
+    public int TurnCount = 0;//스킬 턴수
+    public int CharacterAttack = 0;//공격데미지 증가량
+    public int DecreaseDamage = 0;//피격 데미지 감소량
+    public bool Self = false;//자기자신한테 공격하는 것인가?
+    public int Energy = 0;//플레이어 에너지 회복량
+    public int HeartLink = 3000;//하트링크 데미지
+    public int DeathLink = 3000;//데스링크 데미지
+    public bool Provocation = false;//도발여부
+    public bool IsMaxHealth = false;//가장 체력이 높은 몬스터
+
+    public MonsterSpeccialSkillDataClass(string name = null, int na = 1, int target=1, int tc = 1, int chaAtk = 1, int de = 1, bool s = false, int e = 1, int hl = 1, int dl = 1,bool prov=false,bool ismax=false)
+    {
+        this.name = name;
+        this.NotAction = na;
+        this.Targets = target;
+        this.TurnCount = tc;
+        this.CharacterAttack = chaAtk;
+        this.DecreaseDamage = de;
+        this.Self = s;
+        this.Energy = e;
+        this.HeartLink = hl;
+        this.DeathLink = dl;
+        this.Provocation = prov;
+        this.IsMaxHealth = ismax;
+    }
+}
+[System.Serializable]
 public class UI
 {
     public List<int> money;//재화
@@ -295,13 +334,15 @@ public class SaveDataClass
     public List<Character> list;
     public List<Character> my_characterlist;//캐릭터 리스트
     public List<PlayerDataClass> CharacterData;//캐릭터 리스트
-    public List<SkillDataClass> SkillData;//스킬 리스트
+    //public List<SkillDataClass> SkillData;//스킬 리스트
     public List<CharacterSkillDataClass> CharacterSkillData;//캐릭터 스킬 리스트
     public List<CharacterSkillIndexDataClass> CharacterSkillIndexData;//캐릭터 스킬 Index 리스트
-    public List<MonsterDataClass> MonsterData;//몬스터 리스트(지울 예정)
-    public List<MonstersDataClass> MonstersData;//몬스터 리스트
+    //public List<CharacterSkillIndexDataClass> CharacterSkillIndex;//캐릭터 스킬 Index 리스트 => 이거로 바꿀 예정
+    public List<MonstersDataClass> MonsterData;//몬스터 리스트(지울 예정)
+    //public List<MonstersDataClass> MonstersData;//몬스터 리스트
     public List<BossMonsterDataClass> BossData;//보스몬스터 리스트
     public List<MonsterSkillDataClass> MonsterSkillData;//몬스터 스킬 리스트
+    public List<MonsterSpeccialSkillDataClass> MonsterSpecialSkillData;//몬스터 특수스킬
     //스테이지 진행정도
     public List<Character> my_team;
     public UI ui;
@@ -313,13 +354,14 @@ public class SaveDataClass
         my_team = new List<Character>();
         for(int i = 0; i < 12; i++)
             my_team.Add(new Character());
-        SkillData = new List<SkillDataClass>();
+        //SkillData = new List<SkillDataClass>();
         CharacterSkillData = new List<CharacterSkillDataClass>();
         CharacterSkillIndexData = new List<CharacterSkillIndexDataClass>();
-        MonsterData = new List<MonsterDataClass>();
+        MonsterData = new List<MonstersDataClass>();
         BossData = new List<BossMonsterDataClass>();
         MonsterSkillData = new List<MonsterSkillDataClass>();
-        MonstersData = new List<MonstersDataClass>();
+        //MonstersData = new List<MonstersDataClass>();
+        MonsterSpecialSkillData = new List<MonsterSpeccialSkillDataClass>();
         ui =  new UI();
     }
     public void SetImg()//캐릭터에 저장된 경로를 통해 이미지를 지정
