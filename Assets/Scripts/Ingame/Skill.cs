@@ -40,10 +40,10 @@ void Start()
     //플레이어->몬스터 데미지
     public int skillAttackDamage(int number,int playerNumber,int playIndex, int mobIndex)//스킬 번호, 사용 캐릭터,캐릭터 인덱스, 대상 몬스터
     {
-        if (Data.saveData.CharacterSkillIndexData[number].NotAction == true) return 0;//행동 불능의 경우 스킬 사용 불가
+        if (Data.saveData.CharacterSkillIndex[number].NotAction == true) return 0;//행동 불능의 경우 스킬 사용 불가
        
         //에너지 조건
-        int requireEnerge = Data.saveData.CharacterSkillIndexData[number].Energy;
+        int requireEnerge = Data.saveData.CharacterSkillIndex[number].Energy;
         if (characterMgr.playerEnerge < requireEnerge) return 0;//스킬 사용 불가
 
         int playerAttribute = Data.saveData.my_characterlist[playerNumber].Attribute;//플레이어 속성
@@ -51,7 +51,7 @@ void Start()
         monsterDefense = 100;//몬스터 방어력
         int attributeDamage = characterMgr.CheckAttribute(playerAttribute, monsterAttribute);//속성 데미지
         playerAttack = Data.saveData.my_characterlist[playerNumber].ATK*4000;//캐릭터 초기 공격력
-        int skillPercentDamage = Data.saveData.CharacterSkillIndexData[number].Attack;//스킬 퍼센테이지
+        int skillPercentDamage = Data.saveData.CharacterSkillIndex[number].Attack;//스킬 퍼센테이지
 
         //전체 공격 여부
         //if (Data.saveData.CharacterSkillIndexData[number].AllTargets == 1) turn.isAllTarget = true;
@@ -80,7 +80,7 @@ void Start()
         //턴 초기화
         if (SkillCharacterTurnMatrix[number, characterIndex] == 0)
         {
-            SkillCharacterTurnMatrix[number, characterIndex] = Data.saveData.CharacterSkillIndexData[number].TurnCount;
+            SkillCharacterTurnMatrix[number, characterIndex] = Data.saveData.CharacterSkillIndex[number].TurnCount;
         }
     }
     //턴 기반 버프
@@ -92,15 +92,15 @@ void Start()
         SkillCharacterTurnMatrix[number, playIndex] -= 1;//턴 횟수 소모
 
         //에너지 증가
-        CharacterSkillEnerge(Data.saveData.CharacterSkillIndexData[number].Energy);
+        CharacterSkillEnerge(Data.saveData.CharacterSkillIndex[number].Energy);
         //HP증가
-        HealCharacterHP(Data.saveData.CharacterSkillIndexData[number].HealHP);
+        HealCharacterHP(Data.saveData.CharacterSkillIndex[number].HealHP);
         //공격력
-        playerAttack = playerAttack * Data.saveData.CharacterSkillIndexData[number].Attack/100;
+        playerAttack = playerAttack * Data.saveData.CharacterSkillIndex[number].Attack/100;
         //피격데미지
-        monsterMgr.monsterAttackDamage = monsterMgr.monsterAttackDamage * Data.saveData.CharacterSkillIndexData[number].DecreaseDamage / 100;
+        monsterMgr.monsterAttackDamage = monsterMgr.monsterAttackDamage * Data.saveData.CharacterSkillIndex[number].DecreaseDamage / 100;
         //출혈(도트 데미지)
-        monsterMgr.currentMonsterHP[mobIndex] = Mathf.Min(0, monsterMgr.currentMonsterHP[mobIndex] - Data.saveData.CharacterSkillIndexData[number].Blood);
+        monsterMgr.currentMonsterHP[mobIndex] = Mathf.Min(0, monsterMgr.currentMonsterHP[mobIndex] - Data.saveData.CharacterSkillIndex[number].Blood);
     }
     //남은 턴 수 나타내기
     public void TurnCountText(int number,int index)

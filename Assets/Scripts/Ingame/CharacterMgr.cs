@@ -118,11 +118,11 @@ public class CharacterMgr : MonoBehaviour
         //하트링크 데스링크 검사
         if (Data.saveData.my_characterlist[characterIndex].heartLink)
         {
-            mobBloodDamage -= Data.saveData.MonsterSkillData[0].HeartLink;//일단 임의 몬스터
+            mobBloodDamage -= Data.saveData.MonsterSkill[0].HeartLink;//일단 임의 몬스터
         }
         if (Data.saveData.my_characterlist[characterIndex].deathLink)
         {
-            mobBloodDamage += Data.saveData.MonsterSkillData[0].DeathLink;//일단 임의 몬스터
+            mobBloodDamage += Data.saveData.MonsterSkill[0].DeathLink;//일단 임의 몬스터
         }
         //피격데미지
         playerHP = Mathf.Max(playerHP - mobBloodDamage, 0);

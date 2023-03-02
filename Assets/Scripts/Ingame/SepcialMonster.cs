@@ -84,7 +84,7 @@ public class SepcialMonster : MonoBehaviour
                 {
                     isSelec[i] = true;
                     selecCharac++;
-                    Data.saveData.CharacterSkillIndexData[i].NotAction = true;//해당 캐릭터는 행동불가(코드 수정 예정)
+                    Data.saveData.CharacterSkillIndex[i].NotAction = true;//해당 캐릭터는 행동불가(코드 수정 예정)
                     MobSpecialSkillTurn[i,0] = turnCounts;//해당 턴 만큼 행동불가
                 }
             }
@@ -120,10 +120,10 @@ public class SepcialMonster : MonoBehaviour
             }
         }
         //데스링크
-        if(Data.saveData.MonsterSpecialSkillData[specialSkillNum].DeathLink > 0)
+        if(Data.saveData.MonsterSpecialSkill[specialSkillNum].DeathLink > 0)
         {
-            int DeathLinkDamage = Data.saveData.MonsterSpecialSkillData[specialSkillNum].DeathLink;
-            int targerCount = Data.saveData.MonsterSpecialSkillData[specialSkillNum].Targets;
+            int DeathLinkDamage = Data.saveData.MonsterSpecialSkill[specialSkillNum].DeathLink;
+            int targerCount = Data.saveData.MonsterSpecialSkill[specialSkillNum].Targets;
             CharacterDeathLink(DeathLinkDamage,targerCount);//캐릭터 데스링크
         }
         turnDcrease(mobIndex);//턴 감소
@@ -159,7 +159,7 @@ public class SepcialMonster : MonoBehaviour
                 {
                     if (j == 0)
                     {
-                        Data.saveData.CharacterSkillIndexData[i].NotAction = false;//해당 캐릭터는 행동가능(코드 수정 예정)
+                        Data.saveData.CharacterSkillIndex[i].NotAction = false;//해당 캐릭터는 행동가능(코드 수정 예정)
                     }
                     else if (j == 1)
                     {

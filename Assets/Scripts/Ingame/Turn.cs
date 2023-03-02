@@ -373,7 +373,7 @@ public class Turn : MonoBehaviour
             int normalSkillIndex = Random.Range((2*totalTurnNumber)%12,(2*totalTurnNumber+1)%12);//어떤 스킬을 쓸건가
             int specialSkillIndex = Random.Range((2 * totalTurnNumber) % 12, (2 * totalTurnNumber + 1) % 12);//어떤 스킬을 쓸건가
             int mobHitDamage = monsterSkillMgr.monsterSkillDamage(monster1Num, monsterSkillMgr.MonsterSkillList[0,normalSkillIndex], specialMonster.MonsterSpecialSkillList[0,specialSkillIndex]);//몬스터 번호, 스킬번호, 특수스킬
-            int targets = Data.saveData.MonsterSkillData[0].Targets+2;//몬스터가 캐릭터를 몇명 공격하는가?
+            int targets = Data.saveData.MonsterSkill[0].Targets+2;//몬스터가 캐릭터를 몇명 공격하는가?
             monsterSkillMgr.MultiAttack(targets,mobHitDamage, monster1Num, monsterSkillMgr.MonsterSkillList[0, normalSkillIndex]);//다수 공격
             monsterText.text = "화염방사";
         }
@@ -383,7 +383,7 @@ public class Turn : MonoBehaviour
             int normalSkillIndex = Random.Range((2 * totalTurnNumber) % 12, (2 * totalTurnNumber + 1) % 12);//어떤 스킬을 쓸건가
             int specialSkillIndex = Random.Range((2 * totalTurnNumber) % 12, (2 * totalTurnNumber + 1) % 12);//어떤 스킬을 쓸건가
             int mobHitDamage = monsterSkillMgr.monsterSkillDamage(monster2Num, monsterSkillMgr.MonsterSkillList[1, normalSkillIndex], specialMonster.MonsterSpecialSkillList[1, specialSkillIndex]);//몬스터 인덱스, 스킬번호, 특수스킬, 피격 캐릭터 배열
-            int targets = Data.saveData.MonsterSkillData[0].Targets+1;//몇명을 공격하는가?
+            int targets = Data.saveData.MonsterSkill[0].Targets+1;//몇명을 공격하는가?
             monsterSkillMgr.MultiAttack(targets, mobHitDamage, monster2Num, monsterSkillMgr.MonsterSkillList[1, normalSkillIndex]);//다수 공격
             monsterText.text = "백만볼트";
         }
@@ -393,7 +393,7 @@ public class Turn : MonoBehaviour
             int normalSkillIndex = Random.Range((2 * totalTurnNumber) % 12, (2 * totalTurnNumber + 1) % 12);//어떤 스킬을 쓸건가
             int specialSkillIndex = Random.Range((2 * totalTurnNumber) % 12, (2 * totalTurnNumber + 1) % 12);//어떤 스킬을 쓸건가
             int mobHitDamage = monsterSkillMgr.monsterSkillDamage(monster3Num, monsterSkillMgr.MonsterSkillList[2, normalSkillIndex], specialMonster.MonsterSpecialSkillList[2, specialSkillIndex]);//몬스터 인덱스, 스킬번호, 특수스킬, 피격 캐릭터 배열
-            int targets = Data.saveData.MonsterSkillData[0].Targets;//몇명을 공격하는가?
+            int targets = Data.saveData.MonsterSkill[0].Targets;//몇명을 공격하는가?
             monsterSkillMgr.MultiAttack(targets, mobHitDamage, monster3Num, monsterSkillMgr.MonsterSkillList[2, normalSkillIndex]);//다수 공격
             monsterText.text = "칼춤";
         }
@@ -403,7 +403,7 @@ public class Turn : MonoBehaviour
             int normalSkillIndex = Random.Range((2 * totalTurnNumber) % 12, (2 * totalTurnNumber + 1) % 12);//어떤 스킬을 쓸건가
             int specialSkillIndex = Random.Range((2 * totalTurnNumber) % 12, (2 * totalTurnNumber + 1) % 12);//어떤 스킬을 쓸건가
             int mobHitDamage = monsterSkillMgr.monsterSkillDamage(monster4Num, monsterSkillMgr.MonsterSkillList[3, normalSkillIndex], specialMonster.MonsterSpecialSkillList[3, specialSkillIndex]);//몬스터 인덱스, 스킬번호, 특수스킬, 피격 캐릭터 번호
-            int targets = Data.saveData.MonsterSkillData[0].Targets;//몇명을 공격하는가?
+            int targets = Data.saveData.MonsterSkill[0].Targets;//몇명을 공격하는가?
             monsterSkillMgr.MultiAttack(targets, mobHitDamage, monster4Num, monsterSkillMgr.MonsterSkillList[3, normalSkillIndex]);//다수 공격
             monsterText.text = "잠자기";
         }

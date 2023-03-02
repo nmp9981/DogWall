@@ -334,15 +334,12 @@ public class SaveDataClass
     public List<Character> list;
     public List<Character> my_characterlist;//캐릭터 리스트
     public List<PlayerDataClass> CharacterData;//캐릭터 리스트
-    //public List<SkillDataClass> SkillData;//스킬 리스트
-    public List<CharacterSkillDataClass> CharacterSkillData;//캐릭터 스킬 리스트
-    public List<CharacterSkillIndexDataClass> CharacterSkillIndexData;//캐릭터 스킬 Index 리스트
-    //public List<CharacterSkillIndexDataClass> CharacterSkillIndex;//캐릭터 스킬 Index 리스트 => 이거로 바꿀 예정
+    public List<CharacterSkillDataClass> CharacterSkill;//캐릭터 스킬 리스트
+    public List<CharacterSkillIndexDataClass> CharacterSkillIndex;//캐릭터 스킬 Index 리스트
     public List<MonstersDataClass> MonsterData;//몬스터 리스트(지울 예정)
-    //public List<MonstersDataClass> MonstersData;//몬스터 리스트
     public List<BossMonsterDataClass> BossData;//보스몬스터 리스트
-    public List<MonsterSkillDataClass> MonsterSkillData;//몬스터 스킬 리스트
-    public List<MonsterSpeccialSkillDataClass> MonsterSpecialSkillData;//몬스터 특수스킬
+    public List<MonsterSkillDataClass> MonsterSkill;//몬스터 스킬 리스트
+    public List<MonsterSpeccialSkillDataClass> MonsterSpecialSkill;//몬스터 특수스킬
     //스테이지 진행정도
     public List<Character> my_team;
     public UI ui;
@@ -351,17 +348,16 @@ public class SaveDataClass
         //리스트 불러오기
         list = new List<Character>();
         my_characterlist= new List<Character>();
+        CharacterData = new List<PlayerDataClass>();
         my_team = new List<Character>();
         for(int i = 0; i < 12; i++)
             my_team.Add(new Character());
-        //SkillData = new List<SkillDataClass>();
-        CharacterSkillData = new List<CharacterSkillDataClass>();
-        CharacterSkillIndexData = new List<CharacterSkillIndexDataClass>();
+        CharacterSkill = new List<CharacterSkillDataClass>();
+        CharacterSkillIndex = new List<CharacterSkillIndexDataClass>();
         MonsterData = new List<MonstersDataClass>();
         BossData = new List<BossMonsterDataClass>();
-        MonsterSkillData = new List<MonsterSkillDataClass>();
-        //MonstersData = new List<MonstersDataClass>();
-        MonsterSpecialSkillData = new List<MonsterSpeccialSkillDataClass>();
+        MonsterSkill = new List<MonsterSkillDataClass>();
+        MonsterSpecialSkill = new List<MonsterSpeccialSkillDataClass>();
         ui =  new UI();
     }
     public void SetImg()//캐릭터에 저장된 경로를 통해 이미지를 지정
