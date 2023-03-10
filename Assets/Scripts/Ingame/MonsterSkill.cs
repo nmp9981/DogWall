@@ -74,18 +74,18 @@ public class MonsterSkill : MonoBehaviour
         }
         int monsterAttackDamage = 0;//총 데미지 초기화
         int mobNum = monsterMgr.MonsterNum[mobIndex];//실제 몬스터 번호
-        currentAttack = Data.saveData.MonsterData[mobNum].Attack*increaseAttack/100;//현재 공격력
+        currentAttack = Data.saveData.MonsterData[mobNum].Atk*increaseAttack/100;//현재 공격력
 
         //턴 기반 버프(일반 스킬)
         TurnBuffInit(mobIndex,mobSkillNumber);//턴버프 초기화
         MonsterNormalTurnBuff(mobIndex, mobSkillNumber);
 
         //HP회복
-        HealMonsterHP(Data.saveData.MonsterSkillData[mobSkillNumber].HealHP,mobIndex,mobNum);
+        HealMonsterHP(Data.saveData.MonsterSkill[mobSkillNumber].HealHP,mobIndex,mobNum);
 
         //Debug.Log("몹 공격력 " + Data.saveData.MonsterData[mobNum].Attack + "인크리스 " + currentAttack);
-        int attackDamage = currentAttack*(Data.saveData.MonsterSkillData[mobSkillNumber].Attack+100)/100;//데미지(공격력*퍼뎀)
-        int countSkill = Data.saveData.MonsterSkillData[mobSkillNumber].AttackCount;//공격 횟수
+        int attackDamage = currentAttack*(Data.saveData.MonsterSkill[mobSkillNumber].Attack+100)/100;//데미지(공격력*퍼뎀)
+        int countSkill = Data.saveData.MonsterSkill[mobSkillNumber].AttackCount;//공격 횟수
         monsterAttackDamage = attackDamage*mobRatio/100;//공격
 
         //다회 공격
@@ -100,7 +100,7 @@ public class MonsterSkill : MonoBehaviour
     //몬스터 HP회복
     void HealMonsterHP(int AmountMobHP,int mobIndex,int mobNum)//회복량, 몬스터 인덱스, 실제 몬스터 넘버
     {
-        Mathf.Max(Data.saveData.MonsterData[mobNum].HP, monsterMgr.currentMonsterHP[mobIndex] + AmountMobHP);
+        Mathf.Max(Data.saveData.MonsterData[mobNum].Hp, monsterMgr.currentMonsterHP[mobIndex] + AmountMobHP);
     }
     //다수 공격(몬스터->캐릭터)
     public void MultiAttack(int targets,int hitDamage, int mobIndex,int mobSkillNumber)//공격 마릿수, 스킬데미지, 몹 인덱스, 스킬넘버
@@ -115,13 +115,13 @@ public class MonsterSkill : MonoBehaviour
             {
                 selectedMob[selectedIndex] = true;
                 
-                int monsterAttribute = Data.saveData.MonsterData[mobIndex].Attribute;//몬스터 속성
+                int monsterAttribute = Data.saveData.MonsterData[mobIndex].Type;//몬스터 속성 => 수정
                 int playerAttribute = Data.saveData.my_characterlist[selectedIndex].Attribute;//플레이어 속성
                 int attributeDamage = characterMgr.CheckAttribute(playerAttribute, monsterAttribute);//속성 데미지
 
                 int mobHitDamage = attributeDamage * hitDamage/(100*targets);
                 //하트 링크
-                if (Data.saveData.MonsterSkillData[mobSkillNumber].HeartLink > 0)
+                if (Data.saveData.MonsterSkill[mobSkillNumber].HeartLink > 0)
                 {
                     Data.saveData.my_characterlist[teamSelect.selectedTeamNumber[selectedIndex]].heartLink = true;
                 }
@@ -130,7 +130,7 @@ public class MonsterSkill : MonoBehaviour
                     Data.saveData.my_characterlist[teamSelect.selectedTeamNumber[selectedIndex]].heartLink = false;
                 }
                 //데스 링크
-                if (Data.saveData.MonsterSkillData[mobSkillNumber].DeathLink > 0)
+                if (Data.saveData.MonsterSkill[mobSkillNumber].DeathLink > 0)
                 {
                     Data.saveData.my_characterlist[teamSelect.selectedTeamNumber[selectedIndex]].deathLink = true;
                 }
@@ -151,22 +151,22 @@ public class MonsterSkill : MonoBehaviour
         if (turnCounts > 0)
         {
             //공격력
-            if (Data.saveData.MonsterSkillData[mobSkillNumber].Attack != 100)
+            if (Data.saveData.MonsterSkill[mobSkillNumber].Attack != 100)
             {
                 monsterTurns[0, mobIndex] = turnCounts;
             }
             //방어력
-            if (Data.saveData.MonsterSkillData[mobSkillNumber].DecreaseDamage != 100)
+            if (Data.saveData.MonsterSkill[mobSkillNumber].DecreaseDamage != 100)
             {
                 monsterTurns[1, mobIndex] = turnCounts;
             }
             //회복
-            if (Data.saveData.MonsterSkillData[mobSkillNumber].HealHP != 0)
+            if (Data.saveData.MonsterSkill[mobSkillNumber].HealHP != 0)
             {
                 monsterTurns[2, mobIndex] = turnCounts;
             }
             //출혈
-            if (Data.saveData.MonsterSkillData[mobSkillNumber].Blood != 0)
+            if (Data.saveData.MonsterSkill[mobSkillNumber].Blood != 0)
             {
                 monsterTurns[3, mobIndex] = turnCounts;
             }
@@ -178,7 +178,7 @@ public class MonsterSkill : MonoBehaviour
         //공격력증가
         if(monsterTurns[0, mobIndex] > 0)//진행 중
         {
-            increaseAttack = Data.saveData.MonsterSkillData[mobSkillNumber].Attack+100;//공격력 증가
+            increaseAttack = Data.saveData.MonsterSkill[mobSkillNumber].Attack+100;//공격력 증가
             //공격력 증가 표시
             monsterTurns[0, mobIndex] -= 1;//남은 턴 수 감소
         }
@@ -190,7 +190,7 @@ public class MonsterSkill : MonoBehaviour
         //데미지 감소
         if (monsterTurns[1, mobIndex] > 0)
         {
-            skill.monsterDefense = Data.saveData.MonsterSkillData[mobSkillNumber].DecreaseDamage;//방어력 갱신
+            skill.monsterDefense = Data.saveData.MonsterSkill[mobSkillNumber].DecreaseDamage;//방어력 갱신
             //방어력 증가표시
             monsterTurns[1, mobIndex] -= 1;
         }
@@ -202,7 +202,7 @@ public class MonsterSkill : MonoBehaviour
         //회복
         if(monsterTurns[2, mobIndex] > 0)
         {
-            int amountHeal = monsterMgr.monsterFullHP[mobIndex]*Data.saveData.MonsterSkillData[mobSkillNumber].HealHP/100;//회복량
+            int amountHeal = monsterMgr.monsterFullHP[mobIndex]*Data.saveData.MonsterSkill[mobSkillNumber].HealHP/100;//회복량
             monsterMgr.currentMonsterHP[mobIndex] = Mathf.Max(monsterMgr.monsterFullHP[mobIndex], monsterMgr.currentMonsterHP[mobIndex] + amountHeal);
             monsterTurns[2, mobIndex] -= 1;
         }
@@ -210,7 +210,7 @@ public class MonsterSkill : MonoBehaviour
         //출혈
         if (monsterTurns[3, mobIndex] > 0)
         {
-            characterMgr.playerHP -= Data.saveData.MonsterSkillData[mobSkillNumber].Blood;//출혈데미지
+            characterMgr.playerHP -= Data.saveData.MonsterSkill[mobSkillNumber].Blood;//출혈데미지
             monsterTurns[3, mobIndex] -= 1;
         }
     }

@@ -76,11 +76,11 @@ public class CharacterMgr : MonoBehaviour
         fourthPlayer = teamSelect.selectedTeamNumber[3];
 
         //풀피 설정
-        playerFullHP = (Data.saveData.my_characterlist[firstPlayer].HP + Data.saveData.my_characterlist[secondPlayer].HP + Data.saveData.my_characterlist[thirdPlayer].HP + Data.saveData.my_characterlist[fourthPlayer].HP)*1000;
+        playerFullHP = (Data.saveData.CharacterData[firstPlayer].HP + Data.saveData.CharacterData[secondPlayer].HP + Data.saveData.CharacterData[thirdPlayer].HP + Data.saveData.CharacterData[fourthPlayer].HP);
         playerHP = playerFullHP;//처음엔 풀피
 
         //풀 에너지 설정
-        playerFullEnerge = Data.saveData.my_characterlist[firstPlayer].Energe + Data.saveData.my_characterlist[secondPlayer].Energe + Data.saveData.my_characterlist[thirdPlayer].Energe + Data.saveData.my_characterlist[fourthPlayer].Energe;
+        playerFullEnerge = Data.saveData.CharacterData[firstPlayer].Energe + Data.saveData.CharacterData[secondPlayer].Energe + Data.saveData.CharacterData[thirdPlayer].Energe + Data.saveData.CharacterData[fourthPlayer].Energe;
         playerEnerge = playerFullEnerge;//처음엔 풀 에너지
 
         //캐릭터 상태이상 초기상태
@@ -118,11 +118,11 @@ public class CharacterMgr : MonoBehaviour
         //하트링크 데스링크 검사
         if (Data.saveData.my_characterlist[characterIndex].heartLink)
         {
-            mobBloodDamage -= Data.saveData.MonsterSkillData[0].HeartLink;//일단 임의 몬스터
+            mobBloodDamage -= Data.saveData.MonsterSkill[0].HeartLink;//일단 임의 몬스터
         }
         if (Data.saveData.my_characterlist[characterIndex].deathLink)
         {
-            mobBloodDamage += Data.saveData.MonsterSkillData[0].DeathLink;//일단 임의 몬스터
+            mobBloodDamage += Data.saveData.MonsterSkill[0].DeathLink;//일단 임의 몬스터
         }
         //피격데미지
         playerHP = Mathf.Max(playerHP - mobBloodDamage, 0);

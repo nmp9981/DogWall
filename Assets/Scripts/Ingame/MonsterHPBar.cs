@@ -9,7 +9,6 @@ public class MonsterHPBar : MonoBehaviour
     Image mobHealthBar;//체력바 이미지
     public float mobHPRate;//hp 비율
     public int monsterHPIndex;//몬스터 HP인덱스
-    int[] sampleHP = { 4000, 10000, 2000, 8500 };//임시 배열
 
     // Start is called before the first frame update
     void Start()
@@ -27,8 +26,6 @@ public class MonsterHPBar : MonoBehaviour
     void ViewMonsterHP()
     {
         mobHPRate = (float)monsterMgr.currentMonsterHP[monsterHPIndex] / (float)monsterMgr.monsterFullHP[monsterHPIndex];//실제 사용
-        //mobHPRate = (float)sampleHP[monsterHPIndex] / (float)10000;//임시
-        //sampleHP[1] -= 1;//임시
         mobHealthBar.fillAmount = mobHPRate;
     }
 }
