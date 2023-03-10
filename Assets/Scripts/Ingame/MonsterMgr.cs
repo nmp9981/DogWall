@@ -44,18 +44,13 @@ public class MonsterMgr : MonoBehaviour
         skill = GameObject.FindWithTag("Skill").GetComponent<Skill>();//Skill 스크립트에서 변수 가져오기
         monsterSkillMgr = GameObject.FindWithTag("MonsterSkill").GetComponent<MonsterSkill>();//MonsterSkill 스크립트에서 변수 가져오기
         specialMonster = GameObject.FindWithTag("MonsterSpecialSkill").GetComponent<SepcialMonster>();//SepcialMonster스크립트에서 변수 가져오기
-        //dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
-
+        
         MonsterSetting();//몬스터 리젠
         InitMonster(monstersIndex);//초기 몬스터 세팅
         turn.monsterSet(); // 몬스터 배치
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     //몬스터 출현(한 몬스터가 여러마리 등장)
     public void MonsterSetting()
     {
@@ -77,10 +72,10 @@ public class MonsterMgr : MonoBehaviour
     {
         for(int i = 0; i < monsters.Count; i++)
         {
-            monsterFullHP.Add(monsters[i].HP);//몬스터 체력 초기화
+            monsterFullHP.Add(monsters[i].Hp);//몬스터 체력 초기화
             currentMonsterHP.Add(monsterFullHP[i]);//처음엔 풀피
         }
-        monsterAttackDamage = monsters[index].Attack;//몬스터 공격력
+        monsterAttackDamage = monsters[index].Atk;//몬스터 공격력
         monsterAttribute = monsters[index].Type;//몬스터 속성
     }
     //출혈 데미지 계산

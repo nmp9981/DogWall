@@ -74,7 +74,7 @@ public class MonsterSkill : MonoBehaviour
         }
         int monsterAttackDamage = 0;//총 데미지 초기화
         int mobNum = monsterMgr.MonsterNum[mobIndex];//실제 몬스터 번호
-        currentAttack = Data.saveData.MonsterData[mobNum].Attack*increaseAttack/100;//현재 공격력
+        currentAttack = Data.saveData.MonsterData[mobNum].Atk*increaseAttack/100;//현재 공격력
 
         //턴 기반 버프(일반 스킬)
         TurnBuffInit(mobIndex,mobSkillNumber);//턴버프 초기화
@@ -100,7 +100,7 @@ public class MonsterSkill : MonoBehaviour
     //몬스터 HP회복
     void HealMonsterHP(int AmountMobHP,int mobIndex,int mobNum)//회복량, 몬스터 인덱스, 실제 몬스터 넘버
     {
-        Mathf.Max(Data.saveData.MonsterData[mobNum].HP, monsterMgr.currentMonsterHP[mobIndex] + AmountMobHP);
+        Mathf.Max(Data.saveData.MonsterData[mobNum].Hp, monsterMgr.currentMonsterHP[mobIndex] + AmountMobHP);
     }
     //다수 공격(몬스터->캐릭터)
     public void MultiAttack(int targets,int hitDamage, int mobIndex,int mobSkillNumber)//공격 마릿수, 스킬데미지, 몹 인덱스, 스킬넘버

@@ -171,8 +171,8 @@ public class MonstersDataClass//몬스터 DB
     public string Name = "";//이름
     public int Difficulty = 1;//속성
     public int Type = 1;//타입
-    public int HP = 0;//HP
-    public int Attack = 0;//공격력
+    public int Hp = 0;//HP
+    public int Atk = 0;//공격력
     public int TurnCount = 1;//턴 수
     //각 턴에 뭐를 쓸건가
     public int turn0_Ger1 = 0;public int turn0_Ger2 = 0;public int turn0_Spe1 = 0;public int turn0_Spe2 = 0;
@@ -194,8 +194,8 @@ public class MonstersDataClass//몬스터 DB
         this.Name = n;
         this.Difficulty = d;
         this.Type = t;
-        this.HP = h;
-        this.Attack = at;
+        this.Hp = h;
+        this.Atk = at;
         this.TurnCount = tc;
         //각 턴 스킬 번호
         this.turn0_Ger1 = t0G1;this.turn0_Ger2 = t0G2;this.turn0_Spe1 = t0S1;this.turn0_Spe2 = t0S2;
