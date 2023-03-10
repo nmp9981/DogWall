@@ -127,48 +127,12 @@ public class CharacterSkillIndexDataClass//스킬DB
         this.Energy = e;
     }
 }
-/*
-//조만간 지울거
-[System.Serializable]
-public class SkillDataClass//스킬DB
-{
-    public string SkillName = "";//이름
-    public int Energe = 0;//에너지
-    public string Explain = "";//설명
-    public int Attack = 0;//공격
-    public int CharacterAttack = 0;//캐릭터 공격력 증가
-    public int DecreaseDamage = 0;//데미지감소
-    public int HealHP = 0;//HP회복
-    public bool Provocation = false;//도발
-    public bool NotAction = false;//행동불능
-    public int HealEnerge = 0;//에너지 회복
-    public int blood = 0;//출혈
-    public int TurnCount = 1;//지속 턴수
-    public int Rare = 1;//레어도
 
-    public SkillDataClass(string sn = "럭키세븐",int e = 0,string ex = "?",int a = 0,int ca = 0,int dd = 0,int hh = 0,bool p=false,bool na = false,int he = 0,int b=0,int tc=1,int r = 1)
-    {
-        this.SkillName = sn;
-        this.Energe = e;
-        this.Explain = ex;
-        this.Attack = a;
-        this.CharacterAttack = ca;
-        this.DecreaseDamage = dd;
-        this.HealHP = hh;
-        this.Provocation = p;
-        this.NotAction = na;
-        this.HealEnerge = he;
-        this.blood = b;
-        this.TurnCount = tc;
-        this.Rare = r;
-    }
-}
-*/
 [System.Serializable]
 public class MonstersDataClass//몬스터 DB
 {
     public string World = "월령";//1:월령, 2:엠피레오, 3: 제한 구역, 4: 전체
-    public string Name = "";//이름
+    public string Character = "";//이름
     public int Difficulty = 1;//속성
     public int Type = 1;//타입
     public int Hp = 0;//HP
@@ -191,7 +155,7 @@ public class MonstersDataClass//몬스터 DB
         int t5G1 = 0, int t5G2 = 0, int t5S1 = 0, int t5S2 = 0)
     {
         this.World = w;
-        this.Name = n;
+        this.Character = n;
         this.Difficulty = d;
         this.Type = t;
         this.Hp = h;
@@ -248,8 +212,7 @@ public class BossMonsterDataClass//보스몬스터 DB
 [System.Serializable]
 public class MonsterSkillDataClass
 {
-    public int Index = 1;//몬스터 스킬 인덱스
-    public string name = "";//스킬 설명
+    public string Name = "";//스킬 설명
     public int Damage = 0;//데미지
     public int AttackCount = 0;//공격 횟수
     public int Targets = 0;//타겟 수
@@ -262,10 +225,9 @@ public class MonsterSkillDataClass
     public int HeartLink = 3000;//하트링크 데미지
     public int DeathLink = 3000;//데스링크 데미지
 
-    public MonsterSkillDataClass(int i = 1, string name = null, int d = 1, int ac = 1,int b=1,int tc = 1,int a=1,int de=1,bool s = false,int hh=1,int hl = 1,int dl=1)
+    public MonsterSkillDataClass( string name = null, int d = 1, int ac = 1,int b=1,int tc = 1,int a=1,int de=1,bool s = false,int hh=1,int hl = 1,int dl=1)
     {
-        this.Index = i;
-        this.name = name;
+        this.Name = name;
         this.Damage = d;
         this.AttackCount = ac;
         this.Blood = b;
