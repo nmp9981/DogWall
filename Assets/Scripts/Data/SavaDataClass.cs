@@ -44,23 +44,31 @@ public class Character//캐릭터 DB
 [System.Serializable]
 public class PlayerDataClass//캐릭터 DB
 {
+    public int idx = 0;//인덱스
+    public string img_path = "";//이미지 경로
     public string Name = "";//캐릭터명
     public int HP = 0;//HP
-    public int Energe = 0;//에너지
-    public int Attack = 0;//공격력
+    public int ATK = 0;//공격력
     public int Attribute = 0;//속성
-    public int Star = 1;
+    public int Energe = 0;//에너지
     public int Appear = 1;//출현 
+    public int Upgrade = 0;//업그레이드 수
+    public int Same = 0;//같은 건가
+    public int IsAction = 0;//스킬 사용이 가능한가?
 
-    public PlayerDataClass( string n = "무명", int h = 0, int e = 0, int a = 0, int A = 1, int S = 1, int ap = 0)
+    public PlayerDataClass(int i=0,string impa = "", string n = "무명", int h = 0, int a = 0, int A = 1,int e=0,int app=0,int up=0, int S = 1, int act = 0)
     {
+        this.idx = i;
+        this.img_path = impa;
         this.Name = n;
         this.HP = h;
-        this.Energe = e;
-        this.Attack = a;
+        this.ATK = a;
         this.Attribute = A;
-        this.Star = S;
-        this.Appear = ap;
+        this.Energe = e;
+        this.Appear = app;
+        this.Upgrade = up;
+        this.Same= S;
+        this.IsAction = act;
     }
 }
 [System.Serializable]
@@ -137,14 +145,13 @@ public class MonstersDataClass//몬스터 DB
     public int Type = 1;//타입
     public int Hp = 0;//HP
     public int Atk = 0;//공격력
-    public int TurnCount = 1;//턴 수
     //각 턴에 뭐를 쓸건가
-    public int turn0_Ger1 = 0;public int turn0_Ger2 = 0;public int turn0_Spe1 = 0;public int turn0_Spe2 = 0;
-    public int turn1_Ger1 = 0;public int turn1_Ger2 = 0;public int turn1_Spe1 = 0;public int turn1_Spe2 = 0;
-    public int turn2_Ger1 = 0;public int turn2_Ger2 = 0;public int turn2_Spe1 = 0;public int turn2_Spe2 = 0;
-    public int turn3_Ger1 = 0;public int turn3_Ger2 = 0;public int turn3_Spe1 = 0;public int turn3_Spe2 = 0;
-    public int turn4_Ger1 = 0;public int turn4_Ger2 = 0;public int turn4_Spe1 = 0;public int turn4_Spe2 = 0;
-    public int turn5_Ger1 = 0;public int turn5_Ger2 = 0;public int turn5_Spe1 = 0;public int turn5_Spe2 = 0;
+    public int turn0_general1 = 0;public int turn0_general2 = 0;public int turn0_special1 = 0;public int turn0_special2 = 0;
+    public int turn1_general = 0;public int turn1_general__1; public int turn1_special1 = 0;public int turn1_special2 = 0;
+    public int turn2_general = 0;public int turn2_general__1 = 0;public int turn2_special1 = 0;public int turn2_special2 = 0;
+    public int turn3_general1 = 0;public int turn3_general2 = 0;public int turn3_special1 = 0;public int turn3_special2 = 0;
+    public int turn4_general1 = 0;public int turn4_general2 = 0;public int turn4_special1 = 0;public int turn4_special2 = 0;
+    public int turn5_general1 = 0;public int turn5_general2 = 0;public int turn5_special1 = 0;public int turn5_special2 = 0;
 
     public MonstersDataClass(string w = "월령", string n = "1", int d = 1 ,int t = 1, int h = 0, int at = 0,int tc= 1,
         int t0G1=0,int t0G2=0,int t0S1=0,int t0S2=0,
@@ -160,34 +167,13 @@ public class MonstersDataClass//몬스터 DB
         this.Type = t;
         this.Hp = h;
         this.Atk = at;
-        this.TurnCount = tc;
         //각 턴 스킬 번호
-        this.turn0_Ger1 = t0G1;this.turn0_Ger2 = t0G2;this.turn0_Spe1 = t0S1;this.turn0_Spe2 = t0S2;
-        this.turn1_Ger1 = t1G1;this.turn1_Ger2 = t1G2;this.turn1_Spe1 = t1S1;this.turn1_Spe2 = t1S2;
-        this.turn2_Ger1 = t2G1;this.turn2_Ger2 = t2G2;this.turn2_Spe1 = t2S1;this.turn2_Spe2 = t2S2;
-        this.turn3_Ger1 = t3G1;this.turn3_Ger2 = t3G2;this.turn3_Spe1 = t3S1;this.turn3_Spe2 = t3S2;
-        this.turn4_Ger1 = t4G1;this.turn4_Ger2 = t4G2;this.turn4_Spe1 = t4S1;this.turn4_Spe2 = t4S2;
-        this.turn5_Ger1 = t5G1;this.turn5_Ger2 = t5G2;this.turn5_Spe1 = t5S1;this.turn5_Spe2 = t5S2;
-    }
-}
-[System.Serializable]
-public class MonsterDataClass//몬스터 DB, 지울 예정
-{
-    public string World = "월령";//1:월령, 2:엠피레오, 3: 제한 구역, 4: 전체
-    public int Attribute = 1;//속성
-    public string Name = "";//이름
-    public int Stage = 1;//스테이지
-    public int HP = 0;//HP
-    public int Attack = 0;//공격력
-
-    public MonsterDataClass(string w="월령",int a=1,string n="1",int s=1,int h=0,int at = 0)
-    {
-        this.World = w;
-        this.Attribute = a;
-        this.Name = n;
-        this.Stage = s;
-        this.HP = h;
-        this.Attack = at;
+        this.turn0_general1 = t0G1;this.turn0_general2 = t0G2;this.turn0_special1 = t0S1;this.turn0_special2 = t0S2;
+        this.turn1_general = t1G1;this.turn1_general__1 = t1G2;this.turn1_special1 = t1S1;this.turn1_special2 = t1S2;
+        this.turn2_general = t2G1;this.turn2_general__1 = t2G2;this.turn2_special1 = t2S1;this.turn2_special2 = t2S2;
+        this.turn3_general1 = t3G1;this.turn3_general2 = t3G2;this.turn3_special1 = t3S1;this.turn3_special2 = t3S2;
+        this.turn4_general1 = t4G1;this.turn4_general2 = t4G2;this.turn4_special1 = t4S1;this.turn4_special2 = t4S2;
+        this.turn5_general1 = t5G1;this.turn5_general2 = t5G2;this.turn5_special1 = t5S1;this.turn5_special2 = t5S2;
     }
 }
 public class BossMonsterDataClass//보스몬스터 DB
@@ -243,7 +229,7 @@ public class MonsterSkillDataClass
 [System.Serializable]
 public class MonsterSpeccialSkillDataClass
 {
-    public string name = "";//스킬 설명
+    public string Name = "";//스킬 설명
     public int NotAction = 0;//활동 여부
     public int Targets = 0;//타겟 수
     public int TurnCount = 0;//스킬 턴수
@@ -252,13 +238,13 @@ public class MonsterSpeccialSkillDataClass
     public bool Self = false;//자기자신한테 공격하는 것인가?
     public int Energy = 0;//플레이어 에너지 회복량
     public int HeartLink = 3000;//하트링크 데미지
-    public int DeathLink = 3000;//데스링크 데미지
+    public int Deathlink = 3000;//데스링크 데미지
     public bool Provocation = false;//도발여부
     public bool IsMaxHealth = false;//가장 체력이 높은 몬스터
 
     public MonsterSpeccialSkillDataClass(string name = null, int na = 1, int target=1, int tc = 1, int chaAtk = 1, int de = 1, bool s = false, int e = 1, int hl = 1, int dl = 1,bool prov=false,bool ismax=false)
     {
-        this.name = name;
+        this.Name = name;
         this.NotAction = na;
         this.Targets = target;
         this.TurnCount = tc;
@@ -267,7 +253,7 @@ public class MonsterSpeccialSkillDataClass
         this.Self = s;
         this.Energy = e;
         this.HeartLink = hl;
-        this.DeathLink = dl;
+        this.Deathlink = dl;
         this.Provocation = prov;
         this.IsMaxHealth = ismax;
     }
@@ -295,7 +281,7 @@ public class SaveDataClass
 {
     public List<Character> list;
     public List<Character> my_characterlist;//캐릭터 리스트
-    public List<PlayerDataClass> CharacterData;//캐릭터 리스트
+    public List<PlayerDataClass> CharacterData;//캐릭터 리스트(찐)
     public List<CharacterSkillDataClass> CharacterSkill;//캐릭터 스킬 리스트
     public List<CharacterSkillIndexDataClass> CharacterSkillIndex;//캐릭터 스킬 Index 리스트
     public List<MonstersDataClass> MonsterData;//몬스터 리스트(지울 예정)

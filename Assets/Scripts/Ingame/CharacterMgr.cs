@@ -59,6 +59,7 @@ public class CharacterMgr : MonoBehaviour
     public int playerHP;//플레이어 HP
     public int playerFullEnerge;//플레이어 에너지
     public int playerEnerge;//플레이어 에너지
+    public int[] playerAttack = new int[4];//플레이어 공격력
 
     // Start is called before the first frame update
     void Start()
@@ -74,6 +75,12 @@ public class CharacterMgr : MonoBehaviour
         secondPlayer = teamSelect.selectedTeamNumber[1];
         thirdPlayer = teamSelect.selectedTeamNumber[2];
         fourthPlayer = teamSelect.selectedTeamNumber[3];
+
+        //플레이어 공격력
+        playerAttack[0] = Data.saveData.CharacterData[firstPlayer].ATK;
+        playerAttack[1] = Data.saveData.CharacterData[secondPlayer].ATK;
+        playerAttack[2] = Data.saveData.CharacterData[thirdPlayer].ATK;
+        playerAttack[3] = Data.saveData.CharacterData[fourthPlayer].ATK;
 
         //풀피 설정
         playerFullHP = (Data.saveData.CharacterData[firstPlayer].HP + Data.saveData.CharacterData[secondPlayer].HP + Data.saveData.CharacterData[thirdPlayer].HP + Data.saveData.CharacterData[fourthPlayer].HP);
@@ -113,19 +120,7 @@ public class CharacterMgr : MonoBehaviour
     //플레이어 출혈 데미지
     public void PlayerBloodDamage(int teamIndex,int hitDamage)
     {
-        int mobBloodDamage = hitDamage;//원래 피격데미지
-        int characterIndex = teamSelect.selectedTeamNumber[teamIndex];//캐릭터 위치
-        //하트링크 데스링크 검사
-        if (Data.saveData.my_characterlist[characterIndex].heartLink)
-        {
-            mobBloodDamage -= Data.saveData.MonsterSkill[0].HeartLink;//일단 임의 몬스터
-        }
-        if (Data.saveData.my_characterlist[characterIndex].deathLink)
-        {
-            mobBloodDamage += Data.saveData.MonsterSkill[0].DeathLink;//일단 임의 몬스터
-        }
-        //피격데미지
-        playerHP = Mathf.Max(playerHP - mobBloodDamage, 0);
+        playerHP = Mathf.Max(playerHP - hitDamage, 0);
     }
     //플레이어 체력 체크
     public void PlayerDie()
@@ -161,67 +156,67 @@ public class CharacterMgr : MonoBehaviour
         switch (characNum)
         {
             case 0:
-                if (attack == Data.saveData.my_characterlist[characNum].ATK)//변동없음
+                if (attack == Data.saveData.CharacterData[characNum].ATK)//변동없음
                 {
                     characterCondition1.SetActive(false);
 
-                }else if(attack > Data.saveData.my_characterlist[characNum].ATK)//증가
+                }else if(attack > Data.saveData.CharacterData[characNum].ATK)//증가
                 {
                     characterCondition1.SetActive(true);
                     characterConditionImage1.color = Color.blue;//파란색
                 }
-                else if (attack < Data.saveData.my_characterlist[characNum].ATK)//감소
+                else if (attack < Data.saveData.CharacterData[characNum].ATK)//감소
                 {
                     characterCondition1.SetActive(true);
                     characterConditionImage1.color = Color.red;//빨간색
                 }
                 break;
             case 1:
-                if (attack == Data.saveData.my_characterlist[characNum].ATK)//변동없음
+                if (attack == Data.saveData.CharacterData[characNum].ATK)//변동없음
                 {
                     characterCondition2.SetActive(false);
 
                 }
-                else if (attack > Data.saveData.my_characterlist[characNum].ATK)//증가
+                else if (attack > Data.saveData.CharacterData[characNum].ATK)//증가
                 {
                     characterCondition2.SetActive(true);
                     characterConditionImage2.color = Color.blue;//파란색
                 }
-                else if (attack < Data.saveData.my_characterlist[characNum].ATK)//감소
+                else if (attack < Data.saveData.CharacterData[characNum].ATK)//감소
                 {
                     characterCondition2.SetActive(true);
                     characterConditionImage2.color = Color.red;//빨간색
                 }
                 break;
             case 2:
-                if (attack == Data.saveData.my_characterlist[characNum].ATK)//변동없음
+                if (attack == Data.saveData.CharacterData[characNum].ATK)//변동없음
                 {
                     characterCondition3.SetActive(false);
 
                 }
-                else if (attack > Data.saveData.my_characterlist[characNum].ATK)//증가
+                else if (attack > Data.saveData.CharacterData[characNum].ATK)//증가
                 {
                     characterCondition3.SetActive(true);
                     characterConditionImage3.color = Color.blue;//파란색
                 }
-                else if (attack < Data.saveData.my_characterlist[characNum].ATK)//감소
+                else if (attack < Data.saveData.CharacterData[characNum].ATK)//감소
                 {
                     characterCondition3.SetActive(true);
                     characterConditionImage3.color = Color.red;//빨간색
                 }
                 break;
             case 3:
-                if (attack == Data.saveData.my_characterlist[characNum].ATK)//변동없음
+                if (attack == Data.saveData.CharacterData[characNum].ATK)//변동없음
                 {
                     characterCondition4.SetActive(false);
 
                 }
-                else if (attack > Data.saveData.my_characterlist[characNum].ATK)//증가
+                else if (attack > Data.saveData.CharacterData[characNum].ATK)//증가
                 {
                     characterCondition4.SetActive(true);
                     characterConditionImage4.color = Color.blue;//파란색
                 }
-                else if (attack < Data.saveData.my_characterlist[characNum].ATK)//감소
+                else if (attack < Data.saveData.CharacterData[characNum].ATK)//감소
                 {
                     characterCondition4.SetActive(true);
                     characterConditionImage4.color = Color.red;//빨간색

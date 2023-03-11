@@ -24,17 +24,7 @@ public class MonsterMgr : MonoBehaviour
     public int monsterAttribute;//몬스터 속성
 
     public int monstersIndex = 0;//몬스터 인덱스
-    CSV_Reader CSVReader;
-    public List<Dictionary<string, object>> MonstersData;//몬스터 데이터
-    public List<Dictionary<string, object>> MonsterSkillNormal;//일반 스킬
-    public List<Dictionary<string, object>> MonsterSkillSpecial;//특수 스킬
 
-    void Awake()
-    {
-        MonstersData = CSV_Reader.Read("MonsterData"); //몬스터 데이터 불러오기
-        MonsterSkillNormal = CSV_Reader.Read("MonsterSkill"); //몬스터 일반 스킬 데이터 불러오기
-        MonsterSkillSpecial = CSV_Reader.Read("MonsterSpecialSkill");//몬스터 특수 스킬 데이터 불러오기
-    }
     // Start is called before the first frame update
     void Start()
     {

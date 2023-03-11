@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class TeamSelect : MonoBehaviour
 {
-    const int maxCharacterNum = 10;//최대 캐릭터 수
+    const int maxCharacterNum = 4;//최대 캐릭터 수
     const int selectedSize = 4;//선택 캐릭터 수
     public bool[] isSelect;//팀선택 조합
     public int[] selectedTeamNumber;//선택한 번호
 
     // Update is called once per frame
-    void Start()
+    void Awake()
     {
         selectedTeamNumber = new int[selectedSize];//배열 초기화
         isSelect = new bool[maxCharacterNum];

@@ -41,24 +41,24 @@ public class MonsterSkill : MonoBehaviour
     {
         for(int i = 0; i < monsterMgr.MonsterNum.Count; i++)//각 몬스터의 스킬을 배열에 넣기
         {
-            int MobSkillIndex01 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn0_general1"];
-            int MobSkillIndex02 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn0_general2"];
-            int MobSkillIndex11 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn1_general1"];
-            int MobSkillIndex12 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn1_general2"];
-            int MobSkillIndex21 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn2_general1"];
-            int MobSkillIndex22 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn2_general2"];
-            int MobSkillIndex31 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn3_general1"];
-            int MobSkillIndex32 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn3_general2"];
-            //int MobSkillIndex41 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn4_general1"];
-            //int MobSkillIndex42 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn4_general2"];
-            //int MobSkillIndex51 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn5_general1"];
-            //int MobSkillIndex52 = (int)monsterMgr.MonstersData[monsterMgr.MonsterNum[i]]["turn5_general2"];
+            int MobSkillIndex01 = Data.saveData.MonsterSkill[Data.saveData.MonsterData[i].turn0_general1].TurnCount;
+            int MobSkillIndex02 = Data.saveData.MonsterSkill[Data.saveData.MonsterData[i].turn0_general2].TurnCount;
+            int MobSkillIndex11 = Data.saveData.MonsterSkill[Data.saveData.MonsterData[i].turn1_general].TurnCount;
+            int MobSkillIndex12 = Data.saveData.MonsterSkill[Data.saveData.MonsterData[i].turn1_general__1].TurnCount;
+            int MobSkillIndex21 = Data.saveData.MonsterSkill[Data.saveData.MonsterData[i].turn2_general].TurnCount;
+            int MobSkillIndex22 = Data.saveData.MonsterSkill[Data.saveData.MonsterData[i].turn2_general__1].TurnCount;
+            int MobSkillIndex31 = Data.saveData.MonsterSkill[Data.saveData.MonsterData[i].turn3_general1].TurnCount;
+            int MobSkillIndex32 = Data.saveData.MonsterSkill[Data.saveData.MonsterData[i].turn3_general2].TurnCount;
+            int MobSkillIndex41 = Data.saveData.MonsterSkill[Data.saveData.MonsterData[i].turn4_general1].TurnCount;
+            int MobSkillIndex42 = Data.saveData.MonsterSkill[Data.saveData.MonsterData[i].turn4_general2].TurnCount;
+            int MobSkillIndex51 = Data.saveData.MonsterSkill[Data.saveData.MonsterData[i].turn5_general1].TurnCount;
+            int MobSkillIndex52 = Data.saveData.MonsterSkill[Data.saveData.MonsterData[i].turn5_general2].TurnCount;
             MonsterSkillList[i,0] = MobSkillIndex01; MonsterSkillList[i, 1] = MobSkillIndex02;
             MonsterSkillList[i, 2] = MobSkillIndex11; MonsterSkillList[i, 3] = MobSkillIndex12;
             MonsterSkillList[i, 4] = MobSkillIndex21; MonsterSkillList[i, 5] = MobSkillIndex22;
             MonsterSkillList[i, 6] = MobSkillIndex31; MonsterSkillList[i, 7] = MobSkillIndex32;
-            //MonsterSkillList[i, 8] = MobSkillIndex41; MonsterSkillList[i, 9] = MobSkillIndex42;
-            //MonsterSkillList[i, 10] = MobSkillIndex51; MonsterSkillList[i, 11] = MobSkillIndex52;
+            MonsterSkillList[i, 8] = MobSkillIndex41; MonsterSkillList[i, 9] = MobSkillIndex42;
+            MonsterSkillList[i, 10] = MobSkillIndex51; MonsterSkillList[i, 11] = MobSkillIndex52;
         }
     }
     
@@ -116,29 +116,21 @@ public class MonsterSkill : MonoBehaviour
                 selectedMob[selectedIndex] = true;
                 
                 int monsterAttribute = Data.saveData.MonsterData[mobIndex].Type;//몬스터 속성 => 수정
-                int playerAttribute = Data.saveData.my_characterlist[selectedIndex].Attribute;//플레이어 속성
+                int playerAttribute = Data.saveData.CharacterData[selectedIndex].Attribute;//플레이어 속성
                 int attributeDamage = characterMgr.CheckAttribute(playerAttribute, monsterAttribute);//속성 데미지
 
                 int mobHitDamage = attributeDamage * hitDamage/(100*targets);
                 //하트 링크
                 if (Data.saveData.MonsterSkill[mobSkillNumber].HeartLink > 0)
                 {
-                    Data.saveData.my_characterlist[teamSelect.selectedTeamNumber[selectedIndex]].heartLink = true;
-                }
-                else
-                {
-                    Data.saveData.my_characterlist[teamSelect.selectedTeamNumber[selectedIndex]].heartLink = false;
+                    mobHitDamage = mobHitDamage /2;
                 }
                 //데스 링크
                 if (Data.saveData.MonsterSkill[mobSkillNumber].DeathLink > 0)
                 {
-                    Data.saveData.my_characterlist[teamSelect.selectedTeamNumber[selectedIndex]].deathLink = true;
+                    mobHitDamage = mobHitDamage * 3 / 2;
                 }
-                else
-                {
-                    Data.saveData.my_characterlist[teamSelect.selectedTeamNumber[selectedIndex]].deathLink = false;
-                }
-                characterMgr.PlayerBloodDamage(selectedIndex, mobHitDamage/3);//공격
+                characterMgr.PlayerBloodDamage(selectedIndex, mobHitDamage);//공격
                 countTargets++;
             }
         }
@@ -146,8 +138,7 @@ public class MonsterSkill : MonoBehaviour
     //몬스터 턴 초기화
     void TurnBuffInit(int mobIndex,int mobSkillNumber)
     {
-        //int turnCounts = Data.saveData.MonsterSkillData[mobSkillNumber].TurnCount;//턴 수
-        int turnCounts = (int)monsterMgr.MonsterSkillNormal[mobSkillNumber]["Targets"];//턴 수
+        int turnCounts = Data.saveData.MonsterSkill[mobSkillNumber].TurnCount;//턴 수
         if (turnCounts > 0)
         {
             //공격력

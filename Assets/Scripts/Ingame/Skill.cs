@@ -13,8 +13,8 @@ public class Skill : MonoBehaviour
     MonsterMgr monsterMgr;
     MonsterSkill monsterSkill;
 
+    public int playerAttack;//캐릭터 공격력
     public int[,] SkillCharacterTurnMatrix = new int[250, 4];//스킬-캐릭터간 남은 턴 수 배열 
-    public int playerAttack;//플레이어 공격력
     public bool[] mobProvocation = new bool[4];//몬스터 도발
 
     //캐릭터별 남은 턴 수
@@ -46,21 +46,21 @@ void Start()
         int requireEnerge = Data.saveData.CharacterSkillIndex[number].Energy;
         if (characterMgr.playerEnerge < requireEnerge) return 0;//스킬 사용 불가
 
-        int playerAttribute = Data.saveData.my_characterlist[playerNumber].Attribute;//플레이어 속성
+        int playerAttribute = Data.saveData.CharacterData[playerNumber].Attribute;//플레이어 속성
         int monsterAttribute = Data.saveData.MonsterData[0].Type;//몬스터 속성
         monsterDefense = 100;//몬스터 방어력
         int attributeDamage = characterMgr.CheckAttribute(playerAttribute, monsterAttribute);//속성 데미지
-        playerAttack = Data.saveData.my_characterlist[playerNumber].ATK*4000;//캐릭터 초기 공격력
+        playerAttack = characterMgr.playerAttack[playIndex];//캐릭터 초기 공격력
         int skillPercentDamage = Data.saveData.CharacterSkillIndex[number].Attack;//스킬 퍼센테이지
-
+        
         //전체 공격 여부
-        //if (Data.saveData.CharacterSkillIndexData[number].AllTargets == 1) turn.isAllTarget = true;
+        if (Data.saveData.CharacterSkillIndex[number].AllTargets == true) turn.isAllTarget = 1;
         //턴 기반 버프
         TurnBuff(playIndex, number,mobIndex);//남은 턴 수를 넣는다
 
-        int baseSkillDamage = playerAttack * skillPercentDamage / 100;//기본 스킬데미지
+        int baseSkillDamage = (playerAttack * skillPercentDamage) / 100;//기본 스킬데미지
         int attributeSkillDamage = (baseSkillDamage * attributeDamage) / 100;//속성까지 
-        int finalDamage = attributeSkillDamage * monsterDefense / 100;//최종 데미지
+        int finalDamage = (attributeSkillDamage * monsterDefense) / 100;//최종 데미지
         return finalDamage;
     }
 
@@ -96,7 +96,7 @@ void Start()
         //HP증가
         HealCharacterHP(Data.saveData.CharacterSkillIndex[number].HealHP);
         //공격력
-        playerAttack = playerAttack * Data.saveData.CharacterSkillIndex[number].Attack/100;
+        playerAttack = playerAttack * Data.saveData.CharacterSkillIndex[number].CharacterAttack/100;
         //피격데미지
         monsterMgr.monsterAttackDamage = monsterMgr.monsterAttackDamage * Data.saveData.CharacterSkillIndex[number].DecreaseDamage / 100;
         //출혈(도트 데미지)

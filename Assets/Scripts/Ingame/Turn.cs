@@ -25,7 +25,8 @@ public class Turn : MonoBehaviour
     public int turnNumber = 1; // 턴 확인용 변수
     public int totalTurnNumber = 1;
     public int skillNumber = 1;  // 스킬 확인용 변수
-    int skillIndex;//스킬 인덱스(실제 csv에서 적용하는 스킬의 번호)
+    int playerSkillIndex = 0;//스킬 인덱스
+    int skillIndex;//최종 스킬 인덱스
     public int stageNumber = 1; // 스테이지
     public int skillCount = 0;//스킬을 사용한 캐릭터의 수
     public int mobHP;//몬스터 HP
@@ -36,15 +37,7 @@ public class Turn : MonoBehaviour
     public int isAllTarget;//전체 공격 여부
     #endregion
     Coroutine longClickCoroutine;
-    CSV_Reader CSVReader;
-    public List<Dictionary<string, object>> CharacterSkill;//캐릭터 스킬
-    public List<Dictionary<string, object>> CharacterSkillIndex;//캐릭터 스킬 인덱스
 
-    void Awake()
-    {
-        CharacterSkill = CSV_Reader.Read("CharacterSkill"); //캐릭터 스킬 데이터 불러오기
-        CharacterSkillIndex = CSV_Reader.Read("CharacterSkillIndex"); //캐릭터 스킬 인덱스 데이터 불러오기
-    }
     void Start()
     {
         for (int i = 0; i < 5; i++) playerSkillSelect.Add(0);
@@ -65,7 +58,6 @@ public class Turn : MonoBehaviour
 
         if (firstAttack) turnNumber = 1; // 선제공격 여부 확인
         else turnNumber = 5;
-
         UISetting(); // 턴 시작
     }
 
@@ -102,12 +94,10 @@ public class Turn : MonoBehaviour
 
     public void turnEnd()
     {
-        //mobHP = monsterMgr.currentMonsterHP[0];//임의의 몬스터 HP 설정
-        //스킬계산
-        totalDamage = 0;//초기화
         //4개의 스킬
         for (int i = 0; i < 4; i++)
         {
+            totalDamage = 0;//초기화
             isAllTarget = 0;//단일 공격
             if (playerSkillSelect[i] == 4)//필살기
             {
@@ -119,13 +109,56 @@ public class Turn : MonoBehaviour
             }
 
             teamN = characNum(i);//캐릭터 번호
-            skillIndex = teamN * 4 + playerSkillSelect[i] - 1;//스킬의 번호
-            skill.InitTurn(skillIndex, i);//턴 초기화
-            characterMgr.ColorCondition(skill.playerAttack, teamN);//캐릭터 상태 이상 색상 표시
-            skill.TurnCountText(skillIndex, i);//남은 턴 수 나타내기
-            totalDamage = skill.skillAttackDamage(skillIndex, teamN, i, 0);//데미지,(스킬 번호,사용 캐릭터,캐릭터 인덱스, 몬스터 인덱스)
-            Debug.Log(totalDamage);
+            playerSkillIndex = teamN * 4 + playerSkillSelect[i] - 1;//스킬의 번호
 
+            //스킬 효과 중첩
+            for(int j = 0; j < 4; j++)
+            {
+                if (j == 0)
+                {
+                    if (Data.saveData.CharacterSkill[playerSkillIndex].Skill1 > 1)
+                    {
+                        skillIndex = Data.saveData.CharacterSkill[playerSkillIndex].Skill1-2;//사용할 스킬 번호
+                        skill.InitTurn(skillIndex, i);//턴 초기화
+                        characterMgr.ColorCondition(skill.playerAttack, teamN);//캐릭터 상태 이상 색상 표시
+                        skill.TurnCountText(skillIndex, i);//남은 턴 수 나타내기
+                        totalDamage += skill.skillAttackDamage(skillIndex, teamN, i, 0);//데미지,(스킬 번호,사용 캐릭터,캐릭터 인덱스, 몬스터 인덱스)
+                    }
+                }else if (j == 1)
+                {
+                    if (Data.saveData.CharacterSkill[playerSkillIndex].Skill2 > 1)
+                    {
+                        skillIndex = Data.saveData.CharacterSkill[playerSkillIndex].Skill2-2;
+                        skill.InitTurn(skillIndex, i);//턴 초기화
+                        characterMgr.ColorCondition(skill.playerAttack, teamN);//캐릭터 상태 이상 색상 표시
+                        skill.TurnCountText(skillIndex, i);//남은 턴 수 나타내기
+                        totalDamage += skill.skillAttackDamage(skillIndex, teamN, i, 0);//데미지,(스킬 번호,사용 캐릭터,캐릭터 인덱스, 몬스터 인덱스)
+                    }
+                }
+                else if (j == 2)
+                {
+                    if (Data.saveData.CharacterSkill[playerSkillIndex].Skill3 > 1)
+                    {
+                        skillIndex = Data.saveData.CharacterSkill[playerSkillIndex].Skill3-2;
+                        skill.InitTurn(skillIndex, i);//턴 초기화
+                        characterMgr.ColorCondition(skill.playerAttack, teamN);//캐릭터 상태 이상 색상 표시
+                        skill.TurnCountText(skillIndex, i);//남은 턴 수 나타내기
+                        totalDamage += skill.skillAttackDamage(skillIndex, teamN, i, 0);//데미지,(스킬 번호,사용 캐릭터,캐릭터 인덱스, 몬스터 인덱스)
+                    }
+                }
+                else if (j == 3)
+                {
+                    if (Data.saveData.CharacterSkill[playerSkillIndex].Skill4 > 1)
+                    {
+                        skillIndex = Data.saveData.CharacterSkill[playerSkillIndex].Skill4-2;
+                        skill.InitTurn(skillIndex, i);//턴 초기화
+                        characterMgr.ColorCondition(skill.playerAttack, teamN);//캐릭터 상태 이상 색상 표시
+                        skill.TurnCountText(skillIndex, i);//남은 턴 수 나타내기
+                        totalDamage += skill.skillAttackDamage(skillIndex, teamN, i, 0);//데미지,(스킬 번호,사용 캐릭터,캐릭터 인덱스, 몬스터 인덱스)
+                    }
+                }
+            }
+            Debug.Log("캐릭터 번호 : " + i + " : " + totalDamage);
             //공격하기
             if (isAllTarget == 1)//전체 공격
             {
@@ -205,7 +238,7 @@ public class Turn : MonoBehaviour
     {
 
         characterNameText.text = Data.saveData.CharacterData[teamNumber / 4].Name; // 캐릭터 공격력 & 이름 UI 표시
-        characterAttackText.text = "Attack : " + Data.saveData.CharacterData[teamNumber/4].Attack;
+        characterAttackText.text = "Attack : " + Data.saveData.CharacterData[teamNumber/4].ATK;
 
         skillNumber = playerSkillSelect[turnNumber - 1]; // 저장된 스킬 넘버를 턴에 맞춰서 가져옴
 
@@ -373,7 +406,7 @@ public class Turn : MonoBehaviour
             int normalSkillIndex = Random.Range((2*totalTurnNumber)%12,(2*totalTurnNumber+1)%12);//어떤 스킬을 쓸건가
             int specialSkillIndex = Random.Range((2 * totalTurnNumber) % 12, (2 * totalTurnNumber + 1) % 12);//어떤 스킬을 쓸건가
             int mobHitDamage = monsterSkillMgr.monsterSkillDamage(monster1Num, monsterSkillMgr.MonsterSkillList[0,normalSkillIndex], specialMonster.MonsterSpecialSkillList[0,specialSkillIndex]);//몬스터 번호, 스킬번호, 특수스킬
-            int targets = Data.saveData.MonsterSkill[0].Targets+2;//몬스터가 캐릭터를 몇명 공격하는가?
+            int targets = Data.saveData.MonsterSkill[0].Targets;//몬스터가 캐릭터를 몇명 공격하는가?
             monsterSkillMgr.MultiAttack(targets,mobHitDamage, monster1Num, monsterSkillMgr.MonsterSkillList[0, normalSkillIndex]);//다수 공격
             monsterText.text = "화염방사";
         }
@@ -383,7 +416,7 @@ public class Turn : MonoBehaviour
             int normalSkillIndex = Random.Range((2 * totalTurnNumber) % 12, (2 * totalTurnNumber + 1) % 12);//어떤 스킬을 쓸건가
             int specialSkillIndex = Random.Range((2 * totalTurnNumber) % 12, (2 * totalTurnNumber + 1) % 12);//어떤 스킬을 쓸건가
             int mobHitDamage = monsterSkillMgr.monsterSkillDamage(monster2Num, monsterSkillMgr.MonsterSkillList[1, normalSkillIndex], specialMonster.MonsterSpecialSkillList[1, specialSkillIndex]);//몬스터 인덱스, 스킬번호, 특수스킬, 피격 캐릭터 배열
-            int targets = Data.saveData.MonsterSkill[0].Targets+1;//몇명을 공격하는가?
+            int targets = Data.saveData.MonsterSkill[0].Targets;//몇명을 공격하는가?
             monsterSkillMgr.MultiAttack(targets, mobHitDamage, monster2Num, monsterSkillMgr.MonsterSkillList[1, normalSkillIndex]);//다수 공격
             monsterText.text = "백만볼트";
         }
