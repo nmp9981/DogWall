@@ -71,7 +71,9 @@ public class MonsterMgr : MonoBehaviour
     //출혈 데미지 계산
     public void MonsterBloodDamage(int hitDamage,int index)
     {
+        Debug.Log("공격전 "+index+"번 "+currentMonsterHP[index]);
         currentMonsterHP[index] = Mathf.Max(currentMonsterHP[index] - hitDamage, 0);
+        Debug.Log("공격후 " + index + "번 " + currentMonsterHP[index]);
     }
     //몬스터가 죽었는가?
     public void MonsterDie(int index)

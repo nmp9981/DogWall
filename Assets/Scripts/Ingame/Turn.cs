@@ -94,6 +94,7 @@ public class Turn : MonoBehaviour
 
     public void turnEnd()
     {
+        int attackMobIndex = 0;
         //4개의 스킬
         for (int i = 0; i < 4; i++)
         {
@@ -158,7 +159,7 @@ public class Turn : MonoBehaviour
                     }
                 }
             }
-            Debug.Log("캐릭터 번호 : " + i + " : " + totalDamage);
+            //Debug.Log("캐릭터 번호 : " + i + " : " + totalDamage);
             //공격하기
             if (isAllTarget == 1)//전체 공격
             {
@@ -169,7 +170,6 @@ public class Turn : MonoBehaviour
             }
             else//단일 공격
             {
-                int attackMobIndex = 0;
                 //도발 검사
                 for(int j = 0; j < monsterMgr.monsters.Count; j++)
                 {
@@ -183,7 +183,7 @@ public class Turn : MonoBehaviour
             }
         }
         //몬스터 사망여부 확인
-        monsterMgr.MonsterDie(0);
+        monsterMgr.MonsterDie(attackMobIndex);
 
         totalTurnNumber += 1;//다음 턴으로
         turnText.text = totalTurnNumber.ToString();

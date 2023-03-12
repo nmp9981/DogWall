@@ -171,7 +171,7 @@ public class SepcialMonster : MonoBehaviour
                     }
                     else if (j == 3)
                     {
-                        Data.saveData.my_characterlist[i].ATK = Data.saveData.CharacterData[i].ATK;//원래 공격력
+                        characterMgr.playerAttack[i] = Data.saveData.CharacterData[i].ATK;//원래 공격력
                     }
                     else if (j == 4)
                     {
