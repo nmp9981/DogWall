@@ -16,7 +16,7 @@ public class MonsterMgr : MonoBehaviour
     public Text stageText;//스테이지 번호
     public List<int> MonsterNum;//출현 몬스터 번호
     public List<MonstersDataClass> monsters = new List<MonstersDataClass>();//출현 몬스터(삭제 예정)
-    public List<MonstersDataClass> stageMonster = new List<MonstersDataClass>();//출현 몬스터
+    //public List<MonstersDataClass> stageMonster = new List<MonstersDataClass>();//출현 몬스터
 
     public List<int> monsterFullHP = new List<int>();//몬스터 전체 체력
     public List<int> currentMonsterHP = new List<int>();//몬스터 현재 체력
@@ -51,7 +51,7 @@ public class MonsterMgr : MonoBehaviour
         currentMonsterHP.Clear();
         for (int i = 0; i < mobCount; i++)
         {
-            monsters.Add(Data.saveData.MonsterData[0]);//등장 몹은 서로 다름
+            monsters.Add(Data.saveData.MonsterData[i]);//등장 몹은 서로 다름
             MonsterNum.Add(i);//몬스터 번호 담기(임시)
             skill.mobProvocation[i] = false;//몬스터 도발 초기화
         }
@@ -71,22 +71,22 @@ public class MonsterMgr : MonoBehaviour
     //출혈 데미지 계산
     public void MonsterBloodDamage(int hitDamage,int index)
     {
-        Debug.Log("공격전 "+index+"번 "+currentMonsterHP[index]);
         currentMonsterHP[index] = Mathf.Max(currentMonsterHP[index] - hitDamage, 0);
-        Debug.Log("공격후 " + index + "번 " + currentMonsterHP[index]);
     }
     //몬스터가 죽었는가?
     public void MonsterDie(int index)
     {
         if (currentMonsterHP[index] <= 0)//해당 몬스터가 죽었으면
         {
-            monsters.RemoveAt(index);//원소 삭제
             skill.mobProvocation[index] = false;//도발 해제
+            monsters.RemoveAt(index);//원소 삭제
+            monsterFullHP.RemoveAt(index);
+            currentMonsterHP.RemoveAt(index);
             if (monsters.Count>0)//남은 몬스터가 더 있는가?
             {
-                InitMonster(monstersIndex);//다음 몬스터
+                monsterAttackDamage = monsters[index].Atk;//몬스터 공격력
+                monsterAttribute = monsters[index].Type;//몬스터 속성
                 turn.monsterSet();//몬스터 재배치
-                currentMonsterHP[index] = monsterFullHP[index];//몬스터는 처음에 풀피
             }
             else
             {

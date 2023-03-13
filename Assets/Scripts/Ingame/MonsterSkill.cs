@@ -62,10 +62,154 @@ public class MonsterSkill : MonoBehaviour
         }
     }
     
-    //몬스터->플레이어(몬스터 인덱스, 스킬번호를 받아서 진행)
-    public int monsterSkillDamage(int mobIndex,int mobSkillNumber,int specialSkillNum)//몬스터 번호, 몬스터 스킬번호, 특수 스킬번호
+    //몇번 스킬을 사용하는가?(일반)
+    int UseNormalSkill(int mobIndex, int processTurn)
     {
-        mobSkillNumber = Random.Range(0, 4);//임시, 몬스터 스킬 번호
+        int randomNum = Random.Range(0, 2);
+        int useSkillNum = 0;
+        processTurn = (processTurn-2)%6;
+        switch (processTurn)
+        {
+            case 0:
+                if (randomNum == 0)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn0_general1;
+                }else if (randomNum == 1)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn0_general2;
+                }
+                break;
+            case 1:
+                if (randomNum == 0)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn1_general;
+                }
+                else if (randomNum == 1)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn1_general__1;
+                }
+                break;
+            case 2:
+                if (randomNum == 0)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn2_general;
+                }
+                else if (randomNum == 1)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn2_general__1;
+                }
+                break;
+            case 3:
+                if (randomNum == 0)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn3_general1;
+                }
+                else if (randomNum == 1)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn3_general2;
+                }
+                break;
+            case 4:
+                if (randomNum == 0)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn4_general1;
+                }
+                else if (randomNum == 1)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn4_general2;
+                }
+                break;
+            case 5:
+                if (randomNum == 0)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn5_general1;
+                }
+                else if (randomNum == 1)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn5_general2;
+                }
+                break;
+        }
+        return useSkillNum;
+    }
+
+    //몇번 스킬을 사용하는가?(특수)
+    int UseSpecialSkill(int mobIndex, int processTurn)
+    {
+        int randomNum = Random.Range(0, 2);
+        int useSkillNum = 0;
+        processTurn = (processTurn - 2) % 6;
+        switch (processTurn)
+        {
+            case 0:
+                if (randomNum == 0)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn0_special1;
+                }
+                else if (randomNum == 1)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn0_special2;
+                }
+                break;
+            case 1:
+                if (randomNum == 0)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn1_special1;
+                }
+                else if (randomNum == 1)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn1_special2;
+                }
+                break;
+            case 2:
+                if (randomNum == 0)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn2_special1;
+                }
+                else if (randomNum == 1)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn2_special2;
+                }
+                break;
+            case 3:
+                if (randomNum == 0)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn3_special1;
+                }
+                else if (randomNum == 1)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn3_special2;
+                }
+                break;
+            case 4:
+                if (randomNum == 0)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn4_special1;
+                }
+                else if (randomNum == 1)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn4_special2;
+                }
+                break;
+            case 5:
+                if (randomNum == 0)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn5_special1;
+                }
+                else if (randomNum == 1)
+                {
+                    useSkillNum = Data.saveData.MonsterData[mobIndex].turn5_special2;
+                }
+                break;
+        }
+        return useSkillNum;
+    }
+    //몬스터->플레이어(몬스터 인덱스, 스킬번호를 받아서 진행)
+    public int monsterSkillDamage(int mobIndex,int processTurn)//몬스터 번호, 진행 턴
+    {
+        int mobSkillNumber = UseNormalSkill(mobIndex,processTurn);//일반 스킬 인덱스
+        int specialSkillNum = UseSpecialSkill(mobIndex, processTurn);//특수 스킬 번호
+        mobSkillNumber = 0;//임시, 몬스터 스킬 번호
         //특수 스킬인가?
         if (specialSkillNum > 0)
         {
@@ -75,7 +219,7 @@ public class MonsterSkill : MonoBehaviour
         int monsterAttackDamage = 0;//총 데미지 초기화
         int mobNum = monsterMgr.MonsterNum[mobIndex];//실제 몬스터 번호
         currentAttack = Data.saveData.MonsterData[mobNum].Atk*increaseAttack/100;//현재 공격력
-
+        
         //턴 기반 버프(일반 스킬)
         TurnBuffInit(mobIndex,mobSkillNumber);//턴버프 초기화
         MonsterNormalTurnBuff(mobIndex, mobSkillNumber);
@@ -83,11 +227,10 @@ public class MonsterSkill : MonoBehaviour
         //HP회복
         HealMonsterHP(Data.saveData.MonsterSkill[mobSkillNumber].HealHP,mobIndex,mobNum);
 
-        //Debug.Log("몹 공격력 " + Data.saveData.MonsterData[mobNum].Attack + "인크리스 " + currentAttack);
-        int attackDamage = currentAttack*(Data.saveData.MonsterSkill[mobSkillNumber].Attack+100)/100;//데미지(공격력*퍼뎀)
+        int attackDamage = currentAttack*(Data.saveData.MonsterSkill[mobSkillNumber].Damage)/100;//데미지(공격력*퍼뎀)
         int countSkill = Data.saveData.MonsterSkill[mobSkillNumber].AttackCount;//공격 횟수
         monsterAttackDamage = attackDamage*mobRatio/100;//공격
-
+        
         //다회 공격
         for(int j = 1; j < countSkill; j++)//countSkill번
         {
@@ -115,7 +258,7 @@ public class MonsterSkill : MonoBehaviour
             {
                 selectedMob[selectedIndex] = true;
                 
-                int monsterAttribute = Data.saveData.MonsterData[mobIndex].Type;//몬스터 속성 => 수정
+                int monsterAttribute = Data.saveData.MonsterData[mobIndex].Type;//몬스터 속성
                 int playerAttribute = Data.saveData.CharacterData[selectedIndex].Attribute;//플레이어 속성
                 int attributeDamage = characterMgr.CheckAttribute(playerAttribute, monsterAttribute);//속성 데미지
 
