@@ -1954,10 +1954,6 @@ MonoBehaviour:
   monster3HPBar: {fileID: 1683852572}
   monster4HPBar: {fileID: 1468381749}
   story: {fileID: 1799403219}
-  monster1Num: 0
-  monster2Num: 0
-  monster3Num: 0
-  monster4Num: 0
   turnNumber: 1
   totalTurnNumber: 1
   skillNumber: 1
@@ -2315,12 +2311,11 @@ MonoBehaviour:
     list: []
     my_characterlist: []
     CharacterData: []
-    SkillData: []
-    CharacterSkillData: []
-    CharacterSkillIndexData: []
+    CharacterSkill: []
+    CharacterSkillIndex: []
     MonsterData: []
-    MonstersData: []
-    MonsterSkillData: []
+    MonsterSkill: []
+    MonsterSpecialSkill: []
     my_team:
     - img_path: 
       img_for_dialog_path: 
@@ -3371,10 +3366,8 @@ MonoBehaviour:
   Character_Count: 0
   Monster_Count: 0
   Characterlist: []
-  SkillList: []
   CharacterSkillList: []
   CharacterSkillIndexList: []
-  MonsterList: []
   MonstersList: []
 --- !u!4 &716250769
 Transform:
@@ -5589,6 +5582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mobRatio: 100
+  mobSkillNumber: 0
 --- !u!4 &1299259316
 Transform:
   m_ObjectHideFlags: 0
@@ -6731,6 +6725,7 @@ MonoBehaviour:
   playerHP: 10000
   playerFullEnerge: 90
   playerEnerge: 5000
+  playerAttack: 00000000000000000000000000000000
 --- !u!4 &1593532822
 Transform:
   m_ObjectHideFlags: 0
@@ -7631,7 +7626,6 @@ MonoBehaviour:
   stageText: {fileID: 1257663730}
   MonsterNum: 
   monsters: []
-  stageMonster: []
   monsterFullHP: 
   currentMonsterHP: 
   monsterAttackDamage: 0
@@ -8456,6 +8450,7 @@ GameObject:
   - component: {fileID: 1876167133}
   - component: {fileID: 1876167132}
   - component: {fileID: 1876167134}
+  - component: {fileID: 1876167135}
   m_Layer: 5
   m_Name: DamageText
   m_TagString: DamageText
@@ -8536,6 +8531,56 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   messages: {fileID: 1876167132}
+--- !u!212 &1876167135
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876167130}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: d7fcd3e24b3479940b20a19ff3d48e83, type: 3}
+  m_Color: {r: 0.9339623, g: 0.14538093, b: 0.8663609, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1879298328
 GameObject:
   m_ObjectHideFlags: 0

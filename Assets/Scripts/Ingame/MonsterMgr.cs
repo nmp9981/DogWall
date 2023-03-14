@@ -51,8 +51,9 @@ public class MonsterMgr : MonoBehaviour
         currentMonsterHP.Clear();
         for (int i = 0; i < mobCount; i++)
         {
-            monsters.Add(Data.saveData.MonsterData[i]);//등장 몹은 서로 다름
-            MonsterNum.Add(i);//몬스터 번호 담기(임시)
+            int realNum = Random.Range(0, Data.saveData.MonsterData.Count);//실제 몬스터 번호
+            monsters.Add(Data.saveData.MonsterData[realNum]);//등장 몹은 서로 다름
+            MonsterNum.Add(realNum);//실제 몬스터 번호 담기
             skill.mobProvocation[i] = false;//몬스터 도발 초기화
         }
         monsterSkillMgr.monsterNormalSkillSet();//몬스터 스킬 세팅(일반)

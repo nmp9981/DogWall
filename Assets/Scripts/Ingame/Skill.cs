@@ -52,7 +52,7 @@ void Start()
         int attributeDamage = characterMgr.CheckAttribute(playerAttribute, monsterAttribute);//속성 데미지
         playerAttack = characterMgr.playerAttack[playIndex];//캐릭터 초기 공격력
         int skillPercentDamage = Data.saveData.CharacterSkillIndex[number].Attack;//스킬 퍼센테이지
-        
+
         //전체 공격 여부
         if (Data.saveData.CharacterSkillIndex[number].AllTargets == true) turn.isAllTarget = 1;
         //턴 기반 버프

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TeamSelect : MonoBehaviour
 {
-    const int maxCharacterNum = 4;//최대 캐릭터 수
+    const int maxCharacterNum = 53;//최대 캐릭터 수
     const int selectedSize = 4;//선택 캐릭터 수
     public bool[] isSelect;//팀선택 조합
     public int[] selectedTeamNumber;//선택한 번호

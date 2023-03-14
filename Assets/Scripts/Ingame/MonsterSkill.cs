@@ -12,7 +12,6 @@ public class MonsterSkill : MonoBehaviour
     CharacterMgr characterMgr;
     MonsterMgr monsterMgr;
     Skill skill;
-    TextUI textUI;
     SepcialMonster specialMonster;
 
     public int[,] MonsterSkillList = new int[4,12];//몬스터 스킬 목록
@@ -20,6 +19,7 @@ public class MonsterSkill : MonoBehaviour
     int currentAttack = 0;//현재 공격력
     int increaseAttack = 100;//공격력 증가량
     public int mobRatio = 100;//몬스터 데미지 증가율
+    public int mobSkillNumber;//최종 스킬 번호
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +31,6 @@ public class MonsterSkill : MonoBehaviour
         monsterMgr = GameObject.FindWithTag("Monster").GetComponent<MonsterMgr>();//MonsterMgr 스크립트에서 변수 가져오기
         dataManager = GameObject.FindWithTag("DBManager").GetComponent<Data_Manager>();//Data_Manager 스크립트에서 변수 가져오기
         skill = GameObject.FindWithTag("Skill").GetComponent<Skill>();//Skill 스크립트에서 변수 가져오기
-        textUI = GameObject.FindWithTag("DamageText").GetComponent<TextUI>();//TextUI 스크립트에서 변수 가져오기
         specialMonster = GameObject.FindWithTag("MonsterSpecialSkill").GetComponent<SepcialMonster>();//SepcialMonster스크립트에서 변수 가져오기
     }
     #endregion
@@ -204,39 +203,51 @@ public class MonsterSkill : MonoBehaviour
         }
         return useSkillNum;
     }
+    //최종 스킬 선택
+    public bool IsNormalSkill()
+    {
+        int randomIndex = Random.Range(0, 2);
+        if (randomIndex == 0)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
     //몬스터->플레이어(몬스터 인덱스, 스킬번호를 받아서 진행)
     public int monsterSkillDamage(int mobIndex,int processTurn)//몬스터 번호, 진행 턴
     {
-        int mobSkillNumber = UseNormalSkill(mobIndex,processTurn);//일반 스킬 인덱스
-        int specialSkillNum = UseSpecialSkill(mobIndex, processTurn);//특수 스킬 번호
-        mobSkillNumber = 0;//임시, 몬스터 스킬 번호
+        int realNumber = monsterMgr.MonsterNum[mobIndex];//실제 몬스터 번호
+        int normalSkillNumber = UseNormalSkill(realNumber,processTurn);//일반 스킬 인덱스
+        int specialSkillNum = UseSpecialSkill(realNumber, processTurn);//특수 스킬 번호
+        mobSkillNumber = normalSkillNumber;//임시, 몬스터 스킬 번호
         //특수 스킬인가?
-        if (specialSkillNum > 0)
+        if (specialSkillNum > 0 && !IsNormalSkill())
         {
             mobRatio = specialMonster.SpecialSkill(mobIndex,specialSkillNum);
             return 0;
         }
         int monsterAttackDamage = 0;//총 데미지 초기화
-        int mobNum = monsterMgr.MonsterNum[mobIndex];//실제 몬스터 번호
-        currentAttack = Data.saveData.MonsterData[mobNum].Atk*increaseAttack/100;//현재 공격력
+        currentAttack = Data.saveData.MonsterData[realNumber].Atk*increaseAttack/100;//현재 공격력
         
         //턴 기반 버프(일반 스킬)
         TurnBuffInit(mobIndex,mobSkillNumber);//턴버프 초기화
         MonsterNormalTurnBuff(mobIndex, mobSkillNumber);
 
         //HP회복
-        HealMonsterHP(Data.saveData.MonsterSkill[mobSkillNumber].HealHP,mobIndex,mobNum);
+        HealMonsterHP(Data.saveData.MonsterSkill[mobSkillNumber].HealHP,mobIndex,mobIndex);
 
         int attackDamage = currentAttack*(Data.saveData.MonsterSkill[mobSkillNumber].Damage)/100;//데미지(공격력*퍼뎀)
         int countSkill = Data.saveData.MonsterSkill[mobSkillNumber].AttackCount;//공격 횟수
-        monsterAttackDamage = attackDamage*mobRatio/100;//공격
-        
+        monsterAttackDamage = (attackDamage*mobRatio/100)/monsterMgr.monsters.Count;//공격(여러마리 있으면 분산)
+   
         //다회 공격
         for(int j = 1; j < countSkill; j++)//countSkill번
         {
             monsterAttackDamage += attackDamage;//공격
         }
-        textUI.DamageMassage(monsterAttackDamage, countSkill);//공격 텍스트 UI등장
         return monsterAttackDamage;
     }
     
@@ -246,9 +257,11 @@ public class MonsterSkill : MonoBehaviour
         Mathf.Max(Data.saveData.MonsterData[mobNum].Hp, monsterMgr.currentMonsterHP[mobIndex] + AmountMobHP);
     }
     //다수 공격(몬스터->캐릭터)
-    public void MultiAttack(int targets,int hitDamage, int mobIndex,int mobSkillNumber)//공격 마릿수, 스킬데미지, 몹 인덱스, 스킬넘버
+    public void MultiAttack(int hitDamage, int mobIndex,int mobSkillNumber)//스킬데미지, 몹 인덱스, 스킬넘버
     {
         bool[] selectedMob = { false, false, false, false };//몬스터 인덱스
+        int realNumber = monsterMgr.MonsterNum[mobIndex];//실제 몬스터 번호
+        int targets = Data.saveData.MonsterSkill[mobSkillNumber].Targets;//타겟 수
         int countTargets = 0;//현재 공격 마릿수
 
         while(countTargets<targets)
@@ -258,8 +271,8 @@ public class MonsterSkill : MonoBehaviour
             {
                 selectedMob[selectedIndex] = true;
                 
-                int monsterAttribute = Data.saveData.MonsterData[mobIndex].Type;//몬스터 속성
-                int playerAttribute = Data.saveData.CharacterData[selectedIndex].Attribute;//플레이어 속성
+                int monsterAttribute = Data.saveData.MonsterData[realNumber].Type;//몬스터 속성
+                int playerAttribute = Data.saveData.CharacterData[teamSelect.selectedTeamNumber[selectedIndex]].Attribute;//플레이어 속성
                 int attributeDamage = characterMgr.CheckAttribute(playerAttribute, monsterAttribute);//속성 데미지
 
                 int mobHitDamage = attributeDamage * hitDamage/(100*targets);
