@@ -94,31 +94,25 @@ public class UI_Manager : MonoBehaviour
                 UI("Home");
                 break;
             case 1:
-                switch(level2)
-                {
-                    case 0:
-                        UI("Team");//팀
-                        break;
-                    case 1:
-                        UI("Team","Teams");//팀편성버튼
-                        upgrade = false;
-                        break;
-                    case 2:
-                        UI("Team","Unit_Select_Tap");//선택 버튼
-                        Unit_Select_Change();
-                        break;
-                    case 3:
-                        UI("Team","Unit_Select_Tap");//유닛 강화버튼
-                        upgrade = true;
-                        Unit_Select_Change();
-                        break;
-                    
-                }
+                UI("Team");//팀
                 break;
             case 2:
-                UI("Gacha");
+                UI("Teams");//팀편성버튼
+                upgrade = false;
                 break;
             case 3:
+                UI("Unit_Select_Tap");//선택 버튼
+                Unit_Select_Change();
+                break;
+            case 4:
+                UI("Unit_Select_Tap");//유닛 강화버튼
+                upgrade = true;
+                Unit_Select_Change();
+                break;
+            case 5:
+                UI("Gacha");
+                break;
+            case 6:
                 UI("Quest");
                 break;
         }
@@ -191,7 +185,7 @@ public class UI_Manager : MonoBehaviour
             x = i % 4;
             y = (i - x) / 4;
             
-            Transform parent = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Select_Tap").transform.Find("Scroll View").transform.Find("Viewport").transform.Find("Content").gameObject.GetComponent<Transform>();
+            Transform parent = GameObject.Find("Canvas").transform.Find("Unit_Select_Tap").transform.Find("Scroll View").transform.Find("Viewport").transform.Find("Content").gameObject.GetComponent<Transform>();
             if(y>=4)
                 parent.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,1000 + (y-3)*300);
             GameObject temp = Instantiate(Resources.Load<GameObject>("Prefabs/Ch"));
@@ -205,7 +199,7 @@ public class UI_Manager : MonoBehaviour
         }
         for(i = 0; i < 4; i++)//내 팀 리스트 생성
         { 
-            GameObject target = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Teams").transform.Find("Character" + (i+1).ToString()).gameObject;
+            GameObject target = GameObject.Find("Canvas").transform.Find("Teams").transform.Find("Character" + (i+1).ToString()).gameObject;
             
             target.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_team[4*tap + i].Img;
             target.transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].HP.ToString();
@@ -218,7 +212,7 @@ public class UI_Manager : MonoBehaviour
 
     void Unit_Select_Change()
     {
-        GameObject panel = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Select_Tap").gameObject;
+        GameObject panel = GameObject.Find("Canvas").transform.Find("Unit_Select_Tap").gameObject;
         if(upgrade == true)
         {
             panel.transform.Find("Text").GetComponent<Text>().text = "강화할 유닛 선택"; 
@@ -254,7 +248,7 @@ public class UI_Manager : MonoBehaviour
         {
             if(!upgrade)
             {   
-                GameObject panel = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Select_Tap").gameObject;
+                GameObject panel = GameObject.Find("Canvas").transform.Find("Unit_Select_Tap").gameObject;
                 string idx = panel.transform.Find("Text").gameObject.GetComponent<Text>().text.Substring(0,1);
                 switch(idx)
                 {
@@ -271,7 +265,7 @@ public class UI_Manager : MonoBehaviour
                         idx = "4";
                         break;
                 }
-                GameObject target = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Teams").transform.Find("Character" + idx).gameObject;
+                GameObject target = GameObject.Find("Canvas").transform.Find("Teams").transform.Find("Character" + idx).gameObject;
                 
                 for(int i = 0; i < data.saveData.my_characterlist.Count; i++)
                 {
@@ -289,8 +283,8 @@ public class UI_Manager : MonoBehaviour
             }
             else
             {
-                UI("Team","Unit_Upgrade_Tap");
-                GameObject panel = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Unit_Upgrade_Tap").gameObject;
+                UI("Unit_Upgrade_Tap");
+                GameObject panel = GameObject.Find("Canvas").transform.Find("Unit_Upgrade_Tap").gameObject;
                 GameObject target = panel.transform.Find("Image").gameObject;
                 
                 for(int i = 0; i < data.saveData.my_characterlist.Count; i++)
@@ -309,7 +303,7 @@ public class UI_Manager : MonoBehaviour
         }
         else
         {
-            UI("Team","Unit_Details");
+            UI("Unit_Details");
             GameObject target = GameObject.Find("Unit_Details");
             for(int i = 0; i < data.saveData.my_characterlist.Count; i++)
             {
