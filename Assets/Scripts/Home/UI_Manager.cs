@@ -45,6 +45,7 @@ public class UI_Manager : MonoBehaviour
     }
     void Start()
     {
+        //Debug.Log(DataManager.singleTon.monsterCharaterNumber[0][1]); 형원이형 보라고 냅둔거
         //saveData = data.saveData;
         data.saveData.SetImg();
         Load();

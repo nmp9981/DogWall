@@ -10690,6 +10690,8 @@ MonoBehaviour:
       bgm: 0
       sfx: 0
   story: 
+  PlayerCharaterNumber: 030000000c0000000b00000002000000
+  MonsterCharaterNumber: 
 --- !u!1 &884786365
 GameObject:
   m_ObjectHideFlags: 0

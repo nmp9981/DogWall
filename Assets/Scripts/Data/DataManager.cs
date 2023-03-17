@@ -21,7 +21,18 @@ public class DataManager : MonoBehaviour
     public SaveDataClass saveData;
     public static DataManager singleTon;
     public string story;
-//nalsdkfjasd
+    [Header("InGameUseDate")]
+    [SerializeField]
+    public List<List<int>> monsterCharaterNumber = new List<List<int>>()
+    {
+        new List<int> {1, 1, 1},
+        new List<int> {1, 1 ,1},
+        new List<int> {1, 1 ,1}
+    };
+    public List<int> playerCharaterNumber = new List<int>();
+
+
+
     void Awake()
     {
         if (singleTon == null)
@@ -39,7 +50,8 @@ public class DataManager : MonoBehaviour
         jsonManager = new JsonManager();
         //load는 세이브데이터 로드다.
         saveData = new SaveDataClass();
-    
+
+
         Load();
     }
 
