@@ -259,6 +259,28 @@ public class MonsterSpeccialSkillDataClass
     }
 }
 [System.Serializable]
+public class QuestInfo//쿼스트 데이터
+{
+    public string Appear = "";
+    public string Episode = "";
+    public int Quest = 0;
+    public int Stage = 0;
+    public int Difficulty = 0;
+    public int Type = 0;
+    public int MonsterIndex = 0;
+
+    public QuestInfo(string appear, string episode, int quest, int stage, int difficulty, int type, int mobidx)
+    {
+        this.Appear = appear;
+        this.Episode = episode;
+        this.Quest = quest;
+        this.Stage = stage;
+        this.Difficulty = difficulty;
+        this.Type = type;
+        this.MonsterIndex = mobidx;
+    }
+}
+[System.Serializable]
 public class UI
 {
     public List<int> money;//재화
@@ -288,6 +310,7 @@ public class SaveDataClass
     public List<BossMonsterDataClass> BossData;//보스몬스터 리스트
     public List<MonsterSkillDataClass> MonsterSkill;//몬스터 스킬 리스트
     public List<MonsterSpeccialSkillDataClass> MonsterSpecialSkill;//몬스터 특수스킬
+    public List<QuestInfo> QuestData;//쿼스트 데이터
     //스테이지 진행정도
     public List<Character> my_team;
     public UI ui;
@@ -306,6 +329,7 @@ public class SaveDataClass
         BossData = new List<BossMonsterDataClass>();
         MonsterSkill = new List<MonsterSkillDataClass>();
         MonsterSpecialSkill = new List<MonsterSpeccialSkillDataClass>();
+        QuestData = new List<QuestInfo>();
         ui =  new UI();
     }
     public void SetImg()//캐릭터에 저장된 경로를 통해 이미지를 지정

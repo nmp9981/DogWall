@@ -17113,5 +17113,1682 @@
     "Provocation": 1,
     "IsMaxHealth": ""
   }
+],
+"QuestData":
+  [
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 1,
+    "MonsterIndex": 2
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 3
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 4
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 1,
+    "MonsterIndex": 5
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 6
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 7
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 1,
+    "MonsterIndex": 8
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 9
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 10
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 1,
+    "Stage": 2,
+    "Difficulty": 1,
+    "Type": 1,
+    "MonsterIndex": 11
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 1,
+    "Stage": 2,
+    "Difficulty": 1,
+    "Type": 1,
+    "MonsterIndex": 11
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 1,
+    "Stage": 2,
+    "Difficulty": 2,
+    "Type": 1,
+    "MonsterIndex": 12
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 1,
+    "Stage": 2,
+    "Difficulty": 2,
+    "Type": 1,
+    "MonsterIndex": 12
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 1,
+    "Stage": 2,
+    "Difficulty": 3,
+    "Type": 1,
+    "MonsterIndex": 13
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 1,
+    "Stage": 2,
+    "Difficulty": 3,
+    "Type": 1,
+    "MonsterIndex": 13
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 1,
+    "Type": 1,
+    "MonsterIndex": 14
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 2,
+    "Type": 1,
+    "MonsterIndex": 15
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 3,
+    "Type": 1,
+    "MonsterIndex": 16
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 5,
+    "MonsterIndex": 17
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 5,
+    "MonsterIndex": 20
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 5,
+    "MonsterIndex": 23
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 5,
+    "MonsterIndex": 18
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 5,
+    "MonsterIndex": 21
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 5,
+    "MonsterIndex": 24
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 5,
+    "MonsterIndex": 19
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 5,
+    "MonsterIndex": 22
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 5,
+    "MonsterIndex": 25
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 2,
+    "Stage": 2,
+    "Difficulty": 1,
+    "Type": 1,
+    "MonsterIndex": 26
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 2,
+    "Stage": 2,
+    "Difficulty": 2,
+    "Type": 1,
+    "MonsterIndex": 27
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 2,
+    "Stage": 2,
+    "Difficulty": 3,
+    "Type": 1,
+    "MonsterIndex": 28
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 2,
+    "Stage": 3,
+    "Difficulty": 1,
+    "Type": 5,
+    "MonsterIndex": 29
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 2,
+    "Stage": 3,
+    "Difficulty": 2,
+    "Type": 5,
+    "MonsterIndex": 30
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 2,
+    "Stage": 3,
+    "Difficulty": 3,
+    "Type": 5,
+    "MonsterIndex": 31
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 1,
+    "MonsterIndex": 32
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 1,
+    "MonsterIndex": 35
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 1,
+    "MonsterIndex": 33
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 1,
+    "MonsterIndex": 36
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 1,
+    "MonsterIndex": 34
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 1,
+    "MonsterIndex": 37
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 2,
+    "Difficulty": 1,
+    "Type": 1,
+    "MonsterIndex": 38
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 2,
+    "Difficulty": 2,
+    "Type": 1,
+    "MonsterIndex": 39
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 2,
+    "Difficulty": 3,
+    "Type": 1,
+    "MonsterIndex": 40
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 41
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 41
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 41
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 42
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 42
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 42
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 43
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 43
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 43
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 4,
+    "Difficulty": 1,
+    "Type": 1,
+    "MonsterIndex": 44
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 4,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 47
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 4,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 47
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 4,
+    "Difficulty": 2,
+    "Type": 1,
+    "MonsterIndex": 45
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 4,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 48
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 4,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 48
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 4,
+    "Difficulty": 3,
+    "Type": 1,
+    "MonsterIndex": 46
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 4,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 49
+  },
+  {
+    "Appear": "현재",
+    "Episode": "월령",
+    "Quest": 3,
+    "Stage": 4,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 49
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 50
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 50
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 51
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 51
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 52
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 52
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 1,
+    "Stage": 2,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 53
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 1,
+    "Stage": 2,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 54
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 1,
+    "Stage": 2,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 55
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 50
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 53
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 56
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 51
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 54
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 57
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 52
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 55
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 58
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 62
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 62
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 62
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 62
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 63
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 63
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 63
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 63
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 64
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 64
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 64
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 64
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 2,
+    "Stage": 2,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 65
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 2,
+    "Stage": 2,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 66
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 2,
+    "Stage": 2,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 67
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 68
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 68
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 68
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 69
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 69
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 69
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 70
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 70
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 70
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 2,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 59
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 2,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 71
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 2,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 60
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 2,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 72
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 2,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 61
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 2,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 73
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 74
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 74
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 77
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 75
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 75
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 78
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 76
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 76
+  },
+  {
+    "Appear": "현재",
+    "Episode": "엠피레오",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 79
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 80
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 80
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 81
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 81
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 82
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 1,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 82
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 1,
+    "Stage": 2,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 86
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 1,
+    "Stage": 2,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 87
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 1,
+    "Stage": 2,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 88
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 80
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 80
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 86
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 81
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 81
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 87
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 82
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 82
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 1,
+    "Stage": 3,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 88
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 95
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 95
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 95
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 96
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 96
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 96
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 97
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 97
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 97
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 2,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 104
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 2,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 104
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 2,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 105
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 2,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 105
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 2,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 106
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 2,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 106
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 3,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 98
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 3,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 107
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 3,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 107
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 3,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 99
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 3,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 108
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 3,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 108
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 3,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 100
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 3,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 109
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 2,
+    "Stage": 3,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 109
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 113
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 89
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 114
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 90
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 115
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 1,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 91
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 2,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 116
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 2,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 83
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 2,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 101
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 2,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 117
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 2,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 84
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 2,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 102
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 2,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 118
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 2,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 85
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 2,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 103
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 119
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 110
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 120
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 111
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 121
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 3,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 112
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 4,
+    "Difficulty": 1,
+    "Type": 3,
+    "MonsterIndex": 122
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 4,
+    "Difficulty": 1,
+    "Type": 2,
+    "MonsterIndex": 125
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 4,
+    "Difficulty": 2,
+    "Type": 3,
+    "MonsterIndex": 123
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 4,
+    "Difficulty": 2,
+    "Type": 2,
+    "MonsterIndex": 126
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 4,
+    "Difficulty": 3,
+    "Type": 3,
+    "MonsterIndex": 124
+  },
+  {
+    "Appear": "현재",
+    "Episode": "제한구역",
+    "Quest": 3,
+    "Stage": 4,
+    "Difficulty": 3,
+    "Type": 2,
+    "MonsterIndex": 127
+  }
 ]
 }
