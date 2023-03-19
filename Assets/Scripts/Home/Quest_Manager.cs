@@ -32,7 +32,8 @@ public class Quest_Manager : MonoBehaviour
     // Update is called once per frame
     public void FindChar(int diff)
     {
-
+        data.monsterCharaterNumber[0] = new List<int> {1, 3, 5};
+        Debug.Log(data.monsterCharaterNumber.Count);
     }
     public void SetName(string name)
     {
@@ -57,7 +58,7 @@ public class Quest_Manager : MonoBehaviour
     {
         infoList[3] = stage;
     }
-    public void SelectDifficulty(int diff)
+    public void SelectDifficulty(int diff) // 1 에필로그 2 쉬움 3 보통 4 어려움
     {
         FindChar(diff);
     }
@@ -66,4 +67,5 @@ public class Quest_Manager : MonoBehaviour
     {
 
     }
+
 }

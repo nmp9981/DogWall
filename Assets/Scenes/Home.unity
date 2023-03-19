@@ -1351,7 +1351,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: "\uC5E0\uD53C\uB9AC\uC624 \uD018\uC2A4\uD2B8 7"
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1570019134}
@@ -1525,7 +1525,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: "\uC81C\uD55C\uAD6C\uC5ED \uD018\uC2A4\uD2B8 1"
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1570019134}
@@ -2755,7 +2755,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 205217631}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1570019134}
+        m_MethodName: SelectDifficulty
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &205217631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2965,7 +2976,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: "\uC5E0\uD53C\uB9AC\uC624 \uD018\uC2A4\uD2B8 6"
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1570019134}
@@ -4402,7 +4413,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: "\uC81C\uD55C\uAD6C\uC5ED \uD018\uC2A4\uD2B8 5"
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1570019134}
@@ -6017,7 +6028,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: "\uC5E0\uD53C\uB9AC\uC624 \uD018\uC2A4\uD2B8 2"
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1570019134}
@@ -6191,7 +6202,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: "\uC81C\uD55C\uAD6C\uC5ED \uD018\uC2A4\uD2B8 3"
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1570019134}
@@ -7894,7 +7905,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: "\uC81C\uD55C\uAD6C\uC5ED \uD018\uC2A4\uD2B8 2"
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1570019134}
@@ -8068,7 +8079,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: "\uC81C\uD55C\uAD6C\uC5ED \uD018\uC2A4\uD2B8 4"
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1570019134}
@@ -9272,7 +9283,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: "\uC5E0\uD53C\uB9AC\uC624 \uD018\uC2A4\uD2B8 5"
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1570019134}
@@ -10690,8 +10701,7 @@ MonoBehaviour:
       bgm: 0
       sfx: 0
   story: 
-  PlayerCharaterNumber: 030000000c0000000b00000002000000
-  MonsterCharaterNumber: 
+  playerCharaterNumber: 
 --- !u!1 &884786365
 GameObject:
   m_ObjectHideFlags: 0
@@ -12075,7 +12085,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: "\uC5E0\uD53C\uB9AC\uC624 \uD018\uC2A4\uD2B8 4"
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1570019134}
@@ -12249,7 +12259,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: "\uC5E0\uD53C\uB9AC\uC624 \uD018\uC2A4\uD2B8 3"
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1570019134}
@@ -12423,7 +12433,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: "\uC5E0\uD53C\uB9AC\uC624 \uD018\uC2A4\uD2B8 1"
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1570019134}
@@ -18738,7 +18748,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: "\uC81C\uD55C\uAD6C\uC5ED \uD018\uC2A4\uD2B8 6"
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1570019134}
@@ -18903,7 +18913,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1748487700}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1570019134}
+        m_MethodName: SelectDifficulty
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1748487700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19774,7 +19795,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1839744058}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1570019134}
+        m_MethodName: SelectDifficulty
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1839744058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20946,7 +20978,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1965577443}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1570019134}
+        m_MethodName: SelectDifficulty
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1965577443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21784,7 +21827,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: "\uC81C\uD55C\uAD6C\uC5ED \uD018\uC2A4\uD2B8 7"
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1570019134}
