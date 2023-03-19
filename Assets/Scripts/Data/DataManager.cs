@@ -27,9 +27,10 @@ public class DataManager : MonoBehaviour
     {
         new List<int> {1, 1, 1},
         new List<int> {1, 1 ,1},
+        new List<int> {1, 1 ,1},
         new List<int> {1, 1 ,1}
     };
-    public List<int> playerCharaterNumber = new List<int>();
+    public List<int> playerCharaterNumber = new List<int>() {1, 1, 1, 1};
 
 
 
