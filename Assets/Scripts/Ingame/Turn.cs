@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Turn : MonoBehaviour
 {
     #region 변수
-    Data_Manager dataManager; private DataManager Data; CharacterMgr characterMgr; MonsterMgr monsterMgr; TeamSelect teamSelect; Skill skill;MonsterSkill monsterSkillMgr; SepcialMonster specialMonster;
+    Data_Manager dataManager; private DataManager Data; CharacterMgr characterMgr; MonsterMgr monsterMgr; TeamSelect teamSelect; Skill skill;MonsterSkill monsterSkillMgr; SepcialMonster specialMonster; UIManager uiManager;
     public Text characterNameText, characterAttackText, turnText, stageText, monsterText;
     public int teamNumber;//팀원의 번호
     public int totalDamage;//스킬데미지 총합
@@ -51,7 +51,7 @@ public class Turn : MonoBehaviour
         monsterSkillMgr = GameObject.FindWithTag("MonsterSkill").GetComponent<MonsterSkill>();//MonsterSkill 스크립트에서 변수 가져오기
         textUI = GameObject.FindWithTag("DamageText").GetComponent<TextUI>();//TextUI 스크립트에서 변수 가져오기
         specialMonster = GameObject.FindWithTag("MonsterSpecialSkill").GetComponent<SepcialMonster>();//SepcialMonster스크립트에서 변수 가져오기
-
+        uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
         turnText.text = totalTurnNumber.ToString();
         stageText.text = stageNumber + "/3";
 
@@ -240,9 +240,8 @@ public class Turn : MonoBehaviour
 
     void UISetting() // 턴 관리 1, 2, 3, 4 - 플레이어 1, 2, 3 ,4    5 -  몬스터 턴
     {
-
-        characterNameText.text = Data.saveData.CharacterData[teamNumber/4].Name; // 캐릭터 공격력 & 이름 UI 표시
-        characterAttackText.text = "Attack : " + Data.saveData.CharacterData[teamNumber/4].ATK;
+        uiManager.nameSet(turnNumber); // 캐릭터 공격력 & 이름 UI 표시
+        uiManager.atkSet(turnNumber);
 
         skillNumber = playerSkillSelect[turnNumber - 1]; // 저장된 스킬 넘버를 턴에 맞춰서 가져옴
 
