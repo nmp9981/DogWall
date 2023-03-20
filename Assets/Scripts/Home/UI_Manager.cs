@@ -185,14 +185,16 @@ public class UI_Manager : MonoBehaviour
         {
             x = i % 4;
             y = (i - x) / 4;
-            
+            Debug.LogFormat("x = {0}, y = {1}",x,y);
             Transform parent = GameObject.Find("Canvas").transform.Find("Unit_Select_Tap").transform.Find("Scroll View").transform.Find("Viewport").transform.Find("Content").gameObject.GetComponent<Transform>();
             if(y>=4)
                 parent.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,1000 + (y-3)*300);
             GameObject temp = Instantiate(Resources.Load<GameObject>("Prefabs/Ch"));
             temp.transform.SetParent(parent);
-            Vector3 pos = new Vector3(43 + (x * 259f), 1395 - (y * 253));
-            temp.transform.position = pos;
+            Debug.Log(temp.transform.parent);
+            Vector3 pos = new Vector3(43 + (x * 259f), -43 - (y * 253),0);
+            temp.transform.localPosition = pos;
+            temp.transform.localScale = new Vector3(1,1,1);
             temp.name = data.saveData.my_characterlist[i].Name;
             temp.GetComponent<Image>().sprite = data.saveData.my_characterlist[i].Img;
             temp.transform.GetComponent<Button>().onClick.AddListener(Unit_Choose);

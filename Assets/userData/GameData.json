@@ -4,7 +4,7 @@
             "img_path": "Monster Dummy/000",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15618
+                "instanceID": 15610
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -27,7 +27,7 @@
             "img_path": "Monster Dummy/111",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15746
+                "instanceID": 15614
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -50,7 +50,7 @@
             "img_path": "Monster Dummy/121",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15764
+                "instanceID": 15618
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -73,7 +73,7 @@
             "img_path": "Monster Dummy/212",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15638
+                "instanceID": 15622
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -96,7 +96,7 @@
             "img_path": "Monster Dummy/333",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15738
+                "instanceID": 15630
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -119,7 +119,7 @@
             "img_path": "Monster Dummy/000",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15618
+                "instanceID": 15610
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -142,7 +142,7 @@
             "img_path": "Monster Dummy/111",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15746
+                "instanceID": 15614
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -165,7 +165,7 @@
             "img_path": "Monster Dummy/121",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15764
+                "instanceID": 15618
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -188,7 +188,7 @@
             "img_path": "Monster Dummy/212",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15638
+                "instanceID": 15622
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -211,7 +211,7 @@
             "img_path": "Monster Dummy/333",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15738
+                "instanceID": 15630
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -234,7 +234,7 @@
             "img_path": "Monster Dummy/000",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15618
+                "instanceID": 15610
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -257,7 +257,7 @@
             "img_path": "Monster Dummy/111",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15746
+                "instanceID": 15614
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -280,7 +280,7 @@
             "img_path": "Monster Dummy/121",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15764
+                "instanceID": 15618
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -303,7 +303,7 @@
             "img_path": "Monster Dummy/212",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15638
+                "instanceID": 15622
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -326,7 +326,7 @@
             "img_path": "Monster Dummy/333",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15738
+                "instanceID": 15630
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -349,7 +349,7 @@
             "img_path": "Monster Dummy/000",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15618
+                "instanceID": 15610
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -372,7 +372,7 @@
             "img_path": "Monster Dummy/111",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15746
+                "instanceID": 15614
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -395,7 +395,7 @@
             "img_path": "Monster Dummy/121",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15764
+                "instanceID": 15618
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -418,7 +418,7 @@
             "img_path": "Monster Dummy/212",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15638
+                "instanceID": 15622
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -441,7 +441,6677 @@
             "img_path": "Monster Dummy/333",
             "img_for_dialog_path": "",
             "Img": {
-                "instanceID": 15738
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 1,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "뭐더라",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 3,
+            "ATK": 10,
+            "Type": "어둠",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/333",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15630
             },
             "Img_for_dialog": {
                 "instanceID": 0
@@ -461,7 +7131,215 @@
             "deathLink": false
         }
     ],
-    "my_characterlist": [],
+    "my_characterlist": [
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/111",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15614
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "꼬북이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/212",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15622
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "고라파덕",
+            "HP": 5,
+            "Energe": 10,
+            "Attribute": 2,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 1,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/000",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15610
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "질퍽이",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "몰루?",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        },
+        {
+            "img_path": "Monster Dummy/121",
+            "img_for_dialog_path": "",
+            "Img": {
+                "instanceID": 15618
+            },
+            "Img_for_dialog": {
+                "instanceID": 0
+            },
+            "Name": "잉어킹",
+            "HP": 10,
+            "Energe": 5,
+            "Attribute": 1,
+            "ATK": 10,
+            "Type": "물",
+            "Appear": 0,
+            "Upgrade": 0,
+            "Star": 1,
+            "Same": 0,
+            "idx": -1,
+            "heartLink": false,
+            "deathLink": false
+        }
+    ],
     "CharacterData": [
         {
             "idx": 0,
