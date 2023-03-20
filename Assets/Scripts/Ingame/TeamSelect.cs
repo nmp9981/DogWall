@@ -19,6 +19,12 @@ public class TeamSelect : MonoBehaviour
     //선택
     public void SelectNum()
     {
+        for(int i = 0; i < selectedSize; i++)
+        {
+            selectedTeamNumber[i] = GameObject.Find("Data_Manager").gameObject.GetComponent<DataManager>().playerCharaterNumber[i];
+            isSelect[GameObject.Find("Data_Manager").gameObject.GetComponent<DataManager>().playerCharaterNumber[i]] = true;
+        }
+        /*
         int selectedCount = 0;//총 선택 개수
         
         while (selectedCount < selectedSize)
@@ -30,5 +36,6 @@ public class TeamSelect : MonoBehaviour
                 selectedCount++;
             }
         }
+        */
     }
 }

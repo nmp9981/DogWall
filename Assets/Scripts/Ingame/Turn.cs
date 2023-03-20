@@ -160,7 +160,7 @@ public class Turn : MonoBehaviour
                     }
                 }
             }
-            Debug.Log(Data.saveData.QuestData[0].Episode);
+            
             //Debug.Log("캐릭터 번호 : " + i + " : " + totalDamage);
             //공격하기
             if (isAllTarget == 1)//전체 공격
@@ -216,7 +216,7 @@ public class Turn : MonoBehaviour
                 stageText.text = stageNumber.ToString();
 
                 //다음 스테이지 몬스터 등장
-                monsterMgr.MonsterSetting();//몬스터 리젠
+                monsterMgr.MonsterSetting(stageNumber-1);//몬스터 리젠
                 monsterMgr.InitMonster(monsterMgr.monstersIndex);//초기 몬스터 세팅
                 monsterSet(); // 몬스터 배치
 

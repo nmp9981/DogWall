@@ -25,7 +25,7 @@ public class Quest_Manager : MonoBehaviour
     public List<string> charList;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         data = DataManager.singleTon;
         saveData = data.saveData;
@@ -45,7 +45,8 @@ public class Quest_Manager : MonoBehaviour
 
         for (int i = 0; i < 4; i++)
         {
-            data.playerCharaterNumber[i] = data.saveData.my_team[(selectTeamPage - 1) * 4 + i].idx; // 플레이어 정보를 저장
+            data.playerCharaterNumber[i] = data.saveData.CharacterData[(selectTeamPage - 1) * 4 + i].idx; // 플레이어 정보를 저장
+            //data.playerCharaterNumber[i] = i+1;
         }
 
         for (int j = 0; j < data.saveData.QuestData.Count; j++)
@@ -57,6 +58,7 @@ public class Quest_Manager : MonoBehaviour
                 (data.saveData.QuestData[j].Difficulty == diff)
                 )
             {
+                //Debug.Log(j);
                 tempNum.Add(j); // 시간 에피소드 퀘스트 난이도에 맞는 모든 데이터 인덱스를 저장
             }
         }
@@ -75,6 +77,7 @@ public class Quest_Manager : MonoBehaviour
             for (int j = 0; j < tempNum.Count; j++)
             {
                 if (data.saveData.QuestData[tempNum[j]].Stage == i + 1) data.monsterCharaterNumber[i].Add(data.saveData.QuestData[tempNum[j]].MonsterIndex);
+                //Debug.Log(i + "번 등장 ㅁㄴ스터 " + data.saveData.QuestData[tempNum[j]].MonsterIndex);
             }
         } // 스테이지별로 분리해서 각각의 몬스터인덱스를 저장
 
