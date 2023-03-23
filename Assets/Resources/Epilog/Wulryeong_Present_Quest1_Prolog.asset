@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83e6649dfce81141bf4c9e203af3457, type: 3}
+  m_Name: Wulryeong_Present_Quest1_Prolog
+  m_EditorClassIdentifier: 
+  _name:
+  - 
+  - "\uD638\uC5F0"
+  - "\uC774\uB791"
+  - "\uC0AC\uBBF8 & \uB2E4\uB808"
+  - "\uBBF8\uCE5C \uC601\uC220\uC0AC"
+  - ???
+  - "\uD3EC\uC878"
+  _img:
+  - {fileID: 21300000, guid: bc12c0f3e02a52a41a7e425278a3ba30, type: 3}
+  - {fileID: 21300000, guid: bc12c0f3e02a52a41a7e425278a3ba30, type: 3}
+  - {fileID: 21300000, guid: bc12c0f3e02a52a41a7e425278a3ba30, type: 3}
+  - {fileID: 21300000, guid: bc12c0f3e02a52a41a7e425278a3ba30, type: 3}
+  - {fileID: 21300000, guid: bc12c0f3e02a52a41a7e425278a3ba30, type: 3}
+  - {fileID: 21300000, guid: bc12c0f3e02a52a41a7e425278a3ba30, type: 3}
+  - {fileID: 21300000, guid: bc12c0f3e02a52a41a7e425278a3ba30, type: 3}
+  _input: Wulryeong_Present_Quest1_prolog1
