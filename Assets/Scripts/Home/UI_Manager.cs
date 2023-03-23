@@ -124,7 +124,7 @@ public class UI_Manager : MonoBehaviour
         tap = a;
         for(int i = 0; i < 4; i++)
         { 
-            GameObject target = GameObject.Find("Canvas").transform.Find("Team").transform.Find("Teams").transform.Find("Character" + (i+1).ToString()).gameObject;
+            GameObject target = GameObject.Find("Canvas").transform.Find("Teams").transform.Find("Character" + (i+1).ToString()).gameObject;
             if(data.saveData.my_team[4*tap + i].Img is null)
                 target.transform.GetChild(0).GetComponent<Image>().sprite = null;
             else
