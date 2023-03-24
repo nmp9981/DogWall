@@ -83,7 +83,7 @@ public class Quest_Manager : MonoBehaviour
 
         // 플레이어 몬스터인덱스를 전부 저장했으니 씬 넘기기~
 
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("InGame");
     }
     public void SetName(string name)
     {

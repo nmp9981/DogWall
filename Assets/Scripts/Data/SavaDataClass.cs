@@ -5,43 +5,6 @@ using System;
 using UnityEditor;
 
 [System.Serializable]
-public class Character//캐릭터 DB
-{
-    public string img_path = "",img_for_dialog_path = "";//이미지 경로,캐릭터의 영문명으로 요청하기
-    public Sprite Img = null,Img_for_dialog = null;//이미지
-    public string Name = "";//캐릭터명
-    public int HP = 0;//HP
-    public int Energe = 0;//에너지
-    public int Attribute = 0;//속성
-    public int ATK = 0;//공격력
-    public string Type = "";//유형
-    public int Appear = 1;//출현 
-    public int Upgrade = 0;//강화 횟수
-    public int Star = 1;//별
-    public int Same = 0; //뽑기에서 같은 캐릭터 뽑은 경우 +1
-    public int idx = -1;//인덱스 리스트에서 빠르게 찾기 위해 사용하는 정보, 지정 안되었을 경우 -1, 리스트에서 찾으면 오류나올거임!
-    public bool heartLink = false;//하트 링크 상태인가?
-    public bool deathLink = false;//데스 링크 상태인가?
-    public Character(string path = "",Sprite img = null, string n = "무명", int h = 0,int e = 0,int A = 1, int a = 0, string t = "없음", int ap = 0, int Up = 0, int S = 1, int Pair = 0,int idx = -1,bool heart = false,bool death = false)
-    {
-        this.img_path = path;
-        this.Img = img;
-        this.Name = n;
-        this.HP = h;
-        this.Energe = e;
-        this.Attribute = A;
-        this.ATK = a;
-        this.Type = t;
-        this.Appear = ap;
-        this.Upgrade = Up;
-        this.Star = S;
-        this.Same = Pair; 
-        this.idx = idx;
-        this.heartLink = heart;
-        this.deathLink = death;
-    }
-}
-[System.Serializable]
 public class PlayerDataClass//캐릭터 DB
 {
     public int idx = 0;//인덱스
@@ -54,9 +17,11 @@ public class PlayerDataClass//캐릭터 DB
     public int Appear = 1;//출현 
     public int Upgrade = 0;//업그레이드 수
     public int Same = 0;//같은 건가
+    public int Star = 0;//별
     public int IsAction = 0;//스킬 사용이 가능한가?
+    public Sprite Img = null;//이미지
 
-    public PlayerDataClass(int i=0,string impa = "", string n = "무명", int h = 0, int a = 0, int A = 1,int e=0,int app=0,int up=0, int S = 1, int act = 0)
+    public PlayerDataClass(int i=0,string impa = "", string n = "무명", int h = 0, int a = 0, int A = 1,int e=0,int app=0,int up=0, int S = 1,int star = 0, int act = 0)
     {
         this.idx = i;
         this.img_path = impa;
@@ -68,6 +33,7 @@ public class PlayerDataClass//캐릭터 DB
         this.Appear = app;
         this.Upgrade = up;
         this.Same= S;
+        this.Star = star;
         this.IsAction = act;
     }
 }
@@ -268,8 +234,9 @@ public class QuestInfo//쿼스트 데이터
     public int Difficulty = 0;
     public int Type = 0;
     public int MonsterIndex = 0;
+    public int Clear = 0;
 
-    public QuestInfo(string appear, string episode, int quest, int stage, int difficulty, int type, int mobidx)
+    public QuestInfo(string appear, string episode, int quest, int stage, int difficulty, int type, int mobidx,int clear)
     {
         this.Appear = appear;
         this.Episode = episode;
@@ -278,6 +245,7 @@ public class QuestInfo//쿼스트 데이터
         this.Difficulty = difficulty;
         this.Type = type;
         this.MonsterIndex = mobidx;
+        this.Clear = clear;
     }
 }
 [System.Serializable]
@@ -301,8 +269,7 @@ public class UI
 [System.Serializable]
 public class SaveDataClass
 {
-    public List<Character> list;
-    public List<Character> my_characterlist;//캐릭터 리스트
+    public List<PlayerDataClass> my_characterlist;//캐릭터 리스트
     public List<PlayerDataClass> CharacterData;//캐릭터 리스트(찐)
     public List<CharacterSkillDataClass> CharacterSkill;//캐릭터 스킬 리스트
     public List<CharacterSkillIndexDataClass> CharacterSkillIndex;//캐릭터 스킬 Index 리스트
@@ -312,17 +279,16 @@ public class SaveDataClass
     public List<MonsterSpeccialSkillDataClass> MonsterSpecialSkill;//몬스터 특수스킬
     public List<QuestInfo> QuestData;//쿼스트 데이터
     //스테이지 진행정도
-    public List<Character> my_team;
+    public List<PlayerDataClass> my_team;
     public UI ui;
     public SaveDataClass()
     {
         //리스트 불러오기
-        list = new List<Character>();
-        my_characterlist= new List<Character>();
+        my_characterlist= new List<PlayerDataClass>();
         CharacterData = new List<PlayerDataClass>();
-        my_team = new List<Character>();
+        my_team = new List<PlayerDataClass>();
         for(int i = 0; i < 12; i++)
-            my_team.Add(new Character());
+            my_team.Add(new PlayerDataClass());
         CharacterSkill = new List<CharacterSkillDataClass>();
         CharacterSkillIndex = new List<CharacterSkillIndexDataClass>();
         MonsterData = new List<MonstersDataClass>();
@@ -332,31 +298,7 @@ public class SaveDataClass
         QuestData = new List<QuestInfo>();
         ui =  new UI();
     }
-    public void SetImg()//캐릭터에 저장된 경로를 통해 이미지를 지정
-    {      
-        foreach(Character a in list)
-            if(a.img_path != "")
-            {
-                a.Img = Resources.Load<Sprite>(a.img_path);
-                if(a.img_for_dialog_path != "")
-                    a.Img_for_dialog = Resources.Load<Sprite>(a.img_for_dialog_path);
-            }
-        foreach(Character a in my_characterlist)
-            if(a.img_path != "")
-            {
-                a.Img = Resources.Load<Sprite>(a.img_path);
-                if(a.img_for_dialog_path != "")
-                    a.Img_for_dialog = Resources.Load<Sprite>(a.img_for_dialog_path);
-            }
-        foreach(Character a in my_team)
-            if(a.img_path != "")
-            {
-                a.Img = Resources.Load<Sprite>(a.img_path);
-                if(a.img_for_dialog_path != "")
-                    a.Img_for_dialog = Resources.Load<Sprite>(a.img_for_dialog_path);
-            }
-    }
-
+    /*
     public void SetImgforOnce(string folder)//특정 폴더에 있는 이미지들을 캐릭터에 맞게 배치하기(list용)
     {     
         Sprite[] imgs;
@@ -369,7 +311,7 @@ public class SaveDataClass
             path = path.Replace(".png",string.Empty);//불필요한 부분 제거
             names.Add(path);//불필요한 부분을 제거한 이름을 리스트로 저장
         }
-        foreach(Character a in list)//리스트의 모든 캐릭터들을 대상으로 동작
+        foreach(PlayerDataClass a in list)//리스트의 모든 캐릭터들을 대상으로 동작
             if(a.img_path != "")//경로가 있다면
             {
                 foreach(string name in names)//앞서 저장한 이름들과 비교
@@ -405,8 +347,10 @@ public class SaveDataClass
                 a.Img_for_dialog = list[a.idx].Img;
             }
     }
+    */
 }
-  [System.Serializable]
+
+[System.Serializable]
 public class StageInfo{
     public int appear;
     public int episode;
@@ -416,6 +360,7 @@ public class StageInfo{
     public int type;
     public string character;
 
+    /*
     public void FindQuest()
     {
         var loadedJson = Resources.Load<TextAsset>("userData/QuestData");
@@ -423,5 +368,6 @@ public class StageInfo{
 
         Debug.Log($"{basicStageInfo.episode}, {basicStageInfo.difficulty}, {basicStageInfo.character}");
     }
+    */
 }
 

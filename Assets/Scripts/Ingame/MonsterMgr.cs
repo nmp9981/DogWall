@@ -43,7 +43,6 @@ public class MonsterMgr : MonoBehaviour
     //몬스터 출현(한 몬스터가 여러마리 등장)
     public void MonsterSetting(int stage)
     {
-        //int mobCount = Random.Range(1, 4);
         int mobCount = GameObject.Find("Data_Manager").gameObject.GetComponent<DataManager>().monsterCharaterNumber[stage].Count;
         MonsterNum.Clear();//출현 몬스터 번호 초기화
         monsters.Clear();//초기화
@@ -52,7 +51,6 @@ public class MonsterMgr : MonoBehaviour
         for (int i = 0; i < mobCount; i++)
         {
             int realNum = GameObject.Find("Data_Manager").gameObject.GetComponent<DataManager>().monsterCharaterNumber[stage][i];
-            //int realNum = Random.Range(0, Data.saveData.MonsterData.Count);//실제 몬스터 번호
             monsters.Add(Data.saveData.MonsterData[realNum]);//등장 몹은 서로 다름
             MonsterNum.Add(realNum);//실제 몬스터 번호 담기
             skill.mobProvocation[i] = false;//몬스터 도발 초기화
