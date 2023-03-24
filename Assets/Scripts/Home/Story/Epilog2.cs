@@ -17,6 +17,11 @@ public class Epilog2 : MonoBehaviour
             content = _content;
         }
     }
+
+    class Story
+    {
+        public List<StoryWithIndex> temp = new List<StoryWithIndex>();
+    }
     private List<string> Name;
     private List<Sprite> Img;
     private List<StoryWithIndex> Content;
@@ -26,13 +31,16 @@ public class Epilog2 : MonoBehaviour
     public Image character_img;
     [Header("텍스트")]
     public Text character_name, content, log;
+
+    [Header("TEST")]
+    [SerializeField]
+    string info;
     void Awake()
     {
         //TODO
         //1. 퀘스트 클래스에서 정보 받기
 
         //2. 정보에 따라서 맞는 스토리 에셋 찾기
-        string info = "EP01";
         
         Load(info);
         
@@ -58,14 +66,14 @@ public class Epilog2 : MonoBehaviour
         }
     }
 
-    private void Load(string path)
+    private void Load(string name)
     {
-        StoryData temp = Resources.Load<StoryData>("Epilog/" + path);
+        StoryData temp = Resources.Load<StoryData>("Epilog/" + name);
         Name = temp.Name;
         Img  = temp.Img;
-
+        string path = temp.Input;
         string loadPath = Application.dataPath;
-        string directory = "Resources/Epilog";
+        string directory = "/Resources/Epilog";
         string appender = "/" + path + ".json";
 #if UNITY_EDITOR_WIN
 
@@ -94,8 +102,9 @@ public class Epilog2 : MonoBehaviour
             stream.Read(bytes, 0, bytes.Length);
             stream.Close();
             string jsonData = Encoding.UTF8.GetString(bytes);
-
-            Content = JsonUtility.FromJson<List<StoryWithIndex>>(jsonData);
+            
+            Story t = JsonUtility.FromJson<Story>(jsonData);
+            Content = t.temp;
         }
         else
             Debug.LogError("Content를 찾을 수 없음!");
