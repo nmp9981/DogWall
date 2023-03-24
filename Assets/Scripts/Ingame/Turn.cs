@@ -469,7 +469,6 @@ public class Turn : MonoBehaviour
         skill_4T.SetActive(false);
         if (skillAvailable)
         {
-            //totalDamage += skill.skillAttackDamage(teamNumber);//스킬 데미지 더하기
             UISetting(); // 스킬 사용후 턴 넘기기
         }
     }

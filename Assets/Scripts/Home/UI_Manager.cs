@@ -47,7 +47,7 @@ public class UI_Manager : MonoBehaviour
     {
         //Debug.Log(DataManager.singleTon.monsterCharaterNumber[0][1]); 형원이형 보라고 냅둔거
         //saveData = data.saveData;
-        data.saveData.SetImg();
+        //data.saveData.SetImg();
         Load();
         //currency = data.saveData.ui.money[0];
         currency = 10000; // for Test
@@ -57,21 +57,7 @@ public class UI_Manager : MonoBehaviour
    
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            Character_ADD("Monster Dummy/000","질퍽이",10,5,1,10,"몰루?");
-            Character_ADD("Monster Dummy/111","꼬북이",10,5,2,10,"물");
-            Character_ADD("Monster Dummy/121","잉어킹",10,5,1,10,"물");
-            Character_ADD("Monster Dummy/212","고라파덕",5,10,2,10,"물");
-            Character_ADD("Monster Dummy/333","뭐더라",10,5,3,10,"어둠");
-            data.Save();
-        }
-        if(Input.GetKeyDown(KeyCode.Backspace))
-        {
-            data.saveData.list.Clear();
-            Debug.Log("list클리어");
-            data.Save();
-        }
+        
 
     }
     #region yeongchan
@@ -131,7 +117,7 @@ public class UI_Manager : MonoBehaviour
                 target.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_team[4*tap + i].Img;
                 target.transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].HP.ToString();
                 target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].ATK.ToString();
-                target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].Type;
+                target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].Attribute.ToString();
         }
         data.Save();
     }
@@ -170,12 +156,6 @@ public class UI_Manager : MonoBehaviour
         }
     }
 
-    public void Character_ADD(string path, string name, int hp,int energy,int attribute, int atk, string type)
-    {
-        //string Path = Monster Dummy/ + path =>이런식으로 수정해서 쓸거임
-        data.saveData.list.Add(new Character(path,Resources.Load<Sprite>(path),name,hp,energy,attribute,atk,type));
-        Load();
-    }
 
     void Load()
     {
@@ -207,7 +187,7 @@ public class UI_Manager : MonoBehaviour
             target.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_team[4*tap + i].Img;
             target.transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].HP.ToString();
             target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].ATK.ToString();
-            target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].Type;
+            target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].Attribute.ToString();
         }
         GameObject.Find("Canvas").transform.GetChild(1).transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>(data.saveData.ui.home_img_path);//홈 이미지 변경
 
@@ -277,7 +257,7 @@ public class UI_Manager : MonoBehaviour
                         target.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_characterlist[i].Img;
                         target.transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_characterlist[i].HP.ToString();
                         target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_characterlist[i].ATK.ToString();
-                        target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_characterlist[i].Type;
+                        target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_characterlist[i].Attribute.ToString();
                         data.saveData.my_team[4*tap+int.Parse(idx)-1] = data.saveData.my_characterlist[i];
                         UI_LEVEL2_Controll(1);
                         break;
@@ -350,7 +330,7 @@ public class UI_Manager : MonoBehaviour
                     float extra_hp = data.saveData.my_characterlist[i].HP * 0.2f, extra_atk = data.saveData.my_characterlist[i].ATK * 0.2f;
                     target.transform.GetChild(4).GetComponent<Text>().text = ((int)(extra_hp*data.saveData.my_characterlist[i].Appear)).ToString();
                     target.transform.GetChild(5).GetComponent<Text>().text = ((int)(extra_atk*data.saveData.my_characterlist[i].Appear)).ToString();
-                    target.transform.GetChild(6).GetComponent<Text>().text = data.saveData.my_characterlist[i].Type;
+                    target.transform.GetChild(6).GetComponent<Text>().text = data.saveData.my_characterlist[i].Attribute.ToString();
                     break;
                 }
             }
@@ -547,8 +527,8 @@ public class UI_Manager : MonoBehaviour
 
     void Pop_Up(int num, int stage)
     {
-        List<Character> output_list = new List<Character>();//화면 출력할 때 사용할 리스트
-        List<Character> cur_list = new List<Character>();//새로운 리스트 선언
+        List<PlayerDataClass> output_list = new List<PlayerDataClass>();//화면 출력할 때 사용할 리스트
+        List<PlayerDataClass> cur_list = new List<PlayerDataClass>();//새로운 리스트 선언
         GameObject clear = GameObject.Find("Gacha").transform.GetChild(2).transform.GetChild(0).gameObject;
         if(clear.transform.childCount > 0)
         {
@@ -557,10 +537,10 @@ public class UI_Manager : MonoBehaviour
                 Destroy(clear.transform.GetChild(i).gameObject);
             }
         }
-        for(int i = 0; i < data.saveData.list.Count; i++)
+        for(int i = 0; i < data.saveData.CharacterData.Count; i++)
         {
-            if(data.saveData.list[i].Appear == stage)//입력받은 스테이지와 같다면 새로운 리스트에 추가
-                cur_list.Add(data.saveData.list[i]);
+            if(data.saveData.CharacterData[i].Appear == stage)//입력받은 스테이지와 같다면 새로운 리스트에 추가
+                cur_list.Add(data.saveData.CharacterData[i]);
         }
         for(int count = 0; count < num; count++)
         {
@@ -584,7 +564,7 @@ public class UI_Manager : MonoBehaviour
                     cur_list.RemoveAt(i);
             }
             int new_random = (int)Random.Range(0,cur_list.Count);//0번째 인덱스부터 현재 리스트의 길이사이의 난수 생성
-            Character final = cur_list[new_random];//마지막으로 뽑힌 캐릭터
+            PlayerDataClass final = cur_list[new_random];//마지막으로 뽑힌 캐릭터
             if(data.saveData.my_characterlist.Contains(final))//만약 뽑힌녀석이 이미 뽑힌 놈이라면?
             {
                 for(int i = 0 ; i< data.saveData.my_characterlist.Count; i++)//그녀석을 찾아서 Same변수를 1더해줌

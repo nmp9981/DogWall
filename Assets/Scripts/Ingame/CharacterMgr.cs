@@ -4,28 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-//캐릭터 리스트 구조체
-public struct characterInfo
-{
-    public string characterName;//이름
-    public int characterHP, characterAttack;//체력, 공격력, 에너지
-    //public int characterEnerge;//에너지
-    public int characterType;//타입
-    public int characterAttribute;//속성
-    string characterExplain;//설명
-
-    public characterInfo(string characerName, int characterHP, int characterAttack, int characterEnerge, int characterType, int characterAttribute, string characterExplain)
-    {
-        this.characterName = characerName;
-        this.characterHP = characterHP;
-        this.characterAttack = characterAttack;
-        //this.characterEnerge = characterEnerge;
-        this.characterType = characterType;
-        this.characterAttribute = characterAttribute;
-        this.characterExplain = characterExplain;
-    }
-}
-
 public class CharacterMgr : MonoBehaviour
 {
     Data_Manager dataManager;
