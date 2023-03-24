@@ -539,7 +539,7 @@ public class UI_Manager : MonoBehaviour
         }
         for(int i = 0; i < data.saveData.CharacterData.Count; i++)
         {
-            if(data.saveData.CharacterData[i].Appear == stage)//입력받은 스테이지와 같다면 새로운 리스트에 추가
+            if(data.saveData.CharacterData[i].Stage == stage)//입력받은 스테이지와 같다면 새로운 리스트에 추가
                 cur_list.Add(data.saveData.CharacterData[i]);
         }
         for(int count = 0; count < num; count++)
