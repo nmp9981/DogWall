@@ -6,7 +6,7 @@ using System.IO;
 using System.Text;
 public class Epilog2 : MonoBehaviour
 {
-    private class StoryWithIndex
+    public class StoryWithIndex
     {
         public int idx;
         public string content;
@@ -18,13 +18,18 @@ public class Epilog2 : MonoBehaviour
         }
     }
 
-    class Story
+    public class Story
     {
-        public List<StoryWithIndex> temp = new List<StoryWithIndex>();
+        public List<StoryWithIndex> story;
+        public Story()
+        {
+            story = new List<StoryWithIndex>();
+        }
+        
     }
     private List<string> Name;
     private List<Sprite> Img;
-    private List<StoryWithIndex> Content;
+    private List<StoryWithIndex> Content = new List<StoryWithIndex>();
     private int index = 0;
 
     [Header("이미지")]
@@ -37,21 +42,25 @@ public class Epilog2 : MonoBehaviour
     string info;
     void Awake()
     {
+        Init();
+    }
+    void Init()//초기화
+    {
+        log.text = "";
+
         //TODO
         //1. 퀘스트 클래스에서 정보 받기
 
         //2. 정보에 따라서 맞는 스토리 에셋 찾기
-        
         Load(info);
         
         Next();
     }
-
     public void Next()
     {
         //TODO
         //1. idx >= Content.Count ? 홈으로 돌아가기
-        if(Content.Count >= index)
+        if(Content.Count <= index)
         {
             LoadingScene.SceneLoad("Home");
         }
@@ -59,9 +68,21 @@ public class Epilog2 : MonoBehaviour
         else
         {
             character_name.text = Name[Content[index].idx];
-            character_img.sprite = Img[Content[index].idx];
+            if(Name[Content[index].idx] == "")
+            {
+                character_name.transform.parent.gameObject.SetActive(false);
+                character_img.gameObject.SetActive(false);
+                log.text += (Content[index].content + System.Environment.NewLine);
+            }
+            else
+            {
+                character_name.transform.parent.gameObject.SetActive(true);
+                character_img.gameObject.SetActive(true);
+                character_img.sprite = Img[Content[index].idx];
+                log.text += (Name[Content[index].idx] +" : "+ Content[index].content + System.Environment.NewLine);
+            }
             content.text = Content[index].content;
-            log.text += ("/n" + Content[index].content);
+            
             index++;
         }
     }
@@ -102,11 +123,12 @@ public class Epilog2 : MonoBehaviour
             stream.Read(bytes, 0, bytes.Length);
             stream.Close();
             string jsonData = Encoding.UTF8.GetString(bytes);
-            
-            Story t = JsonUtility.FromJson<Story>(jsonData);
-            Content = t.temp;
+
+            Content = JsonManager.JsonArray<StoryWithIndex>(jsonData);
+            Debug.LogFormat("{0} 데이터 로드 완료, 컨텐츠 길이 = {1}",name,Content.Count);
         }
         else
             Debug.LogError("Content를 찾을 수 없음!");
+
     }
 }

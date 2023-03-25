@@ -101,4 +101,22 @@ public class JsonManager
         return gameData;
         //이 정보를 게임매니저나, 로딩으로 넘겨주는 것이당
     }
+
+    public static List<T> JsonArray<T>(string data)
+    {
+        List<T> result = new List<T>();
+        string t_data = data;
+        while(t_data.Contains("{"))
+        {
+            int index1 = t_data.IndexOf("{");
+            int index2 = t_data.IndexOf("}");
+            int length = index2 - index1 + 1;
+            string input = t_data.Substring(index1,length);
+            Debug.Log(input);
+            T temp = JsonUtility.FromJson<T>(input);
+            result.Add(temp);
+            t_data = t_data.Remove(index1,length+1);
+        }   
+        return result;
+    }
 }
