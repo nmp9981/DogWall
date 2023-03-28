@@ -319,6 +319,7 @@ public class Turn : MonoBehaviour
         if(monsterMgr.monsters.Count == 1)
         {
             monster1.SetActive(true);
+            monster1.GetComponent<Image>().sprite= Resources.Load<Sprite>("Images/UI/월령국/BigMan_3");
             monster1Rect.anchoredPosition = new Vector3(0, 400, 0);
             monster1Rect.sizeDelta = new Vector2(700, 700);
             monster1HPBar.anchoredPosition = new Vector3(0, -400, 0);
