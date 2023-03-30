@@ -14,6 +14,9 @@ public class UI_Manager : MonoBehaviour
     public float time = 0;
     DataManager data;
     //SaveDataClass saveData; 일단 폐기 나중에 한번에 고치든가
+    //About Unit Details
+    public Sprite[] Attribute_img;
+
 
     // About Unit Upgrade
     private bool upgrade = false;
@@ -190,7 +193,7 @@ public class UI_Manager : MonoBehaviour
             target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].Attribute.ToString();
         }
         GameObject.Find("Canvas").transform.GetChild(1).transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>(data.saveData.ui.home_img_path);//홈 이미지 변경
-
+        Attribute_img = Resources.LoadAll<Sprite>("Images/UI/Symbol");
     }
 
     void Unit_Select_Change()
@@ -292,44 +295,14 @@ public class UI_Manager : MonoBehaviour
             {
                 if(Unit.name == data.saveData.my_characterlist[i].Name)
                 {
-                    Color col;
-                    string txt;
-                    switch(data.saveData.my_characterlist[i].Attribute)
-                    {
-                        case 0:
-                            col = new Color(1,0,0);
-                            txt = "열정";
-                            break;
-                        case 1:
-                            col = new Color(0,0,1);
-                            txt = "냉정";
-                            break;
-                        case 2:
-                            col = new Color(0,1,0);
-                            txt = "조화";
-                            break;
-                        case 3:
-                            col = new Color(1,1,0);
-                            txt = "외계";
-                            break;
-                        case 4:
-                            col = new Color(0.5f,0.5f,0.5f);
-                            txt = "초월";
-                            break;
-                        default :
-                            col = new Color(1,1,1); 
-                            txt = "";
-                            break;
-                    }
-                    target.transform.GetChild(0).GetComponent<Image>().color = col;
-                    target.transform.GetChild(0).transform.GetChild(0).transform.GetChild(0).GetComponent<Text>().text = txt;
+                    target.transform.GetChild(0).transform.GetChild(0).GetComponent<Image>().sprite = Attribute_img[data.saveData.my_characterlist[i].Attribute];
                     target.transform.GetChild(0).transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_characterlist[i].Name;
                     target.transform.GetChild(1).GetComponent<Image>().sprite = data.saveData.my_characterlist[i].Img;
-                    target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_characterlist[i].HP.ToString();
-                    target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_characterlist[i].ATK.ToString();
+                    target.transform.GetChild(2).transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_characterlist[i].HP.ToString();
+                    target.transform.GetChild(2).transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_characterlist[i].ATK.ToString();
                     float extra_hp = data.saveData.my_characterlist[i].HP * 0.2f, extra_atk = data.saveData.my_characterlist[i].ATK * 0.2f;
-                    target.transform.GetChild(4).GetComponent<Text>().text = ((int)(extra_hp*data.saveData.my_characterlist[i].Appear)).ToString();
-                    target.transform.GetChild(5).GetComponent<Text>().text = ((int)(extra_atk*data.saveData.my_characterlist[i].Appear)).ToString();
+                    target.transform.GetChild(2).transform.GetChild(3).GetComponent<Text>().text = ((int)(extra_hp*data.saveData.my_characterlist[i].Appear)).ToString();
+                    target.transform.GetChild(2).transform.GetChild(4).GetComponent<Text>().text = ((int)(extra_atk*data.saveData.my_characterlist[i].Appear)).ToString();
                     target.transform.GetChild(6).GetComponent<Text>().text = data.saveData.my_characterlist[i].Attribute.ToString();
                     break;
                 }
