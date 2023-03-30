@@ -515,8 +515,11 @@ public class UI_Manager : MonoBehaviour
         {
             for(int i = 0; i < data.saveData.CharacterData.Count; i++)
             {
-                if(data.saveData.CharacterData[i].Stage == stage)//입력받은 스테이지와 같다면 새로운 리스트에 추가
+                //입력받은 스테이지와 같다면 새로운 리스트에 추가
+                if (data.saveData.CharacterData[i].Stage == stage)
+                {
                     cur_list.Add(data.saveData.CharacterData[i]);
+                }
             }
             int random = (int)Random.Range(0,10000);//난수하나 생성 - 문도현 "확률은 소수 2째자리까지 -> 대충 100 곱하면 10000이하니깐 이거 이하의 난수 하나 생성
             int level = 0;//몇성을 뽑을지 결정하기 위한 변수
@@ -533,8 +536,9 @@ public class UI_Manager : MonoBehaviour
                 level = 1;
             }
             int length = cur_list.Count;
-            for(int i = 0; i < length;)
+            for (int i = 0; i < length;)
             {
+                //모두 star = 0이어서 모든 원소가 제거되었던 것이었다. => 오류 원인
                 if(cur_list[i].Star != level)//현재 리스트에서 결정된 level이 아닌 요소들을 제거해줌
                 {
                     cur_list.RemoveAt(i);
@@ -544,7 +548,7 @@ public class UI_Manager : MonoBehaviour
                     i++;
             }
             int new_random = (int)Random.Range(0,length);//0번째 인덱스부터 현재 리스트의 길이사이의 난수 생성
-            Debug.LogFormat("current_List.Count = {0}, new_random = {1}, level = {2}",cur_list.Count,new_random,level);
+            //Debug.LogFormat("current_List.Count = {0}, new_random = {1}, level = {2}",cur_list.Count,new_random,level);
             PlayerDataClass final = cur_list[new_random];//마지막으로 뽑힌 캐릭터
             if(data.saveData.my_characterlist.Contains(final))//만약 뽑힌녀석이 이미 뽑힌 놈이라면?
             {
