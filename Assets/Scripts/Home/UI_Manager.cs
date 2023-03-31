@@ -502,7 +502,7 @@ public class UI_Manager : MonoBehaviour
     {
         List<PlayerDataClass> output_list = new List<PlayerDataClass>();//화면 출력할 때 사용할 리스트
         List<PlayerDataClass> cur_list = new List<PlayerDataClass>();//새로운 리스트 선언
-        GameObject clear = GameObject.Find("Gacha").transform.GetChild(2).transform.GetChild(0).gameObject;
+        GameObject clear = GameObject.Find("Gacha").transform.GetChild(1).transform.GetChild(0).gameObject;
         if(clear.transform.childCount > 0)
         {
             for(int i = 0; i < clear.transform.childCount; i++)
@@ -563,7 +563,7 @@ public class UI_Manager : MonoBehaviour
 
             output_list.Add(final);//final들을 출력 리스트들에 저장함
         }
-        Transform parent = GameObject.Find("Gacha").transform.GetChild(2).transform.GetChild(0).gameObject.GetComponent<Transform>();//부모 객체를 찾는 내용, Gatcha패널이 켜져있다는 가정하에 사용
+        Transform parent = GameObject.Find("Gacha").transform.GetChild(1).transform.GetChild(0).gameObject.GetComponent<Transform>();//부모 객체를 찾는 내용, Gatcha패널이 켜져있다는 가정하에 사용
         Vector2 base_pos = new Vector2(100f,1000f);
         if(num == 1)
         {

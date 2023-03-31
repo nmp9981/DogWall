@@ -2051,26 +2051,6 @@
                 "instanceID": 0
             },
             "Stage": 0
-        }
-    ],
-    "CharacterData": [
-        {
-            "idx": 0,
-            "img_path": "soldier_1",
-            "Name": "지방 포졸",
-            "HP": 4000,
-            "ATK": 6000,
-            "Attribute": 1,
-            "Energe": 10,
-            "Appear": 4,
-            "Upgrade": 0,
-            "Same": 26,
-            "Star": 1,
-            "IsAction": 1,
-            "Img": {
-                "instanceID": 0
-            },
-            "Stage": 0
         },
         {
             "idx": 1,
@@ -2082,25 +2062,7 @@
             "Energe": 10,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 21,
-            "Star": 1,
-            "IsAction": 1,
-            "Img": {
-                "instanceID": 0
-            },
-            "Stage": 0
-        },
-        {
-            "idx": 2,
-            "img_path": "",
-            "Name": "수비형 로봇",
-            "HP": 5500,
-            "ATK": 4500,
-            "Attribute": 1,
-            "Energe": 10,
-            "Appear": 4,
-            "Upgrade": 0,
-            "Same": 16,
+            "Same": 28,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -2118,7 +2080,7 @@
             "Energe": 10,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 24,
+            "Same": 31,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -2127,12 +2089,174 @@
             "Stage": 0
         },
         {
-            "idx": 4,
+            "idx": 24,
+            "img_path": "",
+            "Name": "폭주하는 로봇",
+            "HP": 6000,
+            "ATK": 4000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 12,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 18,
             "img_path": "",
             "Name": "완성형 로봇",
             "HP": 5000,
             "ATK": 5000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 5,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 13,
+            "img_path": "",
+            "Name": "랩터",
+            "HP": 4000,
+            "ATK": 6000,
             "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 1,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 10,
+            "img_path": "",
+            "Name": "지방 영주",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 4,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 17,
+            "img_path": "",
+            "Name": "회복형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 16,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 21,
+            "img_path": "",
+            "Name": "크리수트멈",
+            "HP": 6000,
+            "ATK": 6000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 14,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 8,
+            "img_path": "",
+            "Name": "베헤모스",
+            "HP": 5500,
+            "ATK": 7000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 4,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 12,
+            "img_path": "",
+            "Name": "행동 대장 로봇",
+            "HP": 6000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 23,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 2,
+            "img_path": "",
+            "Name": "수비형 로봇",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 1,
+            "Energe": 10,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 30,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 20,
+            "img_path": "",
+            "Name": "해바라기 사자",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 2,
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
@@ -2154,7 +2278,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 2,
+            "Same": 6,
             "Star": 2,
             "IsAction": 1,
             "Img": {
@@ -2163,34 +2287,34 @@
             "Stage": 0
         },
         {
-            "idx": 6,
-            "img_path": "",
-            "Name": "해바라기 사자",
-            "HP": 5500,
-            "ATK": 4500,
-            "Attribute": 1,
-            "Energe": 0,
-            "Appear": 4,
-            "Upgrade": 0,
-            "Same": 3,
-            "Star": 2,
-            "IsAction": 1,
-            "Img": {
-                "instanceID": 0
-            },
-            "Stage": 0
-        },
-        {
-            "idx": 7,
-            "img_path": "",
-            "Name": "크리수트멈",
-            "HP": 6000,
+            "idx": 0,
+            "img_path": "soldier_1",
+            "Name": "지방 포졸",
+            "HP": 4000,
             "ATK": 6000,
             "Attribute": 1,
+            "Energe": 10,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 32,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 16,
+            "img_path": "",
+            "Name": "수비형 로봇",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 2,
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 8,
+            "Same": 4,
             "Star": 2,
             "IsAction": 1,
             "Img": {
@@ -2199,16 +2323,34 @@
             "Stage": 0
         },
         {
-            "idx": 8,
+            "idx": 4,
+            "img_path": "",
+            "Name": "완성형 로봇",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 5,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 22,
             "img_path": "",
             "Name": "베헤모스",
             "HP": 5500,
             "ATK": 7000,
-            "Attribute": 1,
+            "Attribute": 2,
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 3,
+            "Same": 1,
             "Star": 3,
             "IsAction": 1,
             "Img": {
@@ -2235,71 +2377,17 @@
             "Stage": 0
         },
         {
-            "idx": 10,
+            "idx": 23,
             "img_path": "",
-            "Name": "지방 영주",
-            "HP": 5500,
-            "ATK": 4500,
-            "Attribute": 1,
-            "Energe": 0,
-            "Appear": 4,
-            "Upgrade": 0,
-            "Same": 0,
-            "Star": 3,
-            "IsAction": 1,
-            "Img": {
-                "instanceID": 0
-            },
-            "Stage": 0
-        },
-        {
-            "idx": 11,
-            "img_path": "",
-            "Name": "폭주하는 로봇",
-            "HP": 6000,
-            "ATK": 4000,
-            "Attribute": 1,
+            "Name": "폭주하는 영술사",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 2,
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
             "Same": 3,
             "Star": 3,
-            "IsAction": 1,
-            "Img": {
-                "instanceID": 0
-            },
-            "Stage": 0
-        },
-        {
-            "idx": 12,
-            "img_path": "",
-            "Name": "행동 대장 로봇",
-            "HP": 6000,
-            "ATK": 6000,
-            "Attribute": 1,
-            "Energe": 0,
-            "Appear": 4,
-            "Upgrade": 0,
-            "Same": 15,
-            "Star": 1,
-            "IsAction": 1,
-            "Img": {
-                "instanceID": 0
-            },
-            "Stage": 0
-        },
-        {
-            "idx": 13,
-            "img_path": "",
-            "Name": "랩터",
-            "HP": 4000,
-            "ATK": 6000,
-            "Attribute": 1,
-            "Energe": 0,
-            "Appear": 4,
-            "Upgrade": 0,
-            "Same": 0,
-            "Star": 2,
             "IsAction": 1,
             "Img": {
                 "instanceID": 0
@@ -2343,16 +2431,16 @@
             "Stage": 0
         },
         {
-            "idx": 16,
+            "idx": 6,
             "img_path": "",
-            "Name": "수비형 로봇",
+            "Name": "해바라기 사자",
             "HP": 5500,
             "ATK": 4500,
-            "Attribute": 2,
+            "Attribute": 1,
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 0,
+            "Same": 4,
             "Star": 2,
             "IsAction": 1,
             "Img": {
@@ -2361,34 +2449,16 @@
             "Stage": 0
         },
         {
-            "idx": 17,
+            "idx": 7,
             "img_path": "",
-            "Name": "회복형 로봇",
-            "HP": 4500,
-            "ATK": 5500,
-            "Attribute": 2,
+            "Name": "크리수트멈",
+            "HP": 6000,
+            "ATK": 6000,
+            "Attribute": 1,
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 1,
-            "Star": 1,
-            "IsAction": 1,
-            "Img": {
-                "instanceID": 0
-            },
-            "Stage": 0
-        },
-        {
-            "idx": 18,
-            "img_path": "",
-            "Name": "완성형 로봇",
-            "HP": 5000,
-            "ATK": 5000,
-            "Attribute": 2,
-            "Energe": 0,
-            "Appear": 4,
-            "Upgrade": 0,
-            "Same": 0,
+            "Same": 9,
             "Star": 2,
             "IsAction": 1,
             "Img": {
@@ -2415,17 +2485,35 @@
             "Stage": 0
         },
         {
-            "idx": 20,
+            "idx": 12,
             "img_path": "",
-            "Name": "해바라기 사자",
-            "HP": 5500,
-            "ATK": 4500,
-            "Attribute": 2,
+            "Name": "행동 대장 로봇",
+            "HP": 6000,
+            "ATK": 6000,
+            "Attribute": 1,
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 0,
-            "Star": 2,
+            "Same": 26,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 1,
+            "img_path": "",
+            "Name": "공격형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 1,
+            "Energe": 10,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 33,
+            "Star": 1,
             "IsAction": 1,
             "Img": {
                 "instanceID": 0
@@ -2442,7 +2530,259 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
+            "Same": 18,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 0,
+            "img_path": "soldier_1",
+            "Name": "지방 포졸",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 10,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 34,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 24,
+            "img_path": "",
+            "Name": "폭주하는 로봇",
+            "HP": 6000,
+            "ATK": 4000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 14,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 23,
+            "img_path": "",
+            "Name": "폭주하는 영술사",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
             "Same": 4,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 17,
+            "img_path": "",
+            "Name": "회복형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 22,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 4,
+            "img_path": "",
+            "Name": "완성형 로봇",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 5,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 18,
+            "img_path": "",
+            "Name": "완성형 로봇",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 7,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 2,
+            "img_path": "",
+            "Name": "수비형 로봇",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 1,
+            "Energe": 10,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 32,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 13,
+            "img_path": "",
+            "Name": "랩터",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 3,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 3,
+            "img_path": "",
+            "Name": "회복형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 1,
+            "Energe": 10,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 33,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 16,
+            "img_path": "",
+            "Name": "수비형 로봇",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 4,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 6,
+            "img_path": "",
+            "Name": "해바라기 사자",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 4,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 22,
+            "img_path": "",
+            "Name": "베헤모스",
+            "HP": 5500,
+            "ATK": 7000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 1,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 5,
+            "img_path": "",
+            "Name": "여우늑대",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 6,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 12,
+            "img_path": "",
+            "Name": "행동 대장 로봇",
+            "HP": 6000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 39,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -2460,7 +2800,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 0,
+            "Same": 3,
             "Star": 3,
             "IsAction": 1,
             "Img": {
@@ -2469,16 +2809,88 @@
             "Stage": 0
         },
         {
-            "idx": 23,
+            "idx": 0,
+            "img_path": "soldier_1",
+            "Name": "지방 포졸",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 10,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 47,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 16,
             "img_path": "",
-            "Name": "폭주하는 영술사",
-            "HP": 4500,
-            "ATK": 5500,
+            "Name": "수비형 로봇",
+            "HP": 5500,
+            "ATK": 4500,
             "Attribute": 2,
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 2,
+            "Same": 10,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 2,
+            "img_path": "",
+            "Name": "수비형 로봇",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 1,
+            "Energe": 10,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 42,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 20,
+            "img_path": "",
+            "Name": "해바라기 사자",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 5,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 10,
+            "img_path": "",
+            "Name": "지방 영주",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 5,
             "Star": 3,
             "IsAction": 1,
             "Img": {
@@ -2496,7 +2908,729 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
+            "Same": 23,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 3,
+            "img_path": "",
+            "Name": "회복형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 1,
+            "Energe": 10,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 47,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 21,
+            "img_path": "",
+            "Name": "크리수트멈",
+            "HP": 6000,
+            "ATK": 6000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 25,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 11,
+            "img_path": "",
+            "Name": "폭주하는 로봇",
+            "HP": 6000,
+            "ATK": 4000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 4,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 1,
+            "img_path": "",
+            "Name": "공격형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 1,
+            "Energe": 10,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 46,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 17,
+            "img_path": "",
+            "Name": "회복형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 36,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 4,
+            "img_path": "",
+            "Name": "완성형 로봇",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 8,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 13,
+            "img_path": "",
+            "Name": "랩터",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 4,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 6,
+            "img_path": "",
+            "Name": "해바라기 사자",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 8,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 15,
+            "img_path": "",
+            "Name": "공격형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 4,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 8,
+            "img_path": "",
+            "Name": "베헤모스",
+            "HP": 5500,
+            "ATK": 7000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 4,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 23,
+            "img_path": "",
+            "Name": "폭주하는 영술사",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 6,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 9,
+            "img_path": "",
+            "Name": "폭주하는 영술사",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 7,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 7,
+            "img_path": "",
+            "Name": "크리수트멈",
+            "HP": 6000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 10,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 19,
+            "img_path": "",
+            "Name": "여우늑대",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 4,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 18,
+            "img_path": "",
+            "Name": "완성형 로봇",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 7,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        }
+    ],
+    "CharacterData": [
+        {
+            "idx": 0,
+            "img_path": "soldier_1",
+            "Name": "지방 포졸",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 10,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 47,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 1,
+            "img_path": "",
+            "Name": "공격형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 1,
+            "Energe": 10,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 46,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 2,
+            "img_path": "",
+            "Name": "수비형 로봇",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 1,
+            "Energe": 10,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 42,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 3,
+            "img_path": "",
+            "Name": "회복형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 1,
+            "Energe": 10,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 47,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 4,
+            "img_path": "",
+            "Name": "완성형 로봇",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 8,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 5,
+            "img_path": "",
+            "Name": "여우늑대",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 6,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 6,
+            "img_path": "",
+            "Name": "해바라기 사자",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 8,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 7,
+            "img_path": "",
+            "Name": "크리수트멈",
+            "HP": 6000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 10,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 8,
+            "img_path": "",
+            "Name": "베헤모스",
+            "HP": 5500,
+            "ATK": 7000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 4,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 9,
+            "img_path": "",
+            "Name": "폭주하는 영술사",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 7,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 10,
+            "img_path": "",
+            "Name": "지방 영주",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 5,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 11,
+            "img_path": "",
+            "Name": "폭주하는 로봇",
+            "HP": 6000,
+            "ATK": 4000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 4,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 12,
+            "img_path": "",
+            "Name": "행동 대장 로봇",
+            "HP": 6000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 39,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 13,
+            "img_path": "",
+            "Name": "랩터",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 4,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 14,
+            "img_path": "soldier_2",
+            "Name": "지방 포졸",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
             "Same": 0,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 15,
+            "img_path": "",
+            "Name": "공격형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 4,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 16,
+            "img_path": "",
+            "Name": "수비형 로봇",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 10,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 17,
+            "img_path": "",
+            "Name": "회복형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 36,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 18,
+            "img_path": "",
+            "Name": "완성형 로봇",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 7,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 19,
+            "img_path": "",
+            "Name": "여우늑대",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 4,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 20,
+            "img_path": "",
+            "Name": "해바라기 사자",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 5,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 21,
+            "img_path": "",
+            "Name": "크리수트멈",
+            "HP": 6000,
+            "ATK": 6000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 25,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 22,
+            "img_path": "",
+            "Name": "베헤모스",
+            "HP": 5500,
+            "ATK": 7000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 3,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 23,
+            "img_path": "",
+            "Name": "폭주하는 영술사",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 6,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 24,
+            "img_path": "",
+            "Name": "폭주하는 로봇",
+            "HP": 6000,
+            "ATK": 4000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 23,
             "Star": 1,
             "IsAction": 1,
             "Img": {
