@@ -21803,16 +21803,16 @@
     ],
     "my_team": [
         {
-            "idx": 21,
+            "idx": 11,
             "img_path": "",
-            "Name": "크리수트멈",
+            "Name": "폭주하는 로봇",
             "HP": 6000,
-            "ATK": 6000,
-            "Attribute": 2,
+            "ATK": 4000,
+            "Attribute": 1,
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 2,
+            "Same": 0,
             "Star": 0,
             "IsAction": 1,
             "Img": {

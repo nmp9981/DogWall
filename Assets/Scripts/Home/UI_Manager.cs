@@ -70,12 +70,6 @@ public class UI_Manager : MonoBehaviour
         UI_Controll();
     }
 
-    public void UI_LEVEL2_Controll(int level)
-    {
-        level2 = level;
-        UI_Controll();
-    }
-
     void UI_Controll()
     {
         switch(level1)
@@ -251,7 +245,7 @@ public class UI_Manager : MonoBehaviour
                         idx = "4";
                         break;
                 }
-                GameObject target = GameObject.Find("Canvas").transform.Find("Teams").transform.Find("Character" + idx).gameObject;
+                GameObject target = GameObject.Find("Canvas").transform.Find("Teams").transform.Find("Character" + idx.ToString()).gameObject;
                 
                 for(int i = 0; i < data.saveData.my_characterlist.Count; i++)
                 {
@@ -262,7 +256,7 @@ public class UI_Manager : MonoBehaviour
                         target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_characterlist[i].ATK.ToString();
                         target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_characterlist[i].Attribute.ToString();
                         data.saveData.my_team[4*tap+int.Parse(idx)-1] = data.saveData.my_characterlist[i];
-                        UI_LEVEL2_Controll(1);
+                        UI_LEVEL1_Controll(2);
                         break;
                     }
                 }
@@ -303,7 +297,6 @@ public class UI_Manager : MonoBehaviour
                     float extra_hp = data.saveData.my_characterlist[i].HP * 0.2f, extra_atk = data.saveData.my_characterlist[i].ATK * 0.2f;
                     target.transform.GetChild(2).transform.GetChild(3).GetComponent<Text>().text = ((int)(extra_hp*data.saveData.my_characterlist[i].Appear)).ToString();
                     target.transform.GetChild(2).transform.GetChild(4).GetComponent<Text>().text = ((int)(extra_atk*data.saveData.my_characterlist[i].Appear)).ToString();
-                    target.transform.GetChild(6).GetComponent<Text>().text = data.saveData.my_characterlist[i].Attribute.ToString();
                     break;
                 }
             }
@@ -312,20 +305,6 @@ public class UI_Manager : MonoBehaviour
         
     }
 
-
-    public void Back_for_Select()
-    {
-        if(!upgrade)
-        {
-            UI_LEVEL1_Controll(1);
-            UI_LEVEL2_Controll(1);
-        }
-        else
-        {
-            UI_LEVEL1_Controll(1);
-            UI_LEVEL2_Controll(0);
-        }
-    }
 
     public void Change_Home_Img()
     {
@@ -338,7 +317,6 @@ public class UI_Manager : MonoBehaviour
         data.saveData.ui.home_img_path = path;
         data.Save();
         UI_LEVEL1_Controll(0);
-        UI_LEVEL2_Controll(0);
     }
     #endregion
     #region doyeon
