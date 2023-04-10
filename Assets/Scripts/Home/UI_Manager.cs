@@ -8,7 +8,7 @@ using UnityEngine.EventSystems;
 
 public class UI_Manager : MonoBehaviour
 {
-    public int level1 = 0, level2 = 0;
+    public int level1 = 0;
     public int x = 0, y = 0;
     int tap = 0;
     public float time = 0;
@@ -16,7 +16,6 @@ public class UI_Manager : MonoBehaviour
     //SaveDataClass saveData; 일단 폐기 나중에 한번에 고치든가
     //About Unit Details
     public Sprite[] Attribute_img;
-
 
     // About Unit Upgrade
     private bool upgrade = false;
@@ -41,7 +40,9 @@ public class UI_Manager : MonoBehaviour
     [SerializeField] Sprite fullDot, emptyDot;
     [SerializeField] GameObject leftBtn, rightBtn, mainbanner, gachaResult, alertPop;
 
-
+    //About Tutorial
+    [SerializeField]
+    Tutorial Tuto;
     void Awake()
     {
         data = GameObject.Find("Data_Manager").GetComponent<DataManager>();
@@ -49,20 +50,19 @@ public class UI_Manager : MonoBehaviour
     void Start()
     {
         //Debug.Log(DataManager.singleTon.monsterCharaterNumber[0][1]); 형원이형 보라고 냅둔거
-        //saveData = data.saveData;
-        //data.saveData.SetImg();
+        Init();
+        
+        
+    }
+
+   void Init()
+   {
+        
         Load();
-        //currency = data.saveData.ui.money[0];
         currency = 10000; // for Test
-        
-    }
 
-   
-    void Update()
-    {
-        
-
-    }
+        Tuto.Init();
+   }
     #region yeongchan
     public void UI_LEVEL1_Controll(int level)
     {
@@ -98,6 +98,9 @@ public class UI_Manager : MonoBehaviour
                 break;
             case 6:
                 UI("Quest");
+                break;
+            case 7:
+                UI("Tutorial");
                 break;
         }
     }
