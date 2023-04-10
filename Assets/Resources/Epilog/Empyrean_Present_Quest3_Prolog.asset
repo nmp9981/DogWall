@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83e6649dfce81141bf4c9e203af3457, type: 3}
+  m_Name: Empyrean_Present_Quest3_Prolog
+  m_EditorClassIdentifier: 
+  _name:
+  - 
+  - "\uBCA0\uC544\uD2B8\uB9AC\uCCB4"
+  - "\uBCA0\uB974\uB098\uB974\uB3C4"
+  - "\uB77C\uBBF8\uC5D8"
+  - "\uB9C8\uBC95 \uC758\uD68C \uC758\uC6D0A"
+  - "\uB9C8\uBC95 \uC758\uD68C \uC758\uC6D0B"
+  _img:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _input: Empyrean_Present_Quest3_prolog1
