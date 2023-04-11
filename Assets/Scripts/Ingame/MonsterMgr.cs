@@ -79,9 +79,9 @@ public class MonsterMgr : MonoBehaviour
         if (currentMonsterHP[index] <= 0)//해당 몬스터가 죽었으면
         {
             skill.mobProvocation[index] = false;//도발 해제
-            monsters.RemoveAt(index);//원소 삭제
             monsterFullHP.RemoveAt(index);
             currentMonsterHP.RemoveAt(index);
+            monsters.RemoveAt(index);//원소 삭제
             if (monsters.Count>0)//남은 몬스터가 더 있는가?
             {
                 monsterAttackDamage = monsters[index].Atk;//몬스터 공격력

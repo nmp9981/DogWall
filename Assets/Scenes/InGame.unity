@@ -2358,7 +2358,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   saveData:
-    list: []
     my_characterlist: []
     CharacterData: []
     CharacterSkill: []
@@ -2368,210 +2367,174 @@ MonoBehaviour:
     MonsterSpecialSkill: []
     QuestData: []
     my_team:
-    - img_path: 
-      img_for_dialog_path: 
-      Img: {fileID: 0}
-      Img_for_dialog: {fileID: 0}
+    - idx: -1
+      img_path: 
       Name: "\uBB34\uBA85"
       HP: 0
-      Energe: 0
-      Attribute: 1
       ATK: 0
-      Type: "\uC5C6\uC74C"
+      Attribute: 1
+      Energe: 0
       Appear: 0
       Upgrade: 0
-      Star: 1
       Same: 0
-      idx: -1
-      heartLink: 0
-      deathLink: 0
-    - img_path: 
-      img_for_dialog_path: 
+      Star: 1
+      IsAction: 0
       Img: {fileID: 0}
-      Img_for_dialog: {fileID: 0}
+      Stage: 1
+    - idx: -1
+      img_path: 
       Name: "\uBB34\uBA85"
       HP: 0
-      Energe: 0
-      Attribute: 1
       ATK: 0
-      Type: "\uC5C6\uC74C"
+      Attribute: 1
+      Energe: 0
       Appear: 0
       Upgrade: 0
-      Star: 1
       Same: 0
-      idx: -1
-      heartLink: 0
-      deathLink: 0
-    - img_path: 
-      img_for_dialog_path: 
+      Star: 1
+      IsAction: 0
       Img: {fileID: 0}
-      Img_for_dialog: {fileID: 0}
+      Stage: 1
+    - idx: -1
+      img_path: 
       Name: "\uBB34\uBA85"
       HP: 0
-      Energe: 0
-      Attribute: 1
       ATK: 0
-      Type: "\uC5C6\uC74C"
+      Attribute: 1
+      Energe: 0
       Appear: 0
       Upgrade: 0
-      Star: 1
       Same: 0
-      idx: -1
-      heartLink: 0
-      deathLink: 0
-    - img_path: 
-      img_for_dialog_path: 
+      Star: 1
+      IsAction: 0
       Img: {fileID: 0}
-      Img_for_dialog: {fileID: 0}
+      Stage: 1
+    - idx: -1
+      img_path: 
       Name: "\uBB34\uBA85"
       HP: 0
-      Energe: 0
-      Attribute: 1
       ATK: 0
-      Type: "\uC5C6\uC74C"
+      Attribute: 1
+      Energe: 0
       Appear: 0
       Upgrade: 0
-      Star: 1
       Same: 0
-      idx: -1
-      heartLink: 0
-      deathLink: 0
-    - img_path: 
-      img_for_dialog_path: 
+      Star: 1
+      IsAction: 0
       Img: {fileID: 0}
-      Img_for_dialog: {fileID: 0}
+      Stage: 1
+    - idx: -1
+      img_path: 
       Name: "\uBB34\uBA85"
       HP: 0
-      Energe: 0
-      Attribute: 1
       ATK: 0
-      Type: "\uC5C6\uC74C"
+      Attribute: 1
+      Energe: 0
       Appear: 0
       Upgrade: 0
-      Star: 1
       Same: 0
-      idx: -1
-      heartLink: 0
-      deathLink: 0
-    - img_path: 
-      img_for_dialog_path: 
+      Star: 1
+      IsAction: 0
       Img: {fileID: 0}
-      Img_for_dialog: {fileID: 0}
+      Stage: 1
+    - idx: -1
+      img_path: 
       Name: "\uBB34\uBA85"
       HP: 0
-      Energe: 0
-      Attribute: 1
       ATK: 0
-      Type: "\uC5C6\uC74C"
+      Attribute: 1
+      Energe: 0
       Appear: 0
       Upgrade: 0
-      Star: 1
       Same: 0
-      idx: -1
-      heartLink: 0
-      deathLink: 0
-    - img_path: 
-      img_for_dialog_path: 
+      Star: 1
+      IsAction: 0
       Img: {fileID: 0}
-      Img_for_dialog: {fileID: 0}
+      Stage: 1
+    - idx: -1
+      img_path: 
       Name: "\uBB34\uBA85"
       HP: 0
-      Energe: 0
-      Attribute: 1
       ATK: 0
-      Type: "\uC5C6\uC74C"
+      Attribute: 1
+      Energe: 0
       Appear: 0
       Upgrade: 0
-      Star: 1
       Same: 0
-      idx: -1
-      heartLink: 0
-      deathLink: 0
-    - img_path: 
-      img_for_dialog_path: 
+      Star: 1
+      IsAction: 0
       Img: {fileID: 0}
-      Img_for_dialog: {fileID: 0}
+      Stage: 1
+    - idx: -1
+      img_path: 
       Name: "\uBB34\uBA85"
       HP: 0
-      Energe: 0
-      Attribute: 1
       ATK: 0
-      Type: "\uC5C6\uC74C"
+      Attribute: 1
+      Energe: 0
       Appear: 0
       Upgrade: 0
-      Star: 1
       Same: 0
-      idx: -1
-      heartLink: 0
-      deathLink: 0
-    - img_path: 
-      img_for_dialog_path: 
+      Star: 1
+      IsAction: 0
       Img: {fileID: 0}
-      Img_for_dialog: {fileID: 0}
+      Stage: 1
+    - idx: -1
+      img_path: 
       Name: "\uBB34\uBA85"
       HP: 0
-      Energe: 0
-      Attribute: 1
       ATK: 0
-      Type: "\uC5C6\uC74C"
+      Attribute: 1
+      Energe: 0
       Appear: 0
       Upgrade: 0
-      Star: 1
       Same: 0
-      idx: -1
-      heartLink: 0
-      deathLink: 0
-    - img_path: 
-      img_for_dialog_path: 
+      Star: 1
+      IsAction: 0
       Img: {fileID: 0}
-      Img_for_dialog: {fileID: 0}
+      Stage: 1
+    - idx: -1
+      img_path: 
       Name: "\uBB34\uBA85"
       HP: 0
-      Energe: 0
-      Attribute: 1
       ATK: 0
-      Type: "\uC5C6\uC74C"
+      Attribute: 1
+      Energe: 0
       Appear: 0
       Upgrade: 0
-      Star: 1
       Same: 0
-      idx: -1
-      heartLink: 0
-      deathLink: 0
-    - img_path: 
-      img_for_dialog_path: 
+      Star: 1
+      IsAction: 0
       Img: {fileID: 0}
-      Img_for_dialog: {fileID: 0}
+      Stage: 1
+    - idx: -1
+      img_path: 
       Name: "\uBB34\uBA85"
       HP: 0
-      Energe: 0
-      Attribute: 1
       ATK: 0
-      Type: "\uC5C6\uC74C"
+      Attribute: 1
+      Energe: 0
       Appear: 0
       Upgrade: 0
-      Star: 1
       Same: 0
-      idx: -1
-      heartLink: 0
-      deathLink: 0
-    - img_path: 
-      img_for_dialog_path: 
+      Star: 1
+      IsAction: 0
       Img: {fileID: 0}
-      Img_for_dialog: {fileID: 0}
+      Stage: 1
+    - idx: -1
+      img_path: 
       Name: "\uBB34\uBA85"
       HP: 0
-      Energe: 0
-      Attribute: 1
       ATK: 0
-      Type: "\uC5C6\uC74C"
+      Attribute: 1
+      Energe: 0
       Appear: 0
       Upgrade: 0
-      Star: 1
       Same: 0
-      idx: -1
-      heartLink: 0
-      deathLink: 0
+      Star: 1
+      IsAction: 0
+      Img: {fileID: 0}
+      Stage: 1
     ui:
       money: 
       home_img_path: 
@@ -6763,6 +6726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7977cf1470028241ad13e1b48dda8fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAttackText: {fileID: 121323156}
   playerHPText: {fileID: 1640680355}
   playerEnergeText: {fileID: 71183295}
   characterCondition1: {fileID: 1879298328}

@@ -496,6 +496,8 @@ public class UI_Manager : MonoBehaviour
         {
             for(int i = 0; i < data.saveData.CharacterData.Count; i++)
             {
+                //매개변수 stage = 0이라 오류가 난다
+                if (stage == 0) stage = 1;//일단 오류 방지를 위해 임시코드를 추가했다.
                 //입력받은 스테이지와 같다면 새로운 리스트에 추가
                 if (data.saveData.CharacterData[i].Stage == stage)
                 {
@@ -520,7 +522,7 @@ public class UI_Manager : MonoBehaviour
             for (int i = 0; i < length;)
             {
                 //모두 star = 0이어서 모든 원소가 제거되었던 것이었다. => 오류 원인
-                if(cur_list[i].Star != level)//현재 리스트에서 결정된 level이 아닌 요소들을 제거해줌
+                if (cur_list[i].Star != level)//현재 리스트에서 결정된 level이 아닌 요소들을 제거해줌
                 {
                     cur_list.RemoveAt(i);
                     length--;

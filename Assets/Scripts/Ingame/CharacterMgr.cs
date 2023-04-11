@@ -13,6 +13,7 @@ public class CharacterMgr : MonoBehaviour
     TeamSelect teamSelect;
     Turn turn;
 
+    public Text playerAttackText;//플레이어 공격력 텍스트
     public Text playerHPText;//플레이어 HP텍스트
     public Text playerEnergeText;//플레이어 에너지 텍스트
     
@@ -85,6 +86,11 @@ public class CharacterMgr : MonoBehaviour
     {
         PlayerHPManage();
         PlayerEnergeManage();
+    }
+    public void PlayerAttackInfo(int num)
+    {
+        Debug.Log(playerAttack[num]);
+        playerAttackText.text = "Attack : " + playerAttack[num].ToString("0");//화면에 보이게
     }
     void PlayerHPManage()
     {

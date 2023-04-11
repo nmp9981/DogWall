@@ -8,7 +8,7 @@ public class Turn : MonoBehaviour
 {
     #region 변수
     Data_Manager dataManager; private DataManager Data; CharacterMgr characterMgr; MonsterMgr monsterMgr; TeamSelect teamSelect; Skill skill;MonsterSkill monsterSkillMgr; SepcialMonster specialMonster; UIManager uiManager;
-    public Text characterNameText, characterAttackText, turnText, stageText, monsterText;
+    public Text characterNameText, turnText, stageText, monsterText;
     public int teamNumber;//팀원의 번호
     public int totalDamage;//스킬데미지 총합
     public GameObject[] skill33 = { };
@@ -70,6 +70,7 @@ public class Turn : MonoBehaviour
     {
         turnNumber = number;
         teamNumber = teamSelect.selectedTeamNumber[number - 1];
+        characterMgr.PlayerAttackInfo(number-1);
         UISetting();
     }
 

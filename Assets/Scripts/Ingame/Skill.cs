@@ -61,7 +61,7 @@ void Start()
         int baseSkillDamage = (playerAttack * skillPercentDamage) / 100;//기본 스킬데미지
         int attributeSkillDamage = (baseSkillDamage * attributeDamage) / 100;//속성까지 
         int finalDamage = (attributeSkillDamage * monsterDefense) / 100;//최종 데미지
-        return finalDamage;
+        return finalDamage*10;
     }
 
     //플레이어 HP회복
