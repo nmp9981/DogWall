@@ -7,6 +7,7 @@ public class UIManager : MonoBehaviour
 {
     [Header("UI 관련 게임 오브젝트")]
     public List<GameObject> playerImg = new List<GameObject>(); // 플레이어 초상화
+    public List<Text> skillText = new List<Text>(); // 스킬 버튼들
     public Text name;
     public Text atk;
 
@@ -21,18 +22,24 @@ public class UIManager : MonoBehaviour
         } // 플레이어 초상화 이미지 세팅
         // 초상화는 바뀌는 경우가 없으니까 처음 한번만~
     }
-    public void nameSet(int number)
+    public void NameSet(int number)
     {
-        name.text = data.saveData.my_team[number].Name;
+        Debug.Log(data.playerCharaterNumber[number - 1]);
+        name.text = data.saveData.CharacterData[data.playerCharaterNumber[number-1]].Name;
     }
 
-    public void atkSet(int number)
+    public void AtkSet(int number)
     {
-        atk.text = data.saveData.my_team[number].ATK + "ATK";
+        atk.text = data.saveData.CharacterData[data.playerCharaterNumber[number-1]].ATK + "ATK";
     }
 
-    public void skillSet(int number)
+    public void SkillSet(int number)
     {
-
+        int skillIndex;
+        for (int i=0; i<4; i++)
+        {
+            skillIndex = data.playerCharaterNumber[number-1] * 4 + i;
+            skillText[i].text = data.saveData.CharacterSkill[skillIndex].SkillName;
+        }
     }
 }

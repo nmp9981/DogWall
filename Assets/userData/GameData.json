@@ -22541,31 +22541,13 @@
     ],
     "my_team": [
         {
-            "idx": 39,
+            "idx": 1,
             "img_path": "",
-            "Name": "행동 대장 로봇",
-            "HP": 5000,
-            "ATK": 5000,
-            "Attribute": 3,
-            "Energe": 0,
-            "Appear": 4,
-            "Upgrade": 0,
-            "Same": 0,
-            "Star": 0,
-            "IsAction": 1,
-            "Img": {
-                "instanceID": 0
-            },
-            "Stage": 0
-        },
-        {
-            "idx": 23,
-            "img_path": "",
-            "Name": "폭주하는 영술사",
+            "Name": "공격형 로봇",
             "HP": 4500,
             "ATK": 5500,
-            "Attribute": 2,
-            "Energe": 0,
+            "Attribute": 1,
+            "Energe": 10,
             "Appear": 4,
             "Upgrade": 0,
             "Same": 2,
@@ -22577,14 +22559,14 @@
             "Stage": 0
         },
         {
-            "idx": 41,
+            "idx": 5,
             "img_path": "",
-            "Name": "깊이 뿌리 박은 산의 주인 플랜타이거",
-            "HP": 5500,
-            "ATK": 6000,
-            "Attribute": 3,
+            "Name": "여우늑대",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 1,
             "Energe": 0,
-            "Appear": 3,
+            "Appear": 4,
             "Upgrade": 0,
             "Same": 1,
             "Star": 0,
@@ -22605,6 +22587,24 @@
             "Appear": 3,
             "Upgrade": 0,
             "Same": 1,
+            "Star": 0,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0
+        },
+        {
+            "idx": 11,
+            "img_path": "",
+            "Name": "폭주하는 로봇",
+            "HP": 6000,
+            "ATK": 4000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
             "Star": 0,
             "IsAction": 1,
             "Img": {

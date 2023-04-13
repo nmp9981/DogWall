@@ -45,7 +45,7 @@ public class Quest_Manager : MonoBehaviour
 
         for (int i = 0; i < 4; i++)
         {
-            data.playerCharaterNumber[i] = data.saveData.CharacterData[(selectTeamPage - 1) * 4 + i].idx; // 플레이어 정보를 저장
+            data.playerCharaterNumber[i] = data.saveData.my_team[(selectTeamPage - 1) * 4 + i].idx; // 플레이어 정보를 저장
             //data.playerCharaterNumber[i] = i+1;
         }
 

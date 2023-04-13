@@ -241,8 +241,9 @@ public class Turn : MonoBehaviour
 
     void UISetting() // 턴 관리 1, 2, 3, 4 - 플레이어 1, 2, 3 ,4    5 -  몬스터 턴
     {
-        uiManager.nameSet(turnNumber); // 캐릭터 공격력 & 이름 UI 표시
-        uiManager.atkSet(turnNumber);
+        uiManager.SkillSet(turnNumber);
+        uiManager.NameSet(turnNumber); // 캐릭터 공격력 & 이름 UI 표시
+        uiManager.AtkSet(turnNumber);
 
         skillNumber = playerSkillSelect[turnNumber - 1]; // 저장된 스킬 넘버를 턴에 맞춰서 가져옴
 
