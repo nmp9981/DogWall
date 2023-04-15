@@ -186,11 +186,12 @@ public class Turn : MonoBehaviour
                 monsterMgr.MonsterBloodDamage(totalDamage, attackMobIndex);//몬스터 데미지
                 textUI.DamageMassage(totalDamage,Data.saveData.MonsterData[monsterMgr.MonsterNum[attackMobIndex]].Character);//공격 텍스트 UI등장
             }
+            
+            if (monsterMgr.monsters.Count == 0) break;//몬스터가 다 죽었으면 공격 중단
         }
-        //몬스터 사망여부 확인
-        monsterMgr.MonsterDie(attackMobIndex);
+        monsterMgr.MonsterDie(attackMobIndex);//몬스터 사망여부 확인
 
-        totalTurnNumber += 1;//다음 턴으로
+        totalTurnNumber++;//다음 턴으로
         turnText.text = totalTurnNumber.ToString();
 
         playerSkillSelect[0] = 0; // 스킬 초기화
@@ -211,7 +212,7 @@ public class Turn : MonoBehaviour
         if (monsterMgr.monsters.Count == 0) // 몬스터가 다 죽었다면 스테이지 증가
         {
             //클리어 여부 확인
-            if (!monsterMgr.StageClear(stageNumber))//아직 클리어를 못함
+            if (stageNumber<3)//아직 클리어를 못함
             {
                 stageNumber += 1;
                 stageText.text = stageNumber.ToString();
@@ -223,6 +224,11 @@ public class Turn : MonoBehaviour
 
                 if (firstAttack) turnNumber = 1; // 선제공격 여부 확인
                 else turnNumber = 5;
+            }
+            else if(stageNumber>=3)//클리어
+            {
+                monsterMgr.StageClear();
+                return;//씬 전환하면 밑에 UI세팅은 실행되지 말아야함
             }
         }
         else//몬스터가 아직 살아있다면
@@ -241,6 +247,12 @@ public class Turn : MonoBehaviour
 
     void UISetting() // 턴 관리 1, 2, 3, 4 - 플레이어 1, 2, 3 ,4    5 -  몬스터 턴
     {
+
+        if (turnNumber == 5) // 턴이 5라면 몬스터 턴 시작
+        {
+            monster();
+            return;
+        }
         uiManager.SkillSet(turnNumber);
         uiManager.NameSet(turnNumber); // 캐릭터 공격력 & 이름 UI 표시
         uiManager.AtkSet(turnNumber);
@@ -293,12 +305,7 @@ public class Turn : MonoBehaviour
                 break;
             default:
                 break;
-        } // 스킬 이펙트 설정
-
-        if (turnNumber == 5) // 턴이 5라면 몬스터 턴 시작
-        {
-            monster();
-        }
+        } // 스킬 이펙트 설명
     }
 
 

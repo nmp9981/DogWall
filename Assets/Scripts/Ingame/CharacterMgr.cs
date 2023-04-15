@@ -111,6 +111,7 @@ public class CharacterMgr : MonoBehaviour
     {
         if (playerHP <= 0)
         {
+            Debug.Log("사망");
             SceneManager.LoadScene("Home");//홈으로
         }
     }

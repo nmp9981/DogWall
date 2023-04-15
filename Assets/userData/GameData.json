@@ -3923,6 +3923,186 @@
                 "instanceID": 0
             },
             "Stage": 1
+        },
+        {
+            "idx": 39,
+            "img_path": "",
+            "Name": "행동 대장 로봇",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 1,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 12,
+            "img_path": "",
+            "Name": "행동 대장 로봇",
+            "HP": 6000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 2,
+            "img_path": "",
+            "Name": "수비형 로봇",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 3,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 16,
+            "img_path": "",
+            "Name": "수비형 로봇",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 1,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 28,
+            "img_path": "soldier_3",
+            "Name": "지방 포졸",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 38,
+            "img_path": "",
+            "Name": "지방 영주",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 2,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 27,
+            "img_path": "",
+            "Name": "랩터",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 8,
+            "img_path": "",
+            "Name": "베헤모스",
+            "HP": 5500,
+            "ATK": 7000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 3,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 25,
+            "img_path": "",
+            "Name": "떠돌이 용병",
+            "HP": 6000,
+            "ATK": 4000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 43,
+            "img_path": "present_SamiDare",
+            "Name": "밝게 빛나는 요화 사미 & 다레",
+            "HP": 4500,
+            "ATK": 7000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 1,
+            "Upgrade": 0,
+            "Same": 1,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
         }
     ],
     "CharacterData": [

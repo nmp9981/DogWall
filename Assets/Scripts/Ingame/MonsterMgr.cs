@@ -84,6 +84,7 @@ public class MonsterMgr : MonoBehaviour
             monsters.RemoveAt(index);//원소 삭제
             if (monsters.Count>0)//남은 몬스터가 더 있는가?
             {
+                if (index > 0) index = 0;//맨 앞 몬스터 기준(도발일 경우 오류생길 수 있다.)
                 monsterAttackDamage = monsters[index].Atk;//몬스터 공격력
                 monsterAttribute = monsters[index].Type;//몬스터 속성
                 turn.monsterSet();//몬스터 재배치
@@ -94,18 +95,14 @@ public class MonsterMgr : MonoBehaviour
             }
         }
     }
-    //다음 스테이지
-    public bool StageClear(int stageNum)
+    //스테이지 최종 클리어
+    public void StageClear()
     {
-        if(stageNum==3)
-        {
-            stageText.text = "게임 클러어";
-            turn.stageNumber = 1;
-            //보상
-            //월드 선택 씬으로
-            SceneManager.LoadScene("Home");//홈으로
-            return true;
-        }
-        return false;
+        stageText.text = "게임 클러어";
+        turn.stageNumber = 1;
+        //보상
+        //월드 선택 씬으로
+        Debug.Log("스테이지 클리어");
+        SceneManager.LoadScene("Home");//홈으로
     }
 }
