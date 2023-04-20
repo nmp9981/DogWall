@@ -83,7 +83,8 @@ public class Quest_Manager : MonoBehaviour
 
         // 플레이어 몬스터인덱스를 전부 저장했으니 씬 넘기기~
 
-        SceneManager.LoadScene("InGame");
+        //SceneManager.LoadScene("InGame");
+        LoadingScene.SceneLoad("InGame");
     }
     public void SetName(string name)
     {
@@ -110,7 +111,42 @@ public class Quest_Manager : MonoBehaviour
     }
     public void SelectDifficulty(int diff) // 1 에필로그 2 쉬움 3 보통 4 어려움
     {
-        FindChar(diff);
+        if(diff == 0)
+        {
+            string story_name = "";
+            switch(infoList[1])
+            {
+                case 0:
+                    story_name += "Wulryeong_";
+                    break;
+                case 1:
+                    story_name += "Empyrean_";
+                    break;
+                case 2:
+                    story_name += "RestrictedArea_";
+                    break;
+            }
+
+            switch(infoList[0])//현재만 나온 관계로 일단은 전부다 Present_
+            {
+                case 0:
+                    story_name += "Present_";
+                    break;
+                case 1:
+                    story_name += "Present_";
+                    break;
+                case 2:
+                    story_name += "Present_";
+                    break;
+            }
+            
+            story_name += ("Quest" + infoList[2].ToString() + "_Epilogue");
+
+            data.story= story_name;     
+            LoadingScene.SceneLoad("Epilog");
+        }
+        else
+            FindChar(diff);
     }
 
     public void SetDetailPanel()

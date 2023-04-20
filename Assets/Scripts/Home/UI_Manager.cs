@@ -496,13 +496,7 @@ public class UI_Manager : MonoBehaviour
         {
             for(int i = 0; i < data.saveData.CharacterData.Count; i++)
             {
-                //매개변수 stage = 0이라 오류가 난다
-                if (stage == 0) stage = 1;//일단 오류 방지를 위해 임시코드를 추가했다.
-                //입력받은 스테이지와 같다면 새로운 리스트에 추가
-                if (data.saveData.CharacterData[i].Stage == stage)
-                {
-                    cur_list.Add(data.saveData.CharacterData[i]);
-                }
+                cur_list.Add(data.saveData.CharacterData[i]);
             }
             int random = (int)Random.Range(0,10000);//난수하나 생성 - 문도현 "확률은 소수 2째자리까지 -> 대충 100 곱하면 10000이하니깐 이거 이하의 난수 하나 생성
             int level = 0;//몇성을 뽑을지 결정하기 위한 변수

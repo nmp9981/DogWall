@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -50,8 +50,9 @@ public class Epilog2 : MonoBehaviour
 
         //TODO
         //1. 퀘스트 클래스에서 정보 받기
-
+        DataManager data = DataManager.singleTon;
         //2. 정보에 따라서 맞는 스토리 에셋 찾기
+        info = data.story;
         Load(info);
         
         Next();
