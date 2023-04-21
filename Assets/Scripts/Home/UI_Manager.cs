@@ -602,8 +602,9 @@ public class UI_Manager : MonoBehaviour
                     break;
             }
             GameObject temp = Instantiate(Resources.Load<GameObject>("Prefabs/GaCha"));
-            temp.transform.GetChild(1).GetComponent<Image>().color = col;
+            
             temp.transform.GetChild(0).GetComponent<Image>().sprite = output_list[0].Img;
+            temp.transform.GetChild(1).GetComponent<Image>().color = col;
             temp.transform.SetParent(parent);
             temp.transform.localPosition = new Vector3(425f,-425f);
             temp.transform.localScale = new Vector3(1,1,1);
@@ -636,8 +637,9 @@ public class UI_Manager : MonoBehaviour
                         break;
                 }
                 GameObject temp = Instantiate(Resources.Load<GameObject>("Prefabs/GaCha"));
-                temp.GetComponent<Image>().color = col;
+                
                 temp.transform.GetChild(0).GetComponent<Image>().sprite = output_list[i].Img;
+                temp.transform.GetChild(1).GetComponent<Image>().color = col;
                 temp.transform.SetParent(parent);
                 if(i < 3)
                 {
