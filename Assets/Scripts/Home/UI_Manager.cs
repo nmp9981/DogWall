@@ -167,7 +167,7 @@ public class UI_Manager : MonoBehaviour
         {
             Debug.Log(parent.childCount);
             for(int i = 0; i < parent.childCount; i++)
-                Destroy(parent.GetChild(i));
+                Destroy(parent.GetChild(i).gameObject);
         }
     }
     void Load()
