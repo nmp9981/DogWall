@@ -300,56 +300,16 @@ public class SaveDataClass
         QuestData = new List<QuestInfo>();
         ui =  new UI();
     }
-    /*
+    
     public void SetImgforOnce(string folder)//특정 폴더에 있는 이미지들을 캐릭터에 맞게 배치하기(list용)
     {     
-        Sprite[] imgs;
-        imgs = Resources.LoadAll<Sprite>(folder);//리소스 폴더에 있는 이미지를 모두 가져옴
-        List<string> names = new List<string>();
-        foreach(Sprite i in imgs)//모든 이미지들의 경로를 가져옴
+        string path = "Images/" + folder + "/";
+
+        foreach(PlayerDataClass i in CharacterData)
         {
-            string path = AssetDatabase.GetAssetPath(i);
-            path = path.Replace("Assets/Resources/" + folder,string.Empty);//불필요한 부분제거
-            path = path.Replace(".png",string.Empty);//불필요한 부분 제거
-            names.Add(path);//불필요한 부분을 제거한 이름을 리스트로 저장
+            i.Img = Resources.Load<Sprite>(path + i.img_path);
         }
-        foreach(PlayerDataClass a in list)//리스트의 모든 캐릭터들을 대상으로 동작
-            if(a.img_path != "")//경로가 있다면
-            {
-                foreach(string name in names)//앞서 저장한 이름들과 비교
-                {
-                    if(name.Contains(a.img_path))//이름이 캐릭터의 영문명을 포함한다면
-                    {
-                        if(name == a.img_path)//똑같은 거라면 Img에 저장
-                        {
-                            int temp = names.IndexOf(name);
-                            a.Img = imgs[temp];
-                        }
-                        else//아니면 Img_for_dialog에 저장
-                        {
-                            int temp = names.IndexOf(name);
-                            a.Img_for_dialog = imgs[temp];
-                            a.img_for_dialog_path = name;//경로도 추가해줌
-                        }
-                    }
-                    if(a.Img != null && a.Img_for_dialog != null)//모두 찾으면 탈출해야지
-                        break;
-                }    
-            }
-        foreach(Character a in my_characterlist)//list에 모든 정보가 저장되어있으므로 idx를 통해서 찾기만 하면 됨
-            if(a.img_path != "")
-            {
-                a.Img = list[a.idx].Img;
-                a.Img_for_dialog = list[a.idx].Img;
-            }
-        foreach(Character a in my_team)//list에 모든 정보가 저장되어있으므로 idx를 통해서 찾기만 하면 됨
-            if(a.img_path != "")
-            {
-                a.Img = list[a.idx].Img;
-                a.Img_for_dialog = list[a.idx].Img;
-            }
     }
-    */
 }
 
 [System.Serializable]

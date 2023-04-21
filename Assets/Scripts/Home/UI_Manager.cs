@@ -52,13 +52,14 @@ public class UI_Manager : MonoBehaviour
         //Debug.Log(DataManager.singleTon.monsterCharaterNumber[0][1]); 형원이형 보라고 냅둔거
         Init();
         
-        
+        Reset();
     }
 
    void Init()
-   {
-        
+   {     
         Load();
+        GameObject.Find("Canvas").transform.GetChild(1).transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>(data.saveData.ui.home_img_path);//홈 이미지 변경
+        Attribute_img = Resources.LoadAll<Sprite>("Images/UI/Symbol");
         currency = 10000; // for Test
 
         Tuto.Init();
@@ -155,12 +156,25 @@ public class UI_Manager : MonoBehaviour
                 child.SetActive(false);
         }
     }
-
-
+    void Reset()
+    {
+        data.saveData.my_characterlist.Clear();
+    }
+    void Clear()
+    {
+        Transform parent = GameObject.Find("Canvas").transform.Find("Unit_Select_Tap").transform.Find("Scroll View").transform.Find("Viewport").transform.Find("Content").gameObject.GetComponent<Transform>();
+        if(parent.childCount != 0)
+        {
+            Debug.Log(parent.childCount);
+            for(int i = 0; i < parent.childCount; i++)
+                Destroy(parent.GetChild(i));
+        }
+    }
     void Load()
     {
         int max = data.saveData.my_characterlist.Count;
         int i = 0;
+        Clear();
         while(i < max)//가지고 있는 캐릭터 리스트 생성
         {
             x = i % 4;
@@ -176,7 +190,30 @@ public class UI_Manager : MonoBehaviour
             temp.transform.localPosition = pos;
             temp.transform.localScale = new Vector3(1,1,1);
             temp.name = data.saveData.my_characterlist[i].Name;
-            temp.GetComponent<Image>().sprite = data.saveData.my_characterlist[i].Img;
+            temp.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_characterlist[i].Img;
+            Color col;
+            switch(data.saveData.my_characterlist[i].Attribute)
+            {
+                case 1:
+                    col = Color.red;
+                    break;
+                case 2:
+                    col = Color.blue;
+                    break;
+                case 3:
+                    col = Color.green;
+                    break;
+                case 4:
+                    col = new Color(1f,1f,0);
+                    break;
+                case 5:
+                    col = Color.gray;
+                    break;
+                default:
+                    col = Color.white;
+                    break;
+            }
+            temp.transform.GetChild(1).GetComponent<Image>().color = col;
             temp.transform.GetComponent<Button>().onClick.AddListener(Unit_Choose);
             i++;
         }
@@ -189,8 +226,6 @@ public class UI_Manager : MonoBehaviour
             target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].ATK.ToString();
             target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].Attribute.ToString();
         }
-        GameObject.Find("Canvas").transform.GetChild(1).transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>(data.saveData.ui.home_img_path);//홈 이미지 변경
-        Attribute_img = Resources.LoadAll<Sprite>("Images/UI/Symbol");
     }
 
     void Unit_Select_Change()
@@ -567,7 +602,7 @@ public class UI_Manager : MonoBehaviour
                     break;
             }
             GameObject temp = Instantiate(Resources.Load<GameObject>("Prefabs/GaCha"));
-            temp.GetComponent<Image>().color = col;
+            temp.transform.GetChild(1).GetComponent<Image>().color = col;
             temp.transform.GetChild(0).GetComponent<Image>().sprite = output_list[0].Img;
             temp.transform.SetParent(parent);
             temp.transform.localPosition = new Vector3(425f,-425f);
