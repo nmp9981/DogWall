@@ -109,9 +109,9 @@ public class Quest_Manager : MonoBehaviour
     {
         infoList[3] = stage;
     }
-    public void SelectDifficulty(int diff) // 1 에필로그 2 쉬움 3 보통 4 어려움
+    public void SelectDifficulty(int diff) // 0 에필로그 1 쉬움 2 보통 3 어려움 4 프롤로그
     {
-        if(diff == 0)
+        if(diff == 0 || diff == 4)
         {
             string story_name = "";
             switch(infoList[1])
@@ -139,9 +139,10 @@ public class Quest_Manager : MonoBehaviour
                     story_name += "Present_";
                     break;
             }
-            
-            story_name += ("Quest" + infoList[2].ToString() + "_Epilogue");
-
+            if(diff == 0)
+                story_name += ("Quest" + infoList[2].ToString() + "_Epilogue");
+            else
+                story_name += ("Quest" + infoList[2].ToString() + "_Prolog");
             data.story= story_name;     
             LoadingScene.SceneLoad("Epilog");
         }
