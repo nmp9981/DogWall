@@ -24,18 +24,5 @@ public class TeamSelect : MonoBehaviour
             selectedTeamNumber[i] = GameObject.Find("Data_Manager").gameObject.GetComponent<DataManager>().playerCharaterNumber[i];
             isSelect[GameObject.Find("Data_Manager").gameObject.GetComponent<DataManager>().playerCharaterNumber[i]] = true;
         }
-        /*
-        int selectedCount = 0;//총 선택 개수
-        
-        while (selectedCount < selectedSize)
-        {
-            selectedTeamNumber[selectedCount] = Random.Range(0, maxCharacterNum);//번호 결정
-            if (isSelect[selectedTeamNumber[selectedCount]] == false)//아직 미선택
-            {
-                isSelect[selectedTeamNumber[selectedCount]] = true;//선택 체크
-                selectedCount++;
-            }
-        }
-        */
     }
 }

@@ -93,29 +93,70 @@ public class SepcialMonster : MonoBehaviour
         //공격력
         if (Data.saveData.MonsterSpecialSkill[specialSkillNum].CharacterAttack !=100)
         {
-            int selecCharac = 0;//선택한 캐럭터 수
-            bool[] isSelec = { false, false, false, false, false };//캐릭터 선택 여부
-            while (selecCharac < targets)
-            {
-                int i = Random.Range(0, CharacterNum);
-                if (isSelec[i] == false && MobSpecialSkillTurn[i, 4] == 0)//미선택 & 비활성화
+            if (Data.saveData.MonsterSpecialSkill[specialSkillNum].IsMaxHealth == true){//가장 체력이 높은 몬스터만
+                int highestMobHPIdx = 0;
+                for(int i = 0; i < monsterMgr.monsters.Count; i++)
                 {
-                    isSelec[i] = true;
-                    selecCharac++;
-                    characterMgr.playerAttack[i] = (characterMgr.playerAttack[i] * Data.saveData.MonsterSpecialSkill[specialSkillNum] .CharacterAttack)/ 100;
-                    MobSpecialSkillTurn[i, 4] = turnCounts;//해당 턴 만큼 공격력 증감
+                    if (monsterMgr.currentMonsterHP[i] > monsterMgr.currentMonsterHP[highestMobHPIdx])//더 체력이 높다.
+                    {
+                        highestMobHPIdx = i;
+                    }
+                }
+                if(MobSpecialSkillTurn[highestMobHPIdx, 4] == 0)//비활성화
+                {
+                    characterMgr.playerAttack[highestMobHPIdx] = (characterMgr.playerAttack[highestMobHPIdx] * Data.saveData.MonsterSpecialSkill[specialSkillNum].CharacterAttack) / 100;
+                    MobSpecialSkillTurn[highestMobHPIdx, 4] = turnCounts;//해당 턴 만큼 공격력 증감
+                }
+            }
+            else//체력조건 X
+            {
+                int selecCharac = 0;//선택한 캐럭터 수
+                bool[] isSelec = { false, false, false, false, false };//캐릭터 선택 여부
+                while (selecCharac < targets)
+                {
+                    int i = Random.Range(0, CharacterNum);
+                    if (isSelec[i] == false && MobSpecialSkillTurn[i, 4] == 0)//미선택 & 비활성화
+                    {
+                        isSelec[i] = true;
+                        selecCharac++;
+                        characterMgr.playerAttack[i] = (characterMgr.playerAttack[i] * Data.saveData.MonsterSpecialSkill[specialSkillNum].CharacterAttack) / 100;
+                        MobSpecialSkillTurn[i, 4] = turnCounts;//해당 턴 만큼 공격력 증감
+                    }
                 }
             }
         }
         //방어
         if (Data.saveData.MonsterSpecialSkill[specialSkillNum].DecreaseDamage != 100)
         {
-            for (int i = 0; i < CharacterNum; i++)
-            {
-                if (MobSpecialSkillTurn[i, 5] == 0)//미선택 & 비활성화
+            if (Data.saveData.MonsterSpecialSkill[specialSkillNum].IsMaxHealth == true){//가장 체력이 높은 몬스터만
+                int highestMobHPIdx = 0;
+                for (int i = 0; i < monsterMgr.monsters.Count; i++)
+                {
+                    if (monsterMgr.currentMonsterHP[i] > monsterMgr.currentMonsterHP[highestMobHPIdx])//더 체력이 높다.
+                    {
+                        highestMobHPIdx = i;
+                    }
+                }
+                if (MobSpecialSkillTurn[highestMobHPIdx, 5] == 0)//비활성화
                 {
                     specialHitRatio = Data.saveData.MonsterSpecialSkill[specialSkillNum].DecreaseDamage;
-                    MobSpecialSkillTurn[i, 5] = turnCounts;//해당 턴 만큼 방어력 증감
+                    MobSpecialSkillTurn[highestMobHPIdx, 5] = turnCounts;//해당 턴 만큼 방어력 증감
+                }
+            }
+            else//체력조건X
+            {
+                int selecCharac = 0;//선택한 캐럭터 수
+                bool[] isSelec = { false, false, false, false, false };//캐릭터 선택 여부
+                while (selecCharac < targets)
+                {
+                    int i = Random.Range(0, CharacterNum);
+                    if (isSelec[i] == false && MobSpecialSkillTurn[i, 5] == 0)//미선택 & 비활성화
+                    {
+                        isSelec[i] = true;
+                        selecCharac++;
+                        specialHitRatio = Data.saveData.MonsterSpecialSkill[specialSkillNum].DecreaseDamage;
+                        MobSpecialSkillTurn[i, 5] = turnCounts;//해당 턴 만큼 방어력 증감
+                    }
                 }
             }
         }

@@ -41,7 +41,6 @@ public class Data_Manager : MonoBehaviour
     public void Add_Monster(string world,int attribute, string name,int stage, int hp, int atk)
     {
         Monster_Count++;
-        //MonstersList.Add(new MonstersDataClass(world,attribute, name, stage, hp, atk));
     }
     public void Add_CharacterSkill(string character, string name, int line,int skill1,int skill2,int skill3,int skill4, string description,int type,int appear)
     {
