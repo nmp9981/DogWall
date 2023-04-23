@@ -162,7 +162,7 @@ public class Turn : MonoBehaviour
                 }
             }
             
-            Debug.Log("캐릭터 번호 : " + i + " : " + totalDamage);
+            //Debug.Log("캐릭터 번호 : " + i + " : " + totalDamage);
             //공격하기
             if (isAllTarget == 1)//전체 공격
             {
@@ -416,24 +416,30 @@ public class Turn : MonoBehaviour
         {
             //퀘스트 시트에서 어떤 몬스터가 등장하고 어떤 스킬을 사용하는지 받아야함
             int mobHitDamage = monsterSkillMgr.monsterSkillDamage(0,totalTurnNumber);//몬스터 번호, 턴 카운트
+            Debug.Log("1번 몬스터 : "+mobHitDamage);
             if (monsterSkillMgr.IsNormalSkill())//일반 스킬이면 다수 공격
             {
+                Debug.Log("공격1 개시");
                 monsterSkillMgr.MultiAttack(mobHitDamage, 0,monsterSkillMgr.mobSkillNumber);//다수 공격
             }
         }
         if (monster2.activeSelf == true)
         {
             int mobHitDamage = monsterSkillMgr.monsterSkillDamage(1, totalTurnNumber);//몬스터 인덱스,  턴 카운트
+            Debug.Log("2번 몬스터 : " + mobHitDamage);
             if (monsterSkillMgr.IsNormalSkill())//일반 스킬이면 다수 공격
             {
+                Debug.Log("공격2 개시");
                 monsterSkillMgr.MultiAttack(mobHitDamage, 1, monsterSkillMgr.mobSkillNumber);//다수 공격
             }
         }
         if (monster3.activeSelf == true)
         {
             int mobHitDamage = monsterSkillMgr.monsterSkillDamage(2, totalTurnNumber);//몬스터 인덱스,  턴 카운트
+            Debug.Log("3번 몬스터 : " + mobHitDamage);
             if (monsterSkillMgr.IsNormalSkill())//일반 스킬이면 다수 공격
             {
+                Debug.Log("공격3 개시");
                 monsterSkillMgr.MultiAttack(mobHitDamage, 2, monsterSkillMgr.mobSkillNumber);//다수 공격
             }
             monsterText.text = "칼춤";

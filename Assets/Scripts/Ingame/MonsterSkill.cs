@@ -276,14 +276,17 @@ public class MonsterSkill : MonoBehaviour
                 int attributeDamage = characterMgr.CheckAttribute(playerAttribute, monsterAttribute);//속성 데미지
 
                 int mobHitDamage = attributeDamage * hitDamage/(100*targets);
+                Debug.Log("실제 데미지 " + mobHitDamage+"  타겟수 "+targets);
                 //하트 링크
                 if (Data.saveData.MonsterSkill[mobSkillNumber].HeartLink > 0)
                 {
+                    Debug.Log("하트 링크");
                     mobHitDamage = mobHitDamage /2;
                 }
                 //데스 링크
                 if (Data.saveData.MonsterSkill[mobSkillNumber].DeathLink > 0)
                 {
+                    Debug.Log("데스링크");
                     mobHitDamage = mobHitDamage * 3 / 2;
                 }
                 characterMgr.PlayerBloodDamage(selectedIndex, mobHitDamage);//공격

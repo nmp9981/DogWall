@@ -89,7 +89,6 @@ public class CharacterMgr : MonoBehaviour
     }
     public void PlayerAttackInfo(int num)
     {
-        Debug.Log(playerAttack[num]);
         playerAttackText.text = "Attack : " + playerAttack[num].ToString("0");//화면에 보이게
     }
     void PlayerHPManage()
@@ -120,18 +119,22 @@ public class CharacterMgr : MonoBehaviour
     {
         if ((mobAttribute - playerAttribute + 3) % 3 == 1)
         {
+            Debug.Log("반감");
             return 50;
         }
         else if ((mobAttribute - playerAttribute + 3) % 3 == 2)
         {
+            Debug.Log("증폭");
             return 150;
         }
         else if ((mobAttribute == 3 && playerAttribute == 4) || (mobAttribute == 4 && playerAttribute == 3))
         {
+            Debug.Log("반감");
             return 50;
         }
         else
         {
+            Debug.Log("그대로");
             return 100;
         }
     }

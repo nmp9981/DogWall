@@ -253,16 +253,19 @@ public class QuestInfo//쿼스트 데이터
 [System.Serializable]
 public class UI
 {
+    public int myMoney;//재화
     public List<int> money;//재화
     public string home_img_path;
     public float bgm, sfx;
     public UI()
     {
+        myMoney = 0;
         money = new List<int>();
         home_img_path = "";
     }
-    public UI(List<int> m, string h_p)
+    public UI(int mym,List<int> m, string h_p)
     {
+        this.myMoney = mym;
         this.money = m;
         this.home_img_path = h_p;
     }
