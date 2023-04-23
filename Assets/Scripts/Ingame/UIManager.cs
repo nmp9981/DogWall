@@ -24,7 +24,7 @@ public class UIManager : MonoBehaviour
     }
     public void NameSet(int number)
     {
-        Debug.Log(data.playerCharaterNumber[number - 1]);
+        Debug.Log("캐릭터 번호 : "+data.playerCharaterNumber[number - 1]);
         name.text = data.saveData.CharacterData[data.playerCharaterNumber[number-1]].Name;
     }
 

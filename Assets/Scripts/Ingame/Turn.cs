@@ -162,7 +162,7 @@ public class Turn : MonoBehaviour
                 }
             }
             
-            //Debug.Log("캐릭터 번호 : " + i + " : " + totalDamage);
+            Debug.Log("캐릭터 번호 : " + i + " : " + totalDamage);
             //공격하기
             if (isAllTarget == 1)//전체 공격
             {
