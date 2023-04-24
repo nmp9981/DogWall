@@ -100,10 +100,11 @@ public class MonsterMgr : MonoBehaviour
     {
         stageText.text = "게임 클러어";
         turn.stageNumber = 1;
-        //보상
-        Data.saveData.ui.myMoney += 100;
+        //보상(이미지 띄우기)
+        //클리어 정보
+        Data.saveData.ui.myMoney += 100;//나중에 수정(재화는 3종류)
         //월드 선택 씬으로
         Debug.Log("스테이지 클리어");
-        SceneManager.LoadScene("Home");//홈으로
+        LoadingScene.SceneLoad("Home");//홈으로
     }
 }
