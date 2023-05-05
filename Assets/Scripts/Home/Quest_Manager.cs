@@ -19,6 +19,8 @@ public class Quest_Manager : MonoBehaviour
     //public GameObject questDetailPrefab;
     //public Transform justParent;
     public GameObject questDetailTap;
+    public GameObject questScroll;
+    public List<GameObject> clearImage;
     public Text questName;
     public List<int> infoList = new List<int>() {0, 0, 0, 0};
     public List<int> typeList;
@@ -88,8 +90,13 @@ public class Quest_Manager : MonoBehaviour
     }
     public void SetName(string name)
     {
+        clearImage[0].SetActive(false);
+        clearImage[1].SetActive(false);
+        clearImage[2].SetActive(false);
         //GameObject questDetailTap = Instantiate(questDetailPrefab, justParent);
         questDetailTap.SetActive(true);
+        questScroll.SetActive(false);
+        StartCoroutine("SettingClear");
         questName.text = name;
         //questDetailTap.SetActive(true);
     }
@@ -148,6 +155,15 @@ public class Quest_Manager : MonoBehaviour
         }
         else
             FindChar(diff);
+    }
+
+    IEnumerator SettingClear()
+    {
+        yield return new WaitForSeconds(0.01f);
+        for (int i = 0; i < 3; i++)
+        {
+            if (data.saveData.clearInfo[infoList[1] * 9 + (infoList[2]-1) * 3 + i] == 1) clearImage[i].SetActive(true);
+        }
     }
 
     public void SetDetailPanel()

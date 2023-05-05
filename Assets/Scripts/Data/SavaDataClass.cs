@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEditor;
+using JetBrains.Annotations;
 
 [System.Serializable]
 public class PlayerDataClass//캐릭터 DB
@@ -283,6 +284,7 @@ public class SaveDataClass
     public List<MonsterSkillDataClass> MonsterSkill;//몬스터 스킬 리스트
     public List<MonsterSpeccialSkillDataClass> MonsterSpecialSkill;//몬스터 특수스킬
     public List<QuestInfo> QuestData;//쿼스트 데이터
+    public List<int> clearInfo;
     //스테이지 진행정도
     public List<PlayerDataClass> my_team;
     public UI ui;
@@ -301,6 +303,7 @@ public class SaveDataClass
         MonsterSkill = new List<MonsterSkillDataClass>();
         MonsterSpecialSkill = new List<MonsterSpeccialSkillDataClass>();
         QuestData = new List<QuestInfo>();
+        clearInfo = new List<int>();
         ui =  new UI();
     }
     
@@ -314,6 +317,7 @@ public class SaveDataClass
         }
     }
 }
+
 
 [System.Serializable]
 public class StageInfo{

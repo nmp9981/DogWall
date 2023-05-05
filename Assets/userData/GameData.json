@@ -15,7 +15,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15872
+                "instanceID": 19300
             },
             "Stage": 1
         },
@@ -267,7 +267,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15758
+                "instanceID": 19286
             },
             "Stage": 1
         },
@@ -519,7 +519,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15932
+                "instanceID": 19308
             },
             "Stage": 1
         },
@@ -18613,6 +18613,35 @@
             "MonsterIndex": 127,
             "Clear": 0
         }
+    ],
+    "clearInfo": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
     ],
     "my_team": [
         {
