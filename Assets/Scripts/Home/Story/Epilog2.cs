@@ -88,6 +88,11 @@ public class Epilog2 : MonoBehaviour
         }
     }
 
+    public void Skip()
+    {
+        LoadingScene.SceneLoad("Home");
+    }
+
     private void Load(string name)
     {
         StoryData temp = Resources.Load<StoryData>("Epilog/" + name);

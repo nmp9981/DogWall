@@ -25,11 +25,12 @@ public class Quest_Manager : MonoBehaviour
     public List<int> infoList = new List<int>() {0, 0, 0, 0};
     public List<int> typeList;
     public List<string> charList;
-
+    UI_Manager ui;
     // Start is called before the first frame update
     void Awake()
     {
         data = DataManager.singleTon;
+        ui = GameObject.Find("UI_Manager").GetComponent<UI_Manager>();
         saveData = data.saveData;
     }
 
@@ -94,8 +95,9 @@ public class Quest_Manager : MonoBehaviour
         clearImage[1].SetActive(false);
         clearImage[2].SetActive(false);
         //GameObject questDetailTap = Instantiate(questDetailPrefab, justParent);
-        questDetailTap.SetActive(true);
-        questScroll.SetActive(false);
+        //questDetailTap.SetActive(true);
+        //questScroll.SetActive(false);
+        ui.UI_LEVEL1_Controll(7);
         StartCoroutine("SettingClear");
         questName.text = name;
         //questDetailTap.SetActive(true);

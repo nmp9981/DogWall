@@ -46,6 +46,7 @@ public class UI_Manager : MonoBehaviour
     void Awake()
     {
         data = GameObject.Find("Data_Manager").GetComponent<DataManager>();
+        //data = DataManager.singleTon;
     }
     void Start()
     {
@@ -67,6 +68,12 @@ public class UI_Manager : MonoBehaviour
     #region yeongchan
     public void UI_LEVEL1_Controll(int level)
     {
+        if(level > level1)
+            Sound_Manager.sound.Play("Button");
+        else if(level == 0)
+            Sound_Manager.sound.Play("Back_to_home");
+        else
+            Sound_Manager.sound.Play("Back_button");
         level1 = level;
         UI_Controll();
     }
@@ -101,6 +108,9 @@ public class UI_Manager : MonoBehaviour
                 UI("Quest");
                 break;
             case 7:
+                UI("Quest","Difficulty");
+                break;
+            case 8:
                 UI("Tutorial");
                 break;
         }
@@ -131,12 +141,12 @@ public class UI_Manager : MonoBehaviour
             if(child.name == name)
             {
                 child.SetActive(true);
-                for(int j = 0; j < child.transform.childCount; j++)
-                {
-                    GameObject grandchild = child.transform.GetChild(j).gameObject;
-                    if(grandchild.tag == "Panel")
-                        grandchild.SetActive(false);
-                }
+                // for(int j = 0; j < child.transform.childCount; j++)
+                // {
+                //     GameObject grandchild = child.transform.GetChild(j).gameObject;
+                //     if(grandchild.tag == "Panel")
+                //         grandchild.SetActive(false);
+                // }
             }
             else
                 child.SetActive(false);
@@ -147,7 +157,7 @@ public class UI_Manager : MonoBehaviour
     void UI(string parent, string name)//level2 변경용, 켜고싶은 UI의 level1의 이름과 leve2의 이름
     {
         GameObject root = GameObject.Find(parent).gameObject;
-        for(int i = 1; i < root.transform.childCount;i++)
+        for(int i = 0; i < root.transform.childCount;i++)
         {
             GameObject child = root.transform.GetChild(i).gameObject;
             if(child.name == name)
