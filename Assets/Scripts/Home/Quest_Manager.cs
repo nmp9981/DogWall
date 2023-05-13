@@ -79,7 +79,7 @@ public class Quest_Manager : MonoBehaviour
             for (int j = 0; j < tempNum.Count; j++)
             {
                 if (data.saveData.QuestData[tempNum[j]].Stage == i + 1) data.monsterCharaterNumber[i].Add(data.saveData.QuestData[tempNum[j]].MonsterIndex);
-                //Debug.Log(i + "번 등장 ㅁㄴ스터 " + data.saveData.QuestData[tempNum[j]].MonsterIndex);
+                //Debug.Log(i + "번 등장 몬스터 " + data.saveData.QuestData[tempNum[j]].MonsterIndex);
             }
         } // 스테이지별로 분리해서 각각의 몬스터인덱스를 저장
 

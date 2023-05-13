@@ -63,8 +63,8 @@ public class Sound_Manager : MonoBehaviour
         master = Resources.Load<AudioMixer>("Master");
         Find_Sliders();
         Load_Value();
-        SoundPooling();
-        SetAudioSource();
+        SoundPooling(); // 사운드 파일들을 풀링 해온다
+        SetAudioSource(); // 오디오 소스 세팅
         Play("홈화면_BGM"); // 테스트용 BGM
         Play("Clear"); // 테스트용 SFX
     }
@@ -134,7 +134,7 @@ public class Sound_Manager : MonoBehaviour
         Data.saveData.ui.sfx = Sfx.value;
     }
 
-    void SoundPooling()
+    void SoundPooling() // enum에서 사운드 이름을 읽어와서 해당하는 사운드 파일을 로드 시킨다
     {
         string[] BGMNames = System.Enum.GetNames(typeof(BGM));
         string[] SFXNames = System.Enum.GetNames(typeof(SFX));
@@ -150,7 +150,7 @@ public class Sound_Manager : MonoBehaviour
         }
     }
 
-    void SetAudioSource()
+    void SetAudioSource() // 오디오소스를 할당한다
     {
         AudioSource[] temp;
         temp = gameObject.GetComponents<AudioSource>();
@@ -159,7 +159,7 @@ public class Sound_Manager : MonoBehaviour
         BGMSource.loop = true;
     }
 
-    public void Play(string soundName, float pitch = 1.0f)
+    public void Play(string soundName, float pitch = 1.0f) // 전달받은 soundName을 찾아서 실행시킨다
     {
         if (BGMNames.Contains(soundName))
         {
