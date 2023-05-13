@@ -10,6 +10,9 @@ public class Sound_Manager : MonoBehaviour
     private DataManager Data;
     public AudioMixer master;
     public Slider Bgm,Sfx;
+
+    public AudioClip[] BGMList;
+    public AudioClip[] SFXList;
     void Awake()
     {
         if(sound == null)
@@ -28,6 +31,7 @@ public class Sound_Manager : MonoBehaviour
         master = Resources.Load<AudioMixer>("Master");
         Find_Sliders();
         Load_Value();
+        SoundPooling();
     }
 
     // Update is called once per frame
@@ -96,5 +100,11 @@ public class Sound_Manager : MonoBehaviour
     {
         Data.saveData.ui.bgm = Bgm.value;
         Data.saveData.ui.sfx = Sfx.value;
+    }
+
+    void SoundPooling()
+    {
+        BGMList = Resources.LoadAll<AudioClip>("Sound/BGM");
+        SFXList = Resources.LoadAll<AudioClip>("Sound/SFX");
     }
 }

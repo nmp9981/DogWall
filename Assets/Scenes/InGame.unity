@@ -2464,6 +2464,7 @@ MonoBehaviour:
     MonsterSkill: []
     MonsterSpecialSkill: []
     QuestData: []
+    clearInfo: 
     my_team:
     - idx: -1
       img_path: 
@@ -2634,6 +2635,7 @@ MonoBehaviour:
       Img: {fileID: 0}
       Stage: 1
     ui:
+      myMoney: 0
       money: 
       home_img_path: 
       bgm: 0
