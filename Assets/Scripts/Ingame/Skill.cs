@@ -61,7 +61,7 @@ void Start()
         int baseSkillDamage = (playerAttack * skillPercentDamage) / 100;//기본 스킬데미지
         int attributeSkillDamage = (baseSkillDamage * attributeDamage) / 100;//속성까지 
         int finalDamage = (attributeSkillDamage * monsterDefense) / 100;//최종 데미지
-        return finalDamage*10;
+        return finalDamage;
     }
 
     //플레이어 HP회복
@@ -100,7 +100,17 @@ void Start()
         //피격데미지
         monsterMgr.monsterAttackDamage = monsterMgr.monsterAttackDamage * Data.saveData.CharacterSkillIndex[number].DecreaseDamage / 100;
         //출혈(도트 데미지)
-        monsterMgr.currentMonsterHP[mobIndex] = Mathf.Max(0, monsterMgr.currentMonsterHP[mobIndex] - Data.saveData.CharacterSkillIndex[number].Blood);
+        if(turn.isAllTarget == 0)//개별
+        {
+            monsterMgr.currentMonsterHP[mobIndex] = Mathf.Max(0, monsterMgr.currentMonsterHP[mobIndex] - Data.saveData.CharacterSkillIndex[number].Blood);
+        }
+        else if(turn.isAllTarget == 1)//전체
+        {
+            for(int i = 0; i < monsterMgr.monsters.Count; i++)
+            {
+                monsterMgr.currentMonsterHP[i] = Mathf.Max(0, monsterMgr.currentMonsterHP[i] - Data.saveData.CharacterSkillIndex[number].Blood);
+            }
+        }
     }
     //남은 턴 수 나타내기
     public void TurnCountText(int number,int index)
