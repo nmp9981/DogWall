@@ -13,6 +13,8 @@ public class UI_Manager : MonoBehaviour
     int tap = 0;
     public float time = 0;
     DataManager data;
+    
+    public GameObject[] myMoney;//돈
     //SaveDataClass saveData; 일단 폐기 나중에 한번에 고치든가
     //About Unit Details
     public Sprite[] Attribute_img;
@@ -55,8 +57,11 @@ public class UI_Manager : MonoBehaviour
         
         Reset();
     }
-
-   void Init()
+    void Update()
+    {
+        LookMoney();//돈 표시
+    }
+    void Init()
    {     
         Load();
         GameObject.Find("Canvas").transform.GetChild(1).transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>(data.saveData.ui.home_img_path);//홈 이미지 변경
@@ -135,7 +140,7 @@ public class UI_Manager : MonoBehaviour
     void UI(string name)//level1 변경용, 켜고싶은 UI이름
     {
         GameObject root = GameObject.Find("Canvas").gameObject;
-        for(int i = 1; i < root.transform.childCount;i++)
+        for(int i = 1; i < root.transform.childCount-1;i++)
         {
             GameObject child = root.transform.GetChild(i).gameObject;
             if(child.name == name)
@@ -675,4 +680,11 @@ public class UI_Manager : MonoBehaviour
 
     }
     #endregion
+    void LookMoney()
+    {
+        GameObject.Find("Money").SetActive(true);
+        myMoney[0].GetComponent<Text>().text = data.saveData.money[0].ToString();
+        myMoney[1].GetComponent<Text>().text = data.saveData.money[1].ToString();
+        myMoney[2].GetComponent<Text>().text = data.saveData.money[2].ToString();
+    }
 }

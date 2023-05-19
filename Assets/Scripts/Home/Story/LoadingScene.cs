@@ -50,6 +50,7 @@ public class LoadingScene : MonoBehaviour
         AsyncOperation op = SceneManager.LoadSceneAsync(next_scene);
         op.allowSceneActivation = false;
         Tooltip_Content tips = Resources.Load<Tooltip_Content>("Prefabs/Tooltip");
+        Debug.Log(tips.Content.Count);
         string tip = tips.Content[(int)Random.Range(0,tips.Content.Count-1)];
         float timer = 0.0f;
         tt.text = tip;

@@ -78,6 +78,7 @@ public class MonsterMgr : MonoBehaviour
     {
         if (currentMonsterHP[index] <= 0)//해당 몬스터가 죽었으면
         {
+            turn.getMoney[index % 3] += 50;//보상
             skill.mobProvocation[index] = false;//도발 해제
             monsterFullHP.RemoveAt(index);
             currentMonsterHP.RemoveAt(index);
@@ -101,8 +102,8 @@ public class MonsterMgr : MonoBehaviour
         stageText.text = "게임 클러어";
         turn.stageNumber = 1;
         //보상(이미지 띄우기)
+        for(int i=0;i<3;i++)  Data.saveData.ui.money[i] += turn.getMoney[i];//나중에 수정(재화는 3종류)
         //클리어 정보
-        Data.saveData.ui.myMoney += 100;//나중에 수정(재화는 3종류)
         //월드 선택 씬으로
         Debug.Log("스테이지 클리어");
         LoadingScene.SceneLoad("Home");//홈으로

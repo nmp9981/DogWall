@@ -35,12 +35,14 @@ public class Turn : MonoBehaviour
     int teamN;//팀번호
     public int isAllTarget;//전체 공격 여부
     TextUI textUI;//데미지 텍스트
+    public List<int> getMoney;//얻는 돈
     #endregion
     Coroutine longClickCoroutine;
 
     void Start()
     {
         for (int i = 0; i < 5; i++) playerSkillSelect.Add(0);
+        for (int i = 0; i < 3; i++) getMoney.Add(0);//처음엔 0원
 
         Data = GameObject.Find("Data_Managers").gameObject.GetComponent<DataManager>();//데이터 가져오기
         characterMgr = GameObject.FindWithTag("Character").GetComponent<CharacterMgr>();//CharacterMgr 스크립트에서 변수 가져오기
