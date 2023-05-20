@@ -254,23 +254,19 @@ public class QuestInfo//쿼스트 데이터
 [System.Serializable]
 public class UI
 {
-    public int myMoney;//재화
     public List<int> money;//재화
     public string home_img_path;
     public float bgm, sfx;
     public UI()
     {
-        myMoney = 0;
         money = new List<int>();
         home_img_path = "";
     }
-    public UI(int mym,List<int> m, string h_p)
+    public UI(List<int> m, string h_p)
     {
-        this.myMoney = mym;
         this.money = m;
         this.home_img_path = h_p;
     }
-
 }
 [System.Serializable]
 public class SaveDataClass
@@ -285,6 +281,7 @@ public class SaveDataClass
     public List<MonsterSpeccialSkillDataClass> MonsterSpecialSkill;//몬스터 특수스킬
     public List<QuestInfo> QuestData;//쿼스트 데이터
     public List<int> clearInfo;
+    public List<int> money;//돈
     //스테이지 진행정도
     public List<PlayerDataClass> my_team;
     public UI ui;
@@ -305,6 +302,8 @@ public class SaveDataClass
         QuestData = new List<QuestInfo>();
         clearInfo = new List<int>();
         ui =  new UI();
+        money = new List<int>();
+        for (int i = 0; i < 3; i++) money.Add(0);
     }
     
     public void SetImgforOnce(string folder)//특정 폴더에 있는 이미지들을 캐릭터에 맞게 배치하기(list용)

@@ -17,6 +17,7 @@ TagManager:
   - MonsterSkill
   - DamageText
   - MonsterSpecialSkill
+  - Sub_Panel
   layers:
   - Default
   - TransparentFX

@@ -112,7 +112,7 @@ public class JsonManager
             int index2 = t_data.IndexOf("}");
             int length = index2 - index1 + 1;
             string input = t_data.Substring(index1,length);
-            Debug.Log(input);
+            //Debug.Log(input);
             T temp = JsonUtility.FromJson<T>(input);
             result.Add(temp);
             t_data = t_data.Remove(index1,length+1);
