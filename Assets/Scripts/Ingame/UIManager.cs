@@ -10,6 +10,7 @@ public class UIManager : MonoBehaviour
     public List<Text> skillText = new List<Text>(); // 스킬 버튼들
     public Text name;
     public Text atk;
+    public GameObject skillInfo;
 
     DataManager data;
 
@@ -41,5 +42,13 @@ public class UIManager : MonoBehaviour
             skillIndex = data.playerCharaterNumber[number-1] * 4 + i;
             skillText[i].text = data.saveData.CharacterSkill[skillIndex].SkillName;
         }
+    }
+
+    public void SkillInfo(int number)
+    {
+        Vector3 mouseInput = new Vector3(Input.mousePosition.x-540, Input.mousePosition.y-980, 0);
+        Debug.Log(mouseInput);
+        skillInfo.transform.localPosition = mouseInput;
+        skillInfo.SetActive(true);
     }
 }

@@ -479,13 +479,10 @@ public class Turn : MonoBehaviour
     {
         StopCoroutine(longClickCoroutine);
         playerSkillSelect[turnNumber - 1] = skillNumber;
-        skill_1T.SetActive(false);
-        skill_2T.SetActive(false);
-        skill_3T.SetActive(false);
-        skill_4T.SetActive(false);
+        uiManager.skillInfo.SetActive(false);
         if (skillAvailable)
         {
-            UISetting(); // 스킬 사용후 턴 넘기기
+            UISetting(); // 스킬 사용후 유아이 세팅
         }
     }
 
@@ -496,16 +493,16 @@ public class Turn : MonoBehaviour
         switch (skillNumber)
         {
             case 1:
-                skill_1T.SetActive(true);
+                uiManager.SkillInfo(0);
                 break;
             case 2:
-                skill_2T.SetActive(true);
+                uiManager.SkillInfo(1);
                 break;
             case 3:
-                skill_3T.SetActive(true);
+                uiManager.SkillInfo(2);
                 break;
             case 4:
-                skill_4T.SetActive(true);
+                uiManager.SkillInfo(3);
                 break;
             default:
                 break;
