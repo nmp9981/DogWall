@@ -119,14 +119,14 @@ public class Sound_Manager : MonoBehaviour
         {
             master.SetFloat("SFX", -80);
         }
-
+        Save_Value();
     }
     public void Load_Value()
     {
-        master.SetFloat("BGM", Data.saveData.ui.bgm);
-        master.SetFloat("SFX", Data.saveData.ui.sfx);
-        Bgm.value = Data.saveData.ui.bgm;
         Sfx.value = Data.saveData.ui.sfx;
+        Bgm.value = Data.saveData.ui.bgm;
+        Debug.Log(Data.saveData.ui.bgm);
+        Sound_Control();
     }
     public void Save_Value()
     {

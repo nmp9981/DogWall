@@ -1,5 +1,24 @@
 {
-    "my_characterlist": [],
+    "my_characterlist": [
+        {
+            "idx": 28,
+            "img_path": "soldier_3",
+            "Name": "지방 포졸",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 5,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 15854
+            },
+            "Stage": 1
+        }
+    ],
     "CharacterData": [
         {
             "idx": 0,
@@ -15,7 +34,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15832
+                "instanceID": 15800
             },
             "Stage": 1
         },
@@ -267,7 +286,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15726
+                "instanceID": 15680
             },
             "Stage": 1
         },
@@ -519,7 +538,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15890
+                "instanceID": 15854
             },
             "Stage": 1
         },
@@ -18643,6 +18662,11 @@
         0,
         0
     ],
+    "money": [
+        0,
+        0,
+        0
+    ],
     "my_team": [
         {
             "idx": 1,
@@ -18862,10 +18886,9 @@
         }
     ],
     "ui": {
-        "myMoney": 0,
         "money": [],
         "home_img_path": "",
-        "bgm": 0.0,
-        "sfx": 0.0
+        "bgm": -29.45502281188965,
+        "sfx": -30.580699920654298
     }
 }
