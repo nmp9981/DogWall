@@ -1,24 +1,6 @@
 {
     "my_characterlist": [
         {
-            "idx": 25,
-            "img_path": "",
-            "Name": "떠돌이 용병",
-            "HP": 6000,
-            "ATK": 4000,
-            "Attribute": 2,
-            "Energe": 0,
-            "Appear": 4,
-            "Upgrade": 0,
-            "Same": 2,
-            "Star": 1,
-            "IsAction": 1,
-            "Img": {
-                "instanceID": 0
-            },
-            "Stage": 1
-        },
-        {
             "idx": 11,
             "img_path": "",
             "Name": "폭주하는 로봇",
@@ -28,7 +10,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 7,
+            "Same": 9,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -37,16 +19,52 @@
             "Stage": 1
         },
         {
-            "idx": 40,
+            "idx": 48,
+            "img_path": "present_Lionheart_BG",
+            "Name": "안녕을 지키는 거대한 방패 라이언하트",
+            "HP": 8000,
+            "ATK": 5000,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 3,
+            "Upgrade": 0,
+            "Same": 8,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 42,
+            "img_path": "present_Imin",
+            "Name": "떠받드는 검 임인",
+            "HP": 6000,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 1,
+            "Upgrade": 0,
+            "Same": 27,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 36,
             "img_path": "",
-            "Name": "다리 달린 고등어",
+            "Name": "베헤모스",
             "HP": 5500,
-            "ATK": 4500,
+            "ATK": 7000,
             "Attribute": 3,
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 4,
+            "Same": 8,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -64,7 +82,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 1,
+            "Same": 2,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -73,17 +91,233 @@
             "Stage": 1
         },
         {
-            "idx": 10,
+            "idx": 34,
             "img_path": "",
-            "Name": "지방 영주",
+            "Name": "해바라기 사자",
             "HP": 5500,
             "ATK": 4500,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 7,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 45,
+            "img_path": "",
+            "Name": "개화의 순간을 그려내다 비비",
+            "HP": 6000,
+            "ATK": 5500,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 3,
+            "Upgrade": 0,
+            "Same": 19,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 8,
+            "img_path": "",
+            "Name": "베헤모스",
+            "HP": 5500,
+            "ATK": 7000,
             "Attribute": 1,
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 8,
+            "Same": 6,
             "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 47,
+            "img_path": "present_Hoyeon",
+            "Name": "월령국을 지지하는 거목 호연",
+            "HP": 7500,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 1,
+            "Upgrade": 0,
+            "Same": 7,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 16,
+            "img_path": "",
+            "Name": "수비형 로봇",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 12,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 20,
+            "img_path": "",
+            "Name": "해바라기 사자",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 5,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 41,
+            "img_path": "",
+            "Name": "깊이 뿌리 박은 산의 주인 플랜타이거",
+            "HP": 5500,
+            "ATK": 6000,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 3,
+            "Upgrade": 0,
+            "Same": 13,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 4,
+            "img_path": "",
+            "Name": "완성형 로봇",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 9,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 46,
+            "img_path": "",
+            "Name": "건곤일색 배척자 베르나르도",
+            "HP": 6000,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 2,
+            "Upgrade": 0,
+            "Same": 18,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 14,
+            "img_path": "soldier_2",
+            "Name": "지방 포졸",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 3,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 15810
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 50,
+            "img_path": "present_Ramiel_effect",
+            "Name": "척화 속에서 남은 잔불 라미엘 : Completed",
+            "HP": 7000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 2,
+            "Upgrade": 0,
+            "Same": 5,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 51,
+            "img_path": "present_Astarote_BG",
+            "Name": "수많은 생명을 품는 날개 아스타로테",
+            "HP": 6500,
+            "ATK": 6500,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 3,
+            "Upgrade": 0,
+            "Same": 10,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 44,
+            "img_path": "",
+            "Name": "조소를 덮어쓴 크로셀",
+            "HP": 5500,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 2,
+            "Upgrade": 0,
+            "Same": 21,
+            "Star": 2,
             "IsAction": 1,
             "Img": {
                 "instanceID": 0
@@ -109,6 +343,42 @@
             "Stage": 1
         },
         {
+            "idx": 1,
+            "img_path": "",
+            "Name": "공격형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 10,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 49,
+            "img_path": "present_Beatrice_effect",
+            "Name": "빛을 쫓는 선정의 영애 베아트리체",
+            "HP": 5500,
+            "ATK": 7500,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 2,
+            "Upgrade": 0,
+            "Same": 5,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
             "idx": 24,
             "img_path": "",
             "Name": "폭주하는 로봇",
@@ -118,7 +388,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 11,
+            "Same": 12,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -127,12 +397,192 @@
             "Stage": 1
         },
         {
-            "idx": 33,
+            "idx": 28,
+            "img_path": "soldier_3",
+            "Name": "지방 포졸",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 6,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 15814
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 18,
+            "img_path": "",
+            "Name": "완성형 로봇",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 5,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 22,
+            "img_path": "",
+            "Name": "베헤모스",
+            "HP": 5500,
+            "ATK": 7000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 8,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 39,
+            "img_path": "",
+            "Name": "행동 대장 로봇",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 6,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 15,
+            "img_path": "",
+            "Name": "공격형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 9,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 29,
+            "img_path": "",
+            "Name": "공격형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 5,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 17,
+            "img_path": "",
+            "Name": "회복형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 10,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 27,
+            "img_path": "",
+            "Name": "랩터",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 7,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 19,
             "img_path": "",
             "Name": "여우늑대",
             "HP": 5000,
             "ATK": 5000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 5,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 35,
+            "img_path": "",
+            "Name": "크리수트멈",
+            "HP": 6000,
+            "ATK": 6000,
             "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 5,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 0,
+            "img_path": "soldier_1",
+            "Name": "지방 포졸",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 1,
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
@@ -140,34 +590,16 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 0
+                "instanceID": 15806
             },
             "Stage": 1
         },
         {
-            "idx": 50,
-            "img_path": "present_Ramiel_effect",
-            "Name": "척화 속에서 남은 잔불 라미엘 : Completed",
-            "HP": 7000,
-            "ATK": 6000,
-            "Attribute": 1,
-            "Energe": 0,
-            "Appear": 2,
-            "Upgrade": 0,
-            "Same": 4,
-            "Star": 3,
-            "IsAction": 1,
-            "Img": {
-                "instanceID": 0
-            },
-            "Stage": 1
-        },
-        {
-            "idx": 7,
+            "idx": 6,
             "img_path": "",
-            "Name": "크리수트멈",
-            "HP": 6000,
-            "ATK": 6000,
+            "Name": "해바라기 사자",
+            "HP": 5500,
+            "ATK": 4500,
             "Attribute": 1,
             "Energe": 0,
             "Appear": 4,
@@ -210,7 +642,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 7,
+            "Same": 10,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -228,7 +660,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 7,
+            "Same": 8,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -264,7 +696,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 5,
+            "Same": 9,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -336,7 +768,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 5,
+            "Same": 6,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -372,7 +804,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 8,
+            "Same": 9,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -390,7 +822,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 7,
+            "Same": 9,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -408,7 +840,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 7,
+            "Same": 8,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -426,7 +858,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 1,
+            "Same": 2,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -462,7 +894,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 8,
+            "Same": 9,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -480,7 +912,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 10,
+            "Same": 12,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -516,7 +948,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 3,
+            "Same": 5,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -552,7 +984,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 3,
+            "Same": 5,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -588,7 +1020,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 6,
+            "Same": 8,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -624,7 +1056,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 11,
+            "Same": 12,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -642,7 +1074,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 2,
+            "Same": 3,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -696,7 +1128,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 5,
+            "Same": 6,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -768,7 +1200,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 12,
+            "Same": 14,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -804,7 +1236,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 6,
+            "Same": 7,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -840,7 +1272,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 5,
+            "Same": 8,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -858,7 +1290,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 8,
+            "Same": 11,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -894,7 +1326,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 5,
+            "Same": 6,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -930,7 +1362,7 @@
             "Energe": 0,
             "Appear": 3,
             "Upgrade": 0,
-            "Same": 10,
+            "Same": 13,
             "Star": 2,
             "IsAction": 1,
             "Img": {
@@ -948,7 +1380,7 @@
             "Energe": 0,
             "Appear": 1,
             "Upgrade": 0,
-            "Same": 26,
+            "Same": 27,
             "Star": 2,
             "IsAction": 1,
             "Img": {
@@ -984,7 +1416,7 @@
             "Energe": 0,
             "Appear": 2,
             "Upgrade": 0,
-            "Same": 18,
+            "Same": 21,
             "Star": 2,
             "IsAction": 1,
             "Img": {
@@ -1002,7 +1434,7 @@
             "Energe": 0,
             "Appear": 3,
             "Upgrade": 0,
-            "Same": 18,
+            "Same": 19,
             "Star": 2,
             "IsAction": 1,
             "Img": {
@@ -1020,7 +1452,7 @@
             "Energe": 0,
             "Appear": 2,
             "Upgrade": 0,
-            "Same": 17,
+            "Same": 18,
             "Star": 2,
             "IsAction": 1,
             "Img": {
@@ -1038,7 +1470,7 @@
             "Energe": 0,
             "Appear": 1,
             "Upgrade": 0,
-            "Same": 3,
+            "Same": 7,
             "Star": 3,
             "IsAction": 1,
             "Img": {
@@ -1056,7 +1488,7 @@
             "Energe": 0,
             "Appear": 3,
             "Upgrade": 0,
-            "Same": 5,
+            "Same": 8,
             "Star": 3,
             "IsAction": 1,
             "Img": {
@@ -1092,7 +1524,7 @@
             "Energe": 0,
             "Appear": 2,
             "Upgrade": 0,
-            "Same": 4,
+            "Same": 5,
             "Star": 3,
             "IsAction": 1,
             "Img": {
@@ -18831,22 +19263,22 @@
     ],
     "my_team": [
         {
-            "idx": 1,
-            "img_path": "",
-            "Name": "공격형 로봇",
-            "HP": 4500,
-            "ATK": 5500,
-            "Attribute": 1,
-            "Energe": 10,
+            "idx": 28,
+            "img_path": "soldier_3",
+            "Name": "지방 포졸",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 3,
+            "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 2,
-            "Star": 0,
+            "Same": 6,
+            "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 0
+                "instanceID": 15814
             },
-            "Stage": 0
+            "Stage": 1
         },
         {
             "idx": 5,
@@ -19049,8 +19481,8 @@
     ],
     "ui": {
         "money": [],
-        "home_img_path": "",
-        "bgm": -29.45502281188965,
-        "sfx": -30.233211517333986
+        "home_img_path": "Images/Character/soldier_3",
+        "bgm": -13.578329086303711,
+        "sfx": 0.0
     }
 }
