@@ -180,7 +180,6 @@ public class UI_Manager : MonoBehaviour
         Transform parent = GameObject.Find("Canvas").transform.Find("Unit_Select_Tap").transform.Find("Scroll View").transform.Find("Viewport").transform.Find("Content").gameObject.GetComponent<Transform>();
         if(parent.childCount != 0)
         {
-            Debug.Log(parent.childCount);
             for(int i = 0; i < parent.childCount; i++)
                 Destroy(parent.GetChild(i).gameObject);
         }
@@ -205,6 +204,7 @@ public class UI_Manager : MonoBehaviour
             temp.transform.localPosition = pos;
             temp.transform.localScale = new Vector3(1,1,1);
             temp.name = data.saveData.my_characterlist[i].Name;
+
             temp.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_characterlist[i].Img;
             Color col;
             switch(data.saveData.my_characterlist[i].Attribute)

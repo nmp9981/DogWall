@@ -314,6 +314,11 @@ public class SaveDataClass
         {
             i.Img = Resources.Load<Sprite>(path + i.img_path);
         }
+
+        foreach(PlayerDataClass i in my_characterlist)
+        {
+            i.Img = Resources.Load<Sprite>(path + i.img_path);
+        }
     }
 }
 
