@@ -1,12 +1,174 @@
 {
     "my_characterlist": [
         {
-            "idx": 28,
-            "img_path": "soldier_3",
-            "Name": "지방 포졸",
+            "idx": 25,
+            "img_path": "",
+            "Name": "떠돌이 용병",
+            "HP": 6000,
+            "ATK": 4000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 2,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 11,
+            "img_path": "",
+            "Name": "폭주하는 로봇",
+            "HP": 6000,
+            "ATK": 4000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 7,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 40,
+            "img_path": "",
+            "Name": "다리 달린 고등어",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 4,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 13,
+            "img_path": "",
+            "Name": "랩터",
             "HP": 4000,
             "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 1,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 10,
+            "img_path": "",
+            "Name": "지방 영주",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 8,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 26,
+            "img_path": "",
+            "Name": "다리 달린 고등어",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 1,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 24,
+            "img_path": "",
+            "Name": "폭주하는 로봇",
+            "HP": 6000,
+            "ATK": 4000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 11,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 33,
+            "img_path": "",
+            "Name": "여우늑대",
+            "HP": 5000,
+            "ATK": 5000,
             "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 4,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 50,
+            "img_path": "present_Ramiel_effect",
+            "Name": "척화 속에서 남은 잔불 라미엘 : Completed",
+            "HP": 7000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 2,
+            "Upgrade": 0,
+            "Same": 4,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1
+        },
+        {
+            "idx": 7,
+            "img_path": "",
+            "Name": "크리수트멈",
+            "HP": 6000,
+            "ATK": 6000,
+            "Attribute": 1,
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
@@ -14,7 +176,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15854
+                "instanceID": 0
             },
             "Stage": 1
         }
@@ -34,7 +196,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15800
+                "instanceID": 15806
             },
             "Stage": 1
         },
@@ -286,7 +448,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15680
+                "instanceID": 15810
             },
             "Stage": 1
         },
@@ -480,7 +642,7 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 1,
+            "Same": 2,
             "Star": 1,
             "IsAction": 1,
             "Img": {
@@ -538,7 +700,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15854
+                "instanceID": 15814
             },
             "Stage": 1
         },
@@ -18889,6 +19051,6 @@
         "money": [],
         "home_img_path": "",
         "bgm": -29.45502281188965,
-        "sfx": -30.580699920654298
+        "sfx": -30.233211517333986
     }
 }
