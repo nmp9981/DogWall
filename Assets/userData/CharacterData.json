@@ -14,11 +14,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 1,
+    "AppearProb": 0.0225
   },
   {
     "idx": 1,
-    "img_path": "",
+    "img_path": "Attack_Robot_R",
     "Name": "공격형 로봇",
     "HP": 4500,
     "ATK": 5500,
@@ -31,11 +32,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0225
   },
   {
     "idx": 2,
-    "img_path": "",
+    "img_path": "Defence_Robot_R",
     "Name": "수비형 로봇",
     "HP": 5500,
     "ATK": 4500,
@@ -48,11 +50,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0225
   },
   {
     "idx": 3,
-    "img_path": "",
+    "img_path": "Repair_Robot_R",
     "Name": "회복형 로봇",
     "HP": 4500,
     "ATK": 5500,
@@ -65,7 +68,8 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0225
   },
   {
     "idx": 4,
@@ -82,11 +86,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0225
   },
   {
     "idx": 5,
-    "img_path": "",
+    "img_path": "Wolfox_R",
     "Name": "여우늑대",
     "HP": 5000,
     "ATK": 5000,
@@ -99,11 +104,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0225
   },
   {
     "idx": 6,
-    "img_path": "",
+    "img_path": "Flowerlion_R",
     "Name": "해바라기 사자",
     "HP": 5500,
     "ATK": 4500,
@@ -116,11 +122,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0225
   },
   {
     "idx": 7,
-    "img_path": "",
+    "img_path": "Flowerman_R",
     "Name": "크리수트멈",
     "HP": 6000,
     "ATK": 6000,
@@ -133,11 +140,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0225
   },
   {
     "idx": 8,
-    "img_path": "",
+    "img_path": "Behemoth_R",
     "Name": "베헤모스",
     "HP": 5500,
     "ATK": 7000,
@@ -150,11 +158,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0225
   },
   {
     "idx": 9,
-    "img_path": "",
+    "img_path": "Crazy_1",
     "Name": "폭주하는 영술사",
     "HP": 4500,
     "ATK": 5500,
@@ -167,11 +176,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 1,
+    "AppearProb": 0.0225
   },
   {
     "idx": 10,
-    "img_path": "",
+    "img_path": "Yangban_1",
     "Name": "지방 영주",
     "HP": 5500,
     "ATK": 4500,
@@ -184,7 +194,8 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 1,
+    "AppearProb": 0.0225
   },
   {
     "idx": 11,
@@ -201,7 +212,8 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0225
   },
   {
     "idx": 12,
@@ -218,11 +230,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0225
   },
   {
     "idx": 13,
-    "img_path": "",
+    "img_path": "Raptor_R",
     "Name": "랩터",
     "HP": 4000,
     "ATK": 6000,
@@ -235,7 +248,8 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0225
   },
   {
     "idx": 14,
@@ -252,11 +266,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 1,
+    "AppearProb": 0.0225
   },
   {
     "idx": 15,
-    "img_path": "",
+    "img_path": "Attack_Robot_B",
     "Name": "공격형 로봇",
     "HP": 4500,
     "ATK": 5500,
@@ -269,11 +284,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0225
   },
   {
     "idx": 16,
-    "img_path": "",
+    "img_path": "Defence_Robot_B",
     "Name": "수비형 로봇",
     "HP": 5500,
     "ATK": 4500,
@@ -286,11 +302,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0225
   },
   {
     "idx": 17,
-    "img_path": "",
+    "img_path": "Repair_Robot_B",
     "Name": "회복형 로봇",
     "HP": 4500,
     "ATK": 5500,
@@ -303,7 +320,8 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0225
   },
   {
     "idx": 18,
@@ -320,11 +338,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0225
   },
   {
     "idx": 19,
-    "img_path": "",
+    "img_path": "Wolfox_B",
     "Name": "여우늑대",
     "HP": 5000,
     "ATK": 5000,
@@ -337,11 +356,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0225
   },
   {
     "idx": 20,
-    "img_path": "",
+    "img_path": "Flowerlion_B",
     "Name": "해바라기 사자",
     "HP": 5500,
     "ATK": 4500,
@@ -354,11 +374,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0225
   },
   {
     "idx": 21,
-    "img_path": "",
+    "img_path": "Flowerman_B",
     "Name": "크리수트멈",
     "HP": 6000,
     "ATK": 6000,
@@ -371,11 +392,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0225
   },
   {
     "idx": 22,
-    "img_path": "",
+    "img_path": "Behemoth_B",
     "Name": "베헤모스",
     "HP": 5500,
     "ATK": 7000,
@@ -388,11 +410,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0225
   },
   {
     "idx": 23,
-    "img_path": "",
+    "img_path": "Crazy_2",
     "Name": "폭주하는 영술사",
     "HP": 4500,
     "ATK": 5500,
@@ -405,7 +428,8 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 1,
+    "AppearProb": 0.0225
   },
   {
     "idx": 24,
@@ -422,11 +446,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0225
   },
   {
     "idx": 25,
-    "img_path": "",
+    "img_path": "BigMan_2",
     "Name": "떠돌이 용병",
     "HP": 6000,
     "ATK": 4000,
@@ -439,11 +464,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 1,
+    "AppearProb": 0.0225
   },
   {
     "idx": 26,
-    "img_path": "",
+    "img_path": "Legfish_B",
     "Name": "다리 달린 고등어",
     "HP": 5500,
     "ATK": 4500,
@@ -456,11 +482,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0225
   },
   {
     "idx": 27,
-    "img_path": "",
+    "img_path": "Raptor_B",
     "Name": "랩터",
     "HP": 4000,
     "ATK": 6000,
@@ -473,7 +500,8 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0225
   },
   {
     "idx": 28,
@@ -490,11 +518,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 1,
+    "AppearProb": 0.0225
   },
   {
     "idx": 29,
-    "img_path": "",
+    "img_path": "Attack_Robot_G",
     "Name": "공격형 로봇",
     "HP": 4500,
     "ATK": 5500,
@@ -507,11 +536,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0225
   },
   {
     "idx": 30,
-    "img_path": "",
+    "img_path": "Defence_Robot_G",
     "Name": "수비형 로봇",
     "HP": 5500,
     "ATK": 4500,
@@ -524,11 +554,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0225
   },
   {
     "idx": 31,
-    "img_path": "",
+    "img_path": "Repair_Robot_G",
     "Name": "회복형 로봇",
     "HP": 4500,
     "ATK": 5500,
@@ -541,7 +572,8 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0225
   },
   {
     "idx": 32,
@@ -558,11 +590,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0225
   },
   {
     "idx": 33,
-    "img_path": "",
+    "img_path": "Wolfox_G",
     "Name": "여우늑대",
     "HP": 5000,
     "ATK": 5000,
@@ -575,11 +608,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0225
   },
   {
     "idx": 34,
-    "img_path": "",
+    "img_path": "Flowerlion_G",
     "Name": "해바라기 사자",
     "HP": 5500,
     "ATK": 4500,
@@ -592,11 +626,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0225
   },
   {
     "idx": 35,
-    "img_path": "",
+    "img_path": "Flowerman_G",
     "Name": "크리수트멈",
     "HP": 6000,
     "ATK": 6000,
@@ -609,11 +644,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0225
   },
   {
     "idx": 36,
-    "img_path": "",
+    "img_path": "Behemoth_G",
     "Name": "베헤모스",
     "HP": 5500,
     "ATK": 7000,
@@ -626,11 +662,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0225
   },
   {
     "idx": 37,
-    "img_path": "",
+    "img_path": "BigMan_3",
     "Name": "떠돌이 용병",
     "HP": 6000,
     "ATK": 4000,
@@ -643,11 +680,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 1,
+    "AppearProb": 0.0225
   },
   {
     "idx": 38,
-    "img_path": "",
+    "img_path": "Yangban_3",
     "Name": "지방 영주",
     "HP": 5500,
     "ATK": 4500,
@@ -660,7 +698,8 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 1,
+    "AppearProb": 0.0225
   },
   {
     "idx": 39,
@@ -677,11 +716,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0225
   },
   {
     "idx": 40,
-    "img_path": "",
+    "img_path": "Legfish_G",
     "Name": "다리 달린 고등어",
     "HP": 5500,
     "ATK": 4500,
@@ -694,11 +734,12 @@
     "Star": 1,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0225
   },
   {
     "idx": 41,
-    "img_path": "",
+    "img_path": "Plantiger",
     "Name": "깊이 뿌리 박은 산의 주인 플랜타이거",
     "HP": 5500,
     "ATK": 6000,
@@ -711,7 +752,8 @@
     "Star": 2,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0083
   },
   {
     "idx": 42,
@@ -728,7 +770,8 @@
     "Star": 2,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 1,
+    "AppearProb": 0.0083
   },
   {
     "idx": 43,
@@ -745,11 +788,12 @@
     "Star": 2,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 1,
+    "AppearProb": 0.0083
   },
   {
     "idx": 44,
-    "img_path": "",
+    "img_path": "present_Crocell",
     "Name": "조소를 덮어쓴 크로셀",
     "HP": 5500,
     "ATK": 6000,
@@ -762,11 +806,12 @@
     "Star": 2,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0083
   },
   {
     "idx": 45,
-    "img_path": "",
+    "img_path": "BIBI",
     "Name": "개화의 순간을 그려내다 비비",
     "HP": 6000,
     "ATK": 5500,
@@ -779,11 +824,12 @@
     "Star": 2,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0083
   },
   {
     "idx": 46,
-    "img_path": "",
+    "img_path": "present_Bernard",
     "Name": "건곤일색 배척자 베르나르도",
     "HP": 6000,
     "ATK": 5500,
@@ -796,7 +842,8 @@
     "Star": 2,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0083
   },
   {
     "idx": 47,
@@ -813,7 +860,8 @@
     "Star": 3,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 1,
+    "AppearProb": 0.0049
   },
   {
     "idx": 48,
@@ -830,7 +878,8 @@
     "Star": 3,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0049
   },
   {
     "idx": 49,
@@ -847,7 +896,8 @@
     "Star": 3,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0049
   },
   {
     "idx": 50,
@@ -864,7 +914,8 @@
     "Star": 3,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 2,
+    "AppearProb": 0.0049
   },
   {
     "idx": 51,
@@ -881,7 +932,8 @@
     "Star": 3,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 3,
+    "AppearProb": 0.0049
   },
   {
     "idx": 52,
@@ -898,6 +950,25 @@
     "Star": 3,
     "Same": 0,
     "IsAction": 1,
-    "Stage": 1
+    "Stage": 1,
+    "AppearProb": 0.0032
+  },
+  {
+    "idx": "",
+    "img_path": "",
+    "Name": "",
+    "HP": "",
+    "ATK": "",
+    "Attribute": "",
+    "Energe": "",
+    "Type": "",
+    "Episode": "",
+    "Appear": "",
+    "Upgrade": "",
+    "Star": "",
+    "Same": "",
+    "IsAction": "",
+    "Stage": "",
+    "AppearProb": 1
   }
 ]

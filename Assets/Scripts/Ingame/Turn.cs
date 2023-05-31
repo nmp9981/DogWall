@@ -168,6 +168,7 @@ public class Turn : MonoBehaviour
             //공격하기
             if (isAllTarget == 1)//전체 공격
             {
+                //Debug.Log("전체공격");
                 for(int j = 0; j < monsterMgr.monsters.Count; j++)
                 {
                     monsterMgr.MonsterBloodDamage(totalDamage, j);//몬스터 데미지

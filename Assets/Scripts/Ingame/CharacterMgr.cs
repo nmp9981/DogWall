@@ -119,12 +119,10 @@ public class CharacterMgr : MonoBehaviour
     {
         if ((mobAttribute - playerAttribute + 3) % 3 == 1)
         {
-            Debug.Log("반감");
             return 50;
         }
         else if ((mobAttribute - playerAttribute + 3) % 3 == 2)
         {
-            Debug.Log("증폭");
             return 150;
         }
         else if ((mobAttribute == 3 && playerAttribute == 4) || (mobAttribute == 4 && playerAttribute == 3))

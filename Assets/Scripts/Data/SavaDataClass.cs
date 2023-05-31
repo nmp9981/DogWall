@@ -21,9 +21,10 @@ public class PlayerDataClass//캐릭터 DB
     public int Star = 0;//별
     public int IsAction = 0;//스킬 사용이 가능한가?
     public Sprite Img = null;//이미지
-    public int Stage = 1;
+    public int Stage = 1;//스테이지
+    public float AppearProb = 1.0f;//가챠시 나올 확률
 
-    public PlayerDataClass(int i=0,string impa = "", string n = "무명", int h = 0, int a = 0, int A = 1,int e=0,int app=0,int up=0, int S = 1,int star = 0, int act = 0, int stage = 1)
+    public PlayerDataClass(int i=0,string impa = "", string n = "무명", int h = 0, int a = 0, int A = 1,int e=0,int app=0,int up=0, int S = 1,int star = 0, int act = 0, int stage = 1,float appearProb = 1.0f)
     {
         this.idx = i;
         this.img_path = impa;
@@ -38,6 +39,7 @@ public class PlayerDataClass//캐릭터 DB
         this.Star = star;
         this.IsAction = act;
         this.Stage = stage;
+        this.AppearProb = appearProb;
     }
 }
 [System.Serializable]
@@ -238,8 +240,10 @@ public class QuestInfo//쿼스트 데이터
     public int Type = 0;
     public int MonsterIndex = 0;
     public int Clear = 0;
+    public int ItemDrop = 0;
+    public int DropPercent = 0;
 
-    public QuestInfo(string appear, string episode, int quest, int stage, int difficulty, int type, int mobidx,int clear)
+    public QuestInfo(string appear, string episode, int quest, int stage, int difficulty, int type, int mobidx,int clear,int itemDrop,int dropPercent)
     {
         this.Appear = appear;
         this.Episode = episode;
@@ -249,6 +253,8 @@ public class QuestInfo//쿼스트 데이터
         this.Type = type;
         this.MonsterIndex = mobidx;
         this.Clear = clear;
+        this.ItemDrop = itemDrop;
+        this.DropPercent = dropPercent;
     }
 }
 [System.Serializable]
