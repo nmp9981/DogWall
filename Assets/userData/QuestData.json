@@ -6,7 +6,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 1,
-    "MonsterIndex": 2
+    "MonsterIndex": 2,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -15,7 +17,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 3
+    "MonsterIndex": 3,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -24,7 +28,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 4
+    "MonsterIndex": 4,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -33,7 +39,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 1,
-    "MonsterIndex": 5
+    "MonsterIndex": 5,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -42,7 +50,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 6
+    "MonsterIndex": 6,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -51,7 +61,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 7
+    "MonsterIndex": 7,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -60,7 +72,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 1,
-    "MonsterIndex": 8
+    "MonsterIndex": 8,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -69,7 +83,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 9
+    "MonsterIndex": 9,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -78,7 +94,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 10
+    "MonsterIndex": 10,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -87,7 +105,9 @@
     "Stage": 2,
     "Difficulty": 1,
     "Type": 1,
-    "MonsterIndex": 11
+    "MonsterIndex": 11,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -96,7 +116,9 @@
     "Stage": 2,
     "Difficulty": 1,
     "Type": 1,
-    "MonsterIndex": 11
+    "MonsterIndex": 11,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -105,7 +127,9 @@
     "Stage": 2,
     "Difficulty": 2,
     "Type": 1,
-    "MonsterIndex": 12
+    "MonsterIndex": 12,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -114,7 +138,9 @@
     "Stage": 2,
     "Difficulty": 2,
     "Type": 1,
-    "MonsterIndex": 12
+    "MonsterIndex": 12,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -123,7 +149,9 @@
     "Stage": 2,
     "Difficulty": 3,
     "Type": 1,
-    "MonsterIndex": 13
+    "MonsterIndex": 13,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -132,7 +160,9 @@
     "Stage": 2,
     "Difficulty": 3,
     "Type": 1,
-    "MonsterIndex": 13
+    "MonsterIndex": 13,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -141,7 +171,9 @@
     "Stage": 3,
     "Difficulty": 1,
     "Type": 1,
-    "MonsterIndex": 14
+    "MonsterIndex": 14,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -150,7 +182,9 @@
     "Stage": 3,
     "Difficulty": 2,
     "Type": 1,
-    "MonsterIndex": 15
+    "MonsterIndex": 15,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -159,7 +193,9 @@
     "Stage": 3,
     "Difficulty": 3,
     "Type": 1,
-    "MonsterIndex": 16
+    "MonsterIndex": 16,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -168,7 +204,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 5,
-    "MonsterIndex": 17
+    "MonsterIndex": 17,
+    "ItemDrop": 1,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -177,7 +215,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 5,
-    "MonsterIndex": 20
+    "MonsterIndex": 20,
+    "ItemDrop": 1,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -186,7 +226,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 5,
-    "MonsterIndex": 23
+    "MonsterIndex": 23,
+    "ItemDrop": 1,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -195,7 +237,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 5,
-    "MonsterIndex": 18
+    "MonsterIndex": 18,
+    "ItemDrop": 1,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -204,7 +248,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 5,
-    "MonsterIndex": 21
+    "MonsterIndex": 21,
+    "ItemDrop": 1,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -213,7 +259,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 5,
-    "MonsterIndex": 24
+    "MonsterIndex": 24,
+    "ItemDrop": 1,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -222,7 +270,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 5,
-    "MonsterIndex": 19
+    "MonsterIndex": 19,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -231,7 +281,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 5,
-    "MonsterIndex": 22
+    "MonsterIndex": 22,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -240,7 +292,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 5,
-    "MonsterIndex": 25
+    "MonsterIndex": 25,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -249,7 +303,9 @@
     "Stage": 2,
     "Difficulty": 1,
     "Type": 1,
-    "MonsterIndex": 26
+    "MonsterIndex": 26,
+    "ItemDrop": 1,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -258,7 +314,9 @@
     "Stage": 2,
     "Difficulty": 2,
     "Type": 1,
-    "MonsterIndex": 27
+    "MonsterIndex": 27,
+    "ItemDrop": 1,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -267,7 +325,9 @@
     "Stage": 2,
     "Difficulty": 3,
     "Type": 1,
-    "MonsterIndex": 28
+    "MonsterIndex": 28,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -276,7 +336,9 @@
     "Stage": 3,
     "Difficulty": 1,
     "Type": 5,
-    "MonsterIndex": 29
+    "MonsterIndex": 29,
+    "ItemDrop": 1,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -285,7 +347,9 @@
     "Stage": 3,
     "Difficulty": 2,
     "Type": 5,
-    "MonsterIndex": 30
+    "MonsterIndex": 30,
+    "ItemDrop": 1,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -294,7 +358,9 @@
     "Stage": 3,
     "Difficulty": 3,
     "Type": 5,
-    "MonsterIndex": 31
+    "MonsterIndex": 31,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -303,7 +369,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 1,
-    "MonsterIndex": 32
+    "MonsterIndex": 32,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -312,7 +380,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 1,
-    "MonsterIndex": 35
+    "MonsterIndex": 35,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -321,7 +391,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 1,
-    "MonsterIndex": 33
+    "MonsterIndex": 33,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -330,7 +402,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 1,
-    "MonsterIndex": 36
+    "MonsterIndex": 36,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -339,7 +413,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 1,
-    "MonsterIndex": 34
+    "MonsterIndex": 34,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -348,7 +424,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 1,
-    "MonsterIndex": 37
+    "MonsterIndex": 37,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -357,7 +435,9 @@
     "Stage": 2,
     "Difficulty": 1,
     "Type": 1,
-    "MonsterIndex": 38
+    "MonsterIndex": 38,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -366,7 +446,9 @@
     "Stage": 2,
     "Difficulty": 2,
     "Type": 1,
-    "MonsterIndex": 39
+    "MonsterIndex": 39,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -375,7 +457,9 @@
     "Stage": 2,
     "Difficulty": 3,
     "Type": 1,
-    "MonsterIndex": 40
+    "MonsterIndex": 40,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -384,7 +468,9 @@
     "Stage": 3,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 41
+    "MonsterIndex": 41,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -393,7 +479,9 @@
     "Stage": 3,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 41
+    "MonsterIndex": 41,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -402,7 +490,9 @@
     "Stage": 3,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 41
+    "MonsterIndex": 41,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -411,7 +501,9 @@
     "Stage": 3,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 42
+    "MonsterIndex": 42,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -420,7 +512,9 @@
     "Stage": 3,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 42
+    "MonsterIndex": 42,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -429,7 +523,9 @@
     "Stage": 3,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 42
+    "MonsterIndex": 42,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -438,7 +534,9 @@
     "Stage": 3,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 43
+    "MonsterIndex": 43,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -447,7 +545,9 @@
     "Stage": 3,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 43
+    "MonsterIndex": 43,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -456,7 +556,9 @@
     "Stage": 3,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 43
+    "MonsterIndex": 43,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -465,7 +567,9 @@
     "Stage": 4,
     "Difficulty": 1,
     "Type": 1,
-    "MonsterIndex": 44
+    "MonsterIndex": 44,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -474,7 +578,9 @@
     "Stage": 4,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 47
+    "MonsterIndex": 47,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -483,7 +589,9 @@
     "Stage": 4,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 47
+    "MonsterIndex": 47,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -492,7 +600,9 @@
     "Stage": 4,
     "Difficulty": 2,
     "Type": 1,
-    "MonsterIndex": 45
+    "MonsterIndex": 45,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -501,7 +611,9 @@
     "Stage": 4,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 48
+    "MonsterIndex": 48,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -510,7 +622,9 @@
     "Stage": 4,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 48
+    "MonsterIndex": 48,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -519,7 +633,9 @@
     "Stage": 4,
     "Difficulty": 3,
     "Type": 1,
-    "MonsterIndex": 46
+    "MonsterIndex": 46,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -528,7 +644,9 @@
     "Stage": 4,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 49
+    "MonsterIndex": 49,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -537,7 +655,9 @@
     "Stage": 4,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 49
+    "MonsterIndex": 49,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -546,7 +666,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 50
+    "MonsterIndex": 50,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -555,7 +677,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 50
+    "MonsterIndex": 50,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -564,7 +688,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 51
+    "MonsterIndex": 51,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -573,7 +699,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 51
+    "MonsterIndex": 51,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -582,7 +710,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 52
+    "MonsterIndex": 52,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -591,7 +721,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 52
+    "MonsterIndex": 52,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -600,7 +732,9 @@
     "Stage": 2,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 53
+    "MonsterIndex": 53,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -609,7 +743,9 @@
     "Stage": 2,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 54
+    "MonsterIndex": 54,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -618,7 +754,9 @@
     "Stage": 2,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 55
+    "MonsterIndex": 55,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -627,7 +765,9 @@
     "Stage": 3,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 50
+    "MonsterIndex": 50,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -636,7 +776,9 @@
     "Stage": 3,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 53
+    "MonsterIndex": 53,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -645,7 +787,9 @@
     "Stage": 3,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 56
+    "MonsterIndex": 56,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -654,7 +798,9 @@
     "Stage": 3,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 51
+    "MonsterIndex": 51,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -663,7 +809,9 @@
     "Stage": 3,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 54
+    "MonsterIndex": 54,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -672,7 +820,9 @@
     "Stage": 3,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 57
+    "MonsterIndex": 57,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -681,7 +831,9 @@
     "Stage": 3,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 52
+    "MonsterIndex": 52,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -690,7 +842,9 @@
     "Stage": 3,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 55
+    "MonsterIndex": 55,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -699,7 +853,9 @@
     "Stage": 3,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 58
+    "MonsterIndex": 58,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -708,7 +864,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 62
+    "MonsterIndex": 62,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -717,7 +875,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 62
+    "MonsterIndex": 62,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -726,7 +886,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 62
+    "MonsterIndex": 62,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -735,7 +897,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 62
+    "MonsterIndex": 62,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -744,7 +908,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 63
+    "MonsterIndex": 63,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -753,7 +919,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 63
+    "MonsterIndex": 63,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -762,7 +930,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 63
+    "MonsterIndex": 63,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -771,7 +941,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 63
+    "MonsterIndex": 63,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -780,7 +952,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 64
+    "MonsterIndex": 64,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -789,7 +963,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 64
+    "MonsterIndex": 64,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -798,7 +974,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 64
+    "MonsterIndex": 64,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -807,7 +985,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 64
+    "MonsterIndex": 64,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -816,7 +996,9 @@
     "Stage": 2,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 65
+    "MonsterIndex": 65,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -825,7 +1007,9 @@
     "Stage": 2,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 66
+    "MonsterIndex": 66,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -834,7 +1018,9 @@
     "Stage": 2,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 67
+    "MonsterIndex": 67,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -843,7 +1029,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 68
+    "MonsterIndex": 68,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -852,7 +1040,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 68
+    "MonsterIndex": 68,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -861,7 +1051,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 68
+    "MonsterIndex": 68,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -870,7 +1062,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 69
+    "MonsterIndex": 69,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -879,7 +1073,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 69
+    "MonsterIndex": 69,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -888,7 +1084,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 69
+    "MonsterIndex": 69,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -897,7 +1095,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 70
+    "MonsterIndex": 70,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -906,7 +1106,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 70
+    "MonsterIndex": 70,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -915,7 +1117,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 70
+    "MonsterIndex": 70,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -924,7 +1128,9 @@
     "Stage": 2,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 59
+    "MonsterIndex": 59,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -933,7 +1139,9 @@
     "Stage": 2,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 71
+    "MonsterIndex": 71,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -942,7 +1150,9 @@
     "Stage": 2,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 60
+    "MonsterIndex": 60,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -951,7 +1161,9 @@
     "Stage": 2,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 72
+    "MonsterIndex": 72,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -960,7 +1172,9 @@
     "Stage": 2,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 61
+    "MonsterIndex": 61,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -969,7 +1183,9 @@
     "Stage": 2,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 73
+    "MonsterIndex": 73,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -978,7 +1194,9 @@
     "Stage": 3,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 74
+    "MonsterIndex": 74,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -987,7 +1205,9 @@
     "Stage": 3,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 74
+    "MonsterIndex": 74,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -996,7 +1216,9 @@
     "Stage": 3,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 77
+    "MonsterIndex": 77,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -1005,7 +1227,9 @@
     "Stage": 3,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 75
+    "MonsterIndex": 75,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1014,7 +1238,9 @@
     "Stage": 3,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 75
+    "MonsterIndex": 75,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1023,7 +1249,9 @@
     "Stage": 3,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 78
+    "MonsterIndex": 78,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1032,7 +1260,9 @@
     "Stage": 3,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 76
+    "MonsterIndex": 76,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -1041,7 +1271,9 @@
     "Stage": 3,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 76
+    "MonsterIndex": 76,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -1050,7 +1282,9 @@
     "Stage": 3,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 79
+    "MonsterIndex": 79,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -1059,7 +1293,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 80
+    "MonsterIndex": 80,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -1068,7 +1304,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 80
+    "MonsterIndex": 80,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -1077,7 +1315,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 81
+    "MonsterIndex": 81,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -1086,7 +1326,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 81
+    "MonsterIndex": 81,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -1095,7 +1337,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 82
+    "MonsterIndex": 82,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -1104,7 +1348,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 82
+    "MonsterIndex": 82,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -1113,7 +1359,9 @@
     "Stage": 2,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 86
+    "MonsterIndex": 86,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -1122,7 +1370,9 @@
     "Stage": 2,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 87
+    "MonsterIndex": 87,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -1131,7 +1381,9 @@
     "Stage": 2,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 88
+    "MonsterIndex": 88,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -1140,7 +1392,9 @@
     "Stage": 3,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 80
+    "MonsterIndex": 80,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -1149,7 +1403,9 @@
     "Stage": 3,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 80
+    "MonsterIndex": 80,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -1158,7 +1414,9 @@
     "Stage": 3,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 86
+    "MonsterIndex": 86,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -1167,7 +1425,9 @@
     "Stage": 3,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 81
+    "MonsterIndex": 81,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -1176,7 +1436,9 @@
     "Stage": 3,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 81
+    "MonsterIndex": 81,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -1185,7 +1447,9 @@
     "Stage": 3,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 87
+    "MonsterIndex": 87,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -1194,7 +1458,9 @@
     "Stage": 3,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 82
+    "MonsterIndex": 82,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -1203,7 +1469,9 @@
     "Stage": 3,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 82
+    "MonsterIndex": 82,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -1212,7 +1480,9 @@
     "Stage": 3,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 88
+    "MonsterIndex": 88,
+    "ItemDrop": 0,
+    "DropPercent": 0
   },
   {
     "Appear": "현재",
@@ -1221,7 +1491,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 95
+    "MonsterIndex": 95,
+    "ItemDrop": 1,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -1230,7 +1502,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 95
+    "MonsterIndex": 95,
+    "ItemDrop": 1,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -1239,7 +1513,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 95
+    "MonsterIndex": 95,
+    "ItemDrop": 1,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -1248,7 +1524,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 96
+    "MonsterIndex": 96,
+    "ItemDrop": 1,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1257,7 +1535,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 96
+    "MonsterIndex": 96,
+    "ItemDrop": 1,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1266,7 +1546,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 96
+    "MonsterIndex": 96,
+    "ItemDrop": 1,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1275,7 +1557,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 97
+    "MonsterIndex": 97,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -1284,7 +1568,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 97
+    "MonsterIndex": 97,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -1293,7 +1579,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 97
+    "MonsterIndex": 97,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -1302,7 +1590,9 @@
     "Stage": 2,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 104
+    "MonsterIndex": 104,
+    "ItemDrop": 1,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -1311,7 +1601,9 @@
     "Stage": 2,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 104
+    "MonsterIndex": 104,
+    "ItemDrop": 1,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -1320,7 +1612,9 @@
     "Stage": 2,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 105
+    "MonsterIndex": 105,
+    "ItemDrop": 1,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1329,7 +1623,9 @@
     "Stage": 2,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 105
+    "MonsterIndex": 105,
+    "ItemDrop": 1,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1338,7 +1634,9 @@
     "Stage": 2,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 106
+    "MonsterIndex": 106,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -1347,7 +1645,9 @@
     "Stage": 2,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 106
+    "MonsterIndex": 106,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -1356,7 +1656,9 @@
     "Stage": 3,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 98
+    "MonsterIndex": 98,
+    "ItemDrop": 1,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -1365,7 +1667,9 @@
     "Stage": 3,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 107
+    "MonsterIndex": 107,
+    "ItemDrop": 1,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -1374,7 +1678,9 @@
     "Stage": 3,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 107
+    "MonsterIndex": 107,
+    "ItemDrop": 1,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -1383,7 +1689,9 @@
     "Stage": 3,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 99
+    "MonsterIndex": 99,
+    "ItemDrop": 1,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1392,7 +1700,9 @@
     "Stage": 3,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 108
+    "MonsterIndex": 108,
+    "ItemDrop": 1,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1401,7 +1711,9 @@
     "Stage": 3,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 108
+    "MonsterIndex": 108,
+    "ItemDrop": 1,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1410,7 +1722,9 @@
     "Stage": 3,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 100
+    "MonsterIndex": 100,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -1419,7 +1733,9 @@
     "Stage": 3,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 109
+    "MonsterIndex": 109,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -1428,7 +1744,9 @@
     "Stage": 3,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 109
+    "MonsterIndex": 109,
+    "ItemDrop": 1,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -1437,7 +1755,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 113
+    "MonsterIndex": 113,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -1446,7 +1766,9 @@
     "Stage": 1,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 89
+    "MonsterIndex": 89,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -1455,7 +1777,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 114
+    "MonsterIndex": 114,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1464,7 +1788,9 @@
     "Stage": 1,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 90
+    "MonsterIndex": 90,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1473,7 +1799,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 115
+    "MonsterIndex": 115,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -1482,7 +1810,9 @@
     "Stage": 1,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 91
+    "MonsterIndex": 91,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -1491,7 +1821,9 @@
     "Stage": 2,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 116
+    "MonsterIndex": 116,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -1500,7 +1832,9 @@
     "Stage": 2,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 83
+    "MonsterIndex": 83,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -1509,7 +1843,9 @@
     "Stage": 2,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 101
+    "MonsterIndex": 101,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -1518,7 +1854,9 @@
     "Stage": 2,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 117
+    "MonsterIndex": 117,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1527,7 +1865,9 @@
     "Stage": 2,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 84
+    "MonsterIndex": 84,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1536,7 +1876,9 @@
     "Stage": 2,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 102
+    "MonsterIndex": 102,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1545,7 +1887,9 @@
     "Stage": 2,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 118
+    "MonsterIndex": 118,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -1554,7 +1898,9 @@
     "Stage": 2,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 85
+    "MonsterIndex": 85,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -1563,7 +1909,9 @@
     "Stage": 2,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 103
+    "MonsterIndex": 103,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -1572,7 +1920,9 @@
     "Stage": 3,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 119
+    "MonsterIndex": 119,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -1581,7 +1931,9 @@
     "Stage": 3,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 110
+    "MonsterIndex": 110,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -1590,7 +1942,9 @@
     "Stage": 3,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 120
+    "MonsterIndex": 120,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1599,7 +1953,9 @@
     "Stage": 3,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 111
+    "MonsterIndex": 111,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1608,7 +1964,9 @@
     "Stage": 3,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 121
+    "MonsterIndex": 121,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -1617,7 +1975,9 @@
     "Stage": 3,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 112
+    "MonsterIndex": 112,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -1626,7 +1986,9 @@
     "Stage": 4,
     "Difficulty": 1,
     "Type": 3,
-    "MonsterIndex": 122
+    "MonsterIndex": 122,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -1635,7 +1997,9 @@
     "Stage": 4,
     "Difficulty": 1,
     "Type": 2,
-    "MonsterIndex": 125
+    "MonsterIndex": 125,
+    "ItemDrop": 2,
+    "DropPercent": 25
   },
   {
     "Appear": "현재",
@@ -1644,7 +2008,9 @@
     "Stage": 4,
     "Difficulty": 2,
     "Type": 3,
-    "MonsterIndex": 123
+    "MonsterIndex": 123,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1653,7 +2019,9 @@
     "Stage": 4,
     "Difficulty": 2,
     "Type": 2,
-    "MonsterIndex": 126
+    "MonsterIndex": 126,
+    "ItemDrop": 2,
+    "DropPercent": 40
   },
   {
     "Appear": "현재",
@@ -1662,7 +2030,9 @@
     "Stage": 4,
     "Difficulty": 3,
     "Type": 3,
-    "MonsterIndex": 124
+    "MonsterIndex": 124,
+    "ItemDrop": 2,
+    "DropPercent": 65
   },
   {
     "Appear": "현재",
@@ -1671,6 +2041,8 @@
     "Stage": 4,
     "Difficulty": 3,
     "Type": 2,
-    "MonsterIndex": 127
+    "MonsterIndex": 127,
+    "ItemDrop": 2,
+    "DropPercent": 65
   }
 ]

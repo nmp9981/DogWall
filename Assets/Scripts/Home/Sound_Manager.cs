@@ -59,7 +59,8 @@ public class Sound_Manager : MonoBehaviour
     }
     void Start()
     {
-        Data = GameObject.Find("Data_Manager").gameObject.GetComponent<DataManager>();
+        //Data = GameObject.Find("Data_Manager").gameObject.GetComponent<DataManager>();
+        Data = DataManager.singleTon;
         master = Resources.Load<AudioMixer>("Master");
         Find_Sliders();
         Load_Value();
@@ -123,9 +124,10 @@ public class Sound_Manager : MonoBehaviour
     }
     public void Load_Value()
     {
-        Sfx.value = Data.saveData.ui.sfx;
-        Bgm.value = Data.saveData.ui.bgm;
-        Debug.Log(Data.saveData.ui.bgm);
+        UI load = Data.saveData.ui;
+        Debug.LogFormat("bgn = {0}, sfx = {1}",load.bgm,load.sfx);
+        Bgm.value = load.bgm;
+        Sfx.value = load.sfx;
         Sound_Control();
     }
     public void Save_Value()

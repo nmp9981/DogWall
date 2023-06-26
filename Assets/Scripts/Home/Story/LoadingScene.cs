@@ -18,7 +18,7 @@ public class LoadingScene : MonoBehaviour
 
     void Init()
     {
-
+        //MakeObject(input);
     }
     void MakeObject(string input)
     {
@@ -33,8 +33,11 @@ public class LoadingScene : MonoBehaviour
             temp = input.Substring(idx1,idx2+1);
             input = input.Remove(idx1,idx2+1);
             tips.Add(temp);
+            if(idx1 == 0)
+                idx1++;
+
         }  
-        Tooltip_Content tool = Resources.Load<Tooltip_Content>("Prefabs/Tooltip");
+        Tooltip_Content tool = Resources.Load<Tooltip_Content>("Prefabs/String_Content");
         tool.Content = tips;
     }
 
