@@ -42,9 +42,21 @@ public class Quest_Manager : MonoBehaviour
         int maxStage = 1;
         List<int> tempNum = new List<int> { };
         if (infoList[0] == 0) findappear = "현재";
-        if (infoList[1] == 0) findepisode = "월령";
-        if (infoList[1] == 1) findepisode = "엠피리오";
-        if (infoList[1] == 2) findepisode = "제한구역"; // 인포값을 string으로 변환 (json에 한글로 저장돼있어서 비교할려면 변환해줘야함)
+        if (infoList[1] == 0)
+        {
+            findepisode = "월령";
+            Sound_Manager.sound.Play("월령국_전투BGM_최종");
+        }
+        if (infoList[1] == 1)
+        {
+            findepisode = "엠피리오";
+            Sound_Manager.sound.Play("엠피리언_전투BGM_2");
+        }
+        if (infoList[1] == 2)
+        {
+            findepisode = "제한구역"; // 인포값을 string으로 변환 (json에 한글로 저장돼있어서 비교할려면 변환해줘야함)
+            Sound_Manager.sound.Play("제한구역");
+        }
 
         for (int i = 0; i < 4; i++)
         {
