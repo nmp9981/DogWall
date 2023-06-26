@@ -235,11 +235,11 @@ public class UI_Manager : MonoBehaviour
         for(i = 0; i < 4; i++)//내 팀 리스트 생성
         { 
             GameObject target = GameObject.Find("Canvas").transform.Find("Teams").transform.Find("Character" + (i+1).ToString()).gameObject;
-            
-            target.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_team[4*tap + i].Img;
-            target.transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].HP.ToString();
-            target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].ATK.ToString();
-            target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].Attribute.ToString();
+            // 일단 임시로 없애뒀습니다 마름모 모양이미지가 있어야지 크기 맞출수 있을듯요
+            //target.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_team[4*tap + i].Img;
+            target.transform.GetChild(0).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].HP.ToString();
+            target.transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].ATK.ToString();
+            target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_team[4*tap + i].Attribute.ToString();
         }
     }
 
