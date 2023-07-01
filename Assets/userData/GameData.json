@@ -16,7 +16,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 48,
@@ -34,7 +35,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 42,
@@ -52,7 +54,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 36,
@@ -70,7 +73,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 13,
@@ -88,7 +92,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 34,
@@ -106,7 +111,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 45,
@@ -124,7 +130,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 8,
@@ -142,7 +149,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 47,
@@ -160,7 +168,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 16,
@@ -178,7 +187,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 20,
@@ -196,7 +206,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 41,
@@ -214,7 +225,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 4,
@@ -232,7 +244,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 46,
@@ -250,7 +263,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 14,
@@ -266,9 +280,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15810
+                "instanceID": 15758
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 50,
@@ -286,7 +301,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 51,
@@ -304,7 +320,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 44,
@@ -322,7 +339,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 26,
@@ -340,7 +358,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 1,
@@ -358,7 +377,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 49,
@@ -376,7 +396,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 24,
@@ -394,7 +415,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 28,
@@ -410,9 +432,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15814
+                "instanceID": 15762
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 18,
@@ -430,7 +453,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 22,
@@ -448,7 +472,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 39,
@@ -466,7 +491,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 15,
@@ -484,7 +510,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 29,
@@ -502,7 +529,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 17,
@@ -520,7 +548,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 27,
@@ -538,7 +567,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 19,
@@ -556,7 +586,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 35,
@@ -574,7 +605,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 0,
@@ -590,9 +622,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15806
+                "instanceID": 15754
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
         },
         {
             "idx": 6,
@@ -610,982 +643,1398 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 0.0
+        },
+        {
+            "idx": 14,
+            "img_path": "soldier_2",
+            "Name": "지방 포졸",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 15758
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 44,
+            "img_path": "present_Crocell",
+            "Name": "조소를 덮어쓴 크로셀",
+            "HP": 5500,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 2,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.008299999870359898
+        },
+        {
+            "idx": 2,
+            "img_path": "Defence_Robot_R",
+            "Name": "수비형 로봇",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 10,
+            "img_path": "Yangban_1",
+            "Name": "지방 영주",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 15778
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 30,
+            "img_path": "Defence_Robot_G",
+            "Name": "수비형 로봇",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 46,
+            "img_path": "present_Bernard",
+            "Name": "건곤일색 배척자 베르나르도",
+            "HP": 6000,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 2,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.008299999870359898
+        },
+        {
+            "idx": 24,
+            "img_path": "",
+            "Name": "폭주하는 로봇",
+            "HP": 6000,
+            "ATK": 4000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 1,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 48,
+            "img_path": "present_Lionheart_BG",
+            "Name": "안녕을 지키는 거대한 방패 라이언하트",
+            "HP": 8000,
+            "ATK": 5000,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 3,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.004900000058114529
+        },
+        {
+            "idx": 35,
+            "img_path": "Flowerman_G",
+            "Name": "크리수트멈",
+            "HP": 6000,
+            "ATK": 6000,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 15,
+            "img_path": "Attack_Robot_B",
+            "Name": "공격형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 37,
+            "img_path": "BigMan_3",
+            "Name": "떠돌이 용병",
+            "HP": 6000,
+            "ATK": 4000,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 15738
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 13,
+            "img_path": "Raptor_R",
+            "Name": "랩터",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 50,
+            "img_path": "present_Ramiel_effect",
+            "Name": "척화 속에서 남은 잔불 라미엘 : Completed",
+            "HP": 7000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 2,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.004900000058114529
+        },
+        {
+            "idx": 44,
+            "img_path": "present_Crocell",
+            "Name": "조소를 덮어쓴 크로셀",
+            "HP": 5500,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 2,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.008299999870359898
+        },
+        {
+            "idx": 42,
+            "img_path": "present_Imin",
+            "Name": "떠받드는 검 임인",
+            "HP": 6000,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 1,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1,
+            "AppearProb": 0.008299999870359898
+        },
+        {
+            "idx": 25,
+            "img_path": "BigMan_2",
+            "Name": "떠돌이 용병",
+            "HP": 6000,
+            "ATK": 4000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 15734
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 47,
+            "img_path": "present_Hoyeon",
+            "Name": "월령국을 지지하는 거목 호연",
+            "HP": 7500,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 1,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1,
+            "AppearProb": 0.004900000058114529
+        },
+        {
+            "idx": 4,
+            "img_path": "",
+            "Name": "완성형 로봇",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 24,
+            "img_path": "",
+            "Name": "폭주하는 로봇",
+            "HP": 6000,
+            "ATK": 4000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 1,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
         }
     ],
     "CharacterData": [
-  {
-    "idx": 0,
-    "img_path": "soldier_1",
-    "Name": "지방 포졸",
-    "HP": 4000,
-    "ATK": 6000,
-    "Attribute": 1,
-    "Energe": 0,
-    "Type": 1,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 1,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 1,
-    "img_path": "Attack_Robot_R",
-    "Name": "공격형 로봇",
-    "HP": 4500,
-    "ATK": 5500,
-    "Attribute": 1,
-    "Energe": 0,
-    "Type": 1,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 2,
-    "img_path": "Defence_Robot_R",
-    "Name": "수비형 로봇",
-    "HP": 5500,
-    "ATK": 4500,
-    "Attribute": 1,
-    "Energe": 0,
-    "Type": 2,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 3,
-    "img_path": "Repair_Robot_R",
-    "Name": "회복형 로봇",
-    "HP": 4500,
-    "ATK": 5500,
-    "Attribute": 1,
-    "Energe": 0,
-    "Type": 3,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 4,
-    "img_path": "",
-    "Name": "완성형 로봇",
-    "HP": 5000,
-    "ATK": 5000,
-    "Attribute": 1,
-    "Energe": 0,
-    "Type": 4,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 5,
-    "img_path": "Wolfox_R",
-    "Name": "여우늑대",
-    "HP": 5000,
-    "ATK": 5000,
-    "Attribute": 1,
-    "Energe": 0,
-    "Type": 4,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 6,
-    "img_path": "Flowerlion_R",
-    "Name": "해바라기 사자",
-    "HP": 5500,
-    "ATK": 4500,
-    "Attribute": 1,
-    "Energe": 0,
-    "Type": 3,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 7,
-    "img_path": "Flowerman_R",
-    "Name": "크리수트멈",
-    "HP": 6000,
-    "ATK": 6000,
-    "Attribute": 1,
-    "Energe": 0,
-    "Type": 2,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 8,
-    "img_path": "Behemoth_R",
-    "Name": "베헤모스",
-    "HP": 5500,
-    "ATK": 7000,
-    "Attribute": 1,
-    "Energe": 0,
-    "Type": 1,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 9,
-    "img_path": "Crazy_1",
-    "Name": "폭주하는 영술사",
-    "HP": 4500,
-    "ATK": 5500,
-    "Attribute": 1,
-    "Energe": 0,
-    "Type": 1,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 1,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 10,
-    "img_path": "Yangban_1",
-    "Name": "지방 영주",
-    "HP": 5500,
-    "ATK": 4500,
-    "Attribute": 1,
-    "Energe": 0,
-    "Type": 2,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 1,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 11,
-    "img_path": "",
-    "Name": "폭주하는 로봇",
-    "HP": 6000,
-    "ATK": 4000,
-    "Attribute": 1,
-    "Energe": 0,
-    "Type": 2,
-    "Episode": 2,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 12,
-    "img_path": "",
-    "Name": "행동 대장 로봇",
-    "HP": 6000,
-    "ATK": 6000,
-    "Attribute": 1,
-    "Energe": 0,
-    "Type": 3,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 13,
-    "img_path": "Raptor_R",
-    "Name": "랩터",
-    "HP": 4000,
-    "ATK": 6000,
-    "Attribute": 1,
-    "Energe": 0,
-    "Type": 4,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 14,
-    "img_path": "soldier_2",
-    "Name": "지방 포졸",
-    "HP": 4000,
-    "ATK": 6000,
-    "Attribute": 2,
-    "Energe": 0,
-    "Type": 3,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 1,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 15,
-    "img_path": "Attack_Robot_B",
-    "Name": "공격형 로봇",
-    "HP": 4500,
-    "ATK": 5500,
-    "Attribute": 2,
-    "Energe": 0,
-    "Type": 1,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 16,
-    "img_path": "Defence_Robot_B",
-    "Name": "수비형 로봇",
-    "HP": 5500,
-    "ATK": 4500,
-    "Attribute": 2,
-    "Energe": 0,
-    "Type": 2,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 17,
-    "img_path": "Repair_Robot_B",
-    "Name": "회복형 로봇",
-    "HP": 4500,
-    "ATK": 5500,
-    "Attribute": 2,
-    "Energe": 0,
-    "Type": 3,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 18,
-    "img_path": "",
-    "Name": "완성형 로봇",
-    "HP": 5000,
-    "ATK": 5000,
-    "Attribute": 2,
-    "Energe": 0,
-    "Type": 4,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 19,
-    "img_path": "Wolfox_B",
-    "Name": "여우늑대",
-    "HP": 5000,
-    "ATK": 5000,
-    "Attribute": 2,
-    "Energe": 0,
-    "Type": 4,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 20,
-    "img_path": "Flowerlion_B",
-    "Name": "해바라기 사자",
-    "HP": 5500,
-    "ATK": 4500,
-    "Attribute": 2,
-    "Energe": 0,
-    "Type": 2,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 21,
-    "img_path": "Flowerman_B",
-    "Name": "크리수트멈",
-    "HP": 6000,
-    "ATK": 6000,
-    "Attribute": 2,
-    "Energe": 0,
-    "Type": 1,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 22,
-    "img_path": "Behemoth_B",
-    "Name": "베헤모스",
-    "HP": 5500,
-    "ATK": 7000,
-    "Attribute": 2,
-    "Energe": 0,
-    "Type": 4,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 23,
-    "img_path": "Crazy_2",
-    "Name": "폭주하는 영술사",
-    "HP": 4500,
-    "ATK": 5500,
-    "Attribute": 2,
-    "Energe": 0,
-    "Type": 2,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 1,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 24,
-    "img_path": "",
-    "Name": "폭주하는 로봇",
-    "HP": 6000,
-    "ATK": 4000,
-    "Attribute": 2,
-    "Energe": 0,
-    "Type": 1,
-    "Episode": 2,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 25,
-    "img_path": "BigMan_2",
-    "Name": "떠돌이 용병",
-    "HP": 6000,
-    "ATK": 4000,
-    "Attribute": 2,
-    "Energe": 0,
-    "Type": 2,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 1,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 26,
-    "img_path": "Legfish_B",
-    "Name": "다리 달린 고등어",
-    "HP": 5500,
-    "ATK": 4500,
-    "Attribute": 2,
-    "Energe": 0,
-    "Type": 3,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 27,
-    "img_path": "Raptor_B",
-    "Name": "랩터",
-    "HP": 4000,
-    "ATK": 6000,
-    "Attribute": 2,
-    "Energe": 0,
-    "Type": 1,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 28,
-    "img_path": "soldier_3",
-    "Name": "지방 포졸",
-    "HP": 4000,
-    "ATK": 6000,
-    "Attribute": 3,
-    "Energe": 0,
-    "Type": 2,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 1,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 29,
-    "img_path": "Attack_Robot_G",
-    "Name": "공격형 로봇",
-    "HP": 4500,
-    "ATK": 5500,
-    "Attribute": 3,
-    "Energe": 0,
-    "Type": 1,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 30,
-    "img_path": "Defence_Robot_G",
-    "Name": "수비형 로봇",
-    "HP": 5500,
-    "ATK": 4500,
-    "Attribute": 3,
-    "Energe": 0,
-    "Type": 2,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 31,
-    "img_path": "Repair_Robot_G",
-    "Name": "회복형 로봇",
-    "HP": 4500,
-    "ATK": 5500,
-    "Attribute": 3,
-    "Energe": 0,
-    "Type": 3,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 32,
-    "img_path": "",
-    "Name": "완성형 로봇",
-    "HP": 5000,
-    "ATK": 5000,
-    "Attribute": 3,
-    "Energe": 0,
-    "Type": 4,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 33,
-    "img_path": "Wolfox_G",
-    "Name": "여우늑대",
-    "HP": 5000,
-    "ATK": 5000,
-    "Attribute": 3,
-    "Energe": 0,
-    "Type": 2,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 34,
-    "img_path": "Flowerlion_G",
-    "Name": "해바라기 사자",
-    "HP": 5500,
-    "ATK": 4500,
-    "Attribute": 3,
-    "Energe": 0,
-    "Type": 1,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 35,
-    "img_path": "Flowerman_G",
-    "Name": "크리수트멈",
-    "HP": 6000,
-    "ATK": 6000,
-    "Attribute": 3,
-    "Energe": 0,
-    "Type": 3,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 36,
-    "img_path": "Behemoth_G",
-    "Name": "베헤모스",
-    "HP": 5500,
-    "ATK": 7000,
-    "Attribute": 3,
-    "Energe": 0,
-    "Type": 3,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 37,
-    "img_path": "BigMan_3",
-    "Name": "떠돌이 용병",
-    "HP": 6000,
-    "ATK": 4000,
-    "Attribute": 3,
-    "Energe": 0,
-    "Type": 4,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 1,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 38,
-    "img_path": "Yangban_3",
-    "Name": "지방 영주",
-    "HP": 5500,
-    "ATK": 4500,
-    "Attribute": 3,
-    "Energe": 0,
-    "Type": 3,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 1,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 39,
-    "img_path": "",
-    "Name": "행동 대장 로봇",
-    "HP": 5000,
-    "ATK": 5000,
-    "Attribute": 3,
-    "Energe": 0,
-    "Type": 1,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 40,
-    "img_path": "Legfish_G",
-    "Name": "다리 달린 고등어",
-    "HP": 5500,
-    "ATK": 4500,
-    "Attribute": 3,
-    "Energe": 0,
-    "Type": 4,
-    "Episode": 1,
-    "Appear": 4,
-    "Upgrade": 0,
-    "Star": 1,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0225
-  },
-  {
-    "idx": 41,
-    "img_path": "Plantiger",
-    "Name": "깊이 뿌리 박은 산의 주인 플랜타이거",
-    "HP": 5500,
-    "ATK": 6000,
-    "Attribute": 3,
-    "Energe": 0,
-    "Type": 2,
-    "Episode": 1,
-    "Appear": 3,
-    "Upgrade": 0,
-    "Star": 2,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0083
-  },
-  {
-    "idx": 42,
-    "img_path": "present_Imin",
-    "Name": "떠받드는 검 임인",
-    "HP": 6000,
-    "ATK": 5500,
-    "Attribute": 2,
-    "Energe": 0,
-    "Type": 2,
-    "Episode": 1,
-    "Appear": 1,
-    "Upgrade": 0,
-    "Star": 2,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 1,
-    "AppearProb": 0.0083
-  },
-  {
-    "idx": 43,
-    "img_path": "present_SamiDare",
-    "Name": "밝게 빛나는 요화 사미 & 다레",
-    "HP": 4500,
-    "ATK": 7000,
-    "Attribute": 1,
-    "Energe": 0,
-    "Type": 1,
-    "Episode": 1,
-    "Appear": 1,
-    "Upgrade": 0,
-    "Star": 2,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 1,
-    "AppearProb": 0.0083
-  },
-  {
-    "idx": 44,
-    "img_path": "present_Crocell",
-    "Name": "조소를 덮어쓴 크로셀",
-    "HP": 5500,
-    "ATK": 6000,
-    "Attribute": 1,
-    "Energe": 0,
-    "Type": 1,
-    "Episode": 1,
-    "Appear": 2,
-    "Upgrade": 0,
-    "Star": 2,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0083
-  },
-  {
-    "idx": 45,
-    "img_path": "BIBI",
-    "Name": "개화의 순간을 그려내다 비비",
-    "HP": 6000,
-    "ATK": 5500,
-    "Attribute": 3,
-    "Energe": 0,
-    "Type": 3,
-    "Episode": 1,
-    "Appear": 3,
-    "Upgrade": 0,
-    "Star": 2,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0083
-  },
-  {
-    "idx": 46,
-    "img_path": "present_Bernard",
-    "Name": "건곤일색 배척자 베르나르도",
-    "HP": 6000,
-    "ATK": 5500,
-    "Attribute": 2,
-    "Energe": 0,
-    "Type": 4,
-    "Episode": 1,
-    "Appear": 2,
-    "Upgrade": 0,
-    "Star": 2,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0083
-  },
-  {
-    "idx": 47,
-    "img_path": "present_Hoyeon",
-    "Name": "월령국을 지지하는 거목 호연",
-    "HP": 7500,
-    "ATK": 5500,
-    "Attribute": 2,
-    "Energe": 0,
-    "Type": 2,
-    "Episode": 1,
-    "Appear": 1,
-    "Upgrade": 0,
-    "Star": 3,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 1,
-    "AppearProb": 0.0049
-  },
-  {
-    "idx": 48,
-    "img_path": "present_Lionheart_BG",
-    "Name": "안녕을 지키는 거대한 방패 라이언하트",
-    "HP": 8000,
-    "ATK": 5000,
-    "Attribute": 3,
-    "Energe": 0,
-    "Type": 2,
-    "Episode": 1,
-    "Appear": 3,
-    "Upgrade": 0,
-    "Star": 3,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0049
-  },
-  {
-    "idx": 49,
-    "img_path": "present_Beatrice_effect",
-    "Name": "빛을 쫓는 선정의 영애 베아트리체",
-    "HP": 5500,
-    "ATK": 7500,
-    "Attribute": 3,
-    "Energe": 0,
-    "Type": 1,
-    "Episode": 1,
-    "Appear": 2,
-    "Upgrade": 0,
-    "Star": 3,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0049
-  },
-  {
-    "idx": 50,
-    "img_path": "present_Ramiel_effect",
-    "Name": "척화 속에서 남은 잔불 라미엘 : Completed",
-    "HP": 7000,
-    "ATK": 6000,
-    "Attribute": 1,
-    "Energe": 0,
-    "Type": 1,
-    "Episode": 1,
-    "Appear": 2,
-    "Upgrade": 0,
-    "Star": 3,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 2,
-    "AppearProb": 0.0049
-  },
-  {
-    "idx": 51,
-    "img_path": "present_Astarote_BG",
-    "Name": "수많은 생명을 품는 날개 아스타로테",
-    "HP": 6500,
-    "ATK": 6500,
-    "Attribute": 3,
-    "Energe": 0,
-    "Type": 3,
-    "Episode": 1,
-    "Appear": 3,
-    "Upgrade": 0,
-    "Star": 3,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 3,
-    "AppearProb": 0.0049
-  },
-  {
-    "idx": 52,
-    "img_path": "present_LeeRang",
-    "Name": "다시 숨쉬는 고대 속 지혜 이랑",
-    "HP": 6000,
-    "ATK": 7000,
-    "Attribute": 2,
-    "Energe": 0,
-    "Type": 4,
-    "Episode": 1,
-    "Appear": 1,
-    "Upgrade": 0,
-    "Star": 3,
-    "Same": 0,
-    "IsAction": 1,
-    "Stage": 1,
-    "AppearProb": 0.0032
-  },
-  {
-    "idx": "",
-    "img_path": "",
-    "Name": "",
-    "HP": "",
-    "ATK": "",
-    "Attribute": "",
-    "Energe": "",
-    "Type": "",
-    "Episode": "",
-    "Appear": "",
-    "Upgrade": "",
-    "Star": "",
-    "Same": "",
-    "IsAction": "",
-    "Stage": "",
-    "AppearProb": 1
-  }
+        {
+            "idx": 0,
+            "img_path": "soldier_1",
+            "Name": "지방 포졸",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 15754
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 1,
+            "img_path": "Attack_Robot_R",
+            "Name": "공격형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 2,
+            "img_path": "Defence_Robot_R",
+            "Name": "수비형 로봇",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 3,
+            "img_path": "Repair_Robot_R",
+            "Name": "회복형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 4,
+            "img_path": "",
+            "Name": "완성형 로봇",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 5,
+            "img_path": "Wolfox_R",
+            "Name": "여우늑대",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 6,
+            "img_path": "Flowerlion_R",
+            "Name": "해바라기 사자",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 7,
+            "img_path": "Flowerman_R",
+            "Name": "크리수트멈",
+            "HP": 6000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 8,
+            "img_path": "Behemoth_R",
+            "Name": "베헤모스",
+            "HP": 5500,
+            "ATK": 7000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 9,
+            "img_path": "Crazy_1",
+            "Name": "폭주하는 영술사",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 15742
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 10,
+            "img_path": "Yangban_1",
+            "Name": "지방 영주",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 15778
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 11,
+            "img_path": "",
+            "Name": "폭주하는 로봇",
+            "HP": 6000,
+            "ATK": 4000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 12,
+            "img_path": "",
+            "Name": "행동 대장 로봇",
+            "HP": 6000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 13,
+            "img_path": "Raptor_R",
+            "Name": "랩터",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 14,
+            "img_path": "soldier_2",
+            "Name": "지방 포졸",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 15758
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 15,
+            "img_path": "Attack_Robot_B",
+            "Name": "공격형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 16,
+            "img_path": "Defence_Robot_B",
+            "Name": "수비형 로봇",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 17,
+            "img_path": "Repair_Robot_B",
+            "Name": "회복형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 18,
+            "img_path": "",
+            "Name": "완성형 로봇",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 19,
+            "img_path": "Wolfox_B",
+            "Name": "여우늑대",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 20,
+            "img_path": "Flowerlion_B",
+            "Name": "해바라기 사자",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 21,
+            "img_path": "Flowerman_B",
+            "Name": "크리수트멈",
+            "HP": 6000,
+            "ATK": 6000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 22,
+            "img_path": "Behemoth_B",
+            "Name": "베헤모스",
+            "HP": 5500,
+            "ATK": 7000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 23,
+            "img_path": "Crazy_2",
+            "Name": "폭주하는 영술사",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 15746
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 24,
+            "img_path": "",
+            "Name": "폭주하는 로봇",
+            "HP": 6000,
+            "ATK": 4000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 1,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 25,
+            "img_path": "BigMan_2",
+            "Name": "떠돌이 용병",
+            "HP": 6000,
+            "ATK": 4000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 15734
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 26,
+            "img_path": "Legfish_B",
+            "Name": "다리 달린 고등어",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 27,
+            "img_path": "Raptor_B",
+            "Name": "랩터",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 28,
+            "img_path": "soldier_3",
+            "Name": "지방 포졸",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 15762
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 29,
+            "img_path": "Attack_Robot_G",
+            "Name": "공격형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 30,
+            "img_path": "Defence_Robot_G",
+            "Name": "수비형 로봇",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 31,
+            "img_path": "Repair_Robot_G",
+            "Name": "회복형 로봇",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 32,
+            "img_path": "",
+            "Name": "완성형 로봇",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 33,
+            "img_path": "Wolfox_G",
+            "Name": "여우늑대",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 34,
+            "img_path": "Flowerlion_G",
+            "Name": "해바라기 사자",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 35,
+            "img_path": "Flowerman_G",
+            "Name": "크리수트멈",
+            "HP": 6000,
+            "ATK": 6000,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 36,
+            "img_path": "Behemoth_G",
+            "Name": "베헤모스",
+            "HP": 5500,
+            "ATK": 7000,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 37,
+            "img_path": "BigMan_3",
+            "Name": "떠돌이 용병",
+            "HP": 6000,
+            "ATK": 4000,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 15738
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 38,
+            "img_path": "Yangban_3",
+            "Name": "지방 영주",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 15786
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 39,
+            "img_path": "",
+            "Name": "행동 대장 로봇",
+            "HP": 5000,
+            "ATK": 5000,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 40,
+            "img_path": "Legfish_G",
+            "Name": "다리 달린 고등어",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 41,
+            "img_path": "Plantiger",
+            "Name": "깊이 뿌리 박은 산의 주인 플랜타이거",
+            "HP": 5500,
+            "ATK": 6000,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 3,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.008299999870359898
+        },
+        {
+            "idx": 42,
+            "img_path": "present_Imin",
+            "Name": "떠받드는 검 임인",
+            "HP": 6000,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 1,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1,
+            "AppearProb": 0.008299999870359898
+        },
+        {
+            "idx": 43,
+            "img_path": "present_SamiDare",
+            "Name": "밝게 빛나는 요화 사미 & 다레",
+            "HP": 4500,
+            "ATK": 7000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 1,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1,
+            "AppearProb": 0.008299999870359898
+        },
+        {
+            "idx": 44,
+            "img_path": "present_Crocell",
+            "Name": "조소를 덮어쓴 크로셀",
+            "HP": 5500,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 2,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.008299999870359898
+        },
+        {
+            "idx": 45,
+            "img_path": "BIBI",
+            "Name": "개화의 순간을 그려내다 비비",
+            "HP": 6000,
+            "ATK": 5500,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 3,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.008299999870359898
+        },
+        {
+            "idx": 46,
+            "img_path": "present_Bernard",
+            "Name": "건곤일색 배척자 베르나르도",
+            "HP": 6000,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 2,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.008299999870359898
+        },
+        {
+            "idx": 47,
+            "img_path": "present_Hoyeon",
+            "Name": "월령국을 지지하는 거목 호연",
+            "HP": 7500,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 1,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1,
+            "AppearProb": 0.004900000058114529
+        },
+        {
+            "idx": 48,
+            "img_path": "present_Lionheart_BG",
+            "Name": "안녕을 지키는 거대한 방패 라이언하트",
+            "HP": 8000,
+            "ATK": 5000,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 3,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.004900000058114529
+        },
+        {
+            "idx": 49,
+            "img_path": "present_Beatrice_effect",
+            "Name": "빛을 쫓는 선정의 영애 베아트리체",
+            "HP": 5500,
+            "ATK": 7500,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 2,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.004900000058114529
+        },
+        {
+            "idx": 50,
+            "img_path": "present_Ramiel_effect",
+            "Name": "척화 속에서 남은 잔불 라미엘 : Completed",
+            "HP": 7000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 2,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 2,
+            "AppearProb": 0.004900000058114529
+        },
+        {
+            "idx": 51,
+            "img_path": "present_Astarote_BG",
+            "Name": "수많은 생명을 품는 날개 아스타로테",
+            "HP": 6500,
+            "ATK": 6500,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 3,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 3,
+            "AppearProb": 0.004900000058114529
+        },
+        {
+            "idx": 52,
+            "img_path": "present_LeeRang",
+            "Name": "다시 숨쉬는 고대 속 지혜 이랑",
+            "HP": 6000,
+            "ATK": 7000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 1,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 3,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 1,
+            "AppearProb": 0.0031999999191612007
+        },
+        {
+            "idx": 0,
+            "img_path": "",
+            "Name": "",
+            "HP": 0,
+            "ATK": 0,
+            "Attribute": 0,
+            "Energe": 0,
+            "Appear": 0,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 0,
+            "IsAction": 0,
+            "Img": {
+                "instanceID": 0
+            },
+            "Stage": 0,
+            "AppearProb": 1.0
+        }
     ],
     "CharacterSkill": [
         {
@@ -17384,2052 +17833,2238 @@
         }
     ],
     "QuestData": [
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 1,
-    "MonsterIndex": 2,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 3,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 4,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 1,
-    "MonsterIndex": 5,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 6,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 7,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 1,
-    "MonsterIndex": 8,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 9,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 10,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 1,
-    "Stage": 2,
-    "Difficulty": 1,
-    "Type": 1,
-    "MonsterIndex": 11,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 1,
-    "Stage": 2,
-    "Difficulty": 1,
-    "Type": 1,
-    "MonsterIndex": 11,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 1,
-    "Stage": 2,
-    "Difficulty": 2,
-    "Type": 1,
-    "MonsterIndex": 12,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 1,
-    "Stage": 2,
-    "Difficulty": 2,
-    "Type": 1,
-    "MonsterIndex": 12,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 1,
-    "Stage": 2,
-    "Difficulty": 3,
-    "Type": 1,
-    "MonsterIndex": 13,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 1,
-    "Stage": 2,
-    "Difficulty": 3,
-    "Type": 1,
-    "MonsterIndex": 13,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 1,
-    "Type": 1,
-    "MonsterIndex": 14,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 2,
-    "Type": 1,
-    "MonsterIndex": 15,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 3,
-    "Type": 1,
-    "MonsterIndex": 16,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 5,
-    "MonsterIndex": 17,
-    "ItemDrop": 1,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 5,
-    "MonsterIndex": 20,
-    "ItemDrop": 1,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 5,
-    "MonsterIndex": 23,
-    "ItemDrop": 1,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 5,
-    "MonsterIndex": 18,
-    "ItemDrop": 1,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 5,
-    "MonsterIndex": 21,
-    "ItemDrop": 1,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 5,
-    "MonsterIndex": 24,
-    "ItemDrop": 1,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 5,
-    "MonsterIndex": 19,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 5,
-    "MonsterIndex": 22,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 5,
-    "MonsterIndex": 25,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 2,
-    "Stage": 2,
-    "Difficulty": 1,
-    "Type": 1,
-    "MonsterIndex": 26,
-    "ItemDrop": 1,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 2,
-    "Stage": 2,
-    "Difficulty": 2,
-    "Type": 1,
-    "MonsterIndex": 27,
-    "ItemDrop": 1,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 2,
-    "Stage": 2,
-    "Difficulty": 3,
-    "Type": 1,
-    "MonsterIndex": 28,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 2,
-    "Stage": 3,
-    "Difficulty": 1,
-    "Type": 5,
-    "MonsterIndex": 29,
-    "ItemDrop": 1,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 2,
-    "Stage": 3,
-    "Difficulty": 2,
-    "Type": 5,
-    "MonsterIndex": 30,
-    "ItemDrop": 1,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 2,
-    "Stage": 3,
-    "Difficulty": 3,
-    "Type": 5,
-    "MonsterIndex": 31,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 1,
-    "MonsterIndex": 32,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 1,
-    "MonsterIndex": 35,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 1,
-    "MonsterIndex": 33,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 1,
-    "MonsterIndex": 36,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 1,
-    "MonsterIndex": 34,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 1,
-    "MonsterIndex": 37,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 2,
-    "Difficulty": 1,
-    "Type": 1,
-    "MonsterIndex": 38,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 2,
-    "Difficulty": 2,
-    "Type": 1,
-    "MonsterIndex": 39,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 2,
-    "Difficulty": 3,
-    "Type": 1,
-    "MonsterIndex": 40,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 41,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 41,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 41,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 42,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 42,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 42,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 43,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 43,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 43,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 4,
-    "Difficulty": 1,
-    "Type": 1,
-    "MonsterIndex": 44,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 4,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 47,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 4,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 47,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 4,
-    "Difficulty": 2,
-    "Type": 1,
-    "MonsterIndex": 45,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 4,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 48,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 4,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 48,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 4,
-    "Difficulty": 3,
-    "Type": 1,
-    "MonsterIndex": 46,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 4,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 49,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "월령",
-    "Quest": 3,
-    "Stage": 4,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 49,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 50,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 50,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 51,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 51,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 52,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 52,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 1,
-    "Stage": 2,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 53,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 1,
-    "Stage": 2,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 54,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 1,
-    "Stage": 2,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 55,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 50,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 53,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 56,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 51,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 54,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 57,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 52,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 55,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 58,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 62,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 62,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 62,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 62,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 63,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 63,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 63,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 63,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 64,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 64,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 64,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 64,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 2,
-    "Stage": 2,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 65,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 2,
-    "Stage": 2,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 66,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 2,
-    "Stage": 2,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 67,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 68,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 68,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 68,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 69,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 69,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 69,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 70,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 70,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 70,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 2,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 59,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 2,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 71,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 2,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 60,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 2,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 72,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 2,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 61,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 2,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 73,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 74,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 74,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 77,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 75,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 75,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 78,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 76,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 76,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "엠피레오",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 79,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 80,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 80,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 81,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 81,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 82,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 1,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 82,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 1,
-    "Stage": 2,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 86,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 1,
-    "Stage": 2,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 87,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 1,
-    "Stage": 2,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 88,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 80,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 80,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 86,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 81,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 81,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 87,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 82,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 82,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 1,
-    "Stage": 3,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 88,
-    "ItemDrop": 0,
-    "DropPercent": 0
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 95,
-    "ItemDrop": 1,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 95,
-    "ItemDrop": 1,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 95,
-    "ItemDrop": 1,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 96,
-    "ItemDrop": 1,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 96,
-    "ItemDrop": 1,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 96,
-    "ItemDrop": 1,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 97,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 97,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 97,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 2,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 104,
-    "ItemDrop": 1,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 2,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 104,
-    "ItemDrop": 1,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 2,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 105,
-    "ItemDrop": 1,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 2,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 105,
-    "ItemDrop": 1,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 2,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 106,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 2,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 106,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 3,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 98,
-    "ItemDrop": 1,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 3,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 107,
-    "ItemDrop": 1,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 3,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 107,
-    "ItemDrop": 1,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 3,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 99,
-    "ItemDrop": 1,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 3,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 108,
-    "ItemDrop": 1,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 3,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 108,
-    "ItemDrop": 1,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 3,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 100,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 3,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 109,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 2,
-    "Stage": 3,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 109,
-    "ItemDrop": 1,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 113,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 89,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 114,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 90,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 115,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 1,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 91,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 2,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 116,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 2,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 83,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 2,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 101,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 2,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 117,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 2,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 84,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 2,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 102,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 2,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 118,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 2,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 85,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 2,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 103,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 119,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 110,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 120,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 111,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 121,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 3,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 112,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 4,
-    "Difficulty": 1,
-    "Type": 3,
-    "MonsterIndex": 122,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 4,
-    "Difficulty": 1,
-    "Type": 2,
-    "MonsterIndex": 125,
-    "ItemDrop": 2,
-    "DropPercent": 25
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 4,
-    "Difficulty": 2,
-    "Type": 3,
-    "MonsterIndex": 123,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 4,
-    "Difficulty": 2,
-    "Type": 2,
-    "MonsterIndex": 126,
-    "ItemDrop": 2,
-    "DropPercent": 40
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 4,
-    "Difficulty": 3,
-    "Type": 3,
-    "MonsterIndex": 124,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  },
-  {
-    "Appear": "현재",
-    "Episode": "제한구역",
-    "Quest": 3,
-    "Stage": 4,
-    "Difficulty": 3,
-    "Type": 2,
-    "MonsterIndex": 127,
-    "ItemDrop": 2,
-    "DropPercent": 65
-  }
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 1,
+            "MonsterIndex": 2,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 3,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 4,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 1,
+            "MonsterIndex": 5,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 6,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 7,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 1,
+            "MonsterIndex": 8,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 9,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 10,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 1,
+            "Stage": 2,
+            "Difficulty": 1,
+            "Type": 1,
+            "MonsterIndex": 11,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 1,
+            "Stage": 2,
+            "Difficulty": 1,
+            "Type": 1,
+            "MonsterIndex": 11,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 1,
+            "Stage": 2,
+            "Difficulty": 2,
+            "Type": 1,
+            "MonsterIndex": 12,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 1,
+            "Stage": 2,
+            "Difficulty": 2,
+            "Type": 1,
+            "MonsterIndex": 12,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 1,
+            "Stage": 2,
+            "Difficulty": 3,
+            "Type": 1,
+            "MonsterIndex": 13,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 1,
+            "Stage": 2,
+            "Difficulty": 3,
+            "Type": 1,
+            "MonsterIndex": 13,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 1,
+            "Type": 1,
+            "MonsterIndex": 14,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 2,
+            "Type": 1,
+            "MonsterIndex": 15,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 3,
+            "Type": 1,
+            "MonsterIndex": 16,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 5,
+            "MonsterIndex": 17,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 5,
+            "MonsterIndex": 20,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 5,
+            "MonsterIndex": 23,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 5,
+            "MonsterIndex": 18,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 5,
+            "MonsterIndex": 21,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 5,
+            "MonsterIndex": 24,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 5,
+            "MonsterIndex": 19,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 5,
+            "MonsterIndex": 22,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 5,
+            "MonsterIndex": 25,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 2,
+            "Stage": 2,
+            "Difficulty": 1,
+            "Type": 1,
+            "MonsterIndex": 26,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 2,
+            "Stage": 2,
+            "Difficulty": 2,
+            "Type": 1,
+            "MonsterIndex": 27,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 2,
+            "Stage": 2,
+            "Difficulty": 3,
+            "Type": 1,
+            "MonsterIndex": 28,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 2,
+            "Stage": 3,
+            "Difficulty": 1,
+            "Type": 5,
+            "MonsterIndex": 29,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 2,
+            "Stage": 3,
+            "Difficulty": 2,
+            "Type": 5,
+            "MonsterIndex": 30,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 2,
+            "Stage": 3,
+            "Difficulty": 3,
+            "Type": 5,
+            "MonsterIndex": 31,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 1,
+            "MonsterIndex": 32,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 1,
+            "MonsterIndex": 35,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 1,
+            "MonsterIndex": 33,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 1,
+            "MonsterIndex": 36,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 1,
+            "MonsterIndex": 34,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 1,
+            "MonsterIndex": 37,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 2,
+            "Difficulty": 1,
+            "Type": 1,
+            "MonsterIndex": 38,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 2,
+            "Difficulty": 2,
+            "Type": 1,
+            "MonsterIndex": 39,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 2,
+            "Difficulty": 3,
+            "Type": 1,
+            "MonsterIndex": 40,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 41,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 41,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 41,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 42,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 42,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 42,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 43,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 43,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 43,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 4,
+            "Difficulty": 1,
+            "Type": 1,
+            "MonsterIndex": 44,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 4,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 47,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 4,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 47,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 4,
+            "Difficulty": 2,
+            "Type": 1,
+            "MonsterIndex": 45,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 4,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 48,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 4,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 48,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 4,
+            "Difficulty": 3,
+            "Type": 1,
+            "MonsterIndex": 46,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 4,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 49,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "월령",
+            "Quest": 3,
+            "Stage": 4,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 49,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 50,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 50,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 51,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 51,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 52,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 52,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 1,
+            "Stage": 2,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 53,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 1,
+            "Stage": 2,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 54,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 1,
+            "Stage": 2,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 55,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 50,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 53,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 56,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 51,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 54,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 57,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 52,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 55,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 58,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 62,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 62,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 62,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 62,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 63,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 63,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 63,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 63,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 64,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 64,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 64,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 64,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 2,
+            "Stage": 2,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 65,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 2,
+            "Stage": 2,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 66,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 2,
+            "Stage": 2,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 67,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 68,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 68,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 68,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 69,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 69,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 69,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 70,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 70,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 70,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 2,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 59,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 2,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 71,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 2,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 60,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 2,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 72,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 2,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 61,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 2,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 73,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 74,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 74,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 77,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 75,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 75,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 78,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 76,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 76,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "엠피레오",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 79,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 80,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 80,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 81,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 81,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 82,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 1,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 82,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 1,
+            "Stage": 2,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 86,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 1,
+            "Stage": 2,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 87,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 1,
+            "Stage": 2,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 88,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 80,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 80,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 86,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 81,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 81,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 87,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 82,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 82,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 1,
+            "Stage": 3,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 88,
+            "Clear": 0,
+            "ItemDrop": 0,
+            "DropPercent": 0
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 95,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 95,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 95,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 96,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 96,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 96,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 97,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 97,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 97,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 2,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 104,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 2,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 104,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 2,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 105,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 2,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 105,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 2,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 106,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 2,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 106,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 3,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 98,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 3,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 107,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 3,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 107,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 3,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 99,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 3,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 108,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 3,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 108,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 3,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 100,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 3,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 109,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 2,
+            "Stage": 3,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 109,
+            "Clear": 0,
+            "ItemDrop": 1,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 113,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 89,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 114,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 90,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 115,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 1,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 91,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 2,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 116,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 2,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 83,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 2,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 101,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 2,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 117,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 2,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 84,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 2,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 102,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 2,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 118,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 2,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 85,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 2,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 103,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 119,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 110,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 120,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 111,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 121,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 3,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 112,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 4,
+            "Difficulty": 1,
+            "Type": 3,
+            "MonsterIndex": 122,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 4,
+            "Difficulty": 1,
+            "Type": 2,
+            "MonsterIndex": 125,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 25
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 4,
+            "Difficulty": 2,
+            "Type": 3,
+            "MonsterIndex": 123,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 4,
+            "Difficulty": 2,
+            "Type": 2,
+            "MonsterIndex": 126,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 40
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 4,
+            "Difficulty": 3,
+            "Type": 3,
+            "MonsterIndex": 124,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        },
+        {
+            "Appear": "현재",
+            "Episode": "제한구역",
+            "Quest": 3,
+            "Stage": 4,
+            "Difficulty": 3,
+            "Type": 2,
+            "MonsterIndex": 127,
+            "Clear": 0,
+            "ItemDrop": 2,
+            "DropPercent": 65
+        }
     ],
     "clearInfo": [
         1,
@@ -19482,7 +20117,8 @@
             "Img": {
                 "instanceID": 15814
             },
-            "Stage": 1
+            "Stage": 1,
+            "AppearProb": 1.0
         },
         {
             "idx": 5,
@@ -19500,7 +20136,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 0
+            "Stage": 0,
+            "AppearProb": 1.0
         },
         {
             "idx": 41,
@@ -19518,7 +20155,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 0
+            "Stage": 0,
+            "AppearProb": 1.0
         },
         {
             "idx": 11,
@@ -19536,7 +20174,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 0
+            "Stage": 0,
+            "AppearProb": 1.0
         },
         {
             "idx": 21,
@@ -19554,7 +20193,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 0
+            "Stage": 0,
+            "AppearProb": 1.0
         },
         {
             "idx": 1,
@@ -19572,7 +20212,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 0
+            "Stage": 0,
+            "AppearProb": 1.0
         },
         {
             "idx": 1,
@@ -19590,7 +20231,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 0
+            "Stage": 0,
+            "AppearProb": 1.0
         },
         {
             "idx": 1,
@@ -19608,7 +20250,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 0
+            "Stage": 0,
+            "AppearProb": 1.0
         },
         {
             "idx": 23,
@@ -19626,7 +20269,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 0
+            "Stage": 0,
+            "AppearProb": 1.0
         },
         {
             "idx": 21,
@@ -19644,7 +20288,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 0
+            "Stage": 0,
+            "AppearProb": 1.0
         },
         {
             "idx": 41,
@@ -19662,7 +20307,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 0
+            "Stage": 0,
+            "AppearProb": 1.0
         },
         {
             "idx": 45,
@@ -19680,7 +20326,8 @@
             "Img": {
                 "instanceID": 0
             },
-            "Stage": 0
+            "Stage": 0,
+            "AppearProb": 1.0
         }
     ],
     "ui": {
