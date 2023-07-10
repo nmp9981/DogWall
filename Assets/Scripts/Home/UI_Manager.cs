@@ -35,6 +35,7 @@ public class UI_Manager : MonoBehaviour
 
     // About Unit Gacha
     int currency;
+    private int one_Popup_currency = 10;
     int currentDotPos = 0;
     public GameObject bannerImg;
     public List<GameObject> sliderDotsList;
@@ -448,14 +449,14 @@ public class UI_Manager : MonoBehaviour
 
     public void GachaBasicSetting()
     {
-        if(currentDotPos >= 0 && currentDotPos < 8) 
+        if(currentDotPos >= 0 && currentDotPos < 2) 
         { // Change dot imgs
             sliderDotsList[currentDotPos].GetComponent<Image>().sprite = fullDot;
             for (int i = 0; i < currentDotPos; i++)
             {
                 sliderDotsList[i].GetComponent<Image>().sprite = emptyDot;
             }
-            for (int i = 7; i > currentDotPos; i--)
+            for (int i = 1; i > currentDotPos; i--)
             {
                 sliderDotsList[i].GetComponent<Image>().sprite = emptyDot;
             }
@@ -466,7 +467,7 @@ public class UI_Manager : MonoBehaviour
         {
             leftBtn.GetComponent<Button>().interactable = true;
         }
-        if(currentDotPos != 7)
+        if(currentDotPos != 1)
         {
             rightBtn.GetComponent<Button>().interactable = true;
         }
@@ -487,7 +488,7 @@ public class UI_Manager : MonoBehaviour
     }
     public void SliderRightBtn()
     {
-        if (currentDotPos == 7)
+        if (currentDotPos == 1)
         {
             rightBtn.GetComponent<Button>().interactable = false;
         }
@@ -501,7 +502,7 @@ public class UI_Manager : MonoBehaviour
 
     public void OnePopBtn()
     {
-        if(currency >= 10)
+        if(currency >= one_Popup_currency)
         {
             mainbanner.SetActive(false);
             gachaResult.SetActive(true);
@@ -517,7 +518,7 @@ public class UI_Manager : MonoBehaviour
     }
     public void TenPopBtn()
     {
-        if(currency >= 100)
+        if(currency >= one_Popup_currency * 10)
         {
             mainbanner.SetActive(false);
             gachaResult.SetActive(true);
