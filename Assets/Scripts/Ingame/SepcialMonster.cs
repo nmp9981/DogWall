@@ -19,7 +19,7 @@ public class SepcialMonster : MonoBehaviour
     int[,] MobSpecialSkillTurn = new int[CharacterNum, 6];//턴 (행동불가,도발, 데스링크, 공격감소, 방어)
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         Data = GameObject.Find("Data_Managers").gameObject.GetComponent<DataManager>();//데이터 가져오기
         teamSelect = GameObject.FindWithTag("TeamSelect").GetComponent<TeamSelect>();//TeamSelect 스크립트에서 변수 가져오기
