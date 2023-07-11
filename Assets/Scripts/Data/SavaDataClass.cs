@@ -87,8 +87,9 @@ public class CharacterSkillIndexDataClass//스킬DB
     public bool HeartLink = false;//하트 링크 여부
     public bool DeathLink = false;//데스 링크 여부
     public int Energy = 1;//에너지 사용량
+    public int EffectType = 1;//스킬이펙트
 
-    public CharacterSkillIndexDataClass(string sn = "럭키세븐", int a = 0, int ca = 0, int dd = 0, int hh = 0, bool p = false, bool na = false, int he = 0, int b = 0,bool allt=false, int tc = 1,bool hli = false,bool dli = false, int e = 1)
+    public CharacterSkillIndexDataClass(string sn = "럭키세븐", int a = 0, int ca = 0, int dd = 0, int hh = 0, bool p = false, bool na = false, int he = 0, int b = 0,bool allt=false, int tc = 1,bool hli = false,bool dli = false, int e = 1,int et = 1)
     {
         this.Name = sn;
         this.Attack = a;
@@ -104,6 +105,7 @@ public class CharacterSkillIndexDataClass//스킬DB
         this.HeartLink = hli;
         this.DeathLink = dli;
         this.Energy = e;
+        this.EffectType = et;
     }
 }
 
@@ -123,6 +125,7 @@ public class MonstersDataClass//몬스터 DB
     public int turn3_general1 = 0;public int turn3_general2 = 0;public int turn3_special1 = 0;public int turn3_special2 = 0;
     public int turn4_general1 = 0;public int turn4_general2 = 0;public int turn4_special1 = 0;public int turn4_special2 = 0;
     public int turn5_general1 = 0;public int turn5_general2 = 0;public int turn5_special1 = 0;public int turn5_special2 = 0;
+    public string Img_Path = "";//이미지 경로
 
     public MonstersDataClass(string w = "월령", string n = "1", int d = 1 ,int t = 1, int h = 0, int at = 0,int tc= 1,
         int t0G1=0,int t0G2=0,int t0S1=0,int t0S2=0,
@@ -130,7 +133,7 @@ public class MonstersDataClass//몬스터 DB
         int t2G1 = 0, int t2G2 = 0, int t2S1 = 0, int t2S2 = 0,
         int t3G1 = 0, int t3G2 = 0, int t3S1 = 0, int t3S2 = 0,
         int t4G1 = 0, int t4G2 = 0, int t4S1 = 0, int t4S2 = 0,
-        int t5G1 = 0, int t5G2 = 0, int t5S1 = 0, int t5S2 = 0)
+        int t5G1 = 0, int t5G2 = 0, int t5S1 = 0, int t5S2 = 0, string imgPath = "")
     {
         this.World = w;
         this.Character = n;
@@ -145,6 +148,7 @@ public class MonstersDataClass//몬스터 DB
         this.turn3_general1 = t3G1;this.turn3_general2 = t3G2;this.turn3_special1 = t3S1;this.turn3_special2 = t3S2;
         this.turn4_general1 = t4G1;this.turn4_general2 = t4G2;this.turn4_special1 = t4S1;this.turn4_special2 = t4S2;
         this.turn5_general1 = t5G1;this.turn5_general2 = t5G2;this.turn5_special1 = t5S1;this.turn5_special2 = t5S2;
+        this.Img_Path = imgPath;
     }
 }
 public class BossMonsterDataClass//보스몬스터 DB
@@ -181,8 +185,9 @@ public class MonsterSkillDataClass
     public int HealHP = 0;//hp회복량
     public int HeartLink = 3000;//하트링크 데미지
     public int DeathLink = 3000;//데스링크 데미지
+    public int EffectType = 1;//스킬이펙트
 
-    public MonsterSkillDataClass( string name = null, int d = 1, int ac = 1,int b=1,int tc = 1,int a=1,int de=1,bool s = false,int hh=1,int hl = 1,int dl=1)
+    public MonsterSkillDataClass( string name = null, int d = 1, int ac = 1,int b=1,int tc = 1,int a=1,int de=1,bool s = false,int hh=1,int hl = 1,int dl=1,int ef = 1)
     {
         this.Name = name;
         this.Damage = d;
@@ -195,6 +200,7 @@ public class MonsterSkillDataClass
         this.HealHP = hh;
         this.HeartLink = hl;
         this.DeathLink = dl;
+        this.EffectType = ef;
     }
 }
 [System.Serializable]
@@ -212,8 +218,9 @@ public class MonsterSpeccialSkillDataClass
     public int Deathlink = 3000;//데스링크 데미지
     public bool Provocation = false;//도발여부
     public bool IsMaxHealth = false;//가장 체력이 높은 몬스터
+    public int EffectType = 1;//스킬이펙트
 
-    public MonsterSpeccialSkillDataClass(string name = null, int na = 1, int target=1, int tc = 1, int chaAtk = 1, int de = 1, bool s = false, int e = 1, int hl = 1, int dl = 1,bool prov=false,bool ismax=false)
+    public MonsterSpeccialSkillDataClass(string name = null, int na = 1, int target=1, int tc = 1, int chaAtk = 1, int de = 1, bool s = false, int e = 1, int hl = 1, int dl = 1,bool prov=false,bool ismax=false,int ef = 1)
     {
         this.Name = name;
         this.NotAction = na;
@@ -227,6 +234,7 @@ public class MonsterSpeccialSkillDataClass
         this.Deathlink = dl;
         this.Provocation = prov;
         this.IsMaxHealth = ismax;
+        this.EffectType = ef;
     }
 }
 [System.Serializable]
@@ -239,11 +247,10 @@ public class QuestInfo//쿼스트 데이터
     public int Difficulty = 0;
     public int Type = 0;
     public int MonsterIndex = 0;
-    public int Clear = 0;
     public int ItemDrop = 0;
     public int DropPercent = 0;
 
-    public QuestInfo(string appear, string episode, int quest, int stage, int difficulty, int type, int mobidx,int clear,int itemDrop,int dropPercent)
+    public QuestInfo(string appear, string episode, int quest, int stage, int difficulty, int type, int mobidx,int itemDrop,int dropPercent)
     {
         this.Appear = appear;
         this.Episode = episode;
@@ -252,7 +259,6 @@ public class QuestInfo//쿼스트 데이터
         this.Difficulty = difficulty;
         this.Type = type;
         this.MonsterIndex = mobidx;
-        this.Clear = clear;
         this.ItemDrop = itemDrop;
         this.DropPercent = dropPercent;
     }

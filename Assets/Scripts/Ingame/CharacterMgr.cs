@@ -87,10 +87,6 @@ public class CharacterMgr : MonoBehaviour
         PlayerHPManage();
         PlayerEnergeManage();
     }
-    public void PlayerAttackInfo(int num)
-    {
-        playerAttackText.text = "Attack : " + playerAttack[num].ToString("0");//화면에 보이게
-    }
     void PlayerHPManage()
     {
         playerHPText.text = "HP : " + playerHP.ToString("0");//화면에 보이게

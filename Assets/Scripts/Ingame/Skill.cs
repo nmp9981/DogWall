@@ -27,7 +27,7 @@ public class Skill : MonoBehaviour
     public int monsterDefense = 100;
 
 // Start is called before the first frame update
-void Start()
+void Awake()
     {
         Data = GameObject.Find("Data_Managers").gameObject.GetComponent<DataManager>();//데이터 가져오기
         turn = GameObject.FindWithTag("TurnMgr").GetComponent<Turn>();//Trun 스크립트에서 변수 가져오기
