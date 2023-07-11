@@ -39,7 +39,7 @@ public class Turn : MonoBehaviour
     #endregion
     Coroutine longClickCoroutine;
 
-    void Awake()
+    void Start()
     {
         for (int i = 0; i < 5; i++) playerSkillSelect.Add(0);
         for (int i = 0; i < 3; i++) getMoney.Add(0);//처음엔 0원
@@ -72,6 +72,7 @@ public class Turn : MonoBehaviour
     {
         turnNumber = number;
         teamNumber = teamSelect.selectedTeamNumber[number - 1];
+        characterMgr.PlayerAttackInfo(number-1);
         UISetting();
     }
 
@@ -124,9 +125,9 @@ public class Turn : MonoBehaviour
                     {
                         skillIndex = Data.saveData.CharacterSkill[playerSkillIndex].Skill1-2;//사용할 스킬 번호
                         skill.InitTurn(skillIndex, i);//턴 초기화
-                        totalDamage += skill.skillAttackDamage(skillIndex, teamN, i, 0);//데미지,(스킬 번호,사용 캐릭터,캐릭터 인덱스, 몬스터 인덱스)
-                        skill.TurnCountText(skillIndex, i);//남은 턴 수 나타내기
                         characterMgr.ColorCondition(skill.playerAttack, teamN);//캐릭터 상태 이상 색상 표시
+                        skill.TurnCountText(skillIndex, i);//남은 턴 수 나타내기
+                        totalDamage += skill.skillAttackDamage(skillIndex, teamN, i, 0);//데미지,(스킬 번호,사용 캐릭터,캐릭터 인덱스, 몬스터 인덱스)
                     }
                 }else if (j == 1)
                 {
@@ -134,9 +135,9 @@ public class Turn : MonoBehaviour
                     {
                         skillIndex = Data.saveData.CharacterSkill[playerSkillIndex].Skill2-2;
                         skill.InitTurn(skillIndex, i);//턴 초기화
-                        totalDamage += skill.skillAttackDamage(skillIndex, teamN, i, 0);//데미지,(스킬 번호,사용 캐릭터,캐릭터 인덱스, 몬스터 인덱스)
-                        skill.TurnCountText(skillIndex, i);//남은 턴 수 나타내기
                         characterMgr.ColorCondition(skill.playerAttack, teamN);//캐릭터 상태 이상 색상 표시
+                        skill.TurnCountText(skillIndex, i);//남은 턴 수 나타내기
+                        totalDamage += skill.skillAttackDamage(skillIndex, teamN, i, 0);//데미지,(스킬 번호,사용 캐릭터,캐릭터 인덱스, 몬스터 인덱스)
                     }
                 }
                 else if (j == 2)
@@ -145,9 +146,9 @@ public class Turn : MonoBehaviour
                     {
                         skillIndex = Data.saveData.CharacterSkill[playerSkillIndex].Skill3-2;
                         skill.InitTurn(skillIndex, i);//턴 초기화
-                        totalDamage += skill.skillAttackDamage(skillIndex, teamN, i, 0);//데미지,(스킬 번호,사용 캐릭터,캐릭터 인덱스, 몬스터 인덱스)
-                        skill.TurnCountText(skillIndex, i);//남은 턴 수 나타내기
                         characterMgr.ColorCondition(skill.playerAttack, teamN);//캐릭터 상태 이상 색상 표시
+                        skill.TurnCountText(skillIndex, i);//남은 턴 수 나타내기
+                        totalDamage += skill.skillAttackDamage(skillIndex, teamN, i, 0);//데미지,(스킬 번호,사용 캐릭터,캐릭터 인덱스, 몬스터 인덱스)
                     }
                 }
                 else if (j == 3)
@@ -156,9 +157,9 @@ public class Turn : MonoBehaviour
                     {
                         skillIndex = Data.saveData.CharacterSkill[playerSkillIndex].Skill4-2;
                         skill.InitTurn(skillIndex, i);//턴 초기화
-                        totalDamage += skill.skillAttackDamage(skillIndex, teamN, i, 0);//데미지,(스킬 번호,사용 캐릭터,캐릭터 인덱스, 몬스터 인덱스)
-                        skill.TurnCountText(skillIndex, i);//남은 턴 수 나타내기
                         characterMgr.ColorCondition(skill.playerAttack, teamN);//캐릭터 상태 이상 색상 표시
+                        skill.TurnCountText(skillIndex, i);//남은 턴 수 나타내기
+                        totalDamage += skill.skillAttackDamage(skillIndex, teamN, i, 0);//데미지,(스킬 번호,사용 캐릭터,캐릭터 인덱스, 몬스터 인덱스)
                     }
                 }
             }
@@ -271,8 +272,7 @@ public class Turn : MonoBehaviour
         skill_4E.SetActive(false);
         skipE.SetActive(false);
 
-        // 플레이어 초상화 선택 이펙트 관리
-        if (playerSkillSelect[0] == 0) player_1E.SetActive(false); 
+        if (playerSkillSelect[0] == 0) player_1E.SetActive(false); // 플레이어 초상화 선택 이펙트 관리
         else player_1E.SetActive(true);
         if (playerSkillSelect[1] == 0) player_2E.SetActive(false);
         else player_2E.SetActive(true);
