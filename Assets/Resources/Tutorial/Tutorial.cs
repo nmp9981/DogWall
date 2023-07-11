@@ -21,7 +21,7 @@ public class Tutorial : MonoBehaviour
     public void Init()
     {
         tuto = Resources.Load<Tutorial_Content>("Tutorial/Tutorial");
-        pages = tuto.Content.Count;
+        pages = tuto.Content.Count / 4;
         if(pages == 0)
         {
             L.gameObject.SetActive(false);
@@ -59,7 +59,12 @@ public class Tutorial : MonoBehaviour
 
     void page_update()
     {
-        content.text = tuto.Content[cur_page];
+        content.text = "";
+        for(int i = 0; i < 4; i++)
+        {
+            content.text += (tuto.Content[4 * cur_page + i] + "\n");
+        }
+        
         for(int i = 0; i < buttons.Count; i++)
         {
             if(i == cur_page)
