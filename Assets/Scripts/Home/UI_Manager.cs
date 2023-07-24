@@ -28,7 +28,7 @@ public class UI_Manager : MonoBehaviour
     int presentStatNum = 0;
     int futureStatNum = 0;
     int charUpgrade;
-    float[] possibility = {10f,20f,70f};//뽑기 확률 변수 저장하는 곳
+    float[] possibility = {2.5f,22.5f,75f};//뽑기 확률 변수 저장하는 곳
     public Text changeStat;
     public Text leftPiece;
     public Text usePiece;
@@ -38,8 +38,10 @@ public class UI_Manager : MonoBehaviour
     private int one_Popup_currency = 10;
     int currentDotPos = 0;
     public GameObject bannerImg;
+    public Transform Dots_Parent;
+    public GameObject sliderDot;
     public List<GameObject> sliderDotsList;
-    public List<Sprite> bannerImgList;
+    public Gatcha[] GatchaList;
     [SerializeField] Sprite fullDot, emptyDot;
     [SerializeField] GameObject leftBtn, rightBtn, mainbanner, gachaResult, alertPop;
 
@@ -68,7 +70,7 @@ public class UI_Manager : MonoBehaviour
         GameObject.Find("Canvas").transform.GetChild(1).transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>(data.saveData.ui.home_img_path);//홈 이미지 변경
         Attribute_img = Resources.LoadAll<Sprite>("Images/UI/Symbol");
         currency = 10000; // for Test
-
+        GatchaList = Resources.LoadAll<Gatcha>("Gatcha");
         Tuto.Init();
    }
     #region yeongchan
@@ -449,19 +451,32 @@ public class UI_Manager : MonoBehaviour
 
     public void GachaBasicSetting()
     {
-        if(currentDotPos >= 0 && currentDotPos < 2) 
+        if(sliderDotsList.Count != GatchaList.Length)
+        {
+            float base_position = -(GatchaList.Length-1)/2f * 60f;
+            for(int i = 0; i < GatchaList.Length; i++)
+            {
+                GameObject temp = Instantiate<GameObject>(sliderDot);
+                temp.transform.SetParent(Dots_Parent);
+                temp.transform.localPosition = new Vector3(base_position + i * 60,0,0);
+                temp.transform.localScale = new Vector3(1,1,1);
+                sliderDotsList.Add(temp);
+            }
+        }
+
+        if(currentDotPos >= 0 && currentDotPos < GatchaList.Length) 
         { // Change dot imgs
             sliderDotsList[currentDotPos].GetComponent<Image>().sprite = fullDot;
             for (int i = 0; i < currentDotPos; i++)
             {
                 sliderDotsList[i].GetComponent<Image>().sprite = emptyDot;
             }
-            for (int i = 1; i > currentDotPos; i--)
+            for (int i = GatchaList.Length - 1; i > currentDotPos; i--)
             {
                 sliderDotsList[i].GetComponent<Image>().sprite = emptyDot;
             }
             // Change gacha banner img
-            bannerImg.GetComponent<Image>().sprite = bannerImgList[currentDotPos];
+            bannerImg.GetComponent<Image>().sprite = GatchaList[currentDotPos].banner;
         }
         if(currentDotPos != 0)
         {
@@ -488,7 +503,7 @@ public class UI_Manager : MonoBehaviour
     }
     public void SliderRightBtn()
     {
-        if (currentDotPos == 1)
+        if (currentDotPos == GatchaList.Length - 1)
         {
             rightBtn.GetComponent<Button>().interactable = false;
         }
@@ -542,6 +557,13 @@ public class UI_Manager : MonoBehaviour
         }
     }
 
+    private enum Era
+    {
+        Past = 1,
+        Present = 2,
+        Future = 3,
+    }
+
     void Pop_Up(int num, int stage)
     {
         List<PlayerDataClass> output_list = new List<PlayerDataClass>();//화면 출력할 때 사용할 리스트
@@ -575,10 +597,10 @@ public class UI_Manager : MonoBehaviour
             {
                 level = 1;
             }
+
             int length = cur_list.Count;
             for (int i = 0; i < length;)
             {
-                //모두 star = 0이어서 모든 원소가 제거되었던 것이었다. => 오류 원인
                 if (cur_list[i].Star != level)//현재 리스트에서 결정된 level이 아닌 요소들을 제거해줌
                 {
                     cur_list.RemoveAt(i);
@@ -587,6 +609,30 @@ public class UI_Manager : MonoBehaviour
                 else
                     i++;
             }
+
+            Gatcha condition = GatchaList[stage];
+            int era = 0;
+            if(condition.Past)
+                era = (int)Era.Past;
+            else if(condition.Present)
+                era = (int)Era.Present;
+            else if(condition.Future)
+                era = (int)Era.Future;
+
+            length = cur_list.Count;
+            if(era != 0)
+                for (int i = 0; i < length;)
+                {
+                    //모두 star = 0이어서 모든 원소가 제거되었던 것이었다. => 오류 원인
+                    if (cur_list[i].Stage != era)//현재 리스트에서 결정된 level이 아닌 요소들을 제거해줌
+                    {
+                        cur_list.RemoveAt(i);
+                        length--;
+                    }    
+                    else
+                        i++;
+                }
+
             int new_random = (int)Random.Range(0,length);//0번째 인덱스부터 현재 리스트의 길이사이의 난수 생성
             //Debug.LogFormat("current_List.Count = {0}, new_random = {1}, level = {2}",cur_list.Count,new_random,level);
             PlayerDataClass final = cur_list[new_random];//마지막으로 뽑힌 캐릭터
