@@ -7,9 +7,18 @@ public class LoadingScene : MonoBehaviour
 {
     // Start is called before the first frame update
     public static string next_scene;
-    public Text tt;
-    public string input;
+    public Text tooltip_text;
+    public Sprite FullDot, EmptyDot;
+    //public string input;
     private float loading_time = 1.0f;
+    private bool _continue = false;
+    private string[] Tips;
+    private int cur_page;
+    private GameObject tips_parent;
+    private List<GameObject> Dots = new List<GameObject>();
+    [Header("팁 개수")]
+    [SerializeField]
+    private int max_tip;
     void Start()
     {
         Init();
@@ -19,6 +28,38 @@ public class LoadingScene : MonoBehaviour
     void Init()
     {
         //MakeObject(input);
+        cur_page = 0;
+        tips_parent = GameObject.Find("Pages").gameObject;
+        Tips = new string[max_tip];
+        GameObject dots = tips_parent.transform.GetChild(0).gameObject;
+        for(int i =0; i< max_tip; i++)
+        {
+            GameObject temp = Instantiate(dots);
+            temp.transform.SetParent(tips_parent.transform);
+            temp.name = "Dots" + (i + 1).ToString();
+            temp.transform.localScale = new Vector3(1,1,1);
+            temp.transform.localPosition = new Vector3(35 * (i - (max_tip -1 )/2),0,0);
+            Dots.Add(temp);
+        }
+        Destroy(dots);
+        Change_Page(0);
+    }
+
+    public void Change_Page(int page)
+    {
+        cur_page += page;
+        if(cur_page >= max_tip)
+            cur_page= 0;
+        else if(cur_page < 0)
+            cur_page = max_tip -1;
+        for(int i = 0; i< max_tip; i++)
+        {
+            if(i == cur_page)
+                Dots[i].GetComponent<Image>().sprite = FullDot;
+            else
+                Dots[i].GetComponent<Image>().sprite = EmptyDot;
+        }
+        tooltip_text.text = Tips[cur_page];
     }
     void MakeObject(string input)
     {
@@ -47,27 +88,51 @@ public class LoadingScene : MonoBehaviour
         SceneManager.LoadScene("LoadingScene");
     }
 
+    public void Continue()
+    {
+        _continue = true;
+    }
+
     IEnumerator LoadScene()
     {
         yield return null;
         AsyncOperation op = SceneManager.LoadSceneAsync(next_scene);
         op.allowSceneActivation = false;
         Tooltip_Content tips = Resources.Load<Tooltip_Content>("Prefabs/Tooltip");
-        Debug.Log(tips.Content.Count);
-        string tip = tips.Content[(int)Random.Range(0,tips.Content.Count-1)];
+        int random_num = (int)Random.Range(0,tips.Content.Count-1);
+        if(random_num + max_tip - 1 < tips.Content.Count)
+        {
+            for(int i = 0; i< max_tip; i++)
+            {
+                Tips[i] = tips.Content[i + random_num];
+            }
+        }
+        else
+        {
+            int temp = max_tip + random_num -1 - tips.Content.Count;
+            for(int i =0;i < max_tip -temp;i++)
+            {
+                Tips[i] = tips.Content[i];
+            }
+            for(int i = max_tip - temp -1 ; i < max_tip; i++)
+            {
+                Tips[i] = tips.Content[i - max_tip + temp + 1];
+            }
+        }
+        string tip = tips.Content[random_num];
         float timer = 0.0f;
-        tt.text = tip;
+        tooltip_text.text = tip;
         while(!op.isDone)
         {
             yield return null;
             timer += Time.deltaTime;
-            if(op.progress < 0.9f * loading_time)
+            if(op.progress < 0.9f)
             {
                 
             }
             else
             {  
-                if(timer > loading_time)
+                if(timer > loading_time && _continue)
                 {
                     op.allowSceneActivation = true;          
                     yield break;
