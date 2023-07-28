@@ -33,7 +33,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15986
+                "instanceID": 16046
             },
             "Stage": 1,
             "AppearProb": 0.0
@@ -52,7 +52,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15974
+                "instanceID": 16034
             },
             "Stage": 1,
             "AppearProb": 0.0
@@ -166,7 +166,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15962
+                "instanceID": 16022
             },
             "Stage": 1,
             "AppearProb": 0.0
@@ -280,7 +280,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16030
+                "instanceID": 16090
             },
             "Stage": 1,
             "AppearProb": 0.0
@@ -299,7 +299,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15994
+                "instanceID": 16054
             },
             "Stage": 1,
             "AppearProb": 0.0
@@ -318,7 +318,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15942
+                "instanceID": 16002
             },
             "Stage": 1,
             "AppearProb": 0.0
@@ -394,7 +394,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15950
+                "instanceID": 16010
             },
             "Stage": 1,
             "AppearProb": 0.0
@@ -432,7 +432,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16034
+                "instanceID": 16094
             },
             "Stage": 1,
             "AppearProb": 0.0
@@ -622,7 +622,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16026
+                "instanceID": 16086
             },
             "Stage": 1,
             "AppearProb": 0.0
@@ -660,7 +660,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16030
+                "instanceID": 16090
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -679,7 +679,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15958
+                "instanceID": 16018
             },
             "Stage": 2,
             "AppearProb": 0.008299999870359898
@@ -698,7 +698,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15870
+                "instanceID": 15930
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -717,7 +717,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16066
+                "instanceID": 16126
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -736,7 +736,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15866
+                "instanceID": 15926
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -755,7 +755,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15954
+                "instanceID": 16014
             },
             "Stage": 2,
             "AppearProb": 0.008299999870359898
@@ -793,7 +793,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15986
+                "instanceID": 16046
             },
             "Stage": 3,
             "AppearProb": 0.004900000058114529
@@ -812,7 +812,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15890
+                "instanceID": 15950
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -831,7 +831,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15790
+                "instanceID": 15850
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -850,7 +850,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15838
+                "instanceID": 15898
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -888,7 +888,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15994
+                "instanceID": 16054
             },
             "Stage": 2,
             "AppearProb": 0.004900000058114529
@@ -907,7 +907,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15958
+                "instanceID": 16018
             },
             "Stage": 2,
             "AppearProb": 0.008299999870359898
@@ -926,7 +926,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15974
+                "instanceID": 16034
             },
             "Stage": 1,
             "AppearProb": 0.008299999870359898
@@ -945,7 +945,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15834
+                "instanceID": 15894
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -964,7 +964,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15962
+                "instanceID": 16022
             },
             "Stage": 1,
             "AppearProb": 0.004900000058114529
@@ -1040,7 +1040,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15926
+                "instanceID": 15986
             },
             "Stage": 3,
             "AppearProb": 0.008299999870359898
@@ -1059,7 +1059,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15978
+                "instanceID": 16038
             },
             "Stage": 1,
             "AppearProb": 0.0031999999191612007
@@ -1078,7 +1078,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15814
+                "instanceID": 15874
             },
             "Stage": 3,
             "AppearProb": 0.008299999870359898
@@ -1097,7 +1097,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16066
+                "instanceID": 16126
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -1116,7 +1116,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15986
+                "instanceID": 16046
             },
             "Stage": 3,
             "AppearProb": 0.004900000058114529
@@ -1135,7 +1135,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16014
+                "instanceID": 16074
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -1154,7 +1154,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15958
+                "instanceID": 16018
             },
             "Stage": 2,
             "AppearProb": 0.008299999870359898
@@ -1173,7 +1173,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15866
+                "instanceID": 15926
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -1192,7 +1192,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15874
+                "instanceID": 15934
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -1211,7 +1211,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15954
+                "instanceID": 16014
             },
             "Stage": 2,
             "AppearProb": 0.008299999870359898
@@ -1230,7 +1230,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15906
+                "instanceID": 15966
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -1249,7 +1249,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16074
+                "instanceID": 16134
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -1268,7 +1268,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15974
+                "instanceID": 16034
             },
             "Stage": 1,
             "AppearProb": 0.008299999870359898
@@ -1306,7 +1306,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16054
+                "instanceID": 16114
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -1344,7 +1344,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15814
+                "instanceID": 15874
             },
             "Stage": 3,
             "AppearProb": 0.008299999870359898
@@ -1363,7 +1363,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16018
+                "instanceID": 16078
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -1382,7 +1382,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15986
+                "instanceID": 16046
             },
             "Stage": 3,
             "AppearProb": 0.004900000058114529
@@ -1401,7 +1401,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15842
+                "instanceID": 15902
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -1420,7 +1420,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15962
+                "instanceID": 16022
             },
             "Stage": 1,
             "AppearProb": 0.004900000058114529
@@ -1439,7 +1439,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15802
+                "instanceID": 15862
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -1458,7 +1458,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16014
+                "instanceID": 16074
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -1477,7 +1477,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15798
+                "instanceID": 15858
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -1496,7 +1496,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15958
+                "instanceID": 16018
             },
             "Stage": 2,
             "AppearProb": 0.008299999870359898
@@ -1515,7 +1515,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15806
+                "instanceID": 15866
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -1534,7 +1534,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15978
+                "instanceID": 16038
             },
             "Stage": 1,
             "AppearProb": 0.0031999999191612007
@@ -1553,7 +1553,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15974
+                "instanceID": 16034
             },
             "Stage": 1,
             "AppearProb": 0.008299999870359898
@@ -1572,7 +1572,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15906
+                "instanceID": 15966
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -1610,7 +1610,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15986
+                "instanceID": 16046
             },
             "Stage": 3,
             "AppearProb": 0.004900000058114529
@@ -1648,7 +1648,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16022
+                "instanceID": 16082
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -1667,7 +1667,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16066
+                "instanceID": 16126
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -1724,7 +1724,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15802
+                "instanceID": 15862
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -1762,7 +1762,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16054
+                "instanceID": 16114
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -1781,7 +1781,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16058
+                "instanceID": 16118
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -1800,7 +1800,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15978
+                "instanceID": 16038
             },
             "Stage": 1,
             "AppearProb": 0.0031999999191612007
@@ -1838,7 +1838,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16066
+                "instanceID": 16126
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -1857,7 +1857,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15866
+                "instanceID": 15926
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -1876,7 +1876,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15806
+                "instanceID": 15866
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -1895,7 +1895,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15794
+                "instanceID": 15854
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -1914,7 +1914,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15838
+                "instanceID": 15898
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -1933,7 +1933,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15790
+                "instanceID": 15850
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -1952,7 +1952,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15958
+                "instanceID": 16018
             },
             "Stage": 2,
             "AppearProb": 0.008299999870359898
@@ -1971,7 +1971,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15998
+                "instanceID": 16058
             },
             "Stage": 1,
             "AppearProb": 0.008299999870359898
@@ -1990,7 +1990,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15890
+                "instanceID": 15950
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -2028,7 +2028,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15926
+                "instanceID": 15986
             },
             "Stage": 3,
             "AppearProb": 0.008299999870359898
@@ -2047,7 +2047,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16034
+                "instanceID": 16094
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -2066,7 +2066,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16030
+                "instanceID": 16090
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -2085,7 +2085,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16026
+                "instanceID": 16086
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -2104,7 +2104,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15846
+                "instanceID": 15906
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -2123,7 +2123,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15974
+                "instanceID": 16034
             },
             "Stage": 1,
             "AppearProb": 0.008299999870359898
@@ -2142,7 +2142,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16066
+                "instanceID": 16126
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -2161,7 +2161,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15834
+                "instanceID": 15894
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -2180,7 +2180,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15842
+                "instanceID": 15902
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -2199,7 +2199,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15998
+                "instanceID": 16058
             },
             "Stage": 1,
             "AppearProb": 0.008299999870359898
@@ -2218,7 +2218,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15962
+                "instanceID": 16022
             },
             "Stage": 1,
             "AppearProb": 0.004900000058114529
@@ -2237,7 +2237,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15978
+                "instanceID": 16038
             },
             "Stage": 1,
             "AppearProb": 0.0031999999191612007
@@ -2256,7 +2256,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15838
+                "instanceID": 15898
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -2275,10 +2275,238 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16074
+                "instanceID": 16134
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 0,
+            "img_path": "soldier_1",
+            "Name": "지방 포졸",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 6,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 16086
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 14,
+            "img_path": "soldier_2",
+            "Name": "지방 포졸",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 4,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 16090
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 43,
+            "img_path": "present_SamiDare",
+            "Name": "밝게 빛나는 요화 사미 & 다레",
+            "HP": 4500,
+            "ATK": 7000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 1,
+            "Upgrade": 0,
+            "Same": 8,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 16058
+            },
+            "Stage": 1,
+            "AppearProb": 0.008299999870359898
+        },
+        {
+            "idx": 10,
+            "img_path": "Yangban_1",
+            "Name": "지방 영주",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 12,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 16126
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 42,
+            "img_path": "present_Imin",
+            "Name": "떠받드는 검 임인",
+            "HP": 6000,
+            "ATK": 5500,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 1,
+            "Upgrade": 0,
+            "Same": 5,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 16034
+            },
+            "Stage": 1,
+            "AppearProb": 0.008299999870359898
+        },
+        {
+            "idx": 25,
+            "img_path": "BigMan_2",
+            "Name": "떠돌이 용병",
+            "HP": 6000,
+            "ATK": 4000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 3,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 15894
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 9,
+            "img_path": "Crazy_1",
+            "Name": "폭주하는 영술사",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 2,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 15902
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 14,
+            "img_path": "soldier_2",
+            "Name": "지방 포졸",
+            "HP": 4000,
+            "ATK": 6000,
+            "Attribute": 2,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 5,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 16090
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 9,
+            "img_path": "Crazy_1",
+            "Name": "폭주하는 영술사",
+            "HP": 4500,
+            "ATK": 5500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 3,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 15902
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 10,
+            "img_path": "Yangban_1",
+            "Name": "지방 영주",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 13,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 16126
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 38,
+            "img_path": "Yangban_3",
+            "Name": "지방 영주",
+            "HP": 5500,
+            "ATK": 4500,
+            "Attribute": 3,
+            "Energe": 0,
+            "Appear": 4,
+            "Upgrade": 0,
+            "Same": 0,
+            "Star": 1,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 16134
+            },
+            "Stage": 1,
+            "AppearProb": 0.02250000089406967
+        },
+        {
+            "idx": 43,
+            "img_path": "present_SamiDare",
+            "Name": "밝게 빛나는 요화 사미 & 다레",
+            "HP": 4500,
+            "ATK": 7000,
+            "Attribute": 1,
+            "Energe": 0,
+            "Appear": 1,
+            "Upgrade": 0,
+            "Same": 10,
+            "Star": 2,
+            "IsAction": 1,
+            "Img": {
+                "instanceID": 16058
+            },
+            "Stage": 1,
+            "AppearProb": 0.008299999870359898
         }
     ],
     "CharacterData": [
@@ -2296,7 +2524,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16026
+                "instanceID": 16086
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -2315,7 +2543,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15798
+                "instanceID": 15858
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -2334,7 +2562,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15870
+                "instanceID": 15930
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -2353,7 +2581,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16022
+                "instanceID": 16082
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -2391,7 +2619,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16062
+                "instanceID": 16122
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -2410,7 +2638,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15882
+                "instanceID": 15942
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -2463,11 +2691,11 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 2,
+            "Same": 3,
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15842
+                "instanceID": 15902
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -2482,11 +2710,11 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 12,
+            "Same": 13,
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16066
+                "instanceID": 16126
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -2558,11 +2786,11 @@
             "Energe": 0,
             "Appear": 4,
             "Upgrade": 0,
-            "Same": 3,
+            "Same": 5,
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16030
+                "instanceID": 16090
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -2581,7 +2809,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15790
+                "instanceID": 15850
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -2600,7 +2828,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15858
+                "instanceID": 15918
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -2619,7 +2847,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16014
+                "instanceID": 16074
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -2657,7 +2885,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16054
+                "instanceID": 16114
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -2676,7 +2904,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15874
+                "instanceID": 15934
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -2695,7 +2923,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15886
+                "instanceID": 15946
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -2714,7 +2942,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15802
+                "instanceID": 15862
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -2733,7 +2961,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15846
+                "instanceID": 15906
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -2771,7 +2999,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15834
+                "instanceID": 15894
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -2790,7 +3018,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15906
+                "instanceID": 15966
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -2809,7 +3037,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16002
+                "instanceID": 16062
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -2828,7 +3056,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16034
+                "instanceID": 16094
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -2847,7 +3075,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15794
+                "instanceID": 15854
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -2866,7 +3094,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15866
+                "instanceID": 15926
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -2885,7 +3113,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16018
+                "instanceID": 16078
             },
             "Stage": 2,
             "AppearProb": 0.02250000089406967
@@ -2923,7 +3151,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16058
+                "instanceID": 16118
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -2942,7 +3170,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15878
+                "instanceID": 15938
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -2961,7 +3189,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15890
+                "instanceID": 15950
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -2980,7 +3208,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15806
+                "instanceID": 15866
             },
             "Stage": 3,
             "AppearProb": 0.02250000089406967
@@ -2999,7 +3227,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15838
+                "instanceID": 15898
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -3018,7 +3246,7 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16074
+                "instanceID": 16134
             },
             "Stage": 1,
             "AppearProb": 0.02250000089406967
@@ -3075,7 +3303,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15926
+                "instanceID": 15986
             },
             "Stage": 3,
             "AppearProb": 0.008299999870359898
@@ -3094,7 +3322,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15974
+                "instanceID": 16034
             },
             "Stage": 1,
             "AppearProb": 0.008299999870359898
@@ -3109,11 +3337,11 @@
             "Energe": 0,
             "Appear": 1,
             "Upgrade": 0,
-            "Same": 4,
+            "Same": 10,
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15998
+                "instanceID": 16058
             },
             "Stage": 1,
             "AppearProb": 0.008299999870359898
@@ -3132,7 +3360,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15958
+                "instanceID": 16018
             },
             "Stage": 2,
             "AppearProb": 0.008299999870359898
@@ -3151,7 +3379,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15814
+                "instanceID": 15874
             },
             "Stage": 3,
             "AppearProb": 0.008299999870359898
@@ -3170,7 +3398,7 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15954
+                "instanceID": 16014
             },
             "Stage": 2,
             "AppearProb": 0.008299999870359898
@@ -3189,7 +3417,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15962
+                "instanceID": 16022
             },
             "Stage": 1,
             "AppearProb": 0.004900000058114529
@@ -3208,7 +3436,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15986
+                "instanceID": 16046
             },
             "Stage": 3,
             "AppearProb": 0.004900000058114529
@@ -3227,7 +3455,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15950
+                "instanceID": 16010
             },
             "Stage": 2,
             "AppearProb": 0.004900000058114529
@@ -3246,7 +3474,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15994
+                "instanceID": 16054
             },
             "Stage": 2,
             "AppearProb": 0.004900000058114529
@@ -3265,7 +3493,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15942
+                "instanceID": 16002
             },
             "Stage": 3,
             "AppearProb": 0.004900000058114529
@@ -3284,7 +3512,7 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15978
+                "instanceID": 16038
             },
             "Stage": 1,
             "AppearProb": 0.0031999999191612007

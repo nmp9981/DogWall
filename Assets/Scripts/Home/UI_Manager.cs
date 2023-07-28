@@ -38,6 +38,7 @@ public class UI_Manager : MonoBehaviour
     private int one_Popup_currency = 10;
     int currentDotPos = 0;
     public GameObject bannerImg;
+    public GameObject Gatcha_Probability;
     public Transform Dots_Parent;
     public GameObject sliderDot;
     public List<GameObject> sliderDotsList;
@@ -451,6 +452,7 @@ public class UI_Manager : MonoBehaviour
 
     public void GachaBasicSetting()
     {
+
         if(sliderDotsList.Count != GatchaList.Length)
         {
             float base_position = -(GatchaList.Length-1)/2f * 60f;
@@ -486,6 +488,23 @@ public class UI_Manager : MonoBehaviour
         {
             rightBtn.GetComponent<Button>().interactable = true;
         }
+
+        string star = "";
+        int idx = possibility.Length-1;
+        for(int i = 0;i< 6;i++)
+        {
+            if(i%2 == 0)
+            {
+                star += "★";
+                Gatcha_Probability.transform.GetChild(i).GetComponent<Text>().text = star;
+            }
+            else
+            {
+                Gatcha_Probability.transform.GetChild(i).GetComponent<Text>().text = possibility[idx].ToString();
+                idx--;
+            }
+        }
+        
     }
     public void SliderLeftBtn()
     {
@@ -680,7 +699,8 @@ public class UI_Manager : MonoBehaviour
             temp.transform.GetChild(0).GetComponent<Image>().sprite = output_list[0].Img;
             temp.transform.GetChild(1).GetComponent<Image>().color = col;
             temp.transform.SetParent(parent);
-            temp.transform.localPosition = new Vector3(425f,-425f);
+            //temp.transform.localPosition = new Vector3(425f,-425f);
+            temp.transform.localPosition = new Vector3(0,-0);
             temp.transform.localScale = new Vector3(1,1,1);
             temp.name = "뽑기";
         }
@@ -717,17 +737,17 @@ public class UI_Manager : MonoBehaviour
                 temp.transform.SetParent(parent);
                 if(i < 3)
                 {
-                    temp.transform.localPosition = new Vector3(200f + 225f*i,-200f);
+                    temp.transform.localPosition = new Vector3(-225f + 225f*i,225f);
                     temp.transform.localScale = new Vector3(1,1,1);
                 }
                 else if(i < 7)
                 {
-                    temp.transform.localPosition = new Vector3(100f + 215f*(i-3),-425f);
+                    temp.transform.localPosition = new Vector3(-325 + 215f*(i-3),0);
                     temp.transform.localScale = new Vector3(1,1,1);
                 }
                 else
                 {
-                    temp.transform.localPosition = new Vector3(200f + 225f*(i-7),-650f);
+                    temp.transform.localPosition = new Vector3(-225 + 225f*(i-7),-225);
                     temp.transform.localScale = new Vector3(1,1,1);
                 }
                 temp.name = "뽑기";
