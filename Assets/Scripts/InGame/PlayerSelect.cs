@@ -4,19 +4,25 @@ using UnityEngine;
 
 public class PlayerSelect : MonoBehaviour
 {
-    bool CheckTurn()
+    [SerializeField]
+    public UISetting UISetting;
+
+    public bool CheckTurn()
     {
-        if (DataManager.singleTon.saveData.inGameData.isTurn) return true;
-        else return false;
+        if (DataManager.singleTon.saveData.inGameData.isTurn) return false;
+        else return true;
     }
 
     public void ChSelect(int number)
     {
-
+        if (CheckTurn()) return;
+        DataManager.singleTon.saveData.inGameData.selectPlayer = number;
+        UISetting.PlayerUISetting();
     }
 
-    public void SkillSelect()
+    public void SkillSelect(int number)
     {
-
+        if (CheckTurn()) return;
+        DataManager.singleTon.saveData.inGameData.selectSkill[DataManager.singleTon.saveData.inGameData.selectPlayer] = number;
     }
 }

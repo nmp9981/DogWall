@@ -64,6 +64,13 @@ public class Quest_Manager : MonoBehaviour
             //data.playerCharaterNumber[i] = i+1;
         }
 
+        DataManager.singleTon.saveData.inGameData.playerData.Clear();
+
+        for (int i = 0; i < 4; i++)
+        {
+            DataManager.singleTon.saveData.inGameData.playerData.Add(DataManager.singleTon.saveData.CharacterData[data.saveData.my_team[(selectTeamPage - 1) * 4 + i].idx]);
+        }
+
         for (int j = 0; j < data.saveData.QuestData.Count; j++)
         {
             if (

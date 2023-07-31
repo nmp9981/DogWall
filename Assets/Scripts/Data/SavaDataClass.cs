@@ -286,13 +286,18 @@ public class InGameData
 {
     public bool isTurn;
     public bool isEffect;
+
+    public int selectPlayer;
+
+    public List<int> selectSkill;
     public List<PlayerDataClass> playerData;
     public List<MonstersDataClass> monsterData;
 
-    public InGameData(bool isTurn, bool isEffect, List<PlayerDataClass> playerData, List<MonstersDataClass> monsterData)
+    public InGameData(bool isTurn, bool isEffect, List<int> selectSkill, List<PlayerDataClass> playerData, List<MonstersDataClass> monsterData)
     {
         this.isTurn = isTurn;
         this.isEffect = isEffect;
+        this.selectSkill = selectSkill;
         this.playerData = playerData;
         this.monsterData = monsterData;
     }
@@ -301,6 +306,7 @@ public class InGameData
     {
         isTurn = true;
         isEffect = false;
+        selectSkill = new List<int>();
         playerData = new List<PlayerDataClass>();
         monsterData = new List<MonstersDataClass>();
     }
