@@ -280,6 +280,32 @@ public class UI
         this.home_img_path = h_p;
     }
 }
+
+[System.Serializable]
+public class InGameData
+{
+    public bool isTurn;
+    public bool isEffect;
+    public List<PlayerDataClass> playerData;
+    public List<MonstersDataClass> monsterData;
+
+    public InGameData(bool isTurn, bool isEffect, List<PlayerDataClass> playerData, List<MonstersDataClass> monsterData)
+    {
+        this.isTurn = isTurn;
+        this.isEffect = isEffect;
+        this.playerData = playerData;
+        this.monsterData = monsterData;
+    }
+
+    public InGameData()
+    {
+        isTurn = true;
+        isEffect = false;
+        playerData = new List<PlayerDataClass>();
+        monsterData = new List<MonstersDataClass>();
+    }
+}
+
 [System.Serializable]
 public class SaveDataClass
 {
@@ -297,6 +323,7 @@ public class SaveDataClass
     //스테이지 진행정도
     public List<PlayerDataClass> my_team;
     public UI ui;
+    public InGameData inGameData;
     public SaveDataClass()
     {
         //리스트 불러오기
@@ -316,6 +343,7 @@ public class SaveDataClass
         ui =  new UI();
         money = new List<int>();
         for (int i = 0; i < 3; i++) money.Add(0);
+        inGameData = new InGameData();
     }
     
     public void SetImgforOnce(string folder)//특정 폴더에 있는 이미지들을 캐릭터에 맞게 배치하기(list용)
