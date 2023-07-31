@@ -16,6 +16,10 @@ public class LoadingScene : MonoBehaviour
     private int cur_page;
     private GameObject tips_parent;
     private List<GameObject> Dots = new List<GameObject>();
+    public Image black;
+    [Header("페이드 인&아웃 속도")]
+    [SerializeField]
+    private float fadeinnoutspeed;
     [Header("팁 개수")]
     [SerializeField]
     private int max_tip;
@@ -95,6 +99,7 @@ public class LoadingScene : MonoBehaviour
 
     IEnumerator LoadScene()
     {
+        black.gameObject.SetActive(true);
         yield return null;
         AsyncOperation op = SceneManager.LoadSceneAsync(next_scene);
         op.allowSceneActivation = false;
@@ -122,6 +127,19 @@ public class LoadingScene : MonoBehaviour
         string tip = tips.Content[random_num];
         float timer = 0.0f;
         tooltip_text.text = tip;
+
+        float t = 1;
+        while(t>0)
+        {
+            yield return new WaitForSeconds(fadeinnoutspeed);
+            black.color = new Color(0,0,0,t);
+            t -= fadeinnoutspeed;
+            if(t < 0)
+            {
+                black.gameObject.SetActive(false);
+            }
+        }
+
         while(!op.isDone)
         {
             yield return null;
@@ -134,6 +152,16 @@ public class LoadingScene : MonoBehaviour
             {  
                 if(timer > loading_time && _continue)
                 {
+                    black.gameObject.SetActive(true);
+                    t = 0;
+                    while(true)
+                    {
+                        yield return new WaitForSeconds(fadeinnoutspeed);
+                        black.color = new Color(0,0,0,t);
+                        t += fadeinnoutspeed;
+                        if(t > 1)
+                            break;
+                    }
                     op.allowSceneActivation = true;          
                     yield break;
                 }
