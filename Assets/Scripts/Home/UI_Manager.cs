@@ -22,6 +22,7 @@ public class UI_Manager : MonoBehaviour
     // About Unit Upgrade
     private bool upgrade = false;
     private bool fullStat = false;
+    private string Selected_Unit_Idx;
     int leftPiecesNum = 10; // 진짜 데이터는 받아서 써야함 구색만 맞춰 놓은 거임
     int basicSettingNum = 0;
     int presentUseNum = 0;
@@ -123,6 +124,14 @@ public class UI_Manager : MonoBehaviour
                 UI("Tutorial");
                 break;
         }
+    }
+
+    public void Back_for_UnitSelect()
+    {
+        if(upgrade)
+            UI_LEVEL1_Controll(1);
+        else
+            UI_LEVEL1_Controll(2);
     }
 
     public void Tap(int a)
@@ -286,6 +295,10 @@ public class UI_Manager : MonoBehaviour
                     break;
             }
             panel.transform.Find("Text").GetComponent<Text>().text = idx + "번째 유닛 선택";
+            if(idx == "n")
+                panel.transform.Find("Text").GetComponent<Text>().text = Selected_Unit_Idx + "번째 유닛 선택";
+            else
+                Selected_Unit_Idx = idx;
         }
     }
 
@@ -361,11 +374,19 @@ public class UI_Manager : MonoBehaviour
                     target.transform.GetChild(0).transform.GetChild(0).GetComponent<Image>().sprite = Attribute_img[data.saveData.my_characterlist[i].Attribute];
                     target.transform.GetChild(0).transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_characterlist[i].Name;
                     target.transform.GetChild(1).GetComponent<Image>().sprite = data.saveData.my_characterlist[i].Img;
-                    target.transform.GetChild(2).transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_characterlist[i].HP.ToString();
-                    target.transform.GetChild(2).transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_characterlist[i].ATK.ToString();
+                    string type = "";
+                    if(data.saveData.my_characterlist[i].HP > data.saveData.my_characterlist[i].ATK)
+                        type = "수비";
+                    else if(data.saveData.my_characterlist[i].HP < data.saveData.my_characterlist[i].ATK)
+                        type = "공격";
+                    else
+                        type = "지원";
+                    target.transform.GetChild(2).transform.GetChild(0).GetComponent<Text>().text = type;
+                    target.transform.GetChild(2).transform.GetChild(1).GetComponent<Text>().text = "HP : " + data.saveData.my_characterlist[i].HP.ToString();
+                    target.transform.GetChild(2).transform.GetChild(2).GetComponent<Text>().text = "ATK : " + data.saveData.my_characterlist[i].ATK.ToString();
                     float extra_hp = data.saveData.my_characterlist[i].HP * 0.2f, extra_atk = data.saveData.my_characterlist[i].ATK * 0.2f;
-                    target.transform.GetChild(2).transform.GetChild(3).GetComponent<Text>().text = ((int)(extra_hp*data.saveData.my_characterlist[i].Appear)).ToString();
-                    target.transform.GetChild(2).transform.GetChild(4).GetComponent<Text>().text = ((int)(extra_atk*data.saveData.my_characterlist[i].Appear)).ToString();
+                    target.transform.GetChild(2).transform.GetChild(3).GetComponent<Text>().text = "HP + " + ((int)(extra_hp*data.saveData.my_characterlist[i].Appear)).ToString();
+                    target.transform.GetChild(2).transform.GetChild(4).GetComponent<Text>().text = "ATK + " + ((int)(extra_atk*data.saveData.my_characterlist[i].Appear)).ToString();
                     break;
                 }
             }
