@@ -21,18 +21,6 @@ public class DataManager : MonoBehaviour
     public SaveDataClass saveData;
     public static DataManager singleTon;
     public string story;
-    [Header("InGameUseDate")]
-    [SerializeField]
-    public List<List<int>> monsterCharaterNumber = new List<List<int>>()
-    {
-        new List<int> {1, 1, 1},
-        new List<int> {1, 1 ,1},
-        new List<int> {1, 1 ,1},
-        new List<int> {1, 1 ,1}
-    };
-    public List<int> playerCharaterNumber = new List<int>() {1, 1, 1, 1};
-
-
 
     void Awake()
     {
@@ -54,6 +42,7 @@ public class DataManager : MonoBehaviour
 
 
         Load();
+        Save();
     }
 
     //세이브데이터 세이브

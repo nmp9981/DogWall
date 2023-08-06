@@ -22,8 +22,7 @@ public class PlayerDataClass//캐릭터 DB
     public int IsAction = 0;//스킬 사용이 가능한가?
     public Sprite Img = null;//이미지
     public int Stage = 1;//스테이지
-    public float AppearProb = 1.0f;//가챠시 나올 확률
-
+    public float AppearProb = 1.0f;
     public PlayerDataClass(int i=0,string impa = "", string n = "무명", int h = 0, int a = 0, int A = 1,int e=0,int app=0,int up=0, int S = 1,int star = 0, int act = 0, int stage = 1,float appearProb = 1.0f)
     {
         this.idx = i;
@@ -84,12 +83,12 @@ public class CharacterSkillIndexDataClass//스킬DB
     public int Blood = 0;//출혈
     public bool AllTargets = false;//전체 공격여부
     public int TurnCount = 1;//지속 턴수
-    public bool HeartLink = false;//하트 링크 여부
-    public bool DeathLink = false;//데스 링크 여부
+    public int HeartLink = 0;//하트 링크 여부
+    public int DeathLink = 0;//데스 링크 여부
     public int Energy = 1;//에너지 사용량
     public int EffectType = 1;//스킬 이펙트
 
-    public CharacterSkillIndexDataClass(string sn = "럭키세븐", int a = 0, int ca = 0, int dd = 0, int hh = 0, bool p = false, bool na = false, int he = 0, int b = 0,bool allt=false, int tc = 1,bool hli = false,bool dli = false, int e = 1,int ef = 1)
+    public CharacterSkillIndexDataClass(string sn = "럭키세븐", int a = 0, int ca = 0, int dd = 0, int hh = 0, bool p = false, bool na = false, int he = 0, int b = 0,bool allt=false, int tc = 1,int hli = 0,int dli = 0, int e = 1,int ef = 1)
     {
         this.Name = sn;
         this.Attack = a;
@@ -288,27 +287,54 @@ public class InGameData
     public bool isEffect;
 
     public int selectPlayer;
+    public int stage;
+    public int turn;
+    public int monsterCount;
+    public int hp;
+    public int energy;
 
+    public List<int> monsterTaunt;
+    public List<int> playerTaunt;
     public List<int> selectSkill;
+    public List<int> targetMonster;
     public List<PlayerDataClass> playerData;
-    public List<MonstersDataClass> monsterData;
+    public List<MonstersDataClass> crruentMonster;
+    public List<List<MonstersDataClass>> monsterData;
 
-    public InGameData(bool isTurn, bool isEffect, List<int> selectSkill, List<PlayerDataClass> playerData, List<MonstersDataClass> monsterData)
+    public InGameData(bool isTurn, bool isEffect, List<int> selectSkill, List<int> targetMonster, List<PlayerDataClass> playerData, List<List<MonstersDataClass>> monsterData, int selectPlayer, List<int> monsterTaunt, int stage, int turn, List<MonstersDataClass> crruentMonster, int monsterCount, int hp, int energy)
     {
         this.isTurn = isTurn;
         this.isEffect = isEffect;
         this.selectSkill = selectSkill;
+        this.targetMonster = targetMonster;
         this.playerData = playerData;
         this.monsterData = monsterData;
+        this.selectPlayer = selectPlayer;
+        this.monsterTaunt = monsterTaunt;
+        this.turn = turn;
+        this.stage = stage;
+        this.crruentMonster = crruentMonster;
+        this.monsterCount = monsterCount;
+        this.hp = hp;
+        this.energy = energy;
     }
 
     public InGameData()
     {
         isTurn = true;
         isEffect = false;
+        selectPlayer = 0;
+        stage = 0;
+        turn = 0;
+        monsterCount = 0;
+        monsterTaunt = new List<int>();
         selectSkill = new List<int>();
+        targetMonster = new List<int>();
         playerData = new List<PlayerDataClass>();
-        monsterData = new List<MonstersDataClass>();
+        monsterData = new List<List<MonstersDataClass>>();
+        crruentMonster = new List<MonstersDataClass>();
+        hp = 0;
+        energy = 0;
     }
 }
 
