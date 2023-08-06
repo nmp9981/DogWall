@@ -9,12 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Home.unity
     guid: f70855dc062fb8d49a127898f290b7bd
   - enabled: 1
-    path: Assets/Scenes/InGame.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
     path: Assets/Scenes/Epilog.unity
     guid: 0ed523e3f46e49144906d0fd9d9f7c9b
   - enabled: 1
     path: Assets/Scenes/LoadingScene.unity
     guid: 53d3011f8cd384848b2b4e39c20557cc
+  - enabled: 1
+    path: Assets/Scenes/InGame.unity
+    guid: 015349bda06b04846b91b4f236fa3a4a
   m_configObjects: {}

@@ -8,6 +8,8 @@ public class Effect : MonoBehaviour
 {
     [SerializeField]
     Animator animator;
+    [SerializeField]
+    UISetting UISetting;
 
     int maxNum;
 
@@ -20,18 +22,13 @@ public class Effect : MonoBehaviour
     //5 Heal
     //+ 특수 이펙트들
 
-    public void EffectSetting() // 이펙트 시작전 기본 세팅
+    public IEnumerator StartEffect(int effectNum)
     {
-        maxNum = DataManager.singleTon.saveData.inGameData.playerData.Count;
-    }
-
-    public IEnumerator StartEffect()
-    {
-        for (int i = 0; i < maxNum; i++)
-        {
-            PlayerEffect(1);
-            yield return new WaitForSeconds(2f);
-        }
+        animator.gameObject.SetActive(true);
+        PlayerEffect(effectNum);
+        // 데미지 이펙트 추가
+        yield return new WaitForSeconds(2.5f);
+        animator.gameObject.SetActive(false);
     }
 
 

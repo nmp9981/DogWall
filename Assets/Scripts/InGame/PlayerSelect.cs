@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -24,5 +25,31 @@ public class PlayerSelect : MonoBehaviour
     {
         if (CheckTurn()) return;
         DataManager.singleTon.saveData.inGameData.selectSkill[DataManager.singleTon.saveData.inGameData.selectPlayer] = number;
+    }
+
+    public void MonsterSelect(int number)
+    {
+        if (CheckTurn()) return;
+        if (DataManager.singleTon.saveData.inGameData.monsterTaunt.Count == 0)
+        {
+            DataManager.singleTon.saveData.inGameData.targetMonster[DataManager.singleTon.saveData.inGameData.selectPlayer] = number;
+            UISetting.PlayerUISetting();
+        }
+        else if(DataManager.singleTon.saveData.inGameData.monsterTaunt.Count == 1)
+        {
+            if (DataManager.singleTon.saveData.inGameData.monsterTaunt[0] != number)
+            {
+                // 몬스터 선택 불가 이펙트
+            
+            }
+            UISetting.PlayerUISetting();
+            return;
+        }
+        else if(!DataManager.singleTon.saveData.inGameData.monsterTaunt.Contains(number))
+        {
+            // 몬스터 선택 불가 이펙트
+            UISetting.PlayerUISetting();
+            return;
+        }
     }
 }

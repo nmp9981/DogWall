@@ -58,18 +58,12 @@ public class Quest_Manager : MonoBehaviour
             Sound_Manager.sound.Play("제한구역");
         }
 
-        for (int i = 0; i < 4; i++)
-        {
-            data.playerCharaterNumber[i] = data.saveData.my_team[(selectTeamPage - 1) * 4 + i].idx; // 플레이어 정보를 저장
-            //data.playerCharaterNumber[i] = i+1;
-        }
-
         DataManager.singleTon.saveData.inGameData.playerData.Clear();
 
         for (int i = 0; i < 4; i++)
         {
             DataManager.singleTon.saveData.inGameData.playerData.Add(DataManager.singleTon.saveData.CharacterData[data.saveData.my_team[(selectTeamPage - 1) * 4 + i].idx]);
-        }
+        } // 팀정보를 추가
 
         for (int j = 0; j < data.saveData.QuestData.Count; j++)
         {
@@ -90,24 +84,38 @@ public class Quest_Manager : MonoBehaviour
             if (maxStage < data.saveData.QuestData[tempNum[i]].Stage) maxStage = data.saveData.QuestData[tempNum[i]].Stage; // 총 몇 스테이지인지 판별
         }
 
-        data.monsterCharaterNumber[0] = new List<int> { };
-        data.monsterCharaterNumber[1] = new List<int> { };
-        data.monsterCharaterNumber[2] = new List<int> { }; // 몬스터 정보값에 들어가있는 기본값을 초기화
+        DataManager.singleTon.saveData.inGameData.monsterData.Clear();
+        List<MonstersDataClass> monster1 = new List<MonstersDataClass>();
+        List<MonstersDataClass> monster2 = new List<MonstersDataClass>();
+        List<MonstersDataClass> monster3 = new List<MonstersDataClass>(); // 몬스터 정보값에 들어가있는 기본값을 초기화
 
-        for (int i = 0; i < maxStage; i++)
+        for (int j = 0; j < tempNum.Count; j++)
         {
-            for (int j = 0; j < tempNum.Count; j++)
+            if (data.saveData.QuestData[tempNum[j]].Stage == 1)
             {
-                if (data.saveData.QuestData[tempNum[j]].Stage == i + 1) data.monsterCharaterNumber[i].Add(data.saveData.QuestData[tempNum[j]].MonsterIndex);
-                //Debug.Log(i + "번 등장 몬스터 " + data.saveData.QuestData[tempNum[j]].MonsterIndex);
+                
+                monster1.Add(DataManager.singleTon.saveData.MonsterData[data.saveData.QuestData[tempNum[j]].MonsterIndex - 2]);
+            }
+            if (data.saveData.QuestData[tempNum[j]].Stage == 2)
+            {
+                monster2.Add(DataManager.singleTon.saveData.MonsterData[data.saveData.QuestData[tempNum[j]].MonsterIndex - 2]);
+            }
+            if (data.saveData.QuestData[tempNum[j]].Stage == 3)
+            {
+                monster3.Add(DataManager.singleTon.saveData.MonsterData[data.saveData.QuestData[tempNum[j]].MonsterIndex - 2]);
             }
         } // 스테이지별로 분리해서 각각의 몬스터인덱스를 저장
+
+        DataManager.singleTon.saveData.inGameData.monsterData.Add(monster1);
+        DataManager.singleTon.saveData.inGameData.monsterData.Add(monster2);
+        DataManager.singleTon.saveData.inGameData.monsterData.Add(monster3);
 
         // 플레이어 몬스터인덱스를 전부 저장했으니 씬 넘기기~
 
         //SceneManager.LoadScene("InGame");
         LoadingScene.SceneLoad("InGame");
     }
+
     public void SetName(string name)
     {
         clearImage[0].SetActive(false);
