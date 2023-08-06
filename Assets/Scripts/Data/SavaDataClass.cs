@@ -51,11 +51,12 @@ public class CharacterSkillDataClass//스킬DB
     public int Skill2 = 0;//스킬 인덱스
     public int Skill3 = 0;//스킬 인덱스
     public int Skill4 = 0;//스킬 인덱스
-    public string Descrition = "";//스킬 설명
+    public string Description = "";//스킬 설명
     public int Type = 1;//타입
     public int Appear = 0;//등장
+    public int special = 0; // 특수 스킬 관련
 
-    public CharacterSkillDataClass(string cn = "로그",string sn = "럭키세븐",int l=0,int s1=0,int s2=0,int s3=0,int s4=0,string des = "",int t=0,int a=0)
+    public CharacterSkillDataClass(string cn = "로그",string sn = "럭키세븐", int l = 0, int s1 = 0, int s2 = 0, int s3 = 0, int s4 = 0, string des = "", int t = 0, int a = 0, int special = 0)
     {
         this.Character = cn;
         this.SkillName = sn;
@@ -64,9 +65,10 @@ public class CharacterSkillDataClass//스킬DB
         this.Skill2 = s2;
         this.Skill3 = s3;
         this.Skill4 = s4;
-        this.Descrition = des;
+        this.Description = des;
         this.Type = t;
         this.Appear = a;
+        this.special = special;
     }
 }
 [System.Serializable]
@@ -79,7 +81,6 @@ public class CharacterSkillIndexDataClass//스킬DB
     public int HealHP = 0;//HP회복
     public bool Provocation = false;//도발
     public bool NotAction = false;//행동불능
-    public int HealEnerge = 0;//에너지 회복
     public int Blood = 0;//출혈
     public bool AllTargets = false;//전체 공격여부
     public int TurnCount = 1;//지속 턴수
@@ -88,7 +89,7 @@ public class CharacterSkillIndexDataClass//스킬DB
     public int Energy = 1;//에너지 사용량
     public int EffectType = 1;//스킬 이펙트
 
-    public CharacterSkillIndexDataClass(string sn = "럭키세븐", int a = 0, int ca = 0, int dd = 0, int hh = 0, bool p = false, bool na = false, int he = 0, int b = 0,bool allt=false, int tc = 1,int hli = 0,int dli = 0, int e = 1,int ef = 1)
+    public CharacterSkillIndexDataClass(string sn = "럭키세븐", int a = 0, int ca = 0, int dd = 0, int hh = 0, bool p = false, bool na = false, int b = 0,bool allt=false, int tc = 1,int hli = 0,int dli = 0, int e = 1,int ef = 1)
     {
         this.Name = sn;
         this.Attack = a;
@@ -97,7 +98,6 @@ public class CharacterSkillIndexDataClass//스킬DB
         this.HealHP = hh;
         this.Provocation = p;
         this.NotAction = na;
-        this.HealEnerge = he;
         this.Blood = b;
         this.AllTargets = allt;
         this.TurnCount = tc;
@@ -246,10 +246,14 @@ public class QuestInfo//쿼스트 데이터
     public int Difficulty = 0;
     public int Type = 0;
     public int MonsterIndex = 0;
-    public int ItemDrop = 0;
-    public int DropPercent = 0;
+    public int DropPercent1 = 0;
+    public int DropPercent2 = 0;
+    public int DropPercent3 = 0;
+    public int Item1 = 0;
+    public int Item2 = 0;
+    public int Item3 = 0;
 
-    public QuestInfo(string appear, string episode, int quest, int stage, int difficulty, int type, int mobidx,int itemDrop,int dropPercent)
+    public QuestInfo(string appear, string episode, int quest, int stage, int difficulty, int type, int mobidx,int dropPercent1, int dropPercent2, int dropPercent3,int item1, int item2, int item3)
     {
         this.Appear = appear;
         this.Episode = episode;
@@ -258,8 +262,12 @@ public class QuestInfo//쿼스트 데이터
         this.Difficulty = difficulty;
         this.Type = type;
         this.MonsterIndex = mobidx;
-        this.ItemDrop = itemDrop;
-        this.DropPercent = dropPercent;
+        this.DropPercent1 = dropPercent1;
+        this.DropPercent2 = dropPercent2;
+        this.DropPercent3 = dropPercent3;
+        this.Item1 = item1;
+        this.Item2 = item2;
+        this.Item3 = item3;
     }
 }
 [System.Serializable]

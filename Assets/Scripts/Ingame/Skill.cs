@@ -80,15 +80,6 @@ public class Skill : MonoBehaviour
 
         }
 
-        if (data.HealEnerge != 0) // 에너지 회복 스킬이 아니라면
-        {
-
-        }
-        else // 에너지 회복 스킬이라면
-        {
-
-        }
-
         if (data.Blood != 0) // 출혈 스킬이 맞다면
         {
 
