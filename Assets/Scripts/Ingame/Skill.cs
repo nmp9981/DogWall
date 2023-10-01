@@ -9,6 +9,9 @@ public class Skill : MonoBehaviour
     [SerializeField]
     UISetting UISetting;
 
+    [SerializeField]
+
+
     public IEnumerator PlayerSkill()
     {
         int maxNum = DataManager.singleTon.saveData.inGameData.playerData.Count;
@@ -55,25 +58,32 @@ public class Skill : MonoBehaviour
         int damage;
         int heal;
 
+        // 버프
+        if (data.DecreaseDamage != 100) // 받는 피해량 관련이라면
+        {
+
+        }
+        if (data.CharacterAttack != 100) // 주는 피해량 관련이라면
+        {
+
+        }
+        if (data.Provocation) // 도발 스킬이 맞다면
+        {
+
+        }
+
+
         if (data.Attack != 0) // 공격 스킬이라면
         {
             damage = data.Attack * data.CharacterAttack;
         }
-
-        if (data.DecreaseDamage != 0) // 받는 피해량 관련이라면
-        {
-
-        }
         
+
         if (data.HealHP != 0) // 회복 스킬이라면
         {
             heal = data.CharacterAttack * data.HealHP;
         }
 
-        if (data.Provocation) // 도발 스킬이 맞다면
-        {
-
-        }
 
         if (data.NotAction) // 자신에게 행동 불능을 건다면
         {

@@ -21,6 +21,7 @@ public class PlayerDataClass//캐릭터 DB
     public int Star = 0;//별
     public int IsAction = 0;//스킬 사용이 가능한가?
     public Sprite Img = null;//이미지
+    public Sprite Portrait = null;
     public int Stage = 1;//스테이지
     public float AppearProb = 1.0f;
     public PlayerDataClass(int i=0,string impa = "", string n = "무명", int h = 0, int a = 0, int A = 1,int e=0,int app=0,int up=0, int S = 1,int star = 0, int act = 0, int stage = 1,float appearProb = 1.0f)
@@ -393,11 +394,21 @@ public class SaveDataClass
         foreach(PlayerDataClass i in CharacterData)
         {
             i.Img = Resources.Load<Sprite>(path + i.img_path);
+            i.Portrait = Resources.Load<Sprite>(path + i.img_path + "_portrait");
+            if(i.Portrait == null)
+            {
+                i.Portrait = Resources.Load<Sprite>(path + "Default");
+            }
         }
 
         foreach(PlayerDataClass i in my_characterlist)
         {
             i.Img = Resources.Load<Sprite>(path + i.img_path);
+            i.Portrait = Resources.Load<Sprite>("Images/Portrait/" + i.img_path + "_portrait");
+            if (i.Portrait == null)
+            {
+                i.Portrait = Resources.Load<Sprite>(path + "Default");
+            }
         }
     }
 }

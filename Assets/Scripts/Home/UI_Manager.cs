@@ -230,7 +230,7 @@ public class UI_Manager : MonoBehaviour
             
             temp.name = data.saveData.my_characterlist[i].Name;
 
-            temp.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_characterlist[i].Img;
+            temp.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_characterlist[i].Portrait;
             Color col;
             switch(data.saveData.my_characterlist[i].Attribute)
             {
@@ -333,7 +333,7 @@ public class UI_Manager : MonoBehaviour
                 {
                     if(Unit.name == data.saveData.my_characterlist[i].Name)
                     {
-                        target.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_characterlist[i].Img;
+                        target.transform.GetChild(0).GetComponent<Image>().sprite = data.saveData.my_characterlist[i].Portrait;
                         target.transform.GetChild(1).GetComponent<Text>().text = data.saveData.my_characterlist[i].HP.ToString();
                         target.transform.GetChild(2).GetComponent<Text>().text = data.saveData.my_characterlist[i].ATK.ToString();
                         target.transform.GetChild(3).GetComponent<Text>().text = data.saveData.my_characterlist[i].Attribute.ToString();
