@@ -290,6 +290,25 @@ public class UI
 }
 
 [System.Serializable]
+public class Buff
+{
+    public int turn;
+    public int value;
+
+    public Buff()
+    {
+        turn = 0;
+        value = 0;
+    }
+
+    public Buff(int turn, int value)
+    {
+        this.turn = turn;
+        this.value = value;
+    }
+}
+
+[System.Serializable]
 public class InGameData
 {
     public bool isTurn;
@@ -302,15 +321,21 @@ public class InGameData
     public int hp;
     public int energy;
 
-    public List<int> monsterTaunt;
-    public List<int> playerTaunt;
     public List<int> selectSkill;
     public List<int> targetMonster;
+    public List<Buff> monsterTaunt;
+    public List<Buff> playerTaunt;
+    public List<Buff> playerCanActive;
+    public List<Buff> monsterCanActive;
     public List<PlayerDataClass> playerData;
     public List<MonstersDataClass> crruentMonster;
     public List<List<MonstersDataClass>> monsterData;
+    public List<List<Buff>> playerDamageBuff;
+    public List<List<Buff>> monsterDamageBuff;
+    public List<List<Buff>> playerDefenceBuff;
+    public List<List<Buff>> monsterDefenceBuff;
 
-    public InGameData(bool isTurn, bool isEffect, List<int> selectSkill, List<int> targetMonster, List<PlayerDataClass> playerData, List<List<MonstersDataClass>> monsterData, int selectPlayer, List<int> monsterTaunt, int stage, int turn, List<MonstersDataClass> crruentMonster, int monsterCount, int hp, int energy)
+    public InGameData(bool isTurn, bool isEffect, List<int> selectSkill, List<int> targetMonster, List<PlayerDataClass> playerData, List<List<MonstersDataClass>> monsterData, int selectPlayer, List<Buff> monsterTaunt, List<Buff> playerTaunt, int stage, int turn, List<MonstersDataClass> crruentMonster, int monsterCount, int hp, int energy, List<List<Buff>> playerDamageBuff, List<List<Buff>> monsterDamageBuff, List<List<Buff>> playerDefenceBuff, List<List<Buff>> monsterDefenceBuff)
     {
         this.isTurn = isTurn;
         this.isEffect = isEffect;
@@ -320,12 +345,17 @@ public class InGameData
         this.monsterData = monsterData;
         this.selectPlayer = selectPlayer;
         this.monsterTaunt = monsterTaunt;
+        this.playerTaunt = playerTaunt;
         this.turn = turn;
         this.stage = stage;
         this.crruentMonster = crruentMonster;
         this.monsterCount = monsterCount;
         this.hp = hp;
         this.energy = energy;
+        this.playerDamageBuff = playerDamageBuff;
+        this.monsterDamageBuff = monsterDamageBuff;
+        this.playerDefenceBuff = playerDefenceBuff;
+        this.monsterDefenceBuff = monsterDefenceBuff;
     }
 
     public InGameData()
@@ -336,7 +366,8 @@ public class InGameData
         stage = 0;
         turn = 0;
         monsterCount = 0;
-        monsterTaunt = new List<int>();
+        monsterTaunt = new List<Buff>();
+        playerTaunt = new List<Buff>(); 
         selectSkill = new List<int>();
         targetMonster = new List<int>();
         playerData = new List<PlayerDataClass>();
@@ -344,6 +375,10 @@ public class InGameData
         crruentMonster = new List<MonstersDataClass>();
         hp = 0;
         energy = 0;
+        playerDamageBuff = new List<List<Buff>>();
+        monsterDamageBuff = new List<List<Buff>>();
+        playerDefenceBuff = new List<List<Buff>>();
+        monsterDefenceBuff = new List<List<Buff>>();
     }
 }
 
@@ -394,7 +429,7 @@ public class SaveDataClass
         foreach(PlayerDataClass i in CharacterData)
         {
             i.Img = Resources.Load<Sprite>(path + i.img_path);
-            i.Portrait = Resources.Load<Sprite>(path + i.img_path + "_portrait");
+            i.Portrait = Resources.Load<Sprite>("Images/Portrait/" + i.img_path + "_portrait");
             if(i.Portrait == null)
             {
                 i.Portrait = Resources.Load<Sprite>(path + "Default");

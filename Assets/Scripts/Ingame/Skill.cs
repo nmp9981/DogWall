@@ -9,8 +9,6 @@ public class Skill : MonoBehaviour
     [SerializeField]
     UISetting UISetting;
 
-    [SerializeField]
-
 
     public IEnumerator PlayerSkill()
     {
@@ -55,15 +53,16 @@ public class Skill : MonoBehaviour
     {
         CharacterSkillIndexDataClass data = DataManager.singleTon.saveData.CharacterSkillIndex[idx];
 
-        int damage;
-        int heal;
+        float damage;
+        float heal;
+        float characterAttack = 1; // 최종 공격력 버프
 
         // 버프
-        if (data.DecreaseDamage != 100) // 받는 피해량 관련이라면
+        if (data.DecreaseDamage != 100) // 피해량 감소 버프
         {
 
         }
-        if (data.CharacterAttack != 100) // 주는 피해량 관련이라면
+        if (data.CharacterAttack != 100) // 피해량 증가 버프
         {
 
         }
@@ -75,7 +74,7 @@ public class Skill : MonoBehaviour
 
         if (data.Attack != 0) // 공격 스킬이라면
         {
-            damage = data.Attack * data.CharacterAttack;
+            damage = data.Attack * characterAttack;
         }
         
 

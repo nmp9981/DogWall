@@ -48,17 +48,17 @@ public class MainTurn : MonoBehaviour
 
         if (DataManager.singleTon.saveData.inGameData.monsterTaunt.Count == 1)
         {
-            DataManager.singleTon.saveData.inGameData.targetMonster.Add(DataManager.singleTon.saveData.inGameData.monsterTaunt[0]);
-            DataManager.singleTon.saveData.inGameData.targetMonster.Add(DataManager.singleTon.saveData.inGameData.monsterTaunt[0]);
-            DataManager.singleTon.saveData.inGameData.targetMonster.Add(DataManager.singleTon.saveData.inGameData.monsterTaunt[0]);
-            DataManager.singleTon.saveData.inGameData.targetMonster.Add(DataManager.singleTon.saveData.inGameData.monsterTaunt[0]); // 도발한 몬스터가 한명이라면 그 몬스터로 고정
+            //DataManager.singleTon.saveData.inGameData.targetMonster.Add(DataManager.singleTon.saveData.inGameData.monsterTaunt[0]);
+            //DataManager.singleTon.saveData.inGameData.targetMonster.Add(DataManager.singleTon.saveData.inGameData.monsterTaunt[0]);
+            //DataManager.singleTon.saveData.inGameData.targetMonster.Add(DataManager.singleTon.saveData.inGameData.monsterTaunt[0]);
+            //DataManager.singleTon.saveData.inGameData.targetMonster.Add(DataManager.singleTon.saveData.inGameData.monsterTaunt[0]); // 도발한 몬스터가 한명이라면 그 몬스터로 고정
         }
         else if (DataManager.singleTon.saveData.inGameData.monsterTaunt.Count > 1)
         {
-            DataManager.singleTon.saveData.inGameData.targetMonster.Add(DataManager.singleTon.saveData.inGameData.monsterTaunt[0]);
-            DataManager.singleTon.saveData.inGameData.targetMonster.Add(DataManager.singleTon.saveData.inGameData.monsterTaunt[0]);
-            DataManager.singleTon.saveData.inGameData.targetMonster.Add(DataManager.singleTon.saveData.inGameData.monsterTaunt[0]);
-            DataManager.singleTon.saveData.inGameData.targetMonster.Add(DataManager.singleTon.saveData.inGameData.monsterTaunt[0]); // 도발한 몬스터가 두명 이상이라면 일단 다음 몬스터로 고정
+            //DataManager.singleTon.saveData.inGameData.targetMonster.Add(DataManager.singleTon.saveData.inGameData.monsterTaunt[0]);
+            //DataManager.singleTon.saveData.inGameData.targetMonster.Add(DataManager.singleTon.saveData.inGameData.monsterTaunt[0]);
+            //DataManager.singleTon.saveData.inGameData.targetMonster.Add(DataManager.singleTon.saveData.inGameData.monsterTaunt[0]);
+            //DataManager.singleTon.saveData.inGameData.targetMonster.Add(DataManager.singleTon.saveData.inGameData.monsterTaunt[0]); // 도발한 몬스터가 두명 이상이라면 일단 다음 몬스터로 고정
         }
         else
         {
