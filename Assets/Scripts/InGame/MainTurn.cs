@@ -23,7 +23,7 @@ public class MainTurn : MonoBehaviour
             DataManager.singleTon.saveData.inGameData.playerData.Add(DataManager.singleTon.saveData.CharacterData[DataManager.singleTon.saveData.my_team[3].idx]);
         } // 데이터가 없으면 임시 데이터 추가 (테스트용)
 
-        DataManager.singleTon.saveData.inGameData.monsterTaunt.Clear(); // 적 도발 초기화
+        DataManager.singleTon.saveData.inGameData.monsterTaunt = new Buff[4];
         DataManager.singleTon.saveData.inGameData.stage = 1;
         DataManager.singleTon.saveData.inGameData.turn = 1;
 
@@ -45,7 +45,23 @@ public class MainTurn : MonoBehaviour
         DataManager.singleTon.saveData.inGameData.selectSkill.Add(4); // 스킬 선택 초기화 (디폴트값 스킬 안씀)
 
         DataManager.singleTon.saveData.inGameData.targetMonster.Clear();
+        DataManager.singleTon.saveData.inGameData.targetMonster = new List<int> { 0, 0, 0, 0};
 
+        for(int i = 0; i < DataManager.singleTon.saveData.inGameData.playerData.Count; i++)
+        {
+            DataManager.singleTon.saveData.inGameData.playerDefenceBuff[i] = new List<Buff>();
+            DataManager.singleTon.saveData.inGameData.playerDamageBuff[i] = new List<Buff>();
+            DataManager.singleTon.saveData.inGameData.playerBlood[i] = new List<Buff>();
+        }
+        for (int i = 0; i < DataManager.singleTon.saveData.inGameData.crruentMonster.Count; i++)
+        {
+            DataManager.singleTon.saveData.inGameData.monsterDefenceBuff[i] = new List<Buff>();
+            DataManager.singleTon.saveData.inGameData.monsterDamageBuff[i] = new List<Buff>();
+            DataManager.singleTon.saveData.inGameData.monsterBlood[i] = new List<Buff>();
+        }
+
+        /*
+        for(int i = 0; i < 4; i++)
         if (DataManager.singleTon.saveData.inGameData.monsterTaunt.Count == 1)
         {
             //DataManager.singleTon.saveData.inGameData.targetMonster.Add(DataManager.singleTon.saveData.inGameData.monsterTaunt[0]);
@@ -67,6 +83,7 @@ public class MainTurn : MonoBehaviour
             DataManager.singleTon.saveData.inGameData.targetMonster.Add(0);
             DataManager.singleTon.saveData.inGameData.targetMonster.Add(0); // 적 선택 초기화 (디폴트값 첫번째 몬스터)
         }
+        */
 
         playerSelect.UISetting.PlayerUISetting();
         playerSelect.UISetting.MonsterUISetting();
@@ -90,6 +107,13 @@ public class MainTurn : MonoBehaviour
             DataManager.singleTon.saveData.inGameData.crruentMonster.Add(temp);
             DataManager.singleTon.saveData.inGameData.monsterCount++;
         }
+
+        for (int i = 0; i < DataManager.singleTon.saveData.inGameData.crruentMonster.Count; i++)
+        {
+            DataManager.singleTon.saveData.inGameData.monsterDefenceBuff[i] = new List<Buff>();
+            DataManager.singleTon.saveData.inGameData.monsterDamageBuff[i] = new List<Buff>();
+            DataManager.singleTon.saveData.inGameData.monsterBlood[i] = new List<Buff>();
+        }
     }
 
     MonstersDataClass MonsterDataDeepcopy(MonstersDataClass ori)
@@ -101,30 +125,8 @@ public class MainTurn : MonoBehaviour
         copy.Type = ori.Type;
         copy.Hp = ori.Hp;
         copy.Atk = ori.Atk;
-        copy.turn0_general1 = ori.turn0_general1;
-        copy.turn0_general2 = ori.turn0_general2;
-        copy.turn0_special1 = ori.turn0_special1;
-        copy.turn0_special2 = ori.turn0_special2;
-        copy.turn1_general = ori.turn1_general;
-        copy.turn1_general__1 = ori.turn1_general__1;
-        copy.turn1_special1 = ori.turn1_special1;
-        copy.turn1_special2 = ori.turn1_special2;
-        copy.turn2_general = ori.turn2_general;
-        copy.turn2_general__1 = ori.turn2_general__1;
-        copy.turn2_special1 = ori.turn2_special1;
-        copy.turn2_special2 = ori.turn2_special2;
-        copy.turn3_general1 = ori.turn3_general1;
-        copy.turn3_general2 = ori.turn3_general2;
-        copy.turn3_special1 = ori.turn3_special1;
-        copy.turn3_special2 = ori.turn3_special2;
-        copy.turn4_general1 = ori.turn4_general1;
-        copy.turn4_general2 = ori.turn4_general2;
-        copy.turn4_special1 = ori.turn4_special1;
-        copy.turn4_special2 = ori.turn4_special2;
-        copy.turn5_general1 = ori.turn5_general1;
-        copy.turn5_general2 = ori.turn5_general2;
-        copy.turn5_special1 = ori.turn5_special1;
-        copy.turn5_special2 = ori.turn5_special2;
+        copy.turn_general = ori.turn_general;
+        copy.turn_special = ori.turn_special;
         copy.Img_Path = ori.Img_Path;
 
         return copy;

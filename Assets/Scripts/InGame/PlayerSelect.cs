@@ -25,11 +25,15 @@ public class PlayerSelect : MonoBehaviour
     {
         if (CheckTurn()) return;
         DataManager.singleTon.saveData.inGameData.selectSkill[DataManager.singleTon.saveData.inGameData.selectPlayer] = number;
+        UISetting.PlayerUISetting();
     }
 
     public void MonsterSelect(int number)
     {
         if (CheckTurn()) return;
+        DataManager.singleTon.saveData.inGameData.targetMonster[DataManager.singleTon.saveData.inGameData.selectPlayer] = number;
+        UISetting.PlayerUISetting();
+        /*
         if (DataManager.singleTon.saveData.inGameData.monsterTaunt.Count == 0)
         {
             DataManager.singleTon.saveData.inGameData.targetMonster[DataManager.singleTon.saveData.inGameData.selectPlayer] = number;
@@ -51,5 +55,6 @@ public class PlayerSelect : MonoBehaviour
             UISetting.PlayerUISetting();
             return;
         }
+        */
     }
 }

@@ -89,8 +89,9 @@ public class CharacterSkillIndexDataClass//스킬DB
     public int DeathLink = 0;//데스 링크 여부
     public int Energy = 1;//에너지 사용량
     public int EffectType = 1;//스킬 이펙트
+    public string SoundType = "Default";
 
-    public CharacterSkillIndexDataClass(string sn = "럭키세븐", int a = 0, int ca = 0, int dd = 0, int hh = 0, bool p = false, bool na = false, int b = 0,bool allt=false, int tc = 1,int hli = 0,int dli = 0, int e = 1,int ef = 1)
+    public CharacterSkillIndexDataClass(string sn = "럭키세븐", int a = 0, int ca = 0, int dd = 0, int hh = 0, bool p = false, bool na = false, int b = 0,bool allt=false, int tc = 1,int hli = 0,int dli = 0, int e = 1,int ef = 1, string sf = "Default")
     {
         this.Name = sn;
         this.Attack = a;
@@ -106,6 +107,7 @@ public class CharacterSkillIndexDataClass//스킬DB
         this.DeathLink = dli;
         this.Energy = e;
         this.EffectType = ef;
+        this.SoundType = sf;
     }
 }
 
@@ -119,21 +121,14 @@ public class MonstersDataClass//몬스터 DB
     public int Hp = 0;//HP
     public int Atk = 0;//공격력
     //각 턴에 뭐를 쓸건가
-    public int turn0_general1 = 0;public int turn0_general2 = 0;public int turn0_special1 = 0;public int turn0_special2 = 0;
-    public int turn1_general = 0;public int turn1_general__1; public int turn1_special1 = 0;public int turn1_special2 = 0;
-    public int turn2_general = 0;public int turn2_general__1 = 0;public int turn2_special1 = 0;public int turn2_special2 = 0;
-    public int turn3_general1 = 0;public int turn3_general2 = 0;public int turn3_special1 = 0;public int turn3_special2 = 0;
-    public int turn4_general1 = 0;public int turn4_general2 = 0;public int turn4_special1 = 0;public int turn4_special2 = 0;
-    public int turn5_general1 = 0;public int turn5_general2 = 0;public int turn5_special1 = 0;public int turn5_special2 = 0;
+    public int TurnCount;
+    public string turn_general = "";
+    public string turn_special = "";
     public string Img_Path = "";//이미지 경로
 
-    public MonstersDataClass(string w = "월령", string n = "1", int d = 1 ,int t = 1, int h = 0, int at = 0,int tc= 1,
+    public MonstersDataClass(string w = "월령", string n = "1", int tc = 1, int d = 1 ,int t = 1, int h = 0, int at = 0,
         int t0G1=0,int t0G2=0,int t0S1=0,int t0S2=0,
-        int t1G1 = 0, int t1G2 = 0, int t1S1 = 0, int t1S2 = 0,
-        int t2G1 = 0, int t2G2 = 0, int t2S1 = 0, int t2S2 = 0,
-        int t3G1 = 0, int t3G2 = 0, int t3S1 = 0, int t3S2 = 0,
-        int t4G1 = 0, int t4G2 = 0, int t4S1 = 0, int t4S2 = 0,
-        int t5G1 = 0, int t5G2 = 0, int t5S1 = 0, int t5S2 = 0, string imgPath = "")
+        string tG = "", string tS = "", string imgPath = "")
     {
         this.World = w;
         this.Character = n;
@@ -141,13 +136,10 @@ public class MonstersDataClass//몬스터 DB
         this.Type = t;
         this.Hp = h;
         this.Atk = at;
+        this.TurnCount = tc;
         //각 턴 스킬 번호
-        this.turn0_general1 = t0G1;this.turn0_general2 = t0G2;this.turn0_special1 = t0S1;this.turn0_special2 = t0S2;
-        this.turn1_general = t1G1;this.turn1_general__1 = t1G2;this.turn1_special1 = t1S1;this.turn1_special2 = t1S2;
-        this.turn2_general = t2G1;this.turn2_general__1 = t2G2;this.turn2_special1 = t2S1;this.turn2_special2 = t2S2;
-        this.turn3_general1 = t3G1;this.turn3_general2 = t3G2;this.turn3_special1 = t3S1;this.turn3_special2 = t3S2;
-        this.turn4_general1 = t4G1;this.turn4_general2 = t4G2;this.turn4_special1 = t4S1;this.turn4_special2 = t4S2;
-        this.turn5_general1 = t5G1;this.turn5_general2 = t5G2;this.turn5_special1 = t5S1;this.turn5_special2 = t5S2;
+        this.turn_general = tG;
+        this.turn_special = tS;
         this.Img_Path = imgPath;
     }
 }
@@ -323,19 +315,21 @@ public class InGameData
 
     public List<int> selectSkill;
     public List<int> targetMonster;
-    public List<Buff> monsterTaunt;
-    public List<Buff> playerTaunt;
-    public List<Buff> playerCanActive;
-    public List<Buff> monsterCanActive;
+    public Buff[] monsterTaunt;
+    public Buff[] playerTaunt;
+    public Buff[] playerCanActive;
+    public Buff[] monsterCanActive;
     public List<PlayerDataClass> playerData;
     public List<MonstersDataClass> crruentMonster;
     public List<List<MonstersDataClass>> monsterData;
-    public List<List<Buff>> playerDamageBuff;
-    public List<List<Buff>> monsterDamageBuff;
-    public List<List<Buff>> playerDefenceBuff;
-    public List<List<Buff>> monsterDefenceBuff;
+    public List<Buff>[] playerDamageBuff;
+    public List<Buff>[] monsterDamageBuff;
+    public List<Buff>[] playerDefenceBuff;
+    public List<Buff>[] monsterDefenceBuff;
+    public List<Buff>[] playerBlood;
+    public List<Buff>[] monsterBlood;
 
-    public InGameData(bool isTurn, bool isEffect, List<int> selectSkill, List<int> targetMonster, List<PlayerDataClass> playerData, List<List<MonstersDataClass>> monsterData, int selectPlayer, List<Buff> monsterTaunt, List<Buff> playerTaunt, int stage, int turn, List<MonstersDataClass> crruentMonster, int monsterCount, int hp, int energy, List<List<Buff>> playerDamageBuff, List<List<Buff>> monsterDamageBuff, List<List<Buff>> playerDefenceBuff, List<List<Buff>> monsterDefenceBuff)
+    public InGameData(bool isTurn, bool isEffect, List<int> selectSkill, List<int> targetMonster, List<PlayerDataClass> playerData, List<List<MonstersDataClass>> monsterData, int selectPlayer, Buff[] monsterTaunt, Buff[] playerTaunt, int stage, int turn, List<MonstersDataClass> crruentMonster, int monsterCount, int hp, int energy, List<Buff>[] playerDamageBuff, List<Buff>[] monsterDamageBuff, List<Buff>[] playerDefenceBuff, List<Buff>[] monsterDefenceBuff, List<Buff>[] playerBlood, List<Buff>[] monsterBlood)
     {
         this.isTurn = isTurn;
         this.isEffect = isEffect;
@@ -356,6 +350,8 @@ public class InGameData
         this.monsterDamageBuff = monsterDamageBuff;
         this.playerDefenceBuff = playerDefenceBuff;
         this.monsterDefenceBuff = monsterDefenceBuff;
+        this.playerBlood = playerBlood;
+        this.monsterBlood = monsterBlood;
     }
 
     public InGameData()
@@ -366,8 +362,8 @@ public class InGameData
         stage = 0;
         turn = 0;
         monsterCount = 0;
-        monsterTaunt = new List<Buff>();
-        playerTaunt = new List<Buff>(); 
+        monsterTaunt = new Buff[10];
+        playerTaunt = new Buff[4];
         selectSkill = new List<int>();
         targetMonster = new List<int>();
         playerData = new List<PlayerDataClass>();
@@ -375,10 +371,12 @@ public class InGameData
         crruentMonster = new List<MonstersDataClass>();
         hp = 0;
         energy = 0;
-        playerDamageBuff = new List<List<Buff>>();
-        monsterDamageBuff = new List<List<Buff>>();
-        playerDefenceBuff = new List<List<Buff>>();
-        monsterDefenceBuff = new List<List<Buff>>();
+        playerDamageBuff = new List<Buff>[4];
+        monsterDamageBuff = new List<Buff>[10];
+        playerDefenceBuff = new List<Buff>[4];
+        monsterDefenceBuff = new List<Buff>[10];
+        playerBlood = new List<Buff>[4];
+        monsterBlood = new List<Buff>[10];
     }
 }
 

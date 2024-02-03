@@ -23,6 +23,8 @@ public class UISetting : MonoBehaviour
     List<Text> skillEnergy;
     [SerializeField]
     List<GameObject> playerTarget;
+    [SerializeField]
+    List<GameObject> skillEffect;
 
     [Space(5)]
 
@@ -33,7 +35,7 @@ public class UISetting : MonoBehaviour
 
     public void PlayerUISetting() // 플레이어 관련 UI를 세팅한다
     {
-        for(int i = 0; i < DataManager.singleTon.saveData.inGameData.playerData.Count; i++)
+        for (int i = 0; i < DataManager.singleTon.saveData.inGameData.playerData.Count; i++)
         {
             playerImage[i].sprite = DataManager.singleTon.saveData.inGameData.playerData[i].Img; // 플레이어 초상화 세팅
         }
@@ -58,6 +60,11 @@ public class UISetting : MonoBehaviour
             playerTarget[i].SetActive(false);
         }
         playerTarget[DataManager.singleTon.saveData.inGameData.targetMonster[DataManager.singleTon.saveData.inGameData.selectPlayer]].SetActive(true);
+
+        foreach(GameObject ob in skillEffect)
+            ob.SetActive(false);
+        if(DataManager.singleTon.saveData.inGameData.selectSkill[DataManager.singleTon.saveData.inGameData.selectPlayer] != 4)
+            skillEffect[DataManager.singleTon.saveData.inGameData.selectSkill[DataManager.singleTon.saveData.inGameData.selectPlayer]].SetActive(true);
     }
 
     public void StageUISetting() // 스테이지 관련 UI를 세팅한다

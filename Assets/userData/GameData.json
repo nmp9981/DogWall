@@ -14,10 +14,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16262
+                "instanceID": 16292
             },
             "Portrait": {
-                "instanceID": 17026
+                "instanceID": 17046
             },
             "Stage": 1,
             "AppearProb": 2.0980000495910646
@@ -36,10 +36,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15926
+                "instanceID": 16004
             },
             "Portrait": {
-                "instanceID": 16960
+                "instanceID": 16330
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -58,10 +58,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16054
+                "instanceID": 16302
             },
             "Portrait": {
-                "instanceID": 16978
+                "instanceID": 16586
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -80,10 +80,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16258
+                "instanceID": 16808
             },
             "Portrait": {
-                "instanceID": 16906
+                "instanceID": 15932
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -102,10 +102,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16002
+                "instanceID": 16646
             },
             "Portrait": {
-                "instanceID": 16900
+                "instanceID": 15880
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -124,10 +124,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16322
+                "instanceID": 16946
             },
             "Portrait": {
-                "instanceID": 17020
+                "instanceID": 17010
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -146,10 +146,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16082
+                "instanceID": 16990
             },
             "Portrait": {
-                "instanceID": 16990
+                "instanceID": 16688
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -171,7 +171,7 @@
                 "instanceID": 0
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -193,7 +193,7 @@
                 "instanceID": 0
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -212,10 +212,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16006
+                "instanceID": 15940
             },
             "Portrait": {
-                "instanceID": 16912
+                "instanceID": 15958
             },
             "Stage": 1,
             "AppearProb": 2.0980000495910646
@@ -234,10 +234,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16326
+                "instanceID": 17020
             },
             "Portrait": {
-                "instanceID": 16938
+                "instanceID": 16148
             },
             "Stage": 1,
             "AppearProb": 2.0980000495910646
@@ -256,10 +256,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15946
+                "instanceID": 16522
             },
             "Portrait": {
-                "instanceID": 17012
+                "instanceID": 16930
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -278,10 +278,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16110
+                "instanceID": 17006
             },
             "Portrait": {
-                "instanceID": 16908
+                "instanceID": 15944
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -303,7 +303,7 @@
                 "instanceID": 0
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -322,10 +322,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16270
+                "instanceID": 16042
             },
             "Portrait": {
-                "instanceID": 16948
+                "instanceID": 16240
             },
             "Stage": 1,
             "AppearProb": 2.0980000495910646
@@ -344,10 +344,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15918
+                "instanceID": 16172
             },
             "Portrait": {
-                "instanceID": 16922
+                "instanceID": 16014
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -366,10 +366,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16046
+                "instanceID": 16970
             },
             "Portrait": {
-                "instanceID": 16918
+                "instanceID": 15992
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -388,10 +388,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16250
+                "instanceID": 16160
             },
             "Portrait": {
-                "instanceID": 16958
+                "instanceID": 16324
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -410,10 +410,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15994
+                "instanceID": 17126
             },
             "Portrait": {
-                "instanceID": 16966
+                "instanceID": 16408
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -432,10 +432,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16314
+                "instanceID": 16902
             },
             "Portrait": {
-                "instanceID": 16984
+                "instanceID": 16628
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -454,10 +454,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16074
+                "instanceID": 16650
             },
             "Portrait": {
-                "instanceID": 16982
+                "instanceID": 16620
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -476,10 +476,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16086
+                "instanceID": 16818
             },
             "Portrait": {
-                "instanceID": 16994
+                "instanceID": 16704
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -498,10 +498,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15930
+                "instanceID": 16530
             },
             "Portrait": {
-                "instanceID": 16898
+                "instanceID": 15872
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -520,10 +520,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16014
+                "instanceID": 16642
             },
             "Portrait": {
-                "instanceID": 17022
+                "instanceID": 17014
             },
             "Stage": 1,
             "AppearProb": 2.0980000495910646
@@ -542,10 +542,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15942
+                "instanceID": 16756
             },
             "Portrait": {
-                "instanceID": 16972
+                "instanceID": 16508
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -564,10 +564,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15974
+                "instanceID": 16938
             },
             "Portrait": {
-                "instanceID": 16944
+                "instanceID": 16204
             },
             "Stage": 1,
             "AppearProb": 2.0980000495910646
@@ -586,10 +586,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16114
+                "instanceID": 16038
             },
             "Portrait": {
-                "instanceID": 17018
+                "instanceID": 16994
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -608,10 +608,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16238
+                "instanceID": 16792
             },
             "Portrait": {
-                "instanceID": 16934
+                "instanceID": 16118
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -630,10 +630,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16278
+                "instanceID": 16482
             },
             "Portrait": {
-                "instanceID": 16950
+                "instanceID": 16276
             },
             "Stage": 1,
             "AppearProb": 2.0980000495910646
@@ -652,10 +652,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15922
+                "instanceID": 16496
             },
             "Portrait": {
-                "instanceID": 16920
+                "instanceID": 16010
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -674,10 +674,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16050
+                "instanceID": 16564
             },
             "Portrait": {
-                "instanceID": 16968
+                "instanceID": 16416
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -696,10 +696,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16254
+                "instanceID": 16396
             },
             "Portrait": {
-                "instanceID": 16998
+                "instanceID": 16744
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -718,10 +718,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15998
+                "instanceID": 16088
             },
             "Portrait": {
-                "instanceID": 16946
+                "instanceID": 16216
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -740,10 +740,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16318
+                "instanceID": 16964
             },
             "Portrait": {
-                "instanceID": 16996
+                "instanceID": 16712
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -762,10 +762,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16078
+                "instanceID": 16236
             },
             "Portrait": {
-                "instanceID": 16954
+                "instanceID": 16316
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -784,10 +784,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16090
+                "instanceID": 16106
             },
             "Portrait": {
-                "instanceID": 16896
+                "instanceID": 15868
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -806,10 +806,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15934
+                "instanceID": 16504
             },
             "Portrait": {
-                "instanceID": 16962
+                "instanceID": 16338
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -828,10 +828,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15982
+                "instanceID": 16594
             },
             "Portrait": {
-                "instanceID": 16976
+                "instanceID": 16568
             },
             "Stage": 1,
             "AppearProb": 2.0980000495910646
@@ -850,10 +850,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16342
+                "instanceID": 16616
             },
             "Portrait": {
-                "instanceID": 16988
+                "instanceID": 16662
             },
             "Stage": 1,
             "AppearProb": 2.0980000495910646
@@ -872,10 +872,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16106
+                "instanceID": 16400
             },
             "Portrait": {
-                "instanceID": 16940
+                "instanceID": 16152
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -897,7 +897,7 @@
                 "instanceID": 0
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -916,10 +916,10 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16150
+                "instanceID": 16030
             },
             "Portrait": {
-                "instanceID": 16952
+                "instanceID": 16286
             },
             "Stage": 3,
             "AppearProb": 1.6690000295639039
@@ -938,10 +938,10 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16198
+                "instanceID": 16998
             },
             "Portrait": {
-                "instanceID": 17016
+                "instanceID": 16980
             },
             "Stage": 1,
             "AppearProb": 1.6690000295639039
@@ -960,10 +960,10 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16230
+                "instanceID": 17002
             },
             "Portrait": {
-                "instanceID": 16974
+                "instanceID": 16518
             },
             "Stage": 1,
             "AppearProb": 1.6690000295639039
@@ -982,10 +982,10 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16182
+                "instanceID": 16654
             },
             "Portrait": {
-                "instanceID": 16910
+                "instanceID": 15948
             },
             "Stage": 2,
             "AppearProb": 1.6690000295639039
@@ -1004,10 +1004,10 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15954
+                "instanceID": 16894
             },
             "Portrait": {
-                "instanceID": 16956
+                "instanceID": 16320
             },
             "Stage": 3,
             "AppearProb": 1.6690000295639039
@@ -1026,10 +1026,10 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16178
+                "instanceID": 16196
             },
             "Portrait": {
-                "instanceID": 17008
+                "instanceID": 16910
             },
             "Stage": 2,
             "AppearProb": 1.6690000295639039
@@ -1048,10 +1048,10 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16138
+                "instanceID": 15904
             },
             "Portrait": {
-                "instanceID": 16970
+                "instanceID": 15936
             },
             "Stage": 1,
             "AppearProb": 0.0
@@ -1070,10 +1070,10 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16130
+                "instanceID": 16084
             },
             "Portrait": {
-                "instanceID": 16986
+                "instanceID": 16632
             },
             "Stage": 2,
             "AppearProb": 0.0
@@ -1092,10 +1092,10 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15910
+                "instanceID": 16168
             },
             "Portrait": {
-                "instanceID": 17006
+                "instanceID": 16836
             },
             "Stage": 3,
             "AppearProb": 0.0
@@ -1114,10 +1114,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16186
+                "instanceID": 17030
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 1,
             "AppearProb": 0.6665999889373779
@@ -1136,10 +1136,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16214
+                "instanceID": 17036
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 3,
             "AppearProb": 0.6665999889373779
@@ -1158,10 +1158,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16174
+                "instanceID": 16346
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 2,
             "AppearProb": 0.6665999889373779
@@ -1180,10 +1180,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16226
+                "instanceID": 16680
             },
             "Portrait": {
-                "instanceID": 17024
+                "instanceID": 17042
             },
             "Stage": 2,
             "AppearProb": 0.6665999889373779
@@ -1202,10 +1202,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16162
+                "instanceID": 16262
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 3,
             "AppearProb": 0.6665999889373779
@@ -1224,10 +1224,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16206
+                "instanceID": 16266
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 1,
             "AppearProb": 0.6665999889373779
@@ -1246,10 +1246,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15990
+                "instanceID": 16244
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 1,
             "AppearProb": 0.0
@@ -1268,10 +1268,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16126
+                "instanceID": 16898
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 2,
             "AppearProb": 0.0
@@ -1290,10 +1290,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15902
+                "instanceID": 16412
             },
             "Portrait": {
-                "instanceID": 16936
+                "instanceID": 16138
             },
             "Stage": 3,
             "AppearProb": 0.0
@@ -1312,10 +1312,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16030
+                "instanceID": 16546
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 1,
             "AppearProb": 0.0
@@ -1334,10 +1334,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16102
+                "instanceID": 16840
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 1,
             "AppearProb": 0.0
@@ -1356,10 +1356,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16034
+                "instanceID": 16956
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 2,
             "AppearProb": 0.0
@@ -1378,10 +1378,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16038
+                "instanceID": 16130
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 2,
             "AppearProb": 0.0
@@ -1400,10 +1400,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15894
+                "instanceID": 16812
             },
             "Portrait": {
-                "instanceID": 16904
+                "instanceID": 15924
             },
             "Stage": 3,
             "AppearProb": 0.0
@@ -1422,10 +1422,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15954
+                "instanceID": 16894
             },
             "Portrait": {
-                "instanceID": 16956
+                "instanceID": 16320
             },
             "Stage": 3,
             "AppearProb": 0.0
@@ -1446,10 +1446,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16262
+                "instanceID": 16292
             },
             "Portrait": {
-                "instanceID": 17026
+                "instanceID": 17046
             },
             "Stage": 1,
             "AppearProb": 2.0980000495910646
@@ -1468,10 +1468,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15926
+                "instanceID": 16004
             },
             "Portrait": {
-                "instanceID": 16960
+                "instanceID": 16330
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -1490,10 +1490,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16054
+                "instanceID": 16302
             },
             "Portrait": {
-                "instanceID": 16978
+                "instanceID": 16586
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -1512,10 +1512,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16258
+                "instanceID": 16808
             },
             "Portrait": {
-                "instanceID": 16906
+                "instanceID": 15932
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -1534,10 +1534,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16002
+                "instanceID": 16646
             },
             "Portrait": {
-                "instanceID": 16900
+                "instanceID": 15880
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -1556,10 +1556,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16322
+                "instanceID": 16946
             },
             "Portrait": {
-                "instanceID": 17020
+                "instanceID": 17010
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -1578,10 +1578,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16082
+                "instanceID": 16990
             },
             "Portrait": {
-                "instanceID": 16990
+                "instanceID": 16688
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -1603,7 +1603,7 @@
                 "instanceID": 0
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -1625,7 +1625,7 @@
                 "instanceID": 0
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -1644,10 +1644,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16006
+                "instanceID": 15940
             },
             "Portrait": {
-                "instanceID": 16912
+                "instanceID": 15958
             },
             "Stage": 1,
             "AppearProb": 2.0980000495910646
@@ -1666,10 +1666,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16326
+                "instanceID": 17020
             },
             "Portrait": {
-                "instanceID": 16938
+                "instanceID": 16148
             },
             "Stage": 1,
             "AppearProb": 2.0980000495910646
@@ -1688,10 +1688,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15946
+                "instanceID": 16522
             },
             "Portrait": {
-                "instanceID": 17012
+                "instanceID": 16930
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -1710,10 +1710,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16110
+                "instanceID": 17006
             },
             "Portrait": {
-                "instanceID": 16908
+                "instanceID": 15944
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -1735,7 +1735,7 @@
                 "instanceID": 0
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -1754,10 +1754,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16270
+                "instanceID": 16042
             },
             "Portrait": {
-                "instanceID": 16948
+                "instanceID": 16240
             },
             "Stage": 1,
             "AppearProb": 2.0980000495910646
@@ -1776,10 +1776,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15918
+                "instanceID": 16172
             },
             "Portrait": {
-                "instanceID": 16922
+                "instanceID": 16014
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -1798,10 +1798,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16046
+                "instanceID": 16970
             },
             "Portrait": {
-                "instanceID": 16918
+                "instanceID": 15992
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -1820,10 +1820,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16250
+                "instanceID": 16160
             },
             "Portrait": {
-                "instanceID": 16958
+                "instanceID": 16324
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -1842,10 +1842,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15994
+                "instanceID": 17126
             },
             "Portrait": {
-                "instanceID": 16966
+                "instanceID": 16408
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -1864,10 +1864,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16314
+                "instanceID": 16902
             },
             "Portrait": {
-                "instanceID": 16984
+                "instanceID": 16628
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -1886,10 +1886,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16074
+                "instanceID": 16650
             },
             "Portrait": {
-                "instanceID": 16982
+                "instanceID": 16620
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -1908,10 +1908,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16086
+                "instanceID": 16818
             },
             "Portrait": {
-                "instanceID": 16994
+                "instanceID": 16704
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -1930,10 +1930,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15930
+                "instanceID": 16530
             },
             "Portrait": {
-                "instanceID": 16898
+                "instanceID": 15872
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -1952,10 +1952,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16014
+                "instanceID": 16642
             },
             "Portrait": {
-                "instanceID": 17022
+                "instanceID": 17014
             },
             "Stage": 1,
             "AppearProb": 2.0980000495910646
@@ -1974,10 +1974,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15942
+                "instanceID": 16756
             },
             "Portrait": {
-                "instanceID": 16972
+                "instanceID": 16508
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -1996,10 +1996,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15974
+                "instanceID": 16938
             },
             "Portrait": {
-                "instanceID": 16944
+                "instanceID": 16204
             },
             "Stage": 1,
             "AppearProb": 2.0980000495910646
@@ -2018,10 +2018,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16114
+                "instanceID": 16038
             },
             "Portrait": {
-                "instanceID": 17018
+                "instanceID": 16994
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -2040,10 +2040,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16238
+                "instanceID": 16792
             },
             "Portrait": {
-                "instanceID": 16934
+                "instanceID": 16118
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -2062,10 +2062,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16278
+                "instanceID": 16482
             },
             "Portrait": {
-                "instanceID": 16950
+                "instanceID": 16276
             },
             "Stage": 1,
             "AppearProb": 2.0980000495910646
@@ -2084,10 +2084,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15922
+                "instanceID": 16496
             },
             "Portrait": {
-                "instanceID": 16920
+                "instanceID": 16010
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -2106,10 +2106,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16050
+                "instanceID": 16564
             },
             "Portrait": {
-                "instanceID": 16968
+                "instanceID": 16416
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -2128,10 +2128,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16254
+                "instanceID": 16396
             },
             "Portrait": {
-                "instanceID": 16998
+                "instanceID": 16744
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -2150,10 +2150,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15998
+                "instanceID": 16088
             },
             "Portrait": {
-                "instanceID": 16946
+                "instanceID": 16216
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -2172,10 +2172,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16318
+                "instanceID": 16964
             },
             "Portrait": {
-                "instanceID": 16996
+                "instanceID": 16712
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -2194,10 +2194,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16078
+                "instanceID": 16236
             },
             "Portrait": {
-                "instanceID": 16954
+                "instanceID": 16316
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -2216,10 +2216,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16090
+                "instanceID": 16106
             },
             "Portrait": {
-                "instanceID": 16896
+                "instanceID": 15868
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -2238,10 +2238,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15934
+                "instanceID": 16504
             },
             "Portrait": {
-                "instanceID": 16962
+                "instanceID": 16338
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -2260,10 +2260,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15982
+                "instanceID": 16594
             },
             "Portrait": {
-                "instanceID": 16976
+                "instanceID": 16568
             },
             "Stage": 1,
             "AppearProb": 2.0980000495910646
@@ -2282,10 +2282,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16342
+                "instanceID": 16616
             },
             "Portrait": {
-                "instanceID": 16988
+                "instanceID": 16662
             },
             "Stage": 1,
             "AppearProb": 2.0980000495910646
@@ -2304,10 +2304,10 @@
             "Star": 1,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16106
+                "instanceID": 16400
             },
             "Portrait": {
-                "instanceID": 16940
+                "instanceID": 16152
             },
             "Stage": 2,
             "AppearProb": 2.0980000495910646
@@ -2329,7 +2329,7 @@
                 "instanceID": 0
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 3,
             "AppearProb": 2.0980000495910646
@@ -2348,10 +2348,10 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16150
+                "instanceID": 16030
             },
             "Portrait": {
-                "instanceID": 16952
+                "instanceID": 16286
             },
             "Stage": 3,
             "AppearProb": 1.6690000295639039
@@ -2370,10 +2370,10 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16198
+                "instanceID": 16998
             },
             "Portrait": {
-                "instanceID": 17016
+                "instanceID": 16980
             },
             "Stage": 1,
             "AppearProb": 1.6690000295639039
@@ -2392,10 +2392,10 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16230
+                "instanceID": 17002
             },
             "Portrait": {
-                "instanceID": 16974
+                "instanceID": 16518
             },
             "Stage": 1,
             "AppearProb": 1.6690000295639039
@@ -2414,10 +2414,10 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16182
+                "instanceID": 16654
             },
             "Portrait": {
-                "instanceID": 16910
+                "instanceID": 15948
             },
             "Stage": 2,
             "AppearProb": 1.6690000295639039
@@ -2436,10 +2436,10 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15954
+                "instanceID": 16894
             },
             "Portrait": {
-                "instanceID": 16956
+                "instanceID": 16320
             },
             "Stage": 3,
             "AppearProb": 1.6690000295639039
@@ -2458,10 +2458,10 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16178
+                "instanceID": 16196
             },
             "Portrait": {
-                "instanceID": 17008
+                "instanceID": 16910
             },
             "Stage": 2,
             "AppearProb": 1.6690000295639039
@@ -2480,10 +2480,10 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16138
+                "instanceID": 15904
             },
             "Portrait": {
-                "instanceID": 16970
+                "instanceID": 15936
             },
             "Stage": 1,
             "AppearProb": 0.0
@@ -2502,10 +2502,10 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16130
+                "instanceID": 16084
             },
             "Portrait": {
-                "instanceID": 16986
+                "instanceID": 16632
             },
             "Stage": 2,
             "AppearProb": 0.0
@@ -2524,10 +2524,10 @@
             "Star": 2,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15910
+                "instanceID": 16168
             },
             "Portrait": {
-                "instanceID": 17006
+                "instanceID": 16836
             },
             "Stage": 3,
             "AppearProb": 0.0
@@ -2546,10 +2546,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16186
+                "instanceID": 17030
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 1,
             "AppearProb": 0.6665999889373779
@@ -2568,10 +2568,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16214
+                "instanceID": 17036
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 3,
             "AppearProb": 0.6665999889373779
@@ -2590,10 +2590,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16174
+                "instanceID": 16346
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 2,
             "AppearProb": 0.6665999889373779
@@ -2612,10 +2612,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16226
+                "instanceID": 16680
             },
             "Portrait": {
-                "instanceID": 17024
+                "instanceID": 17042
             },
             "Stage": 2,
             "AppearProb": 0.6665999889373779
@@ -2634,10 +2634,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16162
+                "instanceID": 16262
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 3,
             "AppearProb": 0.6665999889373779
@@ -2656,10 +2656,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16206
+                "instanceID": 16266
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 1,
             "AppearProb": 0.6665999889373779
@@ -2678,10 +2678,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15990
+                "instanceID": 16244
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 1,
             "AppearProb": 0.0
@@ -2700,10 +2700,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16126
+                "instanceID": 16898
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 2,
             "AppearProb": 0.0
@@ -2722,10 +2722,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15902
+                "instanceID": 16412
             },
             "Portrait": {
-                "instanceID": 16936
+                "instanceID": 16138
             },
             "Stage": 3,
             "AppearProb": 0.0
@@ -2744,10 +2744,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16030
+                "instanceID": 16546
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 1,
             "AppearProb": 0.0
@@ -2766,10 +2766,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16102
+                "instanceID": 16840
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 1,
             "AppearProb": 0.0
@@ -2788,10 +2788,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16034
+                "instanceID": 16956
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 2,
             "AppearProb": 0.0
@@ -2810,10 +2810,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 16038
+                "instanceID": 16130
             },
             "Portrait": {
-                "instanceID": 16042
+                "instanceID": 15936
             },
             "Stage": 2,
             "AppearProb": 0.0
@@ -2832,10 +2832,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15894
+                "instanceID": 16812
             },
             "Portrait": {
-                "instanceID": 16904
+                "instanceID": 15924
             },
             "Stage": 3,
             "AppearProb": 0.0
@@ -2854,10 +2854,10 @@
             "Star": 3,
             "IsAction": 1,
             "Img": {
-                "instanceID": 15954
+                "instanceID": 16894
             },
             "Portrait": {
-                "instanceID": 16956
+                "instanceID": 16320
             },
             "Stage": 3,
             "AppearProb": 0.0
@@ -9007,6 +9007,7 @@
             "Type": 1,
             "Hp": 14000,
             "Atk": 12000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -9040,6 +9041,7 @@
             "Type": 2,
             "Hp": 14000,
             "Atk": 12000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -9073,6 +9075,7 @@
             "Type": 3,
             "Hp": 14000,
             "Atk": 12000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -9106,6 +9109,7 @@
             "Type": 1,
             "Hp": 17000,
             "Atk": 14500,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -9139,6 +9143,7 @@
             "Type": 2,
             "Hp": 17000,
             "Atk": 14500,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -9172,6 +9177,7 @@
             "Type": 3,
             "Hp": 17000,
             "Atk": 14500,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -9205,6 +9211,7 @@
             "Type": 1,
             "Hp": 20000,
             "Atk": 17500,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -9238,6 +9245,7 @@
             "Type": 2,
             "Hp": 20000,
             "Atk": 17500,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -9271,6 +9279,7 @@
             "Type": 3,
             "Hp": 20000,
             "Atk": 17500,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -9304,6 +9313,7 @@
             "Type": 1,
             "Hp": 12000,
             "Atk": 20000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -9337,6 +9347,7 @@
             "Type": 1,
             "Hp": 14500,
             "Atk": 24000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -9370,6 +9381,7 @@
             "Type": 1,
             "Hp": 17500,
             "Atk": 29000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -9403,6 +9415,7 @@
             "Type": 1,
             "Hp": 40000,
             "Atk": 10000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -9436,6 +9449,7 @@
             "Type": 1,
             "Hp": 60000,
             "Atk": 15000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -9469,6 +9483,7 @@
             "Type": 1,
             "Hp": 70000,
             "Atk": 18000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -9502,6 +9517,7 @@
             "Type": 5,
             "Hp": 12000,
             "Atk": 14000,
+            "TurnCount": 0,
             "turn0_general1": 6,
             "turn0_general2": 0,
             "turn0_special1": 28,
@@ -9535,6 +9551,7 @@
             "Type": 5,
             "Hp": 14000,
             "Atk": 16000,
+            "TurnCount": 0,
             "turn0_general1": 6,
             "turn0_general2": 0,
             "turn0_special1": 28,
@@ -9568,6 +9585,7 @@
             "Type": 5,
             "Hp": 16000,
             "Atk": 17000,
+            "TurnCount": 0,
             "turn0_general1": 6,
             "turn0_general2": 0,
             "turn0_special1": 28,
@@ -9601,6 +9619,7 @@
             "Type": 5,
             "Hp": 12000,
             "Atk": 14000,
+            "TurnCount": 0,
             "turn0_general1": 6,
             "turn0_general2": 0,
             "turn0_special1": 28,
@@ -9634,6 +9653,7 @@
             "Type": 5,
             "Hp": 14000,
             "Atk": 16000,
+            "TurnCount": 0,
             "turn0_general1": 6,
             "turn0_general2": 0,
             "turn0_special1": 28,
@@ -9667,6 +9687,7 @@
             "Type": 5,
             "Hp": 16000,
             "Atk": 17000,
+            "TurnCount": 0,
             "turn0_general1": 6,
             "turn0_general2": 0,
             "turn0_special1": 28,
@@ -9700,6 +9721,7 @@
             "Type": 5,
             "Hp": 12000,
             "Atk": 14000,
+            "TurnCount": 0,
             "turn0_general1": 6,
             "turn0_general2": 0,
             "turn0_special1": 28,
@@ -9733,6 +9755,7 @@
             "Type": 5,
             "Hp": 14000,
             "Atk": 16000,
+            "TurnCount": 0,
             "turn0_general1": 6,
             "turn0_general2": 0,
             "turn0_special1": 28,
@@ -9766,6 +9789,7 @@
             "Type": 5,
             "Hp": 16000,
             "Atk": 17000,
+            "TurnCount": 0,
             "turn0_general1": 6,
             "turn0_general2": 0,
             "turn0_special1": 28,
@@ -9799,6 +9823,7 @@
             "Type": 1,
             "Hp": 32000,
             "Atk": 22000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 126,
@@ -9832,6 +9857,7 @@
             "Type": 1,
             "Hp": 37500,
             "Atk": 25000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 126,
@@ -9865,6 +9891,7 @@
             "Type": 1,
             "Hp": 40000,
             "Atk": 27500,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 126,
@@ -9898,6 +9925,7 @@
             "Type": 5,
             "Hp": 27000,
             "Atk": 25000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 182,
@@ -9931,6 +9959,7 @@
             "Type": 5,
             "Hp": 30000,
             "Atk": 29000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 182,
@@ -9964,6 +9993,7 @@
             "Type": 5,
             "Hp": 33000,
             "Atk": 33000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 182,
@@ -9997,6 +10027,7 @@
             "Type": 1,
             "Hp": 12000,
             "Atk": 14000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 2,
@@ -10030,6 +10061,7 @@
             "Type": 1,
             "Hp": 14000,
             "Atk": 16000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 2,
@@ -10063,6 +10095,7 @@
             "Type": 1,
             "Hp": 16000,
             "Atk": 17000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 2,
@@ -10096,6 +10129,7 @@
             "Type": 1,
             "Hp": 12000,
             "Atk": 14000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 2,
@@ -10129,6 +10163,7 @@
             "Type": 1,
             "Hp": 14000,
             "Atk": 16000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 2,
@@ -10162,6 +10197,7 @@
             "Type": 1,
             "Hp": 16000,
             "Atk": 17000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 2,
@@ -10195,6 +10231,7 @@
             "Type": 1,
             "Hp": 38000,
             "Atk": 27000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 60,
@@ -10228,6 +10265,7 @@
             "Type": 1,
             "Hp": 42000,
             "Atk": 30000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 60,
@@ -10261,6 +10299,7 @@
             "Type": 1,
             "Hp": 45000,
             "Atk": 32000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 60,
@@ -10294,6 +10333,7 @@
             "Type": 3,
             "Hp": 12000,
             "Atk": 14000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 61,
@@ -10327,6 +10367,7 @@
             "Type": 3,
             "Hp": 14000,
             "Atk": 16000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 61,
@@ -10360,6 +10401,7 @@
             "Type": 3,
             "Hp": 16000,
             "Atk": 17000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 61,
@@ -10393,6 +10435,7 @@
             "Type": 1,
             "Hp": 40000,
             "Atk": 28000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 62,
@@ -10426,6 +10469,7 @@
             "Type": 1,
             "Hp": 42000,
             "Atk": 30000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 62,
@@ -10459,6 +10503,7 @@
             "Type": 1,
             "Hp": 45000,
             "Atk": 32000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 62,
@@ -10492,6 +10537,7 @@
             "Type": 3,
             "Hp": 12000,
             "Atk": 14000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 60,
@@ -10525,6 +10571,7 @@
             "Type": 3,
             "Hp": 14000,
             "Atk": 16000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 60,
@@ -10558,6 +10605,7 @@
             "Type": 3,
             "Hp": 16000,
             "Atk": 17000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 60,
@@ -10591,6 +10639,7 @@
             "Type": 3,
             "Hp": 12000,
             "Atk": 19000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -10624,6 +10673,7 @@
             "Type": 3,
             "Hp": 14000,
             "Atk": 21000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -10657,6 +10707,7 @@
             "Type": 3,
             "Hp": 17000,
             "Atk": 24000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -10690,6 +10741,7 @@
             "Type": 2,
             "Hp": 20000,
             "Atk": 11000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -10723,6 +10775,7 @@
             "Type": 2,
             "Hp": 23000,
             "Atk": 12000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -10756,6 +10809,7 @@
             "Type": 2,
             "Hp": 27000,
             "Atk": 14000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -10789,6 +10843,7 @@
             "Type": 3,
             "Hp": 18000,
             "Atk": 14000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -10822,6 +10877,7 @@
             "Type": 3,
             "Hp": 21600,
             "Atk": 17000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -10855,6 +10911,7 @@
             "Type": 3,
             "Hp": 26000,
             "Atk": 20000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -10888,6 +10945,7 @@
             "Type": 3,
             "Hp": 42000,
             "Atk": 21000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -10921,6 +10979,7 @@
             "Type": 3,
             "Hp": 46000,
             "Atk": 23000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -10954,6 +11013,7 @@
             "Type": 3,
             "Hp": 50000,
             "Atk": 25000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -10987,6 +11047,7 @@
             "Type": 3,
             "Hp": 14000,
             "Atk": 15000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11020,6 +11081,7 @@
             "Type": 3,
             "Hp": 15000,
             "Atk": 17000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11053,6 +11115,7 @@
             "Type": 3,
             "Hp": 18000,
             "Atk": 20000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11086,6 +11149,7 @@
             "Type": 3,
             "Hp": 30000,
             "Atk": 22000,
+            "TurnCount": 0,
             "turn0_general1": 201,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11119,6 +11183,7 @@
             "Type": 3,
             "Hp": 33000,
             "Atk": 24000,
+            "TurnCount": 0,
             "turn0_general1": 201,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11152,6 +11217,7 @@
             "Type": 3,
             "Hp": 35000,
             "Atk": 25000,
+            "TurnCount": 0,
             "turn0_general1": 201,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11185,6 +11251,7 @@
             "Type": 2,
             "Hp": 14000,
             "Atk": 20000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11218,6 +11285,7 @@
             "Type": 2,
             "Hp": 16000,
             "Atk": 23000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11251,6 +11319,7 @@
             "Type": 2,
             "Hp": 19000,
             "Atk": 25000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11284,6 +11353,7 @@
             "Type": 3,
             "Hp": 24000,
             "Atk": 16000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11317,6 +11387,7 @@
             "Type": 3,
             "Hp": 27000,
             "Atk": 19000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11350,6 +11421,7 @@
             "Type": 3,
             "Hp": 30000,
             "Atk": 21000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11383,6 +11455,7 @@
             "Type": 2,
             "Hp": 14000,
             "Atk": 15000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11416,6 +11489,7 @@
             "Type": 2,
             "Hp": 15000,
             "Atk": 17000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11449,6 +11523,7 @@
             "Type": 2,
             "Hp": 18000,
             "Atk": 20000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11482,6 +11557,7 @@
             "Type": 3,
             "Hp": 28000,
             "Atk": 20000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11515,6 +11591,7 @@
             "Type": 3,
             "Hp": 31000,
             "Atk": 22000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11548,6 +11625,7 @@
             "Type": 3,
             "Hp": 33000,
             "Atk": 23000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11581,6 +11659,7 @@
             "Type": 2,
             "Hp": 14000,
             "Atk": 14000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11614,6 +11693,7 @@
             "Type": 2,
             "Hp": 16800,
             "Atk": 16800,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11647,6 +11727,7 @@
             "Type": 2,
             "Hp": 20160,
             "Atk": 20160,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11680,6 +11761,7 @@
             "Type": 2,
             "Hp": 16000,
             "Atk": 16000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11713,6 +11795,7 @@
             "Type": 2,
             "Hp": 18800,
             "Atk": 18800,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11746,6 +11829,7 @@
             "Type": 2,
             "Hp": 22160,
             "Atk": 22160,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11779,6 +11863,7 @@
             "Type": 3,
             "Hp": 20000,
             "Atk": 12000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11812,6 +11897,7 @@
             "Type": 3,
             "Hp": 24000,
             "Atk": 14400,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11845,6 +11931,7 @@
             "Type": 3,
             "Hp": 28800,
             "Atk": 17280,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11878,6 +11965,7 @@
             "Type": 3,
             "Hp": 16000,
             "Atk": 11000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11911,6 +11999,7 @@
             "Type": 3,
             "Hp": 18800,
             "Atk": 14000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11944,6 +12033,7 @@
             "Type": 3,
             "Hp": 20000,
             "Atk": 17000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -11977,6 +12067,7 @@
             "Type": 2,
             "Hp": 20000,
             "Atk": 12000,
+            "TurnCount": 0,
             "turn0_general1": 69,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -12010,6 +12101,7 @@
             "Type": 2,
             "Hp": 24000,
             "Atk": 14400,
+            "TurnCount": 0,
             "turn0_general1": 69,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -12043,6 +12135,7 @@
             "Type": 2,
             "Hp": 28800,
             "Atk": 17280,
+            "TurnCount": 0,
             "turn0_general1": 69,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -12076,6 +12169,7 @@
             "Type": 2,
             "Hp": 22000,
             "Atk": 12000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 2,
@@ -12109,6 +12203,7 @@
             "Type": 2,
             "Hp": 26400,
             "Atk": 14400,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 2,
@@ -12142,6 +12237,7 @@
             "Type": 2,
             "Hp": 31680,
             "Atk": 17280,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 2,
@@ -12175,6 +12271,7 @@
             "Type": 2,
             "Hp": 22000,
             "Atk": 12000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 3,
@@ -12208,6 +12305,7 @@
             "Type": 2,
             "Hp": 26400,
             "Atk": 14400,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 3,
@@ -12241,6 +12339,7 @@
             "Type": 2,
             "Hp": 31680,
             "Atk": 17280,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 3,
@@ -12274,6 +12373,7 @@
             "Type": 2,
             "Hp": 22000,
             "Atk": 12000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -12307,6 +12407,7 @@
             "Type": 2,
             "Hp": 26400,
             "Atk": 14400,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -12340,6 +12441,7 @@
             "Type": 2,
             "Hp": 31680,
             "Atk": 17280,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -12373,6 +12475,7 @@
             "Type": 2,
             "Hp": 22000,
             "Atk": 12000,
+            "TurnCount": 0,
             "turn0_general1": 99,
             "turn0_general2": 0,
             "turn0_special1": 55,
@@ -12406,6 +12509,7 @@
             "Type": 2,
             "Hp": 26400,
             "Atk": 14400,
+            "TurnCount": 0,
             "turn0_general1": 99,
             "turn0_general2": 0,
             "turn0_special1": 55,
@@ -12439,6 +12543,7 @@
             "Type": 2,
             "Hp": 31680,
             "Atk": 17280,
+            "TurnCount": 0,
             "turn0_general1": 99,
             "turn0_general2": 0,
             "turn0_special1": 55,
@@ -12472,6 +12577,7 @@
             "Type": 2,
             "Hp": 22000,
             "Atk": 12000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 55,
@@ -12505,6 +12611,7 @@
             "Type": 2,
             "Hp": 26400,
             "Atk": 14400,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 55,
@@ -12538,6 +12645,7 @@
             "Type": 2,
             "Hp": 31680,
             "Atk": 17280,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 55,
@@ -12571,6 +12679,7 @@
             "Type": 2,
             "Hp": 22000,
             "Atk": 12000,
+            "TurnCount": 0,
             "turn0_general1": 68,
             "turn0_general2": 0,
             "turn0_special1": 55,
@@ -12604,6 +12713,7 @@
             "Type": 2,
             "Hp": 26400,
             "Atk": 14400,
+            "TurnCount": 0,
             "turn0_general1": 68,
             "turn0_general2": 0,
             "turn0_special1": 55,
@@ -12637,6 +12747,7 @@
             "Type": 2,
             "Hp": 31680,
             "Atk": 17280,
+            "TurnCount": 0,
             "turn0_general1": 68,
             "turn0_general2": 0,
             "turn0_special1": 55,
@@ -12670,6 +12781,7 @@
             "Type": 3,
             "Hp": 22000,
             "Atk": 12000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -12703,6 +12815,7 @@
             "Type": 3,
             "Hp": 26400,
             "Atk": 14400,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -12736,6 +12849,7 @@
             "Type": 3,
             "Hp": 31680,
             "Atk": 17280,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -12769,6 +12883,7 @@
             "Type": 3,
             "Hp": 22000,
             "Atk": 12000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -12802,6 +12917,7 @@
             "Type": 3,
             "Hp": 26400,
             "Atk": 14400,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -12835,6 +12951,7 @@
             "Type": 3,
             "Hp": 31680,
             "Atk": 17280,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -12868,6 +12985,7 @@
             "Type": 3,
             "Hp": 22000,
             "Atk": 12000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -12901,6 +13019,7 @@
             "Type": 3,
             "Hp": 26400,
             "Atk": 14400,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -12934,6 +13053,7 @@
             "Type": 3,
             "Hp": 31680,
             "Atk": 17280,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -12967,6 +13087,7 @@
             "Type": 3,
             "Hp": 22000,
             "Atk": 12000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -13000,6 +13121,7 @@
             "Type": 3,
             "Hp": 26400,
             "Atk": 14400,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -13033,6 +13155,7 @@
             "Type": 3,
             "Hp": 31680,
             "Atk": 17280,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -13066,6 +13189,7 @@
             "Type": 2,
             "Hp": 40000,
             "Atk": 24500,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -13099,6 +13223,7 @@
             "Type": 2,
             "Hp": 46000,
             "Atk": 30000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -13132,6 +13257,7 @@
             "Type": 2,
             "Hp": 50000,
             "Atk": 37000,
+            "TurnCount": 0,
             "turn0_general1": 0,
             "turn0_general2": 0,
             "turn0_special1": 0,
@@ -13165,6 +13291,7 @@
             "Type": 5,
             "Hp": 32000,
             "Atk": 12000,
+            "TurnCount": 0,
             "turn0_general1": 7,
             "turn0_general2": 0,
             "turn0_special1": 21,
@@ -13198,6 +13325,7 @@
             "Type": 5,
             "Hp": 46000,
             "Atk": 14400,
+            "TurnCount": 0,
             "turn0_general1": 7,
             "turn0_general2": 0,
             "turn0_special1": 21,
@@ -13231,6 +13359,7 @@
             "Type": 5,
             "Hp": 54000,
             "Atk": 17280,
+            "TurnCount": 0,
             "turn0_general1": 7,
             "turn0_general2": 0,
             "turn0_special1": 21,
@@ -13264,6 +13393,7 @@
             "Type": 5,
             "Hp": 40000,
             "Atk": 24500,
+            "TurnCount": 0,
             "turn0_general1": 7,
             "turn0_general2": 0,
             "turn0_special1": 21,
@@ -13297,6 +13427,7 @@
             "Type": 5,
             "Hp": 46000,
             "Atk": 30000,
+            "TurnCount": 0,
             "turn0_general1": 7,
             "turn0_general2": 0,
             "turn0_special1": 21,
@@ -13330,6 +13461,7 @@
             "Type": 5,
             "Hp": 50000,
             "Atk": 37000,
+            "TurnCount": 0,
             "turn0_general1": 7,
             "turn0_general2": 0,
             "turn0_special1": 21,
@@ -13363,6 +13495,7 @@
             "Type": 5,
             "Hp": 32000,
             "Atk": 30000,
+            "TurnCount": 0,
             "turn0_general1": 7,
             "turn0_general2": 0,
             "turn0_special1": 21,
@@ -13396,6 +13529,7 @@
             "Type": 5,
             "Hp": 46000,
             "Atk": 37000,
+            "TurnCount": 0,
             "turn0_general1": 7,
             "turn0_general2": 0,
             "turn0_special1": 21,
@@ -13429,6 +13563,7 @@
             "Type": 5,
             "Hp": 54000,
             "Atk": 40000,
+            "TurnCount": 0,
             "turn0_general1": 7,
             "turn0_general2": 0,
             "turn0_special1": 21,
@@ -13462,6 +13597,7 @@
             "Type": 1,
             "Hp": 50000,
             "Atk": 35000,
+            "TurnCount": 0,
             "turn0_general1": 73,
             "turn0_general2": 2,
             "turn0_special1": 0,
@@ -13495,6 +13631,7 @@
             "Type": 1,
             "Hp": 62000,
             "Atk": 45000,
+            "TurnCount": 0,
             "turn0_general1": 73,
             "turn0_general2": 2,
             "turn0_special1": 0,
@@ -13528,6 +13665,7 @@
             "Type": 1,
             "Hp": 70000,
             "Atk": 47000,
+            "TurnCount": 0,
             "turn0_general1": 73,
             "turn0_general2": 2,
             "turn0_special1": 0,
@@ -24151,10 +24289,12 @@
         "monsterCount": 0,
         "hp": 0,
         "energy": 0,
-        "monsterTaunt": [],
-        "playerTaunt": [],
         "selectSkill": [],
         "targetMonster": [],
+        "monsterTaunt": [],
+        "playerTaunt": [],
+        "playerCanActive": [],
+        "monsterCanActive": [],
         "playerData": [],
         "crruentMonster": []
     }
